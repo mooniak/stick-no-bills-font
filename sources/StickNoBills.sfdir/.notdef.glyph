@@ -1,5 +1,5 @@
 StartChar: .notdef
-Encoding: 256 -1 2
+Encoding: 257 -1 12
 Width: 1024
 VWidth: 0
 Flags: HW
@@ -7,10 +7,11 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-44 700 m 1
- 185 700 l 1
- 185 0 l 1
- 44 0 l 1
- 44 700 l 1
+464.25 189.75 m 3
+ 464.25 21.453125 277.5 -7.5 277.5 -7.5 c 1
+ 277.5 134 l 3
+ 292.5 134 322.489257812 145.75 323 189.75 c 0
+ 464.25 189.75 l 3
 EndSplineSet
+Refer: 2 -1 N 1 0 0 0.742857 279 180 2
 EndChar
