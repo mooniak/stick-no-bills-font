@@ -2,7 +2,7 @@ StartChar: K
 Encoding: 75 75 7
 Width: 548
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21G<52 193> 680 20G<52 193>
 VStem: 52 141<0 700>
 LayerCount: 2
@@ -10,11 +10,11 @@ Back
 Fore
 SplineSet
 328 700 m 1
- 241 409 l 1
- 333 0 l 25
- 471 0 l 25
- 381 409 l 1
  467 700 l 1
+ 381 409 l 1
+ 471 0 l 25
+ 333 0 l 25
+ 241 409 l 1
  328 700 l 1
 EndSplineSet
 Refer: 2 -1 N 1 0 0 1 8 0 2
