@@ -1,8 +1,8 @@
 StartChar: Z
 Encoding: 90 90 37
-Width: 531
+Width: 380
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 0 140.672<171 356> 564.334 136.333<23 208.964>
 VStem: 23 333<0 140.672 564.334 700.667>
 LayerCount: 2
@@ -37,8 +37,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-356 140.671875 m 5
- 356 0 l 1
+356 0 m 1
  23 0 l 1
  23 140.671875 l 1
  208.964335368 564.333984375 l 1
@@ -46,8 +45,7 @@ SplineSet
  23 700.666992188 l 1
  356.5 701 l 1
  356.5 564 l 1
- 171 140.671875 l 1
- 356 140.671875 l 5
+ 171 140.671875 l 1025
 EndSplineSet
 Colour: ff0000
 EndChar
