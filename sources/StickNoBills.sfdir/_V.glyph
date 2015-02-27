@@ -2,8 +2,8 @@ StartChar: V
 Encoding: 86 86 26
 Width: 560
 VWidth: 0
-Flags: HW
-HStem: 0 21G<247.2 306.633> 680.667 20G<50 199.838 360.064 510>
+Flags: W
+HStem: 0 21G<247.2 306.633> 0 21G<247.2 306.633> 680.667 20G<50 199.838 360.064 510>
 LayerCount: 2
 Back
 SplineSet
@@ -41,17 +41,17 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-510 700 m 1
+510 700 m 1x20
  387 290 l 1
  377 290 l 1
  310.595703125 514 l 1
  366 700.666992188 l 1
- 510 700 l 1
+ 510 700 l 1x20
 50 700 m 1
  194 700.666992188 l 1
  352.404296875 158 l 1
  300 0 l 1
- 253 0 l 1
+ 253 0 l 1xa0
  50 700 l 1
 EndSplineSet
 Colour: ff0000
