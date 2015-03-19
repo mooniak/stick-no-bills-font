@@ -1,0 +1,153 @@
+languagesystem DFLT dflt;
+languagesystem hani dflt;
+languagesystem latn dflt;
+
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    @kc0_first_1 = [\W ];
+    @kc0_first_2 = [\V ];
+    @kc0_first_3 = [\Y ];
+    @kc0_second_1 = [\A ];
+    pos @kc0_first_1 @kc0_second_1 -89;
+    pos @kc0_first_2 @kc0_second_1 -88;
+    pos @kc0_first_3 @kc0_second_1 -76;
+  subtable;
+    @kc1_first_1 = [\A ];
+    @kc1_second_1 = [\V ];
+    @kc1_second_2 = [\W ];
+    @kc1_second_3 = [\Y ];
+    pos @kc1_first_1 @kc1_second_1 -73;
+    pos @kc1_first_1 @kc1_second_2 -73;
+    pos @kc1_first_1 @kc1_second_3 -61;
+  subtable;
+    @kc2_first_1 = [\T ];
+    @kc2_first_2 = [\F ];
+    @kc2_first_3 = [];
+    @kc2_second_1 = [\e ];
+    @kc2_second_2 = [\a ];
+    @kc2_second_3 = [\d ];
+    @kc2_second_4 = [\q ];
+    @kc2_second_5 = [\s ];
+    @kc2_second_6 = [\o ];
+    @kc2_second_7 = [\g ];
+    pos @kc2_first_1 @kc2_second_1 -61;
+    pos @kc2_first_1 @kc2_second_2 -79;
+    pos @kc2_first_1 @kc2_second_3 -72;
+    pos @kc2_first_1 @kc2_second_4 -61;
+    pos @kc2_first_1 @kc2_second_5 -76;
+    pos @kc2_first_1 @kc2_second_6 -63;
+    pos @kc2_first_1 @kc2_second_7 -69;
+    pos @kc2_first_2 @kc2_second_1 -43;
+    pos @kc2_first_2 @kc2_second_2 -102;
+    pos @kc2_first_2 @kc2_second_3 -56;
+    pos @kc2_first_2 @kc2_second_4 -43;
+    pos @kc2_first_2 @kc2_second_5 -50;
+    pos @kc2_first_2 @kc2_second_6 -44;
+    pos @kc2_first_2 @kc2_second_7 -53;
+  subtable;
+    @kc3_first_1 = [\T ];
+    @kc3_second_1 = [\o ];
+    @kc3_second_2 = [\e ];
+    @kc3_second_3 = [\a ];
+    @kc3_second_4 = [\s ];
+    @kc3_second_5 = [\d ];
+    @kc3_second_6 = [\q ];
+    @kc3_second_7 = [\c ];
+    @kc3_second_8 = [\g ];
+    @kc3_second_9 = [];
+    pos @kc3_first_1 @kc3_second_1 -63;
+    pos @kc3_first_1 @kc3_second_2 -61;
+    pos @kc3_first_1 @kc3_second_3 -79;
+    pos @kc3_first_1 @kc3_second_4 -76;
+    pos @kc3_first_1 @kc3_second_5 -72;
+    pos @kc3_first_1 @kc3_second_6 -61;
+    pos @kc3_first_1 @kc3_second_7 -65;
+    pos @kc3_first_1 @kc3_second_8 -69;
+    pos @kc3_first_1 @kc3_second_9 -96;
+  subtable;
+    @kc4_first_1 = [\V ];
+    @kc4_first_2 = [\Y ];
+    @kc4_first_3 = [\W ];
+    @kc4_second_1 = [\a ];
+    @kc4_second_2 = [\e ];
+    @kc4_second_3 = [\o ];
+    @kc4_second_4 = [\s ];
+    @kc4_second_5 = [\d ];
+    @kc4_second_6 = [\q ];
+    @kc4_second_7 = [\g ];
+    @kc4_second_8 = [];
+    pos @kc4_first_1 @kc4_second_1 -75;
+    pos @kc4_first_1 @kc4_second_2 -31;
+    pos @kc4_first_1 @kc4_second_3 -32;
+    pos @kc4_first_1 @kc4_second_4 -34;
+    pos @kc4_first_1 @kc4_second_5 -42;
+    pos @kc4_first_1 @kc4_second_6 -30;
+    pos @kc4_first_1 @kc4_second_7 -39;
+    pos @kc4_first_2 @kc4_second_1 -39;
+    pos @kc4_first_2 @kc4_second_2 -23;
+    pos @kc4_first_2 @kc4_second_3 -76;
+    pos @kc4_first_2 @kc4_second_4 -26;
+    pos @kc4_first_2 @kc4_second_5 -34;
+    pos @kc4_first_2 @kc4_second_6 -23;
+    pos @kc4_first_2 @kc4_second_7 -31;
+  subtable;
+    @kc5_first_1 = [\X ];
+    @kc5_second_1 = [\e ];
+    @kc5_second_2 = [\a ];
+    @kc5_second_3 = [\o ];
+    @kc5_second_4 = [\d ];
+    @kc5_second_5 = [\q ];
+    @kc5_second_6 = [\g ];
+    @kc5_second_7 = [\s ];
+    @kc5_second_8 = [];
+    pos @kc5_first_1 @kc5_second_1 -30;
+    pos @kc5_first_1 @kc5_second_2 -16;
+    pos @kc5_first_1 @kc5_second_3 -24;
+    pos @kc5_first_1 @kc5_second_4 -25;
+    pos @kc5_first_1 @kc5_second_5 -20;
+    pos @kc5_first_1 @kc5_second_6 -29;
+    pos @kc5_first_1 @kc5_second_7 -24;
+  subtable;
+    @kc6_first_1 = [\L ];
+    @kc6_second_1 = [\T ];
+    @kc6_second_2 = [\Y ];
+    pos @kc6_first_1 @kc6_second_1 -127;
+    pos @kc6_first_1 @kc6_second_2 -100;
+} kernHorizontalKerninglookup0;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script hani;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\A \B \D \I \L \T \K \P \M \R \J \C \U \E \O \F \H \Q \G \S \V \W \N \one \two \four 
+	\X \Y \Z \space \one \at \two \period \colon \quotedbl \plus \asterisk \comma 
+	\copyright \registered \a \period \o \quotedbl \plus \asterisk \comma \r \f \g \i \e 
+	\d \h \j \l \hyphen \slash \u \m \six \p \b \c \q \t \v \w \x \hyphen \slash \three \five 
+	\seven \eight \nine \zero \semicolon \quotesingle \ampersand \dollar \greater 
+	\less \parenleft \parenright \exclam \three \yen \EURO \HKD \NameMe.167 \zero 
+	\numbersign \quotesingle \ampersand \dollar \braceleft \underscore \parenleft 
+	\parenright \exclam \Percent_sign \numbersign \braceright \k \n \s \y \z \equal 
+	\question \grave \backslash \sterling \asciicircum \bracketleft \bracketright 
+	\bar \asciitilde \quotedbl.alt \TradeMarkSign ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
