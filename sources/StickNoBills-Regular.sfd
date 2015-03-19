@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1426773905
+ModificationTime: 1426774743
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -44,9 +44,14 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] "'kern' Horizontal Kerning lookup 0-7" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 2 3 "'kern' Horizontal Kerning lookup 0-7"
+ 1 L
+ 1 T
+ 1 Y
+ 0 {} 0 {} 0 {} 0 {} -127 {} -100 {}
 KernClass2: 2 9 "'kern' Horizontal Kerning lookup 0-6"
  1 X
  1 e
@@ -114,7 +119,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 10 4
+WinInfo: 70 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -270,30 +275,30 @@ SplineSet
  402 139 l 1
 EndSplineSet
 Validated: 1
+Kerns2: 5 -1 "'kern' Horizontal Kerning lookup 0-7"
 EndChar
 
 StartChar: T
 Encoding: 52 84 5
-Width: 486
+Width: 485
 VWidth: 0
 Flags: W
-HStem: 0 21G<169 310> 0 21G<169 310> 562 138<26 169 310 460>
-VStem: 169 141<0 562>
+HStem: 0 21G<172 313> 0 21G<172 313> 562 138<26 172 313 459>
+VStem: 172 141<0 562>
 LayerCount: 2
 Back
 Fore
 SplineSet
-460 700 m 1xb0
- 460 562 l 1
- 310 562 l 1
- 310 0 l 1
- 169 0 l 1
- 169 562 l 1
+459 700 m 1xb0
+ 459 562 l 1
+ 313 562 l 1
+ 313 0 l 1
+ 172 0 l 1
+ 172 562 l 1
  26 562 l 1
  26 700 l 1
- 460 700 l 1xb0
+ 459 700 l 1xb0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: K
@@ -1086,7 +1091,7 @@ EndChar
 StartChar: space
 Encoding: 0 32 29
 Width: 300
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4018,44 +4023,42 @@ StartChar: TradeMarkSign
 Encoding: 103 8482 121
 Width: 437
 VWidth: 0
-Flags: W
-HStem: 656.535 41.4648<50 92.9678 135.335 180.406>
-VStem: 92.9678 42.3672<487.668 656.535> 204.727 42.3662<487.668 525.828> 346.251 42.3662<487.668 698>
+Flags: HW
 LayerCount: 2
 Back
 Refer: 96 36 N 1 0 0 1 303.617 0 2
 Fore
 SplineSet
-204.7265625 487.66796875 m 1
- 204.7265625 621.078125 l 1
- 207.430664062 621.078125 l 1
- 247.092773438 525.828125 l 1
- 247.092773438 487.66796875 l 1
- 204.7265625 487.66796875 l 1
-204.7265625 698 m 1
- 237.779296875 698 l 1
- 295.169921875 558.880859375 l 1
- 327.01953125 630.693359375 l 1
- 330.024414062 630.693359375 l 1
- 330.024414062 533.0390625 l 1
- 309.892578125 487.66796875 l 1
- 280.74609375 487.66796875 l 1
- 204.7265625 670.356445312 l 1
- 204.7265625 698 l 1
-346.250976562 698 m 1
- 388.6171875 698 l 1
- 388.6171875 487.66796875 l 1
- 346.250976562 487.66796875 l 1
- 346.250976562 698 l 1
-180.40625 698 m 1
- 180.40625 656.53515625 l 1
- 135.334960938 656.53515625 l 1
- 135.334960938 487.66796875 l 1
- 92.9677734375 487.66796875 l 1
- 92.9677734375 656.53515625 l 1
- 50 656.53515625 l 1
- 50 698 l 1
- 180.40625 698 l 1
+206.2265625 484.16796875 m 1
+ 206.2265625 627.578125 l 1
+ 209.09765625 627.578125 l 1
+ 253.592773438 522.328125 l 1
+ 253.592773438 484.16796875 l 1
+ 206.2265625 484.16796875 l 1
+206.2265625 699.5 m 1
+ 243.452148438 699.5 l 1
+ 299.252929688 564.234375 l 1
+ 331.393554688 636.193359375 l 1
+ 334.524414062 636.193359375 l 1
+ 334.524414062 528.509765625 l 1
+ 315.518554688 484.16796875 l 1
+ 283.078125 484.16796875 l 1
+ 206.2265625 668.857421875 l 1
+ 206.2265625 699.5 l 1
+347.750976562 699.5 m 1
+ 395.1171875 699.5 l 1
+ 395.1171875 484.16796875 l 1
+ 347.750976562 484.16796875 l 1
+ 347.750976562 699.5 l 1
+182.90625 699.5 m 1
+ 182.90625 653.03515625 l 1
+ 137.834960938 653.03515625 l 1
+ 137.834960938 484.16796875 l 1
+ 90.4677734375 484.16796875 l 1
+ 90.4677734375 653.03515625 l 1
+ 44.5 653.03515625 l 5
+ 44.5 699.5 l 5
+ 182.90625 699.5 l 1
 EndSplineSet
 EndChar
 EndChars
