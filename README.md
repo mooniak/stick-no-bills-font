@@ -4,19 +4,17 @@
 STICK NO BILLS™ Font
 ===================
 
+
 STICK NO BILLS - is the bespoke typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka.
 
 The first drawings were developed by Martyn Hodges for uppercase and numerals and mooniak is working on further refining and developing them into a font.
 
 
-## Acknowledgements
-
-
 
 ## Credits
 
-- Martyn Hodges
-- mooniak
+- Initial concept: Martyn Hodges
+- Kosala Senevirathne (@kosalaya) of mooniak
 
 
 ## License
