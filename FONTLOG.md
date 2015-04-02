@@ -37,13 +37,8 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
-1997 (ushpanada Ekanayake) FM Abhaya, v1.001
-- ASCII Encoded Font
-
-
-7 March 2006 (Fred Foobar) Bar v1.1
-- Tweaked contextual behaviours
-
+February 2015 (mooniak) STICK NO BILLS v1.00
+- Initial Release
 
 
 Acknowledgements
@@ -56,4 +51,9 @@ alphabetical order.
 N: Martyn Hodges
 E: allroundboatbuilder@yahoo.com
 W: -
-D: Designer - Uppercase, Numbers and Punctuation
+D: Initial concept design
+
+N: Kosala Senevirathne
+E: kosala@mooniak.com
+W: -
+D: Designer - Uppercase, Lowercase Numbers and Punctuation
