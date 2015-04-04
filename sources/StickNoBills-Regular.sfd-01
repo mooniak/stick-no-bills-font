@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428173923
+ModificationTime: 1428173951
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -5455,7 +5455,7 @@ StartChar: currency
 Encoding: 164 164 198
 Width: 656
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 133 118<266.639 310 351 392.936> 477 118<266.679 310 351 392.249>
 VStem: 146 120<273 453> 393 117<272 454>
 LayerCount: 2
@@ -5463,20 +5463,20 @@ Back
 Fore
 SplineSet
 50 540 m 25
- 207 402 l 1
- 278 483 l 1
  122 622 l 25
+ 278 483 l 1
+ 207 402 l 1
  50 540 l 25
 377 247 m 25
  449 329 l 25
  605 190 l 1
  534 109 l 1
  377 247 l 25
-606 540 m 25
- 534 622 l 25
- 378 483 l 1
- 449 402 l 1
- 606 540 l 25
+606 540 m 29
+ 449 402 l 5
+ 378 483 l 5
+ 534 622 l 29
+ 606 540 l 29
 279 247 m 25
  122 109 l 1
  51 190 l 1
