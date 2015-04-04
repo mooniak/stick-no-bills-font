@@ -60,4 +60,4 @@ D: Initial concept design
 N: Kosala Senevirathne
 E: kosala@mooniak.com
 W: -
-D: Designer - Uppercase, Lowercase Numbers and Punctuation
+D: Designer - Design and full Adobe Latin 1 support. 

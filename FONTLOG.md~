@@ -8,7 +8,9 @@ This information should be distributed along with the  Stick No Bills fonts and 
 Basic Font Information
 --------------------------
 
+STICK NO BILLS - is the bespoke typeface of Stick No Bills™ Poster Gallery in Galle, Sri Lanka. The font is developed and maintained by mooniak <mooniak.com>
 
+The first drawings were developed by Martyn Hodges for uppercase and numerals and mooniak is working on further refining and developing them into a font.
 
 
 
@@ -38,6 +40,9 @@ following the format of the other entries, to the start of this section.
 
 1st April 2015 (mooniak) STICK NO BILLS  v1.0.0
 - Initial Release with basic Latin glyph coverage (125 Glyphs)
+
+6th April 2015 (mooniak) STICK NO BILLS v1.0.1
+- Adobe Latin 1 Support (229 glyphs) covering major Western European Latin languages (Support for Afrikaans, Basque, Breton, Catalan, Danish, Dutch, English, Finnish, French, Gaelic, German, Icelandic, Indonesian, Irish, Italian, Norwegian, Portuguese, Sami, Spanish, Swahili and Swedish)
 
 
 Acknowledgements
