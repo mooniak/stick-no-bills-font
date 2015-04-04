@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428173951
+ModificationTime: 1428174006
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -145,7 +145,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 144 16 8
+WinInfo: 176 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4432,6 +4432,7 @@ SplineSet
  214 757 l 5
  141 605 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: guillemotright
@@ -4593,6 +4594,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 174 161 2
 Refer: 0 65 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Adieresis
@@ -4622,6 +4624,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 118 161 2
 Refer: 13 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Edieresis
@@ -4651,6 +4654,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 9 161 2
 Refer: 3 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Idieresis
@@ -4680,6 +4684,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 158 161 2
 Refer: 14 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Odieresis
@@ -4709,6 +4714,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 160 161 2
 Refer: 12 85 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Udieresis
@@ -4738,6 +4744,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 144 161 2
 Refer: 27 89 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: aacute
@@ -4752,6 +4759,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 109 -25 2
 Refer: 41 97 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: adieresis
@@ -4781,6 +4789,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 116 -28 2
 Refer: 52 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -4865,6 +4874,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 117 -28 2
 Refer: 43 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: odieresis
@@ -4894,6 +4904,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 122 -28 2
 Refer: 59 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: udieresis
@@ -4922,6 +4933,7 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 95 -28 2
 Refer: 108 121 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ydieresis
@@ -4966,6 +4978,7 @@ SplineSet
  110 -14 60 40 30 78 c 1
  112 163 l 1
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: cedilla
@@ -4985,6 +4998,7 @@ SplineSet
  26 55 l 4
  62 55 102 68 102 123 c 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ae
@@ -5173,6 +5187,7 @@ Back
 Fore
 Refer: 180 184 N 1 0 0 1 111 -167 2
 Refer: 11 67 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -5187,6 +5202,7 @@ Back
 Fore
 Refer: 180 184 S 1 0 0 1 76 -163 2
 Refer: 64 99 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ring
@@ -5509,6 +5525,7 @@ SplineSet
  393 454 387 477 357 477 c 0
  351 477 l 1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: brokenbar
@@ -5581,6 +5598,7 @@ SplineSet
  91 519 88 543 88 571 c 0x40
  88 710 197 759 265 759 c 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: plusminus
@@ -6117,6 +6135,7 @@ SplineSet
  26 617 93 705 195 705 c 1
  278 705 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: circumflex
@@ -6796,20 +6815,20 @@ StartChar: guilsinglleft
 Encoding: 291 8249 244
 Width: 338
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Back
 Fore
 SplineSet
-157 500 m 5
- 26 292 l 5
- 157 79 l 5
- 312 79 l 5
- 181 292 l 5
- 312 500 l 5
- 157 500 l 5
+157 500 m 1
+ 312 500 l 1
+ 181 292 l 1
+ 312 79 l 1
+ 157 79 l 1
+ 26 292 l 1
+ 157 500 l 1
 EndSplineSet
-Validated: 9
+Validated: 1
 EndChar
 
 StartChar: guilsinglright

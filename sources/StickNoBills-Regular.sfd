@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428174006
+ModificationTime: 1428174033
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -4811,7 +4811,7 @@ StartChar: iacute
 Encoding: 237 237 171
 Width: 199
 VWidth: 0
-Flags: H
+Flags: HO
 HStem: 0 21G<39 161> 0 21G<39 161> 496 20G<39 161>
 VStem: 39 122<0 516>
 LayerCount: 2
@@ -4824,12 +4824,12 @@ SplineSet
  161 516 l 1
  161 0 l 1xb0
 144 577 m 1
- 218 729 l 1
- 90 729 l 1
  54 577 l 1
+ 90 729 l 1
+ 218 729 l 1
  144 577 l 1
 EndSplineSet
-Validated: 9
+Validated: 1
 EndChar
 
 StartChar: idieresis
@@ -6518,17 +6518,17 @@ Back
 Fore
 SplineSet
 252 605 m 1
- 310 757 l 1
- 198 757 l 1
  169 605 l 1
+ 198 757 l 1
+ 310 757 l 1
  252 605 l 1
 109 605 m 1
- 167 757 l 1
- 55 757 l 1
  26 605 l 1
+ 55 757 l 1
+ 167 757 l 1
  109 605 l 1
 EndSplineSet
-Validated: 9
+Validated: 1
 EndChar
 
 StartChar: endash
@@ -6815,7 +6815,7 @@ StartChar: guilsinglleft
 Encoding: 291 8249 244
 Width: 338
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
