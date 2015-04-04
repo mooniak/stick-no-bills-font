@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428174309
+ModificationTime: 1428174322
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -2903,9 +2903,8 @@ StartChar: yen
 Encoding: 165 165 88
 Width: 542
 VWidth: 0
-Flags: HW
+Flags: MWO
 HStem: 0 21G<203 340> 0 21G<203 340> 238 57<50 193 351 492> 351 58<50 162 382 492> 678 20G<73 215.915 327.366 470>
-VStem: 203 137<0 236>
 LayerCount: 2
 Back
 Fore
@@ -3577,7 +3576,7 @@ StartChar: s
 Encoding: 115 115 107
 Width: 418
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 497 20G<152.137 182.391 224.119 274.328>
 VStem: 26 112<335.003 397.736> 280 117<119.12 182.167>
 LayerCount: 2
@@ -3706,7 +3705,7 @@ StartChar: question
 Encoding: 63 63 111
 Width: 460
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -22 151<143.411 250.284> 575 128<139.793 273.736>
 VStem: 122 151<-0.127075 106.747> 134 129<166 276> 302 128<423.751 548.113>
 LayerCount: 2
@@ -3722,15 +3721,16 @@ SplineSet
  30 611 l 1
  60 649 110 703 218 703 c 0
  346 703 426 620 430 491 c 0
- 436 289 263 276 263 276 c 9
+ 430.102272727 487.556818182 430.152537448 484.168549845 430.152537448 480.834323347 c 0
+ 430.152537448 288.5605953 263 276 263 276 c 9
  263 166 l 25
  134 166 l 25
- 134 386 l 5xd8
+ 134 386 l 1xd8
  251 388 302 400 302 493 c 0
  302 545 257 575 210 575 c 0
  167 575 133 554 112 526 c 1
 EndSplineSet
-Validated: 33
+Validated: 524289
 EndChar
 
 StartChar: grave
