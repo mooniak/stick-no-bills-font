@@ -1,7 +1,7 @@
 FONTLOG for Stick No Bills
 -------------------
 
-This file provides detailed information on the  Stick No Bills font software.
+This file provides detailed information on the  STICK NO BILLS™ font software.
 This information should be distributed along with the  Stick No Bills fonts and any derivative works.
 
 
@@ -15,7 +15,7 @@ Basic Font Information
 Information for Contributors
 ------------------------------
 
-Stick No Bills is released under the OFL 1.1 - http://scripts.sil.org/OFL
+STICK NO BILLS™ is released under the OFL 1.1 - http://scripts.sil.org/OFL
 
 For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general

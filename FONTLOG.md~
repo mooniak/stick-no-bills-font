@@ -10,9 +10,6 @@ Basic Font Information
 
 
 
-Security and Integrity
--------------------------
-
 
 
 Information for Contributors
