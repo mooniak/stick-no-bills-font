@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428174427
+ModificationTime: 1428174954
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -559,29 +559,29 @@ StartChar: O
 Encoding: 79 79 14
 Width: 508
 VWidth: 0
-Flags: MW
+Flags: HMWO
 LayerCount: 2
 Back
 Fore
 SplineSet
-226 -5 m 5
- 166 -5 30 51 30 195 c 6
- 30 524 l 6
- 30 584 95 705 227 705 c 5
- 227 564 l 5
- 181 563 171 513 171 508 c 6
- 171 195 l 6
- 171 149 221 137 226 137 c 5
- 226 -5 l 5
-281 -5 m 5
- 281 137 l 5
- 286 137 336 149 337 195 c 6
- 337 508 l 6
- 337 513 327 563 281 564 c 5
- 281 705 l 5
- 412 705 478 583 478 524 c 6
- 478 195 l 6
- 478 51 341 -5 281 -5 c 5
+226 -5 m 1
+ 166 -5 30 51 30 195 c 2
+ 30 524 l 2
+ 30 584 95 705 227 705 c 1
+ 227 564 l 1
+ 181 563 171 530 171 506 c 2
+ 171 195 l 2
+ 171 149 221 137 226 137 c 1
+ 226 -5 l 1
+281 -5 m 1
+ 281 137 l 1
+ 286 137 336 149 337 195 c 2
+ 337 506 l 6
+ 337 529 327 563 281 564 c 1
+ 281 705 l 1
+ 412 705 478 583 478 524 c 2
+ 478 195 l 2
+ 478 51 341 -5 281 -5 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -2779,31 +2779,31 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-210 698 m 1049,0,-1
-73 698 m 1,1,-1
- 210 698 l 1,2,-1
- 273 485 l 1,3,-1
- 333 698 l 1,4,-1
- 470 698 l 1,5,-1
- 382 408 l 1,6,-1
- 492 408 l 1,7,-1
- 492 350 l 1,8,-1
- 365 350 l 1,9,-1
- 351 295 l 1,10,-1
- 492 295 l 1,11,-1
- 492 236 l 1,12,-1
- 340 236 l 1,13,-1
- 340 0 l 1,14,-1
- 203 0 l 1,15,-1
- 203 238 l 1,16,-1
- 50 238 l 1,17,-1
- 50 295 l 1,18,-1
- 193 295 l 1,19,-1
- 177 351 l 1,20,-1
- 50 351 l 1,21,-1
- 50 409 l 1,22,-1
- 162 409 l 1,23,-1
- 73 698 l 1,1,-1
+210 698 m 1053,0,-1
+73 698 m 5,1,-1
+ 210 698 l 5,2,-1
+ 273 485 l 5,3,-1
+ 333 698 l 5,4,-1
+ 470 698 l 5,5,-1
+ 382 408 l 5,6,-1
+ 492 408 l 5,7,-1
+ 492 350 l 5,8,-1
+ 365 350 l 5,9,-1
+ 351 295 l 5,10,-1
+ 492 295 l 5,11,-1
+ 492 236 l 5,12,-1
+ 340 236 l 5,13,-1
+ 340 0 l 5,14,-1
+ 203 0 l 5,15,-1
+ 203 238 l 5,16,-1
+ 50 238 l 5,17,-1
+ 50 295 l 5,18,-1
+ 193 295 l 5,19,-1
+ 177 351 l 5,20,-1
+ 50 351 l 5,21,-1
+ 50 409 l 5,22,-1
+ 162 409 l 5,23,-1
+ 73 698 l 5,1,-1
 EndSplineSet
 Validated: 8388609
 EndChar
@@ -3539,7 +3539,7 @@ StartChar: question
 Encoding: 63 63 111
 Width: 460
 VWidth: 0
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 Fore
@@ -4096,7 +4096,7 @@ StartChar: Ograve
 Encoding: 210 210 143
 Width: 508
 VWidth: 0
-Flags: M
+Flags: HM
 LayerCount: 2
 Back
 Fore
@@ -4241,7 +4241,7 @@ StartChar: Oslash
 Encoding: 216 216 152
 Width: 662
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4252,7 +4252,7 @@ SplineSet
  0 131 l 1
  584 658 l 1
 EndSplineSet
-Refer: 14 79 S 1 0 0 1 78 0 2
+Refer: 14 79 N 1 0 0 1 78 0 2
 Validated: 5
 EndChar
 
@@ -4432,7 +4432,7 @@ StartChar: Oacute
 Encoding: 211 211 162
 Width: 508
 VWidth: 0
-Flags: M
+Flags: HM
 LayerCount: 2
 Back
 Fore
@@ -4445,7 +4445,7 @@ StartChar: Odieresis
 Encoding: 214 214 163
 Width: 508
 VWidth: 0
-Flags: M
+Flags: HM
 LayerCount: 2
 Back
 Fore
