@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428173627
+ModificationTime: 1428173642
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -145,7 +145,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 144 16 8
+WinInfo: 0 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3363,17 +3363,17 @@ Back
 Fore
 SplineSet
 101 746 m 5
- 100 649 l 5
- 139 626 160 593 161 521 c 6
- 161 208 l 6
- 161 206 161 204 161 202 c 4
- 161 104 136 73 101 51 c 5
- 101 -47 l 5
- 243 9 280 93 280 189 c 5
- 280 510 l 5
- 280 650 209 706 101 746 c 5
+ 209 706 280 650 280 510 c 5
+ 280 189 l 5
+ 280 93 243 9 101 -47 c 5
+ 101 51 l 5
+ 136 73 161 104 161 202 c 4
+ 161 204 161 206 161 208 c 6
+ 161 521 l 6
+ 160 593 139 626 100 649 c 5
+ 101 746 l 5
 EndSplineSet
-Validated: 6291465
+Validated: 6291457
 EndChar
 
 StartChar: exclam

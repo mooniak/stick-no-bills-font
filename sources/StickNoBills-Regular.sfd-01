@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428173642
+ModificationTime: 1428173712
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -145,7 +145,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 8
+WinInfo: 176 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5060,6 +5060,24 @@ LayerCount: 2
 Back
 Fore
 SplineSet
+234 300 m 5
+ 239 300 l 6
+ 270 300 276 324 276 326 c 5
+ 276 698 l 5
+ 400 698 l 5
+ 400 321 l 4
+ 400 276 346 179 239 179 c 4
+ 234 179 l 5
+ 234 300 l 5
+26 698 m 5
+ 150 698 l 5
+ 150 326 l 5
+ 150 323 156 300 187 300 c 4
+ 192 300 l 5
+ 192 179 l 5
+ 187 179 l 4
+ 80 179 26 273 26 321 c 4
+ 26 698 l 5
 276 700 m 5x2e
  400 700 l 5
  400 328 l 5
@@ -5075,7 +5093,6 @@ SplineSet
  26 356 l 25
  150 356 l 25
 EndSplineSet
-Refer: 59 117 N 1 0 0 1 -4 184 2
 Validated: 5
 EndChar
 
@@ -6138,15 +6155,15 @@ Back
 Fore
 SplineSet
 26 666 m 25
- 101 514 l 25
- 167 514 l 25
- 244 666 l 25
- 162 666 l 25
- 134 609 l 25
  107 666 l 25
+ 134 609 l 25
+ 162 666 l 25
+ 244 666 l 25
+ 167 514 l 25
+ 101 514 l 25
  26 666 l 25
 EndSplineSet
-Validated: 9
+Validated: 1
 EndChar
 
 StartChar: breve
@@ -6369,7 +6386,7 @@ Back
 Fore
 Refer: 217 711 S 1 0 0 1 100 252 2
 Refer: 19 83 N 1 0 0 1 -7 0 3
-Validated: 9
+Validated: 1
 EndChar
 
 StartChar: scaron
@@ -6384,7 +6401,7 @@ Back
 Fore
 Refer: 217 711 S 1 0 0 1 71 64 2
 Refer: 107 115 N 1 0 0 1 5 0 3
-Validated: 9
+Validated: 1
 EndChar
 
 StartChar: Ydieresis
@@ -6414,7 +6431,7 @@ Back
 Fore
 Refer: 217 711 N 1 0 0 1 74 252 2
 Refer: 28 90 N 1 0 0 1 0 0 3
-Validated: 9
+Validated: 1
 EndChar
 
 StartChar: zcaron
@@ -6429,7 +6446,7 @@ Back
 Fore
 Refer: 217 711 S 1 0 0 1 41 63 2
 Refer: 109 122 N 1 0 0 1 0 0 3
-Validated: 9
+Validated: 1
 EndChar
 
 StartChar: florin
