@@ -44,9 +44,13 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] "'kern' Horizontal Kerning lookup 0-7" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] "'kern' Horizontal Kerning lookup 0-7" [153,15,0] "'kern' Horizontal Kerning lookup 0-8" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 2 2 "'kern' Horizontal Kerning lookup 0-8"
+ 1 g
+ 1 j
+ 0 {} 0 {} 0 {} 55 {}
 KernClass2: 2 3 "'kern' Horizontal Kerning lookup 0-7"
  1 L
  1 T
@@ -75,7 +79,7 @@ KernClass2: 4 9 "'kern' Horizontal Kerning lookup 0-5"
  1 q
  1 g
  0 
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -75 {} -31 {} -32 {} -34 {} -42 {} -30 {} -39 {} 0 {} 0 {} -39 {} -23 {} -76 {} -26 {} -34 {} -23 {} -31 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -75 {} -31 {} -32 {} -34 {} -42 {} -30 {} -39 {} 0 {} 0 {} -76 {} -60 {} -76 {} -65 {} -65 {} -65 {} -70 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 KernClass2: 2 10 "'kern' Horizontal Kerning lookup 0-4"
  1 T
  1 o
@@ -88,7 +92,7 @@ KernClass2: 2 10 "'kern' Horizontal Kerning lookup 0-4"
  1 g
  0 
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} -61 {} -79 {} -76 {} -72 {} -61 {} -65 {} -69 {} -96 {}
-KernClass2: 4 8 "'kern' Horizontal Kerning lookup 0-3"
+KernClass2: 4 16 "'kern' Horizontal Kerning lookup 0-3"
  1 T
  1 F
  0 
@@ -99,7 +103,15 @@ KernClass2: 4 8 "'kern' Horizontal Kerning lookup 0-3"
  1 s
  1 o
  1 g
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -61 {} -79 {} -72 {} -61 {} -76 {} -63 {} -69 {} 0 {} -43 {} -102 {} -56 {} -43 {} -50 {} -44 {} -53 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ 1 u
+ 1 c
+ 1 x
+ 1 z
+ 1 r
+ 1 n
+ 1 m
+ 1 y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -61 {} -79 {} -72 {} -61 {} -76 {} -76 {} -69 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} 0 {} -43 {} -102 {} -56 {} -43 {} -50 {} -44 {} -53 {} -35 {} -55 {} -55 {} -55 {} -55 {} -60 {} -46 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 KernClass2: 2 4 "'kern' Horizontal Kerning lookup 0-2"
  1 A
  1 V
@@ -119,7 +131,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 50 10 4
+WinInfo: 90 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
