@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428124576
+ModificationTime: 1428143710
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -40,6 +40,8 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] "'kern' Horizontal Kerning lookup 0-7" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
@@ -117,7 +119,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 16 16 8
+WinInfo: 220 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1062,7 +1064,7 @@ StartChar: at
 Encoding: 64 64 31
 Width: 803
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -87 109<300.204 550.944> 116 403<326.752 430.629> 116 124<513.276 612.9> 602 113<332.9 548.025>
 VStem: 16.2998 120<186.531 415.251> 205.45 339.85<240.742 368.516> 665.95 120.35<304.625 493.205>
 LayerCount: 2
@@ -1613,8 +1615,8 @@ StartChar: comma
 Encoding: 44 44 47
 Width: 264
 VWidth: 0
-Flags: HW
-HStem: -23 152<87 177>
+Flags: W
+HStem: -58 187<87 177>
 VStem: 50 164
 LayerCount: 2
 Back
@@ -3781,9 +3783,8 @@ StartChar: asciicircum
 Encoding: 94 94 115
 Width: 374
 VWidth: 0
-Flags: HW
-HStem: 514 247
-VStem: 26 322
+Flags: W
+HStem: 460.3 296.4
 LayerCount: 2
 Back
 Fore
@@ -4862,7 +4863,7 @@ EndChar
 
 StartChar: ae
 Encoding: 230 230 181
-Width: 435
+Width: 666
 VWidth: 0
 Flags: W
 HStem: 0 21G<373.037 430.458 373.037 430.458 478.458 518.742 478.458 518.742> 1 112<129.768 180 229 263.822 385.452 410> 207.5 116<390.458 525.458> 402.319 113.681<396.615 429.458 478.458 520.856>
@@ -5388,9 +5389,9 @@ StartChar: degree
 Encoding: 176 176 204
 Width: 1024
 VWidth: 0
-Flags: HW
-HStem: 468.03 77.0496<86.691 157.309> 620.919 77.0496<86.691 157.309>
-VStem: 7.03086 77.0496<547.69 618.308> 159.92 77.0496<547.69 618.308>
+Flags: W
+HStem: 468.029 77.0496<86.6912 157.309> 620.919 77.0496<86.6912 157.309>
+VStem: 7.0304 77.0496<547.69 618.308> 159.92 77.0496<547.69 618.308>
 LayerCount: 2
 Back
 Fore
