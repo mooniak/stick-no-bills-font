@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428173845
+ModificationTime: 1428173923
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -145,7 +145,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 176 16 8
+WinInfo: 144 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4427,12 +4427,11 @@ Back
 Fore
 SplineSet
 141 605 m 5
- 214 757 l 5
- 87 757 l 5
  50 605 l 5
+ 87 757 l 5
+ 214 757 l 5
  141 605 l 5
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: guillemotright
@@ -4594,7 +4593,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 174 161 2
 Refer: 0 65 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: Adieresis
@@ -4624,7 +4622,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 118 161 2
 Refer: 13 69 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: Edieresis
@@ -4654,7 +4651,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 9 161 2
 Refer: 3 73 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: Idieresis
@@ -4684,7 +4680,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 158 161 2
 Refer: 14 79 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: Odieresis
@@ -4714,7 +4709,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 160 161 2
 Refer: 12 85 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: Udieresis
@@ -4744,7 +4738,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 144 161 2
 Refer: 27 89 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: aacute
@@ -4759,7 +4752,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 109 -25 2
 Refer: 41 97 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: adieresis
@@ -4789,7 +4781,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 116 -28 2
 Refer: 52 101 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: edieresis
@@ -4874,7 +4865,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 117 -28 2
 Refer: 43 111 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: odieresis
@@ -4904,7 +4894,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 122 -28 2
 Refer: 59 117 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: udieresis
@@ -4933,7 +4922,6 @@ Back
 Fore
 Refer: 150 180 N 1 0 0 1 95 -28 2
 Refer: 108 121 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: ydieresis
@@ -4960,8 +4948,24 @@ VStem: 122 151<582.253 689.127> 134 129<413 523> 302 128<140.887 265.249>
 LayerCount: 2
 Back
 Fore
-Refer: 111 63 S 1 0 0 -1 0 689 2
-Validated: 25
+SplineSet
+122 636 m 0xe8
+ 122 678 155 711 197 711 c 0
+ 239 711 273 678 273 636 c 0
+ 273 594 239 560 197 560 c 0
+ 155 560 122 594 122 636 c 0xe8
+112 163 m 1
+ 133 135 167 114 210 114 c 0
+ 257 114 302 144 302 196 c 0
+ 302 289 251 301 134 303 c 5xd8
+ 134 523 l 25
+ 263 523 l 25
+ 263 413 l 17
+ 263 413 436 400 430 198 c 0
+ 426 69 346 -14 218 -14 c 0
+ 110 -14 60 40 30 78 c 1
+ 112 163 l 1
+EndSplineSet
 EndChar
 
 StartChar: cedilla
@@ -4976,12 +4980,11 @@ Back
 Fore
 SplineSet
 102 123 m 5
- 102 68 62 55 26 55 c 4
- 26 -36 l 21
- 153 -36 194 47 194 123 c 0
- 102 123 l 5
+ 194 123 l 0
+ 194 47 153 -36 26 -36 c 13
+ 26 55 l 4
+ 62 55 102 68 102 123 c 5
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: ae
@@ -5170,7 +5173,6 @@ Back
 Fore
 Refer: 180 184 N 1 0 0 1 111 -167 2
 Refer: 11 67 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: ccedilla
@@ -5185,7 +5187,6 @@ Back
 Fore
 Refer: 180 184 S 1 0 0 1 76 -163 2
 Refer: 64 99 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: ring
@@ -5287,6 +5288,7 @@ SplineSet
  26 420 l 29
 EndSplineSet
 Refer: 2 68 N 1 0 0 1 51 0 2
+Validated: 5
 EndChar
 
 StartChar: divide
@@ -5461,9 +5463,9 @@ Back
 Fore
 SplineSet
 50 540 m 25
- 122 622 l 25
- 278 483 l 1
  207 402 l 1
+ 278 483 l 1
+ 122 622 l 25
  50 540 l 25
 377 247 m 25
  449 329 l 25
@@ -5471,9 +5473,9 @@ SplineSet
  534 109 l 1
  377 247 l 25
 606 540 m 25
- 449 402 l 1
- 378 483 l 1
  534 622 l 25
+ 378 483 l 1
+ 449 402 l 1
  606 540 l 25
 279 247 m 25
  122 109 l 1
@@ -5507,7 +5509,6 @@ SplineSet
  393 454 387 477 357 477 c 0
  351 477 l 1
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: brokenbar
@@ -5546,41 +5547,40 @@ Back
 Fore
 SplineSet
 363 223 m 1x10
- 354 228 345 232 336 237 c 0
- 325 242 313 247 300 252 c 1
- 300 97 l 1
- 317 84 328 68 328 47 c 0
- 328 17 307 -4 274 -4 c 2
- 170 -4 l 1
+ 373 231 380 243 380 266 c 0
+ 380 310 343 333 300 351 c 1
+ 300 498 l 1
+ 331 485 365 473 393 457 c 0
+ 454 421 521 374 521 272 c 0
+ 521 210 493 158 449 124 c 1
+ 456 104 459 80 459 52 c 0x20
+ 459 -87 350 -136 282 -136 c 2
  170 -136 l 1
- 282 -136 l 2
- 350 -136 459 -87 459 52 c 0x20
- 459 80 456 104 449 124 c 1
- 493 158 521 210 521 272 c 0
- 521 374 454 421 393 457 c 0
- 365 473 331 485 300 498 c 1
- 300 351 l 1
- 343 333 380 310 380 266 c 0
- 380 243 373 231 363 223 c 1x10
+ 170 -4 l 1
+ 274 -4 l 2
+ 307 -4 328 17 328 47 c 0
+ 328 68 317 84 300 97 c 1
+ 300 252 l 1
+ 313 247 325 242 336 237 c 0
+ 345 232 354 228 363 223 c 1x10
 265 759 m 2
- 197 759 88 710 88 571 c 0x40
- 88 543 91 519 98 499 c 1
- 54 465 26 413 26 351 c 0
- 26 249 93 202 154 166 c 0
- 181 150 215 138 246 125 c 1
- 246 272 l 1
- 204 290 167 314 167 357 c 0x80
- 167 380 174 392 184 400 c 1
- 193 395 202 391 211 386 c 0
- 221 381 233 377 246 372 c 1
- 246 527 l 1
- 230 540 219 555 219 576 c 0x40
- 219 606 240 627 273 627 c 2
- 377 627 l 1
  377 759 l 1
- 265 759 l 2
+ 377 627 l 1
+ 273 627 l 2
+ 240 627 219 606 219 576 c 0x40
+ 219 555 230 540 246 527 c 1
+ 246 372 l 1
+ 233 377 221 381 211 386 c 0
+ 202 391 193 395 184 400 c 1
+ 174 392 167 380 167 357 c 0x80
+ 167 314 204 290 246 272 c 1
+ 246 125 l 1
+ 215 138 181 150 154 166 c 0
+ 93 202 26 249 26 351 c 0
+ 26 413 54 465 98 499 c 1
+ 91 519 88 543 88 571 c 0x40
+ 88 710 197 759 265 759 c 2
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: plusminus
@@ -6097,27 +6097,26 @@ Back
 Fore
 SplineSet
 418 705 m 1
- 335 705 l 1
- 335 -5 l 1
  418 -5 l 1
+ 335 -5 l 1
+ 335 705 l 1
  418 705 l 1
 278 705 m 1
- 195 705 l 1
- 93 705 26 617 26 517 c 0
- 26 403 91 329 195 329 c 1
- 195 -5 l 1
- 278 -5 l 1
- 278 323 l 2
- 279 323 l 2
- 279 462 l 1
- 278 462 l 1
- 278 566 l 1
- 279 566 l 1
- 279 705 l 2
  278 705 l 2
+ 279 705 l 2
+ 279 566 l 1
+ 278 566 l 1
+ 278 462 l 1
+ 279 462 l 1
+ 279 323 l 2
+ 278 323 l 2
+ 278 -5 l 1
+ 195 -5 l 1
+ 195 329 l 1
+ 91 329 26 403 26 517 c 0
+ 26 617 93 705 195 705 c 1
  278 705 l 1
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: circumflex
