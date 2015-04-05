@@ -6332,13 +6332,19 @@ StartChar: endash
 Encoding: 279 8211 232
 Width: 532
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 230 127<25.9992 506>
 VStem: 26 480<230 357>
 LayerCount: 2
 Back
 Fore
-Refer: 70 45 N 1.51899 0 0 1 -126 0 2
+SplineSet
+505.899414062 357 m 1
+ 505.899414062 230 l 1
+ 25.8994140625 230 l 1
+ 25.8994140625 357 l 1
+ 505.899414062 357 l 1
+EndSplineSet
 EndChar
 
 StartChar: emdash
