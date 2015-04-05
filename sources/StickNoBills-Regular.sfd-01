@@ -145,7 +145,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 144 16 8
+WinInfo: 32 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -239,27 +239,27 @@ StartChar: D
 Encoding: 68 68 2
 Width: 452
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 21G<32 173 227 257> 0 21G<32 173 227 257> 680 20G<32 173 227 298.5>
 VStem: 32 141<0 700> 283 141<158.175 544.574>
 LayerCount: 2
 Back
 Fore
 SplineSet
-227 0 m 1xb8
- 227 141 l 1
- 233 141 282 149 283 197 c 2
- 283 503 l 1
- 283 508 275 558 227 559 c 1
- 227 700 l 1
- 370 700 424 566 424 503 c 1
- 424 197 l 1
- 424 50 287 0 227 0 c 1xb8
-32 700 m 1
- 173 700 l 1
- 173 0 l 1
- 32 0 l 1
- 32 700 l 1
+227 0 m 5xb8
+ 227 141 l 5
+ 233 141 282 149 283 197 c 6
+ 283 503 l 5
+ 283 508 275 558 227 559 c 5
+ 227 700 l 5
+ 370 700 424 566 424 503 c 5
+ 424 197 l 5
+ 424 50 287 0 227 0 c 5xb8
+32 0 m 5
+ 32 700 l 5
+ 173 700 l 5
+ 173 0 l 5
+ 32 0 l 5
 EndSplineSet
 Validated: 1
 EndChar
