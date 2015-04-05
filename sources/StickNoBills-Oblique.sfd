@@ -194,7 +194,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 10 4
+WinInfo: 60 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1122,7 +1122,7 @@ StartChar: two
 Encoding: 50 50 32
 Width: 480
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 127<72.3203 447> 574 126<289.978 322.287 406.607 434.371>
 LayerCount: 2
 Back
@@ -2187,8 +2187,8 @@ StartChar: t
 Encoding: 116 116 66
 Width: 324
 VWidth: 0
-Flags: HW
-HStem: 0 21G<182.115 298.297> 0 21G<182.115 298.297> 398 118<145.128 180.886 330.128 362.886> 680 20G<245.99 372.607>
+Flags: W
+HStem: 0 21G<182.115 298.617> 0 21G<182.115 298.617> 398 118<145.128 180.886 330.128 362.886> 680 20G<245.99 372.607>
 VStem: 117.886 272.242
 LayerCount: 2
 Back
@@ -2318,7 +2318,7 @@ StartChar: slash
 Encoding: 47 47 71
 Width: 501
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -3322,7 +3322,7 @@ StartChar: parenright
 Encoding: 41 41 100
 Width: 330
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -3699,8 +3699,7 @@ StartChar: backslash
 Encoding: 92 92 113
 Width: 501
 VWidth: 0
-Flags: HW
-VStem: 218.69 127<-23 716>
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4306,7 +4305,7 @@ StartChar: guillemotright
 Encoding: 187 187 151
 Width: 414
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 SplineSet
@@ -5166,9 +5165,8 @@ StartChar: AE
 Encoding: 198 198 193
 Width: 727
 VWidth: 0
-Flags: HW
-HStem: 0 141<478 701> 277 141<478 607> 560 140<319.958 337 478 701>
-VStem: 337 141<141 148 268 277 418 560>
+Flags: W
+HStem: 0 141<510.553 701> 277 141<574.503 670.95> 560 140<449.244 466.286 607.286 830.286>
 LayerCount: 2
 Back
 Fore
@@ -5215,17 +5213,18 @@ StartChar: exclamdown
 Encoding: 161 161 195
 Width: 210
 VWidth: 0
-Flags: HW
-HStem: 571 151<209.469 291.069>
+Flags: W
+HStem: 0 21G<38 171.617> 0 21G<38 171.617> 571 151<209.469 291.069>
+VStem: 38 287.372
 LayerCount: 2
 Back
 Fore
 SplineSet
-161.283203125 534 m 1
+161.283203125 534 m 1xb0
  290.283203125 534 l 1
  167 0 l 1
  38 0 l 1
- 161.283203125 534 l 1
+ 161.283203125 534 l 1xb0
 175.372070312 647 m 0
  185.068359375 689 225.686523438 722 267.686523438 722 c 0
  309.686523438 722 335.068359375 689 325.372070312 647 c 0
@@ -5380,7 +5379,7 @@ StartChar: brokenbar
 Encoding: 166 166 199
 Width: 222
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
