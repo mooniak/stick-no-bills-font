@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428202439
+ModificationTime: 1428202571
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -3221,7 +3221,7 @@ EndChar
 StartChar: dollar
 Encoding: 36 36 96
 Width: 501
-Flags: HW
+Flags: HWO
 VStem: 38 134<466.95 556.383> 142 71<-47.4453 24.3843 666.456 749.532> 268 71<-47.4453 21.6146 668.26 749.532> 330 141<146.033 253.417>
 LayerCount: 2
 Back
@@ -3240,8 +3240,6 @@ SplineSet
  330 241 303 263 268 280 c 1
  268 428 l 1x20
 213 750 m 1x40
- 213 578 l 1x40
- 213 578 l 1
  213 568 l 1
  192 562 172 537 172 513 c 0
  172 486 189 469 213 454 c 1
@@ -3255,22 +3253,17 @@ SplineSet
  402 649 438 580 443 553 c 1
  313 510 l 1
  308 557 268 568 268 568 c 1
- 268 700 l 1
- 268 700 l 1
  268 750 l 1
  339 750 l 1
  339 682 l 1x20
-213 124 m 1x40
- 213 -47 l 1
+213 -47 m 5
  142 -47 l 1
  142 13 l 1
  73 45 31 116 30 158 c 1
  157 203 l 1
- 159 147 213 127 213 127 c 1
- 213 124 l 1
- 213 124 l 1x40
+ 159 147 213 127 213 127 c 5
+ 213 69 213 11 213 -47 c 5
 EndSplineSet
-Validated: 6291457
 EndChar
 
 StartChar: braceleft
@@ -6051,7 +6044,7 @@ StartChar: paragraph
 Encoding: 182 182 215
 Width: 444
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6061,15 +6054,15 @@ SplineSet
  335 -5 l 1
  335 705 l 1
  418 705 l 1
-278 705 m 5
- 278 705 l 6
- 278 705 l 5
- 278 -5 l 5
+278 705 m 1
+ 278 705 l 2
+ 278 705 l 1
+ 278 -5 l 1
  195 -5 l 1
  195 329 l 1
  91 329 26 403 26 517 c 0
  26 617 93 705 195 705 c 1
- 278 705 l 5
+ 278 705 l 1
 EndSplineSet
 EndChar
 
