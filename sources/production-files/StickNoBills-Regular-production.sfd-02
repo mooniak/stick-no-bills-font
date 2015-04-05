@@ -146,7 +146,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 96 16 8
+WinInfo: 112 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1029,7 +1029,7 @@ SplineSet
  106 499 l 1
  30 439 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: at
@@ -1101,7 +1101,7 @@ SplineSet
 190 573 m 2
  190 573 l 2
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: period
@@ -1415,7 +1415,7 @@ SplineSet
  200 11 167 -22 125 -22 c 0
  83 -22 50 11 50 53 c 0
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: o
@@ -1477,7 +1477,7 @@ SplineSet
  333 465 l 1
  206 465 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: plus
@@ -1503,7 +1503,7 @@ SplineSet
  223 230 l 1
  100 230 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: asterisk
@@ -1535,7 +1535,7 @@ SplineSet
  138 633 l 5
  50 691 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: comma
@@ -1553,7 +1553,7 @@ SplineSet
  177 -58 l 1
  50 -58 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: r
@@ -2255,7 +2255,7 @@ SplineSet
  416 230 l 1
  100 230 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: slash
@@ -2273,7 +2273,7 @@ SplineSet
  227 -23 l 1
  100 -23 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: three
@@ -2743,7 +2743,7 @@ SplineSet
  195 -1 l 1
  117 -1 60 30 26 97 c 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: yen
@@ -2943,7 +2943,7 @@ SplineSet
  331 360 331 371 331 398 c 0
  331 461 326 560 273 573 c 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -3008,7 +3008,7 @@ SplineSet
  157 465 l 1
  30 465 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -3052,7 +3052,7 @@ SplineSet
  417 72 l 1
  393 50 352 26 317 16 c 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: dollar
@@ -3106,7 +3106,7 @@ SplineSet
  142 13 l 1
  73 45 31 116 30 158 c 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: braceleft
@@ -3178,7 +3178,7 @@ SplineSet
  229 -47 l 5
  87 9 50 93 50 189 c 5
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: parenright
@@ -3201,7 +3201,7 @@ SplineSet
  161 521 l 6
  160 593 139 626 100 649 c 5
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: exclam
@@ -3224,7 +3224,7 @@ SplineSet
  171 166 l 1
  42 166 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: Percent_sign
@@ -3299,7 +3299,7 @@ SplineSet
  402 404 l 1
  383 297 l 1
 EndSplineSet
-Validated: 6291457
+Validated: 1
 EndChar
 
 StartChar: braceright
@@ -4217,6 +4217,7 @@ StartChar: Oslash
 Encoding: 216 216 152
 Width: 662
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Back
@@ -4236,6 +4237,7 @@ StartChar: oslash
 Encoding: 248 248 153
 Width: 498
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Back
