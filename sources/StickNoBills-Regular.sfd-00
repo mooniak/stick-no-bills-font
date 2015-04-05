@@ -45,18 +45,9 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "WA VA YA" [153,15,0] "AV AW AT AY" [153,15,0] "Ta Fa Ya" [153,15,0] "Wa Ya Va" [153,15,0] "Xa Xe Xo" [153,15,0] "LT LY Ly" [153,15,0] "gj" [153,15,0] "jj jy" [153,15,0] "Av Aw Ay" [153,15,0] "F. Y. T." [153,15,0] "FA" [153,15,0] "f. r. v. w. y." [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "WA VA YA" [153,15,0] "AV AW AT AY" [153,15,0] "Ta Fa Ya" [153,15,0] "Wa Ya Va" [153,15,0] "Xa Xe Xo" [153,15,0] "LT LY Ly" [153,15,0] "gj" [153,15,0] "jj jy" [153,15,0] "Av Aw Ay" [153,15,0] "F. Y. T." [153,15,0] "FA" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 6 3 "f. r. v. w. y."
- 1 f
- 1 r
- 1 v
- 1 w
- 1 y
- 6 period
- 5 comma
- 0 {} 0 {} 0 {} 0 {} -65 {} -66 {} 0 {} -100 {} -100 {} 0 {} -98 {} -88 {} 0 {} -98 {} -88 {} 0 {} -98 {} -88 {}
 KernClass2: 5 2 "FA"
  1 F
  1 T
@@ -165,7 +156,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 260 10 4
+WinInfo: 0 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1709,7 +1700,7 @@ Encoding: 102 102 49
 GlifName: f
 Width: 304
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21G<89 211> 0 21G<89 211> 400 116<26 89 211 277> 579 117<215.402 277>
 VStem: 89 122<0 400 516 576.403>
 LayerCount: 2
