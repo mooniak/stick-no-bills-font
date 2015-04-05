@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428200899
+ModificationTime: 1428200990
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -146,7 +146,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 48 16 8
+WinInfo: 96 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4222,11 +4222,11 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-0 131 m 5
- 584 658 l 5
- 662 570 l 5
- 78 43 l 5
- 0 131 l 5
+0 131 m 1
+ 584 658 l 1
+ 662 570 l 1
+ 78 43 l 1
+ 0 131 l 1
 EndSplineSet
 Refer: 14 79 N 1 0 0 1 78 0 2
 Validated: 5
