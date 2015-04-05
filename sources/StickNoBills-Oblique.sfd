@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428205808
+ModificationTime: 1428215055
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -40,6 +40,8 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] "'kern' Horizontal Kerning lookup 0-7" [153,15,0] "'kern' Horizontal Kerning lookup 0-8" [153,15,0] "'kern' Horizontal Kerning lookup 0-9" [153,15,0] "'kern' Horizontal Kerning lookup 0-10" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
@@ -145,7 +147,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 260 10 4
+WinInfo: 150 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2269,16 +2271,16 @@ StartChar: slash
 Encoding: 47 47 71
 Width: 501
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-94.6904296875 -23 m 1
- 440.301757812 716 l 1
- 566.301757812 716 l 1
- 221.690429688 -23 l 1
- 94.6904296875 -23 l 1
+27.6904296875 -23 m 5
+ 373.301757812 716 l 5
+ 499.301757812 716 l 5
+ 154.690429688 -23 l 5
+ 27.6904296875 -23 l 5
 EndSplineSet
 EndChar
 
@@ -3648,19 +3650,19 @@ EndChar
 
 StartChar: backslash
 Encoding: 92 92 113
-Width: 402
+Width: 501
 VWidth: 0
-Flags: W
+Flags: HW
 VStem: 218.69 127<-23 716>
 LayerCount: 2
 Back
 Fore
 SplineSet
-345.690429688 -23 m 25
- 218.690429688 -23 l 25
- 215.301757812 716 l 25
- 341.301757812 716 l 25
- 345.690429688 -23 l 25
+498.690429688 -23 m 5
+ 153.079101562 716 l 5
+ 27.0791015625 716 l 5
+ 371.690429688 -23 l 5
+ 498.690429688 -23 l 5
 EndSplineSet
 EndChar
 
@@ -3790,13 +3792,6 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-SplineSet
-582.91796875 281.200195312 m 5
- 304.934570312 134 347.391601562 400.200195312 112.90234375 271.600585938 c 5
- 143.5 405 l 5
- 395.127929688 531.600585938 344.30078125 266.400390625 613.5625 412.200195312 c 5
- 582.91796875 281.200195312 l 5
-EndSplineSet
 Fore
 SplineSet
 582.91796875 281.200195312 m 1
@@ -4267,7 +4262,6 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-Fore
 SplineSet
 135.965820312 477.180664062 m 1
  311.0390625 320.700195312 l 1
@@ -4286,6 +4280,7 @@ SplineSet
  318.353515625 352.380859375 l 1
  347.166015625 477.180664062 l 1
 EndSplineSet
+Fore
 EndChar
 
 StartChar: Oslash
@@ -5106,35 +5101,35 @@ StartChar: AE
 Encoding: 198 198 193
 Width: 727
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 141<478 701> 277 141<478 607> 560 140<319.958 337 478 701>
 VStem: 337 141<141 148 268 277 418 560>
 LayerCount: 2
 Back
 Fore
 SplineSet
-701 141 m 1
+733.552734375 141 m 1
  701 0 l 1
  337 0 l 1
- 337 148 l 1
- 272 148 l 1
- 301 268 l 1
- 337 268 l 1
- 337 560 l 1
- 319.957860616 560 l 1
+ 371.168945312 148 l 1
+ 306.168945312 148 l 1
+ 362.873046875 268 l 1
+ 398.873046875 268 l 1
+ 466.286132812 560 l 1
+ 449.244140625 560 l 1
  182 0 l 1
  26 0 l 1
- 206 700 l 1
- 701 700 l 5
- 701 560 l 1
- 483 560 l 1
- 478 560 l 1
- 478 418 l 1
- 607 418 l 1
- 607 277 l 1
- 478 277 l 1
- 478 141 l 1
- 701 141 l 1
+ 367.607421875 700 l 1
+ 862.607421875 700 l 5
+ 830.286132812 560 l 1
+ 612.286132812 560 l 1
+ 607.286132812 560 l 1
+ 574.502929688 418 l 1
+ 703.502929688 418 l 1
+ 670.950195312 277 l 1
+ 541.950195312 277 l 1
+ 510.552734375 141 l 1
+ 733.552734375 141 l 1
 EndSplineSet
 EndChar
 
