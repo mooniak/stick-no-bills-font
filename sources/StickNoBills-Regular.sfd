@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428206079
+ModificationTime: 1428219275
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -41,12 +41,29 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] "'kern' Horizontal Kerning lookup 0-7" [153,15,0] "'kern' Horizontal Kerning lookup 0-8" [153,15,0] "'kern' Horizontal Kerning lookup 0-9" [153,15,0] "'kern' Horizontal Kerning lookup 0-10" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "WA VA YA" [153,15,0] "AV AW AT AY" [153,15,0] "Ta Fa Ya" [153,15,0] "Wa Ya Va" [153,15,0] "Xa Xe Xo" [153,15,0] "LT LY Ly" [153,15,0] "gj" [153,15,0] "jj jy" [153,15,0] "Av Aw Ay" [153,15,0] "F. Y. T." [153,15,0] "FA" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 5 12 "'kern' Horizontal Kerning lookup 0-5"
+KernClass2: 5 2 "FA"
+ 1 F
+ 1 T
+ 1 Y
+ 1 P
+ 1 A
+ 0 {} 0 {} 0 {} -104 {} 0 {} -88 {} 0 {} -127 {} 0 {} -97 {}
+KernClass2: 5 3 "F. Y. T."
+ 1 F
+ 1 T
+ 1 Y
+ 1 P
+ 6 period
+ 5 comma
+ 0 {} 0 {} 0 {} 0 {} -155 {} -167 {} 0 {} -78 {} -89 {} 0 {} -82 {} -93 {} 0 {} -155 {} -155 {}
+KernClass2: 5 12 "Wa Ya Va"
  1 W
  1 Y
  1 V
@@ -63,28 +80,33 @@ KernClass2: 5 12 "'kern' Horizontal Kerning lookup 0-5"
  1 y
  1 z
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -65 {} -45 {} -45 {} -46 {} -45 {} -45 {} -45 {} -65 {} -45 {} -32 {} -45 {} 0 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -32 {} -44 {} 0 {} -65 {} -65 {} -65 {} -65 {} -65 {} -45 {} -45 {} -65 {} -31 {} -26 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
-KernClass2: 2 5 "'kern' Horizontal Kerning lookup 0-10"
+KernClass2: 2 5 "Av Aw Ay"
  1 A
  1 v
  1 w
  1 y
  0 
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -76 {} -76 {} -45 {} 0 {}
-KernClass2: 2 3 "'kern' Horizontal Kerning lookup 0-9"
+KernClass2: 2 3 "jj jy"
  1 j
  1 j
  1 y
  0 {} 0 {} 0 {} 0 {} 28 {} 28 {}
-KernClass2: 2 2 "'kern' Horizontal Kerning lookup 0-8"
+KernClass2: 2 2 "gj"
  1 g
  1 j
  0 {} 0 {} 0 {} 55 {}
-KernClass2: 2 3 "'kern' Horizontal Kerning lookup 0-7"
+KernClass2: 2 8 "LT LY Ly"
  1 L
  1 T
  1 Y
- 0 {} 0 {} 0 {} 0 {} -127 {} -100 {}
-KernClass2: 2 9 "'kern' Horizontal Kerning lookup 0-6"
+ 1 W
+ 1 V
+ 1 y
+ 1 w
+ 1 v
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -127 {} -115 {} -153 {} -153 {} -45 {} -84 {} -84 {}
+KernClass2: 2 9 "Xa Xe Xo"
  1 X
  1 e
  1 a
@@ -95,22 +117,10 @@ KernClass2: 2 9 "'kern' Horizontal Kerning lookup 0-6"
  1 s
  0 
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -16 {} -24 {} -25 {} -20 {} -29 {} -24 {} 0 {}
-KernClass2: 2 10 "'kern' Horizontal Kerning lookup 0-4"
- 1 T
- 1 o
- 1 e
- 1 a
- 1 s
- 1 d
- 1 q
- 1 c
- 1 g
- 0 
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} -61 {} -79 {} -76 {} -72 {} -61 {} -65 {} -69 {} -96 {}
-KernClass2: 4 16 "'kern' Horizontal Kerning lookup 0-3"
+KernClass2: 4 16 "Ta Fa Ya"
  1 T
  1 F
- 0 
+ 1 Y
  1 e
  1 a
  1 d
@@ -126,19 +136,19 @@ KernClass2: 4 16 "'kern' Horizontal Kerning lookup 0-3"
  1 n
  1 m
  1 y
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 26 {} 0 {} -61 {} -79 {} -72 {} -61 {} -76 {} -76 {} -69 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} 0 {} -43 {} -102 {} -56 {} -43 {} -50 {} -44 {} -53 {} -35 {} -55 {} -55 {} -55 {} -55 {} -60 {} -46 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
-KernClass2: 2 4 "'kern' Horizontal Kerning lookup 0-2"
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 26 {} 0 {} -61 {} -79 {} -72 {} -61 {} -76 {} -76 {} -69 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} 0 {} -43 {} -102 {} -56 {} -43 {} -50 {} -44 {} -53 {} -35 {} -55 {} -55 {} -55 {} -55 {} -60 {} -46 {} -45 {} 0 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -24 {}
+KernClass2: 2 4 "AV AW AT AY"
  1 A
  1 V
  1 W
  1 Y
  0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -73 {} -61 {}
-KernClass2: 4 2 "'kern' Horizontal Kerning lookup 0-1"
+KernClass2: 4 2 "WA VA YA"
  1 W
  1 V
  1 Y
  1 A
- 0 {} 0 {} 0 {} -89 {} 0 {} -88 {} 0 {} -76 {}
+ 0 {} 0 {} 0 {} -89 {} 0 {} -88 {} 0 {} -127 {}
 LangName: 1033 "" "" "" "SNBMooniak" "" "" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -146,7 +156,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 8
+WinInfo: 0 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -270,7 +280,7 @@ Encoding: 73 73 3
 GlifName: I_
 Width: 209
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<34 175> 0 21G<34 175> 680 20G<34 175>
 VStem: 34 141<0 700>
 LayerCount: 2
@@ -305,7 +315,7 @@ SplineSet
  167 139 l 1
  402 139 l 1
 EndSplineSet
-Kerns2: 5 -1 "'kern' Horizontal Kerning lookup 0-7"
+Kerns2: 5 -1 "LT LY Ly"
 EndChar
 
 StartChar: T
@@ -313,7 +323,7 @@ Encoding: 84 84 5
 GlifName: T_
 Width: 485
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<172 313> 0 21G<172 313> 562 138<26 172 313 459>
 VStem: 172 141<0 562>
 LayerCount: 2
@@ -364,7 +374,7 @@ Encoding: 80 80 7
 GlifName: P_
 Width: 474
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<26 167> 0 21G<26 167> 318 139<221 294.329> 561 139<221 296.296>
 VStem: 26 141<0 700> 305 143<466.352 553.217>
 LayerCount: 2
@@ -620,7 +630,7 @@ Encoding: 70 70 15
 GlifName: F_
 Width: 422
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 1 21G<32 173> 1 21G<32 173> 277 141<173 302> 560 140<173 396>
 VStem: 32 141<1 277 418 560>
 LayerCount: 2
@@ -791,7 +801,7 @@ Encoding: 86 86 20
 GlifName: V_
 Width: 508
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<223.2 282.709> 0 21G<223.2 282.709> 680 20G<26 175.867 332.086 482>
 LayerCount: 2
 Back
@@ -817,7 +827,7 @@ Encoding: 87 87 21
 GlifName: W_
 Width: 725
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<223.2 282.582 436.2 495.582> 0 21G<223.2 282.582 436.2 495.582> 680 20G<26 175.83 239 388.83 549.086 699>
 LayerCount: 2
 Back
@@ -1005,7 +1015,7 @@ Encoding: 89 89 27
 GlifName: Y_
 Width: 479
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<157 303> 0 21G<157 303> 680 20G<26 178.817 302.222 453>
 VStem: 157 146<0 276.513>
 LayerCount: 2
@@ -1444,7 +1454,7 @@ Encoding: 97 97 41
 GlifName: a
 Width: 435
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 1 112<129.768 180 229 263.822 385.452 410>
 VStem: 26 101<115.641 182.856> 268 116<116.437 227 324.598 403.803>
 LayerCount: 2
@@ -1665,9 +1675,9 @@ Encoding: 114 114 48
 GlifName: r
 Width: 316
 VWidth: 0
-Flags: HWO
-HStem: 0 21G<36 160> 0 21G<36 160> 399 117<219.634 283>
-VStem: 36 124<0 337.604 454 516>
+Flags: W
+HStem: 0 21G<36 160> 0 21G<36 160> 395 121<221.776 289>
+VStem: 36 124<0 333.833 454 516>
 LayerCount: 2
 Back
 Fore
@@ -1722,9 +1732,9 @@ Encoding: 103 103 50
 GlifName: g
 Width: 415
 VWidth: 0
-Flags: HW
-HStem: -181 112<53.6465 268.279> -1 110<156.548 192.212 231.211 269.822> 403 113<152.57 192.212 231.211 269.862>
-VStem: 35 115<115.856 398.747> 231 158<3.19727 109.271 403 511.085> 272 117<-63.6779 3.19727 112.603 400.604 511.085 516>
+Flags: W
+HStem: -181 112<54 267.899> -1 113<152.236 192 231 270.817> 403 113<152.564 192 231 269.903>
+VStem: 35 115<115.465 399.128> 231 158<3 109 403 511> 272 117<-63.5391 3 112.302 400.192 511 516>
 LayerCount: 2
 Back
 Fore
@@ -1796,14 +1806,14 @@ Encoding: 101 101 52
 GlifName: e
 Width: 424
 VWidth: 0
-Flags: HW
-HStem: 0 21G<131.037 188.458 236.458 276.742> 0 21G<131.037 188.458 236.458 276.742> 208 116<148.458 283.458> 402 114<154.615 187.458 236.458 278.856>
-VStem: 26 122<111.866 207.5 323.5 397.929> 283 114<323.5 398.09>
+Flags: W
+HStem: 0 111<150.708 188 236 287.362> 208 116<148 283> 402 114<150.294 187 236 278.915>
+VStem: 26 122<111.278 208 324 395.893> 283 114<324 398.042>
 LayerCount: 2
 Back
 Fore
 SplineSet
-240 402 m 0xbc
+240 402 m 0
  236 402 l 1
  236 516 l 1
  242 516 l 0
@@ -1825,7 +1835,7 @@ SplineSet
  148 324 l 1
  283 324 l 1
  283 369 l 0
- 283 396 260 402 240 402 c 0xbc
+ 283 396 260 402 240 402 c 0
 236 0 m 1
  236 111 l 1
  242 111 l 0
@@ -1843,7 +1853,7 @@ Encoding: 100 100 53
 GlifName: d
 Width: 414
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 118<149.874 210> 398 118<148.754 210> 678 20G<258 384>
 VStem: 30 118<119.71 395.893> 258 126<0 698>
 LayerCount: 2
@@ -1912,9 +1922,9 @@ Encoding: 106 106 55
 GlifName: j
 Width: 194
 VWidth: 0
-Flags: HW
-HStem: -181 117<-22.5947 34.5596> 496 20G<36.7842 158.784> 556 146<45.9177 148.65>
-VStem: 24 146<577.134 679.866> 37 122<-60.0094 516>
+Flags: W
+HStem: -181 117<-23 34.3181> 496 20G<37 159> 556 146<45.5 148.5>
+VStem: 24 146<577 680> 37 122<-60.3319 516>
 LayerCount: 2
 Back
 Fore
@@ -1934,7 +1944,7 @@ SplineSet
  24 668 57 702 97 702 c 0
  137 702 170 668 170 628 c 0xf0
 EndSplineSet
-Kerns2: 55 2 "'kern' Horizontal Kerning lookup 0-9"
+Kerns2: 55 2 "jj jy"
 EndChar
 
 StartChar: l
@@ -2000,7 +2010,7 @@ Encoding: 117 117 59
 GlifName: u
 Width: 434
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -5 121<157.794 196 238 276.206> 494 20G<30 154 280 404>
 VStem: 30 124<119.782 514> 280 124<120.563 514>
 LayerCount: 2
@@ -2036,7 +2046,7 @@ Encoding: 109 109 60
 GlifName: m
 Width: 684
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<30 154 280 404 530 654> 0 21G<30 154 280 404 530 654> 398 121<156.381 195 237 277.841 406.159 447 488 526.912>
 VStem: 30 124<0 394.218> 280 124<0 395.772> 530 124<0 395.858>
 CounterMasks: 1 1c
@@ -2189,7 +2199,7 @@ Encoding: 99 99 64
 GlifName: c
 Width: 418
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -1 117<153.936 199 243 276.754> 496 20G<132.5 191 233 275.5>
 VStem: 30 119<119.71 398.182>
 LayerCount: 2
@@ -2238,9 +2248,9 @@ Encoding: 113 113 65
 GlifName: q
 Width: 416
 VWidth: 0
-Flags: HW
-HStem: 0 118<150.139 219> 398 118<149.872 214.466>
-VStem: 26 120<122.968 393.383> 262 124<-182 516>
+Flags: W
+HStem: 0 118<150.551 219> 398 118<149.927 214>
+VStem: 26 120<122.403 393.979> 262 124<-182 516>
 LayerCount: 2
 Back
 Fore
@@ -2303,7 +2313,7 @@ Encoding: 118 118 67
 GlifName: v
 Width: 400
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<167.864 250.167> 0 21G<167.864 250.167> 496 20G<16 157.818 262.934 400>
 LayerCount: 2
 Back
@@ -2329,7 +2339,7 @@ Encoding: 119 119 68
 GlifName: w
 Width: 577
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<154.097 228.5 341.864 418.167> 0 21G<154.097 228.5 341.864 418.167> 496 20G<8 149.909 190 334.111 437.098 569>
 LayerCount: 2
 Back
@@ -2361,7 +2371,7 @@ Encoding: 120 120 69
 GlifName: x
 Width: 381
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 21G<18 152.048 247.952 382> 0 21G<18 152.048 247.952 382> 496 19G<22 156.06 243.034 378>
 LayerCount: 2
 Back
@@ -3548,9 +3558,9 @@ Encoding: 110 110 106
 GlifName: n
 Width: 434
 VWidth: 0
-Flags: HW
-HStem: 0 21G<30 154 280 404> 0 21G<30 154 280 404> 398 121<157.445 196.482 237.518 276.577>
-VStem: 30 124<0 394.598> 280 124<0 393.831>
+Flags: W
+HStem: 0 21G<30 154 280 404> 0 21G<30 154 280 404> 398 121<157.794 196 238 276.206>
+VStem: 30 124<0 394.218> 280 124<0 393.437>
 LayerCount: 2
 Back
 Fore
@@ -3581,9 +3591,9 @@ Encoding: 115 115 107
 GlifName: s
 Width: 418
 VWidth: 0
-Flags: HW
-HStem: 497 20G<152.137 182.391 224.119 274.328>
-VStem: 26 112<335.003 397.736> 280 117<119.12 182.167>
+Flags: W
+HStem: 404 113<141.731 182 224 264.943>
+VStem: 26 112<334.866 399.696> 280 117<118.409 182.177>
 LayerCount: 2
 Back
 Fore
@@ -3629,8 +3639,9 @@ Encoding: 121 121 108
 GlifName: y
 Width: 383
 VWidth: 0
-Flags: HW
-HStem: 495 20G<0 137.453 244.431 382.111>
+Flags: W
+HStem: 495 20G<0 137.064 244.77 382>
+VStem: 188 1<327 328.954>
 LayerCount: 2
 Back
 Fore
@@ -3658,9 +3669,9 @@ Encoding: 122 122 109
 GlifName: z
 Width: 348
 VWidth: 0
-Flags: HW
-HStem: -0 119<168.732 322> 394 120<26.2109 182.734>
-VStem: 26 296<-0.494141 115.613 400.438 513.997>
+Flags: W
+HStem: -0 118<169 322> 394 120<26 183>
+VStem: 26 296<0 116 400 514>
 LayerCount: 2
 Back
 Fore

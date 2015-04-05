@@ -4,7 +4,7 @@ FullName: Stick No Bills
 FamilyName: Stick No Bills
 Weight: Regular
 Copyright: Copyright (c) 2013 STICK NO BILLS, Copyright (c) 2015 mooniak\n
-UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
+UComments: "2015-2-15: Created with FontForge (http://fontforge.org)"
 Version: 1.0.1
 ItalicAngle: 0
 UnderlinePosition: -102
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428206079
+ModificationTime: 1428205468
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -146,7 +146,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 8
+WinInfo: 176 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1665,7 +1665,7 @@ Encoding: 114 114 48
 GlifName: r
 Width: 316
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 21G<36 160> 0 21G<36 160> 399 117<219.634 283>
 VStem: 36 124<0 337.604 454 516>
 LayerCount: 2
@@ -1678,7 +1678,8 @@ SplineSet
  181 481 229 516 284 516 c 0
  317 516 l 1
  289 395 l 1
- 222 394 160 331 160 271 c 0
+ 283 399 l 1
+ 216 398 160 331 160 271 c 0
  160 0 l 1
  36 0 l 1
  36 516 l 1xb0
