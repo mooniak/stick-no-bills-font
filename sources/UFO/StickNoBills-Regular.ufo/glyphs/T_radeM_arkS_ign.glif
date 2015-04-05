@@ -1,41 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="TradeMarkSign" format="1">
-  <advance width="437"/>
+  <advance width="403"/>
   <unicode hex="2122"/>
   <outline>
     <contour>
-      <point x="206" y="484" type="line"/>
-      <point x="206" y="628" type="line"/>
-      <point x="209" y="628" type="line"/>
-      <point x="254" y="522" type="line"/>
-      <point x="254" y="484" type="line"/>
+      <point x="188" y="484" type="line"/>
+      <point x="188" y="628" type="line"/>
+      <point x="191" y="628" type="line"/>
+      <point x="236" y="522" type="line"/>
+      <point x="236" y="484" type="line"/>
     </contour>
     <contour>
-      <point x="206" y="700" type="line"/>
-      <point x="243" y="700" type="line"/>
-      <point x="299" y="564" type="line"/>
-      <point x="331" y="636" type="line"/>
-      <point x="335" y="636" type="line"/>
-      <point x="335" y="529" type="line"/>
-      <point x="316" y="484" type="line"/>
-      <point x="283" y="484" type="line"/>
-      <point x="206" y="669" type="line"/>
+      <point x="188" y="700" type="line"/>
+      <point x="225" y="700" type="line"/>
+      <point x="281" y="564" type="line"/>
+      <point x="313" y="636" type="line"/>
+      <point x="317" y="636" type="line"/>
+      <point x="317" y="529" type="line"/>
+      <point x="298" y="484" type="line"/>
+      <point x="265" y="484" type="line"/>
+      <point x="188" y="669" type="line"/>
     </contour>
     <contour>
-      <point x="348" y="700" type="line"/>
-      <point x="395" y="700" type="line"/>
-      <point x="395" y="484" type="line"/>
-      <point x="348" y="484" type="line"/>
+      <point x="330" y="700" type="line"/>
+      <point x="377" y="700" type="line"/>
+      <point x="377" y="484" type="line"/>
+      <point x="330" y="484" type="line"/>
     </contour>
     <contour>
-      <point x="183" y="700" type="line"/>
-      <point x="183" y="653" type="line"/>
-      <point x="138" y="653" type="line"/>
-      <point x="138" y="484" type="line"/>
-      <point x="90" y="484" type="line"/>
-      <point x="90" y="653" type="line"/>
-      <point x="44" y="653" type="line"/>
-      <point x="44" y="700" type="line"/>
+      <point x="165" y="700" type="line"/>
+      <point x="165" y="653" type="line"/>
+      <point x="120" y="653" type="line"/>
+      <point x="120" y="484" type="line"/>
+      <point x="72" y="484" type="line"/>
+      <point x="72" y="653" type="line"/>
+      <point x="26" y="653" type="line"/>
+      <point x="26" y="700" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>653</integer>
+            <key>width</key>
+            <integer>47</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>72</integer>
+            <key>width</key>
+            <integer>48</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>188</integer>
+            <key>width</key>
+            <integer>48</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>330</integer>
+            <key>width</key>
+            <integer>47</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
