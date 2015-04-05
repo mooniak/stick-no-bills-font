@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428215055
+ModificationTime: 1428221049
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -44,10 +44,38 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] "'kern' Horizontal Kerning lookup 0-7" [153,15,0] "'kern' Horizontal Kerning lookup 0-8" [153,15,0] "'kern' Horizontal Kerning lookup 0-9" [153,15,0] "'kern' Horizontal Kerning lookup 0-10" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "WA VA YA" [153,15,0] "AW AV AY" [153,15,0] "Ta Fa Ya" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "Wa Va Ya" [153,15,0] "Xa Xe Xo" [153,15,0] "LT LY Ly" [153,15,0] "gj" [153,15,0] "jj jy" [153,15,0] "Av Aw Ay" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "F. T. Y." [153,15,0] "FA" [153,15,0] "aw av ay" [153,15,0] "f. r. y. w. v." [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 5 12 "'kern' Horizontal Kerning lookup 0-5"
+KernClass2: 6 3 "f. r. y. w. v."
+ 1 f
+ 1 r
+ 1 w
+ 1 v
+ 1 y
+ 6 period
+ 5 comma
+ 0 {} 0 {} 0 {} 0 {} -45 {} -45 {} 0 {} -77 {} -86 {} 0 {} -95 {} -65 {} 0 {} -75 {} -65 {} 0 {} -98 {} -100 {}
+KernClass2: 2 4 "aw av ay"
+ 1 a
+ 1 y
+ 1 w
+ 1 v
+ 0 {} 0 {} 0 {} 0 {} 0 {} -34 {} -34 {} -40 {}
+KernClass2: 2 2 "FA"
+ 1 F
+ 1 A
+ 0 {} 0 {} 0 {} -114 {}
+KernClass2: 4 5 "F. T. Y."
+ 1 F
+ 1 T
+ 1 Y
+ 6 period
+ 5 comma
+ 6 hyphen
+ 0 
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -140 {} -152 {} -45 {} 0 {} 0 {} -63 {} -75 {} -66 {} 0 {} 0 {} -75 {} -75 {} -65 {} 0 {}
+KernClass2: 5 12 "Wa Va Ya"
  1 W
  1 Y
  1 V
@@ -64,28 +92,33 @@ KernClass2: 5 12 "'kern' Horizontal Kerning lookup 0-5"
  1 y
  1 z
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -65 {} -45 {} -45 {} -46 {} -45 {} -45 {} -45 {} -65 {} -45 {} -32 {} -45 {} 0 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -32 {} -44 {} 0 {} -65 {} -65 {} -65 {} -65 {} -65 {} -45 {} -45 {} -65 {} -31 {} -26 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
-KernClass2: 2 5 "'kern' Horizontal Kerning lookup 0-10"
+KernClass2: 2 5 "Av Aw Ay"
  1 A
  1 v
  1 w
  1 y
- 0 
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -76 {} -76 {} -45 {} 0 {}
-KernClass2: 2 3 "'kern' Horizontal Kerning lookup 0-9"
+ 1 t
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -76 {} -76 {} -45 {} -65 {}
+KernClass2: 2 3 "jj jy"
  1 j
  1 j
  1 y
  0 {} 0 {} 0 {} 0 {} 28 {} 28 {}
-KernClass2: 2 2 "'kern' Horizontal Kerning lookup 0-8"
+KernClass2: 2 2 "gj"
  1 g
  1 j
  0 {} 0 {} 0 {} 55 {}
-KernClass2: 2 3 "'kern' Horizontal Kerning lookup 0-7"
+KernClass2: 2 8 "LT LY Ly"
  1 L
  1 T
  1 Y
- 0 {} 0 {} 0 {} 0 {} -127 {} -100 {}
-KernClass2: 2 9 "'kern' Horizontal Kerning lookup 0-6"
+ 1 W
+ 1 V
+ 1 y
+ 1 w
+ 1 v
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -127 {} -100 {} -127 {} -127 {} -42 {} -98 {} -98 {}
+KernClass2: 2 9 "Xa Xe Xo"
  1 X
  1 e
  1 a
@@ -108,10 +141,10 @@ KernClass2: 2 10 "'kern' Horizontal Kerning lookup 0-4"
  1 g
  0 
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -63 {} -61 {} -79 {} -76 {} -72 {} -61 {} -65 {} -69 {} -96 {}
-KernClass2: 4 16 "'kern' Horizontal Kerning lookup 0-3"
+KernClass2: 4 16 "Ta Fa Ya"
  1 T
  1 F
- 0 
+ 1 Y
  1 e
  1 a
  1 d
@@ -127,19 +160,33 @@ KernClass2: 4 16 "'kern' Horizontal Kerning lookup 0-3"
  1 n
  1 m
  1 y
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 26 {} 0 {} -61 {} -79 {} -72 {} -61 {} -76 {} -76 {} -69 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} 0 {} -43 {} -102 {} -56 {} -43 {} -50 {} -44 {} -53 {} -35 {} -55 {} -55 {} -55 {} -55 {} -60 {} -46 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
-KernClass2: 2 4 "'kern' Horizontal Kerning lookup 0-2"
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 26 {} 0 {} -61 {} -79 {} -72 {} -61 {} -76 {} -76 {} -69 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} 0 {} -43 {} -102 {} -56 {} -43 {} -50 {} -44 {} -53 {} -35 {} -55 {} -55 {} -55 {} -55 {} -60 {} -46 {} -45 {} 0 {} -66 {} -66 {} -66 {} -66 {} -66 {} -66 {} -66 {} -45 {} -66 {} -54 {} -45 {} -54 {} -66 {} -66 {} -34 {}
+KernClass2: 2 4 "AW AV AY"
  1 A
  1 V
  1 W
  1 Y
  0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -73 {} -61 {}
-KernClass2: 4 2 "'kern' Horizontal Kerning lookup 0-1"
+KernClass2: 4 16 "WA VA YA"
  1 W
  1 V
  1 Y
  1 A
- 0 {} 0 {} 0 {} -89 {} 0 {} -88 {} 0 {} -76 {}
+ 5 colon
+ 9 semicolon
+ 1 a
+ 1 o
+ 1 e
+ 1 c
+ 1 d
+ 1 q
+ 1 s
+ 1 g
+ 1 z
+ 1 u
+ 1 n
+ 1 m
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -127 {} -45 {} -99 {} -61 {} -41 {} -40 {} -43 {} -60 {} -39 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -127 {} -45 {} -97 {} -59 {} -40 {} -39 {} -42 {} -59 {} -38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -127 {} -45 {} -83 {} -55 {} -45 {} -55 {} -50 {} -50 {} -45 {} -45 {} -50 {} -32 {} -32 {} -65 {} -65 {}
 LangName: 1033 "" "" "" "SNBMooniak" "" "" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -147,7 +194,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 150 10 4
+WinInfo: 0 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -298,7 +345,7 @@ SplineSet
  199.090820312 139 l 1
  434.090820312 139 l 1
 EndSplineSet
-Kerns2: 5 -1 "'kern' Horizontal Kerning lookup 0-7"
+Kerns2: 5 -1 "LT LY Ly"
 EndChar
 
 StartChar: T
@@ -1567,22 +1614,22 @@ Encoding: 114 114 48
 Width: 316
 VWidth: 0
 Flags: W
-HStem: 0 21G<36 164.617> 0 21G<36 164.617> 399 117<321.804 375.116>
+HStem: 0 21G<36 164.617> 0 21G<36 164.617> 399 117<321.804 386.193>
 LayerCount: 2
 Back
 Fore
 SplineSet
-155.127929688 516 m 5xa0
+155.127929688 516 m 1xa0
  279.127929688 516 l 1
  264.814453125 454 l 1
  292.047851562 481 348.127929688 516 403.127929688 516 c 0
- 436.127929688 516 l 1
- 380.193359375 395 l 1
+ 414.127929688 516 l 1
+ 386.193359375 399 l 5
  375.116210938 399 l 1
  307.885742188 398 236.416992188 331 222.565429688 271 c 0
  160 0 l 1
- 36 0 l 5
- 155.127929688 516 l 5xa0
+ 36 0 l 1
+ 155.127929688 516 l 1xa0
 EndSplineSet
 EndChar
 
@@ -1591,15 +1638,15 @@ Encoding: 102 102 49
 Width: 304
 VWidth: 0
 Flags: W
-HStem: 0 21G<89 215.617> 0 21G<89 215.617> 400 116<145.128 181.348 329.897 369.348> 579 117<340.618 410.673>
+HStem: 0 21G<89 215.617> 0 21G<89 215.617> 400 116<145.128 181.348 329.897 369.348> 579 117<340.618 411.673>
 LayerCount: 2
 Back
 Fore
 SplineSet
 216.439453125 552 m 0xb0
  226.828125 597 300.453125 695 403.684570312 696 c 2
- 464.684570312 696 l 1
- 410.672851562 579 l 1
+ 442.684570312 696 l 1
+ 411.672851562 579 l 1
  377.672851562 579 l 1
  349.44140625 578 339.131835938 555 338.439453125 552 c 0
  329.897460938 515 l 1
@@ -1822,7 +1869,7 @@ SplineSet
  178.765625 668.375976562 219.321289062 701.325195312 259.198242188 701.325195312 c 0
  299.07421875 701.325195312 324.416015625 668.375976562 315.209960938 628.5 c 0
 EndSplineSet
-Kerns2: 55 2 "'kern' Horizontal Kerning lookup 0-9"
+Kerns2: 55 2 "jj jy"
 EndChar
 
 StartChar: l
@@ -2140,7 +2187,7 @@ StartChar: t
 Encoding: 116 116 66
 Width: 324
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 21G<182.115 298.297> 0 21G<182.115 298.297> 398 118<145.128 180.886 330.128 362.886> 680 20G<245.99 372.607>
 VStem: 117.886 272.242
 LayerCount: 2
@@ -2148,8 +2195,8 @@ Back
 Fore
 SplineSet
 272.858398438 125 m 2xb8
- 299.858398438 125 l 1
- 298 0 l 1
+ 322.858398438 125 l 1
+ 294 0 l 5
  243 0 l 2
  121.23046875 1 104.237304688 66 127.786132812 168 c 2
  180.885742188 398 l 1
@@ -4259,28 +4306,46 @@ StartChar: guillemotright
 Encoding: 187 187 151
 Width: 414
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet
-135.965820312 477.180664062 m 1
- 311.0390625 320.700195312 l 1
- 296.854492188 259.259765625 l 1
- 49.306640625 101.819335938 l 1
- 77.4541015625 223.740234375 l 1
- 182.470703125 291.900390625 l 1
- 107.153320312 352.380859375 l 1
- 135.965820312 477.180664062 l 1
-347.166015625 477.180664062 m 1
- 522.239257812 320.700195312 l 1
- 508.0546875 259.259765625 l 1
- 260.506835938 101.819335938 l 1
- 288.654296875 223.740234375 l 1
- 393.670898438 291.900390625 l 1
- 318.353515625 352.380859375 l 1
- 347.166015625 477.180664062 l 1
+135.965820312 477.180664062 m 5
+ 311.0390625 320.700195312 l 5
+ 296.854492188 259.259765625 l 5
+ 49.306640625 101.819335938 l 5
+ 77.4541015625 223.740234375 l 5
+ 182.470703125 291.900390625 l 5
+ 107.153320312 352.380859375 l 5
+ 135.965820312 477.180664062 l 5
+347.166015625 477.180664062 m 5
+ 522.239257812 320.700195312 l 5
+ 508.0546875 259.259765625 l 5
+ 260.506835938 101.819335938 l 5
+ 288.654296875 223.740234375 l 5
+ 393.670898438 291.900390625 l 5
+ 318.353515625 352.380859375 l 5
+ 347.166015625 477.180664062 l 5
 EndSplineSet
 Fore
+SplineSet
+135.965820312 477.180664062 m 5
+ 311.0390625 320.700195312 l 5
+ 296.854492188 259.259765625 l 5
+ 49.306640625 101.819335938 l 5
+ 77.4541015625 223.740234375 l 5
+ 182.470703125 291.900390625 l 5
+ 107.153320312 352.380859375 l 5
+ 135.965820312 477.180664062 l 5
+347.166015625 477.180664062 m 5
+ 522.239257812 320.700195312 l 5
+ 508.0546875 259.259765625 l 5
+ 260.506835938 101.819335938 l 5
+ 288.654296875 223.740234375 l 5
+ 393.670898438 291.900390625 l 5
+ 318.353515625 352.380859375 l 5
+ 347.166015625 477.180664062 l 5
+EndSplineSet
 EndChar
 
 StartChar: Oslash
