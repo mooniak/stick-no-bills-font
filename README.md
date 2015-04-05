@@ -12,6 +12,9 @@ STICK NO BILLS - is the bespoke typeface of [Stick No Bills™ Poster Gallery](h
 
 The first drawings were developed by Martyn Hodges for uppercase and numerals and mooniak is working on further refining and developing them into a font.
 
+See our [blog post](http://blog.mooniak.com/tagged/sticknobillsfont) on the process.
+See demo [videos](https://www.youtube.com/playlist?list=PLpw12zH02-AlMNu3QMfNtlES1UXHR_0v-)
+
 ## Repository Structure
 
 - See [Realases](https://github.com/mooniak/stick-no-bills-font/releases) to Download released clean font versions, sources and specimens at the relase point.
