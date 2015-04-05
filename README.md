@@ -1,6 +1,11 @@
 
 ## WORK IN PROGRESS
 
+See `/fonts` for latest experimental fonts and work in progress.
+
+See [Realases](https://github.com/mooniak/stick-no-bills-font/releases) to Download released versions.
+
+
 STICK NO BILLS™ Font
 ===================
 
