@@ -9,7 +9,7 @@ See [Realases](https://github.com/mooniak/stick-no-bills-font/releases) to Downl
 STICK NO BILLS™ Font
 ===================
 
-![](https://raw.githubusercontent.com/mooniak/mooniak-web/gh-pages/stick-no-bills/stick_no_bills_font.png)
+![](https://raw.githubusercontent.com/mooniak/stick-no-bills-microsite/gh-pages/stick_no_bills_font.png)
 
 STICK NO BILLS - is the bespoke typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka.
 
