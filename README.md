@@ -1,9 +1,6 @@
 
 ## WORK IN PROGRESS
-
-See `/fonts` for latest experimental fonts and work in progress.
-
-See [Realases](https://github.com/mooniak/stick-no-bills-font/releases) to Download released versions.
+This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](## Repository Structure) before downloading any files.
 
 
 STICK NO BILLS™ Font
@@ -15,6 +12,15 @@ STICK NO BILLS - is the bespoke typeface of [Stick No Bills™ Poster Gallery](h
 
 The first drawings were developed by Martyn Hodges for uppercase and numerals and mooniak is working on further refining and developing them into a font.
 
+## Repository Structure
+
+- See [Realases](https://github.com/mooniak/stick-no-bills-font/releases) to Download released clean font versions, sources and specimens at the relase point.
+
+- See `/sources/draft-fonts` contains draft fonts which are dirty, generated for design testing.
+
+- See `/sources` contains source `.sfd` files which opens in [FontForge](http://fontforge.github.io/en-US/). These files are under active developemnt. There might be some FontForge revision files around too.
+
+- See `/sources/UFO` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/stick-no-bills-font/releases) for clean sources.
 
 
 ## Credits
