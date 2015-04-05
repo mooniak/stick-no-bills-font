@@ -145,7 +145,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 8
+WinInfo: 176 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6067,7 +6067,7 @@ StartChar: ordfeminine
 Encoding: 170 170 214
 Width: 227
 VWidth: 0
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 Fore
@@ -6262,6 +6262,7 @@ StartChar: Lslash
 Encoding: 268 321 221
 Width: 530
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HW
 HStem: 0 139<269.533 504.533> 680 20G<128.532 269.533>
 VStem: 129 141<139 700>
