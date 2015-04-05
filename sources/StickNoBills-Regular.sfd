@@ -41,10 +41,123 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "WA VA YA" [153,15,0] "AV AW AT AY" [153,15,0] "Ta Fa Ya" [153,15,0] "Wa Ya Va" [153,15,0] "Xa Xe Xo" [153,15,0] "LT LY Ly" [153,15,0] "gj" [153,15,0] "jj jy" [153,15,0] "Av Aw Ay" [153,15,0] "F. Y. T." [153,15,0] "FA" [153,15,0] "f. r. v. w. y." [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 6 3 "f. r. v. w. y."
+ 1 f
+ 1 r
+ 1 v
+ 1 w
+ 1 y
+ 6 period
+ 5 comma
+ 0 {} 0 {} 0 {} 0 {} -65 {} -66 {} 0 {} -100 {} -100 {} 0 {} -98 {} -88 {} 0 {} -98 {} -88 {} 0 {} -98 {} -88 {}
+KernClass2: 5 2 "FA"
+ 1 F
+ 1 T
+ 1 Y
+ 1 P
+ 1 A
+ 0 {} 0 {} 0 {} -104 {} 0 {} -88 {} 0 {} -127 {} 0 {} -97 {}
+KernClass2: 5 3 "F. Y. T."
+ 1 F
+ 1 T
+ 1 Y
+ 1 P
+ 6 period
+ 5 comma
+ 0 {} 0 {} 0 {} 0 {} -155 {} -167 {} 0 {} -78 {} -89 {} 0 {} -82 {} -93 {} 0 {} -155 {} -155 {}
+KernClass2: 5 12 "Wa Ya Va"
+ 1 W
+ 1 Y
+ 1 V
+ 0 
+ 1 a
+ 1 e
+ 1 o
+ 1 d
+ 1 q
+ 1 s
+ 1 c
+ 1 g
+ 1 x
+ 1 y
+ 1 z
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -65 {} -45 {} -45 {} -46 {} -45 {} -45 {} -45 {} -65 {} -45 {} -32 {} -45 {} 0 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -65 {} -32 {} -44 {} 0 {} -65 {} -65 {} -65 {} -65 {} -65 {} -45 {} -45 {} -65 {} -31 {} -26 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+KernClass2: 2 5 "Av Aw Ay"
+ 1 A
+ 1 v
+ 1 w
+ 1 y
+ 0 
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -76 {} -76 {} -45 {} 0 {}
+KernClass2: 2 3 "jj jy"
+ 1 j
+ 1 j
+ 1 y
+ 0 {} 0 {} 0 {} 0 {} 28 {} 28 {}
+KernClass2: 2 2 "gj"
+ 1 g
+ 1 j
+ 0 {} 0 {} 0 {} 55 {}
+KernClass2: 2 8 "LT LY Ly"
+ 1 L
+ 1 T
+ 1 Y
+ 1 W
+ 1 V
+ 1 y
+ 1 w
+ 1 v
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -127 {} -115 {} -153 {} -153 {} -45 {} -84 {} -84 {}
+KernClass2: 2 9 "Xa Xe Xo"
+ 1 X
+ 1 e
+ 1 a
+ 1 o
+ 1 d
+ 1 q
+ 1 g
+ 1 s
+ 0 
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -16 {} -24 {} -25 {} -20 {} -29 {} -24 {} 0 {}
+KernClass2: 4 16 "Ta Fa Ya"
+ 1 T
+ 1 F
+ 1 Y
+ 1 e
+ 1 a
+ 1 d
+ 1 q
+ 1 s
+ 1 o
+ 1 g
+ 1 u
+ 1 c
+ 1 x
+ 1 z
+ 1 r
+ 1 n
+ 1 m
+ 1 y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 26 {} 0 {} -61 {} -79 {} -72 {} -61 {} -76 {} -76 {} -69 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} -76 {} 0 {} -43 {} -102 {} -56 {} -43 {} -50 {} -44 {} -53 {} -35 {} -55 {} -55 {} -55 {} -55 {} -60 {} -46 {} -45 {} 0 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -32 {} -24 {}
+KernClass2: 2 4 "AV AW AT AY"
+ 1 A
+ 1 V
+ 1 W
+ 1 Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -73 {} -61 {}
+KernClass2: 4 2 "WA VA YA"
+ 1 W
+ 1 V
+ 1 Y
+ 1 A
+ 0 {} 0 {} 0 {} -89 {} 0 {} -88 {} 0 {} -127 {}
 LangName: 1033 "" "" "" "SNBMooniak" "" "" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -211,7 +324,7 @@ SplineSet
  167 139 l 1
  402 139 l 1
 EndSplineSet
-Kerns2: 5 -1 ""
+Kerns2: 5 -1 "LT LY Ly"
 EndChar
 
 StartChar: T
@@ -1841,7 +1954,7 @@ SplineSet
  24 668 57 702 97 702 c 0
  137 702 170 668 170 628 c 0xf0
 EndSplineSet
-Kerns2: 55 2 ""
+Kerns2: 55 2 "jj jy"
 EndChar
 
 StartChar: l
