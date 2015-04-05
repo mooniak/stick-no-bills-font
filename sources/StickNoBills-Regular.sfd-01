@@ -5030,7 +5030,7 @@ VStem: 30 119<119.71 398.182> 178 92<-90.2061 -40.2896>
 LayerCount: 2
 Back
 Fore
-Refer: 180 184 S 1 0 0 1 76 -163 2
+Refer: 180 184 N 1 0 0 1 76 -163 2
 Refer: 64 99 N 1 0 0 1 0 0 3
 EndChar
 
@@ -5069,7 +5069,7 @@ VStem: 155 15<549.661 582> 174 64<735.996 794.845> 301 64<735.996 794.845>
 LayerCount: 2
 Back
 Fore
-Refer: 187 730 S 1 0 0 1 147 239 2
+Refer: 187 730 N 1 0 0 1 147 239 2
 Refer: 0 65 N 1 0 0 1 0 0 3
 EndChar
 
@@ -5200,7 +5200,7 @@ VStem: 50 150<291.75 398.75>
 LayerCount: 2
 Back
 Fore
-Refer: 42 46 S 1 0 0 1 0 292 2
+Refer: 42 46 N 1 0 0 1 0 292 2
 EndChar
 
 StartChar: exclamdown
@@ -5467,7 +5467,7 @@ HStem: 712 107<30 480>
 LayerCount: 2
 Back
 Fore
-Refer: 98 95 S 1 0 0 1 0 917 2
+Refer: 98 95 N 1 0 0 1 0 917 2
 EndChar
 
 StartChar: degree
@@ -6074,7 +6074,7 @@ StartChar: lslash
 Encoding: 269 322 222
 Width: 424
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 21G<147.001 278.001 147.001 278.001> 678 20G<147.001 278.001>
 VStem: 147 131<0 698>
 LayerCount: 2
@@ -6204,7 +6204,7 @@ VStem: 34 134<467.373 556.768> 326 141<146.862 253.417>
 LayerCount: 2
 Back
 Fore
-Refer: 217 711 S 1 0 0 1 100 252 2
+Refer: 217 711 N 1 0 0 1 100 252 2
 Refer: 19 83 N 1 0 0 1 -7 0 3
 EndChar
 
@@ -6218,7 +6218,7 @@ VStem: 31 112<335.003 397.736> 285 117<119.12 182.167>
 LayerCount: 2
 Back
 Fore
-Refer: 217 711 S 1 0 0 1 71 64 2
+Refer: 217 711 N 1 0 0 1 71 64 2
 Refer: 107 115 N 1 0 0 1 5 0 3
 EndChar
 
@@ -6260,7 +6260,7 @@ VStem: 26 296<-0.494141 115.613 400.438 513.997>
 LayerCount: 2
 Back
 Fore
-Refer: 217 711 S 1 0 0 1 41 63 2
+Refer: 217 711 N 1 0 0 1 41 63 2
 Refer: 109 122 N 1 0 0 1 0 0 3
 EndChar
 
@@ -6332,7 +6332,7 @@ StartChar: endash
 Encoding: 279 8211 232
 Width: 532
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 230 127<25.9992 506>
 VStem: 26 480<230 357>
 LayerCount: 2
@@ -6510,7 +6510,7 @@ StartChar: bullet
 Encoding: 289 8226 242
 Width: 352
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 Fore

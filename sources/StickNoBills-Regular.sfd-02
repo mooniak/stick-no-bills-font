@@ -6357,7 +6357,13 @@ VStem: 26 854<230 357>
 LayerCount: 2
 Back
 Fore
-Refer: 232 8211 S 1.77917 0 0 1 -20 0 2
+SplineSet
+880.081054688 357 m 1
+ 880.081054688 230 l 1
+ 26.0791015625 230 l 1
+ 26.0791015625 357 l 1
+ 880.081054688 357 l 1
+EndSplineSet
 EndChar
 
 StartChar: quoteleft
@@ -6504,11 +6510,17 @@ StartChar: bullet
 Encoding: 289 8226 242
 Width: 352
 VWidth: 0
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 Fore
-Refer: 42 46 N 2 0 0 2 -74 238 2
+SplineSet
+26 344 m 0
+ 26 428 92 496 176 496 c 0
+ 260 496 326 428 326 344 c 0
+ 326 260 260 194 176 194 c 0
+ 92 194 26 260 26 344 c 0
+EndSplineSet
 EndChar
 
 StartChar: perthousand
