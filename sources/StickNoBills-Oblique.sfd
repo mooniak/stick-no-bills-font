@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1423989519
-ModificationTime: 1428175059
+ModificationTime: 1428205808
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -40,8 +40,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] "'kern' Horizontal Kerning lookup 0-3" [153,15,0] "'kern' Horizontal Kerning lookup 0-4" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] "'kern' Horizontal Kerning lookup 0-6" [153,15,0] "'kern' Horizontal Kerning lookup 0-7" [153,15,0] "'kern' Horizontal Kerning lookup 0-8" [153,15,0] "'kern' Horizontal Kerning lookup 0-9" [153,15,0] "'kern' Horizontal Kerning lookup 0-10" [153,15,0] "'kern' Horizontal Kerning lookup 0-5" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
@@ -147,7 +145,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 130 10 4
+WinInfo: 40 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1044,30 +1042,6 @@ Flags: W
 HStem: -87 109<310.672 556.522> 116 124<540.057 667.445> 602 113<469.732 681.679>
 LayerCount: 2
 Back
-SplineSet
-691 142 m 5xbe
- 736 64 l 5
- 661 2 552 -22 422 -22 c 4
- 186 -22 30 133 30 354 c 4
- 30 581 221 757 477 757 c 4
- 650 757 827 632 827 457 c 4
- 827 246 689 161 555 161 c 4xbe
- 512 163 491 182 481 206 c 5
- 463 184 426 161 367 161 c 4
- 284 161 219 223 219 319 c 4
- 219 491 347 564 432 564 c 4xde
- 496 564 518 538 533 522 c 5
- 541 549 l 5
- 636 549 l 5
- 575 330 l 6
- 572 319 568 302 568 288 c 4
- 568 271 573 262 589 262 c 4
- 657 262 718 325 718 457 c 4
- 718 575 577 653 478 653 c 4
- 272 653 134 510 134 352 c 4
- 134 187 258 75 424 75 c 4
- 567 75 645 112 691 142 c 5xbe
-EndSplineSet
 Fore
 SplineSet
 690.479492188 103 m 1
