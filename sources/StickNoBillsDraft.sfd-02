@@ -41,10 +41,53 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
+Lookup: 258 0 0 "Pairwise Positioning (kerning) lookup 0" { "Pairwise Positioning (kerning) lookup 0-1" [153,15,0] } ['V   ' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) 'W   ' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 3+ 36 "Pairwise Positioning (kerning) lookup 0-1"
+ 0 
+ 1 W
+ 1 V
+ 1 a
+ 1 c
+ 1 d
+ 1 e
+ 1 f
+ 1 g
+ 1 n
+ 1 m
+ 1 o
+ 1 q
+ 1 r
+ 1 s
+ 1 u
+ 1 w
+ 1 x
+ 1 y
+ 1 z
+ 1 p
+ 1 t
+ 1 v
+ 1 A
+ 1 C
+ 1 O
+ 1 G
+ 1 Q
+ 1 J
+ 1 S
+ 1 X
+ 1 Y
+ 6 period
+ 5 comma
+ 9 semicolon
+ 5 colon
+ 51 Agrave Aacute Acircumflex Atilde Adieresis Aring AE
+ 51 agrave aacute acircumflex atilde adieresis aring ae
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -85 {} -85 {} -85 {} -55 {} -85 {} -85 {} -75 {} -85 {} -85 {} -55 {} -85 {} -55 {} -45 {} -45 {} -45 {} -60 {} -45 {} -45 {} -45 {} -127 {} -45 {} -45 {} -45 {} -45 {} -127 {} -60 {} -25 {} -15 {} -127 {} -133 {} -95 {} -57 {} -127 {} -65 {} 0 {} -80 {} -78 {} -75 {} -75 {} -45 {} -75 {} -75 {} -65 {} -65 {} -65 {} -45 {} -75 {} -40 {} -35 {} -45 {} -35 {} -60 {} -45 {} -45 {} -45 {} -127 {} -45 {} -45 {} -45 {} -45 {} -127 {} -55 {} -25 {} -15 {} -130 {} -128 {} -94 {} -57 {} -127 {} -65 {}
 LangName: 1033 "" "" "" "SNBMooniak" "" "" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -52,7 +95,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 160 16 8
+WinInfo: 180 10 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -211,7 +254,6 @@ SplineSet
  167 139 l 1
  402 139 l 1
 EndSplineSet
-Kerns2: 5 -1 "0c+AT8A-9Z+Az8A"
 EndChar
 
 StartChar: T
@@ -1841,7 +1883,6 @@ SplineSet
  24 668 57 702 97 702 c 0
  137 702 170 668 170 628 c 0xf0
 EndSplineSet
-Kerns2: 55 2 " "
 EndChar
 
 StartChar: l
