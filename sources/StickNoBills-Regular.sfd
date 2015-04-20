@@ -58,10 +58,10 @@ KernClass2: 6 6 "'kern' Horizontal Kerning lookup 0-1"
  3 W V
  7 W V T Y
  12 period comma
- 5 a e s
+ 17 a e s o q d c g u
  1 A
  5 w v t
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 61 {} -30 {} 0 {} -68 {} 0 {} 16 {} -80 {} -30 {} 0 {} -23 {} 0 {} 0 {} -41 {} 51 {} 0 {} 99 {} 0 {} -82 {} 0 {} 84 {} 0 {} -77 {} 0 {} 0 {} -109 {} -55 {} -82 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 61 {} -23 {} 0 {} -68 {} 0 {} 16 {} -80 {} -30 {} -100 {} -23 {} 0 {} 0 {} -41 {} 0 {} 0 {} 0 {} 0 {} -82 {} 0 {} 84 {} 0 {} -77 {} 0 {} 0 {} -109 {} -55 {} -130 {} 0 {}
 LangName: 1033 "Remove All VKern Pairs" "" "" "SNBMooniak" "" "Version 1.0.1" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "Stick No Bills" "Regular"
 PickledDataWithLists: "(dp1
 S'public.glyphOrder'
@@ -481,27 +481,27 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
+L0L
+sS'com.schriftgestaltung.fontMasterID'
 p186
-sS'com.schriftgestaltung.useNiceNames'
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p187
-I0
 s."
-Encoding: Custom
+Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 168 12 6
+WinInfo: 0 10 4
 BeginPrivate: 0
 EndPrivate
-BeginChars: 231 231
+BeginChars: 296 231
 
 StartChar: A
-Encoding: 0 65 0
+Encoding: 65 65 0
 GlifName: A_
 Width: 516
 VWidth: 0
@@ -513,13 +513,13 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-155 582 m 257
+155 582 m 257x88
  170 582 l 257
  230 302 l 257
  164 0 l 257
  26 0 l 257
- 155 582 l 257
-200 699 m 257
+ 155 582 l 257x88
+200 699 m 257xa8
  339 699 l 257
  490 0 l 257
  353 0 l 257
@@ -527,51 +527,13 @@ SplineSet
  239 85 l 257
  269 223 l 257
  305 223 l 257
- 200 699 l 257
+ 200 699 l 257xa8
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F155
-sS'width'
-p8
-F15
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F679
-sg8
-F20
-sa(dp14
-g7
-F679
-sg8
-F20
-sass."
 EndChar
 
 StartChar: AE
-Encoding: 1 198 1
+Encoding: 198 198 1
 GlifName: A_E_
 Width: 727
 VWidth: 0
@@ -607,43 +569,10 @@ SplineSet
  701 141 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F337
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F141
-sa(dp12
-g7
-F277
-sg8
-F141
-sa(dp13
-g7
-F560
-sg8
-F140
-sass."
 EndChar
 
 StartChar: Aacute
-Encoding: 2 193 2
+Encoding: 193 193 2
 GlifName: A_acute
 Width: 516
 VWidth: 0
@@ -657,48 +586,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 174 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F155
-sS'width'
-p8
-F15
-sa(dp9
-g7
-F224
-sg8
-F164
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F679
-sg8
-F20
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Acircumflex
-Encoding: 3 194 3
+Encoding: 194 194 3
 GlifName: A_circumflex
 Width: 516
 VWidth: 0
@@ -712,48 +603,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 135 252 2
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F155
-sS'width'
-p8
-F15
-sa(dp9
-g7
-F161
-sg8
-F218
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F679
-sg8
-F20
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Adieresis
-Encoding: 4 196 4
+Encoding: 196 196 4
 GlifName: A_dieresis
 Width: 516
 VWidth: 0
@@ -767,38 +620,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 110 163 2
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F155
-sS'width'
-p8
-F15
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F679
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Agrave
-Encoding: 5 192 5
+Encoding: 192 192 5
 GlifName: A_grave
 Width: 516
 VWidth: 0
@@ -812,48 +637,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 102 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F151
-sS'width'
-p8
-F164
-sa(dp9
-g7
-F155
-sg8
-F15
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F679
-sg8
-F20
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Aring
-Encoding: 6 197 6
+Encoding: 197 197 6
 GlifName: A_ring
 Width: 516
 VWidth: 0
@@ -891,58 +678,10 @@ SplineSet
  155 582 l 257
 EndSplineSet
 Validated: 5
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F155
-sS'width'
-p8
-F15
-sa(dp9
-g7
-F173
-sg8
-F64
-sa(dp10
-g7
-F301
-sg8
-F64
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F669
-sg8
-F64
-sa(dp15
-g7
-F679
-sg8
-F20
-sa(dp16
-g7
-F797
-sg8
-F64
-sass."
 EndChar
 
 StartChar: Atilde
-Encoding: 7 195 7
+Encoding: 195 195 7
 GlifName: A_tilde
 Width: 516
 VWidth: 0
@@ -956,53 +695,10 @@ Fore
 Refer: 208 732 N 1 0 0 1 102 662 2
 Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F128
-sS'width'
-p8
-F281
-sa(dp9
-g7
-F155
-sg8
-F15
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F679
-sg8
-F20
-sa(dp14
-g7
-F748
-sg8
-F101
-sa(dp15
-g7
-F788
-sg8
-F102
-sass."
 EndChar
 
 StartChar: B
-Encoding: 8 66 8
+Encoding: 66 66 8
 GlifName: B_
 Width: 484
 VWidth: 0
@@ -1037,48 +733,10 @@ SplineSet
  26 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F324
-sg8
-F134
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F122
-sa(dp13
-g7
-F289
-sg8
-F122
-sa(dp14
-g7
-F577
-sg8
-F123
-sass."
 EndChar
 
 StartChar: C
-Encoding: 9 67 9
+Encoding: 67 67 9
 GlifName: C_
 Width: 494
 VWidth: 0
@@ -1115,38 +773,10 @@ SplineSet
  32 578 86 705 229 705 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F330
-sg8
-F138
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F685
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Ccedilla
-Encoding: 10 199 10
+Encoding: 199 199 10
 GlifName: C_cedilla
 Width: 494
 VWidth: 0
@@ -1160,48 +790,10 @@ Fore
 Refer: 92 184 N 1 0 0 1 111 -167 2
 Refer: 9 67 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F213
-sg8
-F92
-sa(dp10
-g7
-F330
-sg8
-F138
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-203
-sg8
-F91
-sa(dp14
-g7
-F685
-sg8
-F20
-sass."
 EndChar
 
 StartChar: D
-Encoding: 11 68 11
+Encoding: 68 68 11
 GlifName: D_
 Width: 452
 VWidth: 0
@@ -1229,48 +821,10 @@ SplineSet
  32 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F283
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: E
-Encoding: 12 69 12
+Encoding: 69 69 12
 GlifName: E_
 Width: 422
 VWidth: 0
@@ -1297,48 +851,10 @@ SplineSet
  396 141 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F364
-sa(dp9
-g7
-F32
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F141
-sa(dp13
-g7
-F277
-sg8
-F141
-sa(dp14
-g7
-F560
-sg8
-F140
-sass."
 EndChar
 
 StartChar: EURO
-Encoding: 13 8364 13
+Encoding: 256 8364 13
 GlifName: E_U_R_O_
 Width: 567
 VWidth: 0
@@ -1393,48 +909,10 @@ SplineSet
  426 25 387 3 338 2 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F99
-sS'width'
-p8
-F137
-sa(dp9
-g7
-F381
-sg8
-F136
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F258
-sg8
-F59
-sa(dp13
-g7
-F376
-sg8
-F60
-sa(dp14
-g7
-F558
-sg8
-F140
-sass."
 EndChar
 
 StartChar: Eacute
-Encoding: 14 201 14
+Encoding: 201 201 14
 GlifName: E_acute
 Width: 422
 VWidth: 0
@@ -1448,58 +926,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 118 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F32
-sg8
-F364
-sa(dp10
-g7
-F168
-sg8
-F164
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F141
-sa(dp14
-g7
-F277
-sg8
-F141
-sa(dp15
-g7
-F560
-sg8
-F140
-sa(dp16
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 15 202 15
+Encoding: 202 202 15
 GlifName: E_circumflex
 Width: 422
 VWidth: 0
@@ -1513,58 +943,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 79 252 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F32
-sg8
-F364
-sa(dp10
-g7
-F105
-sg8
-F218
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F141
-sa(dp14
-g7
-F277
-sg8
-F141
-sa(dp15
-g7
-F560
-sg8
-F140
-sa(dp16
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Edieresis
-Encoding: 16 203 16
+Encoding: 203 203 16
 GlifName: E_dieresis
 Width: 422
 VWidth: 0
@@ -1578,48 +960,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 54 163 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F32
-sg8
-F364
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F141
-sa(dp13
-g7
-F277
-sg8
-F141
-sa(dp14
-g7
-F560
-sg8
-F140
-sass."
 EndChar
 
 StartChar: Egrave
-Encoding: 17 200 17
+Encoding: 200 200 17
 GlifName: E_grave
 Width: 422
 VWidth: 0
@@ -1633,58 +977,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 46 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F32
-sg8
-F364
-sa(dp10
-g7
-F95
-sg8
-F164
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F141
-sa(dp14
-g7
-F277
-sg8
-F141
-sa(dp15
-g7
-F560
-sg8
-F140
-sa(dp16
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Eth
-Encoding: 18 208 18
+Encoding: 208 208 18
 GlifName: E_th
 Width: 501
 VWidth: 0
@@ -1720,48 +1016,10 @@ SplineSet
  224 420 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F83
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F334
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F292
-sg8
-F128
-sa(dp14
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: F
-Encoding: 19 70 19
+Encoding: 70 70 19
 GlifName: F_
 Width: 422
 VWidth: 0
@@ -1786,48 +1044,10 @@ SplineSet
  302 418 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F1
-sg8
-F21
-sa(dp12
-g7
-F1
-sg8
-F21
-sa(dp13
-g7
-F277
-sg8
-F141
-sa(dp14
-g7
-F560
-sg8
-F140
-sass."
 EndChar
 
 StartChar: G
-Encoding: 20 71 20
+Encoding: 71 71 20
 GlifName: G_
 Width: 493
 VWidth: 0
@@ -1866,48 +1086,10 @@ SplineSet
  222 -5 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F276
-sg8
-F185
-sa(dp10
-g7
-F319
-sg8
-F142
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F141
-sa(dp14
-g7
-F685
-sg8
-F20
-sass."
 EndChar
 
 StartChar: H
-Encoding: 21 72 21
+Encoding: 72 72 21
 GlifName: H_
 Width: 458
 VWidth: 0
@@ -1939,58 +1121,10 @@ SplineSet
  285 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F170
-sa(dp9
-g7
-F32
-sg8
-F141
-sa(dp10
-g7
-F256
-sg8
-F170
-sa(dp11
-g7
-F285
-sg8
-F141
-sasS'hhints'
-p12
-(lp13
-(dp14
-g7
-F0
-sg8
-F21
-sa(dp15
-g7
-F0
-sg8
-F21
-sa(dp16
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: HKD
-Encoding: 22 22291 22
+Encoding: 257 22291 22
 GlifName: H_K_D_
 Width: 843
 VWidth: 0
@@ -2035,78 +1169,10 @@ SplineSet
 EndSplineSet
 Refer: 105 36 N 1 0 0 1 322 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F51
-sa(dp9
-g7
-F50
-sg8
-F42
-sa(dp10
-g7
-F117
-sg8
-F52
-sa(dp11
-g7
-F126
-sg8
-F43
-sa(dp12
-g7
-F198
-sg8
-F43
-sa(dp13
-g7
-F360
-sg8
-F134
-sa(dp14
-g7
-F464
-sg8
-F71
-sa(dp15
-g7
-F590
-sg8
-F71
-sa(dp16
-g7
-F652
-sg8
-F141
-sasS'hhints'
-p17
-(lp18
-(dp19
-g7
-F488
-sg8
-F210
-sa(dp20
-g7
-F573
-sg8
-F41
-sass."
 EndChar
 
 StartChar: I
-Encoding: 23 73 23
+Encoding: 73 73 23
 GlifName: I_
 Width: 209
 VWidth: 0
@@ -2118,50 +1184,17 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-34 700 m 257
+34 700 m 257xb0
  175 700 l 257
  175 0 l 257
  34 0 l 257
- 34 700 l 257
+ 34 700 l 257xb0
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F34
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Iacute
-Encoding: 24 205 24
+Encoding: 205 205 24
 GlifName: I_acute
 Width: 209
 VWidth: 0
@@ -2175,48 +1208,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 9 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F34
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F59
-sg8
-F164
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F680
-sg8
-F20
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Icircumflex
-Encoding: 25 206 25
+Encoding: 206 206 25
 GlifName: I_circumflex
 Width: 209
 VWidth: 0
@@ -2230,48 +1225,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 -30 252 2
 Refer: 23 73 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F-4
-sS'width'
-p8
-F218
-sa(dp9
-g7
-F34
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F680
-sg8
-F20
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Idieresis
-Encoding: 26 207 26
+Encoding: 207 207 26
 GlifName: I_dieresis
 Width: 209
 VWidth: 0
@@ -2285,38 +1242,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 -56 163 2
 Refer: 23 73 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F34
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Igrave
-Encoding: 27 204 27
+Encoding: 204 204 27
 GlifName: I_grave
 Width: 209
 VWidth: 0
@@ -2330,48 +1259,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 -63 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F-14
-sS'width'
-p8
-F164
-sa(dp9
-g7
-F34
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F680
-sg8
-F20
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: J
-Encoding: 28 74 28
+Encoding: 74 74 28
 GlifName: J_
 Width: 495
 VWidth: 0
@@ -2399,43 +1290,10 @@ SplineSet
  463 49 327 -5 267 -5 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F323
-sg8
-F140
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F142
-sa(dp13
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: K
-Encoding: 29 75 29
+Encoding: 75 75 29
 GlifName: K_
 Width: 475
 VWidth: 0
@@ -2461,43 +1319,10 @@ SplineSet
  26 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: L
-Encoding: 30 76 30
+Encoding: 76 76 30
 GlifName: L_
 Width: 428
 VWidth: 0
@@ -2518,38 +1343,10 @@ SplineSet
  402 139 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F139
-sa(dp12
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Lslash
-Encoding: 31 321 31
+Encoding: 258 321 31
 GlifName: L_slash
 Width: 530
 VWidth: 0
@@ -2578,38 +1375,10 @@ SplineSet
  348 553 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F129
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F139
-sa(dp12
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: M
-Encoding: 32 77 32
+Encoding: 77 77 32
 GlifName: M_
 Width: 676
 VWidth: 0
@@ -2644,48 +1413,10 @@ SplineSet
  503 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F503
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: N
-Encoding: 33 78 33
+Encoding: 78 78 33
 GlifName: N_
 Width: 509
 VWidth: 0
@@ -2718,48 +1449,10 @@ SplineSet
  32 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F336
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Ntilde
-Encoding: 34 209 34
+Encoding: 209 209 34
 GlifName: N_tilde
 Width: 509
 VWidth: 0
@@ -2773,58 +1466,10 @@ Fore
 Refer: 208 732 N 1 0 0 1 88 662 2
 Refer: 33 78 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F114
-sg8
-F281
-sa(dp10
-g7
-F336
-sg8
-F141
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F680
-sg8
-F20
-sa(dp15
-g7
-F748
-sg8
-F101
-sa(dp16
-g7
-F788
-sg8
-F102
-sass."
 EndChar
 
 StartChar: O
-Encoding: 35 79 35
+Encoding: 79 79 35
 GlifName: O_
 Width: 508
 VWidth: 0
@@ -2856,43 +1501,10 @@ SplineSet
  478 51 341 -5 281 -5 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F337
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F142
-sa(dp13
-g7
-F564
-sg8
-F141
-sass."
 EndChar
 
 StartChar: OE
-Encoding: 36 338 36
+Encoding: 259 338 36
 GlifName: O_E_
 Width: 724
 VWidth: 0
@@ -2932,43 +1544,10 @@ SplineSet
  222 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F333
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F142
-sa(dp13
-g7
-F564
-sg8
-F141
-sass."
 EndChar
 
 StartChar: Oacute
-Encoding: 37 211 37
+Encoding: 211 211 37
 GlifName: O_acute
 Width: 508
 VWidth: 0
@@ -2982,53 +1561,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 158 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F208
-sg8
-F164
-sa(dp10
-g7
-F337
-sg8
-F141
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F142
-sa(dp14
-g7
-F564
-sg8
-F141
-sa(dp15
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 38 212 38
+Encoding: 212 212 38
 GlifName: O_circumflex
 Width: 508
 VWidth: 0
@@ -3042,53 +1578,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 119 252 2
 Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F145
-sg8
-F218
-sa(dp10
-g7
-F337
-sg8
-F141
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F142
-sa(dp14
-g7
-F564
-sg8
-F141
-sa(dp15
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Odieresis
-Encoding: 39 214 39
+Encoding: 214 214 39
 GlifName: O_dieresis
 Width: 508
 VWidth: 0
@@ -3102,43 +1595,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 94 163 2
 Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F337
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F142
-sa(dp13
-g7
-F564
-sg8
-F141
-sass."
 EndChar
 
 StartChar: Ograve
-Encoding: 40 210 40
+Encoding: 210 210 40
 GlifName: O_grave
 Width: 508
 VWidth: 0
@@ -3152,53 +1612,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 86 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F135
-sg8
-F164
-sa(dp10
-g7
-F337
-sg8
-F141
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F142
-sa(dp14
-g7
-F564
-sg8
-F141
-sa(dp15
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Oslash
-Encoding: 41 216 41
+Encoding: 216 216 41
 GlifName: O_slash
 Width: 662
 VWidth: 0
@@ -3239,43 +1656,10 @@ SplineSet
  584 658 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F108
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F415
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F142
-sa(dp13
-g7
-F564
-sg8
-F141
-sass."
 EndChar
 
 StartChar: Otilde
-Encoding: 42 213 42
+Encoding: 213 213 42
 GlifName: O_tilde
 Width: 508
 VWidth: 0
@@ -3289,58 +1673,10 @@ Fore
 Refer: 208 732 N 1 0 0 1 87 662 2
 Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F113
-sg8
-F281
-sa(dp10
-g7
-F337
-sg8
-F141
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F142
-sa(dp14
-g7
-F564
-sg8
-F141
-sa(dp15
-g7
-F748
-sg8
-F101
-sa(dp16
-g7
-F788
-sg8
-F102
-sass."
 EndChar
 
 StartChar: P
-Encoding: 43 80 43
+Encoding: 80 80 43
 GlifName: P_
 Width: 474
 VWidth: 0
@@ -3368,53 +1704,10 @@ SplineSet
  26 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F305
-sg8
-F143
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F318
-sg8
-F139
-sa(dp15
-g7
-F561
-sg8
-F139
-sass."
 EndChar
 
 StartChar: Percent_sign
-Encoding: 44 37 44
+Encoding: 37 37 44
 GlifName: P_ercent_sign
 Width: 629
 VWidth: 0
@@ -3443,43 +1736,10 @@ SplineSet
  435 9 387 57 387 117 c 256
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F216
-sa(dp9
-g7
-F387
-sg8
-F216
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F9
-sg8
-F216
-sa(dp13
-g7
-F467
-sg8
-F216
-sass."
 EndChar
 
 StartChar: Q
-Encoding: 45 81 45
+Encoding: 81 81 45
 GlifName: Q_
 Width: 500
 VWidth: 0
@@ -3514,38 +1774,10 @@ SplineSet
  474 127 444 79 405 47 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F333
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F564
-sg8
-F141
-sass."
 EndChar
 
 StartChar: R
-Encoding: 46 82 46
+Encoding: 82 82 46
 GlifName: R_
 Width: 495
 VWidth: 0
@@ -3578,53 +1810,10 @@ SplineSet
  32 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F326
-sg8
-F127
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F286
-sg8
-F125
-sa(dp15
-g7
-F567
-sg8
-F133
-sass."
 EndChar
 
 StartChar: S
-Encoding: 47 83 47
+Encoding: 83 83 47
 GlifName: S_
 Width: 497
 VWidth: 0
@@ -3659,38 +1848,10 @@ SplineSet
  216 -3 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F41
-sS'width'
-p8
-F134
-sa(dp9
-g7
-F333
-sg8
-F141
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Scaron
-Encoding: 48 352 48
+Encoding: 260 352 48
 GlifName: S_caron
 Width: 497
 VWidth: 0
@@ -3704,48 +1865,10 @@ Fore
 Refer: 90 711 N 1 0 0 1 100 252 2
 Refer: 47 83 N 1 0 0 1 -7 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F34
-sS'width'
-p8
-F134
-sa(dp9
-g7
-F126
-sg8
-F218
-sa(dp10
-g7
-F326
-sg8
-F141
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F680
-sg8
-F20
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: T
-Encoding: 49 84 49
+Encoding: 84 84 49
 GlifName: T_
 Width: 485
 VWidth: 0
@@ -3757,7 +1880,7 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-459 700 m 257
+459 700 m 257xb0
  459 562 l 257
  313 562 l 257
  313 0 l 257
@@ -3765,46 +1888,13 @@ SplineSet
  172 562 l 257
  26 562 l 257
  26 700 l 257
- 459 700 l 257
+ 459 700 l 257xb0
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F172
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F562
-sg8
-F138
-sass."
 EndChar
 
 StartChar: Thorn
-Encoding: 50 222 50
+Encoding: 222 222 50
 GlifName: T_horn
 Width: 474
 VWidth: 0
@@ -3832,58 +1922,10 @@ SplineSet
  26 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F305
-sg8
-F143
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F208
-sg8
-F139
-sa(dp15
-g7
-F451
-sg8
-F139
-sa(dp16
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: TradeMarkSign
-Encoding: 51 8482 51
+Encoding: 261 8482 51
 GlifName: T_radeM_arkS_ign
 Width: 403
 VWidth: 0
@@ -3927,43 +1969,10 @@ SplineSet
  165 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F72
-sS'width'
-p8
-F48
-sa(dp9
-g7
-F188
-sg8
-F48
-sa(dp10
-g7
-F330
-sg8
-F47
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F653
-sg8
-F47
-sass."
 EndChar
 
 StartChar: U
-Encoding: 52 85 52
+Encoding: 85 85 52
 GlifName: U_
 Width: 512
 VWidth: 0
@@ -3991,43 +2000,10 @@ SplineSet
  479 48 344 -5 283 -5 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F339
-sg8
-F140
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F142
-sa(dp13
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Uacute
-Encoding: 53 218 53
+Encoding: 218 218 53
 GlifName: U_acute
 Width: 512
 VWidth: 0
@@ -4041,53 +2017,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 160 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F210
-sg8
-F164
-sa(dp10
-g7
-F339
-sg8
-F140
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F142
-sa(dp14
-g7
-F680
-sg8
-F20
-sa(dp15
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 54 219 54
+Encoding: 219 219 54
 GlifName: U_circumflex
 Width: 512
 VWidth: 0
@@ -4101,53 +2034,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 121 252 2
 Refer: 52 85 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F147
-sg8
-F218
-sa(dp10
-g7
-F339
-sg8
-F140
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F142
-sa(dp14
-g7
-F680
-sg8
-F20
-sa(dp15
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Udieresis
-Encoding: 55 220 55
+Encoding: 220 220 55
 GlifName: U_dieresis
 Width: 512
 VWidth: 0
@@ -4161,43 +2051,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 96 163 2
 Refer: 52 85 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F339
-sg8
-F140
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F142
-sa(dp13
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Ugrave
-Encoding: 56 217 56
+Encoding: 217 217 56
 GlifName: U_grave
 Width: 512
 VWidth: 0
@@ -4211,53 +2068,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 88 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F137
-sg8
-F164
-sa(dp10
-g7
-F339
-sg8
-F140
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F142
-sa(dp14
-g7
-F680
-sg8
-F20
-sa(dp15
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: V
-Encoding: 57 86 57
+Encoding: 86 86 57
 GlifName: V_
 Width: 508
 VWidth: 0
@@ -4282,35 +2096,10 @@ SplineSet
  482 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F0
-sS'width'
-p8
-F21
-sa(dp9
-g7
-F0
-sg8
-F21
-sa(dp10
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: W
-Encoding: 58 87 58
+Encoding: 87 87 58
 GlifName: W_
 Width: 725
 VWidth: 0
@@ -4321,12 +2110,12 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-26 700 m 257
+26 700 m 257xa0
  170 700 l 257
  328 158 l 257
  276 0 l 257
  229 0 l 257
- 26 700 l 257
+ 26 700 l 257xa0
 239 700 m 257
  383 700 l 257
  541 158 l 257
@@ -4341,35 +2130,10 @@ SplineSet
  699 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F0
-sS'width'
-p8
-F21
-sa(dp9
-g7
-F0
-sg8
-F21
-sa(dp10
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: X
-Encoding: 59 88 59
+Encoding: 88 88 59
 GlifName: X_
 Width: 464
 VWidth: 0
@@ -4395,35 +2159,10 @@ SplineSet
  426 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F0
-sS'width'
-p8
-F21
-sa(dp9
-g7
-F0
-sg8
-F21
-sa(dp10
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Y
-Encoding: 60 89 60
+Encoding: 89 89 60
 GlifName: Y_
 Width: 479
 VWidth: 0
@@ -4450,44 +2189,11 @@ SplineSet
  269 565 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F157
-sS'width'
-p8
-F146
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F680
-sg8
-F20
-sass."
 Kerns2: 0 -79 "'kern' Horizontal Kerning lookup 0-2"
 EndChar
 
 StartChar: Yacute
-Encoding: 61 221 61
+Encoding: 221 221 61
 GlifName: Y_acute
 Width: 479
 VWidth: 0
@@ -4501,48 +2207,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 144 161 2
 Refer: 60 89 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F157
-sS'width'
-p8
-F146
-sa(dp9
-g7
-F194
-sg8
-F164
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F680
-sg8
-F20
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: Ydieresis
-Encoding: 62 376 62
+Encoding: 262 376 62
 GlifName: Y_dieresis
 Width: 479
 VWidth: 0
@@ -4556,38 +2224,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 80 163 2
 Refer: 60 89 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F157
-sS'width'
-p8
-F146
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: Z
-Encoding: 63 90 63
+Encoding: 90 90 63
 GlifName: Z_
 Width: 418
 VWidth: 0
@@ -4612,38 +2252,10 @@ SplineSet
  182 144 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F366
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F144
-sa(dp12
-g7
-F560
-sg8
-F140
-sass."
 EndChar
 
 StartChar: Zcaron
-Encoding: 64 381 64
+Encoding: 263 381 64
 GlifName: Z_caron
 Width: 418
 VWidth: 0
@@ -4657,48 +2269,10 @@ Fore
 Refer: 90 711 N 1 0 0 1 74 252 2
 Refer: 63 90 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F366
-sa(dp9
-g7
-F100
-sg8
-F218
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F144
-sa(dp13
-g7
-F560
-sg8
-F140
-sa(dp14
-g7
-F766
-sg8
-F152
-sass."
 EndChar
 
 StartChar: a
-Encoding: 65 97 65
+Encoding: 97 97 65
 GlifName: a
 Width: 435
 VWidth: 0
@@ -4750,38 +2324,10 @@ SplineSet
  181 407 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F268
-sg8
-F116
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F1
-sg8
-F112
-sass."
 EndChar
 
 StartChar: aacute
-Encoding: 66 225 66
+Encoding: 225 225 66
 GlifName: aacute
 Width: 435
 VWidth: 0
@@ -4795,48 +2341,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 109 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F159
-sg8
-F164
-sa(dp10
-g7
-F268
-sg8
-F116
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F1
-sg8
-F112
-sa(dp14
-g7
-F580
-sg8
-F152
-sass."
 EndChar
 
 StartChar: acircumflex
-Encoding: 67 226 67
+Encoding: 226 226 67
 GlifName: acircumflex
 Width: 435
 VWidth: 0
@@ -4850,48 +2358,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 70 66 2
 Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F96
-sg8
-F218
-sa(dp10
-g7
-F268
-sg8
-F116
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F1
-sg8
-F112
-sa(dp14
-g7
-F580
-sg8
-F152
-sass."
 EndChar
 
 StartChar: acute
-Encoding: 68 180 68
+Encoding: 180 180 68
 GlifName: acute
 Width: 263
 VWidth: 0
@@ -4910,33 +2380,10 @@ SplineSet
  141 605 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F164
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F605
-sg8
-F152
-sass."
 EndChar
 
 StartChar: adieresis
-Encoding: 69 228 69
+Encoding: 228 228 69
 GlifName: adieresis
 Width: 435
 VWidth: 0
@@ -4950,38 +2397,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 44 -23 2
 Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F268
-sg8
-F116
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F1
-sg8
-F112
-sass."
 EndChar
 
 StartChar: ae
-Encoding: 70 230 70
+Encoding: 230 230 70
 GlifName: ae
 Width: 666
 VWidth: 0
@@ -5045,53 +2464,10 @@ SplineSet
  525 396 502 402 482 402 c 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F268
-sg8
-F116
-sa(dp10
-g7
-F525
-sg8
-F114
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F1
-sg8
-F112
-sa(dp14
-g7
-F208
-sg8
-F116
-sa(dp15
-g7
-F400
-sg8
-F116
-sass."
 EndChar
 
 StartChar: agrave
-Encoding: 71 224 71
+Encoding: 224 224 71
 GlifName: agrave
 Width: 435
 VWidth: 0
@@ -5105,48 +2481,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 37 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F86
-sg8
-F164
-sa(dp10
-g7
-F268
-sg8
-F116
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F1
-sg8
-F112
-sa(dp14
-g7
-F580
-sg8
-F152
-sass."
 EndChar
 
 StartChar: ampersand
-Encoding: 72 38 72
+Encoding: 38 38 72
 GlifName: ampersand
 Width: 687
 VWidth: 0
@@ -5191,43 +2529,10 @@ SplineSet
  317 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F157
-sa(dp9
-g7
-F94
-sg8
-F137
-sa(dp10
-g7
-F344
-sg8
-F133
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F682
-sg8
-F20
-sass."
 EndChar
 
 StartChar: aring
-Encoding: 73 229 73
+Encoding: 229 229 73
 GlifName: aring
 Width: 435
 VWidth: 0
@@ -5241,58 +2546,10 @@ Fore
 Refer: 194 730 N 1 0 0 1 82 150 2
 Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F108
-sg8
-F64
-sa(dp10
-g7
-F236
-sg8
-F64
-sa(dp11
-g7
-F268
-sg8
-F116
-sasS'hhints'
-p12
-(lp13
-(dp14
-g7
-F1
-sg8
-F112
-sa(dp15
-g7
-F580
-sg8
-F64
-sa(dp16
-g7
-F708
-sg8
-F64
-sass."
 EndChar
 
 StartChar: asciicircum
-Encoding: 74 94 74
+Encoding: 94 94 74
 GlifName: asciicircum
 Width: 374
 VWidth: 0
@@ -5313,25 +2570,10 @@ SplineSet
  27 460 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F460
-sS'width'
-p8
-F296
-sass."
 EndChar
 
 StartChar: asciitilde
-Encoding: 75 126 75
+Encoding: 126 126 75
 GlifName: asciitilde
 Width: 568
 VWidth: 0
@@ -5353,30 +2595,10 @@ SplineSet
  518 281 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F235
-sS'width'
-p8
-F132
-sa(dp9
-g7
-F308
-sg8
-F132
-sass."
 EndChar
 
 StartChar: asterisk
-Encoding: 76 42 76
+Encoding: 42 42 76
 GlifName: asterisk
 Width: 394
 VWidth: 0
@@ -5409,38 +2631,10 @@ SplineSet
  231 478 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F160
-sS'width'
-p8
-F71
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F478
-sg8
-F307
-sa(dp12
-g7
-F517
-sg8
-F21
-sass."
 EndChar
 
 StartChar: at
-Encoding: 77 64 77
+Encoding: 64 64 77
 GlifName: at
 Width: 803
 VWidth: 0
@@ -5476,58 +2670,10 @@ SplineSet
  501 22 587 47 667 103 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F16
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F205
-sg8
-F340
-sa(dp10
-g7
-F666
-sg8
-F120
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-87
-sg8
-F109
-sa(dp14
-g7
-F116
-sg8
-F403
-sa(dp15
-g7
-F116
-sg8
-F124
-sa(dp16
-g7
-F602
-sg8
-F113
-sass."
 EndChar
 
 StartChar: atilde
-Encoding: 78 227 78
+Encoding: 227 227 78
 GlifName: atilde
 Width: 435
 VWidth: 0
@@ -5541,53 +2687,10 @@ Fore
 Refer: 208 732 N 1 0 0 1 38 476 2
 Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F64
-sg8
-F281
-sa(dp10
-g7
-F268
-sg8
-F116
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F1
-sg8
-F112
-sa(dp14
-g7
-F562
-sg8
-F101
-sa(dp15
-g7
-F602
-sg8
-F102
-sass."
 EndChar
 
 StartChar: b
-Encoding: 79 98 79
+Encoding: 98 98 79
 GlifName: b
 Width: 414
 VWidth: 0
@@ -5619,53 +2722,10 @@ SplineSet
  270 373 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F125
-sa(dp9
-g7
-F270
-sg8
-F118
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sa(dp14
-g7
-F679
-sg8
-F20
-sa(dp15
-g7
-F679
-sg8
-F20
-sass."
 EndChar
 
 StartChar: backslash
-Encoding: 80 92 80
+Encoding: 92 92 80
 GlifName: backslash
 Width: 402
 VWidth: 0
@@ -5683,25 +2743,10 @@ SplineSet
  351 -23 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F301
-sass."
 EndChar
 
 StartChar: bar
-Encoding: 81 124 81
+Encoding: 124 124 81
 GlifName: bar
 Width: 205
 VWidth: 0
@@ -5719,25 +2764,10 @@ SplineSet
  50 754 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F105
-sass."
 EndChar
 
 StartChar: braceleft
-Encoding: 82 123 82
+Encoding: 123 123 82
 GlifName: braceleft
 Width: 407
 VWidth: 0
@@ -5767,38 +2797,10 @@ SplineSet
  112 715 198 735 307 735 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F112
-sS'width'
-p8
-F127
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F-38
-sg8
-F99
-sa(dp12
-g7
-F635
-sg8
-F100
-sass."
 EndChar
 
 StartChar: braceright
-Encoding: 83 125 83
+Encoding: 125 125 83
 GlifName: braceright
 Width: 407
 VWidth: 0
@@ -5829,38 +2831,10 @@ SplineSet
  100 735 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F168
-sS'width'
-p8
-F127
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F-38
-sg8
-F99
-sa(dp12
-g7
-F635
-sg8
-F100
-sass."
 EndChar
 
 StartChar: bracketleft
-Encoding: 84 91 84
+Encoding: 91 91 84
 GlifName: bracketleft
 Width: 258
 VWidth: 0
@@ -5883,43 +2857,10 @@ SplineSet
  244 739 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F194
-sa(dp9
-g7
-F50
-sg8
-F130
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-36
-sg8
-F110
-sa(dp13
-g7
-F629
-sg8
-F110
-sass."
 EndChar
 
 StartChar: bracketright
-Encoding: 85 93 85
+Encoding: 93 93 85
 GlifName: bracketright
 Width: 258
 VWidth: 0
@@ -5942,43 +2883,10 @@ SplineSet
  14 739 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F14
-sS'width'
-p8
-F194
-sa(dp9
-g7
-F78
-sg8
-F130
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-36
-sg8
-F110
-sa(dp13
-g7
-F629
-sg8
-F110
-sass."
 EndChar
 
 StartChar: breve
-Encoding: 86 728 86
+Encoding: 264 728 86
 GlifName: breve
 Width: 244
 VWidth: 0
@@ -5999,38 +2907,10 @@ SplineSet
  218 526 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F64
-sa(dp9
-g7
-F154
-sg8
-F64
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F430
-sg8
-F64
-sass."
 EndChar
 
 StartChar: brokenbar
-Encoding: 87 166 87
+Encoding: 166 166 87
 GlifName: brokenbar
 Width: 222
 VWidth: 0
@@ -6053,25 +2933,10 @@ SplineSet
  50 221 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F122
-sass."
 EndChar
 
 StartChar: bullet
-Encoding: 88 8226 88
+Encoding: 265 8226 88
 GlifName: bullet
 Width: 352
 VWidth: 0
@@ -6091,7 +2956,7 @@ Validated: 1
 EndChar
 
 StartChar: c
-Encoding: 89 99 89
+Encoding: 99 99 89
 GlifName: c
 Width: 418
 VWidth: 0
@@ -6139,38 +3004,10 @@ SplineSet
  30 377 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F119
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F-1
-sg8
-F117
-sa(dp12
-g7
-F496
-sg8
-F20
-sass."
 EndChar
 
 StartChar: caron
-Encoding: 90 711 90
+Encoding: 266 711 90
 GlifName: caron
 Width: 270
 VWidth: 0
@@ -6192,33 +3029,10 @@ SplineSet
  26 666 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F218
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F514
-sg8
-F152
-sass."
 EndChar
 
 StartChar: ccedilla
-Encoding: 91 231 91
+Encoding: 231 231 91
 GlifName: ccedilla
 Width: 418
 VWidth: 0
@@ -6232,48 +3046,10 @@ Fore
 Refer: 92 184 N 1 0 0 1 76 -163 2
 Refer: 89 99 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F119
-sa(dp9
-g7
-F178
-sg8
-F92
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-199
-sg8
-F91
-sa(dp13
-g7
-F-1
-sg8
-F117
-sa(dp14
-g7
-F496
-sg8
-F20
-sass."
 EndChar
 
 StartChar: cedilla
-Encoding: 92 184 92
+Encoding: 184 184 92
 GlifName: cedilla
 Width: 219
 VWidth: 0
@@ -6292,33 +3068,10 @@ SplineSet
  62 55 102 68 102 123 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F102
-sS'width'
-p8
-F92
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F-36
-sg8
-F91
-sass."
 EndChar
 
 StartChar: cent
-Encoding: 93 162 93
+Encoding: 162 162 93
 GlifName: cent
 Width: 494
 VWidth: 0
@@ -6370,40 +3123,10 @@ SplineSet
  283 136 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F158
-sg8
-F71
-sa(dp10
-g7
-F283
-sg8
-F71
-sa(dp11
-g7
-F330
-sg8
-F138
-sass."
 EndChar
 
 StartChar: circumflex
-Encoding: 94 710 94
+Encoding: 267 710 94
 GlifName: circumflex
 Width: 270
 VWidth: 0
@@ -6425,33 +3148,10 @@ SplineSet
  26 514 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F218
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F514
-sg8
-F152
-sass."
 EndChar
 
 StartChar: colon
-Encoding: 95 58 95
+Encoding: 58 58 95
 GlifName: colon
 Width: 250
 VWidth: 0
@@ -6475,38 +3175,10 @@ SplineSet
  83 285 50 318 50 360 c 256
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F150
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F-5
-sg8
-F151
-sa(dp12
-g7
-F285
-sg8
-F151
-sass."
 EndChar
 
 StartChar: comma
-Encoding: 96 44 96
+Encoding: 44 44 96
 GlifName: comma
 Width: 265
 VWidth: 0
@@ -6526,7 +3198,7 @@ Validated: 1
 EndChar
 
 StartChar: copyright
-Encoding: 97 169 97
+Encoding: 169 169 97
 GlifName: copyright
 Width: 859
 VWidth: 0
@@ -6581,58 +3253,10 @@ SplineSet
  447 44 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F89
-sa(dp9
-g7
-F287
-sg8
-F90
-sa(dp10
-g7
-F720
-sg8
-F89
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-49
-sg8
-F93
-sa(dp14
-g7
-F112
-sg8
-F89
-sa(dp15
-g7
-F476
-sg8
-F90
-sa(dp16
-g7
-F636
-sg8
-F90
-sass."
 EndChar
 
 StartChar: currency
-Encoding: 98 164 98
+Encoding: 164 164 98
 GlifName: currency
 Width: 656
 VWidth: 0
@@ -6688,43 +3312,10 @@ SplineSet
  50 540 l 257
 EndSplineSet
 Validated: 5
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F146
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F393
-sg8
-F117
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F133
-sg8
-F118
-sa(dp13
-g7
-F477
-sg8
-F118
-sass."
 EndChar
 
 StartChar: d
-Encoding: 99 100 99
+Encoding: 100 100 99
 GlifName: d
 Width: 414
 VWidth: 0
@@ -6756,48 +3347,10 @@ SplineSet
  384 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F118
-sa(dp9
-g7
-F258
-sg8
-F126
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sa(dp14
-g7
-F678
-sg8
-F20
-sass."
 EndChar
 
 StartChar: dagger
-Encoding: 100 8224 100
+Encoding: 268 8224 100
 GlifName: dagger
 Width: 453
 VWidth: 0
@@ -6824,33 +3377,10 @@ SplineSet
  427 577 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F156
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F450
-sg8
-F127
-sass."
 EndChar
 
 StartChar: daggerdbl
-Encoding: 101 8225 101
+Encoding: 269 8225 101
 GlifName: daggerdbl
 Width: 453
 VWidth: 0
@@ -6885,38 +3415,10 @@ SplineSet
  156 764 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F156
-sS'width'
-p8
-F141
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F131
-sg8
-F127
-sa(dp12
-g7
-F450
-sg8
-F127
-sass."
 EndChar
 
 StartChar: degree
-Encoding: 102 176 102
+Encoding: 176 176 102
 GlifName: degree
 Width: 282
 VWidth: 0
@@ -6940,43 +3442,10 @@ SplineSet
  77 468 25 520 25 583 c 256
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F25
-sS'width'
-p8
-F77
-sa(dp9
-g7
-F179
-sg8
-F77
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F468
-sg8
-F77
-sa(dp13
-g7
-F622
-sg8
-F77
-sass."
 EndChar
 
 StartChar: dieresis
-Encoding: 103 168 103
+Encoding: 168 168 103
 GlifName: dieresis
 Width: 320
 VWidth: 0
@@ -7001,7 +3470,7 @@ Validated: 1
 EndChar
 
 StartChar: divide
-Encoding: 104 247 104
+Encoding: 247 247 104
 GlifName: divide
 Width: 650
 VWidth: 0
@@ -7022,43 +3491,10 @@ EndSplineSet
 Refer: 175 46 N 1 0 0 1 196 415 2
 Refer: 175 46 N 1 0 0 1 196 62 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F213
-sS'width'
-p8
-F150
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F40
-sg8
-F151
-sa(dp12
-g7
-F228
-sg8
-F127
-sa(dp13
-g7
-F393
-sg8
-F151
-sass."
 EndChar
 
 StartChar: dollar
-Encoding: 105 36 105
+Encoding: 36 36 105
 GlifName: dollar
 Width: 501
 VWidth: 0
@@ -7106,40 +3542,10 @@ SplineSet
  213 -47 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F38
-sS'width'
-p8
-F134
-sa(dp9
-g7
-F142
-sg8
-F71
-sa(dp10
-g7
-F268
-sg8
-F71
-sa(dp11
-g7
-F330
-sg8
-F141
-sass."
 EndChar
 
 StartChar: dotaccent
-Encoding: 106 729 106
+Encoding: 270 729 106
 GlifName: dotaccent
 Width: 202
 VWidth: 0
@@ -7158,33 +3564,10 @@ SplineSet
  59 603 26 636 26 678 c 256
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F150
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F603
-sg8
-F151
-sass."
 EndChar
 
 StartChar: dotlessi
-Encoding: 107 305 107
+Encoding: 271 305 107
 GlifName: dotlessi
 Width: 174
 VWidth: 0
@@ -7204,7 +3587,7 @@ Validated: 1
 EndChar
 
 StartChar: e
-Encoding: 108 101 108
+Encoding: 101 101 108
 GlifName: e
 Width: 424
 VWidth: 0
@@ -7250,48 +3633,10 @@ SplineSet
  236 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F122
-sa(dp9
-g7
-F283
-sg8
-F114
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F111
-sa(dp13
-g7
-F208
-sg8
-F116
-sa(dp14
-g7
-F402
-sg8
-F114
-sass."
 EndChar
 
 StartChar: eacute
-Encoding: 109 233 109
+Encoding: 233 233 109
 GlifName: eacute
 Width: 424
 VWidth: 0
@@ -7305,58 +3650,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 116 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F122
-sa(dp9
-g7
-F166
-sg8
-F164
-sa(dp10
-g7
-F283
-sg8
-F114
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F111
-sa(dp14
-g7
-F208
-sg8
-F116
-sa(dp15
-g7
-F402
-sg8
-F114
-sa(dp16
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: ecircumflex
-Encoding: 110 234 110
+Encoding: 234 234 110
 GlifName: ecircumflex
 Width: 424
 VWidth: 0
@@ -7370,58 +3667,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 77 63 2
 Refer: 108 101 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F122
-sa(dp9
-g7
-F103
-sg8
-F218
-sa(dp10
-g7
-F283
-sg8
-F114
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F111
-sa(dp14
-g7
-F208
-sg8
-F116
-sa(dp15
-g7
-F402
-sg8
-F114
-sa(dp16
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: edieresis
-Encoding: 111 235 111
+Encoding: 235 235 111
 GlifName: edieresis
 Width: 424
 VWidth: 0
@@ -7435,48 +3684,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 52 -26 2
 Refer: 108 101 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F122
-sa(dp9
-g7
-F283
-sg8
-F114
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F111
-sa(dp13
-g7
-F208
-sg8
-F116
-sa(dp14
-g7
-F402
-sg8
-F114
-sass."
 EndChar
 
 StartChar: egrave
-Encoding: 112 232 112
+Encoding: 232 232 112
 GlifName: egrave
 Width: 424
 VWidth: 0
@@ -7490,58 +3701,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 44 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F122
-sa(dp9
-g7
-F93
-sg8
-F164
-sa(dp10
-g7
-F283
-sg8
-F114
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F111
-sa(dp14
-g7
-F208
-sg8
-F116
-sa(dp15
-g7
-F402
-sg8
-F114
-sa(dp16
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: eight
-Encoding: 113 56 113
+Encoding: 56 56 113
 GlifName: eight
 Width: 486
 VWidth: 0
@@ -7581,48 +3744,10 @@ SplineSet
  154 165 179 134 212 125 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F128
-sa(dp9
-g7
-F329
-sg8
-F123
-sa(dp10
-g7
-F332
-sg8
-F128
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F125
-sa(dp14
-g7
-F571
-sg8
-F127
-sass."
 EndChar
 
 StartChar: emdash
-Encoding: 114 8212 114
+Encoding: 272 8212 114
 GlifName: emdash
 Width: 906
 VWidth: 0
@@ -7640,25 +3765,10 @@ SplineSet
  880 357 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F230
-sS'width'
-p8
-F127
-sass."
 EndChar
 
 StartChar: endash
-Encoding: 115 8211 115
+Encoding: 273 8211 115
 GlifName: endash
 Width: 532
 VWidth: 0
@@ -7676,25 +3786,10 @@ SplineSet
  506 357 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F230
-sS'width'
-p8
-F127
-sass."
 EndChar
 
 StartChar: equal
-Encoding: 116 61 116
+Encoding: 61 61 116
 GlifName: equal
 Width: 418
 VWidth: 0
@@ -7718,38 +3813,10 @@ SplineSet
  368 452 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F50
-sS'width'
-p8
-F318
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F131
-sg8
-F127
-sa(dp12
-g7
-F325
-sg8
-F127
-sass."
 EndChar
 
 StartChar: eth
-Encoding: 117 240 117
+Encoding: 240 240 117
 GlifName: eth
 Width: 420
 VWidth: 0
@@ -7802,43 +3869,10 @@ SplineSet
  28 376 l 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F28
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F275
-sg8
-F117
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-1
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sass."
 EndChar
 
 StartChar: exclam
-Encoding: 118 33 118
+Encoding: 33 33 118
 GlifName: exclam
 Width: 329
 VWidth: 0
@@ -7863,7 +3897,7 @@ Validated: 1
 EndChar
 
 StartChar: exclamdown
-Encoding: 119 161 119
+Encoding: 161 161 119
 GlifName: exclamdown
 Width: 210
 VWidth: 0
@@ -7887,48 +3921,10 @@ SplineSet
  38 534 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F150
-sa(dp9
-g7
-F38
-sg8
-F129
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F571
-sg8
-F151
-sass."
 EndChar
 
 StartChar: f
-Encoding: 120 102 120
+Encoding: 102 102 120
 GlifName: f
 Width: 304
 VWidth: 0
@@ -7940,7 +3936,7 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-89 552 m 258
+89 552 m 258xb8
  89 597 140 695 243 696 c 258
  304 696 l 257
  277 579 l 257
@@ -7956,51 +3952,13 @@ SplineSet
  26 400 l 257
  26 516 l 257
  89 516 l 257
- 89 552 l 258
+ 89 552 l 258xb8
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F89
-sS'width'
-p8
-F122
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F400
-sg8
-F116
-sa(dp14
-g7
-F579
-sg8
-F117
-sass."
 EndChar
 
 StartChar: fi
-Encoding: 121 64257 121
+Encoding: 274 64257 121
 GlifName: fi
 Width: 494
 VWidth: 0
@@ -8038,63 +3996,10 @@ SplineSet
  89 552 l 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F89
-sS'width'
-p8
-F122
-sa(dp9
-g7
-F322
-sg8
-F146
-sa(dp10
-g7
-F335
-sg8
-F122
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F0
-sg8
-F21
-sa(dp15
-g7
-F400
-sg8
-F116
-sa(dp16
-g7
-F558
-sg8
-F145
-sa(dp17
-g7
-F579
-sg8
-F117
-sass."
 EndChar
 
 StartChar: five
-Encoding: 122 53 122
+Encoding: 53 53 122
 GlifName: five
 Width: 492
 VWidth: 0
@@ -8130,43 +4035,10 @@ SplineSet
  131 175 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F338
-sS'width'
-p8
-F128
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F126
-sa(dp12
-g7
-F324
-sg8
-F123
-sa(dp13
-g7
-F573
-sg8
-F127
-sass."
 EndChar
 
 StartChar: fl
-Encoding: 123 64258 123
+Encoding: 275 64258 123
 GlifName: fl
 Width: 483
 VWidth: 0
@@ -8199,53 +4071,10 @@ SplineSet
  457 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F89
-sS'width'
-p8
-F122
-sa(dp9
-g7
-F331
-sg8
-F126
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F400
-sg8
-F116
-sa(dp15
-g7
-F579
-sg8
-F117
-sass."
 EndChar
 
 StartChar: florin
-Encoding: 124 402 124
+Encoding: 276 402 124
 GlifName: florin
 Width: 382
 VWidth: 0
@@ -8284,43 +4113,10 @@ SplineSet
  141 552 l 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F141
-sS'width'
-p8
-F122
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F-168
-sg8
-F105
-sa(dp12
-g7
-F400
-sg8
-F116
-sa(dp13
-g7
-F579
-sg8
-F117
-sass."
 EndChar
 
 StartChar: four
-Encoding: 125 52 125
+Encoding: 52 52 125
 GlifName: four
 Width: 483
 VWidth: 0
@@ -8351,58 +4147,10 @@ SplineSet
  457 272 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F190
-sa(dp9
-g7
-F273
-sg8
-F184
-sa(dp10
-g7
-F273
-sg8
-F130
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F0
-sg8
-F21
-sa(dp15
-g7
-F145
-sg8
-F127
-sa(dp16
-g7
-F681
-sg8
-F20
-sass."
 EndChar
 
 StartChar: fraction
-Encoding: 126 8260 126
+Encoding: 277 8260 126
 GlifName: fraction
 Width: 560
 VWidth: 0
@@ -8420,25 +4168,10 @@ SplineSet
  26 -2 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F682
-sS'width'
-p8
-F20
-sass."
 EndChar
 
 StartChar: g
-Encoding: 127 103 127
+Encoding: 103 103 127
 GlifName: g
 Width: 415
 VWidth: 0
@@ -8450,27 +4183,27 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-236 -181 m 257
+236 -181 m 257xf4
  26 -181 l 257
  54 -69 l 257
  234 -69 l 257
  265 -68 272 -43 272 -40 c 258
- 272 3 l 257
+ 272 3 l 257xf4
  260 0 248 -1 234 -1 c 258
  231 -1 l 257
- 231 109 l 257
+ 231 109 l 257xf8
  234 109 l 258
  265 110 272 136 272 139 c 258
- 272 374 l 258
+ 272 374 l 258xf4
  272 377 265 403 234 403 c 258
  231 403 l 257
- 231 516 l 257
+ 231 516 l 257xf8
  234 516 l 258
  247 516 261 514 272 511 c 257
- 272 516 l 257
- 389 516 l 257
+ 272 516 l 257xf4
+ 389 516 l 257xf8
  389 -40 l 258
- 389 -83 339 -180 236 -181 c 257
+ 389 -83 339 -180 236 -181 c 257xf4
 189 516 m 258
  192 516 l 257
  192 403 l 257
@@ -8486,53 +4219,10 @@ SplineSet
  36 422 85 516 189 516 c 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F35
-sS'width'
-p8
-F115
-sa(dp9
-g7
-F231
-sg8
-F158
-sa(dp10
-g7
-F272
-sg8
-F117
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-181
-sg8
-F112
-sa(dp14
-g7
-F-1
-sg8
-F113
-sa(dp15
-g7
-F403
-sg8
-F113
-sass."
 EndChar
 
 StartChar: germandbls
-Encoding: 128 223 128
+Encoding: 223 223 128
 GlifName: germandbls
 Width: 522
 VWidth: 0
@@ -8568,53 +4258,10 @@ SplineSet
  155 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F129
-sa(dp9
-g7
-F191
-sg8
-F114
-sa(dp10
-g7
-F294
-sg8
-F112
-sa(dp11
-g7
-F379
-sg8
-F117
-sasS'hhints'
-p12
-(lp13
-(dp14
-g7
-F0
-sg8
-F109
-sa(dp15
-g7
-F586
-sg8
-F119
-sass."
 EndChar
 
 StartChar: grave
-Encoding: 129 96 129
+Encoding: 96 96 129
 GlifName: grave
 Width: 263
 VWidth: 0
@@ -8633,33 +4280,10 @@ SplineSet
  122 605 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F49
-sS'width'
-p8
-F164
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F605
-sg8
-F152
-sass."
 EndChar
 
 StartChar: greater
-Encoding: 130 62 130
+Encoding: 62 62 130
 GlifName: greater
 Width: 414
 VWidth: 0
@@ -8682,7 +4306,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotleft
-Encoding: 131 171 131
+Encoding: 171 171 131
 GlifName: guillemotleft
 Width: 475
 VWidth: 0
@@ -8713,7 +4337,7 @@ Validated: 1
 EndChar
 
 StartChar: guillemotright
-Encoding: 132 187 132
+Encoding: 187 187 132
 GlifName: guillemotright
 Width: 414
 VWidth: 0
@@ -8744,7 +4368,7 @@ Validated: 1
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 133 8249 133
+Encoding: 278 8249 133
 GlifName: guilsinglleft
 Width: 338
 VWidth: 0
@@ -8764,25 +4388,10 @@ SplineSet
  157 500 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F286
-sass."
 EndChar
 
 StartChar: guilsinglright
-Encoding: 134 8250 134
+Encoding: 279 8250 134
 GlifName: guilsinglright
 Width: 338
 VWidth: 0
@@ -8802,25 +4411,10 @@ SplineSet
  181 500 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F286
-sass."
 EndChar
 
 StartChar: h
-Encoding: 135 104 135
+Encoding: 104 104 135
 GlifName: h
 Width: 421
 VWidth: 0
@@ -8855,58 +4449,10 @@ SplineSet
  238 511 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F163
-sa(dp9
-g7
-F30
-sg8
-F115
-sa(dp10
-g7
-F281
-sg8
-F114
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F1
-sg8
-F21
-sa(dp14
-g7
-F1
-sg8
-F21
-sa(dp15
-g7
-F399
-sg8
-F112
-sa(dp16
-g7
-F678
-sg8
-F20
-sass."
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 136 733 136
+Encoding: 280 733 136
 GlifName: hungarumlaut
 Width: 336
 VWidth: 0
@@ -8930,33 +4476,10 @@ SplineSet
  252 605 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F284
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F605
-sg8
-F152
-sass."
 EndChar
 
 StartChar: hyphen
-Encoding: 137 45 137
+Encoding: 45 45 137
 GlifName: hyphen
 Width: 416
 VWidth: 0
@@ -8976,7 +4499,7 @@ Validated: 1
 EndChar
 
 StartChar: i
-Encoding: 138 105 138
+Encoding: 105 105 138
 GlifName: i
 Width: 199
 VWidth: 0
@@ -9000,53 +4523,10 @@ SplineSet
  161 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F146
-sa(dp9
-g7
-F39
-sg8
-F122
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F496
-sg8
-F20
-sa(dp15
-g7
-F558
-sg8
-F145
-sass."
 EndChar
 
 StartChar: iacute
-Encoding: 139 237 139
+Encoding: 237 237 139
 GlifName: iacute
 Width: 199
 VWidth: 0
@@ -9070,43 +4550,10 @@ SplineSet
  144 577 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F39
-sS'width'
-p8
-F122
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F496
-sg8
-F20
-sass."
 EndChar
 
 StartChar: icircumflex
-Encoding: 140 238 140
+Encoding: 238 238 140
 GlifName: icircumflex
 Width: 174
 VWidth: 0
@@ -9120,33 +4567,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 -48 63 2
 Refer: 107 305 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F-22
-sS'width'
-p8
-F218
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: idieresis
-Encoding: 141 239 141
+Encoding: 239 239 141
 GlifName: idieresis
 Width: 199
 VWidth: 0
@@ -9175,58 +4599,10 @@ SplineSet
  -28 576 -61 609 -61 651 c 256
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F-61
-sS'width'
-p8
-F150
-sa(dp9
-g7
-F39
-sg8
-F122
-sa(dp10
-g7
-F109
-sg8
-F150
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F0
-sg8
-F21
-sa(dp15
-g7
-F496
-sg8
-F20
-sa(dp16
-g7
-F576
-sg8
-F151
-sass."
 EndChar
 
 StartChar: igrave
-Encoding: 142 236 142
+Encoding: 236 236 142
 GlifName: igrave
 Width: 199
 VWidth: 0
@@ -9250,43 +4626,10 @@ SplineSet
  54 577 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F39
-sS'width'
-p8
-F122
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F496
-sg8
-F20
-sass."
 EndChar
 
 StartChar: j
-Encoding: 143 106 143
+Encoding: 106 106 143
 GlifName: j
 Width: 194
 VWidth: 0
@@ -9314,48 +4657,10 @@ SplineSet
  137 702 170 668 170 628 c 256
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F24
-sS'width'
-p8
-F146
-sa(dp9
-g7
-F37
-sg8
-F122
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-181
-sg8
-F117
-sa(dp13
-g7
-F496
-sg8
-F20
-sa(dp14
-g7
-F556
-sg8
-F146
-sass."
 EndChar
 
 StartChar: k
-Encoding: 144 107 144
+Encoding: 107 107 144
 GlifName: k
 Width: 452
 VWidth: 0
@@ -9381,48 +4686,10 @@ SplineSet
  296 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F125
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F494
-sg8
-F20
-sa(dp14
-g7
-F678
-sg8
-F20
-sass."
 EndChar
 
 StartChar: l
-Encoding: 145 108 145
+Encoding: 108 108 145
 GlifName: l
 Width: 184
 VWidth: 0
@@ -9441,43 +4708,10 @@ SplineSet
  161 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F131
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F678
-sg8
-F20
-sass."
 EndChar
 
 StartChar: less
-Encoding: 146 60 146
+Encoding: 60 60 146
 GlifName: less
 Width: 414
 VWidth: 0
@@ -9500,7 +4734,7 @@ Validated: 1
 EndChar
 
 StartChar: logicalnot
-Encoding: 147 172 147
+Encoding: 172 172 147
 GlifName: logicalnot
 Width: 502
 VWidth: 0
@@ -9521,33 +4755,10 @@ SplineSet
  476 208 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F358
-sS'width'
-p8
-F118
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F327
-sg8
-F115
-sass."
 EndChar
 
 StartChar: lslash
-Encoding: 148 322 148
+Encoding: 281 322 148
 GlifName: lslash
 Width: 424
 VWidth: 0
@@ -9567,38 +4778,10 @@ SplineSet
 EndSplineSet
 Refer: 145 108 N 1 0 0 1 117 0 2
 Validated: 5
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F147
-sS'width'
-p8
-F131
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F678
-sg8
-F20
-sass."
 EndChar
 
 StartChar: m
-Encoding: 149 109 149
+Encoding: 109 109 149
 GlifName: m
 Width: 684
 VWidth: 0
@@ -9644,53 +4827,10 @@ SplineSet
  280 0 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F280
-sg8
-F124
-sa(dp10
-g7
-F530
-sg8
-F124
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F0
-sg8
-F21
-sa(dp15
-g7
-F398
-sg8
-F121
-sass."
 EndChar
 
 StartChar: macron
-Encoding: 150 175 150
+Encoding: 175 175 150
 GlifName: macron
 Width: 510
 VWidth: 0
@@ -9702,25 +4842,10 @@ Back
 Fore
 Refer: 215 95 N 1 0 0 1 0 917 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F712
-sS'width'
-p8
-F107
-sass."
 EndChar
 
 StartChar: minus
-Encoding: 151 8722 151
+Encoding: 282 8722 151
 GlifName: minus
 Width: 416
 VWidth: 0
@@ -9733,33 +4858,10 @@ Back
 Fore
 Refer: 137 45 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F100
-sS'width'
-p8
-F316
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F230
-sg8
-F127
-sass."
 EndChar
 
 StartChar: mu
-Encoding: 152 181 152
+Encoding: 181 181 152
 GlifName: mu
 Width: 468
 VWidth: 0
@@ -9803,63 +4905,10 @@ SplineSet
  276 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F166
-sa(dp9
-g7
-F26
-sg8
-F124
-sa(dp10
-g7
-F276
-sg8
-F124
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F0
-sg8
-F21
-sa(dp15
-g7
-F179
-sg8
-F121
-sa(dp16
-g7
-F678
-sg8
-F20
-sa(dp17
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: multiply
-Encoding: 153 215 153
+Encoding: 215 215 153
 GlifName: multiply
 Width: 697
 VWidth: 0
@@ -9887,7 +4936,7 @@ Validated: 1
 EndChar
 
 StartChar: n
-Encoding: 154 110 154
+Encoding: 110 110 154
 GlifName: n
 Width: 434
 VWidth: 0
@@ -9919,48 +4968,10 @@ SplineSet
  160 398 154 374 154 372 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F280
-sg8
-F124
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F398
-sg8
-F121
-sass."
 EndChar
 
 StartChar: nine
-Encoding: 155 57 155
+Encoding: 57 57 155
 GlifName: nine
 Width: 504
 VWidth: 0
@@ -9997,48 +5008,10 @@ SplineSet
  478 224 444 6 272 2 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F119
-sa(dp9
-g7
-F349
-sg8
-F129
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F1
-sg8
-F126
-sa(dp13
-g7
-F274
-sg8
-F118
-sa(dp14
-g7
-F576
-sg8
-F124
-sass."
 EndChar
 
 StartChar: ntilde
-Encoding: 156 241 156
+Encoding: 241 241 156
 GlifName: ntilde
 Width: 434
 VWidth: 0
@@ -10052,58 +5025,10 @@ Fore
 Refer: 208 732 N 1 0 0 1 50 476 2
 Refer: 154 110 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F76
-sg8
-F281
-sa(dp10
-g7
-F280
-sg8
-F124
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F398
-sg8
-F121
-sa(dp15
-g7
-F562
-sg8
-F101
-sa(dp16
-g7
-F602
-sg8
-F102
-sass."
 EndChar
 
 StartChar: numbersign
-Encoding: 157 35 157
+Encoding: 35 35 157
 GlifName: numbersign
 Width: 888
 VWidth: 0
@@ -10150,30 +5075,10 @@ SplineSet
  507 404 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F176
-sS'width'
-p8
-F121
-sa(dp9
-g7
-F404
-sg8
-F121
-sass."
 EndChar
 
 StartChar: o
-Encoding: 158 111 158
+Encoding: 111 111 158
 GlifName: o
 Width: 420
 VWidth: 0
@@ -10213,43 +5118,10 @@ SplineSet
  233 398 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F28
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F275
-sg8
-F117
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-1
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sass."
 EndChar
 
 StartChar: oacute
-Encoding: 159 243 159
+Encoding: 243 243 159
 GlifName: oacute
 Width: 420
 VWidth: 0
@@ -10263,53 +5135,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 117 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F28
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F167
-sg8
-F164
-sa(dp10
-g7
-F275
-sg8
-F117
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-1
-sg8
-F118
-sa(dp14
-g7
-F398
-sg8
-F118
-sa(dp15
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: ocircumflex
-Encoding: 160 244 160
+Encoding: 244 244 160
 GlifName: ocircumflex
 Width: 420
 VWidth: 0
@@ -10323,53 +5152,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 78 63 2
 Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F28
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F104
-sg8
-F218
-sa(dp10
-g7
-F275
-sg8
-F117
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-1
-sg8
-F118
-sa(dp14
-g7
-F398
-sg8
-F118
-sa(dp15
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: odieresis
-Encoding: 161 246 161
+Encoding: 246 246 161
 GlifName: odieresis
 Width: 420
 VWidth: 0
@@ -10383,43 +5169,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 52 -26 2
 Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F28
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F275
-sg8
-F117
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-1
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sass."
 EndChar
 
 StartChar: oe
-Encoding: 162 339 162
+Encoding: 283 339 162
 GlifName: oe
 Width: 671
 VWidth: 0
@@ -10483,53 +5236,10 @@ SplineSet
  26 376 l 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F273
-sg8
-F122
-sa(dp10
-g7
-F530
-sg8
-F114
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-1
-sg8
-F114
-sa(dp14
-g7
-F208
-sg8
-F116
-sa(dp15
-g7
-F398
-sg8
-F118
-sass."
 EndChar
 
 StartChar: ograve
-Encoding: 163 242 163
+Encoding: 242 242 163
 GlifName: ograve
 Width: 420
 VWidth: 0
@@ -10543,53 +5253,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 45 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F28
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F94
-sg8
-F164
-sa(dp10
-g7
-F275
-sg8
-F117
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-1
-sg8
-F118
-sa(dp14
-g7
-F398
-sg8
-F118
-sa(dp15
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: one
-Encoding: 164 49 164
+Encoding: 49 49 164
 GlifName: one
 Width: 266
 VWidth: 0
@@ -10611,53 +5278,10 @@ SplineSet
  106 499 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F206
-sa(dp9
-g7
-F106
-sg8
-F130
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F0
-sg8
-F21
-sa(dp14
-g7
-F679
-sg8
-F20
-sa(dp15
-g7
-F679
-sg8
-F20
-sass."
 EndChar
 
 StartChar: onehalf
-Encoding: 165 189 165
+Encoding: 189 189 165
 GlifName: onehalf
 Width: 581
 VWidth: 0
@@ -10712,53 +5336,10 @@ SplineSet
  114 597 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F76
-sS'width'
-p8
-F106
-sa(dp9
-g7
-F114
-sg8
-F68
-sa(dp10
-g7
-F490
-sg8
-F64
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-1
-sg8
-F66
-sa(dp14
-g7
-F288
-sg8
-F66
-sa(dp15
-g7
-F682
-sg8
-F20
-sass."
 EndChar
 
 StartChar: onequarter
-Encoding: 166 188 166
+Encoding: 188 188 166
 GlifName: onequarter
 Width: 560
 VWidth: 0
@@ -10802,68 +5383,10 @@ SplineSet
  26 -2 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F75
-sS'width'
-p8
-F106
-sa(dp9
-g7
-F113
-sg8
-F68
-sa(dp10
-g7
-F270
-sg8
-F98
-sa(dp11
-g7
-F393
-sg8
-F95
-sa(dp12
-g7
-F393
-sg8
-F68
-sasS'hhints'
-p13
-(lp14
-(dp15
-g7
-F-1
-sg8
-F21
-sa(dp16
-g7
-F-1
-sg8
-F21
-sa(dp17
-g7
-F71
-sg8
-F66
-sa(dp18
-g7
-F682
-sg8
-F20
-sass."
 EndChar
 
 StartChar: ordfeminine
-Encoding: 167 170 167
+Encoding: 170 170 167
 GlifName: ordfeminine
 Width: 227
 VWidth: 0
@@ -10922,7 +5445,7 @@ Validated: 1
 EndChar
 
 StartChar: ordmasculine
-Encoding: 168 186 168
+Encoding: 186 186 168
 GlifName: ordmasculine
 Width: 230
 VWidth: 0
@@ -10967,48 +5490,10 @@ SplineSet
  32 637 l 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F32
-sS'width'
-p8
-F56
-sa(dp9
-g7
-F141
-sg8
-F55
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F361
-sg8
-F71
-sa(dp13
-g7
-F470
-sg8
-F55
-sa(dp14
-g7
-F645
-sg8
-F55
-sass."
 EndChar
 
 StartChar: oslash
-Encoding: 169 248 169
+Encoding: 248 248 169
 GlifName: oslash
 Width: 498
 VWidth: 0
@@ -11055,43 +5540,10 @@ SplineSet
  445 490 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F67
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F314
-sg8
-F117
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-1
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sass."
 EndChar
 
 StartChar: otilde
-Encoding: 170 245 170
+Encoding: 245 245 170
 GlifName: otilde
 Width: 420
 VWidth: 0
@@ -11105,58 +5557,10 @@ Fore
 Refer: 208 732 N 1 0 0 1 46 473 2
 Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F28
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F72
-sg8
-F281
-sa(dp10
-g7
-F275
-sg8
-F117
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-1
-sg8
-F118
-sa(dp14
-g7
-F398
-sg8
-F118
-sa(dp15
-g7
-F559
-sg8
-F101
-sa(dp16
-g7
-F599
-sg8
-F102
-sass."
 EndChar
 
 StartChar: p
-Encoding: 171 112 171
+Encoding: 112 112 171
 GlifName: p
 Width: 422
 VWidth: 0
@@ -11188,43 +5592,10 @@ SplineSet
  30 516 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F125
-sa(dp9
-g7
-F276
-sg8
-F120
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sass."
 EndChar
 
 StartChar: paragraph
-Encoding: 172 182 172
+Encoding: 182 182 172
 GlifName: paragraph
 Width: 444
 VWidth: 0
@@ -11251,7 +5622,7 @@ Validated: 1
 EndChar
 
 StartChar: parenleft
-Encoding: 173 40 173
+Encoding: 40 40 173
 GlifName: parenleft
 Width: 262
 VWidth: 0
@@ -11276,7 +5647,7 @@ Validated: 1
 EndChar
 
 StartChar: parenright
-Encoding: 174 41 174
+Encoding: 41 41 174
 GlifName: parenright
 Width: 330
 VWidth: 0
@@ -11299,25 +5670,10 @@ SplineSet
  101 746 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F161
-sS'width'
-p8
-F119
-sass."
 EndChar
 
 StartChar: period
-Encoding: 175 46 175
+Encoding: 46 46 175
 GlifName: period
 Width: 250
 VWidth: 0
@@ -11337,7 +5693,7 @@ Validated: 1
 EndChar
 
 StartChar: periodcentered
-Encoding: 176 183 176
+Encoding: 183 183 176
 GlifName: periodcentered
 Width: 250
 VWidth: 0
@@ -11350,33 +5706,10 @@ Back
 Fore
 Refer: 175 46 N 1 0 0 1 0 292 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F17
-sS'width'
-p8
-F150
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F270
-sg8
-F151
-sass."
 EndChar
 
 StartChar: perthousand
-Encoding: 177 8240 177
+Encoding: 284 8240 177
 GlifName: perthousand
 Width: 897
 VWidth: 0
@@ -11467,68 +5800,10 @@ SplineSet
  748 352 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F68
-sa(dp9
-g7
-F178
-sg8
-F68
-sa(dp10
-g7
-F393
-sg8
-F68
-sa(dp11
-g7
-F546
-sg8
-F68
-sa(dp12
-g7
-F651
-sg8
-F68
-sa(dp13
-g7
-F804
-sg8
-F68
-sasS'hhints'
-p14
-(lp15
-(dp16
-g7
-F0
-sg8
-F65
-sa(dp17
-g7
-F287
-sg8
-F65
-sa(dp18
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: plus
-Encoding: 178 43 178
+Encoding: 43 43 178
 GlifName: plus
 Width: 475
 VWidth: 0
@@ -11556,7 +5831,7 @@ Validated: 1
 EndChar
 
 StartChar: plusminus
-Encoding: 179 177 179
+Encoding: 177 177 179
 GlifName: plusminus
 Width: 575
 VWidth: 0
@@ -11576,38 +5851,10 @@ SplineSet
 EndSplineSet
 Refer: 178 43 N 1 0 0 1 0 161 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F223
-sS'width'
-p8
-F127
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F40
-sg8
-F127
-sa(dp12
-g7
-F391
-sg8
-F127
-sass."
 EndChar
 
 StartChar: q
-Encoding: 180 113 180
+Encoding: 113 113 180
 GlifName: q
 Width: 416
 VWidth: 0
@@ -11639,43 +5886,10 @@ SplineSet
  385 516 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F120
-sa(dp9
-g7
-F262
-sg8
-F124
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sass."
 EndChar
 
 StartChar: question
-Encoding: 181 63 181
+Encoding: 63 63 181
 GlifName: question
 Width: 460
 VWidth: 0
@@ -11706,53 +5920,10 @@ SplineSet
  167 575 133 554 112 526 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F122
-sS'width'
-p8
-F151
-sa(dp9
-g7
-F134
-sg8
-F129
-sa(dp10
-g7
-F302
-sg8
-F128
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-22
-sg8
-F151
-sa(dp14
-g7
-F166
-sg8
-F220
-sa(dp15
-g7
-F575
-sg8
-F128
-sass."
 EndChar
 
 StartChar: questiondown
-Encoding: 182 191 182
+Encoding: 191 191 182
 GlifName: questiondown
 Width: 460
 VWidth: 0
@@ -11782,53 +5953,10 @@ SplineSet
  155 560 122 594 122 636 c 256
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F122
-sS'width'
-p8
-F151
-sa(dp9
-g7
-F134
-sg8
-F129
-sa(dp10
-g7
-F302
-sg8
-F128
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-14
-sg8
-F128
-sa(dp14
-g7
-F303
-sg8
-F220
-sa(dp15
-g7
-F560
-sg8
-F151
-sass."
 EndChar
 
 StartChar: quotedbl
-Encoding: 183 34 183
+Encoding: 34 34 183
 GlifName: quotedbl
 Width: 407
 VWidth: 0
@@ -11853,7 +5981,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedbl.alt
-Encoding: 184 -1 184
+Encoding: 285 -1 184
 GlifName: quotedbl.alt
 Width: 359
 VWidth: 0
@@ -11877,38 +6005,10 @@ SplineSet
  333 476 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F127
-sa(dp9
-g7
-F206
-sg8
-F127
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F476
-sg8
-F224
-sass."
 EndChar
 
 StartChar: quotedblbase
-Encoding: 185 8222 185
+Encoding: 286 8222 185
 GlifName: quotedblbase
 Width: 359
 VWidth: 0
@@ -11921,38 +6021,10 @@ Back
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F127
-sa(dp9
-g7
-F206
-sg8
-F127
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F465
-sg8
-F271
-sass."
 EndChar
 
 StartChar: quotedblleft
-Encoding: 186 8220 186
+Encoding: 287 8220 186
 GlifName: quotedblleft
 Width: 359
 VWidth: 0
@@ -11965,38 +6037,10 @@ Back
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F127
-sa(dp9
-g7
-F206
-sg8
-F127
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F465
-sg8
-F271
-sass."
 EndChar
 
 StartChar: quotedblright
-Encoding: 187 8221 187
+Encoding: 288 8221 187
 GlifName: quotedblright
 Width: 359
 VWidth: 0
@@ -12009,38 +6053,10 @@ Back
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F127
-sa(dp9
-g7
-F206
-sg8
-F127
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F465
-sg8
-F271
-sass."
 EndChar
 
 StartChar: quoteleft
-Encoding: 188 8216 188
+Encoding: 289 8216 188
 GlifName: quoteleft
 Width: 187
 VWidth: 0
@@ -12053,33 +6069,10 @@ Back
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F127
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F465
-sg8
-F271
-sass."
 EndChar
 
 StartChar: quoteright
-Encoding: 189 8217 189
+Encoding: 290 8217 189
 GlifName: quoteright
 Width: 187
 VWidth: 0
@@ -12092,33 +6085,10 @@ Back
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F127
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F465
-sg8
-F271
-sass."
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 190 8218 190
+Encoding: 291 8218 190
 GlifName: quotesinglbase
 Width: 187
 VWidth: 0
@@ -12131,33 +6101,10 @@ Back
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F127
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F465
-sg8
-F271
-sass."
 EndChar
 
 StartChar: quotesingle
-Encoding: 191 39 191
+Encoding: 39 39 191
 GlifName: quotesingle
 Width: 227
 VWidth: 0
@@ -12177,7 +6124,7 @@ Validated: 1
 EndChar
 
 StartChar: r
-Encoding: 192 114 192
+Encoding: 114 114 192
 GlifName: r
 Width: 316
 VWidth: 0
@@ -12201,43 +6148,10 @@ SplineSet
  36 516 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F36
-sS'width'
-p8
-F124
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F395
-sg8
-F121
-sass."
 EndChar
 
 StartChar: registered
-Encoding: 193 174 193
+Encoding: 174 174 193
 GlifName: registered
 Width: 404
 VWidth: 0
@@ -12288,63 +6202,10 @@ SplineSet
  151 627 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F40
-sa(dp9
-g7
-F151
-sg8
-F39
-sa(dp10
-g7
-F234
-sg8
-F36
-sa(dp11
-g7
-F334
-sg8
-F40
-sasS'hhints'
-p12
-(lp13
-(dp14
-g7
-F354
-sg8
-F42
-sa(dp15
-g7
-F511
-sg8
-F36
-sa(dp16
-g7
-F591
-sg8
-F37
-sa(dp17
-g7
-F662
-sg8
-F41
-sass."
 EndChar
 
 StartChar: ring
-Encoding: 194 730 194
+Encoding: 292 730 194
 GlifName: ring
 Width: 244
 VWidth: 0
@@ -12368,43 +6229,10 @@ SplineSet
  69 430 26 473 26 526 c 256
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F64
-sa(dp9
-g7
-F154
-sg8
-F64
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F430
-sg8
-F64
-sa(dp13
-g7
-F558
-sg8
-F64
-sass."
 EndChar
 
 StartChar: s
-Encoding: 195 115 195
+Encoding: 115 115 195
 GlifName: s
 Width: 418
 VWidth: 0
@@ -12451,38 +6279,10 @@ SplineSet
  182 406 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F112
-sa(dp9
-g7
-F280
-sg8
-F117
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F404
-sg8
-F113
-sass."
 EndChar
 
 StartChar: scaron
-Encoding: 196 353 196
+Encoding: 293 353 196
 GlifName: scaron
 Width: 418
 VWidth: 0
@@ -12496,48 +6296,10 @@ Fore
 Refer: 90 711 N 1 0 0 1 71 64 2
 Refer: 195 115 N 1 0 0 1 5 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F31
-sS'width'
-p8
-F112
-sa(dp9
-g7
-F97
-sg8
-F218
-sa(dp10
-g7
-F285
-sg8
-F117
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F404
-sg8
-F113
-sa(dp14
-g7
-F578
-sg8
-F152
-sass."
 EndChar
 
 StartChar: section
-Encoding: 197 167 197
+Encoding: 167 167 197
 GlifName: section
 Width: 547
 VWidth: 0
@@ -12585,53 +6347,10 @@ SplineSet
  88 710 197 759 265 759 c 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F141
-sa(dp9
-g7
-F88
-sg8
-F131
-sa(dp10
-g7
-F328
-sg8
-F131
-sa(dp11
-g7
-F380
-sg8
-F141
-sasS'hhints'
-p12
-(lp13
-(dp14
-g7
-F-136
-sg8
-F132
-sa(dp15
-g7
-F627
-sg8
-F132
-sass."
 EndChar
 
 StartChar: semicolon
-Encoding: 198 59 198
+Encoding: 59 59 198
 GlifName: semicolon
 Width: 291
 VWidth: 0
@@ -12655,38 +6374,10 @@ SplineSet
  177 -23 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F91
-sS'width'
-p8
-F150
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F-23
-sg8
-F152
-sa(dp12
-g7
-F285
-sg8
-F151
-sass."
 EndChar
 
 StartChar: seven
-Encoding: 199 55 199
+Encoding: 55 55 199
 GlifName: seven
 Width: 435
 VWidth: 0
@@ -12712,40 +6403,10 @@ SplineSet
  153 158 181 295 223 450 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F0
-sS'width'
-p8
-F21
-sa(dp9
-g7
-F0
-sg8
-F21
-sa(dp10
-g7
-F510
-sg8
-F188
-sa(dp11
-g7
-F572
-sg8
-F126
-sass."
 EndChar
 
 StartChar: six
-Encoding: 200 54 200
+Encoding: 54 54 200
 GlifName: six
 Width: 497
 VWidth: 0
@@ -12783,48 +6444,10 @@ SplineSet
  26 475 55 675 228 697 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F356
-sg8
-F115
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-1
-sg8
-F125
-sa(dp13
-g7
-F307
-sg8
-F118
-sa(dp14
-g7
-F573
-sg8
-F125
-sass."
 EndChar
 
 StartChar: slash
-Encoding: 201 47 201
+Encoding: 47 47 201
 GlifName: slash
 Width: 401
 VWidth: 0
@@ -12844,7 +6467,7 @@ Validated: 1
 EndChar
 
 StartChar: space
-Encoding: 202 32 202
+Encoding: 32 32 202
 GlifName: space
 Width: 300
 VWidth: 0
@@ -12857,7 +6480,7 @@ Validated: 1
 EndChar
 
 StartChar: sterling
-Encoding: 203 163 203
+Encoding: 163 163 203
 GlifName: sterling
 Width: 520
 VWidth: 0
@@ -12892,43 +6515,10 @@ SplineSet
  371 520 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F106
-sS'width'
-p8
-F132
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F108
-sa(dp12
-g7
-F289
-sg8
-F107
-sa(dp13
-g7
-F584
-sg8
-F121
-sass."
 EndChar
 
 StartChar: t
-Encoding: 204 116 204
+Encoding: 116 116 204
 GlifName: t
 Width: 324
 VWidth: 0
@@ -12959,44 +6549,11 @@ SplineSet
  211 145 216 126 244 125 c 258
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F89
-sS'width'
-p8
-F122
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F125
-sa(dp12
-g7
-F398
-sg8
-F118
-sa(dp13
-g7
-F680
-sg8
-F20
-sass."
 Kerns2: 204 -41 "'kern' Horizontal Kerning lookup 0-2"
 EndChar
 
 StartChar: thorn
-Encoding: 205 254 205
+Encoding: 254 254 205
 GlifName: thorn
 Width: 422
 VWidth: 0
@@ -13028,48 +6585,10 @@ SplineSet
  30 700 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F125
-sa(dp9
-g7
-F276
-sg8
-F120
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F118
-sa(dp13
-g7
-F398
-sg8
-F118
-sa(dp14
-g7
-F680
-sg8
-F20
-sass."
 EndChar
 
 StartChar: three
-Encoding: 206 51 206
+Encoding: 51 51 206
 GlifName: three
 Width: 484
 VWidth: 0
@@ -13107,43 +6626,10 @@ SplineSet
  132 160 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F327
-sS'width'
-p8
-F131
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F122
-sa(dp12
-g7
-F286
-sg8
-F124
-sa(dp13
-g7
-F574
-sg8
-F124
-sass."
 EndChar
 
 StartChar: threequarters
-Encoding: 207 190 207
+Encoding: 190 190 207
 GlifName: threequarters
 Width: 584
 VWidth: 0
@@ -13213,73 +6699,10 @@ SplineSet
  50 -2 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F177
-sS'width'
-p8
-F68
-sa(dp9
-g7
-F294
-sg8
-F98
-sa(dp10
-g7
-F417
-sg8
-F95
-sa(dp11
-g7
-F417
-sg8
-F68
-sasS'hhints'
-p12
-(lp13
-(dp14
-g7
-F-1
-sg8
-F21
-sa(dp15
-g7
-F-1
-sg8
-F21
-sa(dp16
-g7
-F71
-sg8
-F66
-sa(dp17
-g7
-F348
-sg8
-F66
-sa(dp18
-g7
-F492
-sg8
-F65
-sa(dp19
-g7
-F636
-sg8
-F64
-sass."
 EndChar
 
 StartChar: tilde
-Encoding: 208 732 208
+Encoding: 294 732 208
 GlifName: tilde
 Width: 333
 VWidth: 0
@@ -13302,38 +6725,10 @@ SplineSet
  307 114 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F281
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F86
-sg8
-F101
-sa(dp12
-g7
-F126
-sg8
-F102
-sass."
 EndChar
 
 StartChar: two
-Encoding: 209 50 209
+Encoding: 50 50 209
 GlifName: two
 Width: 480
 VWidth: 0
@@ -13369,38 +6764,10 @@ SplineSet
  330 547 300 572 245 574 c 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F330
-sS'width'
-p8
-F123
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F127
-sa(dp12
-g7
-F574
-sg8
-F126
-sass."
 EndChar
 
 StartChar: u
-Encoding: 210 117 210
+Encoding: 117 117 210
 GlifName: u
 Width: 434
 VWidth: 0
@@ -13432,43 +6799,10 @@ SplineSet
  30 514 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F280
-sg8
-F124
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F121
-sa(dp13
-g7
-F494
-sg8
-F20
-sass."
 EndChar
 
 StartChar: uacute
-Encoding: 211 250 211
+Encoding: 250 250 211
 GlifName: uacute
 Width: 434
 VWidth: 0
@@ -13482,53 +6816,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 122 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F172
-sg8
-F164
-sa(dp10
-g7
-F280
-sg8
-F124
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F121
-sa(dp14
-g7
-F494
-sg8
-F20
-sa(dp15
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: ucircumflex
-Encoding: 212 251 212
+Encoding: 251 251 212
 GlifName: ucircumflex
 Width: 434
 VWidth: 0
@@ -13542,53 +6833,10 @@ Fore
 Refer: 94 710 N 1 0 0 1 82 63 2
 Refer: 210 117 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F108
-sg8
-F218
-sa(dp10
-g7
-F280
-sg8
-F124
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F121
-sa(dp14
-g7
-F494
-sg8
-F20
-sa(dp15
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: udieresis
-Encoding: 213 252 213
+Encoding: 252 252 213
 GlifName: udieresis
 Width: 434
 VWidth: 0
@@ -13602,43 +6850,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 57 -26 2
 Refer: 210 117 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F280
-sg8
-F124
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F-5
-sg8
-F121
-sa(dp13
-g7
-F494
-sg8
-F20
-sass."
 EndChar
 
 StartChar: ugrave
-Encoding: 214 249 214
+Encoding: 249 249 214
 GlifName: ugrave
 Width: 434
 VWidth: 0
@@ -13652,53 +6867,10 @@ Fore
 Refer: 129 96 N 1 0 0 1 50 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F30
-sS'width'
-p8
-F124
-sa(dp9
-g7
-F99
-sg8
-F164
-sa(dp10
-g7
-F280
-sg8
-F124
-sasS'hhints'
-p11
-(lp12
-(dp13
-g7
-F-5
-sg8
-F121
-sa(dp14
-g7
-F494
-sg8
-F20
-sa(dp15
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: underscore
-Encoding: 215 95 215
+Encoding: 95 95 215
 GlifName: underscore
 Width: 510
 VWidth: 0
@@ -13716,25 +6888,10 @@ SplineSet
  480 -205 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F-205
-sS'width'
-p8
-F107
-sass."
 EndChar
 
 StartChar: uni007F
-Encoding: 216 127 216
+Encoding: 127 127 216
 GlifName: uni007F_
 Width: 1024
 VWidth: 0
@@ -13747,7 +6904,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00AD
-Encoding: 217 173 217
+Encoding: 173 173 217
 GlifName: uni00A_D_
 Width: 516
 VWidth: 0
@@ -13760,33 +6917,10 @@ Back
 Fore
 Refer: 137 45 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F100
-sS'width'
-p8
-F316
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F230
-sg8
-F127
-sass."
 EndChar
 
 StartChar: uni00B2
-Encoding: 218 178 218
+Encoding: 178 178 218
 GlifName: uni00B_2
 Width: 245
 VWidth: 0
@@ -13829,7 +6963,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B3
-Encoding: 219 179 219
+Encoding: 179 179 219
 GlifName: uni00B_3
 Width: 247
 VWidth: 0
@@ -13879,43 +7013,10 @@ SplineSet
  78 623 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F157
-sS'width'
-p8
-F64
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F392
-sg8
-F60
-sa(dp12
-g7
-F516
-sg8
-F61
-sa(dp13
-g7
-F640
-sg8
-F61
-sass."
 EndChar
 
 StartChar: uni00B9
-Encoding: 220 185 220
+Encoding: 185 185 220
 GlifName: uni00B_9
 Width: 186
 VWidth: 0
@@ -13937,38 +7038,10 @@ SplineSet
  93 610 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F60
-sS'width'
-p8
-F101
-sa(dp9
-g7
-F93
-sg8
-F68
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F391
-sg8
-F309
-sass."
 EndChar
 
 StartChar: v
-Encoding: 221 118 221
+Encoding: 118 118 221
 GlifName: v
 Width: 400
 VWidth: 0
@@ -13993,35 +7066,10 @@ SplineSet
  269 516 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F0
-sS'width'
-p8
-F21
-sa(dp9
-g7
-F0
-sg8
-F21
-sa(dp10
-g7
-F496
-sg8
-F20
-sass."
 EndChar
 
 StartChar: w
-Encoding: 222 119 222
+Encoding: 119 119 222
 GlifName: w
 Width: 577
 VWidth: 0
@@ -14032,12 +7080,12 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-160 0 m 257
+160 0 m 257xa0
  8 515 l 257
  144 516 l 257
  261 120 l 257
  222 0 l 257
- 160 0 l 257
+ 160 0 l 257xa0
 348 0 m 257
  190 515 l 257
  328 516 l 257
@@ -14052,35 +7100,10 @@ SplineSet
  443 516 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F0
-sS'width'
-p8
-F21
-sa(dp9
-g7
-F0
-sg8
-F21
-sa(dp10
-g7
-F496
-sg8
-F20
-sass."
 EndChar
 
 StartChar: x
-Encoding: 223 120 223
+Encoding: 120 120 223
 GlifName: x
 Width: 381
 VWidth: 0
@@ -14091,7 +7114,7 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-132 262 m 257
+132 262 m 257xa0
  22 516 l 257
  147 516 l 257
  200 399 l 257
@@ -14103,38 +7126,13 @@ SplineSet
  200 126 l 257
  143 0 l 257
  18 0 l 257
- 132 262 l 257
+ 132 262 l 257xa0
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'hhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F0
-sS'width'
-p8
-F21
-sa(dp9
-g7
-F0
-sg8
-F21
-sa(dp10
-g7
-F496
-sg8
-F19
-sass."
 EndChar
 
 StartChar: y
-Encoding: 224 121 224
+Encoding: 121 121 224
 GlifName: y
 Width: 383
 VWidth: 0
@@ -14163,33 +7161,10 @@ SplineSet
  251 515 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F188
-sS'width'
-p8
-F1
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F495
-sg8
-F20
-sass."
 EndChar
 
 StartChar: yacute
-Encoding: 225 253 225
+Encoding: 253 253 225
 GlifName: yacute
 Width: 383
 VWidth: 0
@@ -14203,43 +7178,10 @@ Fore
 Refer: 68 180 N 1 0 0 1 95 -28 2
 Refer: 224 121 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F145
-sS'width'
-p8
-F164
-sa(dp9
-g7
-F188
-sg8
-F1
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F495
-sg8
-F20
-sa(dp13
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: ydieresis
-Encoding: 226 255 226
+Encoding: 255 255 226
 GlifName: ydieresis
 Width: 383
 VWidth: 0
@@ -14253,33 +7195,10 @@ Fore
 Refer: 103 168 N 1 0 0 1 31 -26 2
 Refer: 224 121 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F188
-sS'width'
-p8
-F1
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F495
-sg8
-F20
-sass."
 EndChar
 
 StartChar: yen
-Encoding: 227 165 227
+Encoding: 165 165 227
 GlifName: yen
 Width: 542
 VWidth: 0
@@ -14317,53 +7236,10 @@ SplineSet
  73 698 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F203
-sS'width'
-p8
-F137
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F21
-sa(dp12
-g7
-F0
-sg8
-F21
-sa(dp13
-g7
-F238
-sg8
-F57
-sa(dp14
-g7
-F351
-sg8
-F58
-sa(dp15
-g7
-F678
-sg8
-F20
-sass."
 EndChar
 
 StartChar: z
-Encoding: 228 122 228
+Encoding: 122 122 228
 GlifName: z
 Width: 348
 VWidth: 0
@@ -14388,38 +7264,10 @@ SplineSet
  322 400 l 257
 EndSplineSet
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F296
-sasS'hhints'
-p9
-(lp10
-(dp11
-g7
-F0
-sg8
-F118
-sa(dp12
-g7
-F394
-sg8
-F120
-sass."
 EndChar
 
 StartChar: zcaron
-Encoding: 229 382 229
+Encoding: 295 382 229
 GlifName: zcaron
 Width: 348
 VWidth: 0
@@ -14433,48 +7281,10 @@ Fore
 Refer: 90 711 N 1 0 0 1 41 63 2
 Refer: 228 122 N 1 0 0 1 0 0 2
 Validated: 1
-PickledDataWithLists: "(dp1
-S'com.fontlab.hintData'
-p2
-(dp3
-S'vhints'
-p4
-(lp5
-(dp6
-S'position'
-p7
-F26
-sS'width'
-p8
-F296
-sa(dp9
-g7
-F67
-sg8
-F218
-sasS'hhints'
-p10
-(lp11
-(dp12
-g7
-F0
-sg8
-F118
-sa(dp13
-g7
-F394
-sg8
-F120
-sa(dp14
-g7
-F577
-sg8
-F152
-sass."
 EndChar
 
 StartChar: zero
-Encoding: 230 48 230
+Encoding: 48 48 230
 GlifName: zero
 Width: 1024
 VWidth: 0
