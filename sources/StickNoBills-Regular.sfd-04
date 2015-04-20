@@ -47,10 +47,10 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] "'kern' Horizontal Kerning lookup 0-2" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 6 6 "'kern' Horizontal Kerning lookup 0-1"
+KernClass2: 6 5 "'kern' Horizontal Kerning lookup 0-1"
  1 A
  7 T Y P F
  9 f r v w y
@@ -60,8 +60,7 @@ KernClass2: 6 6 "'kern' Horizontal Kerning lookup 0-1"
  12 period comma
  5 a e s
  1 A
- 5 w v t
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 61 {} -30 {} 0 {} -68 {} 0 {} 16 {} -80 {} -30 {} 0 {} -23 {} 0 {} 0 {} -41 {} 51 {} 0 {} 99 {} 0 {} -82 {} 0 {} 84 {} 0 {} -77 {} 0 {} 0 {} -109 {} -55 {} -82 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 61 {} 52 {} 0 {} 0 {} 16 {} -80 {} -30 {} 0 {} 0 {} 0 {} -41 {} 51 {} 0 {} 0 {} -82 {} 0 {} 84 {} 0 {} 0 {} 0 {} -109 {} -55 {} -82 {}
 LangName: 1033 "Remove All VKern Pairs" "" "" "SNBMooniak" "" "Version 1.0.1" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "Stick No Bills" "Regular"
 PickledDataWithLists: "(dp1
 S'public.glyphOrder'
@@ -495,7 +494,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 168 12 6
+WinInfo: 0 12 6
 BeginPrivate: 0
 EndPrivate
 BeginChars: 231 231
@@ -12991,7 +12990,6 @@ F680
 sg8
 F20
 sass."
-Kerns2: 204 -41 "'kern' Horizontal Kerning lookup 0-2"
 EndChar
 
 StartChar: thorn
