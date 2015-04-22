@@ -44,6 +44,10 @@ following the format of the other entries, to the start of this section.
 5th April 2015 (mooniak) STICK NO BILLS v1.0.1
 - Adobe Latin 1 Support (229 glyphs) covering major Western European Latin languages (Support for Afrikaans, Basque, Breton, Catalan, Danish, Dutch, English, Finnish, French, Gaelic, German, Icelandic, Indonesian, Irish, Italian, Norwegian, Portuguese, Sami, Spanish, Swahili and Swedish)
 
+23rd April 2015 (mooniak) STICK NO BILLS v1.1.0
+- Major Release
+- Italic added and hinted with ttfautohint
+
 
 Acknowledgements
 -------------------------
@@ -60,4 +64,4 @@ D: Initial concept design
 N: Kosala Senevirathne
 E: kosala@mooniak.com
 W: -
-D: Designer - Design and full Adobe Latin 1 support. 
+D: Designer - Design and full Adobe Latin 1 support. Italics 
