@@ -4,23 +4,9 @@
   <unicode hex="0075"/>
   <outline>
     <contour>
-      <point x="238" y="116" type="line"/>
-      <point x="243" y="116" type="line" smooth="yes"/>
-      <point x="274" y="116"/>
-      <point x="280" y="140"/>
-      <point x="280" y="142" type="curve"/>
-      <point x="280" y="514" type="line"/>
-      <point x="404" y="514" type="line"/>
-      <point x="404" y="137" type="line" smooth="yes"/>
-      <point x="404" y="92"/>
-      <point x="350" y="-5"/>
-      <point x="243" y="-5" type="curve" smooth="yes"/>
-      <point x="238" y="-5" type="line"/>
-    </contour>
-    <contour>
       <point x="30" y="514" type="line"/>
       <point x="154" y="514" type="line"/>
-      <point x="154" y="142" type="line"/>
+      <point x="154" y="142" type="line" smooth="yes"/>
       <point x="154" y="139"/>
       <point x="160" y="116"/>
       <point x="191" y="116" type="curve" smooth="yes"/>
@@ -31,42 +17,19 @@
       <point x="30" y="89"/>
       <point x="30" y="137" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="238" y="116" type="line"/>
+      <point x="243" y="116" type="line" smooth="yes"/>
+      <point x="274" y="116"/>
+      <point x="280" y="140"/>
+      <point x="280" y="142" type="curve" smooth="yes"/>
+      <point x="280" y="514" type="line"/>
+      <point x="404" y="514" type="line"/>
+      <point x="404" y="137" type="line" smooth="yes"/>
+      <point x="404" y="92"/>
+      <point x="350" y="-5"/>
+      <point x="243" y="-5" type="curve" smooth="yes"/>
+      <point x="238" y="-5" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-5</integer>
-            <key>width</key>
-            <integer>121</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>494</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>30</integer>
-            <key>width</key>
-            <integer>124</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>280</integer>
-            <key>width</key>
-            <integer>124</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

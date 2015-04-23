@@ -4,11 +4,20 @@
   <unicode hex="2122"/>
   <outline>
     <contour>
-      <point x="188" y="484" type="line"/>
-      <point x="188" y="628" type="line"/>
-      <point x="191" y="628" type="line"/>
-      <point x="236" y="522" type="line"/>
-      <point x="236" y="484" type="line"/>
+      <point x="165" y="700" type="line"/>
+      <point x="165" y="653" type="line"/>
+      <point x="120" y="653" type="line"/>
+      <point x="120" y="484" type="line"/>
+      <point x="72" y="484" type="line"/>
+      <point x="72" y="653" type="line"/>
+      <point x="26" y="653" type="line"/>
+      <point x="26" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="330" y="700" type="line"/>
+      <point x="377" y="700" type="line"/>
+      <point x="377" y="484" type="line"/>
+      <point x="330" y="484" type="line"/>
     </contour>
     <contour>
       <point x="188" y="700" type="line"/>
@@ -22,57 +31,11 @@
       <point x="188" y="669" type="line"/>
     </contour>
     <contour>
-      <point x="330" y="700" type="line"/>
-      <point x="377" y="700" type="line"/>
-      <point x="377" y="484" type="line"/>
-      <point x="330" y="484" type="line"/>
-    </contour>
-    <contour>
-      <point x="165" y="700" type="line"/>
-      <point x="165" y="653" type="line"/>
-      <point x="120" y="653" type="line"/>
-      <point x="120" y="484" type="line"/>
-      <point x="72" y="484" type="line"/>
-      <point x="72" y="653" type="line"/>
-      <point x="26" y="653" type="line"/>
-      <point x="26" y="700" type="line"/>
+      <point x="188" y="484" type="line"/>
+      <point x="188" y="628" type="line"/>
+      <point x="191" y="628" type="line"/>
+      <point x="236" y="522" type="line"/>
+      <point x="236" y="484" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>653</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>72</integer>
-            <key>width</key>
-            <integer>48</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>188</integer>
-            <key>width</key>
-            <integer>48</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>330</integer>
-            <key>width</key>
-            <integer>47</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
