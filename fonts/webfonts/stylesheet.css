@@ -1,0 +1,24 @@
+@font-face {
+font-family:'StickNoBills-Regular';
+src: url('fonts/StickNoBills.eot');
+src: url('fonts/StickNoBills.eot?#iefix') format('embedded-opentype'),
+url('fonts/StickNoBills.woff') format('woff'),
+url('fonts/StickNoBills.ttf') format('truetype'),
+url('fonts/StickNoBills.svg#StickNoBills-Regular') format('svg');
+font-weight: 400;
+font-style: normal;
+font-stretch: normal;
+}
+@font-face {
+	font-family:'StickNoBills-Italic';
+	src: url('StickNoBills-Italic.eot');
+	src: url('StickNoBills-Italic.eot?#iefix') format('embedded-opentype'),
+		url('StickNoBills-Italic.woff') format('woff'),
+		url('StickNoBills-Italic.ttf') format('truetype'),
+		url('StickNoBills-Italic.otf') format('opentype'),
+		url('StickNoBills-Italic.svg#StickNoBills-Italic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-FB02;
+}
