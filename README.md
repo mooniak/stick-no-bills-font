@@ -28,6 +28,8 @@ See demo [videos](https://www.youtube.com/playlist?list=PLpw12zH02-AlMNu3QMfNtlE
 - See `/sources/UFO` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/stick-no-bills-font/releases) for clean sources.
 
 
+
+
 ## Credits
 
 - Initial concept: Martyn Hodges
@@ -43,3 +45,10 @@ For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
 rationale and various recommendations regarding why you would want to
 contribute to the project or make your own version of the font.
+
+
+|     | 
+| ------------- |:-------------:| 
+| This font repository follows the Unified Font Repository v2.0, a standard way to organize font project source files. Learn more at [here](https://github.com/raphaelbastide/Unified-Font-Repository)
+  | 
+
