@@ -64,5 +64,5 @@ alphabetical order.
 
 - N: Kosala Senevirathne
 - E: kosala@mooniak.com
-- W: -
+- W: 
 - D: Designer - Design and full Adobe Latin 1 support. Italics 
