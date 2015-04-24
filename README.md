@@ -1,5 +1,5 @@
 
-| ## WORK IN PROGRESS      | 
+|  WORK IN PROGRESS      | 
 | ------------- |:-------------:| 
 | This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       | 
 
@@ -50,5 +50,5 @@ contribute to the project or make your own version of the font.
 
 |   This font repository follows the Unified Font Repository v2.0, a standard way to organize font project source files. Learn more at [here](https://github.com/raphaelbastide/Unified-Font-Repository)             | 
 | ------------- |:
-|| 
+ 
 
