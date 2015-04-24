@@ -5,6 +5,7 @@
 
 
 
+
 STICK NO BILLS™ Font
 ===================
 
@@ -47,6 +48,7 @@ rationale and various recommendations regarding why you would want to
 contribute to the project or make your own version of the font.
 
 
+***
 
 |   This repository follows the [Unified Font Repository](https://github.com/raphaelbastide/Unified-Font-Repository) v2.0, a standard way to organize font project source files.           | 
 | ------------- |:
