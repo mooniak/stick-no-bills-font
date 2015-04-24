@@ -58,8 +58,9 @@ alphabetical order.
 
 - N: Martyn Hodges
 - E: allroundboatbuilder@yahoo.com
-- W: -
+- W: 
 - D: Initial concept design
+
 
 - N: Kosala Senevirathne
 - E: kosala@mooniak.com
