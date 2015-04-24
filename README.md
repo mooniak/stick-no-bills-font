@@ -1,7 +1,7 @@
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| Tables        | 
+| ------------- |:-------------:| 
+| col 3 is      | 
 
 
 | ## WORK IN PROGRESS
