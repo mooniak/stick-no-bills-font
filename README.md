@@ -1,7 +1,9 @@
 
-## WORK IN PROGRESS
-_
-|This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](## Repository Structure) before downloading any files.|
+| ## WORK IN PROGRESS
+  
+| ------------- |
+| |This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](## Repository Structure) before downloading any files.|    
+
 _
 
 STICK NO BILLS™ Font
