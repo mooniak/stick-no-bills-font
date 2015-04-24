@@ -47,8 +47,7 @@ rationale and various recommendations regarding why you would want to
 contribute to the project or make your own version of the font.
 
 
-|     | 
-| ------------- |:-------------:| 
-| This font repository follows the Unified Font Repository v2.0, a standard way to organize font project source files. Learn more at [here](https://github.com/raphaelbastide/Unified-Font-Repository)
-  | 
+
+| ------------- |:
+| This font repository follows the Unified Font Repository v2.0, a standard way to organize font project source files. Learn more at [here](https://github.com/raphaelbastide/Unified-Font-Repository)| 
 
