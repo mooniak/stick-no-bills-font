@@ -1,6 +1,9 @@
 
-## WORK IN PROGRESS
-This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](## Repository Structure) before downloading any files.
+|  WORK IN PROGRESS      | 
+| ------------- |:-------------:| 
+| This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       | 
+
+
 
 
 STICK NO BILLS™ Font
@@ -26,10 +29,13 @@ See demo [videos](https://www.youtube.com/playlist?list=PLpw12zH02-AlMNu3QMfNtlE
 - See `/sources/UFO` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/stick-no-bills-font/releases) for clean sources.
 
 
+
+
 ## Credits
 
 - Initial concept: Martyn Hodges
 - Kosala Senevirathne (@kosalaya) of mooniak
+- mooniak
 
 
 ## License
@@ -40,3 +46,11 @@ For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
 rationale and various recommendations regarding why you would want to
 contribute to the project or make your own version of the font.
+
+
+***
+
+|   This repository follows the [Unified Font Repository](https://github.com/raphaelbastide/Unified-Font-Repository) v2.0, a standard way to organize font project source files.           | 
+| ------------- |:
+ 
+
