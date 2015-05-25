@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1429773300
+ModificationTime: 1432575162
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -483,13 +483,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 Compacted: 1
@@ -498,7 +498,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 8 2
+WinInfo: 112 8 2
 BeginPrivate: 1
 BlueValues 22 [-5 1 515 516 699 705]
 EndPrivate
@@ -511,7 +511,7 @@ GlifName: A_
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -532,7 +532,6 @@ SplineSet
  26 0 l 1
  155 582 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: AE
@@ -541,7 +540,7 @@ GlifName: A_E_
 Width: 727
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -569,7 +568,6 @@ SplineSet
  478 141 l 1
  701 141 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Aacute
@@ -578,13 +576,12 @@ GlifName: A_acute
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 174 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Acircumflex
@@ -599,7 +596,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 135 252 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Adieresis
@@ -608,13 +604,12 @@ GlifName: A_dieresis
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 110 163 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Agrave
@@ -623,13 +618,12 @@ GlifName: A_grave
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 102 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Aring
@@ -638,7 +632,7 @@ GlifName: A_ring
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -667,7 +661,6 @@ SplineSet
  200 698 l 1
  183 715 173 739 173 765 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Atilde
@@ -682,7 +675,6 @@ Back
 Fore
 Refer: 208 732 N 1 0 0 1 102 662 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: B
@@ -691,7 +683,7 @@ GlifName: B_
 Width: 484
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -718,7 +710,6 @@ SplineSet
  240 -2 230 -1 221 0 c 1
  221 122 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: C
@@ -727,7 +718,7 @@ GlifName: C_
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -756,7 +747,6 @@ SplineSet
  330 509 330 520 325 532 c 0
  315 555 283 564 283 564 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ccedilla
@@ -765,13 +755,12 @@ GlifName: C_cedilla
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 92 184 N 1 0 0 1 111 -167 2
 Refer: 9 67 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: D
@@ -780,7 +769,7 @@ GlifName: D_
 Width: 452
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -800,7 +789,6 @@ SplineSet
  424 197 l 2
  424 50 287 0 227 0 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: E
@@ -809,7 +797,7 @@ GlifName: E_
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -828,7 +816,6 @@ SplineSet
  173 141 l 1
  396 141 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: EURO
@@ -837,7 +824,7 @@ GlifName: E_U_R_O_
 Width: 567
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -884,7 +871,6 @@ SplineSet
  99 540 106 576 134 613 c 0
  172 666 217 696 278 698 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Eacute
@@ -893,13 +879,12 @@ GlifName: E_acute
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 118 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Ecircumflex
@@ -914,7 +899,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 79 252 2
 Refer: 12 69 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Edieresis
@@ -923,13 +907,12 @@ GlifName: E_dieresis
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 54 163 2
 Refer: 12 69 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Egrave
@@ -938,13 +921,12 @@ GlifName: E_grave
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 46 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Eth
@@ -953,7 +935,7 @@ GlifName: E_th
 Width: 501
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -981,7 +963,6 @@ SplineSet
  475 197 l 2
  475 50 338 0 278 0 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: F
@@ -990,7 +971,7 @@ GlifName: F_
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1007,7 +988,6 @@ SplineSet
  173 418 l 1
  302 418 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: G
@@ -1016,7 +996,7 @@ GlifName: G_
 Width: 493
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1047,7 +1027,6 @@ SplineSet
  323 509 323 520 318 532 c 0
  308 555 276 564 276 564 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: H
@@ -1056,7 +1035,7 @@ GlifName: H_
 Width: 458
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1080,7 +1059,6 @@ SplineSet
  173 421 l 1
  202 421 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: HKD
@@ -1089,7 +1067,7 @@ GlifName: H_K_D_
 Width: 843
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1126,7 +1104,6 @@ SplineSet
  101 614 l 1
 EndSplineSet
 Refer: 105 36 N 1 0 0 1 322 0 2
-Validated: 1
 EndChar
 
 StartChar: I
@@ -1135,7 +1112,7 @@ GlifName: I_
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1146,7 +1123,6 @@ SplineSet
  34 0 l 1
  34 700 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -1155,13 +1131,12 @@ GlifName: I_acute
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 9 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Icircumflex
@@ -1176,7 +1151,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 -30 252 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Idieresis
@@ -1185,13 +1159,12 @@ GlifName: I_dieresis
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 -56 163 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Igrave
@@ -1200,13 +1173,12 @@ GlifName: I_grave
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 -63 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: J
@@ -1215,7 +1187,7 @@ GlifName: J_
 Width: 495
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1235,7 +1207,6 @@ SplineSet
  168 147 208 137 213 137 c 1
  213 -5 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: K
@@ -1244,7 +1215,7 @@ GlifName: K_
 Width: 475
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1262,7 +1233,6 @@ SplineSet
  207 341 l 1
  314 700 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: L
@@ -1271,7 +1241,7 @@ GlifName: L_
 Width: 428
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1284,7 +1254,6 @@ SplineSet
  167 139 l 1
  402 139 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Lslash
@@ -1293,7 +1262,7 @@ GlifName: L_slash
 Width: 530
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1314,7 +1283,6 @@ SplineSet
  270 492 l 1
  348 553 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: M
@@ -1323,7 +1291,7 @@ GlifName: M_
 Width: 676
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1350,7 +1318,6 @@ SplineSet
  173 0 l 1
  32 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: N
@@ -1359,7 +1326,7 @@ GlifName: N_
 Width: 509
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1384,7 +1351,6 @@ SplineSet
  173 0 l 1
  32 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ntilde
@@ -1399,7 +1365,6 @@ Back
 Fore
 Refer: 208 732 N 1 0 0 1 88 662 2
 Refer: 33 78 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: O
@@ -1408,7 +1373,7 @@ GlifName: O_
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1432,7 +1397,6 @@ SplineSet
  171 149 221 137 226 137 c 1
  226 -5 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: OE
@@ -1441,7 +1405,7 @@ GlifName: O_E_
 Width: 724
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1473,7 +1437,6 @@ SplineSet
  475 141 l 1
  698 141 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Oacute
@@ -1482,13 +1445,12 @@ GlifName: O_acute
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 158 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Ocircumflex
@@ -1503,7 +1465,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 119 252 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Odieresis
@@ -1512,13 +1473,12 @@ GlifName: O_dieresis
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 94 163 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -1527,13 +1487,12 @@ GlifName: O_grave
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 86 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Oslash
@@ -1542,7 +1501,7 @@ GlifName: O_slash
 Width: 662
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1575,7 +1534,6 @@ SplineSet
  441 705 497 658 528 607 c 1
  584 658 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Otilde
@@ -1590,7 +1548,6 @@ Back
 Fore
 Refer: 208 732 N 1 0 0 1 87 662 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: P
@@ -1599,7 +1556,7 @@ GlifName: P_
 Width: 474
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1619,7 +1576,6 @@ SplineSet
  448 369 378 318 221 318 c 1
  221 457 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Percent_sign
@@ -1628,7 +1584,7 @@ GlifName: P_ercent_sign
 Width: 629
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1649,7 +1605,6 @@ SplineSet
  287 -23 l 1
  160 -23 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Q
@@ -1658,7 +1613,7 @@ GlifName: Q_
 Width: 500
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1685,7 +1640,6 @@ SplineSet
  167 149 217 137 222 137 c 1
  222 -5 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: R
@@ -1694,7 +1648,7 @@ GlifName: R_
 Width: 495
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1719,7 +1673,6 @@ SplineSet
  321 257 298 285 227 286 c 1
  227 411 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: S
@@ -1728,7 +1681,7 @@ GlifName: S_
 Width: 497
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1755,7 +1708,6 @@ SplineSet
  93 357 41 403 41 508 c 0
  41 647 165 699 216 700 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Scaron
@@ -1770,7 +1722,6 @@ Back
 Fore
 Refer: 90 711 N 1 0 0 1 100 252 2
 Refer: 47 83 N 1 0 0 1 -7 0 2
-Validated: 1
 EndChar
 
 StartChar: T
@@ -1779,7 +1730,7 @@ GlifName: T_
 Width: 485
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1794,7 +1745,6 @@ SplineSet
  26 700 l 1
  459 700 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Thorn
@@ -1803,7 +1753,7 @@ GlifName: T_horn
 Width: 474
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1823,7 +1773,6 @@ SplineSet
  448 259 378 208 221 208 c 1
  221 347 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: TradeMarkSign
@@ -1832,7 +1781,7 @@ GlifName: T_radeM_arkS_ign
 Width: 403
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1868,7 +1817,6 @@ SplineSet
  236 484 l 1
  188 484 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: U
@@ -1877,7 +1825,7 @@ GlifName: U_
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1897,7 +1845,6 @@ SplineSet
  174 147 224 137 229 137 c 1
  229 -5 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Uacute
@@ -1906,13 +1853,12 @@ GlifName: U_acute
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 160 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Ucircumflex
@@ -1927,7 +1873,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 121 252 2
 Refer: 52 85 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Udieresis
@@ -1936,13 +1881,12 @@ GlifName: U_dieresis
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 96 163 2
 Refer: 52 85 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Ugrave
@@ -1951,13 +1895,12 @@ GlifName: U_grave
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 88 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: V
@@ -1966,7 +1909,7 @@ GlifName: V_
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -1984,7 +1927,6 @@ SplineSet
  229 0 l 1
  26 700 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: W
@@ -1993,7 +1935,7 @@ GlifName: W_
 Width: 725
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2017,7 +1959,6 @@ SplineSet
  229 0 l 1
  26 700 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: X
@@ -2026,7 +1967,7 @@ GlifName: X_
 Width: 464
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2045,7 +1986,6 @@ SplineSet
  289 700 l 1
  426 700 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Y
@@ -2054,7 +1994,7 @@ GlifName: Y_
 Width: 479
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2073,7 +2013,6 @@ SplineSet
  157 252 l 1
  26 700 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Yacute
@@ -2082,13 +2021,12 @@ GlifName: Y_acute
 Width: 479
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 144 161 2
 Refer: 60 89 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Ydieresis
@@ -2097,13 +2035,12 @@ GlifName: Y_dieresis
 Width: 479
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 80 163 2
 Refer: 60 89 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Z
@@ -2112,7 +2049,7 @@ GlifName: Z_
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2129,7 +2066,6 @@ SplineSet
  392 563 l 1
  182 144 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Zcaron
@@ -2144,7 +2080,6 @@ Back
 Fore
 Refer: 90 711 N 1 0 0 1 74 252 2
 Refer: 63 90 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: a
@@ -2153,7 +2088,7 @@ GlifName: a
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2197,7 +2132,6 @@ SplineSet
  228 408 l 1
  228 519 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: aacute
@@ -2206,13 +2140,12 @@ GlifName: aacute
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 109 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: acircumflex
@@ -2227,7 +2160,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 70 66 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: acute
@@ -2236,7 +2168,7 @@ GlifName: acute
 Width: 263
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2247,7 +2179,6 @@ SplineSet
  214 757 l 1
  141 605 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: adieresis
@@ -2256,13 +2187,12 @@ GlifName: adieresis
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 44 -23 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ae
@@ -2271,7 +2201,7 @@ GlifName: ae
 Width: 666
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2327,7 +2257,6 @@ SplineSet
  525 369 l 2
  525 396 502 402 482 402 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: agrave
@@ -2336,13 +2265,12 @@ GlifName: agrave
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 37 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -2351,7 +2279,7 @@ GlifName: ampersand
 Width: 687
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2388,7 +2316,6 @@ SplineSet
  94 621 153 681 257 702 c 1
  257 578 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: aring
@@ -2403,7 +2330,6 @@ Back
 Fore
 Refer: 194 730 N 1 0 0 1 82 150 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: asciicircum
@@ -2412,7 +2338,7 @@ GlifName: asciicircum
 Width: 374
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2426,7 +2352,6 @@ SplineSet
  149 460 l 1
  27 460 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: asciitilde
@@ -2435,7 +2360,7 @@ GlifName: asciitilde
 Width: 568
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2450,7 +2375,6 @@ SplineSet
  422 367 464 379 518 412 c 1
  518 281 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: asterisk
@@ -2459,7 +2383,7 @@ GlifName: asterisk
 Width: 394
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2484,7 +2408,6 @@ SplineSet
  231 565 l 1
  231 478 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: at
@@ -2493,7 +2416,7 @@ GlifName: at
 Width: 803
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2521,7 +2444,6 @@ SplineSet
  136 122 260 22 414 22 c 0
  501 22 587 47 667 103 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: atilde
@@ -2536,7 +2458,6 @@ Back
 Fore
 Refer: 208 732 N 1 0 0 1 38 476 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: b
@@ -2545,7 +2466,7 @@ GlifName: b
 Width: 414
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2569,7 +2490,6 @@ SplineSet
  155 0 l 1
  30 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: backslash
@@ -2578,7 +2498,7 @@ GlifName: backslash
 Width: 402
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2589,7 +2509,6 @@ SplineSet
  176 716 l 1
  351 -23 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: bar
@@ -2598,7 +2517,7 @@ GlifName: bar
 Width: 205
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2609,7 +2528,6 @@ SplineSet
  50 -134 l 1
  50 754 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceleft
@@ -2618,7 +2536,7 @@ GlifName: braceleft
 Width: 407
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2640,7 +2558,6 @@ SplineSet
  112 504 l 2
  112 715 198 735 307 735 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceright
@@ -2649,7 +2566,7 @@ GlifName: braceright
 Width: 407
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2672,7 +2589,6 @@ SplineSet
  167 591 168 635 100 635 c 1
  100 735 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -2681,7 +2597,7 @@ GlifName: bracketleft
 Width: 258
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2696,7 +2612,6 @@ SplineSet
  50 739 l 1
  244 739 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: bracketright
@@ -2705,7 +2620,7 @@ GlifName: bracketright
 Width: 258
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2720,7 +2635,6 @@ SplineSet
  14 629 l 1
  14 739 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: breve
@@ -2729,7 +2643,7 @@ GlifName: breve
 Width: 244
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2742,7 +2656,6 @@ SplineSet
  140 494 154 508 154 526 c 1
  218 526 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: brokenbar
@@ -2751,7 +2664,7 @@ GlifName: brokenbar
 Width: 222
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2767,7 +2680,6 @@ SplineSet
  50 399 l 1
  50 754 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: bullet
@@ -2787,7 +2699,6 @@ SplineSet
  326 260 260 194 176 194 c 0
  92 194 26 260 26 344 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: c
@@ -2796,7 +2707,7 @@ GlifName: c
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2836,7 +2747,6 @@ SplineSet
  270 360 l 2
  270 370 270 375 266 383 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: caron
@@ -2845,7 +2755,7 @@ GlifName: caron
 Width: 270
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2859,7 +2769,6 @@ SplineSet
  101 514 l 1
  26 666 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -2868,13 +2777,12 @@ GlifName: ccedilla
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 92 184 N 1 0 0 1 76 -163 2
 Refer: 89 99 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: cedilla
@@ -2883,7 +2791,7 @@ GlifName: cedilla
 Width: 219
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2894,7 +2802,6 @@ SplineSet
  26 55 l 1
  62 55 102 68 102 123 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: cent
@@ -2903,7 +2810,7 @@ GlifName: cent
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2948,7 +2855,6 @@ SplineSet
  32 567 68 660 158 693 c 1
  158 749 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: circumflex
@@ -2957,7 +2863,7 @@ GlifName: circumflex
 Width: 270
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2971,7 +2877,6 @@ SplineSet
  107 514 l 1
  26 514 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: colon
@@ -2980,7 +2885,7 @@ GlifName: colon
 Width: 250
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -2996,7 +2901,6 @@ SplineSet
  200 28 167 -5 125 -5 c 0
  83 -5 50 28 50 70 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: comma
@@ -3016,7 +2920,6 @@ SplineSet
  215 129 l 1
  178 -23 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: copyright
@@ -3025,7 +2928,7 @@ GlifName: copyright
 Width: 859
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3072,7 +2975,6 @@ SplineSet
  139 337 139 334 139 332 c 0
  142 179 266 51 412 44 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: currency
@@ -3081,7 +2983,7 @@ GlifName: currency
 Width: 656
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3127,7 +3029,6 @@ SplineSet
  393 454 387 477 357 477 c 2
  351 477 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: d
@@ -3136,7 +3037,7 @@ GlifName: d
 Width: 414
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3160,7 +3061,6 @@ SplineSet
  30 377 l 2
  31 422 79 516 180 516 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dagger
@@ -3169,7 +3069,7 @@ GlifName: dagger
 Width: 453
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3188,7 +3088,6 @@ SplineSet
  297 577 l 1
  427 577 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: daggerdbl
@@ -3197,7 +3096,7 @@ GlifName: daggerdbl
 Width: 453
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3224,7 +3123,6 @@ SplineSet
  156 577 l 1
  156 764 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: degree
@@ -3233,7 +3131,7 @@ GlifName: degree
 Width: 282
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3249,7 +3147,6 @@ SplineSet
  179 605 162 622 140 622 c 0
  119 622 102 605 102 583 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dieresis
@@ -3274,7 +3171,6 @@ SplineSet
  320 636 287 603 245 603 c 0
  203 603 170 636 170 678 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: divide
@@ -3283,7 +3179,7 @@ GlifName: divide
 Width: 650
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3296,7 +3192,6 @@ SplineSet
 EndSplineSet
 Refer: 175 46 N 1 0 0 1 196 415 2
 Refer: 175 46 N 1 0 0 1 196 62 2
-Validated: 1
 EndChar
 
 StartChar: dollar
@@ -3305,7 +3200,7 @@ GlifName: dollar
 Width: 501
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3346,7 +3241,6 @@ SplineSet
  330 241 303 263 268 280 c 1
  268 428 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dotaccent
@@ -3355,7 +3249,7 @@ GlifName: dotaccent
 Width: 202
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3366,7 +3260,6 @@ SplineSet
  176 636 143 603 101 603 c 0
  59 603 26 636 26 678 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dotlessi
@@ -3386,7 +3279,6 @@ SplineSet
  148 516 l 1
  148 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: e
@@ -3395,7 +3287,7 @@ GlifName: e
 Width: 424
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3433,7 +3325,6 @@ SplineSet
  283 369 l 2
  283 396 260 402 240 402 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eacute
@@ -3442,13 +3333,12 @@ GlifName: eacute
 Width: 424
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 116 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -3463,7 +3353,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 77 63 2
 Refer: 108 101 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -3472,13 +3361,12 @@ GlifName: edieresis
 Width: 424
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 52 -26 2
 Refer: 108 101 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: egrave
@@ -3487,13 +3375,12 @@ GlifName: egrave
 Width: 424
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 44 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: eight
@@ -3502,7 +3389,7 @@ GlifName: eight
 Width: 486
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3534,7 +3421,6 @@ SplineSet
  275 0 l 1
  274 125 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: emdash
@@ -3543,7 +3429,7 @@ GlifName: emdash
 Width: 906
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3554,7 +3440,6 @@ SplineSet
  26 357 l 1
  880 357 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: endash
@@ -3563,7 +3448,7 @@ GlifName: endash
 Width: 532
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3574,7 +3459,6 @@ SplineSet
  26 357 l 1
  506 357 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: equal
@@ -3583,7 +3467,7 @@ GlifName: equal
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3599,7 +3483,6 @@ SplineSet
  50 258 l 1
  368 258 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eth
@@ -3608,7 +3491,7 @@ GlifName: eth
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3653,7 +3536,6 @@ SplineSet
  251 516 262 515 273 512 c 1
  271 530 270 545 267 558 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: exclam
@@ -3678,7 +3560,6 @@ SplineSet
  238 11 205 -22 163 -22 c 0
  121 -22 88 11 88 53 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: exclamdown
@@ -3687,7 +3568,7 @@ GlifName: exclamdown
 Width: 210
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3703,7 +3584,6 @@ SplineSet
  176 605 143 571 101 571 c 0
  59 571 26 605 26 647 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: f
@@ -3712,7 +3592,7 @@ GlifName: f
 Width: 304
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3735,7 +3615,6 @@ SplineSet
  89 516 l 1
  89 552 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: fi
@@ -3744,7 +3623,7 @@ GlifName: fi
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3774,7 +3653,6 @@ SplineSet
  322 670 355 703 395 703 c 0
  435 703 468 670 468 630 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: five
@@ -3783,7 +3661,7 @@ GlifName: five
 Width: 492
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3811,7 +3689,6 @@ SplineSet
  409 700 l 1
  409 574 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: fl
@@ -3820,7 +3697,7 @@ GlifName: fl
 Width: 483
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3845,7 +3722,6 @@ SplineSet
  457 696 l 1
  457 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: florin
@@ -3854,7 +3730,7 @@ GlifName: florin
 Width: 382
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3885,7 +3761,6 @@ SplineSet
  141 516 l 1
  141 552 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: four
@@ -3894,7 +3769,7 @@ GlifName: four
 Width: 483
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3917,7 +3792,6 @@ SplineSet
  170 272 l 1
  216 272 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: fraction
@@ -3926,7 +3800,7 @@ GlifName: fraction
 Width: 560
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3937,7 +3811,6 @@ SplineSet
  109 -2 l 1
  26 -2 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: g
@@ -3946,7 +3819,7 @@ GlifName: g
 Width: 415
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -3986,7 +3859,6 @@ SplineSet
  389 -40 l 2
  389 -83 339 -180 236 -181 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: germandbls
@@ -3995,7 +3867,7 @@ GlifName: germandbls
 Width: 522
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4023,7 +3895,6 @@ SplineSet
  174 586 155 554 155 498 c 2
  155 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: grave
@@ -4032,7 +3903,7 @@ GlifName: grave
 Width: 263
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4043,7 +3914,6 @@ SplineSet
  213 605 l 1
  122 605 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: greater
@@ -4066,7 +3936,6 @@ SplineSet
  30 370 l 1
  30 500 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -4097,7 +3966,6 @@ SplineSet
  27 321 l 1
  238 477 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: guillemotright
@@ -4128,7 +3996,6 @@ SplineSet
  26 352 l 1
  26 477 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: guilsinglleft
@@ -4137,7 +4004,7 @@ GlifName: guilsinglleft
 Width: 338
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4150,7 +4017,6 @@ SplineSet
  26 292 l 1
  157 500 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: guilsinglright
@@ -4159,7 +4025,7 @@ GlifName: guilsinglright
 Width: 338
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4172,7 +4038,6 @@ SplineSet
  26 500 l 1
  181 500 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: h
@@ -4181,7 +4046,7 @@ GlifName: h
 Width: 421
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4208,7 +4073,6 @@ SplineSet
  158 396 145 370 145 365 c 2
  145 1 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: hungarumlaut
@@ -4217,7 +4081,7 @@ GlifName: hungarumlaut
 Width: 336
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4233,7 +4097,6 @@ SplineSet
  167 757 l 1
  109 605 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: hyphen
@@ -4253,7 +4116,6 @@ SplineSet
  50 357 l 1
  366 357 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: i
@@ -4262,7 +4124,7 @@ GlifName: i
 Width: 199
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4278,7 +4140,6 @@ SplineSet
  26 670 59 703 99 703 c 0
  139 703 172 670 172 630 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: iacute
@@ -4287,7 +4148,7 @@ GlifName: iacute
 Width: 199
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4303,7 +4164,6 @@ SplineSet
  161 516 l 1
  161 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: icircumflex
@@ -4318,7 +4178,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 -48 63 2
 Refer: 107 305 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: idieresis
@@ -4327,7 +4186,7 @@ GlifName: idieresis
 Width: 199
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4348,7 +4207,6 @@ SplineSet
  161 516 l 1
  161 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: igrave
@@ -4357,7 +4215,7 @@ GlifName: igrave
 Width: 199
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4373,7 +4231,6 @@ SplineSet
  161 516 l 1
  161 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: j
@@ -4382,7 +4239,7 @@ GlifName: j
 Width: 194
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4402,7 +4259,6 @@ SplineSet
  159 516 l 1
  159 -38 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: k
@@ -4411,7 +4267,7 @@ GlifName: k
 Width: 452
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4429,7 +4285,6 @@ SplineSet
  155 698 l 1
  155 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: l
@@ -4438,7 +4293,7 @@ GlifName: l
 Width: 184
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4449,7 +4304,6 @@ SplineSet
  161 698 l 1
  161 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: less
@@ -4472,7 +4326,6 @@ SplineSet
  30 322 l 1
  384 500 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: logicalnot
@@ -4481,7 +4334,7 @@ GlifName: logicalnot
 Width: 502
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4494,7 +4347,6 @@ SplineSet
  476 442 l 1
  476 208 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: lslash
@@ -4519,7 +4371,6 @@ SplineSet
  26 302 l 5
  326 536 l 5
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: m
@@ -4528,7 +4379,7 @@ GlifName: m
 Width: 684
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4566,7 +4417,6 @@ SplineSet
  189 398 l 2
  159 398 154 374 154 372 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: macron
@@ -4575,12 +4425,11 @@ GlifName: macron
 Width: 510
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 215 95 N 1 0 0 1 0 917 2
-Validated: 1
 EndChar
 
 StartChar: minus
@@ -4589,12 +4438,11 @@ GlifName: minus
 Width: 416
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 137 45 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: mu
@@ -4603,7 +4451,7 @@ GlifName: mu
 Width: 468
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4639,7 +4487,6 @@ SplineSet
  26 356 l 1
  26 698 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: multiply
@@ -4667,7 +4514,6 @@ SplineSet
  101 257 l 1
  260 417 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: n
@@ -4676,7 +4522,7 @@ GlifName: n
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4700,7 +4546,6 @@ SplineSet
  280 0 l 1
  280 372 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: nine
@@ -4709,7 +4554,7 @@ GlifName: nine
 Width: 504
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4738,7 +4583,6 @@ SplineSet
  145 409 198 395 217 390 c 1
  218 274 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ntilde
@@ -4753,7 +4597,6 @@ Back
 Fore
 Refer: 208 732 N 1 0 0 1 50 476 2
 Refer: 154 110 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -4810,7 +4653,7 @@ GlifName: o
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4842,7 +4685,6 @@ SplineSet
  78 -1 28 97 28 141 c 2
  28 376 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: oacute
@@ -4851,13 +4693,12 @@ GlifName: oacute
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 117 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ocircumflex
@@ -4872,7 +4713,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 78 63 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: odieresis
@@ -4881,13 +4721,12 @@ GlifName: odieresis
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 52 -26 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: oe
@@ -4896,7 +4735,7 @@ GlifName: oe
 Width: 671
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4952,7 +4791,6 @@ SplineSet
  530 369 l 2
  530 396 507 402 487 402 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ograve
@@ -4961,13 +4799,12 @@ GlifName: ograve
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 45 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: one
@@ -4976,7 +4813,7 @@ GlifName: one
 Width: 266
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -4990,7 +4827,6 @@ SplineSet
  106 0 l 1
  106 499 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: onehalf
@@ -4999,7 +4835,7 @@ GlifName: onehalf
 Width: 581
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5046,7 +4882,6 @@ SplineSet
  424 288 l 1
  422 288 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: onequarter
@@ -5055,7 +4890,7 @@ GlifName: onequarter
 Width: 560
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5091,7 +4926,6 @@ SplineSet
  113 349 l 1
  113 597 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ordfeminine
@@ -5150,7 +4984,6 @@ SplineSet
  26 362 l 1
  26 430 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ordmasculine
@@ -5159,7 +4992,7 @@ GlifName: ordmasculine
 Width: 230
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5196,7 +5029,6 @@ SplineSet
  26 361 l 1
  26 432 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: oslash
@@ -5205,7 +5037,7 @@ GlifName: oslash
 Width: 498
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5244,7 +5076,6 @@ SplineSet
  336 516 378 486 402 451 c 1
  445 490 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: otilde
@@ -5259,7 +5090,6 @@ Back
 Fore
 Refer: 208 732 N 1 0 0 1 46 473 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: p
@@ -5268,7 +5098,7 @@ GlifName: p
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5292,7 +5122,6 @@ SplineSet
  396 139 l 2
  396 86 345 0 232 0 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: paragraph
@@ -5319,7 +5148,6 @@ SplineSet
  26 617 93 705 195 705 c 0
  223 705 250 705 278 705 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: parenleft
@@ -5352,7 +5180,7 @@ GlifName: parenright
 Width: 330
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5368,7 +5196,6 @@ SplineSet
  160 593 139 626 100 649 c 1
  101 746 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: period
@@ -5388,7 +5215,6 @@ SplineSet
  200 11 167 -22 125 -22 c 0
  83 -22 50 11 50 53 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: periodcentered
@@ -5397,12 +5223,11 @@ GlifName: periodcentered
 Width: 250
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 175 46 N 1 0 0 1 0 292 2
-Validated: 1
 EndChar
 
 StartChar: perthousand
@@ -5411,7 +5236,7 @@ GlifName: perthousand
 Width: 897
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5494,7 +5319,6 @@ SplineSet
  147 0 l 1
  67 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: plus
@@ -5522,7 +5346,6 @@ SplineSet
  300 357 l 1
  425 357 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: plusminus
@@ -5531,7 +5354,7 @@ GlifName: plusminus
 Width: 575
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5543,7 +5366,6 @@ SplineSet
  476 167 l 1
 EndSplineSet
 Refer: 178 43 N 1 0 0 1 0 161 2
-Validated: 1
 EndChar
 
 StartChar: q
@@ -5552,7 +5374,7 @@ GlifName: q
 Width: 416
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5576,7 +5398,6 @@ SplineSet
  151 398 146 375 146 373 c 2
  146 143 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: question
@@ -5585,7 +5406,7 @@ GlifName: question
 Width: 460
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5608,7 +5429,6 @@ SplineSet
  273 11 239 -22 197 -22 c 0
  155 -22 122 11 122 53 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: questiondown
@@ -5617,7 +5437,7 @@ GlifName: questiondown
 Width: 460
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5639,7 +5459,6 @@ SplineSet
  110 -14 60 40 30 78 c 1
  112 163 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedbl
@@ -5664,7 +5483,6 @@ SplineSet
  177 736 l 1
  177 465 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedbl.alt
@@ -5673,7 +5491,7 @@ GlifName: quotedbl.alt
 Width: 359
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5689,7 +5507,6 @@ SplineSet
  153 700 l 1
  153 476 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedblbase
@@ -5698,12 +5515,11 @@ GlifName: quotedblbase
 Width: 359
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: quotedblleft
@@ -5712,12 +5528,11 @@ GlifName: quotedblleft
 Width: 359
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: quotedblright
@@ -5726,12 +5541,11 @@ GlifName: quotedblright
 Width: 359
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: quoteleft
@@ -5740,12 +5554,11 @@ GlifName: quoteleft
 Width: 187
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: quoteright
@@ -5754,12 +5567,11 @@ GlifName: quoteright
 Width: 187
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: quotesinglbase
@@ -5768,12 +5580,11 @@ GlifName: quotesinglbase
 Width: 187
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: quotesingle
@@ -5793,7 +5604,6 @@ SplineSet
  177 736 l 1
  177 465 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: r
@@ -5802,7 +5612,7 @@ GlifName: r
 Width: 316
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5818,7 +5628,6 @@ SplineSet
  36 0 l 1
  36 516 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: registered
@@ -5827,7 +5636,7 @@ GlifName: registered
 Width: 404
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5870,7 +5679,6 @@ SplineSet
  136 662 70 609 70 526 c 0
  71 457 126 399 191 396 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ring
@@ -5879,7 +5687,7 @@ GlifName: ring
 Width: 244
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5895,7 +5703,6 @@ SplineSet
  154 544 140 558 122 558 c 0
  104 558 90 544 90 526 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: s
@@ -5904,7 +5711,7 @@ GlifName: s
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -5943,7 +5750,6 @@ SplineSet
  181 -5 l 2
  87 -5 25 70 22 134 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: scaron
@@ -5952,13 +5758,12 @@ GlifName: scaron
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 90 711 N 1 0 0 1 71 64 2
 Refer: 195 115 N 1 0 0 1 5 0 2
-Validated: 1
 EndChar
 
 StartChar: section
@@ -5967,7 +5772,7 @@ GlifName: section
 Width: 547
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6007,7 +5812,6 @@ SplineSet
  313 247 325 242 336 237 c 0
  345 232 354 228 363 223 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: semicolon
@@ -6016,7 +5820,7 @@ GlifName: semicolon
 Width: 291
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6032,7 +5836,6 @@ SplineSet
  241 318 208 285 166 285 c 0
  124 285 91 318 91 360 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: seven
@@ -6041,7 +5844,7 @@ GlifName: seven
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6060,7 +5863,6 @@ SplineSet
  20 572 l 1
  20 698 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: six
@@ -6069,7 +5871,7 @@ GlifName: six
 Width: 497
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6099,7 +5901,6 @@ SplineSet
  356 290 302 304 283 309 c 1
  282 425 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: slash
@@ -6119,7 +5920,6 @@ SplineSet
  177 -23 l 1
  50 -23 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: space
@@ -6132,7 +5932,6 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-Validated: 1
 EndChar
 
 StartChar: sterling
@@ -6141,7 +5940,7 @@ GlifName: sterling
 Width: 520
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6168,7 +5967,6 @@ SplineSet
  424 668 459 618 470 570 c 1
  371 520 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: t
@@ -6177,7 +5975,7 @@ GlifName: t
 Width: 324
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6200,7 +5998,6 @@ SplineSet
  211 159 l 2
  211 145 216 126 244 125 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: thorn
@@ -6209,7 +6006,7 @@ GlifName: thorn
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6233,7 +6030,6 @@ SplineSet
  396 139 l 2
  396 86 345 0 232 0 c 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: three
@@ -6242,7 +6038,7 @@ GlifName: three
 Width: 484
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6272,7 +6068,6 @@ SplineSet
  195 572 l 1
  166 570 146 558 132 537 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: threequarters
@@ -6281,7 +6076,7 @@ GlifName: threequarters
 Width: 584
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6343,7 +6138,6 @@ SplineSet
  82 432 l 1
  83 431 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: tilde
@@ -6352,7 +6146,7 @@ GlifName: tilde
 Width: 333
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6367,7 +6161,6 @@ SplineSet
  249 187 274 195 307 215 c 1
  307 114 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: two
@@ -6376,7 +6169,7 @@ GlifName: two
 Width: 480
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6404,7 +6197,6 @@ SplineSet
  43 127 l 1
  447 127 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: u
@@ -6413,7 +6205,7 @@ GlifName: u
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6437,7 +6229,6 @@ SplineSet
  238 -5 l 1
  238 116 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uacute
@@ -6446,13 +6237,12 @@ GlifName: uacute
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 122 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ucircumflex
@@ -6467,7 +6257,6 @@ Back
 Fore
 Refer: 94 710 N 1 0 0 1 82 63 2
 Refer: 210 117 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: udieresis
@@ -6476,13 +6265,12 @@ GlifName: udieresis
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 57 -26 2
 Refer: 210 117 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ugrave
@@ -6491,13 +6279,12 @@ GlifName: ugrave
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 129 96 N 1 0 0 1 50 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: underscore
@@ -6506,7 +6293,7 @@ GlifName: underscore
 Width: 510
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6517,7 +6304,6 @@ SplineSet
  480 -98 l 1
  480 -205 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni007F
@@ -6530,7 +6316,6 @@ Flags: HMW
 LayerCount: 2
 Back
 Fore
-Validated: 1
 EndChar
 
 StartChar: uni00AD
@@ -6539,12 +6324,11 @@ GlifName: uni00A_D_
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 137 45 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni00B2
@@ -6587,7 +6371,6 @@ SplineSet
  105 638 l 1
  102 638 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00B3
@@ -6596,7 +6379,7 @@ GlifName: uni00B_3
 Width: 247
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6638,7 +6421,6 @@ SplineSet
  78 470 l 1
  80 467 l 2
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00B9
@@ -6647,7 +6429,7 @@ GlifName: uni00B_9
 Width: 186
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6661,7 +6443,6 @@ SplineSet
  93 391 l 1
  93 610 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: v
@@ -6670,7 +6451,7 @@ GlifName: v
 Width: 400
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6688,7 +6469,6 @@ SplineSet
  243 0 l 1
  174 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: w
@@ -6697,7 +6477,7 @@ GlifName: w
 Width: 577
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6721,7 +6501,6 @@ SplineSet
  222 0 l 1
  160 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: x
@@ -6730,7 +6509,7 @@ GlifName: x
 Width: 381
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6749,7 +6528,6 @@ SplineSet
  18 0 l 1
  132 262 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: y
@@ -6758,7 +6536,7 @@ GlifName: y
 Width: 383
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6779,7 +6557,6 @@ SplineSet
  29 -182 l 1
  118 113 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: yacute
@@ -6788,13 +6565,12 @@ GlifName: yacute
 Width: 383
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 95 -28 2
 Refer: 224 121 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ydieresis
@@ -6803,13 +6579,12 @@ GlifName: ydieresis
 Width: 383
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 31 -26 2
 Refer: 224 121 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: yen
@@ -6818,7 +6593,7 @@ GlifName: yen
 Width: 542
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6848,7 +6623,6 @@ SplineSet
  162 409 l 1
  73 698 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: z
@@ -6857,7 +6631,7 @@ GlifName: z
 Width: 348
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
@@ -6874,7 +6648,6 @@ SplineSet
  322 514 l 1
  322 400 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: zcaron
@@ -6883,19 +6656,18 @@ GlifName: zcaron
 Width: 348
 VWidth: 0
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 Refer: 90 711 N 1 0 0 1 41 63 2
 Refer: 228 122 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: zero
 Encoding: 48 48 230
 GlifName: zero
-Width: 1024
+Width: 468
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
@@ -6903,24 +6675,23 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-464 698 m 1
- 553 693 647 602 647 353 c 0
- 647 60 531 3 465 0 c 1
- 465 124 l 1
- 520 137 522 248 522 339 c 0
- 522 360 522 371 522 398 c 0
- 522 461 517 560 464 573 c 1
- 464 698 l 1
-404 698 m 1
- 404 573 l 1
- 351 560 346 461 346 398 c 0
- 346 371 346 360 346 339 c 0
- 346 248 348 137 403 124 c 1
- 403 0 l 1
- 337 3 221 60 221 353 c 0
- 221 602 315 693 404 698 c 1
+264 698 m 1
+ 353 693 447 602 447 353 c 0
+ 447 60 331 3 265 0 c 1
+ 265 124 l 1
+ 320 137 322 248 322 339 c 0
+ 322 360 322 371 322 398 c 0
+ 322 461 317 560 264 573 c 1
+ 264 698 l 1
+204 698 m 1
+ 204 573 l 1
+ 151 560 146 461 146 398 c 0
+ 146 371 146 360 146 339 c 0
+ 146 248 148 137 203 124 c 1
+ 203 0 l 1
+ 137 3 21 60 21 353 c 0
+ 21 602 115 693 204 698 c 1
 EndSplineSet
-Validated: 1
 EndChar
 EndChars
 EndSplineFont
