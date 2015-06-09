@@ -2,7 +2,6 @@ SplineFontDB: 3.0
 FontName: StickNoBills
 FullName: Stick No Bills
 FamilyName: Stick No Bills
-OS2StyleName: "regular"
 Weight: Regular
 Copyright: Copyright (c) 2013 STICK NO BILLS, Copyright (c) 2015 mooniak\n
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
@@ -19,12 +18,13 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 PreferredKerning: 4
+StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1429805226
+ModificationTime: 1433851876
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -43,8 +43,6 @@ HheadAscent: 918
 HheadAOffset: 0
 HheadDescent: -205
 HheadDOffset: 0
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
@@ -483,28 +481,31 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 168 12 6
+WinInfo: 240 12 4
 BeginPrivate: 0
 EndPrivate
+Grid
+-1024 516.799999237 m 0
+ 2048 516.799999237 l 1024
+EndSplineSet
 TeXData: 1 0 0 307200 153600 102400 526336 1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 232 231
+BeginChars: 65539 297
 
-StartChar: A
+StartChar: uni0041
 Encoding: 33 65 0
 GlifName: A_
 Width: 516
@@ -536,7 +537,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AE
+StartChar: uni00C6
 Encoding: 133 198 1
 GlifName: A_E_
 Width: 727
@@ -575,7 +576,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Aacute
+StartChar: uni00C1
 Encoding: 128 193 2
 GlifName: A_acute
 Width: 516
@@ -592,7 +593,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Acircumflex
+StartChar: uni00C2
 Encoding: 129 194 3
 GlifName: A_circumflex
 Width: 516
@@ -609,7 +610,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Adieresis
+StartChar: uni00C4
 Encoding: 131 196 4
 GlifName: A_dieresis
 Width: 516
@@ -626,7 +627,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Agrave
+StartChar: uni00C0
 Encoding: 127 192 5
 GlifName: A_grave
 Width: 516
@@ -643,7 +644,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Aring
+StartChar: uni00C5
 Encoding: 132 197 6
 GlifName: A_ring
 Width: 516
@@ -684,7 +685,7 @@ EndSplineSet
 Validated: 5
 EndChar
 
-StartChar: Atilde
+StartChar: uni00C3
 Encoding: 130 195 7
 GlifName: A_tilde
 Width: 516
@@ -701,7 +702,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: B
+StartChar: uni0042
 Encoding: 34 66 8
 GlifName: B_
 Width: 484
@@ -739,7 +740,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: C
+StartChar: uni0043
 Encoding: 35 67 9
 GlifName: C_
 Width: 494
@@ -779,7 +780,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ccedilla
+StartChar: uni00C7
 Encoding: 134 199 10
 GlifName: C_cedilla
 Width: 494
@@ -796,7 +797,7 @@ Refer: 9 67 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: D
+StartChar: uni0044
 Encoding: 36 68 11
 GlifName: D_
 Width: 452
@@ -827,7 +828,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: E
+StartChar: uni0045
 Encoding: 37 69 12
 GlifName: E_
 Width: 422
@@ -857,8 +858,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: EURO
-Encoding: 191 8364 13
+StartChar: uni20AC
+Encoding: 307 8364 13
 GlifName: E_U_R_O_
 Width: 567
 VWidth: 0
@@ -915,7 +916,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Eacute
+StartChar: uni00C9
 Encoding: 136 201 14
 GlifName: E_acute
 Width: 422
@@ -932,7 +933,7 @@ Refer: 12 69 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Ecircumflex
+StartChar: uni00CA
 Encoding: 137 202 15
 GlifName: E_circumflex
 Width: 422
@@ -949,7 +950,7 @@ Refer: 12 69 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Edieresis
+StartChar: uni00CB
 Encoding: 138 203 16
 GlifName: E_dieresis
 Width: 422
@@ -966,7 +967,7 @@ Refer: 12 69 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Egrave
+StartChar: uni00C8
 Encoding: 135 200 17
 GlifName: E_grave
 Width: 422
@@ -983,7 +984,7 @@ Refer: 12 69 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Eth
+StartChar: uni00D0
 Encoding: 143 208 18
 GlifName: E_th
 Width: 501
@@ -1022,7 +1023,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: F
+StartChar: uni0046
 Encoding: 38 70 19
 GlifName: F_
 Width: 422
@@ -1050,7 +1051,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: G
+StartChar: uni0047
 Encoding: 39 71 20
 GlifName: G_
 Width: 493
@@ -1092,7 +1093,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: H
+StartChar: uni0048
 Encoding: 40 72 21
 GlifName: H_
 Width: 458
@@ -1128,7 +1129,7 @@ Validated: 1
 EndChar
 
 StartChar: HKD
-Encoding: 192 22291 22
+Encoding: 65536 22291 22
 GlifName: H_K_D_
 Width: 843
 VWidth: 0
@@ -1175,7 +1176,7 @@ Refer: 105 36 N 1 0 0 1 322 0 2
 Validated: 1
 EndChar
 
-StartChar: I
+StartChar: uni0049
 Encoding: 41 73 23
 GlifName: I_
 Width: 209
@@ -1197,7 +1198,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Iacute
+StartChar: uni00CD
 Encoding: 140 205 24
 GlifName: I_acute
 Width: 209
@@ -1214,7 +1215,7 @@ Refer: 23 73 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Icircumflex
+StartChar: uni00CE
 Encoding: 141 206 25
 GlifName: I_circumflex
 Width: 209
@@ -1231,7 +1232,7 @@ Refer: 23 73 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Idieresis
+StartChar: uni00CF
 Encoding: 142 207 26
 GlifName: I_dieresis
 Width: 209
@@ -1248,7 +1249,7 @@ Refer: 23 73 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Igrave
+StartChar: uni00CC
 Encoding: 139 204 27
 GlifName: I_grave
 Width: 209
@@ -1265,7 +1266,7 @@ Refer: 23 73 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: J
+StartChar: uni004A
 Encoding: 42 74 28
 GlifName: J_
 Width: 495
@@ -1296,7 +1297,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: K
+StartChar: uni004B
 Encoding: 43 75 29
 GlifName: K_
 Width: 475
@@ -1325,7 +1326,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: L
+StartChar: uni004C
 Encoding: 44 76 30
 GlifName: L_
 Width: 428
@@ -1349,8 +1350,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Lslash
-Encoding: 193 321 31
+StartChar: uni0141
+Encoding: 231 321 31
 GlifName: L_slash
 Width: 530
 VWidth: 0
@@ -1381,7 +1382,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: M
+StartChar: uni004D
 Encoding: 45 77 32
 GlifName: M_
 Width: 676
@@ -1419,7 +1420,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: N
+StartChar: uni004E
 Encoding: 46 78 33
 GlifName: N_
 Width: 509
@@ -1455,7 +1456,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ntilde
+StartChar: uni00D1
 Encoding: 144 209 34
 GlifName: N_tilde
 Width: 509
@@ -1472,7 +1473,7 @@ Refer: 33 78 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: O
+StartChar: uni004F
 Encoding: 47 79 35
 GlifName: O_
 Width: 508
@@ -1507,8 +1508,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OE
-Encoding: 194 338 36
+StartChar: uni0152
+Encoding: 243 338 36
 GlifName: O_E_
 Width: 724
 VWidth: 0
@@ -1550,7 +1551,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oacute
+StartChar: uni00D3
 Encoding: 146 211 37
 GlifName: O_acute
 Width: 508
@@ -1567,7 +1568,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Ocircumflex
+StartChar: uni00D4
 Encoding: 147 212 38
 GlifName: O_circumflex
 Width: 508
@@ -1584,7 +1585,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Odieresis
+StartChar: uni00D6
 Encoding: 149 214 39
 GlifName: O_dieresis
 Width: 508
@@ -1601,7 +1602,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Ograve
+StartChar: uni00D2
 Encoding: 145 210 40
 GlifName: O_grave
 Width: 508
@@ -1618,7 +1619,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Oslash
+StartChar: uni00D8
 Encoding: 151 216 41
 GlifName: O_slash
 Width: 662
@@ -1662,7 +1663,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Otilde
+StartChar: uni00D5
 Encoding: 148 213 42
 GlifName: O_tilde
 Width: 508
@@ -1679,7 +1680,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: P
+StartChar: uni0050
 Encoding: 48 80 43
 GlifName: P_
 Width: 474
@@ -1710,7 +1711,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Percent_sign
+StartChar: uni0025
 Encoding: 5 37 44
 GlifName: P_ercent_sign
 Width: 629
@@ -1742,7 +1743,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Q
+StartChar: uni0051
 Encoding: 49 81 45
 GlifName: Q_
 Width: 500
@@ -1780,7 +1781,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: R
+StartChar: uni0052
 Encoding: 50 82 46
 GlifName: R_
 Width: 495
@@ -1816,7 +1817,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: S
+StartChar: uni0053
 Encoding: 51 83 47
 GlifName: S_
 Width: 497
@@ -1854,8 +1855,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Scaron
-Encoding: 195 352 48
+StartChar: uni0160
+Encoding: 255 352 48
 GlifName: S_caron
 Width: 497
 VWidth: 0
@@ -1871,7 +1872,7 @@ Refer: 47 83 N 1 0 0 1 -7 0 2
 Validated: 1
 EndChar
 
-StartChar: T
+StartChar: uni0054
 Encoding: 52 84 49
 GlifName: T_
 Width: 485
@@ -1897,7 +1898,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Thorn
+StartChar: uni00DE
 Encoding: 157 222 50
 GlifName: T_horn
 Width: 474
@@ -1928,8 +1929,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: TradeMarkSign
-Encoding: 196 8482 51
+StartChar: uni2122
+Encoding: 311 8482 51
 GlifName: T_radeM_arkS_ign
 Width: 403
 VWidth: 0
@@ -1975,7 +1976,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: U
+StartChar: uni0055
 Encoding: 53 85 52
 GlifName: U_
 Width: 512
@@ -2006,7 +2007,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Uacute
+StartChar: uni00DA
 Encoding: 153 218 53
 GlifName: U_acute
 Width: 512
@@ -2023,7 +2024,7 @@ Refer: 52 85 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Ucircumflex
+StartChar: uni00DB
 Encoding: 154 219 54
 GlifName: U_circumflex
 Width: 512
@@ -2040,7 +2041,7 @@ Refer: 52 85 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Udieresis
+StartChar: uni00DC
 Encoding: 155 220 55
 GlifName: U_dieresis
 Width: 512
@@ -2057,7 +2058,7 @@ Refer: 52 85 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Ugrave
+StartChar: uni00D9
 Encoding: 152 217 56
 GlifName: U_grave
 Width: 512
@@ -2074,7 +2075,7 @@ Refer: 52 85 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: V
+StartChar: uni0056
 Encoding: 54 86 57
 GlifName: V_
 Width: 508
@@ -2102,7 +2103,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: W
+StartChar: uni0057
 Encoding: 55 87 58
 GlifName: W_
 Width: 725
@@ -2136,7 +2137,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: X
+StartChar: uni0058
 Encoding: 56 88 59
 GlifName: X_
 Width: 464
@@ -2165,7 +2166,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Y
+StartChar: uni0059
 Encoding: 57 89 60
 GlifName: Y_
 Width: 479
@@ -2195,7 +2196,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Yacute
+StartChar: uni00DD
 Encoding: 156 221 61
 GlifName: Y_acute
 Width: 479
@@ -2212,8 +2213,8 @@ Refer: 60 89 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Ydieresis
-Encoding: 197 376 62
+StartChar: uni0178
+Encoding: 269 376 62
 GlifName: Y_dieresis
 Width: 479
 VWidth: 0
@@ -2229,7 +2230,7 @@ Refer: 60 89 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: Z
+StartChar: uni005A
 Encoding: 58 90 63
 GlifName: Z_
 Width: 418
@@ -2257,8 +2258,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Zcaron
-Encoding: 198 381 64
+StartChar: uni017D
+Encoding: 274 381 64
 GlifName: Z_caron
 Width: 418
 VWidth: 0
@@ -2274,7 +2275,7 @@ Refer: 63 90 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: a
+StartChar: uni0061
 Encoding: 65 97 65
 GlifName: a
 Width: 435
@@ -2329,7 +2330,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aacute
+StartChar: uni00E1
 Encoding: 160 225 66
 GlifName: aacute
 Width: 435
@@ -2346,7 +2347,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: acircumflex
+StartChar: uni00E2
 Encoding: 161 226 67
 GlifName: acircumflex
 Width: 435
@@ -2363,7 +2364,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: acute
+StartChar: uni00B4
 Encoding: 115 180 68
 GlifName: acute
 Width: 263
@@ -2385,7 +2386,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: adieresis
+StartChar: uni00E4
 Encoding: 163 228 69
 GlifName: adieresis
 Width: 435
@@ -2402,7 +2403,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: ae
+StartChar: uni00E6
 Encoding: 165 230 70
 GlifName: ae
 Width: 666
@@ -2469,7 +2470,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: agrave
+StartChar: uni00E0
 Encoding: 159 224 71
 GlifName: agrave
 Width: 435
@@ -2486,7 +2487,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: ampersand
+StartChar: uni0026
 Encoding: 6 38 72
 GlifName: ampersand
 Width: 687
@@ -2534,7 +2535,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aring
+StartChar: uni00E5
 Encoding: 164 229 73
 GlifName: aring
 Width: 435
@@ -2551,7 +2552,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: asciicircum
+StartChar: uni005E
 Encoding: 62 94 74
 GlifName: asciicircum
 Width: 374
@@ -2575,7 +2576,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: asciitilde
+StartChar: uni007E
 Encoding: 94 126 75
 GlifName: asciitilde
 Width: 568
@@ -2600,7 +2601,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: asterisk
+StartChar: uni002A
 Encoding: 10 42 76
 GlifName: asterisk
 Width: 394
@@ -2636,7 +2637,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: at
+StartChar: uni0040
 Encoding: 32 64 77
 GlifName: at
 Width: 803
@@ -2675,7 +2676,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: atilde
+StartChar: uni00E3
 Encoding: 162 227 78
 GlifName: atilde
 Width: 435
@@ -2692,7 +2693,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: b
+StartChar: uni0062
 Encoding: 66 98 79
 GlifName: b
 Width: 414
@@ -2727,7 +2728,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: backslash
+StartChar: uni005C
 Encoding: 60 92 80
 GlifName: backslash
 Width: 402
@@ -2748,7 +2749,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bar
+StartChar: uni007C
 Encoding: 92 124 81
 GlifName: bar
 Width: 205
@@ -2769,7 +2770,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: braceleft
+StartChar: uni007B
 Encoding: 91 123 82
 GlifName: braceleft
 Width: 407
@@ -2802,7 +2803,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: braceright
+StartChar: uni007D
 Encoding: 93 125 83
 GlifName: braceright
 Width: 407
@@ -2836,7 +2837,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bracketleft
+StartChar: uni005B
 Encoding: 59 91 84
 GlifName: bracketleft
 Width: 258
@@ -2862,7 +2863,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bracketright
+StartChar: uni005D
 Encoding: 61 93 85
 GlifName: bracketright
 Width: 258
@@ -2888,8 +2889,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: breve
-Encoding: 199 728 86
+StartChar: uni02D8
+Encoding: 284 728 86
 GlifName: breve
 Width: 244
 VWidth: 0
@@ -2912,7 +2913,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: brokenbar
+StartChar: uni00A6
 Encoding: 101 166 87
 GlifName: brokenbar
 Width: 222
@@ -2938,8 +2939,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bullet
-Encoding: 200 8226 88
+StartChar: uni2022
+Encoding: 301 8226 88
 GlifName: bullet
 Width: 352
 VWidth: 0
@@ -2958,7 +2959,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: c
+StartChar: uni0063
 Encoding: 67 99 89
 GlifName: c
 Width: 418
@@ -3009,8 +3010,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: caron
-Encoding: 201 711 90
+StartChar: uni02C7
+Encoding: 282 711 90
 GlifName: caron
 Width: 270
 VWidth: 0
@@ -3034,7 +3035,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ccedilla
+StartChar: uni00E7
 Encoding: 166 231 91
 GlifName: ccedilla
 Width: 418
@@ -3051,7 +3052,7 @@ Refer: 89 99 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: cedilla
+StartChar: uni00B8
 Encoding: 119 184 92
 GlifName: cedilla
 Width: 219
@@ -3073,7 +3074,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: cent
+StartChar: uni00A2
 Encoding: 97 162 93
 GlifName: cent
 Width: 494
@@ -3128,8 +3129,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: circumflex
-Encoding: 202 710 94
+StartChar: uni02C6
+Encoding: 281 710 94
 GlifName: circumflex
 Width: 270
 VWidth: 0
@@ -3153,7 +3154,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: colon
+StartChar: uni003A
 Encoding: 26 58 95
 GlifName: colon
 Width: 250
@@ -3180,7 +3181,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: comma
+StartChar: uni002C
 Encoding: 12 44 96
 GlifName: comma
 Width: 265
@@ -3200,7 +3201,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: copyright
+StartChar: uni00A9
 Encoding: 104 169 97
 GlifName: copyright
 Width: 859
@@ -3258,7 +3259,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: currency
+StartChar: uni00A4
 Encoding: 99 164 98
 GlifName: currency
 Width: 656
@@ -3317,7 +3318,7 @@ EndSplineSet
 Validated: 5
 EndChar
 
-StartChar: d
+StartChar: uni0064
 Encoding: 68 100 99
 GlifName: d
 Width: 414
@@ -3352,8 +3353,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dagger
-Encoding: 203 8224 100
+StartChar: uni2020
+Encoding: 299 8224 100
 GlifName: dagger
 Width: 453
 VWidth: 0
@@ -3382,8 +3383,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: daggerdbl
-Encoding: 204 8225 101
+StartChar: uni2021
+Encoding: 300 8225 101
 GlifName: daggerdbl
 Width: 453
 VWidth: 0
@@ -3420,7 +3421,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: degree
+StartChar: uni00B0
 Encoding: 111 176 102
 GlifName: degree
 Width: 282
@@ -3447,7 +3448,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dieresis
+StartChar: uni00A8
 Encoding: 103 168 103
 GlifName: dieresis
 Width: 320
@@ -3472,7 +3473,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: divide
+StartChar: uni00F7
 Encoding: 182 247 104
 GlifName: divide
 Width: 650
@@ -3496,7 +3497,7 @@ Refer: 175 46 N 1 0 0 1 196 62 2
 Validated: 1
 EndChar
 
-StartChar: dollar
+StartChar: uni0024
 Encoding: 4 36 105
 GlifName: dollar
 Width: 501
@@ -3547,8 +3548,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dotaccent
-Encoding: 205 729 106
+StartChar: uni02D9
+Encoding: 285 729 106
 GlifName: dotaccent
 Width: 202
 VWidth: 0
@@ -3569,8 +3570,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dotlessi
-Encoding: 206 305 107
+StartChar: uni0131
+Encoding: 222 305 107
 GlifName: dotlessi
 Width: 174
 VWidth: 0
@@ -3589,7 +3590,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: e
+StartChar: uni0065
 Encoding: 69 101 108
 GlifName: e
 Width: 424
@@ -3638,7 +3639,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eacute
+StartChar: uni00E9
 Encoding: 168 233 109
 GlifName: eacute
 Width: 424
@@ -3655,7 +3656,7 @@ Refer: 108 101 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: ecircumflex
+StartChar: uni00EA
 Encoding: 169 234 110
 GlifName: ecircumflex
 Width: 424
@@ -3672,7 +3673,7 @@ Refer: 108 101 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: edieresis
+StartChar: uni00EB
 Encoding: 170 235 111
 GlifName: edieresis
 Width: 424
@@ -3689,7 +3690,7 @@ Refer: 108 101 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: egrave
+StartChar: uni00E8
 Encoding: 167 232 112
 GlifName: egrave
 Width: 424
@@ -3706,7 +3707,7 @@ Refer: 108 101 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: eight
+StartChar: uni0038
 Encoding: 24 56 113
 GlifName: eight
 Width: 486
@@ -3749,8 +3750,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: emdash
-Encoding: 207 8212 114
+StartChar: uni2014
+Encoding: 292 8212 114
 GlifName: emdash
 Width: 906
 VWidth: 0
@@ -3770,8 +3771,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: endash
-Encoding: 208 8211 115
+StartChar: uni2013
+Encoding: 291 8211 115
 GlifName: endash
 Width: 532
 VWidth: 0
@@ -3791,7 +3792,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: equal
+StartChar: uni003D
 Encoding: 29 61 116
 GlifName: equal
 Width: 418
@@ -3818,7 +3819,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eth
+StartChar: uni00F0
 Encoding: 175 240 117
 GlifName: eth
 Width: 420
@@ -3874,7 +3875,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: exclam
+StartChar: uni0021
 Encoding: 1 33 118
 GlifName: exclam
 Width: 329
@@ -3899,7 +3900,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: exclamdown
+StartChar: uni00A1
 Encoding: 96 161 119
 GlifName: exclamdown
 Width: 210
@@ -3926,7 +3927,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: f
+StartChar: uni0066
 Encoding: 70 102 120
 GlifName: f
 Width: 304
@@ -3960,8 +3961,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fi
-Encoding: 209 64257 121
+StartChar: uniFB01
+Encoding: 329 64257 121
 GlifName: fi
 Width: 494
 VWidth: 0
@@ -4001,7 +4002,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: five
+StartChar: uni0035
 Encoding: 21 53 122
 GlifName: five
 Width: 492
@@ -4040,8 +4041,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fl
-Encoding: 210 64258 123
+StartChar: uniFB02
+Encoding: 330 64258 123
 GlifName: fl
 Width: 483
 VWidth: 0
@@ -4076,8 +4077,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: florin
-Encoding: 211 402 124
+StartChar: uni0192
+Encoding: 276 402 124
 GlifName: florin
 Width: 382
 VWidth: 0
@@ -4118,7 +4119,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: four
+StartChar: uni0034
 Encoding: 20 52 125
 GlifName: four
 Width: 483
@@ -4152,8 +4153,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fraction
-Encoding: 212 8260 126
+StartChar: uni2044
+Encoding: 306 8260 126
 GlifName: fraction
 Width: 560
 VWidth: 0
@@ -4173,7 +4174,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: g
+StartChar: uni0067
 Encoding: 71 103 127
 GlifName: g
 Width: 415
@@ -4224,7 +4225,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: germandbls
+StartChar: uni00DF
 Encoding: 158 223 128
 GlifName: germandbls
 Width: 522
@@ -4263,7 +4264,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: grave
+StartChar: uni0060
 Encoding: 64 96 129
 GlifName: grave
 Width: 263
@@ -4285,7 +4286,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: greater
+StartChar: uni003E
 Encoding: 30 62 130
 GlifName: greater
 Width: 414
@@ -4308,7 +4309,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: guillemotleft
+StartChar: uni00AB
 Encoding: 106 171 131
 GlifName: guillemotleft
 Width: 475
@@ -4339,7 +4340,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: guillemotright
+StartChar: uni00BB
 Encoding: 122 187 132
 GlifName: guillemotright
 Width: 414
@@ -4370,8 +4371,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: guilsinglleft
-Encoding: 213 8249 133
+StartChar: uni2039
+Encoding: 304 8249 133
 GlifName: guilsinglleft
 Width: 338
 VWidth: 0
@@ -4393,8 +4394,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: guilsinglright
-Encoding: 214 8250 134
+StartChar: uni203A
+Encoding: 305 8250 134
 GlifName: guilsinglright
 Width: 338
 VWidth: 0
@@ -4416,7 +4417,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: h
+StartChar: uni0068
 Encoding: 72 104 135
 GlifName: h
 Width: 421
@@ -4454,8 +4455,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hungarumlaut
-Encoding: 215 733 136
+StartChar: uni02DD
+Encoding: 289 733 136
 GlifName: hungarumlaut
 Width: 336
 VWidth: 0
@@ -4481,7 +4482,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hyphen
+StartChar: uni002D
 Encoding: 13 45 137
 GlifName: hyphen
 Width: 416
@@ -4501,7 +4502,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: i
+StartChar: uni0069
 Encoding: 73 105 138
 GlifName: i
 Width: 199
@@ -4528,7 +4529,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: iacute
+StartChar: uni00ED
 Encoding: 172 237 139
 GlifName: iacute
 Width: 199
@@ -4555,7 +4556,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: icircumflex
+StartChar: uni00EE
 Encoding: 173 238 140
 GlifName: icircumflex
 Width: 174
@@ -4572,7 +4573,7 @@ Refer: 107 305 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: idieresis
+StartChar: uni00EF
 Encoding: 174 239 141
 GlifName: idieresis
 Width: 199
@@ -4604,7 +4605,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: igrave
+StartChar: uni00EC
 Encoding: 171 236 142
 GlifName: igrave
 Width: 199
@@ -4631,7 +4632,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: j
+StartChar: uni006A
 Encoding: 74 106 143
 GlifName: j
 Width: 194
@@ -4662,7 +4663,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: k
+StartChar: uni006B
 Encoding: 75 107 144
 GlifName: k
 Width: 452
@@ -4691,7 +4692,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: l
+StartChar: uni006C
 Encoding: 76 108 145
 GlifName: l
 Width: 184
@@ -4713,7 +4714,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: less
+StartChar: uni003C
 Encoding: 28 60 146
 GlifName: less
 Width: 414
@@ -4736,7 +4737,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: logicalnot
+StartChar: uni00AC
 Encoding: 107 172 147
 GlifName: logicalnot
 Width: 502
@@ -4760,8 +4761,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lslash
-Encoding: 216 322 148
+StartChar: uni0142
+Encoding: 232 322 148
 GlifName: lslash
 Width: 424
 VWidth: 0
@@ -4783,7 +4784,7 @@ Refer: 145 108 N 1 0 0 1 117 0 2
 Validated: 5
 EndChar
 
-StartChar: m
+StartChar: uni006D
 Encoding: 77 109 149
 GlifName: m
 Width: 684
@@ -4833,7 +4834,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: macron
+StartChar: uni00AF
 Encoding: 110 175 150
 GlifName: macron
 Width: 510
@@ -4848,8 +4849,8 @@ Refer: 215 95 N 1 0 0 1 0 917 2
 Validated: 1
 EndChar
 
-StartChar: minus
-Encoding: 217 8722 151
+StartChar: uni2212
+Encoding: 318 8722 151
 GlifName: minus
 Width: 416
 VWidth: 0
@@ -4864,7 +4865,7 @@ Refer: 137 45 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: mu
+StartChar: uni00B5
 Encoding: 116 181 152
 GlifName: mu
 Width: 468
@@ -4911,7 +4912,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: multiply
+StartChar: uni00D7
 Encoding: 150 215 153
 GlifName: multiply
 Width: 697
@@ -4939,7 +4940,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: n
+StartChar: uni006E
 Encoding: 78 110 154
 GlifName: n
 Width: 434
@@ -4974,7 +4975,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nine
+StartChar: uni0039
 Encoding: 25 57 155
 GlifName: nine
 Width: 504
@@ -5014,7 +5015,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ntilde
+StartChar: uni00F1
 Encoding: 176 241 156
 GlifName: ntilde
 Width: 434
@@ -5031,7 +5032,7 @@ Refer: 154 110 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: numbersign
+StartChar: uni0023
 Encoding: 3 35 157
 GlifName: numbersign
 Width: 888
@@ -5081,7 +5082,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: o
+StartChar: uni006F
 Encoding: 79 111 158
 GlifName: o
 Width: 420
@@ -5124,7 +5125,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oacute
+StartChar: uni00F3
 Encoding: 178 243 159
 GlifName: oacute
 Width: 420
@@ -5141,7 +5142,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: ocircumflex
+StartChar: uni00F4
 Encoding: 179 244 160
 GlifName: ocircumflex
 Width: 420
@@ -5158,7 +5159,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: odieresis
+StartChar: uni00F6
 Encoding: 181 246 161
 GlifName: odieresis
 Width: 420
@@ -5175,8 +5176,8 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: oe
-Encoding: 218 339 162
+StartChar: uni0153
+Encoding: 244 339 162
 GlifName: oe
 Width: 671
 VWidth: 0
@@ -5242,7 +5243,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ograve
+StartChar: uni00F2
 Encoding: 177 242 163
 GlifName: ograve
 Width: 420
@@ -5259,7 +5260,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: one
+StartChar: uni0031
 Encoding: 17 49 164
 GlifName: one
 Width: 266
@@ -5284,7 +5285,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: onehalf
+StartChar: uni00BD
 Encoding: 124 189 165
 GlifName: onehalf
 Width: 581
@@ -5342,7 +5343,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: onequarter
+StartChar: uni00BC
 Encoding: 123 188 166
 GlifName: onequarter
 Width: 560
@@ -5389,7 +5390,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ordfeminine
+StartChar: uni00AA
 Encoding: 105 170 167
 GlifName: ordfeminine
 Width: 227
@@ -5448,7 +5449,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ordmasculine
+StartChar: uni00BA
 Encoding: 121 186 168
 GlifName: ordmasculine
 Width: 230
@@ -5496,7 +5497,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslash
+StartChar: uni00F8
 Encoding: 183 248 169
 GlifName: oslash
 Width: 498
@@ -5546,7 +5547,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: otilde
+StartChar: uni00F5
 Encoding: 180 245 170
 GlifName: otilde
 Width: 420
@@ -5563,7 +5564,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: p
+StartChar: uni0070
 Encoding: 80 112 171
 GlifName: p
 Width: 422
@@ -5598,7 +5599,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: paragraph
+StartChar: uni00B6
 Encoding: 117 182 172
 GlifName: paragraph
 Width: 444
@@ -5625,7 +5626,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: parenleft
+StartChar: uni0028
 Encoding: 8 40 173
 GlifName: parenleft
 Width: 262
@@ -5650,7 +5651,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: parenright
+StartChar: uni0029
 Encoding: 9 41 174
 GlifName: parenright
 Width: 330
@@ -5676,7 +5677,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: period
+StartChar: uni002E
 Encoding: 14 46 175
 GlifName: period
 Width: 250
@@ -5696,7 +5697,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: periodcentered
+StartChar: uni00B7
 Encoding: 118 183 176
 GlifName: periodcentered
 Width: 250
@@ -5712,8 +5713,8 @@ Refer: 175 46 N 1 0 0 1 0 292 2
 Validated: 1
 EndChar
 
-StartChar: perthousand
-Encoding: 219 8240 177
+StartChar: uni2030
+Encoding: 303 8240 177
 GlifName: perthousand
 Width: 897
 VWidth: 0
@@ -5806,7 +5807,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: plus
+StartChar: uni002B
 Encoding: 11 43 178
 GlifName: plus
 Width: 475
@@ -5834,7 +5835,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: plusminus
+StartChar: uni00B1
 Encoding: 112 177 179
 GlifName: plusminus
 Width: 575
@@ -5857,7 +5858,7 @@ Refer: 178 43 N 1 0 0 1 0 161 2
 Validated: 1
 EndChar
 
-StartChar: q
+StartChar: uni0071
 Encoding: 81 113 180
 GlifName: q
 Width: 416
@@ -5892,7 +5893,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: question
+StartChar: uni003F
 Encoding: 31 63 181
 GlifName: question
 Width: 460
@@ -5926,7 +5927,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: questiondown
+StartChar: uni00BF
 Encoding: 126 191 182
 GlifName: questiondown
 Width: 460
@@ -5959,7 +5960,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: quotedbl
+StartChar: uni0022
 Encoding: 2 34 183
 GlifName: quotedbl
 Width: 407
@@ -5985,7 +5986,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedbl.alt
-Encoding: 220 -1 184
+Encoding: 65537 -1 184
 GlifName: quotedbl.alt
 Width: 359
 VWidth: 0
@@ -6011,8 +6012,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: quotedblbase
-Encoding: 221 8222 185
+StartChar: uni201E
+Encoding: 298 8222 185
 GlifName: quotedblbase
 Width: 359
 VWidth: 0
@@ -6027,8 +6028,8 @@ Refer: 183 34 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: quotedblleft
-Encoding: 222 8220 186
+StartChar: uni201C
+Encoding: 296 8220 186
 GlifName: quotedblleft
 Width: 359
 VWidth: 0
@@ -6043,8 +6044,8 @@ Refer: 183 34 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: quotedblright
-Encoding: 223 8221 187
+StartChar: uni201D
+Encoding: 297 8221 187
 GlifName: quotedblright
 Width: 359
 VWidth: 0
@@ -6059,8 +6060,8 @@ Refer: 183 34 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: quoteleft
-Encoding: 224 8216 188
+StartChar: uni2018
+Encoding: 293 8216 188
 GlifName: quoteleft
 Width: 187
 VWidth: 0
@@ -6075,8 +6076,8 @@ Refer: 191 39 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: quoteright
-Encoding: 225 8217 189
+StartChar: uni2019
+Encoding: 294 8217 189
 GlifName: quoteright
 Width: 187
 VWidth: 0
@@ -6091,8 +6092,8 @@ Refer: 191 39 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: quotesinglbase
-Encoding: 226 8218 190
+StartChar: uni201A
+Encoding: 295 8218 190
 GlifName: quotesinglbase
 Width: 187
 VWidth: 0
@@ -6107,7 +6108,7 @@ Refer: 191 39 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: quotesingle
+StartChar: uni0027
 Encoding: 7 39 191
 GlifName: quotesingle
 Width: 227
@@ -6127,20 +6128,20 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: r
+StartChar: uni0072
 Encoding: 82 114 192
 GlifName: r
 Width: 316
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21<36 160 36 36> 0 21<36 160 36 36> 395 121<289 289>
-VStem: 36 124<0 271 454 516>
+HStem: 0 21G<36 160> 395 121<221.776 289>
+VStem: 36 124<0 333.833 454 516>
 LayerCount: 2
 Back
 Fore
 SplineSet
-36 516 m 257xb0
+36 516 m 257
  160 516 l 257
  160 454 l 257
  181 481 229 516 284 516 c 258
@@ -6149,12 +6150,12 @@ SplineSet
  222 394 160 331 160 271 c 258
  160 0 l 257
  36 0 l 257
- 36 516 l 257xb0
+ 36 516 l 257
 EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: registered
+StartChar: uni00AE
 Encoding: 109 174 193
 GlifName: registered
 Width: 404
@@ -6208,8 +6209,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ring
-Encoding: 227 730 194
+StartChar: uni02DA
+Encoding: 286 730 194
 GlifName: ring
 Width: 244
 VWidth: 0
@@ -6235,7 +6236,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: s
+StartChar: uni0073
 Encoding: 83 115 195
 GlifName: s
 Width: 418
@@ -6285,8 +6286,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: scaron
-Encoding: 228 353 196
+StartChar: uni0161
+Encoding: 256 353 196
 GlifName: scaron
 Width: 418
 VWidth: 0
@@ -6297,12 +6298,12 @@ VStem: 31 112 97 218 285 117
 LayerCount: 2
 Back
 Fore
-Refer: 90 711 N 1 0 0 1 71 64 2
+Refer: 90 711 S 1 0 0 1 71 64 2
 Refer: 195 115 N 1 0 0 1 5 0 2
 Validated: 1
 EndChar
 
-StartChar: section
+StartChar: uni00A7
 Encoding: 102 167 197
 GlifName: section
 Width: 547
@@ -6353,7 +6354,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: semicolon
+StartChar: uni003B
 Encoding: 27 59 198
 GlifName: semicolon
 Width: 291
@@ -6380,7 +6381,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: seven
+StartChar: uni0037
 Encoding: 23 55 199
 GlifName: seven
 Width: 435
@@ -6409,7 +6410,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: six
+StartChar: uni0036
 Encoding: 22 54 200
 GlifName: six
 Width: 497
@@ -6450,7 +6451,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slash
+StartChar: uni002F
 Encoding: 15 47 201
 GlifName: slash
 Width: 401
@@ -6470,7 +6471,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: space
+StartChar: uni0020
 Encoding: 0 32 202
 GlifName: space
 Width: 300
@@ -6483,7 +6484,7 @@ Fore
 Validated: 1
 EndChar
 
-StartChar: sterling
+StartChar: uni00A3
 Encoding: 98 163 203
 GlifName: sterling
 Width: 520
@@ -6521,7 +6522,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: t
+StartChar: uni0074
 Encoding: 84 116 204
 GlifName: t
 Width: 324
@@ -6555,7 +6556,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thorn
+StartChar: uni00FE
 Encoding: 189 254 205
 GlifName: thorn
 Width: 422
@@ -6590,7 +6591,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: three
+StartChar: uni0033
 Encoding: 19 51 206
 GlifName: three
 Width: 484
@@ -6631,7 +6632,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: threequarters
+StartChar: uni00BE
 Encoding: 125 190 207
 GlifName: threequarters
 Width: 584
@@ -6704,8 +6705,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tilde
-Encoding: 229 732 208
+StartChar: uni02DC
+Encoding: 288 732 208
 GlifName: tilde
 Width: 333
 VWidth: 0
@@ -6730,7 +6731,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: two
+StartChar: uni0032
 Encoding: 18 50 209
 GlifName: two
 Width: 480
@@ -6769,7 +6770,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: u
+StartChar: uni0075
 Encoding: 85 117 210
 GlifName: u
 Width: 434
@@ -6804,7 +6805,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uacute
+StartChar: uni00FA
 Encoding: 185 250 211
 GlifName: uacute
 Width: 434
@@ -6821,7 +6822,7 @@ Refer: 210 117 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: ucircumflex
+StartChar: uni00FB
 Encoding: 186 251 212
 GlifName: ucircumflex
 Width: 434
@@ -6838,7 +6839,7 @@ Refer: 210 117 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: udieresis
+StartChar: uni00FC
 Encoding: 187 252 213
 GlifName: udieresis
 Width: 434
@@ -6855,7 +6856,7 @@ Refer: 210 117 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: ugrave
+StartChar: uni00F9
 Encoding: 184 249 214
 GlifName: ugrave
 Width: 434
@@ -6872,7 +6873,7 @@ Refer: 210 117 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: underscore
+StartChar: uni005F
 Encoding: 63 95 215
 GlifName: underscore
 Width: 510
@@ -6893,21 +6894,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uni007F
-Encoding: 95 127 216
-GlifName: uni007F_
-Width: 1024
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-Validated: 1
-EndChar
-
 StartChar: uni00AD
-Encoding: 108 173 217
+Encoding: 108 173 216
 GlifName: uni00A_D_
 Width: 516
 VWidth: 0
@@ -6923,7 +6911,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B2
-Encoding: 113 178 218
+Encoding: 113 178 217
 GlifName: uni00B_2
 Width: 245
 VWidth: 0
@@ -6966,7 +6954,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B3
-Encoding: 114 179 219
+Encoding: 114 179 218
 GlifName: uni00B_3
 Width: 247
 VWidth: 0
@@ -7019,7 +7007,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B9
-Encoding: 120 185 220
+Encoding: 120 185 219
 GlifName: uni00B_9
 Width: 186
 VWidth: 0
@@ -7043,8 +7031,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: v
-Encoding: 86 118 221
+StartChar: uni0076
+Encoding: 86 118 220
 GlifName: v
 Width: 400
 VWidth: 0
@@ -7071,8 +7059,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: w
-Encoding: 87 119 222
+StartChar: uni0077
+Encoding: 87 119 221
 GlifName: w
 Width: 577
 VWidth: 0
@@ -7105,8 +7093,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: x
-Encoding: 88 120 223
+StartChar: uni0078
+Encoding: 88 120 222
 GlifName: x
 Width: 381
 VWidth: 0
@@ -7134,8 +7122,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: y
-Encoding: 89 121 224
+StartChar: uni0079
+Encoding: 89 121 223
 GlifName: y
 Width: 383
 VWidth: 0
@@ -7166,8 +7154,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yacute
-Encoding: 188 253 225
+StartChar: uni00FD
+Encoding: 188 253 224
 GlifName: yacute
 Width: 383
 VWidth: 0
@@ -7179,12 +7167,12 @@ LayerCount: 2
 Back
 Fore
 Refer: 68 180 N 1 0 0 1 95 -28 2
-Refer: 224 121 N 1 0 0 1 0 0 2
+Refer: 223 121 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: ydieresis
-Encoding: 190 255 226
+StartChar: uni00FF
+Encoding: 190 255 225
 GlifName: ydieresis
 Width: 383
 VWidth: 0
@@ -7196,12 +7184,12 @@ LayerCount: 2
 Back
 Fore
 Refer: 103 168 N 1 0 0 1 31 -26 2
-Refer: 224 121 N 1 0 0 1 0 0 2
+Refer: 223 121 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: yen
-Encoding: 100 165 227
+StartChar: uni00A5
+Encoding: 100 165 226
 GlifName: yen
 Width: 542
 VWidth: 0
@@ -7241,8 +7229,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: z
-Encoding: 90 122 228
+StartChar: uni007A
+Encoding: 90 122 227
 GlifName: z
 Width: 348
 VWidth: 0
@@ -7269,8 +7257,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: zcaron
-Encoding: 230 382 229
+StartChar: uni017E
+Encoding: 275 382 228
 GlifName: zcaron
 Width: 348
 VWidth: 0
@@ -7282,12 +7270,12 @@ LayerCount: 2
 Back
 Fore
 Refer: 90 711 N 1 0 0 1 41 63 2
-Refer: 228 122 N 1 0 0 1 0 0 2
+Refer: 227 122 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: zero
-Encoding: 16 48 230
+StartChar: uni0030
+Encoding: 16 48 229
 GlifName: zero
 Width: 1024
 VWidth: 0
@@ -7315,6 +7303,848 @@ SplineSet
  464 698 l 257
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: uni0143
+Encoding: 233 323 230
+Width: 509
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 159 161 2
+Refer: 33 78 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0144
+Encoding: 234 324 231
+Width: 434
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 121.5 -25 2
+Refer: 154 110 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0145
+Encoding: 235 325 232
+Width: 509
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 121.5 -190 2
+Refer: 33 78 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0146
+Encoding: 236 326 233
+Width: 434
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 84 -190 2
+Refer: 154 110 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0147
+Encoding: 237 327 234
+Width: 509
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 119.5 252 2
+Refer: 33 78 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0148
+Encoding: 238 328 235
+Width: 434
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 82 66 2
+Refer: 154 110 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni014C
+Encoding: 239 332 236
+Width: 508
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 -1 54 2
+Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0154
+Encoding: 245 340 237
+Width: 495
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 34 161 2
+Refer: 46 82 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0155
+Encoding: 246 341 238
+Width: 316
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 81 -28 2
+Refer: 192 114 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0156
+Encoding: 247 342 239
+Width: 495
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 117.5 -190 2
+Refer: 46 82 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0157
+Encoding: 248 343 240
+Width: 316
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 -35 -190 2
+Refer: 192 114 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0158
+Encoding: 249 344 241
+Width: 495
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 -5.5 252 2
+Refer: 46 82 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0159
+Encoding: 250 345 242
+Width: 316
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 41.5 63 2
+Refer: 192 114 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni015A
+Encoding: 251 346 243
+Width: 497
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 148 161 2
+Refer: 47 83 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni015B
+Encoding: 252 347 244
+Width: 418
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 107.5 -27 2
+Refer: 195 115 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni015E
+Encoding: 253 350 245
+Width: 497
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 N 1 0 0 1 95.5 -120.7 2
+Refer: 47 83 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: uni015F
+Encoding: 254 351 246
+Width: 418
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 N 1 0 0 1 56.5 -122.7 2
+Refer: 195 115 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: uni014D
+Encoding: 240 333 247
+Width: 420
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 -42.5 -135 2
+Refer: 158 111 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0150
+Encoding: 241 336 248
+Width: 508
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 136 733 N 1 0 0 1 115 161 2
+Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0151
+Encoding: 242 337 249
+Width: 420
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 136 733 N 1 0 0 1 73.5 -28 2
+Refer: 158 111 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0162
+Encoding: 257 354 250
+Width: 485
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 N 1 0 0 1 94.5 -117.7 2
+Refer: 49 84 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: uni0163
+Encoding: 258 355 251
+Width: 324
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 N 1 0 0 1 122.5 -117.7 2
+Refer: 204 116 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: uni0164
+Encoding: 259 356 252
+Width: 485
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 107.5 252 2
+Refer: 49 84 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0165
+Encoding: 260 357 253
+Width: 324
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 190.5 571 2
+Refer: 204 116 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni016A
+Encoding: 261 362 254
+Width: 512
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 0.5 54 2
+Refer: 52 85 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni016B
+Encoding: 262 363 255
+Width: 434
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 -38 -135 2
+Refer: 210 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni016E
+Encoding: 263 366 256
+Width: 512
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 194 730 N 1 0 0 1 133.5 336 2
+Refer: 52 85 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni016F
+Encoding: 264 367 257
+Width: 434
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 194 730 N 1 0 0 1 95 147 2
+Refer: 210 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0170
+Encoding: 265 368 258
+Width: 512
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 136 733 N 1 0 0 1 116.5 161 2
+Refer: 52 85 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0171
+Encoding: 266 369 259
+Width: 434
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 136 733 N 1 0 0 1 78 -28 2
+Refer: 210 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0172
+Encoding: 267 370 260
+Width: 512
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 N -1 0 0 1 402 -160 2
+Refer: 52 85 N 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni0173
+Encoding: 268 371 261
+Width: 434
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Back
+Fore
+Refer: 210 117 S 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni0179
+Encoding: 270 377 262
+Width: 418
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 113.5 161 2
+Refer: 63 90 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni017A
+Encoding: 271 378 263
+Width: 348
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 78.5 -28 2
+Refer: 227 122 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni017B
+Encoding: 272 379 264
+Width: 418
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 106 729 N 1 0 0 1 108 163 2
+Refer: 63 90 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni017C
+Encoding: 273 380 265
+Width: 348
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 106 729 N 1 0 0 1 73 -26 2
+Refer: 227 122 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0218
+Encoding: 277 536 266
+Width: 497
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 110.5 -193 2
+Refer: 47 83 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0219
+Encoding: 278 537 267
+Width: 418
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 71.5 -195 2
+Refer: 195 115 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni021A
+Encoding: 279 538 268
+Width: 485
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 109.5 -190 2
+Refer: 49 84 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: uni0100
+Encoding: 191 256 269
+Width: 516
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 14.5 54 2
+Refer: 0 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0101
+Encoding: 192 257 270
+Width: 435
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 -50.5 -132 2
+Refer: 65 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0102
+Encoding: 193 258 271
+Width: 516
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 86 728 N 1 0 0 1 147.5 336 2
+Refer: 0 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0103
+Encoding: 194 259 272
+Width: 435
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 86 728 N 1 0 0 1 82.5 150 2
+Refer: 65 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0106
+Encoding: 197 262 273
+Width: 494
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 160.5 161 2
+Refer: 9 67 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0107
+Encoding: 198 263 274
+Width: 418
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 116.5 -28 2
+Refer: 89 99 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni010C
+Encoding: 199 268 275
+Width: 494
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 121 252 2
+Refer: 9 67 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni010D
+Encoding: 200 269 276
+Width: 418
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 77 63 2
+Refer: 89 99 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni010E
+Encoding: 201 270 277
+Width: 452
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 93 252 2
+Refer: 11 68 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni010F
+Encoding: 202 271 278
+Width: 414
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 424.5 569 2
+Refer: 99 100 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0112
+Encoding: 205 274 279
+Width: 422
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 -41 54 2
+Refer: 12 69 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0113
+Encoding: 206 275 280
+Width: 424
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 -43 -135 2
+Refer: 108 101 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0116
+Encoding: 207 278 281
+Width: 422
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 106 729 N 1 0 0 1 113 163 2
+Refer: 12 69 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0117
+Encoding: 208 279 282
+Width: 424
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 106 729 N 1 0 0 1 111 -26 2
+Refer: 108 101 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni011A
+Encoding: 211 282 283
+Width: 422
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 79 252 2
+Refer: 12 69 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni011B
+Encoding: 212 283 284
+Width: 424
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 90 711 N 1 0 0 1 77 63 2
+Refer: 108 101 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni011E
+Encoding: 213 286 285
+Width: 493
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 86 728 N 1 0 0 1 127 336 2
+Refer: 20 71 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni011F
+Encoding: 214 287 286
+Width: 415
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 86 728 N 1 0 0 1 167 147 2
+Refer: 127 103 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0122
+Encoding: 215 290 287
+Width: 493
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 116 -195 2
+Refer: 20 71 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni012A
+Encoding: 217 298 288
+Width: 209
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 -150.5 54 2
+Refer: 23 73 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni012B
+Encoding: 218 299 289
+Width: 174
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 150 175 N 1 0 0 1 -168 -135 2
+Refer: 107 305 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0136
+Encoding: 223 310 290
+Width: 475
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 108.5 -190 2
+Refer: 29 75 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0137
+Encoding: 224 311 291
+Width: 452
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 96 -190 2
+Refer: 144 107 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0139
+Encoding: 225 313 292
+Width: 428
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 0.5 161 2
+Refer: 30 76 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni013A
+Encoding: 226 314 293
+Width: 184
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 N 1 0 0 1 -0.5 154 2
+Refer: 145 108 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni013B
+Encoding: 227 315 294
+Width: 428
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 81 -190 2
+Refer: 30 76 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni013C
+Encoding: 228 316 295
+Width: 184
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 -37.5 -190 2
+Refer: 145 108 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni013D
+Encoding: 229 317 296
+Width: 428
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 442.5 576 2
+Refer: 30 76 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
