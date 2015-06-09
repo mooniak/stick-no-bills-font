@@ -19,7 +19,6 @@ Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 Layer: 2 0 "Back 2" 1
 PreferredKerning: 4
-StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
@@ -44,6 +43,8 @@ HheadAscent: 918
 HheadAOffset: 0
 HheadDescent: -205
 HheadDOffset: 0
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Sinhala lookup 2" { "'abvs' Above Base Substitutions in Sinhala lookup 2-1"  } ['abvs' ('sinh' <'dflt' > ) ]
@@ -499,7 +500,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 260 10 4
+WinInfo: 0 12 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -10994,7 +10995,7 @@ SplineSet
  475 595 l 2
  603 595 708 496 708 340 c 10
  708 218 l 2
- 708 74.3681640625 661.16796875 -1.18992511919e-014 564 0 c 10
+ 708 74.3681640625 661.16796875 -1.18992511919e-14 564 0 c 10
  508 0 l 1
  508 110 l 17x78
  602 114 584 151 584 233 c 2
@@ -15011,7 +15012,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_MatraUu.alt6
-Encoding: 330 6 330
+Encoding: 330 -1 330
 Width: 789
 VWidth: 822
 Flags: W
@@ -15408,7 +15409,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_KIi
-Encoding: 336 57368 336
+Encoding: 336 -1 336
 Width: 801
 VWidth: 892
 Flags: W
@@ -16462,7 +16463,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_KhI
-Encoding: 345 57379 345
+Encoding: 345 -1 345
 Width: 657
 VWidth: 903
 Flags: W
@@ -17244,7 +17245,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_Ga.halant
-Encoding: 353 57390 353
+Encoding: 353 -1 353
 Width: 704
 VWidth: 905
 Flags: W
@@ -17326,7 +17327,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_GI
-Encoding: 354 57391 354
+Encoding: 354 -1 354
 Width: 688
 VWidth: 895
 Flags: W
@@ -17409,7 +17410,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_GIi
-Encoding: 355 57392 355
+Encoding: 355 -1 355
 Width: 676
 VWidth: 896
 Flags: W
@@ -32575,8 +32576,8 @@ Layer: 2
 Colour: ffff00
 EndChar
 
-StartChar: da_r
-Encoding: 500 57597 500
+StartChar: si_Da.r
+Encoding: 500 -1 500
 Width: 510
 VWidth: 850
 Flags: W
@@ -32648,11 +32649,11 @@ SplineSet
  352.487304688 -74.529296875 376.666992188 -59.2412109375 410.052734375 -51.751953125 c 0
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: da_rr
-Encoding: 501 57598 501
+StartChar: si_Da.rr
+Encoding: 501 -1 501
 Width: 756
 VWidth: 850
 Flags: W
@@ -32757,7 +32758,7 @@ SplineSet
  362.854492188 -74.529296875 387.190429688 -59.2412109375 420.57421875 -51.751953125 c 0
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
 StartChar: si_DOo.alt
@@ -33348,7 +33349,7 @@ SplineSet
  642.338867188 -29.8671875 629.858398438 -38.6025390625 616.75390625 -38.6025390625 c 1
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
 StartChar: si_DAa.yansa
@@ -33450,7 +33451,7 @@ SplineSet
  622.920898438 -9.9482421875 625.416992188 -6.8291015625 627.913085938 -4.3330078125 c 1
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
 StartChar: si_DOo.yansa
@@ -33573,7 +33574,7 @@ SplineSet
  615.78515625 0.09375 618.280273438 3.212890625 620.77734375 5.7099609375 c 1
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
 StartChar: si_DU.yansa
@@ -33663,7 +33664,7 @@ SplineSet
  642.338867188 -29.8671875 629.858398438 -38.6025390625 616.75390625 -38.6025390625 c 1
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
 StartChar: si_Dha.halant
@@ -40863,8 +40864,8 @@ Layer: 2
 Colour: ffff00
 EndChar
 
-StartChar: yanse_aa
-Encoding: 589 57725 589
+StartChar: si_Yanse.MatraAa
+Encoding: 589 -1 589
 Width: 696
 VWidth: 874
 Flags: W
@@ -40943,11 +40944,11 @@ SplineSet
  274.412109375 269.39453125 253.041015625 243.966796875 238.063476562 228.6796875 c 0
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: yanse_al
-Encoding: 590 57726 590
+StartChar: si_Yanse.Halant
+Encoding: 590 -1 590
 Width: 508
 VWidth: 905
 Flags: W
@@ -41032,11 +41033,11 @@ SplineSet
  271.025390625 279.334960938 249.653320312 253.90625 234.677734375 238.619140625 c 0
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: yanse_oo
-Encoding: 591 57727 591
+StartChar: si_Yanse.MatraOo
+Encoding: 591 -1 591
 Width: 715
 VWidth: 905
 Flags: W
@@ -41142,11 +41143,11 @@ SplineSet
  278.48046875 279.252929688 257.108398438 253.825195312 242.1328125 238.537109375 c 0
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: yanse_u
-Encoding: 592 57728 592
+StartChar: si_Yanse.MatraU
+Encoding: 592 -1 592
 Width: 466
 VWidth: 851
 Flags: W
@@ -41234,11 +41235,11 @@ SplineSet
  427.014648438 -189.994140625 l 1x78
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: yanse_uu
-Encoding: 593 57729 593
+StartChar: si_Yanse.MatraUu
+Encoding: 593 -1 593
 Width: 487
 VWidth: 851
 Flags: W
@@ -41332,11 +41333,11 @@ SplineSet
  429.802734375 -178.762695312 l 2x9c
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: yanse.reph
-Encoding: 594 57730 594
+StartChar: si_Yanse.reph
+Encoding: 594 -1 594
 Width: 467
 VWidth: 897
 Flags: W
@@ -41430,11 +41431,11 @@ SplineSet
  583.611328125 689.001953125 582.67578125 641.888671875 553.971679688 580.112304688 c 1
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: yanse.reph_al
-Encoding: 595 57731 595
+StartChar: si_Yanse.Reph.Halant
+Encoding: 595 -1 595
 Width: 492
 VWidth: 905
 Flags: W
@@ -41551,11 +41552,11 @@ SplineSet
  591.762695312 782.434570312 587.237304688 777.599609375 584.741210938 772.606445312 c 1
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: yanse.reph_oo
-Encoding: 596 57732 596
+StartChar: si_Yanse.Reph.MatraOo
+Encoding: 596 -1 596
 Width: 715
 VWidth: 905
 Flags: W
@@ -41692,11 +41693,11 @@ SplineSet
  278.48046875 279.252929688 257.108398438 253.825195312 242.1328125 238.537109375 c 0
 EndSplineSet
 Layer: 2
-Colour: ff0000
+Colour: ffff00
 EndChar
 
-StartChar: glyph572
-Encoding: 597 57733 597
+StartChar: yanseta_ba
+Encoding: 597 -1 597
 Width: 477
 VWidth: 874
 Flags: W
@@ -41818,8 +41819,8 @@ Layer: 2
 Colour: ff0000
 EndChar
 
-StartChar: glyph573
-Encoding: 598 57734 598
+StartChar: i_Yanse
+Encoding: 598 -1 598
 Width: 472
 VWidth: 874
 Flags: W
@@ -43745,7 +43746,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_ShIi
-Encoding: 621 57771 621
+Encoding: 621 -1 621
 Width: 692
 VWidth: 896
 Flags: W
@@ -46065,7 +46066,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_SI.rakar
-Encoding: 643 57804 643
+Encoding: 643 -1 643
 Width: 665
 VWidth: 871
 Flags: W
@@ -46572,7 +46573,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_Hu
-Encoding: 648 57809 648
+Encoding: 648 -1 648
 Width: 730
 VWidth: 851
 Flags: W
@@ -49299,7 +49300,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_Ttttha
-Encoding: 678 57863 678
+Encoding: 678 -1 678
 Width: 722
 VWidth: 894
 Flags: W
@@ -54130,7 +54131,7 @@ Layer: 2
 Colour: ffff00
 EndChar
 
-StartChar: TThIi
+StartChar: si_TThIi
 Encoding: 716 -1 716
 Width: 1113
 VWidth: 902
@@ -55614,7 +55615,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_DvI
-Encoding: 730 57923 730
+Encoding: 730 -1 730
 Width: 712
 VWidth: 903
 Flags: W
@@ -55859,7 +55860,7 @@ Colour: ffff00
 EndChar
 
 StartChar: si_DvUu
-Encoding: 733 57926 733
+Encoding: 733 -1 733
 Width: 694
 VWidth: 871
 Flags: W
@@ -56754,7 +56755,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Nga.touch
 Encoding: 743 -1 743
 Width: 735
 VWidth: 894
@@ -56832,7 +56833,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Nnga.touch
 Encoding: 744 -1 744
 Width: 747
 VWidth: 873
@@ -56906,7 +56907,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Ca.touch
 Encoding: 745 -1 745
 Width: 695
 VWidth: 895
@@ -57137,7 +57138,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Jha.touch
 Encoding: 748 -1 748
 Width: 1233
 VWidth: 894
@@ -57259,7 +57260,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Ny.touch
 Encoding: 749 -1 749
 Width: 1071
 VWidth: 852
@@ -57386,7 +57387,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Jnya.touch
 Encoding: 750 -1 750
 Width: 907
 VWidth: 851
@@ -57486,7 +57487,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Ndja.touch
 Encoding: 751 -1 751
 Width: 836
 VWidth: 894
@@ -57570,7 +57571,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: si_Ta.touch
+StartChar: si_Tta.touch
 Encoding: 752 -1 752
 Width: 692
 VWidth: 894
@@ -57615,7 +57616,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Ttha.touch
 Encoding: 753 -1 753
 Width: 713
 VWidth: 894
@@ -57949,7 +57950,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Nddha.touch
 Encoding: 757 -1 757
 Width: 787
 VWidth: 894
@@ -58023,7 +58024,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Ta.touch
 Encoding: 758 -1 758
 Width: 773
 VWidth: 874
@@ -58091,7 +58092,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Tha.touch
 Encoding: 759 -1 759
 Width: 672
 VWidth: 894
@@ -58337,7 +58338,7 @@ EndSplineSet
 Layer: 2
 EndChar
 
-StartChar: NameMe.si_
+StartChar: si_Nda.touch
 Encoding: 763 -1 763
 Width: 577
 VWidth: 850
