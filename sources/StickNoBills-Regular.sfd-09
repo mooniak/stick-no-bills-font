@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1433862110
+ModificationTime: 1433852086
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,7 +495,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 240 12 4
+WinInfo: 132 12 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3043,7 +3043,7 @@ GlifName: ccedilla
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: WO
 HStem: -199 91 -1 117 496 20
 VStem: 30 119 178 92
 LayerCount: 2
@@ -7575,22 +7575,22 @@ Flags: H
 LayerCount: 2
 Back
 Fore
-Refer: 92 184 S 1 0 0 1 94.5 -162.7 2
+Refer: 92 184 N 1 0 0 1 94.5 -117.7 2
 Refer: 49 84 N 1 0 0 1 0 0 3
-Colour: ffff00
+Validated: 5
 EndChar
 
 StartChar: uni0163
 Encoding: 258 355 251
 Width: 324
 VWidth: 0
-Flags: HO
+Flags: H
 LayerCount: 2
 Back
 Fore
-Refer: 92 184 S 1 0 0 1 122.5 -162.7 2
+Refer: 92 184 N 1 0 0 1 122.5 -117.7 2
 Refer: 204 116 N 1 0 0 1 0 0 3
-Colour: ffff00
+Validated: 5
 EndChar
 
 StartChar: uni0164
@@ -7701,13 +7701,11 @@ StartChar: uni0172
 Encoding: 267 370 260
 Width: 512
 VWidth: 0
-Flags: W
-HStem: -199 91<314.5 378 360 378> -5 142<226.5 229 226.5 229 283 285.5 226.5 313.5> 680 20<32 173 173 173 339 479 479 479>
-VStem: 32 141<193 700 193 700> 210 92<-67.5 -40> 339 140<193 700>
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 92 184 S -1 0 0 1 404 -163 2
+Refer: 92 184 N -1 0 0 1 402 -160 2
 Refer: 52 85 N 1 0 0 1 0 0 2
 Colour: ffff00
 EndChar
@@ -7720,7 +7718,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 92 184 S -1 0 0 1 492 -163 2
+Refer: 92 184 S -1 0 0 1 438 -154 2
 Refer: 210 117 N 1 0 0 1 0 0 2
 Colour: ffff00
 EndChar

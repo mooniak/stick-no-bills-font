@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1433862110
+ModificationTime: 1433851876
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -499,8 +499,6 @@ WinInfo: 240 12 4
 BeginPrivate: 0
 EndPrivate
 Grid
--1024 -40 m 0
- 2048 -40 l 1024
 -1024 516.799999237 m 0
  2048 516.799999237 l 1024
 EndSplineSet
@@ -3037,7 +3035,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ccedilla
+StartChar: uni00E7
 Encoding: 166 231 91
 GlifName: ccedilla
 Width: 418
@@ -7575,22 +7573,22 @@ Flags: H
 LayerCount: 2
 Back
 Fore
-Refer: 92 184 S 1 0 0 1 94.5 -162.7 2
+Refer: 92 184 N 1 0 0 1 94.5 -117.7 2
 Refer: 49 84 N 1 0 0 1 0 0 3
-Colour: ffff00
+Validated: 5
 EndChar
 
 StartChar: uni0163
 Encoding: 258 355 251
 Width: 324
 VWidth: 0
-Flags: HO
+Flags: H
 LayerCount: 2
 Back
 Fore
-Refer: 92 184 S 1 0 0 1 122.5 -162.7 2
+Refer: 92 184 N 1 0 0 1 122.5 -117.7 2
 Refer: 204 116 N 1 0 0 1 0 0 3
-Colour: ffff00
+Validated: 5
 EndChar
 
 StartChar: uni0164
@@ -7701,13 +7699,11 @@ StartChar: uni0172
 Encoding: 267 370 260
 Width: 512
 VWidth: 0
-Flags: W
-HStem: -199 91<314.5 378 360 378> -5 142<226.5 229 226.5 229 283 285.5 226.5 313.5> 680 20<32 173 173 173 339 479 479 479>
-VStem: 32 141<193 700 193 700> 210 92<-67.5 -40> 339 140<193 700>
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 92 184 S -1 0 0 1 404 -163 2
+Refer: 92 184 N -1 0 0 1 402 -160 2
 Refer: 52 85 N 1 0 0 1 0 0 2
 Colour: ffff00
 EndChar
@@ -7716,12 +7712,11 @@ StartChar: uni0173
 Encoding: 268 371 261
 Width: 434
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Back
 Fore
-Refer: 92 184 S -1 0 0 1 492 -163 2
-Refer: 210 117 N 1 0 0 1 0 0 2
+Refer: 210 117 S 1 0 0 1 0 0 2
 Colour: ffff00
 EndChar
 
