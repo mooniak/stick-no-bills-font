@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1433912827
+ModificationTime: 1433910879
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,17 +495,17 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 204 12 4
+WinInfo: 180 12 4
 BeginPrivate: 0
 EndPrivate
 Grid
--1024 577 m 0
- 2048 577 l 1024
 -1024 -40 m 0
  2048 -40 l 1024
+-1024 516.799999237 m 0
+ 2048 516.799999237 l 1024
 EndSplineSet
 TeXData: 1 0 0 307200 153600 102400 526336 1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65538 304
+BeginChars: 65538 301
 
 StartChar: uni0041
 Encoding: 33 65 0
@@ -8194,79 +8194,19 @@ StartChar: uni0111
 Encoding: 204 273 300
 Width: 414
 VWidth: 0
-Flags: HW
-HStem: 0 118<130 210 182 210 182 258 182 384> 398 118<180 210 180 210> 542 127<194 448> 678 20<258 384 384 384>
-VStem: 30 118<142 143 143 373> 258 126<0 698>
-LayerCount: 2
-Back
-Fore
-SplineSet
-180 516 m 258
- 210 516 l 257
- 210 398 l 257
- 180 398 l 257
- 153 397 148 375 148 373 c 258
- 148 143 l 257
- 148 141 154 118 182 118 c 258
- 210 118 l 257
- 210 0 l 257
- 182 0 l 258
- 78 0 30 97 30 141 c 258
- 30 377 l 257
- 31 422 79 516 180 516 c 258
-448 666 m 1
- 448 539 l 1
- 384 539 l 1
- 384 0 l 1
- 258 0 l 1
- 258 539 l 1
- 194 539 l 1
- 194 666 l 1
- 258 666 l 1
- 258 698 l 1
- 384 698 l 1
- 384 666 l 1
- 448 666 l 1
-EndSplineSet
-Colour: ffff00
-EndChar
-
-StartChar: uni0118
-Encoding: 209 280 301
-Width: 422
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Back
-Fore
-Refer: 92 184 S -1 0 0 1 498 -163 2
-Refer: 12 69 N 1 0 0 1 0 0 2
-Colour: ffff00
-EndChar
-
-StartChar: uni0119
-Encoding: 210 281 302
-Width: 424
-VWidth: 0
-Flags: HW
-LayerCount: 2
-Back
-Fore
-Refer: 92 184 S -1 0 0 1 481 -163 2
-Refer: 108 101 N 1 0 0 1 0 0 2
-Colour: ffff00
-EndChar
-
-StartChar: uni0123
-Encoding: 216 291 303
-Width: 415
-VWidth: 0
 Flags: HWO
 LayerCount: 2
 Back
 Fore
-Refer: 68 180 S 1 0 0 1 114 -28 2
-Refer: 127 103 N 1 0 0 1 0 0 2
+SplineSet
+448 669 m 261
+ 448 542 l 261
+ 194 542 l 261
+ 194 669 l 261
+ 448 669 l 261
+EndSplineSet
+Refer: 99 100 N 1 0 0 1 0 0 2
+Colour: ffff00
 EndChar
 EndChars
 EndSplineFont

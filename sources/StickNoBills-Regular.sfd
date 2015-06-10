@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1433862110
+ModificationTime: 1433925890
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,31 +481,31 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
-Encoding: Custom
+Encoding: Adobe-Latin-3
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 240 12 4
+WinInfo: 276 12 4
 BeginPrivate: 0
 EndPrivate
 Grid
+-1024 577 m 0
+ 2048 577 l 1024
 -1024 -40 m 0
  2048 -40 l 1024
--1024 516.799999237 m 0
- 2048 516.799999237 l 1024
 EndSplineSet
 TeXData: 1 0 0 307200 153600 102400 526336 1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65539 297
+BeginChars: 65538 314
 
 StartChar: uni0041
 Encoding: 33 65 0
@@ -3037,7 +3037,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ccedilla
+StartChar: uni00E7
 Encoding: 166 231 91
 GlifName: ccedilla
 Width: 418
@@ -7584,7 +7584,7 @@ StartChar: uni0163
 Encoding: 258 355 251
 Width: 324
 VWidth: 0
-Flags: HO
+Flags: H
 LayerCount: 2
 Back
 Fore
@@ -8063,9 +8063,12 @@ VWidth: 0
 Flags: H
 LayerCount: 2
 Back
+Refer: 150 175 N 1 0 0 1 -168 -135 2
+Refer: 107 305 N 1 0 0 1 0 0 3
 Fore
 Refer: 150 175 N 1 0 0 1 -168 -135 2
 Refer: 107 305 N 1 0 0 1 0 0 3
+Colour: ffff00
 EndChar
 
 StartChar: uni0136
@@ -8150,6 +8153,279 @@ Back
 Fore
 Refer: 96 44 N 1 0 0 1 442.5 576 2
 Refer: 30 76 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0104
+Encoding: 195 260 297
+Width: 516
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 S -1 0 0 1 569 -163 2
+Refer: 0 65 N 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni0105
+Encoding: 196 261 298
+Width: 435
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 S -1 0 0 1 512 -163 2
+Refer: 65 97 N 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni0110
+Encoding: 203 272 299
+Width: 501
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 18 208 S 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni0111
+Encoding: 204 273 300
+Width: 414
+VWidth: 0
+Flags: HW
+HStem: 0 118<130 210 182 210 182 258 182 384> 398 118<180 210 180 210> 542 127<194 448> 678 20<258 384 384 384>
+VStem: 30 118<142 143 143 373> 258 126<0 698>
+LayerCount: 2
+Back
+Fore
+SplineSet
+180 516 m 258
+ 210 516 l 257
+ 210 398 l 257
+ 180 398 l 257
+ 153 397 148 375 148 373 c 258
+ 148 143 l 257
+ 148 141 154 118 182 118 c 258
+ 210 118 l 257
+ 210 0 l 257
+ 182 0 l 258
+ 78 0 30 97 30 141 c 258
+ 30 377 l 257
+ 31 422 79 516 180 516 c 258
+448 666 m 1
+ 448 539 l 1
+ 384 539 l 1
+ 384 0 l 1
+ 258 0 l 1
+ 258 539 l 1
+ 194 539 l 1
+ 194 666 l 1
+ 258 666 l 1
+ 258 698 l 1
+ 384 698 l 1
+ 384 666 l 1
+ 448 666 l 1
+EndSplineSet
+Colour: ffff00
+EndChar
+
+StartChar: uni0118
+Encoding: 209 280 301
+Width: 422
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 S -1 0 0 1 498 -163 2
+Refer: 12 69 N 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni0119
+Encoding: 210 281 302
+Width: 424
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 S -1 0 0 1 481 -163 2
+Refer: 108 101 N 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni0123
+Encoding: 216 291 303
+Width: 415
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 68 180 S 1 0 0 1 114 -28 2
+Refer: 127 103 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0130
+Encoding: 221 304 304
+Width: 209
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 106 729 N 1 0 0 1 3.5 163 2
+Refer: 23 73 N 1 0 0 1 0 0 3
+Colour: ffff00
+EndChar
+
+StartChar: uni013E
+Encoding: 230 318 305
+Width: 184
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 135.5 569 2
+Refer: 145 108 N 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni012E
+Encoding: 219 302 306
+Width: 209
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 S -1 0 0 1 252 -163 2
+Refer: 23 73 N 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni012F
+Encoding: 220 303 307
+Width: 199
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 S -1 0 0 1 248 -163 2
+Refer: 138 105 N 1 0 0 1 0 0 2
+Colour: ffff00
+EndChar
+
+StartChar: uni021B
+Encoding: 280 539 308
+Width: 324
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 96 44 N 1 0 0 1 137.5 -190 2
+Refer: 204 116 N 1 0 0 1 0 0 3
+Colour: ffff00
+EndChar
+
+StartChar: uni02C9
+Encoding: 283 713 309
+Width: 416
+VWidth: 0
+Flags: W
+HStem: 514 82<50 366>
+VStem: 50 316<514 596>
+LayerCount: 2
+Back
+Fore
+SplineSet
+366 596 m 257
+ 366 514 l 257
+ 50 514 l 257
+ 50 596 l 257
+ 366 596 l 257
+EndSplineSet
+Colour: ffff00
+EndChar
+
+StartChar: uni2260
+Encoding: 325 8800 310
+Width: 418
+VWidth: 0
+Flags: H
+LayerCount: 2
+Back
+Fore
+Refer: 201 47 N 1 0 0 1 8.5 -55 2
+Refer: 116 61 N 1 0 0 1 0 0 3
+Colour: ffff00
+EndChar
+
+StartChar: uni02DB
+Encoding: 287 731 311
+Width: 219
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 92 184 N -1 0 0 1 229 -163 2
+Colour: ffff00
+EndChar
+
+StartChar: uni03C0
+Encoding: 290 960 312
+Width: 421
+VWidth: 0
+Flags: HW
+HStem: 0 21G<26 148 386.5 438> 389 127<-28 26 148 281 395 452>
+VStem: 26 122<0 389> 281 114<117.54 389>
+LayerCount: 2
+Back
+Fore
+SplineSet
+438 -4 m 1
+ 435 -4 l 1
+ 338 0 281 63 281 133 c 2
+ 281 389 l 1
+ 148 389 l 1
+ 148 -4 l 1
+ 26 -4 l 1
+ 26 389 l 1
+ -28 389 l 1
+ -28 516 l 1
+ 452 516 l 1
+ 452 389 l 1
+ 395 389 l 1
+ 395 142 l 2
+ 395 138 401 111 435 108 c 2
+ 438 108 l 1
+ 438 -4 l 1
+EndSplineSet
+Colour: ffff00
+EndChar
+
+StartChar: uni2026
+Encoding: 302 8230 313
+Width: 250
+VWidth: 0
+Flags: WO
+LayerCount: 2
+Back
+Fore
+Refer: 175 46 N 1 0 0 1 200 1 2
+Refer: 175 46 N 1 0 0 1 -201 1 2
+Refer: 175 46 N 1 0 0 1 0 1 2
+Colour: ffff00
 EndChar
 EndChars
 EndSplineFont
