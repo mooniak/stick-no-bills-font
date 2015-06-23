@@ -4,15 +4,6 @@
   <unicode hex="0034"/>
   <outline>
     <contour>
-      <point x="216" y="272" type="line"/>
-      <point x="216" y="145" type="line"/>
-      <point x="26" y="145" type="line"/>
-      <point x="26" y="272" type="line"/>
-      <point x="216" y="598" type="line"/>
-      <point x="216" y="351" type="line"/>
-      <point x="170" y="272" type="line"/>
-    </contour>
-    <contour>
       <point x="457" y="272" type="line"/>
       <point x="457" y="145" type="line"/>
       <point x="403" y="145" type="line"/>
@@ -22,60 +13,14 @@
       <point x="403" y="701" type="line"/>
       <point x="403" y="272" type="line"/>
     </contour>
+    <contour>
+      <point x="216" y="272" type="line"/>
+      <point x="216" y="145" type="line"/>
+      <point x="26" y="145" type="line"/>
+      <point x="26" y="272" type="line"/>
+      <point x="216" y="598" type="line"/>
+      <point x="216" y="351" type="line"/>
+      <point x="170" y="272" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>145</integer>
-            <key>width</key>
-            <integer>127</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>681</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>26</integer>
-            <key>width</key>
-            <integer>190</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>273</integer>
-            <key>width</key>
-            <integer>184</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>273</integer>
-            <key>width</key>
-            <integer>130</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
