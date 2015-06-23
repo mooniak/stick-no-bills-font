@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435052238
+ModificationTime: 1435052331
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -5873,20 +5873,20 @@ Width: 483
 VWidth: 0
 GlyphClass: 2
 Flags: HWO
-HStem: 0 21G<319 357> 189 83<170 216> 189 40<357 457> 681 20G<319 357>
+HStem: 0 21G<319 357> 189 40<69 269 357 457> 681 20G<319 357>
 VStem: 319 38<0 189 229 701>
 LayerCount: 3
 Fore
 SplineSet
-283 229 m 257xd8
- 283 189 l 257xd8
- 26 189 l 257xb8
+269 229 m 257
+ 269 189 l 257
+ 26 189 l 257
  26 229 l 257
- 284 677 l 257
- 284 603 l 261
+ 269 677 l 261
+ 269 603 l 261
  69 229 l 257
- 283 229 l 257xd8
-457 229 m 257xb8
+ 269 229 l 257
+457 229 m 257
  457 189 l 257
  357 189 l 257
  357 0 l 257
@@ -5894,7 +5894,7 @@ SplineSet
  319 701 l 257
  357 701 l 257
  357 229 l 257
- 457 229 l 257xb8
+ 457 229 l 257
 EndSplineSet
 Layer: 2
 SplineSet
