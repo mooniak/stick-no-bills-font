@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435143914
+ModificationTime: 1435144024
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -5361,24 +5361,23 @@ GlifName: equal
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 131 127<50 368 50 368> 325 127<50 368 50 368>
 VStem: 50 318<131 258 131 258 325 452 131 452>
 LayerCount: 3
 Fore
 SplineSet
 368 258 m 257
- 368 131 l 257
- 50 131 l 257
+ 368 218 l 261
+ 50 218 l 261
  50 258 l 257
  368 258 l 257
-368 452 m 257
+368 365 m 257
  368 325 l 257
  50 325 l 257
- 50 452 l 257
- 368 452 l 257
+ 50 365 l 257
+ 368 365 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 368 258 m 257
