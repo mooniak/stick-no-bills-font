@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435053426
+ModificationTime: 1435144745
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -495,7 +495,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 10 4
+WinInfo: 24 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5724,7 +5724,7 @@ GlifName: question
 Width: 460
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -22 151<176 218> 166 220<134 263 134 134> 575 128<188.5 233.5>
 VStem: 122 151<32 74> 134 129<166 276 166 386 166 386> 302 128<446.5 482.5 482.5 491 385 519>
 LayerCount: 2
@@ -5738,9 +5738,8 @@ SplineSet
 112 526 m 257
  30 611 l 257
  60 649 110 703 218 703 c 256
- 346 703 426 620 430 491 c 256
- 430 488 430 484 430 481 c 256
- 430 289 263 276 263 276 c 257
+ 346 703 426 620 430 491 c 257
+ 430 294.68638441 263 276 263 276 c 261
  263 166 l 257
  134 166 l 257
  134 386 l 257xec
@@ -5748,7 +5747,6 @@ SplineSet
  302 545 257 575 210 575 c 256
  167 575 133 554 112 526 c 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00BF
@@ -6532,7 +6530,7 @@ GlifName: two
 Width: 480
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 127<43 447 43 447> 574 126<245 252>
 VStem: 330 123<495 497 496.5 497 442 522>
 LayerCount: 2
