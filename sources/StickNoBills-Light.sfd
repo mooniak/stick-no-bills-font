@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435139812
+ModificationTime: 1435140009
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,13 +482,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -496,12 +496,10 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 10 4
+WinInfo: 0 11 4
 BeginPrivate: 0
 EndPrivate
 Grid
-133.24995931 1331 m 0
- 133.24995931 -717 l 1024
 -1024 706 m 0
  2048 706 l 1024
 -1024 -140.133321126 m 0
@@ -4398,7 +4396,7 @@ GlifName: colon
 Width: 250
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -5 151<104 146> 285 151<104 146>
 VStem: 50 150<49 91 339 381>
 LayerCount: 3
@@ -9255,24 +9253,23 @@ GlifName: semicolon
 Width: 291
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -23 152<87 177 50 214> 285 151<145 187>
 VStem: 91 150<339 381>
 LayerCount: 3
 Fore
 SplineSet
-91 360 m 256
- 91 402 124 436 166 436 c 256
- 208 436 241 402 241 360 c 256
- 241 318 208 285 166 285 c 256
- 124 285 91 318 91 360 c 256
-177 -23 m 257
- 50 -23 l 257
- 87 129 l 257
- 214 129 l 257
- 177 -23 l 257
+141.490234375 311.31640625 m 0
+ 141.490234375 325.59765625 153.17578125 337.283203125 167.45703125 337.283203125 c 0
+ 181.73828125 337.283203125 193.421875 325.59765625 193.421875 311.31640625 c 0
+ 193.421875 297.03515625 181.73828125 285.350585938 167.45703125 285.350585938 c 0
+ 153.17578125 285.350585938 141.490234375 297.03515625 141.490234375 311.31640625 c 0
+133 -23 m 261
+ 94 -23 l 261
+ 131 129 l 261
+ 170 129 l 261
+ 133 -23 l 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 91 360 m 256
