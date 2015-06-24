@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435144713
+ModificationTime: 1435144966
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,13 +482,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -496,18 +496,16 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 11 4
+WinInfo: 0 13 6
 BeginPrivate: 0
 EndPrivate
 Grid
-195.916625977 1331 m 0
- 195.916625977 -717 l 1024
 -1024 706 m 0
  2048 706 l 1024
 -1024 -140.133321126 m 0
  2048 -140.133321126 l 1024
--1024 577 m 0
- 2048 577 l 1024
+-1024 577 m 4
+ 2048 577 l 1028
 -1024 -40 m 0
  2048 -40 l 1024
 EndSplineSet
@@ -8589,7 +8587,7 @@ GlifName: question
 Width: 460
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: -22 151<176 218> 166 220<134 263 134 134> 575 128<188.5 233.5>
 VStem: 122 151<32 74> 134 129<166 276 166 386 166 386> 302 128<446.5 482.5 482.5 491 385 519>
 LayerCount: 3
@@ -8600,17 +8598,17 @@ SplineSet
  211.73828125 30.283203125 223.421875 18.59765625 223.421875 4.31640625 c 0
  223.421875 -9.96484375 211.73828125 -21.6494140625 197.45703125 -21.6494140625 c 0
  183.17578125 -21.6494140625 171.490234375 -9.96484375 171.490234375 4.31640625 c 0
-112 526 m 257
+57 583 m 257
  30 611 l 257
  60 649 110 703 218 703 c 256
  346 703 426 620 430 491 c 257
  430 293.026901068 215 276 215 276 c 257
  215 166 l 257
  177 166 l 257
- 177 307 l 261xec
- 294 309 393 400 393 493 c 256
- 393 545 257 660 210 660 c 256
- 167 660 133 554 112 526 c 257
+ 177 316 l 261xec
+ 294 318 392 370 392 491 c 256
+ 392 587 327 663 218 663 c 256
+ 129 663 78 611 57 583 c 257
 EndSplineSet
 Layer: 2
 SplineSet
