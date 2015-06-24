@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435144024
+ModificationTime: 1435144368
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -500,6 +500,8 @@ WinInfo: 0 11 4
 BeginPrivate: 0
 EndPrivate
 Grid
+-1024 292 m 0
+ 2048 292 l 1024
 -1024 706 m 0
  2048 706 l 1024
 -1024 -140.133321126 m 0
@@ -5361,7 +5363,7 @@ GlifName: equal
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 131 127<50 368 50 368> 325 127<50 368 50 368>
 VStem: 50 318<131 258 131 258 325 452 131 452>
 LayerCount: 3
@@ -6127,7 +6129,7 @@ GlifName: greater
 Width: 414
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -6135,12 +6137,11 @@ SplineSet
  384 322 l 257
  384 258 l 257
  30 79 l 257
- 30 206 l 257
- 206 292 l 257
- 30 370 l 257
+ 30 119 l 257
+ 315 292 l 261
+ 30 460 l 257
  30 500 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 30 500 m 257
@@ -6758,10 +6759,10 @@ Fore
 SplineSet
 397 500 m 257
  397 460 l 257
- 89 292 l 261
+ 89 292 l 257
  397 119 l 257
  397 79 l 257
- 43 274 l 257
+ 43 276 l 261
  43 308 l 257
  397 500 l 257
 EndSplineSet
