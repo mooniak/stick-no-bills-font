@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435149770
+ModificationTime: 1435149992
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -518,7 +518,7 @@ GlifName: A_
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 21<26 164 26 26 353 353 353 490> 0 21<26 164 26 26 353 353 353 490> 679 20<200 339 339 339> 679 20<200 339 339 339>
 VStem: 155 15<582 582>
 LayerCount: 3
@@ -527,7 +527,7 @@ SplineSet
 155 582 m 257x88
  170 582 l 257
  230 302 l 257
- 164 0 l 257
+ 64 0 l 257
  26 0 l 257
  155 582 l 257x88
 200 699 m 257xa8
@@ -540,7 +540,6 @@ SplineSet
  305 223 l 257
  200 699 l 257xa8
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 155 582 m 257x88
@@ -630,14 +629,13 @@ GlifName: A_acute
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 679 20 766 152
 VStem: 155 15 224 164
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 174 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 174 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -649,14 +647,13 @@ GlifName: A_circumflex
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 679 20 766 152
 VStem: 155 15 161 218
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 135 252 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 135 252 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -668,14 +665,13 @@ GlifName: A_dieresis
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 679 20
 VStem: 155 15
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 110 163 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 110 163 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -687,14 +683,13 @@ GlifName: A_grave
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 679 20 766 152
 VStem: 151 164 155 15
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 102 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 102 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -773,14 +768,13 @@ GlifName: A_tilde
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 679 20 748 101 788 102
 VStem: 128 281 155 15
 LayerCount: 3
 Fore
 Refer: 208 732 N 1 0 0 1 102 662 2
 Refer: 0 65 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 208 732 N 1 0 0 1 102 662 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -3626,7 +3620,7 @@ GlifName: at
 Width: 803
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -87 109<337 457.5 337 480.5> 116 403<368 375.5 368 593> 116 124<556 580.5 556 593> 602 113<367.5 500>
 VStem: 16 120<217 396.5 217 421> 205 340<257.5 273 257.5 366.5> 666 120<346 471>
 LayerCount: 3
