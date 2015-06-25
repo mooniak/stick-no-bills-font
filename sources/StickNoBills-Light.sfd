@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435150726
+ModificationTime: 1435206681
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,13 +482,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 24 8 2
+WinInfo: 13 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -518,7 +518,7 @@ GlifName: A_
 Width: 516
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<26 164 26 26 353 353 353 490> 0 21<26 164 26 26 353 353 353 490> 679 20<200 339 339 339> 679 20<200 339 339 339>
 VStem: 155 15<582 582>
 LayerCount: 3
@@ -7572,14 +7572,14 @@ VStem: 30 206<439 640 640 640> 106 130<0 499 499 499 0 699>
 LayerCount: 3
 Fore
 SplineSet
-151 637 m 257xa4
- 75 577 l 257
+151 644 m 261xa4
+ 75 584 l 261
  75 640 l 257xa8
  151 699 l 257
- 190 699 l 261
- 190 0 l 261
+ 190 699 l 257
+ 190 0 l 257
  151 0 l 257
- 151 637 l 257xa4
+ 151 644 l 261xa4
 EndSplineSet
 Layer: 2
 SplineSet
