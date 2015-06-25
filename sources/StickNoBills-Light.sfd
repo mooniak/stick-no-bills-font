@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435219395
+ModificationTime: 1435219479
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -5850,29 +5850,29 @@ GlifName: four
 Width: 483
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: 0 21G<319 357> 189 40<69 269 357 457> 681 20G<319 357>
 VStem: 319 38<0 189 229 701>
 LayerCount: 3
 Fore
 SplineSet
-319 185 m 257
- 319 145 l 257
+317 183 m 257
+ 317 145 l 257
  26 145 l 257
- 26 185 l 257
- 319 677 l 261
- 319 603 l 261
- 69 185 l 257
- 319 185 l 257
-457 185 m 257
+ 26 183 l 257
+ 317 677 l 257
+ 317 608 l 261
+ 69 183 l 257
+ 317 183 l 257
+457 183 m 257
  457 145 l 257
  402 145 l 257
  402 0 l 257
- 364 0 l 257
- 364 701 l 257
+ 362 0 l 257
+ 362 701 l 257
  402 701 l 257
- 402 185 l 257
- 457 185 l 257
+ 402 183 l 257
+ 457 183 l 257
 EndSplineSet
 Layer: 2
 SplineSet
@@ -9580,7 +9580,7 @@ GlifName: three
 Width: 484
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 122<255 257 255 255.5> 286 124<188 247> 574 124<156 256 156 252.5>
 VStem: 327 131<181 231>
 LayerCount: 3
