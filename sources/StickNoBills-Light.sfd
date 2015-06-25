@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435215056
+ModificationTime: 1435215345
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -500,8 +500,6 @@ WinInfo: 13 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
--1024 351.5 m 0
- 2048 351.5 l 1024
 -1024 706 m 0
  2048 706 l 1024
 -1024 -140.133321126 m 0
@@ -848,7 +846,7 @@ GlifName: C_
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 685 20<157.5 229 283 329>
 VStem: 32 141<181 518> 330 138<129 215 129 215>
 LayerCount: 3
@@ -869,16 +867,15 @@ SplineSet
  468 76 375 -5 283 -5 c 257
  283 136 l 257
 229 705 m 257
- 229 564 l 257
- 183 563 173 523 173 518 c 257
- 173 181 l 257
- 173 176 183 136 229 136 c 257
+ 229 665 l 261
+ 119 665 70 568 70 518 c 261
+ 70 181 l 261
+ 70 129 118.75 35 229 35 c 261
  229 -5 l 257
  86 -5 32 121 32 181 c 257
  32 518 l 257
  32 578 86 705 229 705 c 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 283 564 m 257
@@ -913,14 +910,13 @@ GlifName: C_cedilla
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -203 91 685 20
 VStem: 32 141 213 92 330 138
 LayerCount: 3
 Fore
 Refer: 92 184 N 1 0 0 1 111 -167 2
 Refer: 9 67 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 92 184 N 1 0 0 1 111 -167 2
 Refer: 9 67 N 1 0 0 1 0 0 2
