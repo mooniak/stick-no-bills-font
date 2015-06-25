@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435215770
+ModificationTime: 1435215830
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 13 13 4
+WinInfo: 0 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -846,7 +846,7 @@ GlifName: C_
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 685 20<157.5 229 283 329>
 VStem: 32 141<181 518> 330 138<129 215 129 215>
 LayerCount: 3
@@ -927,7 +927,7 @@ GlifName: D_
 Width: 452
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 21<32 32 32 173 227 257> 0 21<32 32 32 173 227 257> 680 20<32 173 173 173 227 298.5>
 VStem: 32 141<0 700 0 700> 283 141<197 503>
 LayerCount: 3
@@ -944,11 +944,10 @@ SplineSet
  424 50 287 0 227 0 c 257xb8
 32 0 m 257
  32 700 l 257
- 173 700 l 257
- 173 0 l 257
+ 70 700 l 261
+ 70 0 l 261
  32 0 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 227 0 m 257xb8
