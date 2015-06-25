@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435216162
+ModificationTime: 1435216347
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -927,7 +927,7 @@ GlifName: D_
 Width: 452
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<32 32 32 173 227 257> 0 21<32 32 32 173 227 257> 680 20<32 173 173 173 227 298.5>
 VStem: 32 141<0 700 0 700> 283 141<197 503>
 LayerCount: 3
@@ -973,27 +973,26 @@ GlifName: E_
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 141<173 396 173 396> 277 141<173 302 173 302> 560 140<173 396 173 173>
 VStem: 32 364<0 141 560 700> 32 141<141 277 418 560>
 LayerCount: 3
 Fore
 SplineSet
-396 141 m 257xf0
+396 40 m 257xf0
  396 0 l 257
  32 0 l 257
  32 700 l 257
  396 700 l 257
- 396 560 l 257xf0
- 173 560 l 257
- 173 418 l 257
- 302 418 l 257
- 302 277 l 257
- 173 277 l 257
- 173 141 l 257xe8
- 396 141 l 257xf0
+ 396 660 l 257xf0
+ 70 660 l 257
+ 70 369 l 257
+ 302 369 l 257
+ 302 329 l 257
+ 70 329 l 257
+ 70 40 l 257xe8
+ 396 40 l 257xf0
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 396 141 m 257xf0
@@ -1119,14 +1118,13 @@ GlifName: E_acute
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 141 277 141 560 140 766 152
 VStem: 32 141 32 364 168 164
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 118 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 118 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
@@ -1138,14 +1136,13 @@ GlifName: E_circumflex
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 141 277 141 560 140 766 152
 VStem: 32 141 32 364 105 218
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 79 252 2
 Refer: 12 69 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 79 252 2
 Refer: 12 69 N 1 0 0 1 0 0 2
@@ -1157,14 +1154,13 @@ GlifName: E_dieresis
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 141 277 141 560 140
 VStem: 32 141 32 364
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 54 163 2
 Refer: 12 69 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 54 163 2
 Refer: 12 69 N 1 0 0 1 0 0 2
@@ -1176,14 +1172,13 @@ GlifName: E_grave
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 141 277 141 560 140 766 152
 VStem: 32 141 32 364 95 164
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 46 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 46 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
