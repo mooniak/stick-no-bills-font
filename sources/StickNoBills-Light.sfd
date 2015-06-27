@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435385514
+ModificationTime: 1435385626
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1492,19 +1492,18 @@ GlifName: I_
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21<34 175 34 34> 0 21<34 175 34 34> 680 20<34 175 175 175>
 VStem: 34 141<0 700 0 700>
 LayerCount: 3
 Fore
 SplineSet
-34 700 m 257xb0
- 175 700 l 257
- 175 0 l 257
- 34 0 l 257
- 34 700 l 257xb0
+84 700 m 261xb0
+ 124 700 l 257
+ 124 0 l 257
+ 84 0 l 261
+ 84 700 l 261xb0
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 34 700 m 257xb0
@@ -1521,14 +1520,13 @@ GlifName: I_acute
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20 766 152
 VStem: 34 141 59 164
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 9 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 9 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
@@ -1540,14 +1538,13 @@ GlifName: I_circumflex
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20 766 152
 VStem: -4 218 34 141
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 -30 252 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 -30 252 2
 Refer: 23 73 N 1 0 0 1 0 0 2
@@ -1559,14 +1556,13 @@ GlifName: I_dieresis
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20
 VStem: 34 141
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 -56 163 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 -56 163 2
 Refer: 23 73 N 1 0 0 1 0 0 2
@@ -1578,14 +1574,13 @@ GlifName: I_grave
 Width: 209
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20 766 152
 VStem: -14 164 34 141
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 -63 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 -63 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
