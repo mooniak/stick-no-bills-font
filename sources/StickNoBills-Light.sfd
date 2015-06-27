@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435390110
+ModificationTime: 1435390877
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 26 13 4
+WinInfo: 13 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1761,7 +1761,7 @@ GlifName: M_
 Width: 676
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<32 32 32 173 285 285 285 382 503 503 503 644> 0 21<32 32 32 173 285 285 285 382 503 503 503 644> 680 20<32 142 142 142 503 644 644 644>
 VStem: 32 141<0 127 0 444> 503 141<0 700 0 700>
 LayerCount: 3
@@ -1900,7 +1900,7 @@ GlifName: O_
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -5 142<223.5 226 223.5 226 281 283.5 223.5 311> 564 141<161 227 161 281>
 VStem: 30 141<195 508> 337 141<195 508 508 510.5>
 LayerCount: 3
@@ -1910,22 +1910,21 @@ SplineSet
  166 -5 30 51 30 195 c 258
  30 524 l 258
  30 584 95 705 227 705 c 257
- 227 564 l 257
- 181 563 171 513 171 508 c 258
- 171 195 l 258
- 171 149 221 137 226 137 c 257
+ 227 666 l 257
+ 129 666 70 566 70 508 c 262
+ 70 195 l 262
+ 70 93 172 34 226 34 c 257
  226 -5 l 257
 281 -5 m 257
- 281 137 l 257
- 286 137 336 149 337 195 c 258
- 337 508 l 258
- 337 513 327 563 281 564 c 257
+ 281 34 l 257
+ 337 34 438 90 438 195 c 262
+ 438 508 l 262
+ 438 571 380 666 281 666 c 257
  281 705 l 257
  412 705 478 583 478 524 c 258
  478 195 l 258
  478 51 341 -5 281 -5 c 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 226 -5 m 257
@@ -2026,14 +2025,13 @@ GlifName: O_acute
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 564 141 766 152
 VStem: 30 141 208 164 337 141
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 158 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 158 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -2045,14 +2043,13 @@ GlifName: O_circumflex
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 564 141 766 152
 VStem: 30 141 145 218 337 141
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 119 252 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 119 252 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -2064,14 +2061,13 @@ GlifName: O_dieresis
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 564 141
 VStem: 30 141 337 141
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 94 163 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 94 163 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -2083,14 +2079,13 @@ GlifName: O_grave
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 564 141 766 152
 VStem: 30 141 135 164 337 141
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 86 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 86 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -2175,14 +2170,13 @@ GlifName: O_tilde
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 564 141 748 101 788 102
 VStem: 30 141 113 281 337 141
 LayerCount: 3
 Fore
 Refer: 208 732 N 1 0 0 1 87 662 2
 Refer: 35 79 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 208 732 N 1 0 0 1 87 662 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -10730,7 +10724,6 @@ LayerCount: 3
 Fore
 Refer: 150 175 N 1 0 0 1 -1 54 2
 Refer: 35 79 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 150 175 N 1 0 0 1 -1 54 2
 Refer: 35 79 N 1 0 0 1 0 0 3
@@ -10908,7 +10901,6 @@ LayerCount: 3
 Fore
 Refer: 136 733 N 1 0 0 1 115 161 2
 Refer: 35 79 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 136 733 N 1 0 0 1 115 161 2
 Refer: 35 79 N 1 0 0 1 0 0 3
