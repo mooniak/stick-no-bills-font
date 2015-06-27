@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435385279
+ModificationTime: 1435385485
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1292,7 +1292,7 @@ GlifName: G_
 Width: 493
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -5 141<219.5 222 219.5 222 219.5 276> 685 20<156 222 276 322.5>
 VStem: 26 141<192 508 192 524 192 524> 276 185<135.5 136 136 136 223 353 135.5 353> 319 142<190 223 223 223>
 LayerCount: 3
@@ -1358,32 +1358,31 @@ GlifName: H_
 Width: 458
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 21<32 173 32 32 285 285 285 426> 0 21<32 173 32 32 285 285 285 426> 680 20<32 173 173 173 285 426 426 426>
 VStem: 32 170<283 421 283 700> 32 141<0 283 0 421 421 700> 256 170<283 421 421 421> 285 141<0 283 283 283 421 700 0 700>
 LayerCount: 3
 Fore
 SplineSet
-202 421 m 257xb0
- 202 283 l 257xb0
- 173 283 l 257
- 173 0 l 257
+201 371 m 257xb0
+ 201 333 l 257xb0
+ 72 333 l 257
+ 72 0 l 257
  32 0 l 257xa8
  32 700 l 257xb0
- 173 700 l 257
- 173 421 l 257xa8
- 202 421 l 257xb0
-285 700 m 257xa2
+ 72 700 l 257
+ 72 371 l 257xa8
+ 201 371 l 257xb0
+386 700 m 257xa2
  426 700 l 257
  426 0 l 257
- 285 0 l 257
- 285 283 l 257xa2
- 256 283 l 257
- 256 421 l 257xa4
- 285 421 l 257
- 285 700 l 257xa2
+ 386 0 l 257
+ 386 333 l 257xa2
+ 257 333 l 261
+ 257 371 l 261xa4
+ 386 371 l 257
+ 386 700 l 257xa2
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 202 421 m 257xb0
