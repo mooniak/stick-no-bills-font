@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435397614
+ModificationTime: 1435397907
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 260 13 4
+WinInfo: 26 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2797,31 +2797,30 @@ GlifName: W_
 Width: 725
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 21<229 276 229 229 442 442 442 489> 0 21<229 276 229 229 442 442 442 489> 680 20<26 170 170 170 239 383 383 383 555 699 699 699>
 LayerCount: 3
 Fore
 SplineSet
-26 700 m 257xa0
- 170 700 l 257
- 328 158 l 257
- 276 0 l 257
- 229 0 l 257
- 26 700 l 257xa0
-239 700 m 257
- 383 700 l 257
- 541 158 l 257
+271 700 m 257xa0
+ 310 700 l 257
+ 502 38 l 257
  489 0 l 257
- 442 0 l 257
- 239 700 l 257
+ 474 0 l 257
+ 271 700 l 257xa0
+58 700 m 257xa0
+ 97 700 l 257
+ 289 38 l 257
+ 276 0 l 257
+ 261 0 l 257
+ 58 700 l 257xa0
 699 700 m 257
- 576 290 l 257
- 566 290 l 257
- 500 514 l 257
- 555 700 l 257
+ 535 147 l 261
+ 525 147 l 261
+ 510 198 l 261
+ 660 700 l 257
  699 700 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 26 700 m 257xa0
