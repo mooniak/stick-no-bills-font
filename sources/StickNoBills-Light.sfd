@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435393101
+ModificationTime: 1435393158
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2282,7 +2282,7 @@ GlifName: Q_
 Width: 500
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 564 141<157 223 157 277>
 VStem: 26 141<195 508> 333 141<195 508 508 510.5>
 LayerCount: 3
@@ -2342,7 +2342,7 @@ GlifName: R_
 Width: 495
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 21<32 173 32 32 343 469 343 343> 0 21<32 173 32 32 343 469 343 343> 286 125<227 240> 567 133<227 240 32 227>
 VStem: 32 141<0 700 0 700> 326 127<467.5 512>
 LayerCount: 3
@@ -2363,12 +2363,11 @@ SplineSet
  321 257 298 285 227 286 c 257
  227 411 l 257xbc
 32 700 m 257
- 173 700 l 257
- 173 0 l 257
+ 72 700 l 261
+ 72 0 l 261
  32 0 l 257
  32 700 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 227 411 m 257xbc
@@ -10736,7 +10735,6 @@ LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 34 161 2
 Refer: 46 82 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 34 161 2
 Refer: 46 82 N 1 0 0 1 0 0 3
@@ -10794,7 +10792,6 @@ LayerCount: 3
 Fore
 Refer: 90 711 N 1 0 0 1 -5.5 252 2
 Refer: 46 82 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 90 711 N 1 0 0 1 -5.5 252 2
 Refer: 46 82 N 1 0 0 1 0 0 3
