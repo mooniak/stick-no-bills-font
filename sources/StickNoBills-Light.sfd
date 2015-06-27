@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435396935
+ModificationTime: 1435397062
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2756,7 +2756,7 @@ GlifName: V_
 Width: 508
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<229 276 229 229> 0 21<229 276 229 229> 680 20<26 170 170 170 338 482 482 482>
 LayerCount: 3
 Fore
@@ -2768,9 +2768,9 @@ SplineSet
  229 0 l 257
  26 700 l 257xa0
 482 700 m 257
- 442 569 325 255 283 115 c 261
- 273 115 l 261
- 259 165 l 261
+ 442 569 325 255 283 115 c 257
+ 273 115 l 257
+ 259 165 l 257
  443 700 l 257
  482 700 l 257
 EndSplineSet
@@ -3338,14 +3338,13 @@ GlifName: agrave
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 1 112 580 152
 VStem: 26 101 86 164 268 116
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 37 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 37 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -5172,14 +5171,13 @@ GlifName: egrave
 Width: 424
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 111 208 116 402 114 577 152
 VStem: 26 122 93 164 283 114
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 44 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 44 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
@@ -6054,19 +6052,18 @@ GlifName: grave
 Width: 263
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 605 152<122 122 122 176 49 213>
 VStem: 49 164<605 757>
 LayerCount: 3
 Fore
 SplineSet
-122 605 m 257
- 49 757 l 257
+174 605 m 261
+ 101 757 l 261
  176 757 l 257
  213 605 l 257
- 122 605 l 257
+ 174 605 l 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 122 605 m 257
@@ -7510,14 +7507,13 @@ GlifName: ograve
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -1 118 398 118 577 152
 VStem: 28 120 94 164 275 117
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 45 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 45 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -9959,14 +9955,13 @@ GlifName: ugrave
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 121 494 20 577 152
 VStem: 30 124 99 164 280 124
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 50 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 50 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
