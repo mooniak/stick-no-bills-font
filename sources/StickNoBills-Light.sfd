@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435397314
+ModificationTime: 1435397391
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 26 13 4
+WinInfo: 91 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2940,14 +2940,13 @@ GlifName: Y_acute
 Width: 479
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20 766 152
 VStem: 157 146 194 164
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 144 161 2
 Refer: 60 89 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 144 161 2
 Refer: 60 89 N 1 0 0 1 0 0 2
@@ -3133,14 +3132,13 @@ GlifName: aacute
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 1 112 580 152
 VStem: 26 101 159 164 268 116
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 109 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 109 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -3171,19 +3169,18 @@ GlifName: acute
 Width: 263
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 605 152<87 141 50 214>
 VStem: 50 164<605 757>
 LayerCount: 3
 Fore
 SplineSet
-141 605 m 257
+78 605 m 257
  50 605 l 257
  87 757 l 257
- 214 757 l 257
- 141 605 l 257
+ 127 757 l 257
+ 78 605 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 141 605 m 257
@@ -5114,14 +5111,13 @@ GlifName: eacute
 Width: 424
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 111 208 116 402 114 577 152
 VStem: 26 122 166 164 283 114
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 116 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 116 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
@@ -7330,14 +7326,13 @@ GlifName: oacute
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -1 118 398 118 577 152
 VStem: 28 120 167 164 275 117
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 117 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 117 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -9897,14 +9892,13 @@ GlifName: uacute
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 121 494 20 577 152
 VStem: 30 124 172 164 280 124
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 122 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 122 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
@@ -10403,14 +10397,13 @@ GlifName: yacute
 Width: 383
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 495 20 577 152
 VStem: 145 164 188 1
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 95 -28 2
 Refer: 223 121 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 95 -28 2
 Refer: 223 121 N 1 0 0 1 0 0 2
@@ -10633,7 +10626,6 @@ LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 121.5 -25 2
 Refer: 154 110 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 121.5 -25 2
 Refer: 154 110 N 1 0 0 1 0 0 3
@@ -10733,7 +10725,6 @@ LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 81 -28 2
 Refer: 192 114 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 81 -28 2
 Refer: 192 114 N 1 0 0 1 0 0 3
@@ -10819,7 +10810,6 @@ LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 107.5 -27 2
 Refer: 195 115 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 107.5 -27 2
 Refer: 195 115 N 1 0 0 1 0 0 3
@@ -11082,7 +11072,6 @@ LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 113.5 161 2
 Refer: 63 90 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 113.5 161 2
 Refer: 63 90 N 1 0 0 1 0 0 3
@@ -11097,7 +11086,6 @@ LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 78.5 -28 2
 Refer: 227 122 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 78.5 -28 2
 Refer: 227 122 N 1 0 0 1 0 0 3
