@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435388993
+ModificationTime: 1435389071
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1638,7 +1638,7 @@ GlifName: K_
 Width: 475
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<26 167 26 26 319 457 319 319> 0 21<26 167 26 26 319 457 319 319> 680 20<26 167 167 167 314 453 453 453>
 VStem: 26 141<0 700 0 700>
 LayerCount: 3
@@ -1680,21 +1680,20 @@ GlifName: L_
 Width: 428
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 139<167 402 167 402> 680 20<26 167 167 167>
 VStem: 26 141<139 700 139 700 139 700>
 LayerCount: 3
 Fore
 SplineSet
-402 139 m 257
+402 38 m 261
  402 0 l 257
  26 0 l 257
  26 700 l 257
- 167 700 l 257
- 167 139 l 257
- 402 139 l 257
+ 66 700 l 257
+ 66 38 l 261
+ 402 38 l 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 402 139 m 257
