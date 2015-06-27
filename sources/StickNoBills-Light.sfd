@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435397391
+ModificationTime: 1435397614
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 91 13 4
+WinInfo: 260 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3641,14 +3641,13 @@ GlifName: atilde
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 1 112 562 101 602 102
 VStem: 26 101 64 281 268 116
 LayerCount: 3
 Fore
 Refer: 208 732 N 1 0 0 1 38 476 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 208 732 N 1 0 0 1 38 476 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -7151,14 +7150,13 @@ GlifName: ntilde
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 398 121 562 101 602 102
 VStem: 30 124 76 281 280 124
 LayerCount: 3
 Fore
 Refer: 208 732 N 1 0 0 1 50 476 2
 Refer: 154 110 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 208 732 N 1 0 0 1 50 476 2
 Refer: 154 110 N 1 0 0 1 0 0 2
@@ -8004,14 +8002,13 @@ GlifName: otilde
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -1 118 398 118 559 101 599 102
 VStem: 28 120 72 281 275 117
 LayerCount: 3
 Fore
 Refer: 208 732 N 1 0 0 1 46 473 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 208 732 N 1 0 0 1 46 473 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -9741,23 +9738,22 @@ GlifName: tilde
 Width: 333
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 86 101<201.5 234.5> 126 102<86.5 116>
 VStem: 26 281<114 114 114 206 206 206>
 LayerCount: 3
 Fore
 SplineSet
-307 114 m 257xa0
- 273 93 246 86 223 86 c 256xa0
- 170 86 140 126 92 126 c 256
- 74 126 52 120 26 104 c 257
- 26 206 l 257
- 54 222 77 228 96 228 c 256x60
- 147 228 176 187 227 187 c 256
- 249 187 274 195 307 215 c 257
- 307 114 l 257xa0
+307 146 m 261xa0
+ 273 125 246 118 223 118 c 260xa0
+ 170 118 140 158 92 158 c 260
+ 74 158 52 152 26 136 c 261
+ 26 175 l 257
+ 54 191 77 197 96 197 c 256x60
+ 147 197 176 156 227 156 c 256
+ 249 156 274 164 307 184 c 257
+ 307 146 l 261xa0
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 307 114 m 257xa0
