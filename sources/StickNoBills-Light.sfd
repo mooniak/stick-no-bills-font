@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435386032
+ModificationTime: 1435387683
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1292,7 +1292,7 @@ GlifName: G_
 Width: 493
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -5 141<219.5 222 219.5 222 219.5 276> 685 20<156 222 276 322.5>
 VStem: 26 141<192 508 192 524 192 524> 276 185<135.5 136 136 136 223 353 135.5 353> 319 142<190 223 223 223>
 LayerCount: 3
@@ -1592,26 +1592,26 @@ GlifName: J_
 Width: 495
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: -5 142<210.5 213 210.5 213 267 269.5 210.5 297> 680 20<323 463 463 463>
 VStem: 26 141<193 242 193 242> 323 140<193 700>
 LayerCount: 3
 Fore
 SplineSet
-213 -5 m 257
- 153 -5 26 54 26 193 c 257
+217 -5 m 257
+ 157 -5 26 54 26 193 c 257
  26 242 l 257
- 167 242 l 257
- 167 193 l 258
- 168 147 208 31 213 31 c 261
- 213 -5 l 257
-267 -5 m 257
- 267 33 l 257
- 272 33 422 147 423 193 c 258
+ 66 242 l 257
+ 66 200 l 258
+ 66 86 166 33 217 33 c 257
+ 217 -5 l 257
+263 -5 m 261
+ 263 33 l 261
+ 306 33 423 78 423 193 c 258
  423 700 l 257
  463 700 l 257
  463 193 l 257
- 463 49 327 -5 267 -5 c 257
+ 463 49 323 -5 263 -5 c 261
 EndSplineSet
 Layer: 2
 SplineSet
