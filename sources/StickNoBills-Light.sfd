@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435397907
+ModificationTime: 1435400282
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,13 +482,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 26 13 4
+WinInfo: 13 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -808,11 +808,11 @@ SplineSet
  457 86 366 -2 249 -2 c 260
  240 -2 230 -1 221 0 c 261
  221 122 l 261
-26 700 m 261
- 167 700 l 261
- 167 0 l 261
- 26 0 l 261
- 26 700 l 261
+26 700 m 257
+ 167 700 l 257
+ 167 0 l 257
+ 26 0 l 257
+ 26 700 l 257
 EndSplineSet
 Layer: 2
 SplineSet
@@ -2802,24 +2802,29 @@ HStem: 0 21<229 276 229 229 442 442 442 489> 0 21<229 276 229 229 442 442 442 48
 LayerCount: 3
 Fore
 SplineSet
-271 700 m 257xa0
- 310 700 l 257
- 502 38 l 257
- 489 0 l 257
- 474 0 l 257
- 271 700 l 257xa0
-58 700 m 257xa0
- 97 700 l 257
- 289 38 l 257
- 276 0 l 257
- 261 0 l 257
- 58 700 l 257xa0
-699 700 m 257
- 535 147 l 261
- 525 147 l 261
- 510 198 l 261
- 660 700 l 257
- 699 700 l 257
+699 700 m 1
+ 532 130 l 5
+ 522 130 l 5
+ 507 181 l 5
+ 660 700 l 1
+ 699 700 l 1
+58 700 m 1
+ 97 700 l 1
+ 289 38 l 1
+ 276 0 l 1
+ 261 0 l 1
+ 58 700 l 1
+271 700 m 1
+ 310 700 l 1
+ 502 38 l 1
+ 489 0 l 1
+ 474 0 l 1
+ 382.787186491 314.526943134 l 1
+ 318 129 l 1
+ 308 129 l 1
+ 293 180 l 1
+ 365.846224396 372.944053806 l 1
+ 271 700 l 1
 EndSplineSet
 Layer: 2
 SplineSet
@@ -2850,26 +2855,25 @@ GlifName: X_
 Width: 464
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21<26 171 26 26 293 438 293 293> 0 21<26 171 26 26 293 438 293 293> 680 20<38 175 175 175 289 426 426 426>
 LayerCount: 3
 Fore
 SplineSet
 426 700 m 257xa0
- 302 361 l 257
+ 286 361 l 261
  438 0 l 257
- 293 0 l 257
- 232 167 l 257
- 171 0 l 257
+ 399 0 l 257
+ 232 318 l 257
+ 65 0 l 257
  26 0 l 257
- 162 361 l 257
+ 180 361 l 257
  38 700 l 257
- 175 700 l 257
- 232 548 l 257
- 289 700 l 257
+ 77 700 l 257
+ 232 360 l 257
+ 387 700 l 257
  426 700 l 257xa0
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 426 700 m 257xa0
