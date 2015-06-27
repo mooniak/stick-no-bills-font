@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435396490
+ModificationTime: 1435396561
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2476,7 +2476,7 @@ GlifName: T_
 Width: 485
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<172 313 172 172> 0 21<172 313 172 172> 562 138<26 172 26 459 313 459 313 313>
 VStem: 172 141<0 562 0 562>
 LayerCount: 3
@@ -2638,7 +2638,7 @@ GlifName: U_
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -5 142<226.5 229 226.5 229 283 285.5 226.5 313.5> 680 20<32 173 173 173 339 479 479 479>
 VStem: 32 141<193 700 193 700> 339 140<193 700>
 LayerCount: 3
@@ -2647,19 +2647,18 @@ SplineSet
 229 -5 m 257
  169 -5 32 49 32 193 c 258
  32 700 l 257
- 173 700 l 257
- 173 193 l 257
- 174 147 224 137 229 137 c 257
+ 72 700 l 257
+ 72 193 l 257
+ 73 147 224 33 229 33 c 261
  229 -5 l 257
 283 -5 m 257
- 283 137 l 257
- 288 137 338 147 339 193 c 257
- 339 700 l 257
+ 283 33 l 261
+ 288 33 438 147 439 193 c 257
+ 439 700 l 257
  479 700 l 257
  479 193 l 258
  479 48 344 -5 283 -5 c 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 229 -5 m 257
@@ -2685,14 +2684,13 @@ GlifName: U_acute
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 680 20 766 152
 VStem: 32 141 210 164 339 140
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 160 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 68 180 N 1 0 0 1 160 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
@@ -2704,14 +2702,13 @@ GlifName: U_circumflex
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 680 20 766 152
 VStem: 32 141 147 218 339 140
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 121 252 2
 Refer: 52 85 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 121 252 2
 Refer: 52 85 N 1 0 0 1 0 0 2
@@ -2723,14 +2720,13 @@ GlifName: U_dieresis
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 680 20
 VStem: 32 141 339 140
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 96 163 2
 Refer: 52 85 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 96 163 2
 Refer: 52 85 N 1 0 0 1 0 0 2
@@ -2742,14 +2738,13 @@ GlifName: U_grave
 Width: 512
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 142 680 20 766 152
 VStem: 32 141 137 164 339 140
 LayerCount: 3
 Fore
 Refer: 129 96 N 1 0 0 1 88 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 129 96 N 1 0 0 1 88 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
@@ -10978,7 +10973,6 @@ LayerCount: 3
 Fore
 Refer: 150 175 N 1 0 0 1 0.5 54 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 150 175 N 1 0 0 1 0.5 54 2
 Refer: 52 85 N 1 0 0 1 0 0 3
@@ -11008,7 +11002,6 @@ LayerCount: 3
 Fore
 Refer: 194 730 N 1 0 0 1 133.5 336 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 194 730 N 1 0 0 1 133.5 336 2
 Refer: 52 85 N 1 0 0 1 0 0 3
@@ -11038,7 +11031,6 @@ LayerCount: 3
 Fore
 Refer: 136 733 N 1 0 0 1 116.5 161 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 136 733 N 1 0 0 1 116.5 161 2
 Refer: 52 85 N 1 0 0 1 0 0 3
@@ -11063,7 +11055,7 @@ StartChar: uni0172
 Encoding: 267 370 260
 Width: 512
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -199 91<314.5 378 360 378> -5 142<226.5 229 226.5 229 283 285.5 226.5 313.5> 680 20<32 173 173 173 339 479 479 479>
 VStem: 32 141<193 700 193 700> 210 92<-67.5 -40> 339 140<193 700>
 LayerCount: 3
