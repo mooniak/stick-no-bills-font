@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435561078
+ModificationTime: 1435561217
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2978,25 +2978,24 @@ GlifName: Z_
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 144<182 392 182 392> 560 140<26 236 26 392>
 VStem: 26 366<0 141 141 141 563 700>
 LayerCount: 3
 Fore
 SplineSet
-182 144 m 257
- 392 144 l 257
+73 38 m 261
+ 393 38 l 261
  392 0 l 257
  26 0 l 257
- 26 141 l 257
- 236 560 l 257
- 26 560 l 257
+ 26 35 l 257
+ 345 662 l 257
+ 26 662 l 257
  26 700 l 257
  392 700 l 257
- 392 563 l 257
- 182 144 l 257
+ 392 665 l 257
+ 73 38 l 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 182 144 m 257
@@ -3019,14 +3018,13 @@ GlifName: Z_caron
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 144 560 140 766 152
 VStem: 26 366 100 218
 LayerCount: 3
 Fore
 Refer: 90 711 N 1 0 0 1 74 252 2
 Refer: 63 90 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 90 711 N 1 0 0 1 74 252 2
 Refer: 63 90 N 1 0 0 1 0 0 2
@@ -11097,7 +11095,6 @@ LayerCount: 3
 Fore
 Refer: 106 729 N 1 0 0 1 108 163 2
 Refer: 63 90 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 106 729 N 1 0 0 1 108 163 2
 Refer: 63 90 N 1 0 0 1 0 0 3
