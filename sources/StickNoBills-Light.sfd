@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435561784
+ModificationTime: 1435562138
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 26 13 4
+WinInfo: 39 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3036,7 +3036,7 @@ GlifName: a
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 1 112<163 180 163 180 229 232 163 229>
 VStem: 26 101<139 149 149 162 139 167 139 183.5> 268 116<149 227 227 227 351 363 361 375>
 LayerCount: 3
@@ -3066,22 +3066,19 @@ SplineSet
  83 1 26 64 26 121 c 258
  26 167 l 258
  26 200 33 233 75 257 c 256
- 118 282 268 311 268 351 c 256
- 268 355 268 359 268 363 c 256
- 268 387 266 404 231 407 c 256
- 228 408 l 257
+ 128.902764533 288.338816589 344 303.697265625 344 363 c 256
+ 344 441 277 483 228 483 c 257
  228 519 l 257
-181 407 m 257
- 178 407 l 258
- 155 405 138 390 138 353 c 258
- 138 349 l 257
+181 481 m 257
+ 178 481 l 258
+ 128 481 70 437 70 379 c 258
+ 70 375 l 257
  33 389 l 257
  33 391 l 258
  33 462 110 519 178 519 c 258
  181 519 l 257
- 181 407 l 257
+ 181 481 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 228 519 m 257
@@ -3149,14 +3146,13 @@ GlifName: acircumflex
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 1 112 580 152
 VStem: 26 101 96 218 268 116
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 70 66 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 70 66 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -3196,14 +3192,13 @@ GlifName: adieresis
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 1 112
 VStem: 26 101 268 116
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 44 -23 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 44 -23 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -3433,14 +3428,13 @@ GlifName: aring
 Width: 435
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 1 112 580 64 708 64
 VStem: 26 101 108 64 236 64 268 116
 LayerCount: 3
 Fore
 Refer: 194 730 N 1 0 0 1 82 150 2
 Refer: 65 97 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 194 730 N 1 0 0 1 82 150 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -3452,7 +3446,7 @@ GlifName: asciicircum
 Width: 374
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 460 296<27 264 27 264 176 290 176 413>
 LayerCount: 3
 Fore
