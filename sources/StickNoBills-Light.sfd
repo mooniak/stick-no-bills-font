@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435561529
+ModificationTime: 1435561559
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 26 13 4
+WinInfo: 39 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3713,18 +3713,17 @@ GlifName: backslash
 Width: 402
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 VStem: 50 301
 LayerCount: 3
 Fore
 SplineSet
 351 -23 m 257
- 224 -23 l 257
- 50 716 l 257
+ 309 -23 l 261
+ 135 716 l 261
  176 716 l 257
  351 -23 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 351 -23 m 257
@@ -3873,7 +3872,7 @@ GlifName: bracketleft
 Width: 258
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -36 110<180 244 180 244> 629 110<183 244 183 183>
 VStem: 50 194<-36 74 629 739> 50 130<74 74 74 739>
 LayerCount: 3
