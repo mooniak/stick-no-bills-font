@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435561454
+ModificationTime: 1435561529
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3879,15 +3879,15 @@ VStem: 50 194<-36 74 629 739> 50 130<74 74 74 739>
 LayerCount: 3
 Fore
 SplineSet
-130 739 m 261xe0
- 130 701 l 261xe0
- 91 701 l 257
- 88 2 l 257xd0
- 130 2 l 261
- 130 -36 l 261
- 50 -36 l 257
- 50 739 l 257
- 130 739 l 261xe0
+175 739 m 261xe0
+ 175 701 l 261xe0
+ 136 701 l 261
+ 133 2 l 261xd0
+ 175 2 l 261
+ 175 -36 l 261
+ 95 -36 l 261
+ 95 739 l 261
+ 175 739 l 261xe0
 EndSplineSet
 Layer: 2
 SplineSet
@@ -3909,23 +3909,22 @@ GlifName: bracketright
 Width: 258
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -36 110<14 78 14 208 14 78> 629 110<14 75 14 208>
 VStem: 14 194<-36 74 74 74 629 739 -36 739> 78 130<74 74>
 LayerCount: 3
 Fore
 SplineSet
-14 739 m 257xe0
- 208 739 l 257
- 208 -36 l 257
- 14 -36 l 257
- 14 74 l 257xe0
- 78 74 l 257xd0
- 75 629 l 257
- 14 629 l 257
- 14 739 l 257xe0
+83 739 m 261xe0
+ 83 701 l 261xe0
+ 122 701 l 261
+ 125 2 l 261xd0
+ 83 2 l 261
+ 83 -36 l 261
+ 163 -36 l 261
+ 163 739 l 261
+ 83 739 l 261xe0
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 14 739 m 257xe0
