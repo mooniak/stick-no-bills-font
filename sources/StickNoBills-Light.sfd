@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435561559
+ModificationTime: 1435561784
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 39 13 4
+WinInfo: 26 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3452,21 +3452,20 @@ GlifName: asciicircum
 Width: 374
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 460 296<27 264 27 264 176 290 176 413>
 LayerCount: 3
 Fore
 SplineSet
-27 460 m 257
- 176 756 l 257
- 264 756 l 257
- 413 460 l 257
- 290 460 l 257
- 219 603 l 257
- 149 460 l 257
- 27 460 l 257
+57 460 m 257
+ 206 756 l 257
+ 234 756 l 257
+ 383 460 l 257
+ 342 460 l 257
+ 219 703 l 261
+ 98 460 l 257
+ 57 460 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 27 460 m 257
