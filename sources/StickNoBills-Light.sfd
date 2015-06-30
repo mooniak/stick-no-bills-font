@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435660495
+ModificationTime: 1435667410
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,13 +482,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -6950,7 +6950,7 @@ GlifName: n
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<30 154 30 30 280 404 280 280> 0 21<30 154 30 30 280 404 280 280> 398 121<175.5 196 191 196 238 243 191 238>
 VStem: 30 124<0 372 0 377 0 401> 280 124<0 372 372 373.5>
 LayerCount: 3
@@ -7166,40 +7166,31 @@ GlifName: o
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -1 118<132 192 186 192 186 233 233 239> 398 118<169.5 192 186 192 233 239 186 233>
 VStem: 28 120<144.5 154 154 363> 275 117<152 363 363 371.5>
 LayerCount: 3
 Fore
 SplineSet
 28 376 m 258
- 28 421 79 516 186 516 c 258
- 192 516 l 257
- 192 398 l 257
- 186 398 l 258
- 153 398 148 373 148 363 c 257
- 148 154 l 257
- 148 135 156 117 186 117 c 258
- 192 117 l 257
+ 28 424.751528086 81.5188246079 516 192 516 c 257
+ 192 478 l 257
+ 112 478 68 410 68 363 c 258
+ 68 154 l 258
+ 68 111 119 37 192 37 c 257
  192 -1 l 257
- 186 -1 l 258
- 78 -1 28 97 28 141 c 258
+ 80.4842183772 -1 28 93.1756042126 28 141 c 258
  28 376 l 258
-233 398 m 257
+233 478 m 257
  233 516 l 257
- 239 516 l 258
- 342 516 392 421 392 376 c 258
+ 341 516 392 424.842608358 392 376 c 258
  392 141 l 258
- 392 96 343 -1 239 -1 c 258
- 233 -1 l 257
- 233 117 l 257
- 239 117 l 258
- 270 118 275 141 275 152 c 257
- 275 363 l 257
- 275 380 269 398 239 398 c 258
- 233 398 l 257
+ 392 92.1497684781 340.640067573 -1 233 -1 c 257
+ 233 37 l 261
+ 308 37 352 108 352 152 c 262
+ 352 363 l 258
+ 352 408 308 478 233 478 c 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 28 376 m 258
@@ -7255,14 +7246,13 @@ GlifName: ocircumflex
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -1 118 398 118 577 152
 VStem: 28 120 104 218 275 117
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 78 63 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 78 63 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -7274,14 +7264,13 @@ GlifName: odieresis
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -1 118 398 118
 VStem: 28 120 275 117
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 52 -26 2
 Refer: 158 111 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 52 -26 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -10789,7 +10778,6 @@ LayerCount: 3
 Fore
 Refer: 136 733 N 1 0 0 1 73.5 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 136 733 N 1 0 0 1 73.5 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 3
