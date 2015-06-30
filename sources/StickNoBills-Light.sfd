@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435648458
+ModificationTime: 1435648649
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3642,7 +3642,7 @@ GlifName: b
 Width: 414
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 118<30 236 203 236 203 236> 398 118<203 236 236 237 203 236> 679 20<30 155 155 155> 679 20<30 155 155 155>
 VStem: 30 125<0 699 0 699> 270 118<143 373 373 374>
 LayerCount: 3
@@ -4025,23 +4025,18 @@ GlifName: c
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -1 117<243 249 243 249 249 250> 496 20<185 191 191 191 233 239 239 275.5>
 VStem: 30 119<141 375>
 LayerCount: 3
 Fore
 SplineSet
-266 383 m 257
- 261 397 239 399 239 399 c 258
- 238 399 237 399 236 399 c 258
- 233 399 l 257
+233 399 m 257
  233 516 l 257
- 239 516 l 258
- 312 516 381 448 381 376 c 258
- 381 372 l 257
+ 314 516 381 450.592730279 381 372 c 257
  270 330 l 257
  270 360 l 258
- 270 370 270 375 266 383 c 257
+ 270 393 251.01465966 399 233 399 c 257
 243 -1 m 257
  243 116 l 257
  249 116 l 257
@@ -4052,9 +4047,7 @@ SplineSet
  392 140 l 258
  392 68 323 -1 250 -1 c 258
  243 -1 l 257
-30 377 m 257
- 31 421 80 516 185 516 c 258
- 191 516 l 257
+191 516 m 261
  191 400 l 257
  185 400 l 258
  154 400 149 377 149 375 c 258
@@ -4063,10 +4056,10 @@ SplineSet
  199 114 l 257
  199 0 l 257
  194 0 l 258
- 79 0 30 97 30 141 c 258
- 30 377 l 257
+ 79 0 30 97 30 141 c 259
+ 30 166 30.220703125 281 30.220703125 372 c 4
+ 30.220703125 431 84 516 191 516 c 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 266 383 m 257
@@ -4147,14 +4140,13 @@ GlifName: ccedilla
 Width: 418
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -199 91 -1 117 496 20
 VStem: 30 119 178 92
 LayerCount: 3
 Fore
 Refer: 92 184 N 1 0 0 1 76 -163 2
 Refer: 89 99 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 92 184 N 1 0 0 1 76 -163 2
 Refer: 89 99 N 1 0 0 1 0 0 2
