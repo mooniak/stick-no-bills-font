@@ -1,0 +1,5 @@
+script: bash ./deploy-gh-pages.sh
+env:
+  global:
+  - GH_REF: github.com/mooniak/stick-no-bills-font.git
+  - secure: K6psI//4UKQZsJula80W86CkyyzZQLGewiyxaYTovd9FkEEOzgqL3SA8oyOyEqD1tGlBl7/58COlN/tVEur5C8GTT2bX94iiomS26tfEM2Nha7V59vAcIR/mXlM+mn8didYxipc4TFlTAduXHKd0WGVlh1kYX18uS4h72Yer4Fg=
