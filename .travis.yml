@@ -1,11 +1,16 @@
 language: ruby
 rvm:
 - 2.1
-# Assume bundler is being used, install step will run `bundle install`.
-script: ./script/cibuild
+
+# branch whitelist
+branches:
+  only:
+  - master
+
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
+  
+  
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - secure: UIH6XQoEenuqFXtHsVxbnxPZqE5LB0MOsYihv282PKQiZwJ83NFAQJWBh1y03VNZ+1hvjfbe/CZixAds2OkziFZYF9ekhbY1lslVzTOQxTRfGWldUjSbchIH2Izzaz18NL5SQm5vmyic92a7Y0CbJiyr1cFWRxeEuFI3WzJfTKM=
