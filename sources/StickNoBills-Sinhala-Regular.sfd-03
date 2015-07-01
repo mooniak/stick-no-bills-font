@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: StickNoBills
+FontName: StickNoBills-Bold
 FullName: Stick No Bills
 FamilyName: Stick No Bills
-Weight: Regular
+Weight: Bold
 Copyright: Copyright (c) 2013 STICK NO BILLS, Copyright (c) 2015 mooniak\n
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435740996
+ModificationTime: 1435746232
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -68,7 +68,7 @@ KernClass2: 7 7 "'kern' Horizontal Kerning lookup 0-1"
  23 uni0077 uni0076 uni0074
  15 uni003B uni003A
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 61 {} -23 {} 0 {} -68 {} 45 {} 0 {} 16 {} -80 {} -30 {} -100 {} -23 {} -63 {} 0 {} 0 {} -41 {} 0 {} 0 {} 0 {} 0 {} 0 {} -82 {} 0 {} 84 {} 0 {} -77 {} 62 {} 0 {} 0 {} -109 {} -55 {} -130 {} 0 {} -75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
-LangName: 1033 "Remove All VKern Pairs" "" "" "SNBMooniak" "" "Version 1.0.1" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "Stick No Bills" "Regular"
+LangName: 1033 "Remove All VKern Pairs" "" "" "" "" "Version 1.0.1" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "Stick No Bills" "Regular"
 PickledDataWithLists: "(dp1
 S'public.glyphOrder'
 p2
@@ -502,7 +502,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 4
+WinInfo: 0 8 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -540,7 +540,7 @@ Grid
  272 -717 l 1024
 EndSplineSet
 TeXData: 1 0 0 307200 153600 102400 526336 1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65935 777
+BeginChars: 65939 777
 
 StartChar: uni0041
 Encoding: 65536 65 0
@@ -10287,7 +10287,7 @@ StartChar: si_Na
 Encoding: 43 3505 272
 Width: 803
 VWidth: 873
-Flags: HMWO
+Flags: HMW
 LayerCount: 4
 Back
 Fore
@@ -11693,7 +11693,7 @@ StartChar: si_Lla
 Encoding: 59 3525 288
 Width: 957
 VWidth: 874
-Flags: HMW
+Flags: HMWO
 LayerCount: 4
 Back
 SplineSet
@@ -11732,38 +11732,39 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-700 254 m 1
- 806 166 l 1
- 777.682080925 91.7328244275 691.915824313 24.9332276161 593 25 c 0
- 392.772080374 25.1357421875 339.191958716 143.45490579 338.000976562 228 c 1
- 451 318 l 1
- 451 199.427901842 515.439655688 170 578 170 c 0
- 645.443319238 170 678.641622121 186.816149964 700 254 c 1
-843 412 m 1
- 843 288 l 1
- 457 288 l 2
- 367.899648437 288 362 128 362 128 c 1
- 362.013441938 18.2099609375 455.905381143 -57.2734375 578.04296875 -57.2734375 c 0
- 667.446333063 -57.2734375 755.73289436 -31.2298994227 805 78 c 1
- 912 -10 l 1
- 829.201171875 -187.111328125 657.366210938 -207.009765625 598.6875 -207.009765625 c 0
- 361.53125 -207.009765625 216 -97.6845703125 216 126 c 0
- 216 322.407226562 336.540039829 410.544655287 495 411 c 2
- 843 412 l 1
-844.765625 460.07421875 m 1
- 708.924804688 460.07421875 l 1
- 708.7890625 483.635742188 691.721679688 498.4296875 671.05078125 498.4296875 c 0
- 646.760742188 498.4296875 632.421875 479.086914062 632.036132812 460.07421875 c 1
- 510.577148438 460.07421875 l 1
- 510.41796875 479.34375 496.758789062 498.5 470.704101562 498.5 c 0
- 447.71484375 498.5 433.689453125 478.234375 433.689453125 460.07421875 c 1
- 434 460.07421875 l 1
- 298 409.07421875 l 1
- 297.748046875 460.07421875 l 1
- 297.748046875 552.983398438 362.4765625 611.5 460.747070312 611.5 c 0
- 506.221679688 611.5 543.85546875 600.646484375 571.194335938 580.581054688 c 1
- 602.087890625 605.818359375 646.78125 612.5 681.094726562 612.5 c 0
- 786.0625 612.5 844.765625 549.266601562 844.765625 460.07421875 c 1
+492 550 m 1048
+701 253 m 1,0,-1
+ 801 170 l 1,1,2
+ 772.681640625 95.732421875 691.916015185 43.9329409114 593 44 c 0,3,4
+ 392.772460938 44.1357421875 342.19140625 145.455078125 341 230 c 5,5,-1
+ 451 318 l 1,6,7
+ 451 199.427901842 515.439655688 170 578 170 c 0,8,9
+ 645.443319238 170 679.641601562 185.81640625 701 253 c 1,0,-1
+843 412 m 1,10,-1
+ 843 288 l 1,11,-1
+ 457 288 l 2,12,13
+ 367.899648437 288 352 128 352 128 c 1,14,15
+ 352.013671875 -6.7900390625 444.905273438 -76.2734375 578.04296875 -76.2734375 c 0,16,17
+ 667.446289062 -76.2734375 755.73289436 -31.2298994227 805 78 c 1,18,-1
+ 912 -10 l 1,19,20
+ 829.201171875 -187.111328125 657.366210938 -207.009765625 598.6875 -207.009765625 c 0,21,22
+ 361.53125 -207.009765625 216 -97.6845703125 216 126 c 0,23,24
+ 216 322.407226562 336.540039829 410.544655287 495 411 c 2,25,-1
+ 843 412 l 1,10,-1
+844.765625 460.07421875 m 1,26,-1
+ 708.924804688 460.07421875 l 1,27,28
+ 708.7890625 483.635742188 691.721679688 498.4296875 671.05078125 498.4296875 c 0,29,30
+ 646.760742188 498.4296875 632.421875 479.086914062 632.036132812 460.07421875 c 1,31,-1
+ 510.577148438 460.07421875 l 1,32,33
+ 510.41796875 479.34375 496.758789062 498.5 470.704101562 498.5 c 0,34,35
+ 447.71484375 498.5 433.689453125 478.234375 433.689453125 460.07421875 c 1,36,-1
+ 434 460.07421875 l 1,37,-1
+ 298 409.07421875 l 1,38,-1
+ 297.748046875 460.07421875 l 1,39,40
+ 297.748046875 552.983398438 362.4765625 611.5 460.747070312 611.5 c 0,41,42
+ 506.221679688 611.5 543.85546875 600.646484375 571.194335938 580.581054688 c 1,43,44
+ 602.087890625 605.818359375 646.78125 612.5 681.094726562 612.5 c 0,45,46
+ 786.0625 612.5 844.765625 549.266601562 844.765625 460.07421875 c 1,26,-1
 EndSplineSet
 Layer: 2
 Layer: 3
