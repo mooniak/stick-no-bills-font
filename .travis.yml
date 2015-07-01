@@ -1,16 +1,9 @@
-language: ruby
-rvm:
-- 2.1
-
-# branch whitelist
-branches:
-  only:
-  - master
-
+language: something
+script:
+  - make check
+  - make generate
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
-  
-  
 env:
   global:
-  - secure: UIH6XQoEenuqFXtHsVxbnxPZqE5LB0MOsYihv282PKQiZwJ83NFAQJWBh1y03VNZ+1hvjfbe/CZixAds2OkziFZYF9ekhbY1lslVzTOQxTRfGWldUjSbchIH2Izzaz18NL5SQm5vmyic92a7Y0CbJiyr1cFWRxeEuFI3WzJfTKM=
+    - secure: UIH6XQoEenuqFXtHsVxbnxPZqE5LB0MOsYihv282PKQiZwJ83NFAQJWBh1y03VNZ+1hvjfbe/CZixAds2OkziFZYF9ekhbY1lslVzTOQxTRfGWldUjSbchIH2Izzaz18NL5SQm5vmyic92a7Y0CbJiyr1cFWRxeEuFI3WzJfTKM=
