@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435851769
+ModificationTime: 1435851943
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -10182,7 +10182,7 @@ GlifName: x
 Width: 399
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -10224,21 +10224,19 @@ GlifName: y
 Width: 383
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 495 20<131 131 251 251>
 VStem: 188 1
 LayerCount: 3
 Fore
 SplineSet
-118 113 m 257
- 0 514 l 257
- 131 515 l 257
- 188 327 l 257
- 188 328 189 328 189 329 c 257
- 252 111 l 257
+252 111 m 261
  155 -182 l 257
  29 -182 l 257
  118 113 l 257
+ 0 514 l 257
+ 131 515 l 261
+ 252 111 l 261
 251 515 m 257
  382 514 l 257
  279 208 l 257
@@ -10246,7 +10244,6 @@ SplineSet
  213 393 l 257
  251 515 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 118 113 m 257
@@ -10291,14 +10288,13 @@ GlifName: ydieresis
 Width: 383
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 495 20
 VStem: 188 1
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 31 -26 2
 Refer: 223 121 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 31 -26 2
 Refer: 223 121 N 1 0 0 1 0 0 2
