@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435854107
+ModificationTime: 1435854177
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 78 13 4
+WinInfo: 65 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3470,22 +3470,21 @@ GlifName: asciitilde
 Width: 568
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 235 132<343 399.5> 308 132<147.5 198>
 LayerCount: 3
 Fore
 SplineSet
-518 281 m 257x80
- 462 247 418 235 381 235 c 256x80
- 289 235 239 308 157 308 c 256
- 127 308 92 299 50 272 c 257
- 50 405 l 257
- 95 431 132 440 163 440 c 256x40
- 250 440 299 367 387 367 c 256
- 422 367 464 379 518 412 c 257
- 518 281 l 257x80
+518 329 m 261x80
+ 462 295 418 283 381 283 c 260x80
+ 289 283 239 356 157 356 c 260
+ 127 356 92 347 50 320 c 261
+ 50 358 l 261
+ 95 384 132 393 163 393 c 260x40
+ 250 393 299 320 387 320 c 260
+ 422 320 464 332 518 365 c 261
+ 518 329 l 261x80
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 518 281 m 257x80
@@ -3797,7 +3796,7 @@ GlifName: braceright
 Width: 407
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -38 99<100 118 100 103> 635 100<100 134>
 VStem: 168 127<208 290 80.5 304 80.5 314.5 408 469 469 469>
 LayerCount: 3
