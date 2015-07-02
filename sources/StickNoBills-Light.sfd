@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435854177
+ModificationTime: 1435854345
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -4169,8 +4169,7 @@ GlifName: cent
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: W
-VStem: 32 141<181 518> 158 71<-48 -5 -5 7 7 7 693 705 705 749> 283 71<-48 -5 -5 11 -48 86 687 705 705 749> 330 138<143 215 143 215>
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -4214,7 +4213,6 @@ SplineSet
  283 86 l 257
  283 136 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 158 749 m 257x40
