@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435852574
+ModificationTime: 1435852778
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 52 13 4
+WinInfo: 65 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -10224,7 +10224,7 @@ GlifName: y
 Width: 383
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 495 20<131 131 251 251>
 VStem: 188 1
 LayerCount: 3
@@ -10373,25 +10373,24 @@ GlifName: z
 Width: 348
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 118<169 169 169 322> 394 120<26 183 26 322>
 VStem: 26 296<0 116 116 116 400 514>
 LayerCount: 3
 Fore
 SplineSet
-322 400 m 257
- 169 118 l 257
- 322 117 l 257
+322 482 m 257
+ 68 38 l 257
+ 322 38 l 257
  322 0 l 257
  26 0 l 257
- 26 116 l 257
- 183 394 l 257
- 26 394 l 257
+ 27 37 l 257
+ 280 476 l 261
+ 26 476 l 257
  26 514 l 257
  322 514 l 257
- 322 400 l 257
+ 322 482 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 322 400 m 257
@@ -10414,14 +10413,13 @@ GlifName: zcaron
 Width: 348
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 118 394 120 577 152
 VStem: 26 296 67 218
 LayerCount: 3
 Fore
 Refer: 90 711 N 1 0 0 1 41 63 2
 Refer: 227 122 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 90 711 N 1 0 0 1 41 63 2
 Refer: 227 122 N 1 0 0 1 0 0 2
@@ -10981,7 +10979,6 @@ LayerCount: 3
 Fore
 Refer: 106 729 N 1 0 0 1 73 -26 2
 Refer: 227 122 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 106 729 N 1 0 0 1 73 -26 2
 Refer: 227 122 N 1 0 0 1 0 0 3
