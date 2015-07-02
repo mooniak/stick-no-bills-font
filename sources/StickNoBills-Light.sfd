@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435846014
+ModificationTime: 1435846255
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -9318,7 +9318,7 @@ GlifName: t
 Width: 324
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 125<244 271 244 298 243 271> 398 118<26 89 26 89 211 271> 680 20<89 211 211 211>
 VStem: 89 122<168 398 516 700>
 LayerCount: 3
@@ -9717,32 +9717,27 @@ GlifName: u
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -5 121<137.5 196 191 196 238 243 191 238> 494 20<30 154 154 154 280 404 404 404>
 VStem: 30 124<140.5 142 142 514> 280 124<142 514>
 LayerCount: 3
 Fore
 SplineSet
-238 116 m 257
- 243 116 l 258
- 274 116 280 140 280 142 c 257
- 280 514 l 257
+238 35 m 261
+ 310 35 364 94 364 142 c 262
+ 364 514 l 257
  404 514 l 257
  404 137 l 258
- 404 92 350 -5 243 -5 c 258
- 238 -5 l 257
- 238 116 l 257
+ 404 88.8723925201 350 -5 238 -5 c 257
+ 238 35 l 261
 30 514 m 257
- 154 514 l 257
- 154 142 l 257
- 154 139 160 116 191 116 c 258
- 196 116 l 257
+ 70 514 l 257
+ 70 142 l 262
+ 70 96 126 35 196 35 c 261
  196 -5 l 257
- 191 -5 l 258
- 84 -5 30 89 30 137 c 258
+ 83 -5 30 85.8753619874 30 137 c 258
  30 514 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 238 116 m 257
@@ -9790,14 +9785,13 @@ GlifName: ucircumflex
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 121 494 20 577 152
 VStem: 30 124 108 218 280 124
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 82 63 2
 Refer: 210 117 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 82 63 2
 Refer: 210 117 N 1 0 0 1 0 0 2
@@ -9809,14 +9803,13 @@ GlifName: udieresis
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 121 494 20
 VStem: 30 124 280 124
 LayerCount: 3
 Fore
 Refer: 103 168 N 1 0 0 1 57 -26 2
 Refer: 210 117 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 103 168 N 1 0 0 1 57 -26 2
 Refer: 210 117 N 1 0 0 1 0 0 2
@@ -10873,7 +10866,6 @@ LayerCount: 3
 Fore
 Refer: 194 730 N 1 0 0 1 95 147 2
 Refer: 210 117 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 194 730 N 1 0 0 1 95 147 2
 Refer: 210 117 N 1 0 0 1 0 0 3
@@ -10902,7 +10894,6 @@ LayerCount: 3
 Fore
 Refer: 136 733 N 1 0 0 1 78 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 3
-Validated: 1
 Layer: 2
 Refer: 136 733 N 1 0 0 1 78 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 3
