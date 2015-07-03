@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435923265
+ModificationTime: 1435923588
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65 13 4
+WinInfo: 91 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6590,21 +6590,20 @@ GlifName: logicalnot
 Width: 502
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 327 115<26 358 26 476>
 VStem: 358 118<208 327 327 327>
 LayerCount: 3
 Fore
 SplineSet
-476 208 m 257
- 358 208 l 257
- 358 327 l 257
- 26 327 l 257
- 26 442 l 257
- 476 442 l 257
- 476 208 l 257
+437 208 m 257
+ 397 208 l 257
+ 397 368 l 261
+ 26 368 l 261
+ 26 406 l 261
+ 437 406 l 261
+ 437 208 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 476 208 m 257
