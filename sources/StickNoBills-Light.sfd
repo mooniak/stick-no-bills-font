@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435903713
+ModificationTime: 1435906769
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 78 13 4
+WinInfo: 52 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2904,19 +2904,19 @@ VStem: 157 146<0 252 252 252>
 LayerCount: 3
 Fore
 SplineSet
-26 700 m 257xb0
- 67 700 l 257
- 250 253 l 257
- 250 0 l 257
- 210 0 l 257
- 210 252 l 257
- 26 700 l 257xb0
-253 357 m 257
- 412 700 l 257
- 453 700 l 257
- 276 311 l 257
- 272 311 l 257
- 253 357 l 257
+26 700 m 261xb0
+ 67 700 l 261
+ 250 253 l 261
+ 250 0 l 261
+ 210 0 l 261
+ 210 252 l 261
+ 26 700 l 261xb0
+253 357 m 261
+ 412 700 l 261
+ 453 700 l 261
+ 276 311 l 261
+ 272 311 l 261
+ 253 357 l 261
 EndSplineSet
 Layer: 2
 SplineSet
@@ -4453,7 +4453,7 @@ GlifName: currency
 Width: 656
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 133 118<281 310 304 310 304 357 304 351> 477 118<287.5 310 304 310 304 351 351 357>
 VStem: 146 120<275 275 275 276 276 452> 393 117<275 451 451 452.5>
 LayerCount: 3
@@ -10270,41 +10270,36 @@ EndChar
 StartChar: uni00A5
 Encoding: 100 165 226
 GlifName: yen
-Width: 542
+Width: 479
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 21<203 340 203 203> 0 21<203 340 203 203> 238 57<50 193 50 203 50 193> 351 58<50 162 50 177 50 162> 678 20<73 210 210 210 333 470 470 470>
 VStem: 203 137<0 236 0 238 0 238>
 LayerCount: 3
 Fore
 SplineSet
-73 698 m 257xbc
- 210 698 l 257
- 273 485 l 257
- 333 698 l 257
- 470 698 l 257
- 382 408 l 257
- 492 408 l 257
- 492 350 l 257
- 365 350 l 257
- 351 295 l 257
- 492 295 l 257
- 492 236 l 257
- 340 236 l 257
- 340 0 l 257
- 203 0 l 257
- 203 238 l 257
- 50 238 l 257
- 50 295 l 257
- 193 295 l 257
- 177 351 l 257
- 50 351 l 257
- 50 409 l 257
- 162 409 l 257
- 73 698 l 257xbc
+50 277 m 5
+ 492 277 l 5
+ 492 255 l 5
+ 50 255 l 5
+ 50 277 l 5
+50 188 m 1
+ 492 188 l 1
+ 492 166 l 1
+ 50 166 l 1
+ 50 188 l 1
+72 698 m 1
+ 113 698 l 1
+ 271.785309881 303.480259681 l 5
+ 430 698 l 1
+ 471 698 l 1
+ 292 251.593220339 l 5
+ 292 0 l 1
+ 252 0 l 1
+ 252 252 l 5
+ 72 698 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 73 698 m 257xbc
