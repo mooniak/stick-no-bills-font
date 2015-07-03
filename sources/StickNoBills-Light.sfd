@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435923588
+ModificationTime: 1435923937
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 91 13 4
+WinInfo: 78 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5976,28 +5976,27 @@ GlifName: guillemotleft
 Width: 475
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-238 477 m 257
- 238 352 l 257
- 149 292 l 257
- 238 224 l 257
- 238 102 l 257
- 27 259 l 257
- 27 321 l 257
- 238 477 l 257
-449 477 m 257
- 449 352 l 257
- 360 292 l 257
- 449 224 l 257
- 449 102 l 257
- 238 259 l 257
- 238 321 l 257
- 449 477 l 257
+449 455 m 261
+ 449 405 l 261
+ 293 292 l 261
+ 449 174 l 261
+ 449 124 l 261
+ 238 281 l 261
+ 238 299 l 261
+ 449 455 l 261
+238 455 m 257
+ 238 405 l 257
+ 82 292 l 257
+ 238 174 l 257
+ 238 124 l 257
+ 27 281 l 257
+ 27 299 l 257
+ 238 455 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 238 477 m 257
@@ -6590,7 +6589,7 @@ GlifName: logicalnot
 Width: 502
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 327 115<26 358 26 476>
 VStem: 358 118<208 327 327 327>
 LayerCount: 3
