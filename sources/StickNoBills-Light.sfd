@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435906945
+ModificationTime: 1435907034
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 52 13 4
+WinInfo: 78 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3951,23 +3951,22 @@ GlifName: brokenbar
 Width: 222
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 VStem: 50 122<-134 221 -134 221 399 754>
 LayerCount: 3
 Fore
 SplineSet
-50 754 m 257
- 172 754 l 257
- 172 399 l 257
- 50 399 l 257
- 50 754 l 257
-50 221 m 257
- 172 221 l 257
- 172 -134 l 257
- 50 -134 l 257
- 50 221 l 257
+91 754 m 257
+ 131 754 l 257
+ 131 399 l 257
+ 91 399 l 257
+ 91 754 l 257
+91 221 m 257
+ 131 221 l 257
+ 131 -134 l 257
+ 91 -134 l 257
+ 91 221 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 50 754 m 257
