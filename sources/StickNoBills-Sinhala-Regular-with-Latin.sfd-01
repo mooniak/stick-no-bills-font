@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435774564
-ModificationTime: 1436468935
+ModificationTime: 1435774564
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -776,22 +776,22 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p359
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p360
-sS'com.schriftgestaltung.useNiceNames'
-p361
 I00
+sS'com.schriftgestaltung.fontMasterID'
+p360
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p361
 s."
-Encoding: sinhalatamil
+Encoding: Custom
 Compacted: 1
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 320 10 4
 BeginChars: 65865 355
 
 StartChar: uni5713
@@ -966,82 +966,36 @@ Encoding: 2 3461 2
 GlifName: si_A_
 Width: 532
 VWidth: 0
-Flags: WO
+Flags: W
 LayerCount: 2
-UndoRedoHistory
-Layer: 0
-Undoes
-UndoOperation
-Index: 0
-Type: 1
-WasModified: 0
-WasOrder2: 0
-Layer: 1
-Width: 532
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-EndUndoOperation
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Back
-SplineSet
-504 463 m 261
- 427 443 434 418 433 377 c 262
- 432 140 l 261
- 504 140 l 261
- 504 0 l 261
- 432 -0 l 261
- 432 -205 l 261
- 302 -205 l 261
- 302 409 l 262
- 302 495 350 575 504 605 c 261
- 504 463 l 261
-163 220 m 261
- 163 168 204 136 247 136 c 260
- 247 0 l 260
- 127 0 21 82 20 222 c 260
- 20 348 116 439 247 439 c 262
- 303 438 l 261
- 303 462 256 491 196 491 c 260
- 151 491 102 473 69 440 c 261
- 70 568 l 261
- 96 592 142 613 221 613 c 260
- 318 613 433 556 433 414 c 261
- 432 304 l 261
- 244 304 l 262
- 210 304 163 278 163 220 c 261
-EndSplineSet
 Fore
 SplineSet
-504 463 m 261
- 427 443 434 418 433 377 c 262
- 432 140 l 261
- 504 140 l 261
- 504 0 l 261
- 432 -0 l 261
- 432 -205 l 261
- 302 -205 l 261
- 302 409 l 262
- 302 495 350 575 504 605 c 261
- 504 463 l 261
-163 220 m 261
- 163 168 204 136 247 136 c 260
- 247 0 l 260
- 127 0 21 82 20 222 c 260
- 20 348 116 439 247 439 c 262
- 303 438 l 261
- 303 462 256 491 196 491 c 260
- 151 491 102 473 69 440 c 261
- 70 568 l 261
- 96 592 142 613 221 613 c 260
- 318 613 433 556 433 414 c 261
- 432 304 l 261
- 244 304 l 262
- 210 304 163 278 163 220 c 261
+504 463 m 257
+ 427 443 434 418 433 377 c 258
+ 432 140 l 257
+ 504 140 l 257
+ 504 0 l 257
+ 432 -0 l 257
+ 432 -205 l 257
+ 302 -205 l 257
+ 302 409 l 258
+ 302 495 350 575 504 605 c 257
+ 504 463 l 257
+163 220 m 257
+ 163 168 204 136 247 136 c 256
+ 247 0 l 256
+ 127 0 21 82 20 222 c 256
+ 20 348 116 439 247 439 c 258
+ 303 438 l 257
+ 303 462 256 491 196 491 c 256
+ 151 491 102 473 69 440 c 257
+ 70 568 l 257
+ 96 592 142 613 221 613 c 256
+ 318 613 433 556 433 414 c 257
+ 432 304 l 257
+ 244 304 l 258
+ 210 304 163 278 163 220 c 257
 EndSplineSet
 EndChar
 
@@ -1574,7 +1528,7 @@ Encoding: 53 3517 11
 GlifName: si_L_a
 Width: 678
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -210 146 -20 20<538 538> 24 137 252 114<210 268 210 482 401 482 401 401> 465 143
 VStem: 21 139<97 279 97 304> 268 132<204 213 198.5 252 198.5 252> 515 136<244.5 334.5>
 LayerCount: 2
@@ -1586,13 +1540,13 @@ SplineSet
  568 -202 439 -210 382 -211 c 257
  382 -65 l 257
  395 -64 485 -66 538 0 c 257
-321 -63 m 257
- 321 -210 l 257
- 174 -210 21 -50 21 200 c 256
- 21 408 88 609 321 609 c 257
- 321 465 l 257
- 201 453 160 357 160 201 c 256
- 160 -7 280 -58 321 -63 c 257
+327 -63 m 257
+ 327 -210 l 257
+ 180 -210 21 -50 21 200 c 256
+ 21 408 94 609 327 609 c 257
+ 327 465 l 257
+ 207 453 160 357 160 201 c 256
+ 160 -7 286 -58 327 -63 c 257
 401 252 m 257
  400 213 l 258
  400 184 423 160 453 160 c 256
@@ -1943,7 +1897,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnI
-Encoding: 237 -1 17
+Encoding: 236 -1 17
 GlifName: si_N_nI_
 Width: 1112
 VWidth: 0
@@ -2762,7 +2716,7 @@ sass."
 EndChar
 
 StartChar: uni0020
-Encoding: 655 32 27
+Encoding: 650 32 27
 GlifName: uni0020
 Width: 300
 VWidth: 0
