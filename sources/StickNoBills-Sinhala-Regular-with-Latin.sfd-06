@@ -1,4 +1,4 @@
-SplineFontDB: 3.1
+SplineFontDB: 3.0
 FontName: StickNoBills-Bold
 FullName: Stick No Bills
 FamilyName: Stick No Bills
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435774564
-ModificationTime: 1436466560
+ModificationTime: 1435774564
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -776,25 +776,24 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
-Encoding: sinhalatamil
-Compacted: 1
+Encoding: sinhala-final
 UnicodeInterp: none
-NameList: sinhala
+NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 10 4
+WinInfo: 65568 8 2
 BeginChars: 65865 355
 
-StartChar: uni5713
+StartChar: HKD
 Encoding: 65536 22291 0
 GlifName: H_K_D_
 Width: 843
@@ -961,7 +960,7 @@ I224
 sass."
 EndChar
 
-StartChar: si_A
+StartChar: uni0D85
 Encoding: 2 3461 2
 GlifName: si_A_
 Width: 532
@@ -999,7 +998,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: si_Aa
+StartChar: uni0D86
 Encoding: 3 3462 3
 GlifName: si_A_a
 Width: 809
@@ -1047,7 +1046,7 @@ I138
 sass."
 EndChar
 
-StartChar: si_Aae
+StartChar: uni0D88
 Encoding: 5 3464 4
 GlifName: si_A_ae
 Width: 532
@@ -1099,7 +1098,7 @@ I40
 sass."
 EndChar
 
-StartChar: si_Ae
+StartChar: uni0D87
 Encoding: 4 3463 5
 GlifName: si_A_e
 Width: 532
@@ -1151,7 +1150,7 @@ I40
 sass."
 EndChar
 
-StartChar: si_Ba
+StartChar: uni0DB6
 Encoding: 47 3510 6
 GlifName: si_B_a
 Width: 585
@@ -1228,7 +1227,7 @@ I142
 sass."
 EndChar
 
-StartChar: si_Da
+StartChar: uni0DAF
 Encoding: 41 3503 7
 GlifName: si_D_a
 Width: 492
@@ -1267,7 +1266,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: si_Ddha
+StartChar: uni0DAA
 Encoding: 36 3498 8
 GlifName: si_D_dha
 Width: 675
@@ -1390,7 +1389,7 @@ I134
 sass."
 EndChar
 
-StartChar: si_Ga
+StartChar: uni0D9C
 Encoding: 22 3484 9
 GlifName: si_G_a
 Width: 802
@@ -1474,7 +1473,7 @@ I142
 sass."
 EndChar
 
-StartChar: si_Ka
+StartChar: uni0D9A
 Encoding: 20 3482 10
 GlifName: si_K_a
 Width: 864
@@ -1523,515 +1522,16 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: si_La
+StartChar: uni0DBD
 Encoding: 53 3517 11
 GlifName: si_L_a
 Width: 678
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -210 146 -20 20<538 538> 24 137 252 114<210 268 210 482 401 482 401 401> 465 143
 VStem: 21 139<97 279 97 304> 268 132<204 213 198.5 252 198.5 252> 515 136<244.5 334.5>
 LayerCount: 2
 Back
-UndoRedoHistory
-Layer: 1
-Undoes
-UndoOperation
-Index: 0
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-321 -63 m 257
- 321 -210 l 257
- 174 -210 21 -50 21 200 c 256
- 21 408 89 609 322 609 c 261
- 322 465 l 261
- 202 453 160 357 160 201 c 256
- 160 -7 280 -58 321 -63 c 257
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 1
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-321 -63 m 257
- 321 -210 l 257
- 174 -210 21 -50 21 200 c 256
- 21 408 90 609 323 609 c 261
- 323 465 l 261
- 203 453 160 357 160 201 c 256
- 160 -7 280 -58 321 -63 c 257
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 2
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-321 -63 m 257
- 321 -210 l 257
- 174 -210 21 -50 21 200 c 256
- 21 408 91 609 324 609 c 261
- 324 465 l 261
- 204 453 160 357 160 201 c 256
- 160 -7 280 -58 321 -63 c 257
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 3
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-321 -63 m 257
- 321 -210 l 257
- 174 -210 21 -50 21 200 c 256
- 21 408 92 609 325 609 c 261
- 325 465 l 261
- 205 453 160 357 160 201 c 256
- 160 -7 280 -58 321 -63 c 257
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 4
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-321 -63 m 257
- 321 -210 l 257
- 174 -210 21 -50 21 200 c 256
- 21 408 93 609 326 609 c 261
- 326 465 l 261
- 206 453 160 357 160 201 c 256
- 160 -7 280 -58 321 -63 c 257
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 5
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-321 -63 m 257
- 321 -210 l 257
- 174 -210 21 -50 21 200 c 256
- 21 408 94 609 327 609 c 261
- 327 465 l 261
- 207 453 160 357 160 201 c 256
- 160 -7 280 -58 321 -63 c 257
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 6
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-322 -63 m 261
- 322 -210 l 261
- 175 -210 21 -50 21 200 c 256
- 21 408 94 609 327 609 c 257
- 327 465 l 257
- 207 453 160 357 160 201 c 256
- 160 -7 281 -58 322 -63 c 261
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 7
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-323 -63 m 261
- 323 -210 l 261
- 176 -210 21 -50 21 200 c 256
- 21 408 94 609 327 609 c 257
- 327 465 l 257
- 207 453 160 357 160 201 c 256
- 160 -7 282 -58 323 -63 c 261
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 8
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-324 -63 m 261
- 324 -210 l 261
- 177 -210 21 -50 21 200 c 256
- 21 408 94 609 327 609 c 257
- 327 465 l 257
- 207 453 160 357 160 201 c 256
- 160 -7 283 -58 324 -63 c 261
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 9
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-325 -63 m 261
- 325 -210 l 261
- 178 -210 21 -50 21 200 c 256
- 21 408 94 609 327 609 c 257
- 327 465 l 257
- 207 453 160 357 160 201 c 256
- 160 -7 284 -58 325 -63 c 261
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 10
-Type: 1
-WasModified: 1
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-326 -63 m 261
- 326 -210 l 261
- 179 -210 21 -50 21 200 c 256
- 21 408 94 609 327 609 c 257
- 327 465 l 257
- 207 453 160 357 160 201 c 256
- 160 -7 285 -58 326 -63 c 261
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-UndoOperation
-Index: 11
-Type: 1
-WasModified: 0
-WasOrder2: 0
-Layer: 2
-Width: 678
-VWidth: 0
-LBearingChange: 0
-UnicodeEnc: 0
-InstructionsLength: 0
-SplineSet
-538 0 m 257
- 642 -87 l 257
- 568 -202 439 -210 382 -211 c 257
- 382 -65 l 257
- 395 -64 485 -66 538 0 c 257
-327 -63 m 261
- 327 -210 l 261
- 180 -210 21 -50 21 200 c 256
- 21 408 94 609 327 609 c 257
- 327 465 l 257
- 207 453 160 357 160 201 c 256
- 160 -7 286 -58 327 -63 c 261
-401 252 m 257
- 400 213 l 258
- 400 184 423 160 453 160 c 256
- 506 160 515 212 515 277 c 256
- 515 392 477 457 382 465 c 257
- 382 609 l 257
- 515 609 651 520 651 279 c 256
- 651 140 593 24 452 24 c 256
- 333 24 269 106 268 204 c 256
- 268 219 268 236 268 252 c 257
- 210 252 l 257
- 210 366 l 257
- 482 366 l 257
- 482 252 l 257
- 401 252 l 257
-EndSplineSet
-EndUndoOperation
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 538 0 m 257
@@ -2039,13 +1539,13 @@ SplineSet
  568 -202 439 -210 382 -211 c 257
  382 -65 l 257
  395 -64 485 -66 538 0 c 257
-321 -63 m 257
- 321 -210 l 257
- 174 -210 21 -50 21 200 c 256
- 21 408 88 609 321 609 c 257
- 321 465 l 257
- 201 453 160 357 160 201 c 256
- 160 -7 280 -58 321 -63 c 257
+327 -63 m 257
+ 327 -210 l 257
+ 180 -210 21 -50 21 200 c 256
+ 21 408 94 609 327 609 c 257
+ 327 465 l 257
+ 207 453 160 357 160 201 c 256
+ 160 -7 286 -58 327 -63 c 257
 401 252 m 257
  400 213 l 258
  400 184 423 160 453 160 c 256
@@ -2117,7 +1617,7 @@ I143
 sass."
 EndChar
 
-StartChar: si_Lla
+StartChar: uni0DC5
 Encoding: 59 3525 12
 GlifName: si_L_la
 Width: 957
@@ -2163,7 +1663,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: si_Ma
+StartChar: uni0DB8
 Encoding: 49 3512 13
 GlifName: si_M_a
 Width: 631
@@ -2258,7 +1758,7 @@ I40
 sass."
 EndChar
 
-StartChar: si_MatraAe
+StartChar: uni0DD0
 Encoding: 63 3536 14
 GlifName: si_M_atraA_e
 Width: 304
@@ -2302,7 +1802,7 @@ I138
 sass."
 EndChar
 
-StartChar: si_MatraIi
+StartChar: uni0DD2
 Encoding: 65 3538 15
 GlifName: si_M_atraI_i
 Width: -32
@@ -2356,7 +1856,7 @@ I104
 sass."
 EndChar
 
-StartChar: si_Na
+StartChar: uni0DB1
 Encoding: 43 3505 16
 GlifName: si_N_a
 Width: 803
@@ -2396,7 +1896,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnI
-Encoding: 237 -1 17
+Encoding: 236 -1 17
 GlifName: si_N_nI_
 Width: 1112
 VWidth: 0
@@ -2450,7 +1950,7 @@ I104
 sass."
 EndChar
 
-StartChar: si_Nna
+StartChar: uni0DAB
 Encoding: 37 3499 18
 GlifName: si_N_na
 Width: 1112
@@ -2580,7 +2080,7 @@ I40
 sass."
 EndChar
 
-StartChar: si_Pa
+StartChar: uni0DB4
 Encoding: 45 3508 19
 GlifName: si_P_a
 Width: 636
@@ -2621,7 +2121,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: si_Ra
+StartChar: uni0DBB
 Encoding: 52 3515 20
 GlifName: si_R_a
 Width: 516
@@ -2664,7 +2164,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: si_Sa
+StartChar: uni0DC3
 Encoding: 57 3523 21
 GlifName: si_S_a
 Width: 728
@@ -2767,7 +2267,7 @@ I113
 sass."
 EndChar
 
-StartChar: si_Ssa
+StartChar: uni0DC2
 Encoding: 56 3522 22
 GlifName: si_S_sa
 Width: 673
@@ -2863,7 +2363,7 @@ I124
 sass."
 EndChar
 
-StartChar: si_Ta
+StartChar: uni0DAD
 Encoding: 39 3501 23
 GlifName: si_T_a
 Width: 753
@@ -2947,7 +2447,7 @@ I122
 sass."
 EndChar
 
-StartChar: si_Tta
+StartChar: uni0DA7
 Encoding: 33 3495 24
 GlifName: si_T_ta
 Width: 588
@@ -3019,7 +2519,7 @@ I40
 sass."
 EndChar
 
-StartChar: si_Va
+StartChar: uni0DC0
 Encoding: 54 3520 25
 GlifName: si_V_a
 Width: 561
@@ -3106,7 +2606,7 @@ I131
 sass."
 EndChar
 
-StartChar: si_Ya
+StartChar: uni0DBA
 Encoding: 51 3514 26
 GlifName: si_Y_a
 Width: 653
@@ -3214,8 +2714,8 @@ I122
 sass."
 EndChar
 
-StartChar: uni0020
-Encoding: 655 32 27
+StartChar: space
+Encoding: 650 32 27
 GlifName: uni0020
 Width: 300
 VWidth: 0
