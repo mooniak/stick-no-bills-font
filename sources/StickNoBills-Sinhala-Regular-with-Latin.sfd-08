@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.1
 FontName: StickNoBills-Bold
 FullName: Stick No Bills
 FamilyName: Stick No Bills
@@ -776,24 +776,25 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p359
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p360
-sS'com.schriftgestaltung.useNiceNames'
-p361
 I00
+sS'com.schriftgestaltung.fontMasterID'
+p360
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p361
 s."
-Encoding: sinhala-final
+Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
-NameList: AGL For New Fonts
+NameList: sinhala
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65568 8 2
+WinInfo: 320 10 4
 BeginChars: 65865 355
 
-StartChar: HKD
+StartChar: uni5713
 Encoding: 65536 22291 0
 GlifName: H_K_D_
 Width: 843
@@ -960,7 +961,7 @@ I224
 sass."
 EndChar
 
-StartChar: uni0D85
+StartChar: si_A
 Encoding: 2 3461 2
 GlifName: si_A_
 Width: 532
@@ -998,7 +999,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D86
+StartChar: si_Aa
 Encoding: 3 3462 3
 GlifName: si_A_a
 Width: 809
@@ -1046,7 +1047,7 @@ I138
 sass."
 EndChar
 
-StartChar: uni0D88
+StartChar: si_Aae
 Encoding: 5 3464 4
 GlifName: si_A_ae
 Width: 532
@@ -1098,7 +1099,7 @@ I40
 sass."
 EndChar
 
-StartChar: uni0D87
+StartChar: si_Ae
 Encoding: 4 3463 5
 GlifName: si_A_e
 Width: 532
@@ -1150,7 +1151,7 @@ I40
 sass."
 EndChar
 
-StartChar: uni0DB6
+StartChar: si_Ba
 Encoding: 47 3510 6
 GlifName: si_B_a
 Width: 585
@@ -1227,7 +1228,7 @@ I142
 sass."
 EndChar
 
-StartChar: uni0DAF
+StartChar: si_Da
 Encoding: 41 3503 7
 GlifName: si_D_a
 Width: 492
@@ -1266,7 +1267,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DAA
+StartChar: si_Ddha
 Encoding: 36 3498 8
 GlifName: si_D_dha
 Width: 675
@@ -1389,7 +1390,7 @@ I134
 sass."
 EndChar
 
-StartChar: uni0D9C
+StartChar: si_Ga
 Encoding: 22 3484 9
 GlifName: si_G_a
 Width: 802
@@ -1473,7 +1474,7 @@ I142
 sass."
 EndChar
 
-StartChar: uni0D9A
+StartChar: si_Ka
 Encoding: 20 3482 10
 GlifName: si_K_a
 Width: 864
@@ -1522,7 +1523,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DBD
+StartChar: si_La
 Encoding: 53 3517 11
 GlifName: si_L_a
 Width: 678
@@ -1617,7 +1618,7 @@ I143
 sass."
 EndChar
 
-StartChar: uni0DC5
+StartChar: si_Lla
 Encoding: 59 3525 12
 GlifName: si_L_la
 Width: 957
@@ -1663,7 +1664,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB8
+StartChar: si_Ma
 Encoding: 49 3512 13
 GlifName: si_M_a
 Width: 631
@@ -1758,7 +1759,7 @@ I40
 sass."
 EndChar
 
-StartChar: uni0DD0
+StartChar: si_MatraAe
 Encoding: 63 3536 14
 GlifName: si_M_atraA_e
 Width: 304
@@ -1802,7 +1803,7 @@ I138
 sass."
 EndChar
 
-StartChar: uni0DD2
+StartChar: si_MatraIi
 Encoding: 65 3538 15
 GlifName: si_M_atraI_i
 Width: -32
@@ -1856,7 +1857,7 @@ I104
 sass."
 EndChar
 
-StartChar: uni0DB1
+StartChar: si_Na
 Encoding: 43 3505 16
 GlifName: si_N_a
 Width: 803
@@ -1950,7 +1951,7 @@ I104
 sass."
 EndChar
 
-StartChar: uni0DAB
+StartChar: si_Nna
 Encoding: 37 3499 18
 GlifName: si_N_na
 Width: 1112
@@ -2080,7 +2081,7 @@ I40
 sass."
 EndChar
 
-StartChar: uni0DB4
+StartChar: si_Pa
 Encoding: 45 3508 19
 GlifName: si_P_a
 Width: 636
@@ -2121,7 +2122,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DBB
+StartChar: si_Ra
 Encoding: 52 3515 20
 GlifName: si_R_a
 Width: 516
@@ -2164,7 +2165,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC3
+StartChar: si_Sa
 Encoding: 57 3523 21
 GlifName: si_S_a
 Width: 728
@@ -2267,7 +2268,7 @@ I113
 sass."
 EndChar
 
-StartChar: uni0DC2
+StartChar: si_Ssa
 Encoding: 56 3522 22
 GlifName: si_S_sa
 Width: 673
@@ -2363,7 +2364,7 @@ I124
 sass."
 EndChar
 
-StartChar: uni0DAD
+StartChar: si_Ta
 Encoding: 39 3501 23
 GlifName: si_T_a
 Width: 753
@@ -2447,7 +2448,7 @@ I122
 sass."
 EndChar
 
-StartChar: uni0DA7
+StartChar: si_Tta
 Encoding: 33 3495 24
 GlifName: si_T_ta
 Width: 588
@@ -2519,7 +2520,7 @@ I40
 sass."
 EndChar
 
-StartChar: uni0DC0
+StartChar: si_Va
 Encoding: 54 3520 25
 GlifName: si_V_a
 Width: 561
@@ -2606,7 +2607,7 @@ I131
 sass."
 EndChar
 
-StartChar: uni0DBA
+StartChar: si_Ya
 Encoding: 51 3514 26
 GlifName: si_Y_a
 Width: 653
@@ -2714,7 +2715,7 @@ I122
 sass."
 EndChar
 
-StartChar: space
+StartChar: uni0020
 Encoding: 650 32 27
 GlifName: uni0020
 Width: 300
