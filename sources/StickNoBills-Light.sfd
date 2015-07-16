@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437034616
+ModificationTime: 1437034798
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 91 13 4
+WinInfo: 104 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -9895,25 +9895,15 @@ EndChar
 StartChar: uni00B9
 Encoding: 120 185 219
 GlifName: uni00B_9
-Width: 186
+Width: 266
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 391 309<95 161 95 161 93 161>
 VStem: 60 101<584 673 673 673> 93 68<391 610 610 610>
 LayerCount: 3
 Fore
-SplineSet
-93 610 m 257xa0
- 60 584 l 257
- 60 673 l 257xc0
- 95 700 l 257
- 161 700 l 257
- 161 391 l 257
- 93 391 l 257
- 93 610 l 257xa0
-EndSplineSet
-Validated: 1
+Refer: 164 49 S 0.431063 0 0 0.431063 54.3247 392.441 2
 Layer: 2
 SplineSet
 93 610 m 257xa0
