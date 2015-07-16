@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437034338
+ModificationTime: 1437034616
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -6756,7 +6756,7 @@ GlifName: mu
 Width: 468
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<26 150 26 26> 0 21<26 150 26 26> 179 121<180.5 192 187 192 187 234 234 239> 678 20<26 150 150 150 276 276 400 400> 680 20<276 400 400 400>
 VStem: 26 166<179 300 179 321 179 356 179 698> 26 124<0 183 0 321 324.5 326 326 356 356 698> 276 124<326.5 328 328 698 698 700>
 LayerCount: 3
@@ -7887,24 +7887,23 @@ GlifName: paragraph
 Width: 444
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-278 705 m 257
- 278 -5 l 257
- 195 -5 l 257
- 195 329 l 257
- 91 329 26 403 26 517 c 256
- 26 617 93 705 195 705 c 256
- 223 705 250 705 278 705 c 257
-418 705 m 257
- 418 -5 l 257
- 335 -5 l 257
- 335 705 l 257
- 418 705 l 257
+284 705 m 257
+ 284 -5 l 257
+ 254 -5 l 257
+ 254 329 l 257
+ 150 329 85 403 85 517 c 256
+ 85 617 152 705 254 705 c 256
+ 282 705 256 705 284 705 c 257
+359 705 m 257
+ 359 -5 l 257
+ 329 -5 l 257
+ 329 705 l 257
+ 359 705 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 278 705 m 257
