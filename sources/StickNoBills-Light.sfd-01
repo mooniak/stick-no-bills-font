@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437499852
+ModificationTime: 1437500076
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 104 13 4
+WinInfo: 117 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -7375,55 +7375,20 @@ GlifName: onehalf
 Width: 581
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -1 66<346 551 346 551> 288 66<422 424 422 424 448 449 424 448> 682 20<114 182 182 182 458 534 534 534>
 VStem: 76 106<567 671 671 671> 114 68<349 597 597 597 349 702> 490 64<235.5 251 224 263>
 LayerCount: 3
 Fore
 SplineSet
-422 288 m 258xe4
- 420 287 400 278 400 250 c 258
- 400 248 l 257
- 337 261 l 257
- 338 263 l 257
- 343 306 374 347 422 353 c 257
- 424 354 l 257
- 424 290 l 257
- 424 288 l 257
- 422 288 l 258xe4
-26 -2 m 257
- 458 702 l 257
- 534 702 l 257
- 109 -2 l 257
- 26 -2 l 257
-551 65 m 257
- 551 -1 l 257
- 346 -1 l 257
- 346 65 l 257
- 551 65 l 257
-448 288 m 257
- 448 354 l 257
- 453 354 l 258
- 531 354 553 290 554 251 c 256
- 554 197 529 180 499 159 c 256
- 464 134 445 119 428 93 c 257
- 427 92 l 257
- 348 92 l 257
- 349 94 l 258
- 379 156 429 184 444 196 c 256
- 467 215 490 220 490 251 c 256
- 490 275 476 287 449 288 c 258
- 448 288 l 257
-114 597 m 257xec
- 76 567 l 257
- 76 671 l 257xf4
- 114 702 l 257
- 182 702 l 257
- 182 349 l 257
- 114 349 l 257
- 114 597 l 257xec
+52 -2 m 261
+ 484 702 l 261
+ 509 702 l 261
+ 77 -2 l 261
+ 52 -2 l 261
 EndSplineSet
-Validated: 1
+Refer: 209 50 N 0.5 0 0 0.5 326.265 1 2
+Refer: 164 49 N 0.5 0 0 0.5 66.5 351.75 2
 Layer: 2
 SplineSet
 422 288 m 258xe4
