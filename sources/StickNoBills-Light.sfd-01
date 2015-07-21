@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437498873
+ModificationTime: 1437035021
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,13 +482,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 91 13 4
+WinInfo: 104 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4138,7 +4138,7 @@ GlifName: cedilla
 Width: 219
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: -36 91<26 44 26 89.5>
 VStem: 102 92<95.5 123>
 LayerCount: 3
@@ -7648,7 +7648,7 @@ GlifName: ordmasculine
 Width: 230
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: W
 HStem: 361 71<26 204 26 204> 470 55<78.5 108 103 108 103 127 103 123> 645 55<96.5 108 103 108 103 123 123 127>
 VStem: 32 56<533.5 534 534 635> 141 55<533 635 635 635.5>
 LayerCount: 3
@@ -7656,11 +7656,37 @@ Fore
 SplineSet
 26 432 m 257
  204 432 l 257
- 204 413 l 261
- 26 413 l 261
+ 204 361 l 257
+ 26 361 l 257
  26 432 l 257
+123 645 m 257
+ 123 700 l 257
+ 127 700 l 258
+ 173 700 196 658 196 637 c 258
+ 196 533 l 258
+ 196 513 174 470 127 470 c 258
+ 123 470 l 257
+ 123 523 l 257
+ 127 523 l 258
+ 139 523 141 532 141 533 c 258
+ 141 635 l 258
+ 141 636 139 645 127 645 c 258
+ 123 645 l 257
+32 637 m 258
+ 32 658 55 700 103 700 c 258
+ 108 700 l 257
+ 108 645 l 257
+ 103 645 l 258
+ 90 645 88 636 88 635 c 258
+ 88 534 l 258
+ 88 533 91 525 103 525 c 258
+ 108 525 l 257
+ 108 470 l 257
+ 103 470 l 258
+ 54 470 32 513 32 533 c 258
+ 32 637 l 258
 EndSplineSet
-Refer: 158 111 N 0.443625 0 0 0.443625 20.9088 470.598 2
+Validated: 1
 Layer: 2
 SplineSet
 26 432 m 257
@@ -10250,22 +10276,22 @@ Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-404 698 m 261
- 404 660 l 261
- 353 660 266 583 262 398 c 260
- 261.416015625 371.005859375 262 360 262 339 c 260
- 262 93 362 39 403 38 c 261
- 403 0 l 261
- 337 3 221 60 221 353 c 260
- 221 602 315 693 404 698 c 261
-464 698 m 261
- 553 693 647 602 647 353 c 260
- 647 60 531 3 465 0 c 261
+404 698 m 257
+ 404 660 l 257
+ 353 660 266 583 262 398 c 256
+ 261.416015625 371.005859375 262 360 262 339 c 256
+ 262 93 362 39 403 38 c 257
+ 403 0 l 257
+ 337 3 221 60 221 353 c 256
+ 221 602 315 693 404 698 c 257
+464 698 m 257
+ 553 693 647 602 647 353 c 256
+ 647 60 531 3 465 0 c 257
  465 38 l 261
- 520 46 607 90 607 339 c 260
- 607 360 607 371 607 398 c 260
- 607 577 516 659 464 660 c 261
- 464 698 l 261
+ 520 46 607 90 607 339 c 256
+ 607 360 607 371 607 398 c 256
+ 607 577 516 659 464 660 c 257
+ 464 698 l 257
 EndSplineSet
 Layer: 2
 SplineSet
