@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437499415
+ModificationTime: 1437499737
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 117 13 4
+WinInfo: 104 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -7476,44 +7476,20 @@ GlifName: onequarter
 Width: 560
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -1 21<393 461 393 393> -1 21<393 461 393 393> 71 66<346 368 270 270 461 488> 682 20<114 181 181 181 458 534 534 534>
 VStem: 75 106<567 671 671 671> 113 68<349 597 597 597> 270 98<71 137 71 137> 393 95<71 137 71 352> 393 68<-1 71 -1 137 137 352>
 LayerCount: 3
 Fore
 SplineSet
-113 597 m 257x36
- 75 567 l 257
- 75 671 l 257x3a
- 114 702 l 257
- 181 702 l 257
- 181 349 l 257
- 113 349 l 257
- 113 597 l 257x36
-488 137 m 257xb3
- 488 71 l 257xb3
- 461 71 l 257
- 461 -1 l 257
- 393 -1 l 257xb280
- 393 352 l 257xb3
- 461 352 l 257
- 461 137 l 257xb280
- 488 137 l 257xb3
-368 137 m 257
- 368 71 l 257
- 270 71 l 257
- 270 137 l 257
- 368 305 l 257
- 368 175 l 257
- 346 137 l 257
- 368 137 l 257
-26 -2 m 257
- 458 702 l 257
- 534 702 l 257
- 109 -2 l 257
- 26 -2 l 257
+55 -2 m 261
+ 487 702 l 261
+ 504 702 l 261
+ 79 -2 l 261
+ 55 -2 l 261
 EndSplineSet
-Validated: 1
+Refer: 125 52 N 0.5 0 0 0.5 257.75 -0.75 2
+Refer: 164 49 N 0.5 0 0 0.5 66.5 350.75 2
 Layer: 2
 SplineSet
 113 597 m 257x36
