@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437498873
+ModificationTime: 1437499415
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 91 13 4
+WinInfo: 117 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3441,14 +3441,14 @@ HStem: 460 296<27 264 27 264 176 290 176 413>
 LayerCount: 3
 Fore
 SplineSet
-57 460 m 257
- 206 756 l 257
- 234 756 l 257
- 383 460 l 257
- 342 460 l 257
+57 460 m 261
+ 206 756 l 261
+ 234 756 l 261
+ 383 460 l 261
+ 342 460 l 261
  219 703 l 261
- 98 460 l 257
- 57 460 l 257
+ 98 460 l 261
+ 57 460 l 261
 EndSplineSet
 Layer: 2
 SplineSet
@@ -6022,28 +6022,27 @@ GlifName: guillemotright
 Width: 414
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-26 477 m 257
- 237 321 l 257
- 237 259 l 257
- 26 102 l 257
- 26 224 l 257
- 115 292 l 257
- 26 352 l 257
- 26 477 l 257
-237 477 m 257
- 448 321 l 257
- 448 259 l 257
- 237 102 l 257
- 237 224 l 257
- 326 292 l 257
- 237 352 l 257
- 237 477 l 257
+237 434 m 261
+ 448 309 l 261
+ 448 271 l 261
+ 237 144 l 261
+ 237 184 l 261
+ 413 292 l 261
+ 237 394 l 261
+ 237 434 l 261
+26 434 m 257
+ 237 309 l 257
+ 237 271 l 257
+ 26 144 l 257
+ 26 184 l 257
+ 202 292 l 257
+ 26 394 l 257
+ 26 434 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 26 477 m 257
@@ -7648,7 +7647,7 @@ GlifName: ordmasculine
 Width: 230
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 361 71<26 204 26 204> 470 55<78.5 108 103 108 103 127 103 123> 645 55<96.5 108 103 108 103 123 123 127>
 VStem: 32 56<533.5 534 534 635> 141 55<533 635 635 635.5>
 LayerCount: 3
