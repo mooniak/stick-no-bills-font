@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437571307
+ModificationTime: 1437571386
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2554,7 +2554,7 @@ GlifName: T_radeM_arkS_ign
 Width: 485
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 653 47<26 72 26 165 120 165 120 120>
 VStem: 72 48<484 653 484 653> 188 48<484 522 484 628> 330 47<484 700 484 700>
 LayerCount: 3
@@ -4518,27 +4518,26 @@ GlifName: dagger
 Width: 453
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 450 127<26 156 26 156 297 427>
 VStem: 156 141<-56 450 -56 450 577 764>
 LayerCount: 3
 Fore
 SplineSet
-427 577 m 257
- 427 450 l 257
- 297 450 l 257
- 297 -56 l 257
- 156 -56 l 257
- 156 450 l 257
- 26 450 l 257
- 26 577 l 257
- 156 577 l 257
- 156 764 l 257
- 297 764 l 257
- 297 577 l 257
- 427 577 l 257
+427 531 m 261
+ 427 493 l 261
+ 246 493 l 261
+ 246 -56 l 257
+ 206 -56 l 257
+ 206 493 l 261
+ 26 493 l 261
+ 26 531 l 261
+ 206 531 l 261
+ 206 764 l 257
+ 246 764 l 257
+ 246 531 l 261
+ 427 531 l 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 427 577 m 257
