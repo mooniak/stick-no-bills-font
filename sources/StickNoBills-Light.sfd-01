@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437544238
+ModificationTime: 1437544606
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -4248,22 +4248,21 @@ GlifName: circumflex
 Width: 270
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 514 152<26 167 101 107 162 162 162 167 101 244>
 VStem: 26 218<514 514>
 LayerCount: 3
 Fore
 SplineSet
-26 514 m 257
- 101 666 l 257
- 167 666 l 257
- 244 514 l 257
- 162 514 l 257
- 134 571 l 257
- 107 514 l 257
- 26 514 l 257
+43 514 m 257
+ 118 666 l 257
+ 150 666 l 257
+ 226 514 l 257
+ 190 514 l 257
+ 134 627 l 261
+ 79 514 l 257
+ 43 514 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 26 514 m 257
@@ -6329,14 +6328,13 @@ GlifName: icircumflex
 Width: 174
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 577 152
 VStem: -22 218
 LayerCount: 3
 Fore
 Refer: 94 710 N 1 0 0 1 -48 63 2
 Refer: 107 305 N 1 0 0 1 0 0 2
-Validated: 1
 Layer: 2
 Refer: 94 710 N 1 0 0 1 -48 63 2
 Refer: 107 305 N 1 0 0 1 0 0 2
