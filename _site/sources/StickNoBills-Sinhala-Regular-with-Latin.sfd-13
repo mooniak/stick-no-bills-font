@@ -15,15 +15,16 @@ Descent: 205
 InvalidEm: 0
 UFOAscent: 819
 UFODescent: -205
-LayerCount: 2
+LayerCount: 3
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
+Layer: 2 0 "Back 2" 1
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435774564
-ModificationTime: 1437468524
+ModificationTime: 1437470738
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -776,13 +777,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p359
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p360
-sS'com.schriftgestaltung.useNiceNames'
-p361
 I00
+sS'com.schriftgestaltung.fontMasterID'
+p360
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p361
 s."
 Encoding: Custom
 Compacted: 1
@@ -791,7 +792,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 4
+WinInfo: 0 9 5
 Grid
 -1024 114 m 0
  2048 114 l 1024
@@ -814,7 +815,7 @@ VWidth: 0
 Flags: W
 HStem: 488 210<50 92 50 92 50 126 126 169 50 198 198 241 284 284 284 325> 573 41<92 101 92 101 92 117 117 126>
 VStem: 50 51<573 614 573 698> 50 42<488 573 488 614 614 698> 117 52<573 614 614 614> 126 43<488 573 573 573 614 698 488 698> 198 43<488 698 488 698> 360 134 464 71 590 71 652 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -918,6 +919,7 @@ I573
 sg8
 I41
 sass."
+Layer: 2
 EndChar
 
 StartChar: quotedbl.alt
@@ -928,7 +930,7 @@ VWidth: 0
 Flags: W
 HStem: 476 224<26 153 26 153 26 206 206 333>
 VStem: 26 127<476 700> 206 127<476 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -971,6 +973,7 @@ I476
 sg8
 I224
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_A
@@ -981,7 +984,7 @@ VWidth: 0
 Flags: W
 HStem: 0 140<198.828 259 444 516> 304 135<201.263 315> 495 121<180.22 321.209>
 VStem: 32 143<164.597 278.269> 314 202<0 140 475 486.507> 314 130<-205 0 140 507>
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 516 475 m 261
@@ -1038,6 +1041,7 @@ SplineSet
  256 304 l 258
  222 304 175 278 175 220 c 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: si_Aa
@@ -1048,7 +1052,7 @@ VWidth: 0
 Flags: W
 HStem: 0 140<220.828 281 466 538> 8 122<819 819> 304 135<223.263 337> 466 138<581 657 581 815> 495 121<202.22 343.209>
 VStem: 54 143<164.597 278.269> 336 130<-205 0 140 507> 336 202<0 140 475 486.507>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 14 3536 N 1 0 0 1 546 1 2
@@ -1086,6 +1090,7 @@ I465
 sg8
 I138
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Aae
@@ -1096,7 +1101,7 @@ VWidth: 0
 Flags: W
 HStem: 0 140<198.828 259 444 516> 304 135<201.263 315> 495 121<180.22 321.209>
 VStem: 32 143<164.597 278.269> 314 130<-205 0 140 507> 314 202<0 140 475 486.507>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 2 3461 N 1 0 0 1 0 0 2
@@ -1138,6 +1143,7 @@ I576
 sg8
 I40
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Ae
@@ -1148,7 +1154,7 @@ VWidth: 0
 Flags: W
 HStem: 0 140<198.828 259 444 516> 304 135<201.263 315> 495 121<180.22 321.209>
 VStem: 32 143<164.597 278.269> 314 130<-205 0 140 507> 314 202<0 140 475 486.507>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 2 3461 N 1 0 0 1 0 0 2
@@ -1190,6 +1196,7 @@ I576
 sg8
 I40
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Ba
@@ -1200,7 +1207,7 @@ VWidth: 0
 Flags: W
 HStem: -7 134<393.629 446.843> 0 21G<137 213.145> 314 138<182.815 267.159> 616.5 138.5<202.506 255.667 313 405.502>
 VStem: 30 135<147.908 297.12> 255 134<128.687 276.335> 275 135<157.827 304.974> 457 140<136.405 566.127>
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 255.666992188 616.5 m 5
@@ -1293,6 +1300,7 @@ I588
 sg8
 I142
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Da
@@ -1301,7 +1309,7 @@ GlifName: si_D_a
 Width: 492
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -1332,6 +1340,7 @@ SplineSet
  324 144 303 140 267 140 c 256
  191 140 161 178 161 218 c 256
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: si_Ddha
@@ -1340,7 +1349,7 @@ GlifName: si_D_dha
 Width: 700
 VWidth: 0
 Flags: HMW
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 494 -6 m 260xc740
@@ -1499,6 +1508,7 @@ I624
 sg8
 I134
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Ga
@@ -1509,7 +1519,7 @@ VWidth: 0
 Flags: HW
 HStem: -8 143<274.091 318 582 624.774> 473.5 143<274.97 318 487.544 532 582 626.855>
 VStem: 92 146<177.188 434.037> 329 140.835<377 455.436> 395 136<148.2 261.659> 652 146<162.51 446.675>
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 582 -8 m 260
@@ -1615,6 +1625,7 @@ I447
 sg8
 I142
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Ka
@@ -1625,7 +1636,7 @@ VWidth: 0
 Flags: HW
 HStem: 0 129<360.311 421.632 540.109 609.605 756 796.838> 494.698 123.48<326.431 420.108 576.594 742.942>
 VStem: 426 111<130.833 252> 617 124<127.021 316.615> 814 127<142.824 413.502>
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 705 436 m 261
@@ -1684,6 +1695,7 @@ SplineSet
  423 434.827148438 405.034179688 494.698242188 363.235351562 494.698242188 c 0
  333.611328125 494.698242188 314 459.583984375 314 445 c 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: si_La
@@ -1692,7 +1704,7 @@ GlifName: si_L_a
 Width: 679
 VWidth: 0
 Flags: HMW
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 533 0 m 261
@@ -1810,6 +1822,7 @@ I465
 sg8
 I143
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Lla
@@ -1820,7 +1833,7 @@ VWidth: 0
 Flags: W
 HStem: -207 131<292.087 508.246> 44 126<329.379 491.61> 288 123<233.718 671> 498 114<266.011 334.952 463.609 533.388>
 VStem: 44 136<29.8226 128>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -1857,6 +1870,7 @@ SplineSet
  430 606 475 612 509 612 c 256,62,-1
  614 612 673 549 673 460 c 257,37,-1
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: si_Ma
@@ -1867,7 +1881,7 @@ VWidth: 0
 Flags: W
 HStem: 0 41 253 40 435 39 712 40
 VStem: 54 40 201 40 341 40 524 41
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -1952,6 +1966,7 @@ I712
 sg8
 I40
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_MatraAe
@@ -1961,7 +1976,7 @@ Width: 304
 VWidth: 0
 Flags: W
 HStem: 7 122<273 273> 465 138<35 111 35 269>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -1996,6 +2011,7 @@ I465
 sg8
 I138
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_MatraIi
@@ -2006,7 +2022,7 @@ VWidth: 0
 Flags: W
 HStem: 676 104<-178.5 -102.5>
 VStem: -391 114<605 625.5 579 679.5> -6 112<609 644>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2050,6 +2066,7 @@ I676
 sg8
 I104
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Na
@@ -2058,7 +2075,7 @@ GlifName: si_N_a
 Width: 803
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2089,17 +2106,18 @@ SplineSet
  125 581 164 588 194 588 c 256
  268 588 309 544 323 527 c 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: si_NnI
 Encoding: 237 -1 17
 GlifName: si_N_nI_
-Width: 2361
+Width: 11
 VWidth: 0
 Flags: HW
 HStem: -6 132<791.485 919.406 1489.22 1630.37 1982.49 2110.41> 0 135<301.813 446.263> 42 129<1371.17 1479.42> 66 131<147.488 243.694> 211.959 124.041<1487.04 1595> 421 142<645.406 719.032 868.464 909 909.001 928.98 1840.84 1909.04 2056.35 2121.71> 473 132<293.546 413.506 1493.24 1662.55> 673 104<823.378 970.256>
 VStem: 138 135<348.565 452.663> 493 125<189.662 393.531> 672 114<537.477 638.805> 727 135<251 416.085> 935 140<145.248 195 251 414.864> 977 112<468.653 663.761> 1338 135<348.434 450.759> 1661 131.075<161.156 437.3> 1917 135<251 416.521> 2125 140<142.244 202 251 414.921>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2144,175 +2162,125 @@ I673
 sg8
 I104
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Nna
 Encoding: 37 3499 18
 GlifName: si_N_na
-Width: 2361
+Width: 1068
 VWidth: 0
-Flags: HMW
+Flags: HMWO
 HStem: 0 41 66 40 529 40 537 40 573 40
 VStem: 138 40 589 40 696 38 787 40 1045 40
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
-1747 755 m 5
- 1854 669 l 5
- 1665 437 l 5
- 1560 527 l 5
- 1747 755 l 5
-1560 473 m 260
- 1507.48242188 473 1474.2481957 454.409784793 1473 404 c 260
- 1471.73257308 352.813540525 1496.18591046 326.379591475 1533.97002797 326.379591475 c 4
- 1554.48287745 326.379591475 1576.35098482 334.165930506 1595 350 c 261
- 1595 221 l 261
- 1570.31273599 207.917860097 1544.15624756 201.959232554 1518.24967922 201.959232554 c 4
- 1421.37761589 201.959232554 1338 285.274414062 1338 391 c 260
- 1338 528 1450 605 1560 605 c 260
- 1760.69824219 605 1792.07519531 461.183661316 1792.07519531 333.452148438 c 4
- 1792.07519531 319.313476562 1792 283.315429688 1792 265 c 260
- 1792 117 1740 0 1572 0 c 260
- 1464 0 1459 42 1414 42 c 260
- 1382 42 1356 1 1356 1 c 261xc7c0
- 1258 84 l 261
- 1258 84 1310 177 1407 177 c 260
- 1476 177 1495 130 1571 130 c 260
- 1639 130 1661 168 1661 261 c 260
- 1661 323 l 4
- 1661 393.833984375 1655.32226562 473 1560 473 c 260
-1990 522 m 261
- 2011 543 2046 563 2099 563 c 260
- 2197.13225268 563 2264 512.610783554 2264 405 c 262
- 2265 251 l 261
- 2125 251 l 261
- 2125 372 l 262
- 2125 397 2122 420 2089 420 c 260
- 2058.98339844 420 2052.20703125 396.998046875 2052 372 c 262
- 2052 251 l 261
- 1917 251 l 261
- 1918 350 l 261
- 1918 404 1899.02498439 421 1879 421 c 260
- 1853 421 1850 412 1846 407 c 261
- 1786 508 l 261
- 1790 516 1815 563 1896 563 c 260
- 1941 563 1971 543 1990 522 c 261
-2124 202 m 261
- 2264 202 l 261
- 2263 181 l 260
- 2263 56 2161 -6 2044 -6 c 260
- 1899 -6 1826 69 1826 164 c 262
- 1826 202 l 261
- 1966 202 l 261
- 1966 187 l 262
- 1966 141 2010 126 2043 126 c 260
- 2078 126 2124 136 2124 185 c 262
- 2124 202 l 261
+517 755 m 5
+ 624 669 l 5
+ 435 437 l 5
+ 330 527 l 5
+ 517 755 l 5
+330 473 m 260
+ 277.482421875 473 244.248046875 454.41015625 243 404 c 260
+ 241.732421875 352.813476562 266.185546875 326.379882812 303.969726562 326.379882812 c 4
+ 324.482421875 326.379882812 346.350585938 334.166015625 365 350 c 261
+ 365 221 l 261
+ 340.3125 207.91796875 314.15625 201.958984375 288.25 201.958984375 c 4
+ 191.377929688 201.958984375 108 285.274414062 108 391 c 260
+ 108 528 220 605 330 605 c 260
+ 530.698242188 605 562.075195312 461.18359375 562.075195312 333.452148438 c 4
+ 562.075195312 319.313476562 562 283.315429688 562 265 c 260
+ 562 117 510 0 342 0 c 260
+ 234 0 229 42 184 42 c 260
+ 152 42 126 1 126 1 c 261xc7c0
+ 28 84 l 261
+ 28 84 80 177 177 177 c 260
+ 246 177 265 130 341 130 c 260
+ 409 130 431 168 431 261 c 260
+ 431 323 l 4
+ 431 393.833984375 425.322265625 473 330 473 c 260
+760 522 m 261
+ 781 543 816 563 869 563 c 260
+ 967.131835938 563 1034 512.610351562 1034 405 c 262
+ 1035 251 l 261
+ 895 251 l 261
+ 895 372 l 262
+ 895 397 892 420 859 420 c 260
+ 828.983398438 420 822.20703125 396.998046875 822 372 c 262
+ 822 251 l 261
+ 687 251 l 261
+ 688 350 l 261
+ 688 404 669.025390625 421 649 421 c 260
+ 623 421 620 412 616 407 c 261
+ 556 508 l 261
+ 560 516 585 563 666 563 c 260
+ 711 563 741 543 760 522 c 261
+894 202 m 261
+ 1034 202 l 261
+ 1033 181 l 260
+ 1033 56 931 -6 814 -6 c 260
+ 669 -6 596 69 596 164 c 262
+ 596 202 l 261
+ 736 202 l 261
+ 736 187 l 262
+ 736 141 780 126 813 126 c 260
+ 848 126 894 136 894 185 c 262
+ 894 202 l 261
 EndSplineSet
 Fore
 SplineSet
-1794 819 m 1
- 1901 733 l 1
- 1670 433 l 1
- 1568 521 l 1
- 1794 819 l 1
-1560 473 m 256
- 1507.48242188 473 1473.2481957 446.409784793 1473 404 c 256
- 1472.7003537 352.798728368 1501.21582031 336 1539 336 c 0
- 1559.51269531 336 1579 336 1595 336 c 257
- 1595 212 l 257
- 1585 212 1544.15625 211.958984375 1518.25 211.958984375 c 0
- 1421.37792969 211.958984375 1338 285.274414062 1338 391 c 256
- 1338 528 1450 605 1560 605 c 256
- 1760.69824219 605 1792.07519531 461.183661316 1792.07519531 333.452148438 c 0
- 1792.07519531 319.313476562 1792 283.315429688 1792 265 c 256
- 1792 117 1740 0 1572 0 c 256
- 1479 0 1465 42 1420 42 c 256
- 1376 42 1356 1 1356 1 c 257
- 1258 84 l 257
- 1258 84 1310 171 1407 171 c 256
- 1467 171 1496 130 1571 130 c 256
- 1639 130 1661 168 1661 261 c 256
- 1661 323 l 0
- 1661 393.833984375 1655.32226562 473 1560 473 c 256
-1990 522 m 257
- 2011 543 2046 563 2099 563 c 256
- 2197.13225268 563 2264 512.610783554 2264 405 c 258
- 2265 251 l 257
- 2125 251 l 257
- 2125 372 l 258
- 2125 397 2122 420 2089 420 c 256
- 2058.98339844 420 2052.20703125 396.998046875 2052 372 c 258
- 2052 251 l 257
- 1917 251 l 257
- 1918 350 l 257
- 1918 404 1899.02498439 421 1879 421 c 256
- 1853 421 1850 412 1846 407 c 257
- 1806 532 l 257
- 1810 538 1839 563 1896 563 c 256
- 1941 563 1971 543 1990 522 c 257
-2125 202 m 257
- 2265 202 l 257
- 2264 181 l 256
- 2264 56 2162 -6 2045 -6 c 256
- 1900 -6 1827 69 1827 164 c 258
- 1827 202 l 257
- 1967 202 l 257
- 1967 187 l 258
- 1967 141 2011 126 2044 126 c 256
- 2079 126 2125 136 2125 185 c 258
- 2125 202 l 257
-131 25 m 257
- 32 102 l 257
- 32 102 90 197 187 197 c 256
- 266 197 305 135 381 135 c 256
- 449 135 493 186 493 292 c 256
- 493 309 493 347 478 373 c 257
- 563 471 l 257
- 599 424 618 382 618 296 c 256
- 618 128 528 0 382 0 c 256
- 274 0 235 66 190 66 c 256
- 158 66 131 25 131 25 c 257
-800 522 m 257
- 821 543 856 563 909 563 c 256
- 909 563 910 563 911 562 c 256
- 1009 562 1074 512 1074 405 c 258
- 1075 251 l 257
- 935 251 l 257
- 935 354 l 258
- 935 399 929 420 898 420 c 257
- 869 420 863 397 863 352 c 258
- 862 251 l 257
- 727 251 l 257
- 728 350 l 257
- 728 404 709 420 689 421 c 256
- 660 421 660 410 656 407 c 257
- 596 508 l 257
- 600 516 625 563 706 563 c 256
- 751 563 781 543 800 522 c 257
-934 202 m 257
- 1041 195 l 257
- 1073 195 l 256
- 1073 70 971 -6 854 -6 c 256
- 709 -6 636 69 636 164 c 258
- 636 202 l 257
- 776 202 l 257
- 776 187 l 258
- 776 141 820 126 853 126 c 256
- 888 126 934 136 934 185 c 258
- 934 202 l 257
-348 473 m 258
- 312 472 274 454 273 404 c 256
- 273 325 349 316 402 361 c 257
- 402 232 l 257
- 285 170 138 257 138 391 c 256
- 138 528 239 602 349 602 c 256
- 372 602 407 601 433 592 c 257
- 576 761 l 257
- 675 675 l 257
- 450 412 l 257
- 427 448 390 473 349 473 c 256
- 348 473 348 473 348 473 c 258
+566 819 m 1
+ 673 733 l 1
+ 442 433 l 1
+ 340 521 l 1
+ 566 819 l 1
+332 473 m 256
+ 279.482421875 473 245.248046875 446.41015625 245 404 c 256
+ 244.700195312 352.798828125 273.215820312 336 311 336 c 0
+ 331.512695312 336 351 336 367 336 c 257
+ 367 212 l 257
+ 357 212 316.15625 211.958984375 290.25 211.958984375 c 0
+ 193.377929688 211.958984375 110 285.274414062 110 391 c 256
+ 110 528 222 605 332 605 c 256
+ 532.698242188 605 564.075195312 461.18359375 564.075195312 333.452148438 c 0
+ 564.075195312 319.313476562 564 283.315429688 564 265 c 256
+ 564 117 512 0 344 0 c 256
+ 251 0 237 42 192 42 c 256
+ 148 42 128 1 128 1 c 257
+ 30 84 l 257
+ 30 84 82 171 179 171 c 256
+ 239 171 268 130 343 130 c 256
+ 411 130 433 168 433 261 c 256
+ 433 323 l 0
+ 433 393.833984375 427.322265625 473 332 473 c 256
+762 522 m 257
+ 783 543 818 563 871 563 c 256
+ 969.131835938 563 1036 512.610351562 1036 405 c 258
+ 1037 251 l 257
+ 897 251 l 257
+ 897 372 l 258
+ 897 397 894 420 861 420 c 256
+ 830.983398438 420 824.20703125 396.998046875 824 372 c 258
+ 824 251 l 257
+ 689 251 l 257
+ 690 350 l 257
+ 690 404 671.025390625 421 651 421 c 256
+ 625 421 622 412 618 407 c 257
+ 578 532 l 257
+ 582 538 611 563 668 563 c 256
+ 713 563 743 543 762 522 c 257
+897 202 m 257
+ 1037 202 l 257
+ 1036 181 l 256
+ 1036 56 934 -6 817 -6 c 256
+ 672 -6 599 69 599 164 c 258
+ 599 202 l 257
+ 739 202 l 257
+ 739 187 l 258
+ 739 141 783 126 816 126 c 256
+ 851 126 897 136 897 185 c 258
+ 897 202 l 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -2377,6 +2345,60 @@ I573
 sg8
 I40
 sass."
+Layer: 2
+SplineSet
+131 25 m 257
+ 32 102 l 257
+ 32 102 90 197 187 197 c 256
+ 266 197 305 135 381 135 c 256
+ 449 135 493 186 493 292 c 256
+ 493 309 493 347 478 373 c 257
+ 563 471 l 257
+ 599 424 618 382 618 296 c 256
+ 618 128 528 0 382 0 c 256
+ 274 0 235 66 190 66 c 256
+ 158 66 131 25 131 25 c 257
+800 522 m 257
+ 821 543 856 563 909 563 c 256
+ 909 563 910 563 911 562 c 256
+ 1009 562 1074 512 1074 405 c 258
+ 1075 251 l 257
+ 935 251 l 257
+ 935 354 l 258
+ 935 399 929 420 898 420 c 257
+ 869 420 863 397 863 352 c 258
+ 862 251 l 257
+ 727 251 l 257
+ 728 350 l 257
+ 728 404 709 420 689 421 c 256
+ 660 421 660 410 656 407 c 257
+ 596 508 l 257
+ 600 516 625 563 706 563 c 256
+ 751 563 781 543 800 522 c 257
+934 202 m 257
+ 1041 195 l 257
+ 1073 195 l 256
+ 1073 70 971 -6 854 -6 c 256
+ 709 -6 636 69 636 164 c 258
+ 636 202 l 257
+ 776 202 l 257
+ 776 187 l 258
+ 776 141 820 126 853 126 c 256
+ 888 126 934 136 934 185 c 258
+ 934 202 l 257
+348 473 m 258
+ 312 472 274 454 273 404 c 256
+ 273 325 349 316 402 361 c 257
+ 402 232 l 257
+ 285 170 138 257 138 391 c 256
+ 138 528 239 602 349 602 c 256
+ 372 602 407 601 433 592 c 257
+ 576 761 l 257
+ 675 675 l 257
+ 450 412 l 257
+ 427 448 390 473 349 473 c 256
+ 348 473 348 473 348 473 c 258
+EndSplineSet
 EndChar
 
 StartChar: si_Pa
@@ -2387,7 +2409,7 @@ VWidth: 0
 Flags: W
 HStem: -12 131<204.399 449.184> 316 119<181.785 472.964> 513 114<196.011 264.952 393.609 463.388>
 VStem: 30 140<152.249 202 251 303.785> 484 140<153.184 202 251 305.12>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2422,6 +2444,7 @@ SplineSet
  485 251 l 257
  485 295 465 316 424 316 c 258
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: si_Ra
@@ -2432,7 +2455,7 @@ VWidth: 0
 Flags: W
 HStem: -5 131<189.444 238 293 348.698 849.444 898 953 1008.7>
 VStem: 32 136<149.873 450> 368 130<146.234 437.539> 692 137<144.639 530.612> 1028 130<146.234 437.539>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2493,6 +2516,7 @@ SplineSet
  238 -5 l 257
  230 -5 l 258
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: si_Sa
@@ -2502,7 +2526,7 @@ Width: 729
 VWidth: 0
 Flags: HMW
 VStem: 67 139<167.5 194 194 202> 320 123<191 251 251 251> 558 139<194 202 126.5 202 126.5 269>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2596,6 +2620,7 @@ I498
 sg8
 I113
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Ssa
@@ -2606,7 +2631,7 @@ VWidth: 0
 Flags: W
 HStem: -6 131 296 118<228 232 232 250> 486 124<228 260>
 VStem: 49 130<181.5 226 181.5 287> 267 109<155 164 164 164 164 185.5> 532 120
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2692,6 +2717,7 @@ I486
 sg8
 I124
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Ta
@@ -2702,7 +2728,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118<200.5 260 260 260 260 331> 0 110<508 564 508 508> 473 122<450 475>
 VStem: 355 120<197 230 230 247 183 250.5> 584 124<233 340 146 375>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2776,6 +2802,7 @@ I473
 sg8
 I122
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Tta
@@ -2786,7 +2813,7 @@ VWidth: 0
 Flags: W
 HStem: -5 145<193.271 243.667 300 358.733> 616.5 138.5<190.506 243.667 300 362.139>
 VStem: 33 138<164.124 318.493 566 595.186> 391 141<170.79 590.51>
-LayerCount: 2
+LayerCount: 3
 Back
 SplineSet
 245 759 m 261
@@ -2873,6 +2900,7 @@ I712
 sg8
 I40
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Va
@@ -2883,7 +2911,7 @@ VWidth: 0
 Flags: W
 HStem: -4 132<148.5 226 218 226 218 371> 629 131<218 226 218 226>
 VStem: 18 127 398 134<247 310 310 313>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -2960,6 +2988,7 @@ I629
 sg8
 I131
 sass."
+Layer: 2
 EndChar
 
 StartChar: si_Ya
@@ -2970,7 +2999,7 @@ VWidth: 0
 Flags: W
 HStem: -11 129<436 471 436 502.5> 251 159<505 510 510 564 414 629 505 505> 297 113<462 482.5> 481 122<250 250 250 267 247 250>
 VStem: 42 129<206 211 173.5 211> 279 115<158.5 186> 505 124<206 211 121.5 211 251 256 121.5 256>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3068,6 +3097,7 @@ I481
 sg8
 I122
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0020
@@ -3076,9 +3106,10 @@ GlifName: uni0020
 Width: 300
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
+Layer: 2
 EndChar
 
 StartChar: uni0021
@@ -3087,7 +3118,7 @@ GlifName: uni0021
 Width: 329
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3102,6 +3133,7 @@ SplineSet
  229 166 l 257
  100 166 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni0022
@@ -3110,7 +3142,7 @@ GlifName: uni0022
 Width: 407
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3125,6 +3157,7 @@ SplineSet
  357 736 l 257
  357 465 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni0023
@@ -3134,7 +3167,7 @@ Width: 888
 VWidth: 0
 Flags: W
 HStem: 176 121<126 241 101 263 126 362 126 383 126 467> 404 121<157 281 135 303 157 402 157 507>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3193,6 +3226,7 @@ I404
 sg8
 I121
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0024
@@ -3202,7 +3236,7 @@ Width: 501
 VWidth: 0
 Flags: W
 VStem: 38 134<499.5 525 499.5 553.5> 142 71<-47 13 13 13 679 750> 268 71<-47 -3 -3 12 -47 127 682 750> 330 141<176.5 222>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3272,6 +3306,7 @@ I330
 sg8
 I141
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0025
@@ -3282,7 +3317,7 @@ VWidth: 0
 Flags: W
 HStem: 9 216<465 525> 467 216<104 164>
 VStem: 26 216<545 605> 387 216<87 147>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3335,6 +3370,7 @@ I467
 sg8
 I216
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0026
@@ -3345,7 +3381,7 @@ VWidth: 0
 Flags: W
 HStem: 682 20<257 257>
 VStem: 26 157<182 227.5 182 260> 94 137<518.5 552.5 518.5 574.5> 344 133<518.5 545>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3414,6 +3450,7 @@ I682
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0027
@@ -3422,7 +3459,7 @@ GlifName: uni0027
 Width: 227
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3432,6 +3469,7 @@ SplineSet
  177 736 l 257
  177 465 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni0028
@@ -3440,7 +3478,7 @@ GlifName: uni0028
 Width: 262
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3455,6 +3493,7 @@ SplineSet
  50 510 l 257
  50 652 113 696 212 735 c 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni0029
@@ -3464,7 +3503,7 @@ Width: 330
 VWidth: 0
 Flags: W
 VStem: 161 119<202 208 208 510>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3494,6 +3533,7 @@ sS'width'
 p8
 I119
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni002A
@@ -3504,7 +3544,7 @@ VWidth: 0
 Flags: W
 HStem: 478 307<160 231 160 231> 517 21<92 92>
 VStem: 160 71<478 564 564 564 704 785>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3556,6 +3596,7 @@ I517
 sg8
 I21
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni002B
@@ -3564,7 +3605,7 @@ GlifName: uni002B_
 Width: 475
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3582,6 +3623,7 @@ SplineSet
  300 357 l 257
  425 357 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni002C
@@ -3590,7 +3632,7 @@ GlifName: uni002C_
 Width: 265
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3600,6 +3642,7 @@ SplineSet
  215 129 l 257
  178 -23 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni002D
@@ -3608,7 +3651,7 @@ GlifName: uni002D_
 Width: 416
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3618,6 +3661,7 @@ SplineSet
  50 357 l 257
  366 357 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni002E
@@ -3626,7 +3670,7 @@ GlifName: uni002E_
 Width: 250
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3636,6 +3680,7 @@ SplineSet
  200 11 167 -22 125 -22 c 256
  83 -22 50 11 50 53 c 256
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni002F
@@ -3644,7 +3689,7 @@ GlifName: uni002F_
 Width: 401
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3654,6 +3699,7 @@ SplineSet
  177 -23 l 257
  50 -23 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni0030
@@ -3662,7 +3708,7 @@ GlifName: uni0030
 Width: 1024
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3683,6 +3729,7 @@ SplineSet
  522 461 517 560 464 573 c 257
  464 698 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni0031
@@ -3693,7 +3740,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<106 236 106 106> 0 21<106 236 106 106> 679 20<106 236 236 236> 679 20<106 236 236 236>
 VStem: 30 206<439 640 640 640> 106 130<0 499 499 499 0 699>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3749,6 +3796,7 @@ I679
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0032
@@ -3759,7 +3807,7 @@ VWidth: 0
 Flags: W
 HStem: 0 127<43 447 43 447> 574 126<245 324>
 VStem: 330 123<465 497 444 522>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3811,6 +3859,7 @@ I574
 sg8
 I126
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0033
@@ -3821,7 +3870,7 @@ VWidth: 0
 Flags: W
 HStem: 0 122<255 257 255 255.5> 286 124<188 247> 574 124<156 256 156 252.5>
 VStem: 327 131<181 231>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3883,6 +3932,7 @@ I574
 sg8
 I124
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0034
@@ -3893,7 +3943,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<273 403 273 273> 0 21<273 403 273 273> 145 127<170 216 26 26 403 457> 681 20<273 403 403 403>
 VStem: 26 190<145 272 145 272> 273 184<145 272 145 701> 273 130<0 145 0 272 272 701>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -3963,6 +4013,7 @@ I681
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0035
@@ -3973,7 +4024,7 @@ VWidth: 0
 Flags: W
 HStem: 0 126<162 204 204 258> 324 123<195.5 204 195.5 258> 573 127<171 171>
 VStem: 338 128<199 252>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4033,6 +4084,7 @@ I573
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0036
@@ -4043,7 +4095,7 @@ VWidth: 0
 Flags: W
 HStem: -1 125<140.5 228 228 282> 307 118<227 228 227 227> 573 125<282 293 282 284>
 VStem: 26 124<399 416.5> 356 115<183.5 249>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4110,6 +4162,7 @@ I573
 sg8
 I125
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0037
@@ -4119,7 +4172,7 @@ Width: 435
 VWidth: 0
 Flags: W
 HStem: 0 21<136 273 136 136> 0 21<136 273 136 136> 510 188<236 371 236 236> 572 126<20 260 20 409>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4167,6 +4220,7 @@ I572
 sg8
 I126
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0038
@@ -4177,7 +4231,7 @@ VWidth: 0
 Flags: W
 HStem: 0 125<190 212 210 212 212 276 212 275> 571 127<179 214 179 272>
 VStem: 26 128<183 226 183 234> 329 123<471.5 524> 332 128<183 226>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4246,6 +4300,7 @@ I571
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0039
@@ -4256,7 +4311,7 @@ VWidth: 0
 Flags: W
 HStem: 1 126<179 218> 274 118<156 273 272 273 272 287> 576 124<218 218>
 VStem: 26 119<450 515.5 450 547.5> 349 129<282.5 300>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4322,6 +4377,7 @@ I576
 sg8
 I124
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni003A
@@ -4332,7 +4388,7 @@ VWidth: 0
 Flags: W
 HStem: -5 151<104 146> 285 151<104 146>
 VStem: 50 150<49 91 339 381>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4375,6 +4431,7 @@ I285
 sg8
 I151
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni003B
@@ -4385,7 +4442,7 @@ VWidth: 0
 Flags: W
 HStem: -23 152<87 177 50 214> 285 151<145 187>
 VStem: 91 150<339 381>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4428,6 +4485,7 @@ I285
 sg8
 I151
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni003C
@@ -4436,7 +4494,7 @@ GlifName: uni003C_
 Width: 414
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4449,6 +4507,7 @@ SplineSet
  30 322 l 257
  384 500 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni003D
@@ -4459,7 +4518,7 @@ VWidth: 0
 Flags: W
 HStem: 131 127<50 368 50 368> 325 127<50 368 50 368>
 VStem: 50 318<131 258 131 258 325 452 131 452>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4502,6 +4561,7 @@ I325
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni003E
@@ -4510,7 +4570,7 @@ GlifName: uni003E_
 Width: 414
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4523,6 +4583,7 @@ SplineSet
  30 370 l 257
  30 500 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni003F
@@ -4533,7 +4594,7 @@ VWidth: 0
 Flags: W
 HStem: -22 151<176 218> 166 220<134 263 134 134> 575 128<188.5 233.5>
 VStem: 122 151<32 74> 134 129<166 276 166 386 166 386> 302 128<446.5 491 393 519>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4597,6 +4658,7 @@ I575
 sg8
 I128
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0040
@@ -4608,7 +4670,7 @@ InSpiro: 1
 Flags: W
 HStem: -87 109<300.084 551.032> 116 403<326.449 430.329> 116 124<513 612.557> 602 113<332.61 547.83>
 VStem: 16 120<185.906 417.659> 205 340<240.742 366.985> 666 120<304.625 493.205>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4741,6 +4803,7 @@ I602
 sg8
 I113
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0041
@@ -4751,7 +4814,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<26 164 26 26 353 353 353 490> 0 21<26 164 26 26 353 353 353 490> 679 20<200 339 339 339> 679 20<200 339 339 339>
 VStem: 155 15<582 582>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4809,6 +4872,7 @@ I679
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0042
@@ -4819,7 +4883,7 @@ VWidth: 0
 Flags: W
 HStem: 0 122<26 264.5 221 264.5> 289 122<221 251 221 266> 577 123<26 221>
 VStem: 26 141<0 700 0 700> 324 134<197 201 197 216>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4883,6 +4947,7 @@ I577
 sg8
 I123
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0043
@@ -4893,7 +4958,7 @@ VWidth: 0
 Flags: W
 HStem: 685 20<157.5 229 283 329>
 VStem: 32 141<181 518> 330 138<129 215 129 215>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -4949,6 +5014,7 @@ I685
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0044
@@ -4959,7 +5025,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<32 32 32 173 227 257> 0 21<32 32 32 173 227 257> 680 20<32 173 173 173 227 298.5>
 VStem: 32 141<0 700 0 700> 283 141<197 503>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5016,6 +5082,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0045
@@ -5026,7 +5093,7 @@ VWidth: 0
 Flags: W
 HStem: 0 141<173 396 173 396> 277 141<173 302 173 302> 560 140<173 396 173 173>
 VStem: 32 364<0 141 560 700> 32 141<141 277 418 560>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5082,6 +5149,7 @@ I560
 sg8
 I140
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0046
@@ -5092,7 +5160,7 @@ VWidth: 0
 Flags: W
 HStem: 1 21<32 173 32 32> 1 21<32 173 32 32> 277 141<173 302 173 302> 560 140<173 396 173 173>
 VStem: 32 141<1 277 418 560>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5146,6 +5214,7 @@ I560
 sg8
 I140
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0047
@@ -5156,7 +5225,7 @@ VWidth: 0
 Flags: W
 HStem: -5 141<219.5 222 219.5 222 219.5 276> 685 20<156 222 276 322.5>
 VStem: 26 141<192 508 192 524 192 524> 276 185<135.5 136 136 136 223 353 135.5 353> 319 142<190 223 223 223>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5224,6 +5293,7 @@ I685
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0048
@@ -5234,7 +5304,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<32 173 32 32 285 285 285 426> 0 21<32 173 32 32 285 285 285 426> 680 20<32 173 173 173 285 426 426 426>
 VStem: 32 170<283 421 283 700> 32 141<0 283 0 421 421 700> 256 170<283 421 421 421> 285 141<0 283 283 283 421 700 0 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5305,6 +5375,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0049
@@ -5315,7 +5386,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<34 175 34 34> 0 21<34 175 34 34> 680 20<34 175 175 175>
 VStem: 34 141<0 700 0 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5358,6 +5429,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni004A
@@ -5368,7 +5440,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142<210.5 213 210.5 213 267 269.5 210.5 297> 680 20<323 463 463 463>
 VStem: 26 141<193 242 193 242> 323 140<193 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5420,6 +5492,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni004B
@@ -5430,7 +5503,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<26 167 26 26 319 457 319 319> 0 21<26 167 26 26 319 457 319 319> 680 20<26 167 167 167 314 453 453 453>
 VStem: 26 141<0 700 0 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5480,6 +5553,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni004C
@@ -5490,7 +5564,7 @@ VWidth: 0
 Flags: W
 HStem: 0 139<167 402 167 402> 680 20<26 167 167 167>
 VStem: 26 141<139 700 139 700 139 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5530,6 +5604,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni004D
@@ -5540,7 +5615,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<32 32 32 173 285 285 285 382 503 503 503 644> 0 21<32 32 32 173 285 285 285 382 503 503 503 644> 680 20<32 142 142 142 503 644 644 644>
 VStem: 32 141<0 127 0 444> 503 141<0 700 0 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5604,6 +5679,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni004E
@@ -5614,7 +5690,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<32 32 32 173 410 410 410 477> 0 21<32 32 32 173 410 410 410 477> 680 20<32 147 147 147 336 477 477 477>
 VStem: 32 141<0 278 0 492> 336 141<498 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5676,6 +5752,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni004F
@@ -5686,7 +5763,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142<223.5 226 223.5 226 281 283.5 223.5 311> 564 141<161 227 161 281>
 VStem: 30 141<195 508> 337 141<195 508 508 510.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5742,6 +5819,7 @@ I564
 sg8
 I141
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0050
@@ -5752,7 +5830,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<26 167 26 26> 0 21<26 167 26 26> 318 139<221 254 254 257.5 221 299.5> 561 139<221 254 26 221>
 VStem: 26 141<0 700 0 700> 305 143<483 533.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5814,6 +5892,7 @@ I561
 sg8
 I139
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0051
@@ -5824,7 +5903,7 @@ VWidth: 0
 Flags: W
 HStem: 564 141<157 223 157 277>
 VStem: 26 141<195 508> 333 141<195 508 508 510.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5878,6 +5957,7 @@ I564
 sg8
 I141
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0052
@@ -5888,7 +5968,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<32 173 32 32 343 469 343 343> 0 21<32 173 32 32 343 469 343 343> 286 125<227 240> 567 133<227 240 32 227>
 VStem: 32 141<0 700 0 700> 326 127<467.5 512>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -5955,6 +6035,7 @@ I567
 sg8
 I133
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0053
@@ -5965,7 +6046,7 @@ VWidth: 0
 Flags: W
 HStem: 680 20<216 216 271 324>
 VStem: 41 134<479.5 525 479.5 577.5> 333 141<176.5 240.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6019,6 +6100,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0054
@@ -6029,7 +6111,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<172 313 172 172> 0 21<172 313 172 172> 562 138<26 172 26 459 313 459 313 313>
 VStem: 172 141<0 562 0 562>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6076,6 +6158,7 @@ I562
 sg8
 I138
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0055
@@ -6086,7 +6169,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142<226.5 229 226.5 229 283 285.5 226.5 313.5> 680 20<32 173 173 173 339 479 479 479>
 VStem: 32 141<193 700 193 700> 339 140<193 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6138,6 +6221,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0056
@@ -6147,7 +6231,7 @@ Width: 508
 VWidth: 0
 Flags: W
 HStem: 0 21<229 276 229 229> 0 21<229 276 229 229> 680 20<26 170 170 170 338 482 482 482>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6189,6 +6273,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0057
@@ -6198,7 +6283,7 @@ Width: 725
 VWidth: 0
 Flags: W
 HStem: 0 21<229 276 229 229 442 442 442 489> 0 21<229 276 229 229 442 442 442 489> 680 20<26 170 170 170 239 383 383 383 555 699 699 699>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6246,6 +6331,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0058
@@ -6255,7 +6341,7 @@ Width: 464
 VWidth: 0
 Flags: W
 HStem: 0 21<26 171 26 26 293 438 293 293> 0 21<26 171 26 26 293 438 293 293> 680 20<38 175 175 175 289 426 426 426>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6298,6 +6384,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0059
@@ -6308,7 +6395,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<157 303 157 157> 0 21<157 303 157 157> 680 20<26 173 173 173 308 453 453 453>
 VStem: 157 146<0 252 252 252>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6359,6 +6446,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni005A
@@ -6369,7 +6457,7 @@ VWidth: 0
 Flags: W
 HStem: 0 144<182 392 182 392> 560 140<26 236 26 392>
 VStem: 26 366<0 141 141 141 563 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6413,6 +6501,7 @@ I560
 sg8
 I140
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni005B
@@ -6423,7 +6512,7 @@ VWidth: 0
 Flags: W
 HStem: -36 110<180 244 180 244> 629 110<183 244 183 183>
 VStem: 50 194<-36 74 629 739> 50 130<74 74 74 739>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6470,6 +6559,7 @@ I629
 sg8
 I110
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni005C
@@ -6479,7 +6569,7 @@ Width: 402
 VWidth: 0
 Flags: W
 VStem: 50 301
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6504,6 +6594,7 @@ sS'width'
 p8
 I301
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni005D
@@ -6514,7 +6605,7 @@ VWidth: 0
 Flags: W
 HStem: -36 110<14 78 14 208 14 78> 629 110<14 75 14 208>
 VStem: 14 194<-36 74 74 74 629 739 -36 739> 78 130<74 74>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6561,6 +6652,7 @@ I629
 sg8
 I110
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni005E
@@ -6570,7 +6662,7 @@ Width: 374
 VWidth: 0
 Flags: W
 HStem: 460 296<27 264 27 264 176 290 176 413>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6598,6 +6690,7 @@ sS'width'
 p8
 I296
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni005F
@@ -6607,7 +6700,7 @@ Width: 510
 VWidth: 0
 Flags: W
 HStem: -205 107<30 480 30 480>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6632,6 +6725,7 @@ sS'width'
 p8
 I107
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0060
@@ -6642,7 +6736,7 @@ VWidth: 0
 Flags: W
 HStem: 605 152<122 122 122 176 49 213>
 VStem: 49 164<605 757>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6675,6 +6769,7 @@ I605
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0061
@@ -6685,7 +6780,7 @@ VWidth: 0
 Flags: W
 HStem: 1 112<163 180 163 180 229 232 163 229>
 VStem: 26 101<139 149 149 162 139 167 139 183.5> 268 116<149 227 227 227 351 363 361 375>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6756,6 +6851,7 @@ I1
 sg8
 I112
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0062
@@ -6766,7 +6862,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118<30 236 203 236 203 236> 398 118<203 236 236 237 203 236> 679 20<30 155 155 155> 679 20<30 155 155 155>
 VStem: 30 125<0 699 0 699> 270 118<143 373 373 374>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6832,6 +6928,7 @@ I679
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0063
@@ -6842,7 +6939,7 @@ VWidth: 0
 Flags: W
 HStem: -1 117<243 249 243 249 249 250> 496 20<185 191 191 191 233 239 239 275.5>
 VStem: 30 119<141 375>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6909,6 +7006,7 @@ I496
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0064
@@ -6919,7 +7017,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118<130 210 182 210 182 258 182 384> 398 118<180 210 180 210> 678 20<258 384 384 384>
 VStem: 30 118<142 143 143 373> 258 126<0 698>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -6980,6 +7078,7 @@ I678
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0065
@@ -6990,7 +7089,7 @@ VWidth: 0
 Flags: W
 HStem: 0 111<131 242 183 242 236 242 236 242> 208 116<148 283 148 397 148 283> 402 114<236 240 182 236>
 VStem: 26 122<141 208 324 369> 283 114<324 369 369 378>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7065,6 +7164,7 @@ I402
 sg8
 I114
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0066
@@ -7075,7 +7175,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<89 211 89 89> 0 21<89 211 89 89> 400 116<26 89 26 89> 579 117<244 277 244 244>
 VStem: 89 122<0 400 0 400 516 552>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7135,6 +7235,7 @@ I579
 sg8
 I117
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0067
@@ -7145,7 +7246,7 @@ VWidth: 0
 Flags: W
 HStem: -181 112<54 234 54 236 26 234> -1 113<136.5 192 189 192 189 234 189 231> 403 113<173 192 189 192 231 234 189 231>
 VStem: 35 115<139 140 140 375> 231 158<-1 109 109 109 403 516> 272 117<-40 3 3 3 139 374 374 375.5 511 516>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7227,6 +7328,7 @@ I403
 sg8
 I113
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0068
@@ -7237,7 +7339,7 @@ VWidth: 0
 Flags: W
 HStem: 1 21<30 145 30 30 281 281 281 395> 1 21<30 145 30 30 281 281 281 395> 399 112<190 193 190 193 190 238 238 241> 678 20<30 144 144 144>
 VStem: 30 163<399 511 399 698> 30 115<1 365> 281 114<1 365 365 367>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7311,6 +7413,7 @@ I678
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0069
@@ -7321,7 +7424,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<39 161 39 39> 0 21<39 161 39 39> 496 20<39 161 161 161> 558 145<79 119>
 VStem: 26 146<610.5 650> 39 122<0 516>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7379,6 +7482,7 @@ I558
 sg8
 I145
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni006A
@@ -7389,7 +7493,7 @@ VWidth: 0
 Flags: W
 HStem: -181 117<-23 4 -23 7 -50 4> 496 20<37 159 159 159> 556 146<77 117>
 VStem: 24 146<608 648> 37 122<-38 516>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7446,6 +7550,7 @@ I556
 sg8
 I146
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni006B
@@ -7456,7 +7561,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<30 155 30 30 296 428 296 296> 0 21<30 155 30 30 296 428 296 296> 494 20<295 428 428 428> 678 20<30 155 155 155>
 VStem: 30 125<0 698>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7511,6 +7616,7 @@ I678
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni006C
@@ -7521,7 +7627,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<30 161 30 30> 0 21<30 161 30 30> 678 20<30 161 161 161>
 VStem: 30 131<0 698>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7564,6 +7670,7 @@ I678
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni006D
@@ -7575,7 +7682,7 @@ Flags: W
 HStem: 0 21<30 154 30 30 280 404 280 280 530 530 530 654> 0 21<30 154 30 30 280 404 280 280 530 530 530 654> 398 121<174 195 189 195 189 237 237 243 441 447 488 494>
 VStem: 30 124<0 372 0 377 0 401> 280 124<0 372 0 373.5> 530 124<0 372 372 373.5>
 CounterMasks: 1 1c
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7655,6 +7762,7 @@ I398
 sg8
 I121
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni006E
@@ -7665,7 +7773,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<30 154 30 30 280 404 280 280> 0 21<30 154 30 30 280 404 280 280> 398 121<175.5 196 191 196 238 243 191 238>
 VStem: 30 124<0 372 0 377 0 401> 280 124<0 372 372 373.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7726,6 +7834,7 @@ I398
 sg8
 I121
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni006F
@@ -7736,7 +7845,7 @@ VWidth: 0
 Flags: W
 HStem: -1 118<132 192 186 192 186 233 233 239> 398 118<169.5 192 186 192 233 239 186 233>
 VStem: 28 120<144.5 154 154 363> 275 117<152 363 363 371.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7800,6 +7909,7 @@ I398
 sg8
 I118
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0070
@@ -7810,7 +7920,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118<203 232 203 234> 398 118<196 228 30 196>
 VStem: 30 125<-182 516 -182 516> 276 120<143 372 372 375>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7866,6 +7976,7 @@ I398
 sg8
 I118
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0071
@@ -7876,7 +7987,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118<188 190 190 219> 398 118<167 214 183 214>
 VStem: 26 120<142 143 143 373> 262 124<-182 -182>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7932,6 +8043,7 @@ I398
 sg8
 I118
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0072
@@ -7942,7 +8054,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<36 160 36 36> 395 121<289 289>
 VStem: 36 124<0 271 454 516>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -7985,6 +8097,7 @@ I395
 sg8
 I121
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0073
@@ -7995,7 +8108,7 @@ VWidth: 0
 Flags: W
 HStem: 404 113<224 226 179 223>
 VStem: 26 112<353 369.5 353 422> 280 117<136.5 175.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8061,6 +8174,7 @@ I404
 sg8
 I113
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0074
@@ -8071,7 +8185,7 @@ VWidth: 0
 Flags: W
 HStem: 0 125<244 271 244 298 243 271> 398 118<26 89 26 89 211 271> 680 20<89 211 211 211>
 VStem: 89 122<168 398 516 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8126,6 +8240,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0075
@@ -8136,7 +8251,7 @@ VWidth: 0
 Flags: W
 HStem: -5 121<137.5 196 191 196 238 243 191 238> 494 20<30 154 154 154 280 404 404 404>
 VStem: 30 124<140.5 142 142 514> 280 124<142 514>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8192,6 +8307,7 @@ I494
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0076
@@ -8201,7 +8317,7 @@ Width: 400
 VWidth: 0
 Flags: W
 HStem: 0 21<174 174 174 243> 0 21<174 174 174 243> 496 20<151 151 269 269>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8243,6 +8359,7 @@ I496
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0077
@@ -8252,7 +8369,7 @@ Width: 577
 VWidth: 0
 Flags: W
 HStem: 0 21<160 160 160 222 348 412 348 348> 0 21<160 160 160 222 348 412 348 348> 496 20<144 144 328 328 443 443>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8300,6 +8417,7 @@ I496
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0078
@@ -8309,7 +8427,7 @@ Width: 381
 VWidth: 0
 Flags: W
 HStem: 0 21<18 143 18 18 257 382 257 257> 0 21<18 143 18 18 257 382 257 257> 496 19
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8352,6 +8470,7 @@ I496
 sg8
 I19
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0079
@@ -8362,7 +8481,7 @@ VWidth: 0
 Flags: W
 HStem: 495 20<131 131 251 251>
 VStem: 188 1
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8405,6 +8524,7 @@ I495
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni007A
@@ -8415,7 +8535,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118<169 169 169 322> 394 120<26 183 26 322>
 VStem: 26 296<0 116 116 116 400 514>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8459,6 +8579,7 @@ I394
 sg8
 I120
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni007B
@@ -8469,7 +8590,7 @@ VWidth: 0
 Flags: W
 HStem: -38 99<280 292 289 307> 635 100<273 307>
 VStem: 112 127<192 207 207 290 290 304 146.5 306 408 469>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8518,6 +8639,7 @@ I635
 sg8
 I100
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni007C
@@ -8527,7 +8649,7 @@ Width: 205
 VWidth: 0
 Flags: W
 VStem: 50 105<-134 754 -134 754>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8552,6 +8674,7 @@ sS'width'
 p8
 I105
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni007D
@@ -8562,7 +8685,7 @@ VWidth: 0
 Flags: W
 HStem: -38 99<100 118 100 103> 635 100<100 134>
 VStem: 168 127<208 290 80.5 304 80.5 314.5 408 469 469 469>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8612,6 +8735,7 @@ I635
 sg8
 I100
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni007E
@@ -8621,7 +8745,7 @@ Width: 568
 VWidth: 0
 Flags: W
 HStem: 235 132<343 399.5> 308 132<147.5 198>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8655,6 +8779,7 @@ I308
 sg8
 I132
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00A1
@@ -8665,7 +8790,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 0 21 571 151
 VStem: 26 150 38 129
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 PickledDataWithLists: "(dp1
@@ -8706,6 +8831,7 @@ I571
 sg8
 I151
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00A2
@@ -8715,7 +8841,7 @@ Width: 494
 VWidth: 0
 Flags: W
 VStem: 32 141<181 518> 158 71<-48 -5 -5 7 7 7 693 705 705 749> 283 71<-48 -5 -5 11 -48 86 687 705 705 749> 330 138<143 215 143 215>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8789,6 +8915,7 @@ I330
 sg8
 I138
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00A3
@@ -8799,7 +8926,7 @@ VWidth: 0
 Flags: W
 HStem: 0 108<238 462 238 462> 289 107<239 378 239 378 238 378> 584 121<291 293 293 307 291 319>
 VStem: 106 132<108 288 288 288 108 514>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8858,6 +8985,7 @@ I584
 sg8
 I121
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00A4
@@ -8868,7 +8996,7 @@ VWidth: 0
 Flags: W
 HStem: 133 118<281 310 304 310 304 357 304 351> 477 118<287.5 310 304 310 304 351 351 357>
 VStem: 146 120<275 275 275 276 276 452> 393 117<275 451 451 452.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -8948,6 +9076,7 @@ I477
 sg8
 I118
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00A5
@@ -8958,7 +9087,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<203 340 203 203> 0 21<203 340 203 203> 238 57<50 193 50 203 50 193> 351 58<50 162 50 177 50 162> 678 20<73 210 210 210 333 470 470 470>
 VStem: 203 137<0 236 0 238 0 238>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9030,6 +9159,7 @@ I678
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00A6
@@ -9039,7 +9169,7 @@ Width: 222
 VWidth: 0
 Flags: W
 VStem: 50 122<-134 221 -134 221 399 754>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9069,6 +9199,7 @@ sS'width'
 p8
 I122
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00A7
@@ -9079,7 +9210,7 @@ VWidth: 0
 Flags: W
 HStem: -136 132<170 274 274 282 170 274> 627 132<265 273 273 377>
 VStem: 26 141<335.5 368.5 335.5 382> 88 131<565.5 591 565.5 640.5> 328 131<32 57.5> 380 141<254.5 288>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9161,6 +9292,7 @@ I627
 sg8
 I132
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00A8
@@ -9169,7 +9301,7 @@ GlifName: uni00A_8
 Width: 320
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9184,6 +9316,7 @@ SplineSet
  150 636 117 603 75 603 c 256
  33 603 0 636 0 678 c 256
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni00A9
@@ -9194,7 +9327,7 @@ VWidth: 0
 Flags: W
 HStem: -49 93<412 412 412 447> 112 89<366.5 447 447 476.5> 476 90<397.5 412 366.5 447> 636 90<412 412 412 447>
 VStem: 50 89<332 339 332 339 337 339 332 464> 287 90<231 447> 720 89<332 339 338 339 327 427.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9288,6 +9421,7 @@ I636
 sg8
 I90
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00AA
@@ -9296,7 +9430,7 @@ GlifName: uni00A_A_
 Width: 227
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9345,6 +9479,7 @@ SplineSet
  116 650 l 257
  116 701 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni00AB
@@ -9353,7 +9488,7 @@ GlifName: uni00A_B_
 Width: 475
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9374,6 +9509,7 @@ SplineSet
  238 321 l 257
  449 477 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni00AC
@@ -9384,7 +9520,7 @@ VWidth: 0
 Flags: W
 HStem: 327 115<26 358 26 476>
 VStem: 358 118<208 327 327 327>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9419,6 +9555,7 @@ I327
 sg8
 I115
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00AD
@@ -9429,7 +9566,7 @@ VWidth: 0
 Flags: W
 HStem: 230 127
 VStem: 100 316
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 40 45 N 1 0 0 1 0 0 2
@@ -9456,6 +9593,7 @@ I230
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00AE
@@ -9466,7 +9604,7 @@ VWidth: 0
 Flags: W
 HStem: 354 42<191 192 191 211> 511 36<206 210 210 216> 591 37<206 210 206 227> 662 41<193 195 193 195 193 240.5>
 VStem: 30 40<523 567.5 526 567.5 526 587> 151 39<430 627 430 627> 234 36<562.5 575> 334 40<525 527 526.5 528 473 567.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9561,6 +9699,7 @@ I662
 sg8
 I41
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00AF
@@ -9570,7 +9709,7 @@ Width: 510
 VWidth: 0
 Flags: W
 HStem: 712 107
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 90 95 N 1 0 0 1 0 917 2
@@ -9589,6 +9728,7 @@ sS'width'
 p8
 I107
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00B0
@@ -9599,7 +9739,7 @@ VWidth: 0
 Flags: W
 HStem: 468 77<129.5 151 129.5 172> 622 77
 VStem: 25 77<572.5 594 572.5 615> 179 77<572.5 594>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9647,6 +9787,7 @@ I622
 sg8
 I77
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00B1
@@ -9657,7 +9798,7 @@ VWidth: 0
 Flags: W
 HStem: 40 127<100 476 100 476> 391 127
 VStem: 223 127
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9696,6 +9837,7 @@ I391
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00B2
@@ -9704,7 +9846,7 @@ GlifName: uni00B_2
 Width: 245
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9737,6 +9879,7 @@ SplineSet
  159 629 148 638 125 639 c 258
  122 639 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni00B3
@@ -9747,7 +9890,7 @@ VWidth: 0
 Flags: W
 HStem: 392 60<86.5 129 104 129 126 129 126 129 129 131> 516 61<97 101 97 101> 640 61<104 107 104 107 125 128 104 130 104 125>
 VStem: 157 64<475 495>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9821,6 +9964,7 @@ I640
 sg8
 I61
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00B4
@@ -9831,7 +9975,7 @@ VWidth: 0
 Flags: W
 HStem: 605 152<87 141 50 214>
 VStem: 50 164<605 757>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9864,6 +10008,7 @@ I605
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00B5
@@ -9874,7 +10019,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<26 150 26 26> 0 21<26 150 26 26> 179 121<180.5 192 187 192 187 234 234 239> 678 20<26 150 150 150 276 276 400 400> 680 20<276 400 400 400>
 VStem: 26 166<179 300 179 321 179 356 179 698> 26 124<0 183 0 321 324.5 326 326 356 356 698> 276 124<326.5 328 328 698 698 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9962,6 +10107,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00B6
@@ -9970,7 +10116,7 @@ GlifName: uni00B_6
 Width: 444
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -9987,6 +10133,7 @@ SplineSet
  335 705 l 257
  418 705 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni00B7
@@ -9997,7 +10144,7 @@ VWidth: 0
 Flags: W
 HStem: 270 151
 VStem: 17 150
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 41 46 N 1 0 0 1 0 292 2
@@ -10024,6 +10171,7 @@ I270
 sg8
 I151
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00B8
@@ -10034,7 +10182,7 @@ VWidth: 0
 Flags: W
 HStem: -36 91<26 44 26 89.5>
 VStem: 102 92<95.5 123>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10067,6 +10215,7 @@ I-36
 sg8
 I91
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00B9
@@ -10077,7 +10226,7 @@ VWidth: 0
 Flags: W
 HStem: 391 309<95 161 95 161 93 161>
 VStem: 60 101<584 673 673 673> 93 68<391 610 610 610>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10118,6 +10267,7 @@ I391
 sg8
 I309
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00BA
@@ -10128,7 +10278,7 @@ VWidth: 0
 Flags: W
 HStem: 361 71<26 204 26 204> 470 55<78.5 108 103 108 103 127 103 123> 645 55<96.5 108 103 108 103 123 123 127>
 VStem: 32 56<533.5 534 534 635> 141 55<533 635 635 635.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10202,6 +10352,7 @@ I645
 sg8
 I55
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00BB
@@ -10210,7 +10361,7 @@ GlifName: uni00B_B_
 Width: 414
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10231,6 +10382,7 @@ SplineSet
  237 352 l 257
  237 477 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni00BC
@@ -10241,7 +10393,7 @@ VWidth: 0
 Flags: W
 HStem: -1 21<393 461 393 393> -1 21<393 461 393 393> 71 66<346 368 270 270 461 488> 682 20<114 181 181 181 458 534 534 534>
 VStem: 75 106<567 671 671 671> 113 68<349 597 597 597> 270 98<71 137 71 137> 393 95<71 137 71 352> 393 68<-1 71 -1 137 137 352>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10334,6 +10486,7 @@ I682
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00BD
@@ -10344,7 +10497,7 @@ VWidth: 0
 Flags: W
 HStem: -1 66<346 551 346 551> 288 66<422 424 422 424 448 449 424 448> 682 20<114 182 182 182 458 534 534 534>
 VStem: 76 106<567 671 671 671> 114 68<349 597 597 597 349 702> 490 64<235.5 251 224 263>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10433,6 +10586,7 @@ I682
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00BE
@@ -10443,7 +10597,7 @@ VWidth: 0
 Flags: W
 HStem: -1 21<417 485 417 417> -1 21<417 485 417 417> 71 66<370 392 294 294 485 512> 348 66<93.5 114 113 114 113 141 113 144> 492 65<108 109 109 137.5> 636 64<94 141 94 143 94 140>
 VStem: 177 68<440.5 464.5> 294 98<71 137 71 137> 417 95<71 137 71 352> 417 68<-1 71 -1 137 137 352>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10567,6 +10721,7 @@ I636
 sg8
 I64
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00BF
@@ -10577,7 +10732,7 @@ VWidth: 0
 Flags: W
 HStem: -14 128<188.5 233.5 188.5 283.5> 303 220<134 263> 560 151<176 218>
 VStem: 122 151<615 657> 134 129<413 523 413 523 413 523> 302 128<170 242.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10641,6 +10796,7 @@ I560
 sg8
 I151
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C0
@@ -10651,7 +10807,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 679 20 766 152
 VStem: 151 164 155 15
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 102 161 2
@@ -10694,6 +10850,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C1
@@ -10704,7 +10861,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 679 20 766 152
 VStem: 155 15 224 164
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 174 161 2
@@ -10747,6 +10904,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C2
@@ -10757,7 +10915,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 679 20 766 152
 VStem: 155 15 161 218
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 135 252 2
@@ -10800,6 +10958,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C3
@@ -10810,7 +10969,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 679 20 748 101 788 102
 VStem: 128 281 155 15
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 314 732 N 1 0 0 1 102 662 2
@@ -10858,6 +11017,7 @@ I788
 sg8
 I102
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C4
@@ -10868,7 +11028,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 679 20
 VStem: 155 15
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 110 163 2
@@ -10901,6 +11061,7 @@ I679
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C5
@@ -10911,7 +11072,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<26 164 26 26 353 490 353 353> 669 64 679 20<339 339 339 339> 797 64<260 278>
 VStem: 155 15<582 582> 173 64<756 774 756 791.5> 301 64<756 774>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -10988,6 +11149,7 @@ I797
 sg8
 I64
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C6
@@ -10998,7 +11160,7 @@ VWidth: 0
 Flags: W
 HStem: 0 141<478 701 478 701> 277 141<478 607 478 607> 560 140<320 337 320 320 478 478 478 483 483 701>
 VStem: 337 141<141 148 148 148 268 277 418 560>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -11058,6 +11220,7 @@ I560
 sg8
 I140
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C7
@@ -11068,7 +11231,7 @@ VWidth: 0
 Flags: W
 HStem: -203 91 685 20
 VStem: 32 141 213 92 330 138
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N 1 0 0 1 111 -167 2
@@ -11111,6 +11274,7 @@ I685
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C8
@@ -11121,7 +11285,7 @@ VWidth: 0
 Flags: W
 HStem: 0 141 277 141 560 140 766 152
 VStem: 32 141 32 364 95 164
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 46 161 2
@@ -11174,6 +11338,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00C9
@@ -11184,7 +11349,7 @@ VWidth: 0
 Flags: W
 HStem: 0 141 277 141 560 140 766 152
 VStem: 32 141 32 364 168 164
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 118 161 2
@@ -11237,6 +11402,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00CA
@@ -11247,7 +11413,7 @@ VWidth: 0
 Flags: W
 HStem: 0 141 277 141 560 140 766 152
 VStem: 32 141 32 364 105 218
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 79 252 2
@@ -11300,6 +11466,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00CB
@@ -11310,7 +11477,7 @@ VWidth: 0
 Flags: W
 HStem: 0 141 277 141 560 140
 VStem: 32 141 32 364
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 54 163 2
@@ -11353,6 +11520,7 @@ I560
 sg8
 I140
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00CC
@@ -11363,7 +11531,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 680 20 766 152
 VStem: -14 164 34 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 -63 161 2
@@ -11406,6 +11574,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00CD
@@ -11416,7 +11585,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 680 20 766 152
 VStem: 34 141 59 164
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 9 161 2
@@ -11459,6 +11628,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00CE
@@ -11469,7 +11639,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 680 20 766 152
 VStem: -4 218 34 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 -30 252 2
@@ -11512,6 +11682,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00CF
@@ -11522,7 +11693,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 680 20
 VStem: 34 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 -56 163 2
@@ -11555,6 +11726,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D0
@@ -11565,7 +11737,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<83 224 83 83 278 308> 292 128<26 83 26 83 224 280> 680 20<83 224 224 224 278 349.5>
 VStem: 83 141<0 292 0 292 420 700> 334 141<197 503>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -11630,6 +11802,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D1
@@ -11640,7 +11813,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 680 20 748 101 788 102
 VStem: 32 141 114 281 336 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 PickledDataWithLists: "(dp1
@@ -11691,6 +11864,7 @@ I788
 sg8
 I102
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D2
@@ -11701,7 +11875,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 564 141 766 152
 VStem: 30 141 135 164 337 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 86 161 2
@@ -11749,6 +11923,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D3
@@ -11759,7 +11934,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 564 141 766 152
 VStem: 30 141 208 164 337 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 158 161 2
@@ -11807,6 +11982,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D4
@@ -11817,7 +11993,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 564 141 766 152
 VStem: 30 141 145 218 337 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 119 252 2
@@ -11865,6 +12041,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D5
@@ -11875,7 +12052,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 564 141 748 101 788 102
 VStem: 30 141 113 281 337 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 314 732 N 1 0 0 1 87 662 2
@@ -11928,6 +12105,7 @@ I788
 sg8
 I102
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D6
@@ -11938,7 +12116,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 564 141
 VStem: 30 141 337 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 94 163 2
@@ -11976,6 +12154,7 @@ I564
 sg8
 I141
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D7
@@ -11984,7 +12163,7 @@ GlifName: uni00D_7
 Width: 697
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -12002,6 +12181,7 @@ SplineSet
  101 257 l 257
  260 417 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni00D8
@@ -12012,7 +12192,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142<301.5 304 301.5 304 359 361.5 301.5 389> 564 141<239 305 239 359>
 VStem: 108 141<356 508> 415 141<195 347 347 347>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -12077,6 +12257,7 @@ I564
 sg8
 I141
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00D9
@@ -12087,7 +12268,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 680 20 766 152
 VStem: 32 141 137 164 339 140
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 88 161 2
@@ -12135,6 +12316,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00DA
@@ -12145,7 +12327,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 680 20 766 152
 VStem: 32 141 210 164 339 140
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 160 161 2
@@ -12193,6 +12375,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00DB
@@ -12203,7 +12386,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 680 20 766 152
 VStem: 32 141 147 218 339 140
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 121 252 2
@@ -12251,6 +12434,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00DC
@@ -12261,7 +12445,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 680 20
 VStem: 32 141 339 140
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 96 163 2
@@ -12299,6 +12483,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00DD
@@ -12309,7 +12494,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 680 20 766 152
 VStem: 157 146 194 164
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 144 161 2
@@ -12352,6 +12537,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00DE
@@ -12362,7 +12548,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<26 167 26 26> 0 21<26 167 26 26> 208 139<221 254 254 257.5 221 299.5> 451 139<221 254 221 311.5> 680 20<26 167 167 167>
 VStem: 26 141<0 700 0 700> 305 143<373 423.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -12429,6 +12615,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00DF
@@ -12439,7 +12626,7 @@ VWidth: 0
 Flags: W
 HStem: 0 109<26 327 199 327 199 327> 586 119<199.5 242>
 VStem: 26 129<0 457 457 457> 191 114<355 364.5 355 408.5> 294 112<507 518 405 519 405 545.5> 379 117<136.5 175.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -12509,6 +12696,7 @@ I586
 sg8
 I119
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E0
@@ -12519,7 +12707,7 @@ VWidth: 0
 Flags: W
 HStem: 1 112 580 152
 VStem: 26 101 86 164 268 116
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 37 -25 2
@@ -12562,6 +12750,7 @@ I580
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E1
@@ -12572,7 +12761,7 @@ VWidth: 0
 Flags: W
 HStem: 1 112 580 152
 VStem: 26 101 159 164 268 116
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 109 -25 2
@@ -12615,6 +12804,7 @@ I580
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E2
@@ -12625,7 +12815,7 @@ VWidth: 0
 Flags: W
 HStem: 1 112 580 152
 VStem: 26 101 96 218 268 116
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 70 66 2
@@ -12668,6 +12858,7 @@ I580
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E3
@@ -12678,7 +12869,7 @@ VWidth: 0
 Flags: W
 HStem: 1 112 562 101 602 102
 VStem: 26 101 64 281 268 116
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 314 732 N 1 0 0 1 38 476 2
@@ -12726,6 +12917,7 @@ I602
 sg8
 I102
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E4
@@ -12736,7 +12928,7 @@ VWidth: 0
 Flags: W
 HStem: 1 112
 VStem: 26 101 268 116
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 44 -23 2
@@ -12769,6 +12961,7 @@ I1
 sg8
 I112
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E5
@@ -12779,7 +12972,7 @@ VWidth: 0
 Flags: W
 HStem: 1 112 580 64 708 64
 VStem: 26 101 108 64 236 64 268 116
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 312 730 N 1 0 0 1 82 150 2
@@ -12832,6 +13025,7 @@ I708
 sg8
 I64
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E6
@@ -12842,7 +13036,7 @@ VWidth: 0
 Flags: W
 HStem: 1 112<163 180 163 180 229 232 163 229> 208 116<384 525 384 639 384 525> 400 116<424 426 426 429>
 VStem: 26 101<139 149 149 162 139 180 139 196.5> 268 116<149 208 132 227 132 227 351 363 363 373> 525 114<324 369 369 378 208 382.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -12940,6 +13134,7 @@ I400
 sg8
 I116
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E7
@@ -12950,7 +13145,7 @@ VWidth: 0
 Flags: W
 HStem: -199 91 -1 117 496 20
 VStem: 30 119 178 92
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N 1 0 0 1 76 -163 2
@@ -12993,6 +13188,7 @@ I496
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E8
@@ -13003,7 +13199,7 @@ VWidth: 0
 Flags: W
 HStem: 0 111 208 116 402 114 577 152
 VStem: 26 122 93 164 283 114
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 44 -28 2
@@ -13056,6 +13252,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00E9
@@ -13066,7 +13263,7 @@ VWidth: 0
 Flags: W
 HStem: 0 111 208 116 402 114 577 152
 VStem: 26 122 166 164 283 114
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 116 -28 2
@@ -13119,6 +13316,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00EA
@@ -13129,7 +13327,7 @@ VWidth: 0
 Flags: W
 HStem: 0 111 208 116 402 114 577 152
 VStem: 26 122 103 218 283 114
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 77 63 2
@@ -13182,6 +13380,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00EB
@@ -13192,7 +13391,7 @@ VWidth: 0
 Flags: W
 HStem: 0 111 208 116 402 114
 VStem: 26 122 283 114
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 52 -26 2
@@ -13235,6 +13434,7 @@ I402
 sg8
 I114
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00EC
@@ -13245,7 +13445,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<39 161 39 39> 0 21<39 161 39 39> 496 20<39 161 161 161>
 VStem: 39 122<0 516>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -13293,6 +13493,7 @@ I496
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00ED
@@ -13303,7 +13504,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<39 161 39 39> 0 21<39 161 39 39> 496 20<39 161 161 161>
 VStem: 39 122<0 516>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -13351,6 +13552,7 @@ I496
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00EE
@@ -13361,7 +13563,7 @@ VWidth: 0
 Flags: W
 HStem: 577 152
 VStem: -22 218
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 -48 63 2
@@ -13389,6 +13591,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00EF
@@ -13399,7 +13602,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<39 161 39 39> 0 21<39 161 39 39> 496 20<39 161 161 161> 576 151<-7 35 163 205>
 VStem: -61 150<630 672> 39 122<0 516> 109 150<630 672>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -13467,6 +13670,7 @@ I576
 sg8
 I151
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F0
@@ -13477,7 +13681,7 @@ VWidth: 0
 Flags: W
 HStem: -1 118<132 192 186 192 233 239 186 233> 398 118<169.5 192 186 192 233 239 186 233>
 VStem: 28 120<144.5 154 154 363> 275 117<152 363 363 364 364 371.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -13554,6 +13758,7 @@ I398
 sg8
 I118
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F1
@@ -13564,7 +13769,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 398 121 562 101 602 102
 VStem: 30 124 76 281 280 124
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 314 732 N 1 0 0 1 50 476 2
@@ -13617,6 +13822,7 @@ I602
 sg8
 I102
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F2
@@ -13627,7 +13833,7 @@ VWidth: 0
 Flags: W
 HStem: -1 118 398 118 577 152
 VStem: 28 120 94 164 275 117
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 45 -28 2
@@ -13675,6 +13881,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F3
@@ -13685,7 +13892,7 @@ VWidth: 0
 Flags: W
 HStem: -1 118 398 118 577 152
 VStem: 28 120 167 164 275 117
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 117 -28 2
@@ -13733,6 +13940,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F4
@@ -13743,7 +13951,7 @@ VWidth: 0
 Flags: W
 HStem: -1 118 398 118 577 152
 VStem: 28 120 104 218 275 117
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 78 63 2
@@ -13791,6 +13999,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F5
@@ -13801,7 +14010,7 @@ VWidth: 0
 Flags: W
 HStem: -1 118 398 118 559 101 599 102
 VStem: 28 120 72 281 275 117
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 314 732 N 1 0 0 1 46 473 2
@@ -13854,6 +14063,7 @@ I599
 sg8
 I102
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F6
@@ -13864,7 +14074,7 @@ VWidth: 0
 Flags: W
 HStem: -1 118 398 118
 VStem: 28 120 275 117
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 52 -26 2
@@ -13902,6 +14112,7 @@ I398
 sg8
 I118
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F7
@@ -13912,7 +14123,7 @@ VWidth: 0
 Flags: W
 HStem: 40 151 228 127<100 550 100 550> 393 151
 VStem: 213 150
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -13957,6 +14168,7 @@ I393
 sg8
 I151
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F8
@@ -13967,7 +14179,7 @@ VWidth: 0
 Flags: W
 HStem: -1 118<195 231 225 231 272 278 225 272> 398 118<208.5 231 225 231 225 272 272 278>
 VStem: 67 120<253 363 253 376 253 398.5> 314 117<152 261 261 261>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -14038,6 +14250,7 @@ I398
 sg8
 I118
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00F9
@@ -14048,7 +14261,7 @@ VWidth: 0
 Flags: W
 HStem: -5 121 494 20 577 152
 VStem: 30 124 99 164 280 124
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 91 96 N 1 0 0 1 50 -28 2
@@ -14096,6 +14309,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00FA
@@ -14106,7 +14320,7 @@ VWidth: 0
 Flags: W
 HStem: -5 121 494 20 577 152
 VStem: 30 124 172 164 280 124
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 122 -28 2
@@ -14154,6 +14368,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00FB
@@ -14164,7 +14379,7 @@ VWidth: 0
 Flags: W
 HStem: -5 121 494 20 577 152
 VStem: 30 124 108 218 280 124
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 307 710 N 1 0 0 1 82 63 2
@@ -14212,6 +14427,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00FC
@@ -14222,7 +14438,7 @@ VWidth: 0
 Flags: W
 HStem: -5 121 494 20
 VStem: 30 124 280 124
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 57 -26 2
@@ -14260,6 +14476,7 @@ I494
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00FD
@@ -14270,7 +14487,7 @@ VWidth: 0
 Flags: W
 HStem: 495 20 577 152
 VStem: 145 164 188 1
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 95 -28 2
@@ -14308,6 +14525,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00FE
@@ -14318,7 +14536,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118<203 232 203 234> 398 118<196 228 196 228> 680 20<30 155 155 155>
 VStem: 30 125<-182 700 -182 700> 276 120<143 372 372 375>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -14379,6 +14597,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni00FF
@@ -14389,7 +14608,7 @@ VWidth: 0
 Flags: W
 HStem: 495 20
 VStem: 188 1
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 31 -26 2
@@ -14417,6 +14636,7 @@ I495
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0100
@@ -14425,11 +14645,12 @@ GlifName: uni0100
 Width: 516
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 14.5 54 2
 Refer: 60 65 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0101
@@ -14438,11 +14659,12 @@ GlifName: uni0101
 Width: 435
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 -50.5 -132 2
 Refer: 92 97 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0102
@@ -14451,11 +14673,12 @@ GlifName: uni0102
 Width: 516
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 310 728 N 1 0 0 1 147.5 336 2
 Refer: 60 65 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0103
@@ -14464,11 +14687,12 @@ GlifName: uni0103
 Width: 435
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 310 728 N 1 0 0 1 82.5 150 2
 Refer: 92 97 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0104
@@ -14477,11 +14701,12 @@ GlifName: uni0104
 Width: 516
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 569 -163 2
 Refer: 60 65 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0105
@@ -14490,11 +14715,12 @@ GlifName: uni0105
 Width: 435
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 512 -163 2
 Refer: 92 97 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0106
@@ -14503,11 +14729,12 @@ GlifName: uni0106
 Width: 494
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 160.5 161 2
 Refer: 62 67 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0107
@@ -14516,11 +14743,12 @@ GlifName: uni0107
 Width: 418
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 116.5 -28 2
 Refer: 94 99 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni010C
@@ -14529,11 +14757,12 @@ GlifName: uni010C_
 Width: 494
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 121 252 2
 Refer: 62 67 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni010D
@@ -14542,11 +14771,12 @@ GlifName: uni010D_
 Width: 418
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 77 63 2
 Refer: 94 99 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni010E
@@ -14555,11 +14785,12 @@ GlifName: uni010E_
 Width: 452
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 93 252 2
 Refer: 63 68 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni010F
@@ -14568,11 +14799,12 @@ GlifName: uni010F_
 Width: 414
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 424.5 569 2
 Refer: 95 100 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0110
@@ -14581,10 +14813,11 @@ GlifName: uni0110
 Width: 501
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 169 208 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0111
@@ -14595,7 +14828,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118<130 210 182 210 182 258 182 384> 398 118<180 210 180 210> 542 127 678 20<258 384 384 384>
 VStem: 30 118<142 143 143 373> 258 126<0 539 0 539 666 698>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -14669,6 +14902,7 @@ I678
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0112
@@ -14677,11 +14911,12 @@ GlifName: uni0112
 Width: 422
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 -41 54 2
 Refer: 64 69 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0113
@@ -14690,11 +14925,12 @@ GlifName: uni0113
 Width: 424
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 -43 -135 2
 Refer: 96 101 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0116
@@ -14703,11 +14939,12 @@ GlifName: uni0116
 Width: 422
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 311 729 N 1 0 0 1 113 163 2
 Refer: 64 69 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0117
@@ -14716,11 +14953,12 @@ GlifName: uni0117
 Width: 424
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 311 729 N 1 0 0 1 111 -26 2
 Refer: 96 101 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0118
@@ -14729,11 +14967,12 @@ GlifName: uni0118
 Width: 422
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 498 -163 2
 Refer: 64 69 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0119
@@ -14742,11 +14981,12 @@ GlifName: uni0119
 Width: 424
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 481 -163 2
 Refer: 96 101 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni011A
@@ -14755,11 +14995,12 @@ GlifName: uni011A_
 Width: 422
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 79 252 2
 Refer: 64 69 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni011B
@@ -14768,11 +15009,12 @@ GlifName: uni011B_
 Width: 424
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 77 63 2
 Refer: 96 101 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni011E
@@ -14781,11 +15023,12 @@ GlifName: uni011E_
 Width: 493
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 310 728 N 1 0 0 1 127 336 2
 Refer: 66 71 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni011F
@@ -14794,11 +15037,12 @@ GlifName: uni011F_
 Width: 415
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 310 728 N 1 0 0 1 167 147 2
 Refer: 98 103 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0122
@@ -14807,11 +15051,12 @@ GlifName: uni0122
 Width: 493
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 116 -195 2
 Refer: 66 71 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0123
@@ -14820,11 +15065,12 @@ GlifName: uni0123
 Width: 415
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 114 -28 2
 Refer: 98 103 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni012A
@@ -14833,11 +15079,12 @@ GlifName: uni012A_
 Width: 209
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 -150.5 54 2
 Refer: 68 73 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni012B
@@ -14846,11 +15093,12 @@ GlifName: uni012B_
 Width: 174
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 -168 -135 2
 Refer: 248 305 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni012E
@@ -14859,11 +15107,12 @@ GlifName: uni012E_
 Width: 209
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 252 -163 2
 Refer: 68 73 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni012F
@@ -14872,11 +15121,12 @@ GlifName: uni012F_
 Width: 199
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 248 -163 2
 Refer: 100 105 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0130
@@ -14885,11 +15135,12 @@ GlifName: uni0130
 Width: 209
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 311 729 N 1 0 0 1 3.5 163 2
 Refer: 68 73 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0131
@@ -14898,7 +15149,7 @@ GlifName: uni0131
 Width: 174
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -14908,6 +15159,7 @@ SplineSet
  148 516 l 257
  148 0 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni0136
@@ -14916,11 +15168,12 @@ GlifName: uni0136
 Width: 475
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 108.5 -190 2
 Refer: 70 75 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0137
@@ -14929,11 +15182,12 @@ GlifName: uni0137
 Width: 452
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 96 -190 2
 Refer: 102 107 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0139
@@ -14942,11 +15196,12 @@ GlifName: uni0139
 Width: 428
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 0.5 161 2
 Refer: 71 76 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni013A
@@ -14955,11 +15210,12 @@ GlifName: uni013A_
 Width: 184
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 -0.5 154 2
 Refer: 103 108 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni013B
@@ -14968,11 +15224,12 @@ GlifName: uni013B_
 Width: 428
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 81 -190 2
 Refer: 71 76 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni013C
@@ -14981,11 +15238,12 @@ GlifName: uni013C_
 Width: 184
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 -37.5 -190 2
 Refer: 103 108 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni013D
@@ -14994,11 +15252,12 @@ GlifName: uni013D_
 Width: 428
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 442.5 576 2
 Refer: 71 76 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni013E
@@ -15007,11 +15266,12 @@ GlifName: uni013E_
 Width: 184
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 135.5 569 2
 Refer: 103 108 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0141
@@ -15022,7 +15282,7 @@ VWidth: 0
 Flags: W
 HStem: 0 139<270 505 270 505> 680 20<129 270 270 270>
 VStem: 129 141<139 233 233 233 492 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -15070,6 +15330,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0142
@@ -15080,7 +15341,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 678 20
 VStem: 147 131
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -15119,6 +15380,7 @@ I678
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0143
@@ -15127,11 +15389,12 @@ GlifName: uni0143
 Width: 509
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 159 161 2
 Refer: 73 78 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0144
@@ -15140,11 +15403,12 @@ GlifName: uni0144
 Width: 434
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 121.5 -25 2
 Refer: 105 110 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0145
@@ -15153,11 +15417,12 @@ GlifName: uni0145
 Width: 509
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 121.5 -190 2
 Refer: 73 78 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0146
@@ -15166,11 +15431,12 @@ GlifName: uni0146
 Width: 434
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 84 -190 2
 Refer: 105 110 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0147
@@ -15179,11 +15445,12 @@ GlifName: uni0147
 Width: 509
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 119.5 252 2
 Refer: 73 78 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0148
@@ -15192,11 +15459,12 @@ GlifName: uni0148
 Width: 434
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 82 66 2
 Refer: 105 110 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni014C
@@ -15205,11 +15473,12 @@ GlifName: uni014C_
 Width: 508
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 -1 54 2
 Refer: 74 79 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni014D
@@ -15218,11 +15487,12 @@ GlifName: uni014D_
 Width: 420
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 -42.5 -135 2
 Refer: 106 111 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0150
@@ -15231,11 +15501,12 @@ GlifName: uni0150
 Width: 508
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 315 733 N 1 0 0 1 115 161 2
 Refer: 74 79 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0151
@@ -15244,11 +15515,12 @@ GlifName: uni0151
 Width: 420
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 315 733 N 1 0 0 1 73.5 -28 2
 Refer: 106 111 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0152
@@ -15259,7 +15531,7 @@ VWidth: 0
 Flags: W
 HStem: -5 142 564 141
 VStem: 26 141<200 503> 333 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -15323,6 +15595,7 @@ I564
 sg8
 I141
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0153
@@ -15333,7 +15606,7 @@ VWidth: 0
 Flags: W
 HStem: -1 114<130 190 184 190 231 237 184 231> 208 116<395 530 395 644 395 530> 398 118<167.5 190 184 190 231 237 184 231>
 VStem: 26 120<141 142 142 373> 273 122<140 141 141 208 324 369> 530 114<324 369 369 378>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -15431,6 +15704,7 @@ I398
 sg8
 I118
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0154
@@ -15439,11 +15713,12 @@ GlifName: uni0154
 Width: 495
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 34 161 2
 Refer: 77 82 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0155
@@ -15452,11 +15727,12 @@ GlifName: uni0155
 Width: 316
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 81 -28 2
 Refer: 109 114 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0156
@@ -15465,11 +15741,12 @@ GlifName: uni0156
 Width: 495
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 117.5 -190 2
 Refer: 77 82 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0157
@@ -15478,11 +15755,12 @@ GlifName: uni0157
 Width: 316
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 -35 -190 2
 Refer: 109 114 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0158
@@ -15491,11 +15769,12 @@ GlifName: uni0158
 Width: 495
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 -5.5 252 2
 Refer: 77 82 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0159
@@ -15504,11 +15783,12 @@ GlifName: uni0159
 Width: 316
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 41.5 63 2
 Refer: 109 114 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni015A
@@ -15517,11 +15797,12 @@ GlifName: uni015A_
 Width: 497
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 148 161 2
 Refer: 78 83 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni015B
@@ -15530,11 +15811,12 @@ GlifName: uni015B_
 Width: 418
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 107.5 -27 2
 Refer: 110 115 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni015E
@@ -15543,11 +15825,12 @@ GlifName: uni015E_
 Width: 497
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N 1 0 0 1 95.5 -120.7 2
 Refer: 78 83 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni015F
@@ -15556,11 +15839,12 @@ GlifName: uni015F_
 Width: 418
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N 1 0 0 1 56.5 -122.7 2
 Refer: 110 115 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0160
@@ -15571,7 +15855,7 @@ VWidth: 0
 Flags: W
 HStem: 680 20 766 152
 VStem: 34 134 126 218 326 141
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 100 252 2
@@ -15614,6 +15898,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0161
@@ -15624,7 +15909,7 @@ VWidth: 0
 Flags: W
 HStem: 404 113 578 152
 VStem: 31 112 97 218 285 117
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 71 64 2
@@ -15667,6 +15952,7 @@ I578
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0162
@@ -15675,11 +15961,12 @@ GlifName: uni0162
 Width: 485
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N 1 0 0 1 94.5 -162.7 2
 Refer: 79 84 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0163
@@ -15688,11 +15975,12 @@ GlifName: uni0163
 Width: 324
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N 1 0 0 1 122.5 -162.7 2
 Refer: 111 116 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0164
@@ -15701,11 +15989,12 @@ GlifName: uni0164
 Width: 485
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 107.5 252 2
 Refer: 79 84 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0165
@@ -15714,11 +16003,12 @@ GlifName: uni0165
 Width: 324
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 190.5 571 2
 Refer: 111 116 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni016A
@@ -15727,11 +16017,12 @@ GlifName: uni016A_
 Width: 512
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 0.5 54 2
 Refer: 80 85 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni016B
@@ -15740,11 +16031,12 @@ GlifName: uni016B_
 Width: 434
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 136 175 N 1 0 0 1 -38 -135 2
 Refer: 112 117 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni016E
@@ -15753,11 +16045,12 @@ GlifName: uni016E_
 Width: 512
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 312 730 N 1 0 0 1 133.5 336 2
 Refer: 80 85 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni016F
@@ -15766,11 +16059,12 @@ GlifName: uni016F_
 Width: 434
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 312 730 N 1 0 0 1 95 147 2
 Refer: 112 117 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0170
@@ -15779,11 +16073,12 @@ GlifName: uni0170
 Width: 512
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 315 733 N 1 0 0 1 116.5 161 2
 Refer: 80 85 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0171
@@ -15792,11 +16087,12 @@ GlifName: uni0171
 Width: 434
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 315 733 N 1 0 0 1 78 -28 2
 Refer: 112 117 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0172
@@ -15807,7 +16103,7 @@ VWidth: 0
 Flags: W
 HStem: -199 91 -5 142 680 20
 VStem: 32 141 210 92 339 140
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 404 -163 2
@@ -15855,6 +16151,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0173
@@ -15863,11 +16160,12 @@ GlifName: uni0173
 Width: 434
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 492 -163 2
 Refer: 112 117 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0178
@@ -15878,7 +16176,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 680 20
 VStem: 157 146
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 129 168 N 1 0 0 1 80 163 2
@@ -15911,6 +16209,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0179
@@ -15919,11 +16218,12 @@ GlifName: uni0179
 Width: 418
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 113.5 161 2
 Refer: 85 90 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni017A
@@ -15932,11 +16232,12 @@ GlifName: uni017A_
 Width: 348
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 141 180 N 1 0 0 1 78.5 -28 2
 Refer: 117 122 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni017B
@@ -15945,11 +16246,12 @@ GlifName: uni017B_
 Width: 418
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 311 729 N 1 0 0 1 108 163 2
 Refer: 85 90 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni017C
@@ -15958,11 +16260,12 @@ GlifName: uni017C_
 Width: 348
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 311 729 N 1 0 0 1 73 -26 2
 Refer: 117 122 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni017D
@@ -15973,7 +16276,7 @@ VWidth: 0
 Flags: W
 HStem: 0 144 560 140 766 152
 VStem: 26 366 100 218
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 74 252 2
@@ -16016,6 +16319,7 @@ I766
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni017E
@@ -16026,7 +16330,7 @@ VWidth: 0
 Flags: W
 HStem: 0 118 394 120 577 152
 VStem: 26 296 67 218
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 308 711 N 1 0 0 1 41 63 2
@@ -16069,6 +16373,7 @@ I577
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0192
@@ -16079,7 +16384,7 @@ VWidth: 0
 Flags: W
 HStem: -168 105<53 108 53 109 26 108> 400 116<78 141 78 141> 579 117<296 329 296 296>
 VStem: 141 122<-36 -30 -30 0 0 7 7 400 516 552>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16142,6 +16447,7 @@ I579
 sg8
 I117
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni0218
@@ -16150,11 +16456,12 @@ GlifName: uni0218
 Width: 497
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 110.5 -193 2
 Refer: 78 83 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni0219
@@ -16163,11 +16470,12 @@ GlifName: uni0219
 Width: 418
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 71.5 -195 2
 Refer: 110 115 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni021A
@@ -16176,11 +16484,12 @@ GlifName: uni021A_
 Width: 485
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 109.5 -190 2
 Refer: 79 84 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni021B
@@ -16189,11 +16498,12 @@ GlifName: uni021B_
 Width: 324
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 39 44 N 1 0 0 1 137.5 -190 2
 Refer: 111 116 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni02C6
@@ -16204,7 +16514,7 @@ VWidth: 0
 Flags: W
 HStem: 514 152<26 167 101 107 162 162 162 167 101 244>
 VStem: 26 218<514 514>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16240,6 +16550,7 @@ I514
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni02C7
@@ -16250,7 +16561,7 @@ VWidth: 0
 Flags: W
 HStem: 514 152<101 107 162 167 101 101>
 VStem: 26 218<666 666>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16286,6 +16597,7 @@ I514
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni02C9
@@ -16296,7 +16608,7 @@ VWidth: 0
 Flags: W
 HStem: 514 82<50 366 50 366>
 VStem: 50 316<514 596 514 596>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16329,6 +16641,7 @@ I514
 sg8
 I82
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni02D8
@@ -16339,7 +16652,7 @@ VWidth: 0
 Flags: W
 HStem: 430 64<113 131 113 148.5>
 VStem: 26 64<517 526 517 526> 154 64<517 526>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16379,6 +16692,7 @@ I430
 sg8
 I64
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni02D9
@@ -16389,7 +16703,7 @@ VWidth: 0
 Flags: W
 HStem: 603 151<80 122>
 VStem: 26 150<657 699>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16422,6 +16736,7 @@ I603
 sg8
 I151
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni02DA
@@ -16432,7 +16747,7 @@ VWidth: 0
 Flags: W
 HStem: 430 64<113 131 113 148.5> 558 64<113 131>
 VStem: 26 64<517 535 517 552.5> 154 64<517 535>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16480,6 +16795,7 @@ I558
 sg8
 I64
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni02DB
@@ -16488,10 +16804,11 @@ GlifName: uni02D_B_
 Width: 219
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 145 184 N -1 0 0 1 229 -163 2
+Layer: 2
 EndChar
 
 StartChar: uni02DC
@@ -16502,7 +16819,7 @@ VWidth: 0
 Flags: W
 HStem: 86 101<201.5 234.5> 126 102<86.5 116>
 VStem: 26 281<114 114 114 206 206 206>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16544,6 +16861,7 @@ I126
 sg8
 I102
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni02DD
@@ -16554,7 +16872,7 @@ VWidth: 0
 Flags: W
 HStem: 605 152<55 109 26 167 55 169 198 252>
 VStem: 26 284<605 757>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16592,6 +16910,7 @@ I605
 sg8
 I152
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni03C0
@@ -16602,7 +16921,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21 389 127<-28 26 -28 452 148 281 148 148 395 395 395 452>
 VStem: 26 122<-4 389 -4 389> 281 114<140 142 142 389>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16657,6 +16976,7 @@ I389
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2013
@@ -16666,7 +16986,7 @@ Width: 532
 VWidth: 0
 Flags: W
 HStem: 230 127<26 506 26 506>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16691,6 +17011,7 @@ sS'width'
 p8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2014
@@ -16700,7 +17021,7 @@ Width: 906
 VWidth: 0
 Flags: W
 HStem: 230 127<26 880 26 880>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -16725,6 +17046,7 @@ sS'width'
 p8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2018
@@ -16735,7 +17057,7 @@ VWidth: 0
 Flags: W
 HStem: 465 271
 VStem: 30 127
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 34 39 N 1 0 0 1 0 0 2
@@ -16762,6 +17084,7 @@ I465
 sg8
 I271
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2019
@@ -16772,7 +17095,7 @@ VWidth: 0
 Flags: W
 HStem: 465 271
 VStem: 30 127
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 34 39 N 1 0 0 1 0 0 2
@@ -16799,6 +17122,7 @@ I465
 sg8
 I271
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni201A
@@ -16809,7 +17133,7 @@ VWidth: 0
 Flags: W
 HStem: 465 271
 VStem: 30 127
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 34 39 N 1 0 0 1 0 0 2
@@ -16836,6 +17160,7 @@ I465
 sg8
 I271
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni201C
@@ -16846,7 +17171,7 @@ VWidth: 0
 Flags: W
 HStem: 465 271
 VStem: 26 127 206 127
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 29 34 N 1 0 0 1 0 0 2
@@ -16878,6 +17203,7 @@ I465
 sg8
 I271
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni201D
@@ -16888,7 +17214,7 @@ VWidth: 0
 Flags: W
 HStem: 465 271
 VStem: 26 127 206 127
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 29 34 N 1 0 0 1 0 0 2
@@ -16920,6 +17246,7 @@ I465
 sg8
 I271
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni201E
@@ -16930,7 +17257,7 @@ VWidth: 0
 Flags: W
 HStem: 465 271
 VStem: 26 127 206 127
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 29 34 N 1 0 0 1 0 0 2
@@ -16962,6 +17289,7 @@ I465
 sg8
 I271
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2020
@@ -16972,7 +17300,7 @@ VWidth: 0
 Flags: W
 HStem: 450 127<26 156 26 156 297 427>
 VStem: 156 141<-56 450 -56 450 577 764>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17013,6 +17341,7 @@ I450
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2021
@@ -17023,7 +17352,7 @@ VWidth: 0
 Flags: W
 HStem: 131 127<26 156 26 156 297 427> 450 127<26 156 26 156 297 427>
 VStem: 156 141<-56 131 -56 131 258 450 577 764>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17077,6 +17406,7 @@ I450
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2022
@@ -17085,7 +17415,7 @@ GlifName: uni2022
 Width: 352
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17095,6 +17425,7 @@ SplineSet
  326 260 260 194 176 194 c 256
  92 194 26 260 26 344 c 256
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni2026
@@ -17103,12 +17434,13 @@ GlifName: uni2026
 Width: 250
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 41 46 N 1 0 0 1 200 1 2
 Refer: 41 46 N 1 0 0 1 -201 1 2
 Refer: 41 46 N 1 0 0 1 0 1 2
+Layer: 2
 EndChar
 
 StartChar: uni2030
@@ -17119,7 +17451,7 @@ VWidth: 0
 Flags: W
 HStem: 0 65<487 489 488 489 488 489 488 517 517 518 488 519 746 747 775 776> 287 65<488 490 488 490 516 518 488 516 746 748 774 776> 680 20<497 570 570 570>
 VStem: 26 68<499 522 522 551 499 592> 178 68<522 551 551 567> 393 68<148 171 171 201 148 242> 546 68<171 201 201 217> 651 68<148 171 171 201 148 242> 804 68<171 201 201 217>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17259,6 +17591,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2039
@@ -17268,7 +17601,7 @@ Width: 338
 VWidth: 0
 Flags: W
 VStem: 26 286<79 292>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17295,6 +17628,7 @@ sS'width'
 p8
 I286
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni203A
@@ -17304,7 +17638,7 @@ Width: 338
 VWidth: 0
 Flags: W
 VStem: 26 286<79 292 292 500>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17331,6 +17665,7 @@ sS'width'
 p8
 I286
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2044
@@ -17340,7 +17675,7 @@ Width: 560
 VWidth: 0
 Flags: W
 HStem: 682 20<458 534 534 534>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17365,6 +17700,7 @@ sS'width'
 p8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni20AC
@@ -17375,7 +17711,7 @@ VWidth: 0
 Flags: W
 HStem: 258 59<50 99 50 99 236 408> 376 60<236 408> 558 140<278 278 278 338>
 VStem: 99 137<182 202 202 258 178.5 258 317 376 436 488> 381 136<182 186 171 199 514 518>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17459,6 +17795,7 @@ I558
 sg8
 I140
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2113
@@ -17469,7 +17806,7 @@ VWidth: 0
 Flags: W
 HStem: 680 20<25 156 156 156>
 VStem: 25 131<193 700 193 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17504,6 +17841,7 @@ I680
 sg8
 I20
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2122
@@ -17514,7 +17852,7 @@ VWidth: 0
 Flags: W
 HStem: 653 47<26 72 26 165 120 165 120 120>
 VStem: 72 48<484 653 484 653> 188 48<484 522 484 628> 330 47<484 700 484 700>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17582,6 +17920,7 @@ I653
 sg8
 I47
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2126
@@ -17590,7 +17929,7 @@ GlifName: uni2126
 Width: 420
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17625,6 +17964,7 @@ SplineSet
  392 121 382 90 362 62 c 257
  407 62 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni212E
@@ -17633,7 +17973,7 @@ GlifName: uni212E_
 Width: 472
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17670,6 +18010,7 @@ SplineSet
  401 54 312 0 242 0 c 258
  236 0 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni2202
@@ -17678,7 +18019,7 @@ GlifName: uni2202
 Width: 420
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17715,6 +18056,7 @@ SplineSet
  78 -1 28 97 28 141 c 258
  28 376 l 258
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni2206
@@ -17723,7 +18065,7 @@ GlifName: uni2206
 Width: 414
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17737,6 +18079,7 @@ SplineSet
  -8 0 l 257
  419 0 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni220F
@@ -17745,7 +18088,7 @@ GlifName: uni220F_
 Width: 458
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17763,6 +18106,7 @@ SplineSet
  131 598 l 257
  327 598 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni2211
@@ -17771,7 +18115,7 @@ GlifName: uni2211
 Width: 676
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17797,6 +18141,7 @@ SplineSet
  496 -28 l 257
  -2 -28 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni2212
@@ -17807,7 +18152,7 @@ VWidth: 0
 Flags: W
 HStem: 230 127
 VStem: 100 316
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 40 45 N 1 0 0 1 0 0 2
@@ -17834,6 +18179,7 @@ I230
 sg8
 I127
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2215
@@ -17842,10 +18188,11 @@ GlifName: uni2215
 Width: 560
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 332 8260 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni2219
@@ -17854,10 +18201,11 @@ GlifName: uni2219
 Width: 250
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 41 46 N 1 0 0 1 0 369 2
+Layer: 2
 EndChar
 
 StartChar: uni221A
@@ -17866,7 +18214,7 @@ GlifName: uni221A_
 Width: 560
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17881,6 +18229,7 @@ SplineSet
  316 -2 l 257
  117 494 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni221E
@@ -17889,7 +18238,7 @@ GlifName: uni221E_
 Width: 420
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17946,6 +18295,7 @@ SplineSet
  275 413 269 431 239 431 c 258
  233 431 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni222B
@@ -17956,7 +18306,7 @@ VWidth: 0
 Flags: W
 HStem: -205 65<1 3.5 1 31> 754 65<279.5 282>
 VStem: 98 89<-59.5 625 -3 625>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -17998,6 +18348,7 @@ I754
 sg8
 I65
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni2248
@@ -18006,7 +18357,7 @@ GlifName: uni2248
 Width: 568
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -18029,6 +18380,7 @@ SplineSet
  422 497 464 509 518 542 c 257
  518 411 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni2260
@@ -18037,11 +18389,12 @@ GlifName: uni2260
 Width: 418
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 Refer: 42 47 N 1 0 0 1 8.5 -55 2
 Refer: 56 61 N 1 0 0 1 0 0 2
+Layer: 2
 EndChar
 
 StartChar: uni2264
@@ -18050,7 +18403,7 @@ GlifName: uni2264
 Width: 414
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -18068,6 +18421,7 @@ SplineSet
  30 389 l 257
  384 567 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uni2265
@@ -18077,7 +18431,7 @@ Width: 414
 VWidth: 0
 Flags: W
 HStem: -123 107<-16 434 -16 434>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -18110,6 +18464,7 @@ sS'width'
 p8
 I107
 sass."
+Layer: 2
 EndChar
 
 StartChar: uni25CA
@@ -18118,7 +18473,7 @@ GlifName: uni25C_A_
 Width: 414
 VWidth: 0
 Flags: W
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -18147,6 +18502,7 @@ SplineSet
  175 -2 l 257
  -3 352 l 257
 EndSplineSet
+Layer: 2
 EndChar
 
 StartChar: uniFB01
@@ -18157,7 +18513,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<89 211 89 89 335 457 335 335> 0 21<89 211 89 89 335 457 335 335> 400 116<26 89 26 89 211 335> 558 145<375 415> 579 117<244 277 244 244>
 VStem: 89 122<0 400 0 400 516 552> 322 146<610.5 650> 335 122<0 400 400 400>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -18239,6 +18595,7 @@ I579
 sg8
 I117
 sass."
+Layer: 2
 EndChar
 
 StartChar: uniFB02
@@ -18249,7 +18606,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21<89 211 89 89 331 457 331 331> 0 21<89 211 89 89 331 457 331 331> 400 116<26 89 26 89> 579 117<244 331 244 244>
 VStem: 89 122<0 400 0 400 516 552> 331 126<0 579 579 579>
-LayerCount: 2
+LayerCount: 3
 Back
 Fore
 SplineSet
@@ -18316,6 +18673,7 @@ I579
 sg8
 I117
 sass."
+Layer: 2
 EndChar
 EndChars
 EndSplineFont
