@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437567772
+ModificationTime: 1437568316
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,13 +482,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 221 13 4
+WinInfo: 0 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -786,29 +786,29 @@ GlifName: B_
 Width: 484
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
-221 122 m 261
- 308 122 324 179 324 205 c 260
- 324 227 311 289 221 289 c 261
- 221 411 l 261
- 281 411 322 446 322 497 c 260
- 322 547 280 576 221 577 c 261
- 221 700 l 261
- 229 701 237 701 245 701 c 260
- 397 701 454 574 454 514 c 262
- 454 513 l 262
- 453 421 420 378 385 352 c 261
- 423 322 458 285 458 201 c 260
- 458 199 458 198 458 197 c 260
- 457 86 366 -2 249 -2 c 260
- 240 -2 230 -1 221 0 c 261
- 221 122 l 261
+221 122 m 257
+ 308 122 324 179 324 205 c 256
+ 324 227 311 289 221 289 c 257
+ 221 411 l 257
+ 281 411 322 446 322 497 c 256
+ 322 547 280 576 221 577 c 257
+ 221 700 l 257
+ 229 700 245 700 245 700 c 258
+ 397 700 454 574 454 514 c 258
+ 454 513 l 258
+ 453 421 420 378 385 352 c 257
+ 423 322 458 285 458 201 c 256
+ 458 199 458 198 458 197 c 256
+ 457 86 366 -2 249 -2 c 256
+ 240 -2 230 -1 221 0 c 257
+ 221 122 l 257
 26 700 m 257
- 167 700 l 257
- 167 0 l 257
+ 66 700 l 261
+ 66 0 l 261
  26 0 l 257
  26 700 l 257
 EndSplineSet
@@ -7158,7 +7158,7 @@ GlifName: oe
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -1 114<130 190 184 190 231 237 184 231> 208 116<395 530 395 644 395 530> 398 118<167.5 190 184 190 231 237 184 231>
 VStem: 26 120<141 142 142 373> 273 122<140 141 141 208 324 369> 530 114<324 369 369 378>
 LayerCount: 3
