@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437565548
+ModificationTime: 1437565730
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 273 13 4
+WinInfo: 260 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3903,21 +3903,20 @@ GlifName: breve
 Width: 244
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 430 64<113 131 113 148.5>
 VStem: 26 64<517 526 517 526> 154 64<517 526>
 LayerCount: 3
 Fore
 SplineSet
-218 526 m 257
- 218 473 175 430 122 430 c 256
- 69 430 26 473 26 526 c 257
+186 526 m 261
+ 186 504.799804688 166 463.799804688 122 463.799804688 c 256
+ 78 463.799804688 58 504.799804688 58 526 c 257
  90 526 l 257
  90 508 104 494 122 494 c 256
  140 494 154 508 154 526 c 257
- 218 526 l 257
+ 186 526 l 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 218 526 m 257
