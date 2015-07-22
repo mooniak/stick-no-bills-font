@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437563613
+ModificationTime: 1437565502
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 221 13 4
+WinInfo: 273 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4845,19 +4845,18 @@ GlifName: dotaccent
 Width: 202
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 603 151<80 122>
 VStem: 26 150<657 699>
 LayerCount: 3
 Fore
 SplineSet
-26 678 m 256
- 26 720 59 754 101 754 c 256
- 143 754 176 720 176 678 c 256
- 176 636 143 603 101 603 c 256
- 59 603 26 636 26 678 c 256
+63.5 678.25 m 260
+ 63.5 699.25 80 716.25 101 716.25 c 260
+ 122 716.25 138.5 699.25 138.5 678.25 c 260
+ 138.5 657.25 122 640.75 101 640.75 c 260
+ 80 640.75 63.5 657.25 63.5 678.25 c 260
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 26 678 m 256
