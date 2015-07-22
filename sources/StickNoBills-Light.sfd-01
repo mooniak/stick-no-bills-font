@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437545120
+ModificationTime: 1437545304
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 130 13 4
+WinInfo: 260 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5127,18 +5127,17 @@ GlifName: emdash
 Width: 906
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 230 127<26 880 26 880>
 LayerCount: 3
 Fore
 SplineSet
-880 357 m 257
- 880 230 l 257
- 26 230 l 257
- 26 357 l 257
- 880 357 l 257
+880 314 m 261
+ 880 276 l 261
+ 26 276 l 261
+ 26 314 l 261
+ 880 314 l 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 880 357 m 257
@@ -5155,18 +5154,17 @@ GlifName: endash
 Width: 532
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 230 127<26 506 26 506>
 LayerCount: 3
 Fore
 SplineSet
 506 357 m 257
- 506 230 l 257
- 26 230 l 257
+ 506 319 l 261
+ 26 319 l 261
  26 357 l 257
  506 357 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 506 357 m 257
