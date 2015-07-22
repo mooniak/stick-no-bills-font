@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437565730
+ModificationTime: 1437565775
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3903,7 +3903,7 @@ GlifName: breve
 Width: 244
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 430 64<113 131 113 148.5>
 VStem: 26 64<517 526 517 526> 154 64<517 526>
 LayerCount: 3
@@ -11300,17 +11300,17 @@ StartChar: uni02C9
 Encoding: 283 713 309
 Width: 416
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 514 82<50 366>
 VStem: 50 316<514 596>
 LayerCount: 3
 Fore
 SplineSet
-366 596 m 257
- 366 514 l 257
- 50 514 l 257
- 50 596 l 257
- 366 596 l 257
+366 570 m 261
+ 366 540 l 261
+ 50 540 l 261
+ 50 570 l 261
+ 366 570 l 261
 EndSplineSet
 Layer: 2
 SplineSet
