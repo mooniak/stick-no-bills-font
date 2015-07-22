@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437571053
+ModificationTime: 1437571307
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 273 13 4
+WinInfo: 286 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2478,15 +2478,15 @@ VStem: 172 141<0 562 0 562>
 LayerCount: 3
 Fore
 SplineSet
-459 700 m 257xb0
- 459 662 l 257
- 262 662 l 257
- 262 0 l 257
- 222 0 l 257
- 222 662 l 257
- 26 662 l 257
- 26 700 l 257
- 459 700 l 257xb0
+459 700 m 261xb0
+ 459 662 l 261
+ 262 662 l 261
+ 262 0 l 261
+ 222 0 l 261
+ 222 662 l 261
+ 26 662 l 261
+ 26 700 l 261
+ 459 700 l 261xb0
 EndSplineSet
 Layer: 2
 SplineSet
@@ -2551,47 +2551,16 @@ EndChar
 StartChar: uni2122
 Encoding: 311 8482 51
 GlifName: T_radeM_arkS_ign
-Width: 403
+Width: 485
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 653 47<26 72 26 165 120 165 120 120>
 VStem: 72 48<484 653 484 653> 188 48<484 522 484 628> 330 47<484 700 484 700>
 LayerCount: 3
 Fore
-SplineSet
-188 484 m 257
- 188 628 l 257
- 191 628 l 257
- 236 522 l 257
- 236 484 l 257
- 188 484 l 257
-188 700 m 257
- 225 700 l 257
- 281 564 l 257
- 313 636 l 257
- 317 636 l 257
- 317 529 l 257
- 298 484 l 257
- 265 484 l 257
- 188 669 l 257
- 188 700 l 257
-330 700 m 257
- 377 700 l 257
- 377 484 l 257
- 330 484 l 257
- 330 700 l 257
-165 700 m 257
- 165 653 l 257
- 120 653 l 257
- 120 484 l 257
- 72 484 l 257
- 72 653 l 257
- 26 653 l 257
- 26 700 l 257
- 165 700 l 257
-EndSplineSet
-Validated: 1
+Refer: 32 77 S 0.306 0 0 0.306 178.572 484.9 2
+Refer: 49 84 N 0.306 0 0 0.306 21.295 484.9 2
 Layer: 2
 SplineSet
 188 484 m 257
