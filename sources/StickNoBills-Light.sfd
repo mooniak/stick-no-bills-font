@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437570219
+ModificationTime: 1437570669
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 156 13 4
+WinInfo: 260 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5207,7 +5207,7 @@ GlifName: eth
 Width: 420
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -1 118<132 192 186 192 233 239 186 233> 398 118<169.5 192 186 192 233 239 186 233>
 VStem: 28 120<144.5 154 154 363> 275 117<152 363 363 364 364 371.5>
 LayerCount: 3
@@ -5594,39 +5594,34 @@ GlifName: florin
 Width: 382
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -168 105<53 108 53 109 26 108> 400 116<78 141 78 141> 579 117<296 329 296 296>
 VStem: 141 122<-36 -30 -30 0 0 7 7 400 516 552>
 LayerCount: 3
 Fore
 SplineSet
-141 552 m 258
- 141 597 192 695 295 696 c 258
+141 535 m 258
+ 141 606 192 695 295 696 c 258
  356 696 l 257
- 329 579 l 257
- 296 579 l 258
- 268 578 263 555 263 552 c 258
- 263 515 l 257
- 329 516 l 257
- 329 400 l 257
- 263 400 l 257
- 263 7 l 257
- 263 0 l 257
- 263 -30 l 258
- 263 -92 221 -168 109 -168 c 258
+ 347 658 l 257
+ 320 658 l 262
+ 220 658 181 608 181 527 c 262
+ 181 475 l 257
+ 247 476 l 257
+ 247 438 l 257
+ 181 438 l 257
+ 181 -30 l 258
+ 181 -92 169 -168 57 -168 c 258
  26 -168 l 257
- 53 -63 l 257
- 108 -63 l 258
- 136 -62 141 -39 141 -36 c 258
- 141 0 l 257
- 141 7 l 257
- 141 400 l 257
- 78 400 l 257
- 78 516 l 257
- 141 516 l 257
- 141 552 l 258
+ 36 -130 l 257
+ 65 -130 l 258
+ 126 -130 141 -86 141 -43 c 258
+ 141 438 l 257
+ 78 438 l 257
+ 78 476 l 257
+ 141 476 l 257
+ 141 535 l 258
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 141 552 m 258
