@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437571386
+ModificationTime: 1437571467
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -4562,35 +4562,34 @@ GlifName: daggerdbl
 Width: 453
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 131 127<26 156 26 156 297 427> 450 127<26 156 26 156 297 427>
 VStem: 156 141<-56 131 -56 131 258 450 577 764>
 LayerCount: 3
 Fore
 SplineSet
-156 764 m 257
- 297 764 l 257
- 297 577 l 257
- 427 577 l 257
- 427 450 l 257
- 297 450 l 257
- 297 258 l 257
- 427 258 l 257
- 427 131 l 257
- 297 131 l 257
- 297 -56 l 257
- 156 -56 l 257
- 156 131 l 257
- 26 131 l 257
- 26 258 l 257
- 156 258 l 257
- 156 450 l 257
- 26 450 l 257
- 26 577 l 257
- 156 577 l 257
- 156 764 l 257
+207 764 m 257
+ 247 764 l 257
+ 247 534 l 261
+ 427 534 l 261
+ 427 496 l 261
+ 247 496 l 261
+ 247 212 l 257
+ 427 212 l 257
+ 427 174 l 257
+ 247 174 l 257
+ 247 -56 l 257
+ 207 -56 l 257
+ 207 174 l 257
+ 26 174 l 257
+ 26 212 l 257
+ 207 212 l 257
+ 207 496 l 261
+ 26 496 l 261
+ 26 534 l 261
+ 207 534 l 261
+ 207 764 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 156 764 m 257
