@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437502825
+ModificationTime: 1437543342
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -570,36 +570,34 @@ GlifName: A_E_
 Width: 727
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 141<478 701 478 701> 277 141<478 607 478 607> 560 140<320 337 320 320 478 478 478 483 483 701>
 VStem: 337 141<141 148 148 148 268 277 418 560>
 LayerCount: 3
 Fore
 SplineSet
-701 141 m 257
+701 38 m 257
  701 0 l 257
  337 0 l 257
- 337 148 l 257
- 272 148 l 257
- 301 268 l 257
- 337 268 l 257
- 337 560 l 257
- 320 560 l 257
+ 337 45 l 257
+ 272 45 l 257
+ 301 320 l 257
+ 337 320 l 257
+ 337 661 l 257
+ 320 661 l 257
  182 0 l 257
  26 0 l 257
  206 700 l 257
  701 700 l 257
- 701 560 l 257
- 483 560 l 257
- 478 560 l 257
- 478 418 l 257
- 607 418 l 257
- 607 277 l 257
- 478 277 l 257
- 478 141 l 257
- 701 141 l 257
+ 701 661 l 261
+ 478 661 l 261
+ 478 367 l 257
+ 607 367 l 257
+ 607 329 l 257
+ 478 329 l 257
+ 478 38 l 257
+ 701 38 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 701 141 m 257
