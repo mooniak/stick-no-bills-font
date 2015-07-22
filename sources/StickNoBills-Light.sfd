@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437561608
+ModificationTime: 1437561958
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 143 13 4
+WinInfo: 156 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -9150,32 +9150,31 @@ GlifName: thorn
 Width: 422
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 118<203 232 203 234> 398 118<196 228 196 228> 680 20<30 155 155 155>
 VStem: 30 125<-182 700 -182 700> 276 120<143 372 372 375>
 LayerCount: 3
 Fore
 SplineSet
 232 0 m 258
- 203 0 l 257
- 203 118 l 257
- 234 118 l 258
- 271 119 276 134 276 143 c 258
- 276 372 l 258
- 276 385 258 398 228 398 c 258
- 196 398 l 257
- 196 516 l 257
+ 122 0 l 257
+ 122 38 l 257
+ 234 38 l 262
+ 294 38 356 76 356 158 c 262
+ 356 364 l 258
+ 356 434 300 478 228 478 c 258
+ 115 478 l 257
+ 115 516 l 257
  228 516 l 258
  335 516 396 431 396 375 c 258
  396 139 l 258
  396 86 345 0 232 0 c 258
 30 700 m 257
- 155 700 l 257
- 155 -182 l 257
+ 70 700 l 257
+ 70 -182 l 257
  30 -182 l 257
  30 700 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 232 0 m 258
