@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437563227
+ModificationTime: 1437563330
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 52 13 4
+WinInfo: 39 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6488,20 +6488,20 @@ EndChar
 StartChar: uni006C
 Encoding: 76 108 145
 GlifName: l
-Width: 184
+Width: 192
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 21<30 161 30 30> 0 21<30 161 30 30> 678 20<30 161 161 161>
 VStem: 30 131<0 698>
 LayerCount: 3
 Fore
 SplineSet
-116 0 m 261xb0
- 76 0 l 261
- 76 698 l 261
- 116 698 l 261
- 116 0 l 261xb0
+116 0 m 257xb0
+ 76 0 l 257
+ 76 698 l 257
+ 116 698 l 257
+ 116 0 l 257xb0
 EndSplineSet
 Layer: 2
 SplineSet
@@ -6589,13 +6589,17 @@ VStem: 147 131
 LayerCount: 3
 Fore
 SplineSet
-261.518554688 382.395507812 m 1
- 75.86328125 239 l 1
- 51.3447265625 270.604492188 l 1
- 237 414 l 1
- 261.518554688 382.395507812 l 1
+231 0 m 257xb0
+ 191 0 l 257
+ 191 698 l 257
+ 231 698 l 257
+ 231 0 l 257xb0
+317.518554688 428.395507812 m 5
+ 131.86328125 285 l 5
+ 107.344726562 316.604492188 l 5
+ 293 460 l 5
+ 317.518554688 428.395507812 l 5
 EndSplineSet
-Refer: 145 108 S 1 0 0 1 75 0 2
 Layer: 2
 SplineSet
 326 536 m 257
@@ -11017,9 +11021,9 @@ EndChar
 
 StartChar: uni013A
 Encoding: 226 314 293
-Width: 184
+Width: 192
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 3
 Fore
 Refer: 68 180 N 1 0 0 1 -0.5 154 2
@@ -11045,9 +11049,9 @@ EndChar
 
 StartChar: uni013C
 Encoding: 228 316 295
-Width: 184
+Width: 192
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 3
 Fore
 Refer: 96 44 N 1 0 0 1 -37.5 -190 2
@@ -11244,7 +11248,7 @@ EndChar
 
 StartChar: uni013E
 Encoding: 230 318 305
-Width: 184
+Width: 192
 VWidth: 0
 Flags: HW
 LayerCount: 3
