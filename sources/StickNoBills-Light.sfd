@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437544679
+ModificationTime: 1437544909
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 260 13 4
+WinInfo: 130 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4083,7 +4083,7 @@ GlifName: caron
 Width: 270
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 514 152<101 107 162 167 101 101>
 VStem: 26 218<666 666>
 LayerCount: 3
@@ -6821,28 +6821,19 @@ EndChar
 StartChar: uni00D7
 Encoding: 150 215 153
 GlifName: multiply
-Width: 697
+Width: 510
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
-260 417 m 257
- 100 578 l 257
- 189 667 l 257
- 349 507 l 257
- 508 666 l 257
- 597 577 l 257
- 438 418 l 257
- 597 259 l 257
- 507 170 l 257
- 349 328 l 257
- 190 168 l 257
- 101 257 l 257
- 260 417 l 257
+507.19921875 170.072265625 m 257
+ 100.130859375 578.129882812 l 261
+ 127 605 l 261
+ 534.069335938 196.942382812 l 257
+ 507.19921875 170.072265625 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 260 417 m 257
@@ -9603,11 +9594,11 @@ HStem: -205 107<30 480 30 480>
 LayerCount: 3
 Fore
 SplineSet
-480 -205 m 257
- 30 -205 l 257
- 30 -167 l 257
- 480 -167 l 257
- 480 -205 l 257
+480 -205 m 261
+ 30 -205 l 261
+ 30 -167 l 261
+ 480 -167 l 261
+ 480 -205 l 261
 EndSplineSet
 Layer: 2
 SplineSet
