@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437571956
+ModificationTime: 1437572102
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 273 13 4
+WinInfo: 286 13 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3939,17 +3939,16 @@ GlifName: bullet
 Width: 352
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-26 344 m 256
- 26 428 92 496 176 496 c 256
- 260 496 326 428 326 344 c 256
- 326 260 260 194 176 194 c 256
- 92 194 26 260 26 344 c 256
+116 344.599609375 m 260
+ 116 378.200195312 142.400390625 405.400390625 176 405.400390625 c 260
+ 209.599609375 405.400390625 236 378.200195312 236 344.599609375 c 260
+ 236 311 209.599609375 284.599609375 176 284.599609375 c 260
+ 142.400390625 284.599609375 116 311 116 344.599609375 c 260
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 26 344 m 256
