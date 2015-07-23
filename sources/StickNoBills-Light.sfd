@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437678034
+ModificationTime: 1437678147
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -5993,20 +5993,19 @@ GlifName: guilsinglleft
 Width: 338
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 VStem: 26 286<79 292>
 LayerCount: 3
 Fore
 SplineSet
-157 500 m 257
- 312 500 l 257
- 181 292 l 257
- 312 79 l 257
- 157 79 l 257
- 26 292 l 257
- 157 500 l 257
+207 500 m 261
+ 257 500 l 261
+ 126 292 l 261
+ 257 79 l 261
+ 207 79 l 261
+ 76 292 l 261
+ 207 500 l 261
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 157 500 m 257
@@ -6025,7 +6024,7 @@ GlifName: guilsinglright
 Width: 338
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 VStem: 26 286<79 292 292 500>
 LayerCount: 3
 Fore
@@ -6033,12 +6032,11 @@ SplineSet
 181 500 m 257
  312 292 l 257
  181 79 l 257
- 26 79 l 257
- 157 292 l 257
- 26 500 l 257
+ 131 79 l 261
+ 262 292 l 261
+ 131 500 l 261
  181 500 l 257
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 181 500 m 257
