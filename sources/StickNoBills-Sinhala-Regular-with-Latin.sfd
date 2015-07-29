@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435774564
-ModificationTime: 1438008636
+ModificationTime: 1438163908
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -777,23 +777,24 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 0 8 6
 Grid
+-1024 -65 m 4
+ 2048 -65 l 1028
 -1024 474 m 0
  2048 474 l 1024
 -115 -234 m 0
@@ -815,10 +816,10 @@ Grid
 385 1331 m 0
  385 -717 l 1024
 EndSplineSet
-BeginChars: 65865 355
+BeginChars: 356 356
 
 StartChar: uni5713
-Encoding: 65536 22291 0
+Encoding: 26 22291 0
 GlifName: H_K_D_
 Width: 843
 VWidth: 0
@@ -933,7 +934,7 @@ Layer: 2
 EndChar
 
 StartChar: quotedbl.alt
-Encoding: 65537 -1 1
+Encoding: 27 -1 1
 GlifName: quotedbl.alt
 Width: 359
 VWidth: 0
@@ -987,7 +988,7 @@ Layer: 2
 EndChar
 
 StartChar: si_A
-Encoding: 2 3461 2
+Encoding: 0 3461 2
 GlifName: si_A_
 Width: 548
 VWidth: 0
@@ -1055,7 +1056,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Aa
-Encoding: 3 3462 3
+Encoding: 1 3462 3
 GlifName: si_A_a
 Width: 809
 VWidth: 0
@@ -1104,7 +1105,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Aae
-Encoding: 5 3464 4
+Encoding: 3 3464 4
 GlifName: si_A_ae
 Width: 548
 VWidth: 0
@@ -1157,7 +1158,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ae
-Encoding: 4 3463 5
+Encoding: 2 3463 5
 GlifName: si_A_e
 Width: 548
 VWidth: 0
@@ -1210,67 +1211,67 @@ Layer: 2
 EndChar
 
 StartChar: si_Ba
-Encoding: 47 3510 6
+Encoding: 13 3510 6
 GlifName: si_B_a
-Width: 638
+Width: 622
 VWidth: 0
-Flags: W
-HStem: -7 134<393.629 446.843> 0 21G<137 213.145> 314 138<182.815 267.159> 616.5 138.5<202.506 255.667 313 405.502>
-VStem: 30 135<147.908 297.12> 255 134<128.687 276.335> 275 135<157.827 304.974> 457 140<136.405 566.127>
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
-255.666992188 616.5 m 5
- 255.666992188 755 l 5
- 152.077148438 755 45 672.125976562 45 566 c 261
- 182 530 l 261
- 182 595.735351562 218.301757812 616.5 255.666992188 616.5 c 5
-313 757 m 260
- 457 756 607 713 607 491 c 262
- 607 252 l 261
- 607 88 564 -7 420 -7 c 260
- 327 -7 255 40 255 138 c 260
- 255 209 285 222 285 267 c 260
- 285 300 262 314 236 314 c 260
- 190 314 167 261 167 223 c 260
- 167 184 173 138 214 138 c 261
- 213 0 l 261
- 61 0 32 127 32 224 c 260
- 32 338 107 452 257 452 c 260
- 321 452 420 423 420 290 c 260
- 420 242 389 202 389 173 c 260
- 389 144 403 127 427 127 c 260
- 464 127 467 185 467 252 c 262
- 467 478 l 262
- 467 612 369 616.5 313 616.5 c 260
- 313 757 l 260
+-368.333007812 616.5 m 5
+ -368.333007812 755 l 5
+ -471.922851562 755 -579 672.125976562 -579 566 c 261
+ -442 530 l 261
+ -442 595.735351562 -405.698242188 616.5 -368.333007812 616.5 c 5
+-310 757 m 260
+ -166 756 -36 713 -36 491 c 262
+ -36 252 l 262
+ -36 68 -69 -7 -213 -7 c 260
+ -306 -7 -378 40 -378 138 c 260xbd
+ -378 209 -358 222 -358 267 c 260
+ -358 293 -375 314 -407 314 c 260
+ -456 314 -458 261 -458 223 c 260
+ -458 184 -450 138 -409 138 c 261
+ -410 0 l 261
+ -562 0 -593 127 -593 224 c 260
+ -593 338 -536 452 -386 452 c 260
+ -322 452 -223 423 -223 290 c 260x7b
+ -223 242 -244 202 -244 173 c 260
+ -244 147 -233 127 -213 127 c 260xbd
+ -176 127 -176 155 -176 222 c 262
+ -176 478 l 262
+ -176 612 -254 616.5 -310 616.5 c 260
+ -310 757 l 260
 EndSplineSet
 Fore
 SplineSet
-255.666992188 616.5 m 5x39
- 255.666992188 755 l 5
- 152.077148438 755 45 672.125976562 45 566 c 261
- 182 530 l 261
- 182 595.735351562 218.301757812 616.5 255.666992188 616.5 c 5x39
-313 757 m 260
- 457 756 597 713 597 491 c 262
- 597 252 l 261
- 597 88 564 -7 420 -7 c 260
- 327 -7 255 40 255 138 c 260xbd
- 255 209 275 222 275 267 c 260
- 275 293 258 314 226 314 c 260
- 177 314 165 261 165 223 c 260
- 165 184 173 138 214 138 c 261
- 213 0 l 261
- 61 0 30 127 30 224 c 260
- 30 338 97 452 247 452 c 260
- 311 452 410 423 410 290 c 260x7b
- 410 242 389 202 389 173 c 260
- 389 147 400 127 420 127 c 260xbd
- 457 127 457 185 457 252 c 262
- 457 478 l 262
- 457 612 369 616.5 313 616.5 c 260
- 313 757 l 260
+253.666992188 616.5 m 1
+ 253.666992188 755 l 1
+ 150.077148438 755 43 672.125976562 43 566 c 257
+ 180 530 l 257
+ 180 595.735351562 216.301757812 616.5 253.666992188 616.5 c 1
+310 755 m 256
+ 454 754 592 713 592 491 c 258
+ 592 252 l 258
+ 592 68 551 -7 407 -7 c 256
+ 314 -7 257 40 257 138 c 256
+ 257 253 l 256
+ 257 279 255 314 212 314 c 256
+ 164 314 162 287 162 243 c 256
+ 161.916992188 193 l 0
+ 162 151 180.45703125 140 211 140 c 257
+ 210 0 l 257
+ 90.10546875 0 30 55 30 187 c 0
+ 30 270 l 256
+ 30 389 103 452 229 452 c 256
+ 293 452 392 423 392 290 c 256
+ 392 191 l 256
+ 392 158 392 140 421 140 c 256
+ 452 140 452 154 452 191 c 258
+ 452 478 l 258
+ 452 612 366 616.5 310 616.5 c 256
+ 310 755 l 256
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -1311,10 +1312,26 @@ sg8
 I142
 sass."
 Layer: 2
+SplineSet
+257 8 m 261xbd
+ 257 251 l 260
+ 257.030273438 280.508789062 256 314 210 314 c 260
+ 169 314 162 291 162 251 c 260
+ 162 202 l 4
+ 162 166 166.263671875 140 211 140 c 261
+ 210 0 l 261
+ 58 0 30 92 30 189 c 260
+ 30 273 l 4
+ 30.015625 396.71875 112.911132812 452 229 452 c 260
+ 293 452 392 423 392 290 c 262x7b
+ 392 -65 l 5
+ 257 -65 l 5
+ 257 8 l 261xbd
+EndSplineSet
 EndChar
 
 StartChar: si_Da
-Encoding: 41 3503 7
+Encoding: 10 3503 7
 GlifName: si_D_a
 Width: 492
 VWidth: 0
@@ -1354,7 +1371,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ddha
-Encoding: 36 3498 8
+Encoding: 7 3498 8
 GlifName: si_D_dha
 Width: 700
 VWidth: 0
@@ -1522,13 +1539,13 @@ Layer: 2
 EndChar
 
 StartChar: si_Ga
-Encoding: 22 3484 9
+Encoding: 5 3484 9
 GlifName: si_G_a
 Width: 754
 VWidth: 0
-Flags: HWO
+Flags: W
 HStem: -8 143<200.011 250 298 334.701 510 553.634> 420 143<200.516 250 425.893 464 510 555.667>
-VStem: 30 140<168.598 389.537> 342 136<140.111 241.147> 580 144<158.699 395.209>
+VStem: 30 140<168.598 389.537> 342 136<140.373 241.147> 580 144<158.699 395.209>
 LayerCount: 3
 Back
 SplineSet
@@ -1640,7 +1657,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ka
-Encoding: 20 3482 10
+Encoding: 4 3482 10
 GlifName: si_K_a
 Width: 893
 VWidth: 0
@@ -1670,7 +1687,7 @@ SplineSet
  474.520507812 122 478.35546875 140.818359375 478.561523438 164 c 0
  478.592773438 186 l 0
  478.499023438 273.309570312 389.315429688 262 304 262 c 256
- 402 376 l 260
+ 402 376 l 256
  519 376 598 362 598 157 c 256
  598 113 584 0 462 0 c 256
  423 0 392 12 368 45 c 257
@@ -1737,7 +1754,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_La
-Encoding: 53 3517 11
+Encoding: 17 3517 11
 GlifName: si_L_a
 Width: 649
 VWidth: 0
@@ -1901,7 +1918,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Lla
-Encoding: 59 3525 12
+Encoding: 21 3525 12
 GlifName: si_L_la
 Width: 785
 VWidth: 0
@@ -1949,7 +1966,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ma
-Encoding: 49 3512 13
+Encoding: 14 3512 13
 GlifName: si_M_a
 Width: 601
 VWidth: 0
@@ -2006,26 +2023,26 @@ SplineSet
  431 591 392.95703125 616 317 616 c 257
  317 755 l 257
  416.987304688 755 571 736.96875 571 470 c 258
-179 345 m 256
- 160 345 163 317 163 289 c 256
- 163 266 l 0
- 163 183 205.666992188 140 260.666992188 140 c 257
+174 345 m 256
+ 158 345 158 333 158 328 c 256
+ 158 246 l 0
+ 158 163 205.666992188 140 260.666992188 140 c 257
  260.666992188 -5 l 257
- 138.666992188 -5 30 112 30 252 c 256
- 30 299 l 0
- 30 374 72.2431640625 474 165 474 c 256
- 169.666992188 474 l 0
- 253 474 274 425.708984375 274 366 c 256
- 274 350 l 0
- 274.006835938 324.873046875 276.081054688 311 291 311 c 256
- 305 311 305 330 305 350 c 256
- 305 474 l 257
- 395 474 l 257
+ 138.666992188 -5 30 72 30 212 c 256
+ 30 339 l 0
+ 30 414 82.2431640625 474 145 474 c 256
+ 179.666992188 474 l 0
+ 258 474 272 425.708984375 272 366 c 256
+ 272 330 l 0
+ 272.006835938 321.873046875 273.081054688 311 287 311 c 256
+ 301 311 303 320 303 328 c 260
+ 303 469 l 257
+ 395 469 l 257
  395 355 l 256
  395 275 372 221 286 221 c 256
- 244.490234375 221 194 245 194 300.413085938 c 0
- 194 314 l 256
- 194 340 188 345 179 345 c 256
+ 244.490234375 221 189 245 189 300.413085938 c 0
+ 189 328 l 256
+ 189 341 183 345 174 345 c 256
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -2117,7 +2134,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraAe
-Encoding: 63 3536 14
+Encoding: 22 3536 14
 GlifName: si_M_atraA_e
 Width: 304
 VWidth: 0
@@ -2162,7 +2179,7 @@ Layer: 2
 EndChar
 
 StartChar: si_MatraIi
-Encoding: 65 3538 15
+Encoding: 23 3538 15
 GlifName: si_M_atraI_i
 Width: -32
 VWidth: 0
@@ -2217,72 +2234,62 @@ Layer: 2
 EndChar
 
 StartChar: si_Na
-Encoding: 43 3505 16
+Encoding: 11 3505 16
 GlifName: si_N_a
-Width: 851
+Width: 810
 VWidth: 0
 Flags: W
-HStem: -12 126<271.713 424.216> -8 132<604 674.53> 434 124<150.444 277.18> 439 134<482.877 631.674>
-VStem: 454 131<142.171 264.931> 689 128<141.569 377.706>
+HStem: -7.9502 129.429<219.759 383.537> 0 124<577 631.138> 434 129<88.4659 264.287> 439 134<426.522 603.241>
+VStem: 30 128<194.886 346> 404 134<143.941 252.296> 642 136<134.916 401.236>
 LayerCount: 3
 Back
 Fore
 SplineSet
-371 497 m 261xac
- 433 564 518 573 552 573 c 260
- 663.528320312 573 817 520 817 306 c 4
- 817 216 l 260
- 817 37 741 -8 604 -8 c 261
- 604 124 l 261
- 678 125 689 137 689 231 c 260
- 689 275 l 4
- 689 413 613.139648438 439 558 439 c 260x5c
- 507 439 480 423 440 376 c 262
- 361 285 l 261
- 315 229 257 193 237 181 c 261
- 245 151 271 114 355 114 c 260
- 413 114 454 146 454 200 c 260
- 454 257 433 267 409 277 c 261
- 486 367 l 261
- 572 334 585 255 585 199 c 260
- 585 6 429 -12 359 -12 c 260
- 76 -12 76 331 75 336 c 261
- 193 336 l 261
- 194 320 198 303 200 297 c 261
- 227 298 285 360 285 396 c 260
- 277 424 249 434 222 434 c 260
- 173 434 145 407 134 400 c 261
- 134 536 l 261
- 173 551 212 558 242 558 c 260
- 316 558 357 514 371 497 c 261xac
+404 187 m 2x8e
+ 404 208 l 256
+ 404 246.315745192 378.526315789 255.158293269 360 264 c 257
+ 434 363 l 257
+ 477.196070068 350.16796875 537.993007419 305.916992188 538.083984375 223 c 0
+ 538 186 l 258
+ 537.689482194 49.1988532473 434.883654029 -7.9501953125 307.390625 -7.9501953125 c 0
+ 97.2865688202 -7.9501953125 30 141.877056019 30 346 c 257
+ 158 346 l 257
+ 158 182.947982447 195.438394479 121.47882145 309.025935809 121.47882145 c 0
+ 358.692836102 121.47882145 404 138.976429057 404 187 c 2x8e
+324 507 m 256
+ 381.36026725 555.222299053 437.502762431 573 516 573 c 256
+ 624.223777488 573 778 550 778 316 c 0
+ 778 226 l 256
+ 778 53.1196581197 716.075757576 0 577 0 c 257
+ 577 124 l 257
+ 640 124 642 147 642 241 c 256
+ 642 324 l 0
+ 642 438.10964036 557.4504935 439 513 439 c 256x5e
+ 459.847457627 439 422.757226833 427.437381482 385 376 c 258
+ 316 282 l 257
+ 274.805957287 224.396325848 220.008362585 146 155 146 c 1
+ 145 283 l 1
+ 187.235955056 283 261.955852139 454.840001519 324 507 c 256
+260 395.348632812 m 5
+ 248.632263184 430.712890625 202.881896973 434 176 434 c 260
+ 126.443181818 434 98.125 415.735294118 87 411 c 261
+ 87 544 l 257
+ 126.361508666 556.954446232 156.562458968 563 196 563 c 256x2e
+ 276.264307038 563 333.352389211 527.670933919 347 508.926757812 c 1
+ 260 395.348632812 l 5
 EndSplineSet
 Layer: 2
 EndChar
 
 StartChar: si_NnI
-Encoding: 237 -1 17
+Encoding: 24 -1 17
 GlifName: si_N_nI_
 Width: 11
 VWidth: 0
 Flags: W
-HStem: 673 104<823.378 970.256>
-VStem: 672 114<537.477 638.805> 977 112<468.653 663.761>
 LayerCount: 3
 Back
 Fore
-SplineSet
-1065 467 m 256
- 961 467 l 256
- 973 486 977 523 977 545 c 256
- 977 597 998 673 923 673 c 256
- 846 673 786 640 786 605 c 256
- 786 547 795 537 795 537 c 257
- 693 537 l 257
- 677 557 672 589 672 615 c 256
- 672 738 793 777 923 777 c 256
- 1047 777 1089 680 1089 555 c 256
- 1089 517 1076 476 1065 467 c 256
-EndSplineSet
 Refer: 18 3499 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -2316,7 +2323,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Nna
-Encoding: 37 3499 18
+Encoding: 8 3499 18
 GlifName: si_N_na
 Width: 1014
 VWidth: 0
@@ -2550,7 +2557,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Pa
-Encoding: 45 3508 19
+Encoding: 12 3508 19
 GlifName: si_P_a
 Width: 640
 VWidth: 0
@@ -2612,7 +2619,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ra
-Encoding: 52 3515 20
+Encoding: 16 3515 20
 GlifName: si_R_a
 Width: 534
 VWidth: 0
@@ -2707,7 +2714,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Sa
-Encoding: 57 3523 21
+Encoding: 20 3523 21
 GlifName: si_S_a
 Width: 729
 VWidth: 0
@@ -2844,7 +2851,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ssa
-Encoding: 56 3522 22
+Encoding: 19 3522 22
 GlifName: si_S_sa
 Width: 673
 VWidth: 0
@@ -2941,7 +2948,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ta
-Encoding: 39 3501 23
+Encoding: 9 3501 23
 GlifName: si_T_a
 Width: 753
 VWidth: 0
@@ -3026,7 +3033,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Tta
-Encoding: 33 3495 24
+Encoding: 6 3495 24
 GlifName: si_T_ta
 Width: 564
 VWidth: 0
@@ -3124,7 +3131,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Va
-Encoding: 54 3520 25
+Encoding: 18 3520 25
 GlifName: si_V_a
 Width: 561
 VWidth: 0
@@ -3225,7 +3232,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ya
-Encoding: 51 3514 26
+Encoding: 15 3514 26
 GlifName: si_Y_a
 Width: 691
 VWidth: 0
@@ -3327,7 +3334,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0020
-Encoding: 655 32 27
+Encoding: 25 32 27
 GlifName: uni0020
 Width: 300
 VWidth: 0
@@ -3339,7 +3346,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0021
-Encoding: 65538 33 28
+Encoding: 28 33 28
 GlifName: uni0021
 Width: 329
 VWidth: 0
@@ -3363,7 +3370,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0022
-Encoding: 65539 34 29
+Encoding: 29 34 29
 GlifName: uni0022
 Width: 407
 VWidth: 0
@@ -3387,7 +3394,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0023
-Encoding: 65540 35 30
+Encoding: 30 35 30
 GlifName: uni0023
 Width: 888
 VWidth: 0
@@ -3456,7 +3463,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0024
-Encoding: 65541 36 31
+Encoding: 31 36 31
 GlifName: uni0024
 Width: 501
 VWidth: 0
@@ -3536,7 +3543,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0025
-Encoding: 65542 37 32
+Encoding: 32 37 32
 GlifName: uni0025
 Width: 629
 VWidth: 0
@@ -3600,7 +3607,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0026
-Encoding: 65543 38 33
+Encoding: 33 38 33
 GlifName: uni0026
 Width: 687
 VWidth: 0
@@ -3680,7 +3687,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0027
-Encoding: 65544 39 34
+Encoding: 34 39 34
 GlifName: uni0027
 Width: 227
 VWidth: 0
@@ -3699,7 +3706,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0028
-Encoding: 65545 40 35
+Encoding: 35 40 35
 GlifName: uni0028
 Width: 262
 VWidth: 0
@@ -3723,7 +3730,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0029
-Encoding: 65546 41 36
+Encoding: 36 41 36
 GlifName: uni0029
 Width: 330
 VWidth: 0
@@ -3763,7 +3770,7 @@ Layer: 2
 EndChar
 
 StartChar: uni002A
-Encoding: 65547 42 37
+Encoding: 37 42 37
 GlifName: uni002A_
 Width: 394
 VWidth: 0
@@ -3826,7 +3833,7 @@ Layer: 2
 EndChar
 
 StartChar: uni002B
-Encoding: 65548 43 38
+Encoding: 38 43 38
 GlifName: uni002B_
 Width: 475
 VWidth: 0
@@ -3853,7 +3860,7 @@ Layer: 2
 EndChar
 
 StartChar: uni002C
-Encoding: 65549 44 39
+Encoding: 39 44 39
 GlifName: uni002C_
 Width: 265
 VWidth: 0
@@ -3872,7 +3879,7 @@ Layer: 2
 EndChar
 
 StartChar: uni002D
-Encoding: 65550 45 40
+Encoding: 40 45 40
 GlifName: uni002D_
 Width: 416
 VWidth: 0
@@ -3891,7 +3898,7 @@ Layer: 2
 EndChar
 
 StartChar: uni002E
-Encoding: 65551 46 41
+Encoding: 41 46 41
 GlifName: uni002E_
 Width: 250
 VWidth: 0
@@ -3910,7 +3917,7 @@ Layer: 2
 EndChar
 
 StartChar: uni002F
-Encoding: 65552 47 42
+Encoding: 42 47 42
 GlifName: uni002F_
 Width: 401
 VWidth: 0
@@ -3929,7 +3936,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0030
-Encoding: 65553 48 43
+Encoding: 43 48 43
 GlifName: uni0030
 Width: 1024
 VWidth: 0
@@ -3959,7 +3966,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0031
-Encoding: 65554 49 44
+Encoding: 44 49 44
 GlifName: uni0031
 Width: 266
 VWidth: 0
@@ -4026,7 +4033,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0032
-Encoding: 65555 50 45
+Encoding: 45 50 45
 GlifName: uni0032
 Width: 480
 VWidth: 0
@@ -4089,7 +4096,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0033
-Encoding: 65556 51 46
+Encoding: 46 51 46
 GlifName: uni0033
 Width: 484
 VWidth: 0
@@ -4162,7 +4169,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0034
-Encoding: 65557 52 47
+Encoding: 47 52 47
 GlifName: uni0034
 Width: 483
 VWidth: 0
@@ -4243,7 +4250,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0035
-Encoding: 65558 53 48
+Encoding: 48 53 48
 GlifName: uni0035
 Width: 492
 VWidth: 0
@@ -4314,7 +4321,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0036
-Encoding: 65559 54 49
+Encoding: 49 54 49
 GlifName: uni0036
 Width: 497
 VWidth: 0
@@ -4392,7 +4399,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0037
-Encoding: 65560 55 50
+Encoding: 50 55 50
 GlifName: uni0037
 Width: 435
 VWidth: 0
@@ -4450,7 +4457,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0038
-Encoding: 65561 56 51
+Encoding: 51 56 51
 GlifName: uni0038
 Width: 486
 VWidth: 0
@@ -4530,7 +4537,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0039
-Encoding: 65562 57 52
+Encoding: 52 57 52
 GlifName: uni0039
 Width: 504
 VWidth: 0
@@ -4607,7 +4614,7 @@ Layer: 2
 EndChar
 
 StartChar: uni003A
-Encoding: 65563 58 53
+Encoding: 53 58 53
 GlifName: uni003A_
 Width: 250
 VWidth: 0
@@ -4661,7 +4668,7 @@ Layer: 2
 EndChar
 
 StartChar: uni003B
-Encoding: 65564 59 54
+Encoding: 54 59 54
 GlifName: uni003B_
 Width: 291
 VWidth: 0
@@ -4715,7 +4722,7 @@ Layer: 2
 EndChar
 
 StartChar: uni003C
-Encoding: 65565 60 55
+Encoding: 55 60 55
 GlifName: uni003C_
 Width: 414
 VWidth: 0
@@ -4737,7 +4744,7 @@ Layer: 2
 EndChar
 
 StartChar: uni003D
-Encoding: 65566 61 56
+Encoding: 56 61 56
 GlifName: uni003D_
 Width: 418
 VWidth: 0
@@ -4791,7 +4798,7 @@ Layer: 2
 EndChar
 
 StartChar: uni003E
-Encoding: 65567 62 57
+Encoding: 57 62 57
 GlifName: uni003E_
 Width: 414
 VWidth: 0
@@ -4813,7 +4820,7 @@ Layer: 2
 EndChar
 
 StartChar: uni003F
-Encoding: 65568 63 58
+Encoding: 58 63 58
 GlifName: uni003F_
 Width: 460
 VWidth: 0
@@ -4888,7 +4895,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0040
-Encoding: 65569 64 59
+Encoding: 59 64 59
 GlifName: uni0040
 Width: 803
 VWidth: 0
@@ -5033,7 +5040,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0041
-Encoding: 65570 65 60
+Encoding: 60 65 60
 GlifName: uni0041
 Width: 516
 VWidth: 0
@@ -5102,7 +5109,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0042
-Encoding: 65571 66 61
+Encoding: 61 66 61
 GlifName: uni0042
 Width: 484
 VWidth: 0
@@ -5177,7 +5184,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0043
-Encoding: 65572 67 62
+Encoding: 62 67 62
 GlifName: uni0043
 Width: 494
 VWidth: 0
@@ -5244,7 +5251,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0044
-Encoding: 65573 68 63
+Encoding: 63 68 63
 GlifName: uni0044
 Width: 452
 VWidth: 0
@@ -5312,7 +5319,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0045
-Encoding: 65574 69 64
+Encoding: 64 69 64
 GlifName: uni0045
 Width: 422
 VWidth: 0
@@ -5379,7 +5386,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0046
-Encoding: 65575 70 65
+Encoding: 65 70 65
 GlifName: uni0046
 Width: 422
 VWidth: 0
@@ -5444,7 +5451,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0047
-Encoding: 65576 71 66
+Encoding: 66 71 66
 GlifName: uni0047
 Width: 493
 VWidth: 0
@@ -5523,7 +5530,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0048
-Encoding: 65577 72 67
+Encoding: 67 72 67
 GlifName: uni0048
 Width: 458
 VWidth: 0
@@ -5605,7 +5612,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0049
-Encoding: 65578 73 68
+Encoding: 68 73 68
 GlifName: uni0049
 Width: 209
 VWidth: 0
@@ -5659,7 +5666,7 @@ Layer: 2
 EndChar
 
 StartChar: uni004A
-Encoding: 65579 74 69
+Encoding: 69 74 69
 GlifName: uni004A_
 Width: 495
 VWidth: 0
@@ -5722,7 +5729,7 @@ Layer: 2
 EndChar
 
 StartChar: uni004B
-Encoding: 65580 75 70
+Encoding: 70 75 70
 GlifName: uni004B_
 Width: 475
 VWidth: 0
@@ -5783,7 +5790,7 @@ Layer: 2
 EndChar
 
 StartChar: uni004C
-Encoding: 65581 76 71
+Encoding: 71 76 71
 GlifName: uni004C_
 Width: 428
 VWidth: 0
@@ -5834,7 +5841,7 @@ Layer: 2
 EndChar
 
 StartChar: uni004D
-Encoding: 65582 77 72
+Encoding: 72 77 72
 GlifName: uni004D_
 Width: 676
 VWidth: 0
@@ -5909,7 +5916,7 @@ Layer: 2
 EndChar
 
 StartChar: uni004E
-Encoding: 65583 78 73
+Encoding: 73 78 73
 GlifName: uni004E_
 Width: 509
 VWidth: 0
@@ -5982,7 +5989,7 @@ Layer: 2
 EndChar
 
 StartChar: uni004F
-Encoding: 65584 79 74
+Encoding: 74 79 74
 GlifName: uni004F_
 Width: 508
 VWidth: 0
@@ -6049,7 +6056,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0050
-Encoding: 65585 80 75
+Encoding: 75 80 75
 GlifName: uni0050
 Width: 474
 VWidth: 0
@@ -6122,7 +6129,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0051
-Encoding: 65586 81 76
+Encoding: 76 81 76
 GlifName: uni0051
 Width: 500
 VWidth: 0
@@ -6187,7 +6194,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0052
-Encoding: 65587 82 77
+Encoding: 77 82 77
 GlifName: uni0052
 Width: 495
 VWidth: 0
@@ -6265,7 +6272,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0053
-Encoding: 65588 83 78
+Encoding: 78 83 78
 GlifName: uni0053
 Width: 497
 VWidth: 0
@@ -6330,7 +6337,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0054
-Encoding: 65589 84 79
+Encoding: 79 84 79
 GlifName: uni0054
 Width: 485
 VWidth: 0
@@ -6388,7 +6395,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0055
-Encoding: 65590 85 80
+Encoding: 80 85 80
 GlifName: uni0055
 Width: 512
 VWidth: 0
@@ -6451,7 +6458,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0056
-Encoding: 65591 86 81
+Encoding: 81 86 81
 GlifName: uni0056
 Width: 508
 VWidth: 0
@@ -6503,7 +6510,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0057
-Encoding: 65592 87 82
+Encoding: 82 87 82
 GlifName: uni0057
 Width: 725
 VWidth: 0
@@ -6561,7 +6568,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0058
-Encoding: 65593 88 83
+Encoding: 83 88 83
 GlifName: uni0058
 Width: 464
 VWidth: 0
@@ -6614,7 +6621,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0059
-Encoding: 65594 89 84
+Encoding: 84 89 84
 GlifName: uni0059
 Width: 479
 VWidth: 0
@@ -6676,7 +6683,7 @@ Layer: 2
 EndChar
 
 StartChar: uni005A
-Encoding: 65595 90 85
+Encoding: 85 90 85
 GlifName: uni005A_
 Width: 418
 VWidth: 0
@@ -6731,7 +6738,7 @@ Layer: 2
 EndChar
 
 StartChar: uni005B
-Encoding: 65596 91 86
+Encoding: 86 91 86
 GlifName: uni005B_
 Width: 258
 VWidth: 0
@@ -6789,7 +6796,7 @@ Layer: 2
 EndChar
 
 StartChar: uni005C
-Encoding: 65597 92 87
+Encoding: 87 92 87
 GlifName: uni005C_
 Width: 402
 VWidth: 0
@@ -6824,7 +6831,7 @@ Layer: 2
 EndChar
 
 StartChar: uni005D
-Encoding: 65598 93 88
+Encoding: 88 93 88
 GlifName: uni005D_
 Width: 258
 VWidth: 0
@@ -6882,7 +6889,7 @@ Layer: 2
 EndChar
 
 StartChar: uni005E
-Encoding: 65599 94 89
+Encoding: 89 94 89
 GlifName: uni005E_
 Width: 374
 VWidth: 0
@@ -6920,7 +6927,7 @@ Layer: 2
 EndChar
 
 StartChar: uni005F
-Encoding: 65600 95 90
+Encoding: 90 95 90
 GlifName: uni005F_
 Width: 510
 VWidth: 0
@@ -6955,7 +6962,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0060
-Encoding: 65601 96 91
+Encoding: 91 96 91
 GlifName: uni0060
 Width: 263
 VWidth: 0
@@ -6999,7 +7006,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0061
-Encoding: 65602 97 92
+Encoding: 92 97 92
 GlifName: uni0061
 Width: 435
 VWidth: 0
@@ -7081,7 +7088,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0062
-Encoding: 65603 98 93
+Encoding: 93 98 93
 GlifName: uni0062
 Width: 414
 VWidth: 0
@@ -7158,7 +7165,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0063
-Encoding: 65604 99 94
+Encoding: 94 99 94
 GlifName: uni0063
 Width: 418
 VWidth: 0
@@ -7236,7 +7243,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0064
-Encoding: 65605 100 95
+Encoding: 95 100 95
 GlifName: uni0064
 Width: 414
 VWidth: 0
@@ -7308,7 +7315,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0065
-Encoding: 65606 101 96
+Encoding: 96 101 96
 GlifName: uni0065
 Width: 424
 VWidth: 0
@@ -7394,7 +7401,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0066
-Encoding: 65607 102 97
+Encoding: 97 102 97
 GlifName: uni0066
 Width: 304
 VWidth: 0
@@ -7465,7 +7472,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0067
-Encoding: 65608 103 98
+Encoding: 98 103 98
 GlifName: uni0067
 Width: 415
 VWidth: 0
@@ -7558,7 +7565,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0068
-Encoding: 65609 104 99
+Encoding: 99 104 99
 GlifName: uni0068
 Width: 421
 VWidth: 0
@@ -7643,7 +7650,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0069
-Encoding: 65610 105 100
+Encoding: 100 105 100
 GlifName: uni0069
 Width: 199
 VWidth: 0
@@ -7712,7 +7719,7 @@ Layer: 2
 EndChar
 
 StartChar: uni006A
-Encoding: 65611 106 101
+Encoding: 101 106 101
 GlifName: uni006A_
 Width: 194
 VWidth: 0
@@ -7780,7 +7787,7 @@ Layer: 2
 EndChar
 
 StartChar: uni006B
-Encoding: 65612 107 102
+Encoding: 102 107 102
 GlifName: uni006B_
 Width: 452
 VWidth: 0
@@ -7846,7 +7853,7 @@ Layer: 2
 EndChar
 
 StartChar: uni006C
-Encoding: 65613 108 103
+Encoding: 103 108 103
 GlifName: uni006C_
 Width: 184
 VWidth: 0
@@ -7900,7 +7907,7 @@ Layer: 2
 EndChar
 
 StartChar: uni006D
-Encoding: 65614 109 104
+Encoding: 104 109 104
 GlifName: uni006D_
 Width: 684
 VWidth: 0
@@ -7992,7 +7999,7 @@ Layer: 2
 EndChar
 
 StartChar: uni006E
-Encoding: 65615 110 105
+Encoding: 105 110 105
 GlifName: uni006E_
 Width: 434
 VWidth: 0
@@ -8064,7 +8071,7 @@ Layer: 2
 EndChar
 
 StartChar: uni006F
-Encoding: 65616 111 106
+Encoding: 106 111 106
 GlifName: uni006F_
 Width: 420
 VWidth: 0
@@ -8139,7 +8146,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0070
-Encoding: 65617 112 107
+Encoding: 107 112 107
 GlifName: uni0070
 Width: 422
 VWidth: 0
@@ -8206,7 +8213,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0071
-Encoding: 65618 113 108
+Encoding: 108 113 108
 GlifName: uni0071
 Width: 416
 VWidth: 0
@@ -8273,7 +8280,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0072
-Encoding: 65619 114 109
+Encoding: 109 114 109
 GlifName: uni0072
 Width: 316
 VWidth: 0
@@ -8327,7 +8334,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0073
-Encoding: 65620 115 110
+Encoding: 110 115 110
 GlifName: uni0073
 Width: 418
 VWidth: 0
@@ -8404,7 +8411,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0074
-Encoding: 65621 116 111
+Encoding: 111 116 111
 GlifName: uni0074
 Width: 324
 VWidth: 0
@@ -8470,7 +8477,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0075
-Encoding: 65622 117 112
+Encoding: 112 117 112
 GlifName: uni0075
 Width: 434
 VWidth: 0
@@ -8537,7 +8544,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0076
-Encoding: 65623 118 113
+Encoding: 113 118 113
 GlifName: uni0076
 Width: 400
 VWidth: 0
@@ -8589,7 +8596,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0077
-Encoding: 65624 119 114
+Encoding: 114 119 114
 GlifName: uni0077
 Width: 577
 VWidth: 0
@@ -8647,7 +8654,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0078
-Encoding: 65625 120 115
+Encoding: 115 120 115
 GlifName: uni0078
 Width: 381
 VWidth: 0
@@ -8700,7 +8707,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0079
-Encoding: 65626 121 116
+Encoding: 116 121 116
 GlifName: uni0079
 Width: 383
 VWidth: 0
@@ -8754,7 +8761,7 @@ Layer: 2
 EndChar
 
 StartChar: uni007A
-Encoding: 65627 122 117
+Encoding: 117 122 117
 GlifName: uni007A_
 Width: 348
 VWidth: 0
@@ -8809,7 +8816,7 @@ Layer: 2
 EndChar
 
 StartChar: uni007B
-Encoding: 65628 123 118
+Encoding: 118 123 118
 GlifName: uni007B_
 Width: 407
 VWidth: 0
@@ -8869,7 +8876,7 @@ Layer: 2
 EndChar
 
 StartChar: uni007C
-Encoding: 65629 124 119
+Encoding: 119 124 119
 GlifName: uni007C_
 Width: 205
 VWidth: 0
@@ -8904,7 +8911,7 @@ Layer: 2
 EndChar
 
 StartChar: uni007D
-Encoding: 65630 125 120
+Encoding: 120 125 120
 GlifName: uni007D_
 Width: 407
 VWidth: 0
@@ -8965,7 +8972,7 @@ Layer: 2
 EndChar
 
 StartChar: uni007E
-Encoding: 65631 126 121
+Encoding: 121 126 121
 GlifName: uni007E_
 Width: 568
 VWidth: 0
@@ -9009,7 +9016,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A1
-Encoding: 65632 161 122
+Encoding: 122 161 122
 GlifName: uni00A_1
 Width: 210
 VWidth: 0
@@ -9061,7 +9068,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A2
-Encoding: 65633 162 123
+Encoding: 123 162 123
 GlifName: uni00A_2
 Width: 494
 VWidth: 0
@@ -9145,7 +9152,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A3
-Encoding: 65634 163 124
+Encoding: 124 163 124
 GlifName: uni00A_3
 Width: 520
 VWidth: 0
@@ -9215,7 +9222,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A4
-Encoding: 65635 164 125
+Encoding: 125 164 125
 GlifName: uni00A_4
 Width: 656
 VWidth: 0
@@ -9306,7 +9313,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A5
-Encoding: 65636 165 126
+Encoding: 126 165 126
 GlifName: uni00A_5
 Width: 542
 VWidth: 0
@@ -9389,7 +9396,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A6
-Encoding: 65637 166 127
+Encoding: 127 166 127
 GlifName: uni00A_6
 Width: 222
 VWidth: 0
@@ -9429,7 +9436,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A7
-Encoding: 65638 167 128
+Encoding: 128 167 128
 GlifName: uni00A_7
 Width: 547
 VWidth: 0
@@ -9522,7 +9529,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A8
-Encoding: 65639 168 129
+Encoding: 129 168 129
 GlifName: uni00A_8
 Width: 320
 VWidth: 0
@@ -9546,7 +9553,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00A9
-Encoding: 65640 169 130
+Encoding: 130 169 130
 GlifName: uni00A_9
 Width: 859
 VWidth: 0
@@ -9651,7 +9658,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00AA
-Encoding: 65641 170 131
+Encoding: 131 170 131
 GlifName: uni00A_A_
 Width: 227
 VWidth: 0
@@ -9709,7 +9716,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00AB
-Encoding: 65642 171 132
+Encoding: 132 171 132
 GlifName: uni00A_B_
 Width: 475
 VWidth: 0
@@ -9739,7 +9746,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00AC
-Encoding: 65643 172 133
+Encoding: 133 172 133
 GlifName: uni00A_C_
 Width: 502
 VWidth: 0
@@ -9785,7 +9792,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00AD
-Encoding: 65644 173 134
+Encoding: 134 173 134
 GlifName: uni00A_D_
 Width: 516
 VWidth: 0
@@ -9823,7 +9830,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00AE
-Encoding: 65645 174 135
+Encoding: 135 174 135
 GlifName: uni00A_E_
 Width: 404
 VWidth: 0
@@ -9929,7 +9936,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00AF
-Encoding: 65646 175 136
+Encoding: 136 175 136
 GlifName: uni00A_F_
 Width: 510
 VWidth: 0
@@ -9958,7 +9965,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B0
-Encoding: 65647 176 137
+Encoding: 137 176 137
 GlifName: uni00B_0
 Width: 282
 VWidth: 0
@@ -10017,7 +10024,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B1
-Encoding: 65648 177 138
+Encoding: 138 177 138
 GlifName: uni00B_1
 Width: 575
 VWidth: 0
@@ -10067,7 +10074,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B2
-Encoding: 65649 178 139
+Encoding: 139 178 139
 GlifName: uni00B_2
 Width: 245
 VWidth: 0
@@ -10109,7 +10116,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B3
-Encoding: 65650 179 140
+Encoding: 140 179 140
 GlifName: uni00B_3
 Width: 247
 VWidth: 0
@@ -10194,7 +10201,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B4
-Encoding: 65651 180 141
+Encoding: 141 180 141
 GlifName: uni00B_4
 Width: 263
 VWidth: 0
@@ -10238,7 +10245,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B5
-Encoding: 65652 181 142
+Encoding: 142 181 142
 GlifName: uni00B_5
 Width: 468
 VWidth: 0
@@ -10337,7 +10344,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B6
-Encoding: 65653 182 143
+Encoding: 143 182 143
 GlifName: uni00B_6
 Width: 444
 VWidth: 0
@@ -10363,7 +10370,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B7
-Encoding: 65654 183 144
+Encoding: 144 183 144
 GlifName: uni00B_7
 Width: 250
 VWidth: 0
@@ -10401,7 +10408,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B8
-Encoding: 65655 184 145
+Encoding: 145 184 145
 GlifName: uni00B_8
 Width: 219
 VWidth: 0
@@ -10445,7 +10452,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00B9
-Encoding: 65656 185 146
+Encoding: 146 185 146
 GlifName: uni00B_9
 Width: 186
 VWidth: 0
@@ -10497,7 +10504,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00BA
-Encoding: 65657 186 147
+Encoding: 147 186 147
 GlifName: uni00B_A_
 Width: 230
 VWidth: 0
@@ -10582,7 +10589,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00BB
-Encoding: 65658 187 148
+Encoding: 148 187 148
 GlifName: uni00B_B_
 Width: 414
 VWidth: 0
@@ -10612,7 +10619,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00BC
-Encoding: 65659 188 149
+Encoding: 149 188 149
 GlifName: uni00B_C_
 Width: 560
 VWidth: 0
@@ -10716,7 +10723,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00BD
-Encoding: 65660 189 150
+Encoding: 150 189 150
 GlifName: uni00B_D_
 Width: 581
 VWidth: 0
@@ -10816,7 +10823,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00BE
-Encoding: 65661 190 151
+Encoding: 151 190 151
 GlifName: uni00B_E_
 Width: 584
 VWidth: 0
@@ -10951,7 +10958,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00BF
-Encoding: 65662 191 152
+Encoding: 152 191 152
 GlifName: uni00B_F_
 Width: 460
 VWidth: 0
@@ -11026,7 +11033,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C0
-Encoding: 65663 192 153
+Encoding: 153 192 153
 GlifName: uni00C_0
 Width: 516
 VWidth: 0
@@ -11080,7 +11087,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C1
-Encoding: 65664 193 154
+Encoding: 154 193 154
 GlifName: uni00C_1
 Width: 516
 VWidth: 0
@@ -11134,7 +11141,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C2
-Encoding: 65665 194 155
+Encoding: 155 194 155
 GlifName: uni00C_2
 Width: 516
 VWidth: 0
@@ -11188,7 +11195,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C3
-Encoding: 65666 195 156
+Encoding: 156 195 156
 GlifName: uni00C_3
 Width: 516
 VWidth: 0
@@ -11247,7 +11254,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C4
-Encoding: 65667 196 157
+Encoding: 157 196 157
 GlifName: uni00C_4
 Width: 516
 VWidth: 0
@@ -11291,7 +11298,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C5
-Encoding: 65668 197 158
+Encoding: 158 197 158
 GlifName: uni00C_5
 Width: 516
 VWidth: 0
@@ -11379,7 +11386,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C6
-Encoding: 65669 198 159
+Encoding: 159 198 159
 GlifName: uni00C_6
 Width: 727
 VWidth: 0
@@ -11450,7 +11457,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C7
-Encoding: 65670 199 160
+Encoding: 160 199 160
 GlifName: uni00C_7
 Width: 494
 VWidth: 0
@@ -11504,7 +11511,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C8
-Encoding: 65671 200 161
+Encoding: 161 200 161
 GlifName: uni00C_8
 Width: 422
 VWidth: 0
@@ -11568,7 +11575,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00C9
-Encoding: 65672 201 162
+Encoding: 162 201 162
 GlifName: uni00C_9
 Width: 422
 VWidth: 0
@@ -11632,7 +11639,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00CA
-Encoding: 65673 202 163
+Encoding: 163 202 163
 GlifName: uni00C_A_
 Width: 422
 VWidth: 0
@@ -11696,7 +11703,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00CB
-Encoding: 65674 203 164
+Encoding: 164 203 164
 GlifName: uni00C_B_
 Width: 422
 VWidth: 0
@@ -11750,7 +11757,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00CC
-Encoding: 65675 204 165
+Encoding: 165 204 165
 GlifName: uni00C_C_
 Width: 209
 VWidth: 0
@@ -11804,7 +11811,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00CD
-Encoding: 65676 205 166
+Encoding: 166 205 166
 GlifName: uni00C_D_
 Width: 209
 VWidth: 0
@@ -11858,7 +11865,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00CE
-Encoding: 65677 206 167
+Encoding: 167 206 167
 GlifName: uni00C_E_
 Width: 209
 VWidth: 0
@@ -11912,7 +11919,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00CF
-Encoding: 65678 207 168
+Encoding: 168 207 168
 GlifName: uni00C_F_
 Width: 209
 VWidth: 0
@@ -11956,7 +11963,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D0
-Encoding: 65679 208 169
+Encoding: 169 208 169
 GlifName: uni00D_0
 Width: 501
 VWidth: 0
@@ -12032,7 +12039,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D1
-Encoding: 65680 209 170
+Encoding: 170 209 170
 GlifName: uni00D_1
 Width: 509
 VWidth: 0
@@ -12094,7 +12101,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D2
-Encoding: 65681 210 171
+Encoding: 171 210 171
 GlifName: uni00D_2
 Width: 508
 VWidth: 0
@@ -12153,7 +12160,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D3
-Encoding: 65682 211 172
+Encoding: 172 211 172
 GlifName: uni00D_3
 Width: 508
 VWidth: 0
@@ -12212,7 +12219,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D4
-Encoding: 65683 212 173
+Encoding: 173 212 173
 GlifName: uni00D_4
 Width: 508
 VWidth: 0
@@ -12271,7 +12278,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D5
-Encoding: 65684 213 174
+Encoding: 174 213 174
 GlifName: uni00D_5
 Width: 508
 VWidth: 0
@@ -12335,7 +12342,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D6
-Encoding: 65685 214 175
+Encoding: 175 214 175
 GlifName: uni00D_6
 Width: 508
 VWidth: 0
@@ -12384,7 +12391,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D7
-Encoding: 65686 215 176
+Encoding: 176 215 176
 GlifName: uni00D_7
 Width: 697
 VWidth: 0
@@ -12411,7 +12418,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D8
-Encoding: 65687 216 177
+Encoding: 177 216 177
 GlifName: uni00D_8
 Width: 662
 VWidth: 0
@@ -12487,7 +12494,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00D9
-Encoding: 65688 217 178
+Encoding: 178 217 178
 GlifName: uni00D_9
 Width: 512
 VWidth: 0
@@ -12546,7 +12553,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00DA
-Encoding: 65689 218 179
+Encoding: 179 218 179
 GlifName: uni00D_A_
 Width: 512
 VWidth: 0
@@ -12605,7 +12612,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00DB
-Encoding: 65690 219 180
+Encoding: 180 219 180
 GlifName: uni00D_B_
 Width: 512
 VWidth: 0
@@ -12664,7 +12671,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00DC
-Encoding: 65691 220 181
+Encoding: 181 220 181
 GlifName: uni00D_C_
 Width: 512
 VWidth: 0
@@ -12713,7 +12720,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00DD
-Encoding: 65692 221 182
+Encoding: 182 221 182
 GlifName: uni00D_D_
 Width: 479
 VWidth: 0
@@ -12767,7 +12774,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00DE
-Encoding: 65693 222 183
+Encoding: 183 222 183
 GlifName: uni00D_E_
 Width: 474
 VWidth: 0
@@ -12845,7 +12852,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00DF
-Encoding: 65694 223 184
+Encoding: 184 223 184
 GlifName: uni00D_F_
 Width: 522
 VWidth: 0
@@ -12926,7 +12933,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E0
-Encoding: 65695 224 185
+Encoding: 185 224 185
 GlifName: uni00E_0
 Width: 435
 VWidth: 0
@@ -12980,7 +12987,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E1
-Encoding: 65696 225 186
+Encoding: 186 225 186
 GlifName: uni00E_1
 Width: 435
 VWidth: 0
@@ -13034,7 +13041,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E2
-Encoding: 65697 226 187
+Encoding: 187 226 187
 GlifName: uni00E_2
 Width: 435
 VWidth: 0
@@ -13088,7 +13095,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E3
-Encoding: 65698 227 188
+Encoding: 188 227 188
 GlifName: uni00E_3
 Width: 435
 VWidth: 0
@@ -13147,7 +13154,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E4
-Encoding: 65699 228 189
+Encoding: 189 228 189
 GlifName: uni00E_4
 Width: 435
 VWidth: 0
@@ -13191,7 +13198,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E5
-Encoding: 65700 229 190
+Encoding: 190 229 190
 GlifName: uni00E_5
 Width: 435
 VWidth: 0
@@ -13255,7 +13262,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E6
-Encoding: 65701 230 191
+Encoding: 191 230 191
 GlifName: uni00E_6
 Width: 666
 VWidth: 0
@@ -13364,7 +13371,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E7
-Encoding: 65702 231 192
+Encoding: 192 231 192
 GlifName: uni00E_7
 Width: 418
 VWidth: 0
@@ -13418,7 +13425,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E8
-Encoding: 65703 232 193
+Encoding: 193 232 193
 GlifName: uni00E_8
 Width: 424
 VWidth: 0
@@ -13482,7 +13489,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00E9
-Encoding: 65704 233 194
+Encoding: 194 233 194
 GlifName: uni00E_9
 Width: 424
 VWidth: 0
@@ -13546,7 +13553,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00EA
-Encoding: 65705 234 195
+Encoding: 195 234 195
 GlifName: uni00E_A_
 Width: 424
 VWidth: 0
@@ -13610,7 +13617,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00EB
-Encoding: 65706 235 196
+Encoding: 196 235 196
 GlifName: uni00E_B_
 Width: 424
 VWidth: 0
@@ -13664,7 +13671,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00EC
-Encoding: 65707 236 197
+Encoding: 197 236 197
 GlifName: uni00E_C_
 Width: 199
 VWidth: 0
@@ -13723,7 +13730,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00ED
-Encoding: 65708 237 198
+Encoding: 198 237 198
 GlifName: uni00E_D_
 Width: 199
 VWidth: 0
@@ -13782,7 +13789,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00EE
-Encoding: 65709 238 199
+Encoding: 199 238 199
 GlifName: uni00E_E_
 Width: 174
 VWidth: 0
@@ -13821,7 +13828,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00EF
-Encoding: 65710 239 200
+Encoding: 200 239 200
 GlifName: uni00E_F_
 Width: 199
 VWidth: 0
@@ -13900,7 +13907,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F0
-Encoding: 65711 240 201
+Encoding: 201 240 201
 GlifName: uni00F_0
 Width: 420
 VWidth: 0
@@ -13988,7 +13995,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F1
-Encoding: 65712 241 202
+Encoding: 202 241 202
 GlifName: uni00F_1
 Width: 434
 VWidth: 0
@@ -14052,7 +14059,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F2
-Encoding: 65713 242 203
+Encoding: 203 242 203
 GlifName: uni00F_2
 Width: 420
 VWidth: 0
@@ -14111,7 +14118,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F3
-Encoding: 65714 243 204
+Encoding: 204 243 204
 GlifName: uni00F_3
 Width: 420
 VWidth: 0
@@ -14170,7 +14177,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F4
-Encoding: 65715 244 205
+Encoding: 205 244 205
 GlifName: uni00F_4
 Width: 420
 VWidth: 0
@@ -14229,7 +14236,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F5
-Encoding: 65716 245 206
+Encoding: 206 245 206
 GlifName: uni00F_5
 Width: 420
 VWidth: 0
@@ -14293,7 +14300,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F6
-Encoding: 65717 246 207
+Encoding: 207 246 207
 GlifName: uni00F_6
 Width: 420
 VWidth: 0
@@ -14342,7 +14349,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F7
-Encoding: 65718 247 208
+Encoding: 208 247 208
 GlifName: uni00F_7
 Width: 650
 VWidth: 0
@@ -14398,7 +14405,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F8
-Encoding: 65719 248 209
+Encoding: 209 248 209
 GlifName: uni00F_8
 Width: 498
 VWidth: 0
@@ -14480,7 +14487,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00F9
-Encoding: 65720 249 210
+Encoding: 210 249 210
 GlifName: uni00F_9
 Width: 434
 VWidth: 0
@@ -14539,7 +14546,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00FA
-Encoding: 65721 250 211
+Encoding: 211 250 211
 GlifName: uni00F_A_
 Width: 434
 VWidth: 0
@@ -14598,7 +14605,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00FB
-Encoding: 65722 251 212
+Encoding: 212 251 212
 GlifName: uni00F_B_
 Width: 434
 VWidth: 0
@@ -14657,7 +14664,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00FC
-Encoding: 65723 252 213
+Encoding: 213 252 213
 GlifName: uni00F_C_
 Width: 434
 VWidth: 0
@@ -14706,7 +14713,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00FD
-Encoding: 65724 253 214
+Encoding: 214 253 214
 GlifName: uni00F_D_
 Width: 383
 VWidth: 0
@@ -14755,7 +14762,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00FE
-Encoding: 65725 254 215
+Encoding: 215 254 215
 GlifName: uni00F_E_
 Width: 422
 VWidth: 0
@@ -14827,7 +14834,7 @@ Layer: 2
 EndChar
 
 StartChar: uni00FF
-Encoding: 65726 255 216
+Encoding: 216 255 216
 GlifName: uni00F_F_
 Width: 383
 VWidth: 0
@@ -14866,7 +14873,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0100
-Encoding: 65727 256 217
+Encoding: 217 256 217
 GlifName: uni0100
 Width: 516
 VWidth: 0
@@ -14880,7 +14887,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0101
-Encoding: 65728 257 218
+Encoding: 218 257 218
 GlifName: uni0101
 Width: 435
 VWidth: 0
@@ -14894,7 +14901,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0102
-Encoding: 65729 258 219
+Encoding: 219 258 219
 GlifName: uni0102
 Width: 516
 VWidth: 0
@@ -14908,7 +14915,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0103
-Encoding: 65730 259 220
+Encoding: 220 259 220
 GlifName: uni0103
 Width: 435
 VWidth: 0
@@ -14922,7 +14929,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0104
-Encoding: 65731 260 221
+Encoding: 221 260 221
 GlifName: uni0104
 Width: 516
 VWidth: 0
@@ -14936,7 +14943,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0105
-Encoding: 65732 261 222
+Encoding: 222 261 222
 GlifName: uni0105
 Width: 435
 VWidth: 0
@@ -14950,7 +14957,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0106
-Encoding: 65733 262 223
+Encoding: 223 262 223
 GlifName: uni0106
 Width: 494
 VWidth: 0
@@ -14964,7 +14971,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0107
-Encoding: 65734 263 224
+Encoding: 224 263 224
 GlifName: uni0107
 Width: 418
 VWidth: 0
@@ -14978,7 +14985,7 @@ Layer: 2
 EndChar
 
 StartChar: uni010C
-Encoding: 65735 268 225
+Encoding: 225 268 225
 GlifName: uni010C_
 Width: 494
 VWidth: 0
@@ -14992,7 +14999,7 @@ Layer: 2
 EndChar
 
 StartChar: uni010D
-Encoding: 65736 269 226
+Encoding: 226 269 226
 GlifName: uni010D_
 Width: 418
 VWidth: 0
@@ -15006,7 +15013,7 @@ Layer: 2
 EndChar
 
 StartChar: uni010E
-Encoding: 65737 270 227
+Encoding: 227 270 227
 GlifName: uni010E_
 Width: 452
 VWidth: 0
@@ -15020,7 +15027,7 @@ Layer: 2
 EndChar
 
 StartChar: uni010F
-Encoding: 65738 271 228
+Encoding: 228 271 228
 GlifName: uni010F_
 Width: 414
 VWidth: 0
@@ -15034,7 +15041,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0110
-Encoding: 65739 272 229
+Encoding: 229 272 229
 GlifName: uni0110
 Width: 501
 VWidth: 0
@@ -15047,7 +15054,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0111
-Encoding: 65740 273 230
+Encoding: 230 273 230
 GlifName: uni0111
 Width: 414
 VWidth: 0
@@ -15132,7 +15139,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0112
-Encoding: 65741 274 231
+Encoding: 231 274 231
 GlifName: uni0112
 Width: 422
 VWidth: 0
@@ -15146,7 +15153,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0113
-Encoding: 65742 275 232
+Encoding: 232 275 232
 GlifName: uni0113
 Width: 424
 VWidth: 0
@@ -15160,7 +15167,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0116
-Encoding: 65743 278 233
+Encoding: 233 278 233
 GlifName: uni0116
 Width: 422
 VWidth: 0
@@ -15174,7 +15181,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0117
-Encoding: 65744 279 234
+Encoding: 234 279 234
 GlifName: uni0117
 Width: 424
 VWidth: 0
@@ -15188,7 +15195,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0118
-Encoding: 65745 280 235
+Encoding: 235 280 235
 GlifName: uni0118
 Width: 422
 VWidth: 0
@@ -15202,7 +15209,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0119
-Encoding: 65746 281 236
+Encoding: 236 281 236
 GlifName: uni0119
 Width: 424
 VWidth: 0
@@ -15216,7 +15223,7 @@ Layer: 2
 EndChar
 
 StartChar: uni011A
-Encoding: 65747 282 237
+Encoding: 237 282 237
 GlifName: uni011A_
 Width: 422
 VWidth: 0
@@ -15230,7 +15237,7 @@ Layer: 2
 EndChar
 
 StartChar: uni011B
-Encoding: 65748 283 238
+Encoding: 238 283 238
 GlifName: uni011B_
 Width: 424
 VWidth: 0
@@ -15244,7 +15251,7 @@ Layer: 2
 EndChar
 
 StartChar: uni011E
-Encoding: 65749 286 239
+Encoding: 239 286 239
 GlifName: uni011E_
 Width: 493
 VWidth: 0
@@ -15258,7 +15265,7 @@ Layer: 2
 EndChar
 
 StartChar: uni011F
-Encoding: 65750 287 240
+Encoding: 240 287 240
 GlifName: uni011F_
 Width: 415
 VWidth: 0
@@ -15272,7 +15279,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0122
-Encoding: 65751 290 241
+Encoding: 241 290 241
 GlifName: uni0122
 Width: 493
 VWidth: 0
@@ -15286,7 +15293,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0123
-Encoding: 65752 291 242
+Encoding: 242 291 242
 GlifName: uni0123
 Width: 415
 VWidth: 0
@@ -15300,7 +15307,7 @@ Layer: 2
 EndChar
 
 StartChar: uni012A
-Encoding: 65753 298 243
+Encoding: 243 298 243
 GlifName: uni012A_
 Width: 209
 VWidth: 0
@@ -15314,7 +15321,7 @@ Layer: 2
 EndChar
 
 StartChar: uni012B
-Encoding: 65754 299 244
+Encoding: 244 299 244
 GlifName: uni012B_
 Width: 174
 VWidth: 0
@@ -15328,7 +15335,7 @@ Layer: 2
 EndChar
 
 StartChar: uni012E
-Encoding: 65755 302 245
+Encoding: 245 302 245
 GlifName: uni012E_
 Width: 209
 VWidth: 0
@@ -15342,7 +15349,7 @@ Layer: 2
 EndChar
 
 StartChar: uni012F
-Encoding: 65756 303 246
+Encoding: 246 303 246
 GlifName: uni012F_
 Width: 199
 VWidth: 0
@@ -15356,7 +15363,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0130
-Encoding: 65757 304 247
+Encoding: 247 304 247
 GlifName: uni0130
 Width: 209
 VWidth: 0
@@ -15370,7 +15377,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0131
-Encoding: 65758 305 248
+Encoding: 248 305 248
 GlifName: uni0131
 Width: 174
 VWidth: 0
@@ -15389,7 +15396,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0136
-Encoding: 65759 310 249
+Encoding: 249 310 249
 GlifName: uni0136
 Width: 475
 VWidth: 0
@@ -15403,7 +15410,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0137
-Encoding: 65760 311 250
+Encoding: 250 311 250
 GlifName: uni0137
 Width: 452
 VWidth: 0
@@ -15417,7 +15424,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0139
-Encoding: 65761 313 251
+Encoding: 251 313 251
 GlifName: uni0139
 Width: 428
 VWidth: 0
@@ -15431,7 +15438,7 @@ Layer: 2
 EndChar
 
 StartChar: uni013A
-Encoding: 65762 314 252
+Encoding: 252 314 252
 GlifName: uni013A_
 Width: 184
 VWidth: 0
@@ -15445,7 +15452,7 @@ Layer: 2
 EndChar
 
 StartChar: uni013B
-Encoding: 65763 315 253
+Encoding: 253 315 253
 GlifName: uni013B_
 Width: 428
 VWidth: 0
@@ -15459,7 +15466,7 @@ Layer: 2
 EndChar
 
 StartChar: uni013C
-Encoding: 65764 316 254
+Encoding: 254 316 254
 GlifName: uni013C_
 Width: 184
 VWidth: 0
@@ -15473,7 +15480,7 @@ Layer: 2
 EndChar
 
 StartChar: uni013D
-Encoding: 65765 317 255
+Encoding: 255 317 255
 GlifName: uni013D_
 Width: 428
 VWidth: 0
@@ -15487,7 +15494,7 @@ Layer: 2
 EndChar
 
 StartChar: uni013E
-Encoding: 65766 318 256
+Encoding: 256 318 256
 GlifName: uni013E_
 Width: 184
 VWidth: 0
@@ -15501,7 +15508,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0141
-Encoding: 65767 321 257
+Encoding: 257 321 257
 GlifName: uni0141
 Width: 530
 VWidth: 0
@@ -15560,7 +15567,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0142
-Encoding: 65768 322 258
+Encoding: 258 322 258
 GlifName: uni0142
 Width: 424
 VWidth: 0
@@ -15610,7 +15617,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0143
-Encoding: 65769 323 259
+Encoding: 259 323 259
 GlifName: uni0143
 Width: 509
 VWidth: 0
@@ -15624,7 +15631,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0144
-Encoding: 65770 324 260
+Encoding: 260 324 260
 GlifName: uni0144
 Width: 434
 VWidth: 0
@@ -15638,7 +15645,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0145
-Encoding: 65771 325 261
+Encoding: 261 325 261
 GlifName: uni0145
 Width: 509
 VWidth: 0
@@ -15652,7 +15659,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0146
-Encoding: 65772 326 262
+Encoding: 262 326 262
 GlifName: uni0146
 Width: 434
 VWidth: 0
@@ -15666,7 +15673,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0147
-Encoding: 65773 327 263
+Encoding: 263 327 263
 GlifName: uni0147
 Width: 509
 VWidth: 0
@@ -15680,7 +15687,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0148
-Encoding: 65774 328 264
+Encoding: 264 328 264
 GlifName: uni0148
 Width: 434
 VWidth: 0
@@ -15694,7 +15701,7 @@ Layer: 2
 EndChar
 
 StartChar: uni014C
-Encoding: 65775 332 265
+Encoding: 265 332 265
 GlifName: uni014C_
 Width: 508
 VWidth: 0
@@ -15708,7 +15715,7 @@ Layer: 2
 EndChar
 
 StartChar: uni014D
-Encoding: 65776 333 266
+Encoding: 266 333 266
 GlifName: uni014D_
 Width: 420
 VWidth: 0
@@ -15722,7 +15729,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0150
-Encoding: 65777 336 267
+Encoding: 267 336 267
 GlifName: uni0150
 Width: 508
 VWidth: 0
@@ -15736,7 +15743,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0151
-Encoding: 65778 337 268
+Encoding: 268 337 268
 GlifName: uni0151
 Width: 420
 VWidth: 0
@@ -15750,7 +15757,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0152
-Encoding: 65779 338 269
+Encoding: 269 338 269
 GlifName: uni0152
 Width: 724
 VWidth: 0
@@ -15825,7 +15832,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0153
-Encoding: 65780 339 270
+Encoding: 270 339 270
 GlifName: uni0153
 Width: 671
 VWidth: 0
@@ -15934,7 +15941,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0154
-Encoding: 65781 340 271
+Encoding: 271 340 271
 GlifName: uni0154
 Width: 495
 VWidth: 0
@@ -15948,7 +15955,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0155
-Encoding: 65782 341 272
+Encoding: 272 341 272
 GlifName: uni0155
 Width: 316
 VWidth: 0
@@ -15962,7 +15969,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0156
-Encoding: 65783 342 273
+Encoding: 273 342 273
 GlifName: uni0156
 Width: 495
 VWidth: 0
@@ -15976,7 +15983,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0157
-Encoding: 65784 343 274
+Encoding: 274 343 274
 GlifName: uni0157
 Width: 316
 VWidth: 0
@@ -15990,7 +15997,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0158
-Encoding: 65785 344 275
+Encoding: 275 344 275
 GlifName: uni0158
 Width: 495
 VWidth: 0
@@ -16004,7 +16011,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0159
-Encoding: 65786 345 276
+Encoding: 276 345 276
 GlifName: uni0159
 Width: 316
 VWidth: 0
@@ -16018,7 +16025,7 @@ Layer: 2
 EndChar
 
 StartChar: uni015A
-Encoding: 65787 346 277
+Encoding: 277 346 277
 GlifName: uni015A_
 Width: 497
 VWidth: 0
@@ -16032,7 +16039,7 @@ Layer: 2
 EndChar
 
 StartChar: uni015B
-Encoding: 65788 347 278
+Encoding: 278 347 278
 GlifName: uni015B_
 Width: 418
 VWidth: 0
@@ -16046,7 +16053,7 @@ Layer: 2
 EndChar
 
 StartChar: uni015E
-Encoding: 65789 350 279
+Encoding: 279 350 279
 GlifName: uni015E_
 Width: 497
 VWidth: 0
@@ -16060,7 +16067,7 @@ Layer: 2
 EndChar
 
 StartChar: uni015F
-Encoding: 65790 351 280
+Encoding: 280 351 280
 GlifName: uni015F_
 Width: 418
 VWidth: 0
@@ -16074,7 +16081,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0160
-Encoding: 65791 352 281
+Encoding: 281 352 281
 GlifName: uni0160
 Width: 497
 VWidth: 0
@@ -16128,7 +16135,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0161
-Encoding: 65792 353 282
+Encoding: 282 353 282
 GlifName: uni0161
 Width: 418
 VWidth: 0
@@ -16182,7 +16189,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0162
-Encoding: 65793 354 283
+Encoding: 283 354 283
 GlifName: uni0162
 Width: 485
 VWidth: 0
@@ -16196,7 +16203,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0163
-Encoding: 65794 355 284
+Encoding: 284 355 284
 GlifName: uni0163
 Width: 324
 VWidth: 0
@@ -16210,7 +16217,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0164
-Encoding: 65795 356 285
+Encoding: 285 356 285
 GlifName: uni0164
 Width: 485
 VWidth: 0
@@ -16224,7 +16231,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0165
-Encoding: 65796 357 286
+Encoding: 286 357 286
 GlifName: uni0165
 Width: 324
 VWidth: 0
@@ -16238,7 +16245,7 @@ Layer: 2
 EndChar
 
 StartChar: uni016A
-Encoding: 65797 362 287
+Encoding: 287 362 287
 GlifName: uni016A_
 Width: 512
 VWidth: 0
@@ -16252,7 +16259,7 @@ Layer: 2
 EndChar
 
 StartChar: uni016B
-Encoding: 65798 363 288
+Encoding: 288 363 288
 GlifName: uni016B_
 Width: 434
 VWidth: 0
@@ -16266,7 +16273,7 @@ Layer: 2
 EndChar
 
 StartChar: uni016E
-Encoding: 65799 366 289
+Encoding: 289 366 289
 GlifName: uni016E_
 Width: 512
 VWidth: 0
@@ -16280,7 +16287,7 @@ Layer: 2
 EndChar
 
 StartChar: uni016F
-Encoding: 65800 367 290
+Encoding: 290 367 290
 GlifName: uni016F_
 Width: 434
 VWidth: 0
@@ -16294,7 +16301,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0170
-Encoding: 65801 368 291
+Encoding: 291 368 291
 GlifName: uni0170
 Width: 512
 VWidth: 0
@@ -16308,7 +16315,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0171
-Encoding: 65802 369 292
+Encoding: 292 369 292
 GlifName: uni0171
 Width: 434
 VWidth: 0
@@ -16322,7 +16329,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0172
-Encoding: 65803 370 293
+Encoding: 293 370 293
 GlifName: uni0172
 Width: 512
 VWidth: 0
@@ -16381,7 +16388,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0173
-Encoding: 65804 371 294
+Encoding: 294 371 294
 GlifName: uni0173
 Width: 434
 VWidth: 0
@@ -16395,7 +16402,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0178
-Encoding: 65805 376 295
+Encoding: 295 376 295
 GlifName: uni0178
 Width: 479
 VWidth: 0
@@ -16439,7 +16446,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0179
-Encoding: 65806 377 296
+Encoding: 296 377 296
 GlifName: uni0179
 Width: 418
 VWidth: 0
@@ -16453,7 +16460,7 @@ Layer: 2
 EndChar
 
 StartChar: uni017A
-Encoding: 65807 378 297
+Encoding: 297 378 297
 GlifName: uni017A_
 Width: 348
 VWidth: 0
@@ -16467,7 +16474,7 @@ Layer: 2
 EndChar
 
 StartChar: uni017B
-Encoding: 65808 379 298
+Encoding: 298 379 298
 GlifName: uni017B_
 Width: 418
 VWidth: 0
@@ -16481,7 +16488,7 @@ Layer: 2
 EndChar
 
 StartChar: uni017C
-Encoding: 65809 380 299
+Encoding: 299 380 299
 GlifName: uni017C_
 Width: 348
 VWidth: 0
@@ -16495,7 +16502,7 @@ Layer: 2
 EndChar
 
 StartChar: uni017D
-Encoding: 65810 381 300
+Encoding: 300 381 300
 GlifName: uni017D_
 Width: 418
 VWidth: 0
@@ -16549,7 +16556,7 @@ Layer: 2
 EndChar
 
 StartChar: uni017E
-Encoding: 65811 382 301
+Encoding: 301 382 301
 GlifName: uni017E_
 Width: 348
 VWidth: 0
@@ -16603,7 +16610,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0192
-Encoding: 65812 402 302
+Encoding: 302 402 302
 GlifName: uni0192
 Width: 382
 VWidth: 0
@@ -16677,7 +16684,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0218
-Encoding: 65813 536 303
+Encoding: 303 536 303
 GlifName: uni0218
 Width: 497
 VWidth: 0
@@ -16691,7 +16698,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0219
-Encoding: 65814 537 304
+Encoding: 304 537 304
 GlifName: uni0219
 Width: 418
 VWidth: 0
@@ -16705,7 +16712,7 @@ Layer: 2
 EndChar
 
 StartChar: uni021A
-Encoding: 65815 538 305
+Encoding: 305 538 305
 GlifName: uni021A_
 Width: 485
 VWidth: 0
@@ -16719,7 +16726,7 @@ Layer: 2
 EndChar
 
 StartChar: uni021B
-Encoding: 65816 539 306
+Encoding: 306 539 306
 GlifName: uni021B_
 Width: 324
 VWidth: 0
@@ -16733,7 +16740,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02C6
-Encoding: 65817 710 307
+Encoding: 307 710 307
 GlifName: uni02C_6
 Width: 270
 VWidth: 0
@@ -16780,7 +16787,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02C7
-Encoding: 65818 711 308
+Encoding: 308 711 308
 GlifName: uni02C_7
 Width: 270
 VWidth: 0
@@ -16827,7 +16834,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02C9
-Encoding: 65819 713 309
+Encoding: 309 713 309
 GlifName: uni02C_9
 Width: 416
 VWidth: 0
@@ -16871,7 +16878,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02D8
-Encoding: 65820 728 310
+Encoding: 310 728 310
 GlifName: uni02D_8
 Width: 244
 VWidth: 0
@@ -16922,7 +16929,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02D9
-Encoding: 65821 729 311
+Encoding: 311 729 311
 GlifName: uni02D_9
 Width: 202
 VWidth: 0
@@ -16966,7 +16973,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02DA
-Encoding: 65822 730 312
+Encoding: 312 730 312
 GlifName: uni02D_A_
 Width: 244
 VWidth: 0
@@ -17025,7 +17032,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02DB
-Encoding: 65823 731 313
+Encoding: 313 731 313
 GlifName: uni02D_B_
 Width: 219
 VWidth: 0
@@ -17038,7 +17045,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02DC
-Encoding: 65824 732 314
+Encoding: 314 732 314
 GlifName: uni02D_C_
 Width: 333
 VWidth: 0
@@ -17091,7 +17098,7 @@ Layer: 2
 EndChar
 
 StartChar: uni02DD
-Encoding: 65825 733 315
+Encoding: 315 733 315
 GlifName: uni02D_D_
 Width: 336
 VWidth: 0
@@ -17140,7 +17147,7 @@ Layer: 2
 EndChar
 
 StartChar: uni03C0
-Encoding: 65826 960 316
+Encoding: 316 960 316
 GlifName: uni03C_0
 Width: 421
 VWidth: 0
@@ -17206,7 +17213,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2013
-Encoding: 65827 8211 317
+Encoding: 317 8211 317
 GlifName: uni2013
 Width: 532
 VWidth: 0
@@ -17241,7 +17248,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2014
-Encoding: 65828 8212 318
+Encoding: 318 8212 318
 GlifName: uni2014
 Width: 906
 VWidth: 0
@@ -17276,7 +17283,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2018
-Encoding: 65829 8216 319
+Encoding: 319 8216 319
 GlifName: uni2018
 Width: 187
 VWidth: 0
@@ -17314,7 +17321,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2019
-Encoding: 65830 8217 320
+Encoding: 320 8217 320
 GlifName: uni2019
 Width: 187
 VWidth: 0
@@ -17352,7 +17359,7 @@ Layer: 2
 EndChar
 
 StartChar: uni201A
-Encoding: 65831 8218 321
+Encoding: 321 8218 321
 GlifName: uni201A_
 Width: 187
 VWidth: 0
@@ -17390,7 +17397,7 @@ Layer: 2
 EndChar
 
 StartChar: uni201C
-Encoding: 65832 8220 322
+Encoding: 322 8220 322
 GlifName: uni201C_
 Width: 359
 VWidth: 0
@@ -17433,7 +17440,7 @@ Layer: 2
 EndChar
 
 StartChar: uni201D
-Encoding: 65833 8221 323
+Encoding: 323 8221 323
 GlifName: uni201D_
 Width: 359
 VWidth: 0
@@ -17476,7 +17483,7 @@ Layer: 2
 EndChar
 
 StartChar: uni201E
-Encoding: 65834 8222 324
+Encoding: 324 8222 324
 GlifName: uni201E_
 Width: 359
 VWidth: 0
@@ -17519,7 +17526,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2020
-Encoding: 65835 8224 325
+Encoding: 325 8224 325
 GlifName: uni2020
 Width: 453
 VWidth: 0
@@ -17571,7 +17578,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2021
-Encoding: 65836 8225 326
+Encoding: 326 8225 326
 GlifName: uni2021
 Width: 453
 VWidth: 0
@@ -17636,7 +17643,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2022
-Encoding: 65837 8226 327
+Encoding: 327 8226 327
 GlifName: uni2022
 Width: 352
 VWidth: 0
@@ -17655,7 +17662,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2026
-Encoding: 65838 8230 328
+Encoding: 328 8230 328
 GlifName: uni2026
 Width: 250
 VWidth: 0
@@ -17670,7 +17677,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2030
-Encoding: 65839 8240 329
+Encoding: 329 8240 329
 GlifName: uni2030
 Width: 897
 VWidth: 0
@@ -17821,7 +17828,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2039
-Encoding: 65840 8249 330
+Encoding: 330 8249 330
 GlifName: uni2039
 Width: 338
 VWidth: 0
@@ -17858,7 +17865,7 @@ Layer: 2
 EndChar
 
 StartChar: uni203A
-Encoding: 65841 8250 331
+Encoding: 331 8250 331
 GlifName: uni203A_
 Width: 338
 VWidth: 0
@@ -17895,7 +17902,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2044
-Encoding: 65842 8260 332
+Encoding: 332 8260 332
 GlifName: uni2044
 Width: 560
 VWidth: 0
@@ -17930,7 +17937,7 @@ Layer: 2
 EndChar
 
 StartChar: uni20AC
-Encoding: 65843 8364 333
+Encoding: 333 8364 333
 GlifName: uni20A_C_
 Width: 567
 VWidth: 0
@@ -18025,7 +18032,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2113
-Encoding: 65844 8467 334
+Encoding: 334 8467 334
 GlifName: uni2113
 Width: 184
 VWidth: 0
@@ -18071,7 +18078,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2122
-Encoding: 65845 8482 335
+Encoding: 335 8482 335
 GlifName: uni2122
 Width: 403
 VWidth: 0
@@ -18150,7 +18157,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2126
-Encoding: 65846 8486 336
+Encoding: 336 8486 336
 GlifName: uni2126
 Width: 420
 VWidth: 0
@@ -18194,7 +18201,7 @@ Layer: 2
 EndChar
 
 StartChar: uni212E
-Encoding: 65847 8494 337
+Encoding: 337 8494 337
 GlifName: uni212E_
 Width: 472
 VWidth: 0
@@ -18240,7 +18247,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2202
-Encoding: 65848 8706 338
+Encoding: 338 8706 338
 GlifName: uni2202
 Width: 420
 VWidth: 0
@@ -18286,7 +18293,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2206
-Encoding: 65849 8710 339
+Encoding: 339 8710 339
 GlifName: uni2206
 Width: 414
 VWidth: 0
@@ -18309,7 +18316,7 @@ Layer: 2
 EndChar
 
 StartChar: uni220F
-Encoding: 65850 8719 340
+Encoding: 340 8719 340
 GlifName: uni220F_
 Width: 458
 VWidth: 0
@@ -18336,7 +18343,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2211
-Encoding: 65851 8721 341
+Encoding: 341 8721 341
 GlifName: uni2211
 Width: 676
 VWidth: 0
@@ -18371,7 +18378,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2212
-Encoding: 65852 8722 342
+Encoding: 342 8722 342
 GlifName: uni2212
 Width: 416
 VWidth: 0
@@ -18409,7 +18416,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2215
-Encoding: 65853 8725 343
+Encoding: 343 8725 343
 GlifName: uni2215
 Width: 560
 VWidth: 0
@@ -18422,7 +18429,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2219
-Encoding: 65854 8729 344
+Encoding: 344 8729 344
 GlifName: uni2219
 Width: 250
 VWidth: 0
@@ -18435,7 +18442,7 @@ Layer: 2
 EndChar
 
 StartChar: uni221A
-Encoding: 65855 8730 345
+Encoding: 345 8730 345
 GlifName: uni221A_
 Width: 560
 VWidth: 0
@@ -18459,7 +18466,7 @@ Layer: 2
 EndChar
 
 StartChar: uni221E
-Encoding: 65856 8734 346
+Encoding: 346 8734 346
 GlifName: uni221E_
 Width: 420
 VWidth: 0
@@ -18525,7 +18532,7 @@ Layer: 2
 EndChar
 
 StartChar: uni222B
-Encoding: 65857 8747 347
+Encoding: 347 8747 347
 GlifName: uni222B_
 Width: 285
 VWidth: 0
@@ -18578,7 +18585,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2248
-Encoding: 65858 8776 348
+Encoding: 348 8776 348
 GlifName: uni2248
 Width: 568
 VWidth: 0
@@ -18610,7 +18617,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2260
-Encoding: 65859 8800 349
+Encoding: 349 8800 349
 GlifName: uni2260
 Width: 418
 VWidth: 0
@@ -18624,7 +18631,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2264
-Encoding: 65860 8804 350
+Encoding: 350 8804 350
 GlifName: uni2264
 Width: 414
 VWidth: 0
@@ -18651,7 +18658,7 @@ Layer: 2
 EndChar
 
 StartChar: uni2265
-Encoding: 65861 8805 351
+Encoding: 351 8805 351
 GlifName: uni2265
 Width: 414
 VWidth: 0
@@ -18694,7 +18701,7 @@ Layer: 2
 EndChar
 
 StartChar: uni25CA
-Encoding: 65862 9674 352
+Encoding: 352 9674 352
 GlifName: uni25C_A_
 Width: 414
 VWidth: 0
@@ -18732,7 +18739,7 @@ Layer: 2
 EndChar
 
 StartChar: uniFB01
-Encoding: 65863 64257 353
+Encoding: 353 64257 353
 GlifName: uniF_B_01
 Width: 494
 VWidth: 0
@@ -18825,7 +18832,7 @@ Layer: 2
 EndChar
 
 StartChar: uniFB02
-Encoding: 65864 64258 354
+Encoding: 354 64258 354
 GlifName: uniF_B_02
 Width: 483
 VWidth: 0
@@ -18900,6 +18907,81 @@ sg8
 I117
 sass."
 Layer: 2
+EndChar
+
+StartChar: si_Kha
+Encoding: 355 3483 355
+Width: 623
+VWidth: 0
+Flags: W
+HStem: 0 140<175.44 215 398.183 507.735> 314 138<172.647 256.194> 616.5 138.5<205.506 258.667 315 408.859>
+VStem: 35 132<148.617 306.002> 262 135<-65 8 192 308.025> 387 10<0 222> 457 140<143.438 565.18>
+LayerCount: 3
+Back
+Fore
+SplineSet
+258.666992188 616.5 m 5xf2
+ 258.666992188 755 l 5
+ 155.077148438 755 48 672.125976562 48 566 c 261
+ 185 530 l 261
+ 185 595.735351562 221.301757812 616.5 258.666992188 616.5 c 5xf2
+428 140 m 256
+ 457 140 457 156 457 200 c 258
+ 457 478 l 258
+ 457 610 374 616.5 315 616.5 c 256
+ 315 755 l 256
+ 463 754 597 710 597 491 c 258
+ 597 262 l 258
+ 597 78 560 0 453 0 c 256
+ 438.100585938 0 387 0 387 14 c 1
+ 387 222 l 1xf6
+ 397 222 l 1
+ 397 192 l 2xfa
+ 397 155 397.206054688 140 428 140 c 256
+262 8 m 257xfa
+ 262 251 l 256
+ 262.030273438 280.508789062 261 314 215 314 c 256
+ 174 314 167 291 167 251 c 256
+ 167 202 l 0
+ 167 166 171.263671875 140 216 140 c 257
+ 215 0 l 257
+ 63 0 35 92 35 189 c 256
+ 35 273 l 0
+ 35.015625 396.71875 117.911132812 452 234 452 c 256
+ 298 452 397 423 397 290 c 258
+ 397 -65 l 1
+ 262 -65 l 1
+ 262 8 l 257xfa
+EndSplineSet
+Layer: 2
+SplineSet
+258.666992188 616.5 m 5
+ 258.666992188 755 l 5
+ 155.077148438 755 48 672.125976562 48 566 c 261
+ 185 530 l 261
+ 185 595.735351562 221.301757812 616.5 258.666992188 616.5 c 5
+315 755 m 260
+ 459 754 597 713 597 491 c 262
+ 597 252 l 262
+ 597 68 556 -7 412 -7 c 260
+ 319 -7 262 40 262 138 c 260
+ 262 253 l 260
+ 262 279 260 314 217 314 c 260
+ 169 314 167 287 167 243 c 260
+ 166.916992188 193 l 4
+ 167 151 185.45703125 140 216 140 c 261
+ 215 0 l 261
+ 95.10546875 0 35 55 35 187 c 4
+ 35 270 l 260
+ 35 389 108 452 234 452 c 260
+ 298 452 397 423 397 290 c 260
+ 397 191 l 260
+ 397 158 397 140 426 140 c 260
+ 457 140 457 154 457 191 c 262
+ 457 478 l 262
+ 457 612 371 616.5 315 616.5 c 260
+ 315 755 l 260
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
