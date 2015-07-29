@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435774564
-ModificationTime: 1438072351
+ModificationTime: 1438078174
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -777,13 +777,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
 Encoding: Custom
 Compacted: 1
@@ -792,7 +792,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 0 8 6
 Grid
 -1024 474 m 0
  2048 474 l 1024
@@ -2264,25 +2264,12 @@ Encoding: 237 -1 17
 GlifName: si_N_nI_
 Width: 11
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 673 104<823.378 970.256>
 VStem: 672 114<537.477 638.805> 977 112<468.653 663.761>
 LayerCount: 3
 Back
 Fore
-SplineSet
-1065 467 m 256
- 961 467 l 256
- 973 486 977 523 977 545 c 256
- 977 597 998 673 923 673 c 256
- 846 673 786 640 786 605 c 256
- 786 547 795 537 795 537 c 257
- 693 537 l 257
- 677 557 672 589 672 615 c 256
- 672 738 793 777 923 777 c 256
- 1047 777 1089 680 1089 555 c 256
- 1089 517 1076 476 1065 467 c 256
-EndSplineSet
 Refer: 18 3499 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
