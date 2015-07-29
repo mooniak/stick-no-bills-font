@@ -4,6 +4,7 @@ cd ../sources/
 
 fontforge ../scripts/fontconvert StickNoBills-Bold.sfd --otf
 fontforge ../scripts/fontconvert StickNoBills-Light.sfd --otf
+fontforge ../scripts/fontconvert StickNoBillsTamil-Bold.sfd --otf
 
 mv *otf ../tests/fonts
 cd ../tests/
