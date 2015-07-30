@@ -7,8 +7,6 @@ fontforge ../scripts/fontconvert StickNoBills-Light.sfd --otf
 fontforge ../scripts/fontconvert StickNoBillsTamil-Bold.sfd --otf
 fontforge ../scripts/fontconvert StickNoBillsTamil-Light.sfd --otf
 fontforge ../scripts/fontconvert StickNoBillsSinhala-Bold.sfd --otf
-fontforge ../scripts/fontconvert StickNoBillsSinhala-Light.sfd --otf
-
 
 mv *otf ../tests/fonts
 cd ../tests/
