@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1438606836
+ModificationTime: 1438607097
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3293,7 +3293,7 @@ GlifName: ampersand
 Width: 686
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 LayerCount: 4
 Fore
 SplineSet
@@ -3301,7 +3301,7 @@ SplineSet
  374 353 477 410 477 529 c 256
  477 614 424 681 317 700 c 257
  317 662 l 257
- 340 650 437 640 437 529 c 256
+ 343 656 437 631 437 529 c 260
  437 439 358 392 317 392 c 257
  317 350 l 1
 317 306.286132812 m 1
@@ -3317,8 +3317,8 @@ SplineSet
  553 345 l 257
  537 264 498 215 467 178 c 257
  317 306.286132812 l 1
-257 664 m 257xb0
- 257 664 134 635 134 536 c 256xb0
+257 664 m 261xb0
+ 236 659 134 629 134 536 c 260xb0
  134 450 251 362 257 356 c 257
  257 300 l 257
  172 374 l 257
@@ -3329,7 +3329,7 @@ SplineSet
  26 306 80 370 150 404 c 257
  123 438 94 483 94 536 c 256
  94 619 153 681 257 702 c 257
- 257 664 l 257xb0
+ 257 664 l 261xb0
 EndSplineSet
 Layer: 2
 SplineSet
@@ -4736,7 +4736,7 @@ GlifName: dollar
 Width: 497
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 VStem: 38 134<499.5 525 499.5 553.5> 142 71<-47 13 13 13 679 750> 268 71<-47 -3 -3 12 -47 127 682 750> 330 141<176.5 222>
 LayerCount: 4
 Fore
