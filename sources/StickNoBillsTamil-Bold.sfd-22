@@ -8506,7 +8506,7 @@ StartChar: uni0B85
 Encoding: 3 2949 324
 Width: 1038
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9284,7 +9284,7 @@ StartChar: uni0B86
 Encoding: 4 2950 340
 Width: 1251
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
@@ -9317,7 +9317,7 @@ SplineSet
  245 300 l 2
  245 381.506835938 350.282226562 455 448 455 c 0
  541 455 625 363 625 287 c 0
- 625 218 l 2
+ 625 218 l 6
  625 168 550 80 448 80 c 9
  448 204 l 1
 408 22 m 1
