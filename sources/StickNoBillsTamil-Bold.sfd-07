@@ -8405,7 +8405,7 @@ StartChar: uni0BB5
 Encoding: 33 2997 322
 Width: 894
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -8652,7 +8652,7 @@ StartChar: uni0BBE
 Encoding: 38 3006 328
 Width: 582
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
@@ -8673,8 +8673,8 @@ SplineSet
  294 551 l 1
 40 551 m 1
  254 551 l 1
- 254 426 l 5
- 40 426 l 5
+ 254 426 l 1
+ 40 426 l 1
  40 551 l 1
 EndSplineSet
 EndChar
