@@ -1,7 +1,8 @@
 
 |  WORK IN PROGRESS      | 
 | ------------- |:-------------:| 
-| This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       | 
+| This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.  See [Our continoues intergrated testing page](http://mooniak.com/stick-no-bills-font/tests/) to see work in progress.
+    | 
 
 
 
@@ -12,6 +13,7 @@ STICK NO BILLS™ Font
 ![](https://raw.githubusercontent.com/mooniak/stick-no-bills-microsite/gh-pages/images/stick_no_bills_font.png)
 
 STICK NO BILLS - is the bespoke typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka.
+
 
 The first drawings were developed by Martyn Hodges for uppercase and numerals and mooniak is working on further refining and developing them into a font.
 
