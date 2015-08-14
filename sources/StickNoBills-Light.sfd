@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1438607097
+ModificationTime: 1439537470
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,13 +482,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 14 6
+WinInfo: 28 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1351,54 +1351,54 @@ EndChar
 StartChar: uni0048
 Encoding: 40 72 21
 GlifName: H_
-Width: 458
+Width: 460
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21<32 173 32 32 285 285 285 426> 0 21<32 173 32 32 285 285 285 426> 680 20<32 173 173 173 285 426 426 426>
-VStem: 32 170<283 421 283 700> 32 141<0 283 0 421 421 700> 256 170<283 421 421 421> 285 141<0 283 283 283 421 700 0 700>
+HStem: 0 21<33 174 33 33 286 286 286 427> 0 21<33 174 33 33 286 286 286 427> 680 20<33 174 174 174 286 427 427 427>
+VStem: 33 170<283 421 283 700> 33 141<0 283 0 421 421 700> 257 170<283 421 421 421> 286 141<0 283 283 283 421 700 0 700>
 LayerCount: 4
 Fore
 SplineSet
-206 371 m 257xb0
- 206 333 l 257xb0
- 72 333 l 257
- 72 0 l 257
- 32 0 l 257xa8
- 32 700 l 257xb0
- 72 700 l 257
- 72 371 l 257xa8
- 206 371 l 257xb0
-386 700 m 257xa2
- 426 700 l 257
- 426 0 l 257
- 386 0 l 257
- 386 333 l 257xa2
- 252 333 l 257
- 252 371 l 257xa4
- 386 371 l 257
- 386 700 l 257xa2
+207 371 m 257xb0
+ 207 333 l 257xb0
+ 73 333 l 257
+ 73 0 l 257
+ 33 0 l 257xa8
+ 33 700 l 257xb0
+ 73 700 l 257
+ 73 371 l 257xa8
+ 207 371 l 257xb0
+387 700 m 257xa2
+ 427 700 l 257
+ 427 0 l 257
+ 387 0 l 257
+ 387 333 l 257xa2
+ 253 333 l 257
+ 253 371 l 257xa4
+ 387 371 l 257
+ 387 700 l 257xa2
 EndSplineSet
 Layer: 2
 SplineSet
-202 421 m 257xb0
- 202 283 l 257xb0
- 173 283 l 257
- 173 0 l 257
- 32 0 l 257xa8
- 32 700 l 257xb0
- 173 700 l 257
- 173 421 l 257xa8
- 202 421 l 257xb0
-285 700 m 257xa2
- 426 700 l 257
- 426 0 l 257
- 285 0 l 257
- 285 283 l 257xa2
- 256 283 l 257
- 256 421 l 257xa4
- 285 421 l 257
- 285 700 l 257xa2
+203 421 m 257xb0
+ 203 283 l 257xb0
+ 174 283 l 257
+ 174 0 l 257
+ 33 0 l 257xa8
+ 33 700 l 257xb0
+ 174 700 l 257
+ 174 421 l 257xa8
+ 203 421 l 257xb0
+286 700 m 257xa2
+ 427 700 l 257
+ 427 0 l 257
+ 286 0 l 257
+ 286 283 l 257xa2
+ 257 283 l 257
+ 257 421 l 257xa4
+ 286 421 l 257
+ 286 700 l 257xa2
 EndSplineSet
 EndChar
 
@@ -3293,7 +3293,7 @@ GlifName: ampersand
 Width: 686
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 4
 Fore
 SplineSet
