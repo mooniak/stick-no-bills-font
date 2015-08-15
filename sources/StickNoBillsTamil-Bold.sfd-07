@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1439530565
+ModificationTime: 1439566828
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -480,13 +480,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -502,8 +502,6 @@ Grid
  2048 368.999989003 l 1024
 -1024 122.999996334 m 0
  2048 122.999996334 l 1024
--1024 611.999981761 m 0
- 2048 611.999981761 l 1024
 -1024 -261.49987793 m 0
  2048 -261.49987793 l 1024
 -1024 -162 m 0
@@ -524,8 +522,8 @@ Grid
 -1024 -180 m 0
  2048 -180 l 1024
 2048 249.99987793 m 1024
--1024 705.599975586 m 0
- 2048 705.599975586 l 1024
+-1024 705.599975586 m 4
+ 2048 705.599975586 l 1028
 -1024 608.99998185 m 0
  2048 608.99998185 l 1024
 656 1331 m 0
@@ -11285,7 +11283,7 @@ StartChar: NameMe.37
 Encoding: 37 -1 378
 Width: 1232
 VWidth: 0
-Flags: MWO
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
