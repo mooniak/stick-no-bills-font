@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1439832824
+ModificationTime: 1439833092
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -494,7 +494,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 40 8 2
+WinInfo: 32 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -11667,7 +11667,7 @@ EndChar
 
 StartChar: NameMe.43
 Encoding: 43 -1 384
-Width: 584
+Width: 781
 VWidth: 0
 Flags: HWO
 LayerCount: 2
@@ -11707,14 +11707,14 @@ SplineSet
  189.98828125 290 315 325 373 325 c 1
 370 722 m 1
  369.599609375 598 l 1
- 306 596 164 583 164 471 c 2
- 164 206 l 2
- 164 109 313.5 81 371.387695312 81 c 1
+ 306 596 164 598 164 486 c 6
+ 164 172 l 2
+ 164 75 313.5 81 371.387695312 81 c 1
  371.387695312 -43 l 0
  359 -43 l 0
- 254 -43 40 -16 40 193 c 1
- 40 475 l 1
- 40 699 281 722 363 722 c 0
+ 254 -43 40 -50 40 159 c 1
+ 40 490 l 5
+ 40 714 281 722 363 722 c 0
  370 722 l 1
 EndSplineSet
 EndChar
