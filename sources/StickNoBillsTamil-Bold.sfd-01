@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440418244
+ModificationTime: 1440418666
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -12012,13 +12012,13 @@ StartChar: NameMe.59
 Encoding: 59 -1 392
 Width: 548
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
 508 -264.5 m 17
- 508 240 l 1
- 383 240 l 1
+ 508 92 l 1
+ 383 92 l 1
  383 -264.5 l 1
  508 -264.5 l 17
 40 109.065429688 m 1
@@ -12104,7 +12104,7 @@ StartChar: NameMe.61
 Encoding: 61 -1 394
 Width: 742
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
