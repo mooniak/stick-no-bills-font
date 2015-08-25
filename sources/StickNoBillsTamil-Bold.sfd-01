@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440490401
+ModificationTime: 1440497580
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -495,7 +495,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 48 8 2
+WinInfo: 40 8 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -11806,24 +11806,19 @@ SplineSet
  761 -151 740 -264 583 -264 c 0
  330 -264 l 1
  330 -149 l 17
-330 -8 m 17
- 802 -8 l 0
- 802 595.999023438 l 4
- 927 595.999023438 l 4
- 927 -124 l 2
- 330 -124 l 1
- 330 -8 l 17
-291 -149 m 17
- 195 -149 l 2
- 156 -149 154 -124 195 -124 c 0
- 291 -124 l 1
- 291 -8 l 17
- 187 -8 l 0
- 97 -8 40 -42 40 -112 c 0
- 40 -161 l 0
- 41 -258.200195312 142 -264 176 -264 c 2
+195 -105 m 2
+ 154 -105 156 -149 195 -149 c 2
+ 291 -149 l 9
  291 -264 l 1
- 291 -149 l 17
+ 176 -264 l 2
+ 142 -264 41 -258.200195312 40 -161 c 0
+ 40 -112 l 0
+ 40 -42 97 -29 187 -29 c 2
+ 802 -29 l 1
+ 802 595.999023438 l 0
+ 927 595.999023438 l 0
+ 927 -105 l 1
+ 195 -105 l 2
 50 169 m 9
  176 169 l 17
  183.004882812 131.557617188 210.586914062 127.981445312 292 128 c 1
@@ -12111,7 +12106,7 @@ StartChar: NameMe.61
 Encoding: 61 -1 394
 Width: 742
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
