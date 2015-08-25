@@ -11795,7 +11795,7 @@ StartChar: NameMe.56
 Encoding: 56 -1 389
 Width: 967
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
@@ -11867,7 +11867,7 @@ StartChar: NameMe.57
 Encoding: 57 -1 390
 Width: 869
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -11888,10 +11888,10 @@ SplineSet
  160.00390625 -263.0546875 41 -260.200195312 40 -163 c 0
  40 -129 l 0
  40 -59 105 -29 195 -29 c 2
- 704 -29 l 5
- 704 595.999023438 l 4
- 829 595.999023438 l 4
- 829 -124 l 5
+ 704 -29 l 1
+ 704 595.999023438 l 0
+ 829 595.999023438 l 0
+ 829 -124 l 1
  195 -124 l 2
 524 210 m 9
  649 210 l 1
