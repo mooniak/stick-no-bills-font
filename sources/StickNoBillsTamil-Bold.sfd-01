@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440567391
+ModificationTime: 1440568155
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -11685,9 +11685,9 @@ SplineSet
  716 255 l 1
  406 255 l 2
  340.0078125 254.795898438 326 245 326 192.940429688 c 0
- 326 130.165039062 346 124.977539062 444 125 c 1
- 444 -1 l 1
- 276 -1 202 69.7568359375 202 161 c 0
+ 326 130.165039062 341 124.977539062 439 125 c 1
+ 439 -1 l 1
+ 271 -1 202 69.7568359375 202 161 c 0
  202 222.814453125 l 0
  202 333 315 380 403 380 c 0
  508.666992188 380 610.333007812 380 716 380 c 9
@@ -11731,8 +11731,8 @@ SplineSet
  552 481 l 1
  552 606 l 1
 330 606 m 1
- 497 606 l 1
- 497 481 l 1
+ 496 606 l 5
+ 496 481 l 5
  330 481 l 1
  330 606 l 1
 EndSplineSet
