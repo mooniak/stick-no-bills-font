@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440568336
+ModificationTime: 1440568634
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,7 +495,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 48 8 5
+WinInfo: 56 8 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -11677,7 +11677,7 @@ StartChar: NameMe.48
 Encoding: 48 -1 387
 Width: 978
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -12413,7 +12413,7 @@ StartChar: NameMe.66
 Encoding: 66 -1 399
 Width: 914
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
@@ -12439,55 +12439,20 @@ SplineSet
 689 125 m 1
  740 125 747.78125 159.014648438 748 181.940429688 c 2
  747 459 l 0
- 747 483 744 515 690 515 c 1
- 690 640 l 1
+ 747 483 744 515 698 515 c 1
+ 698 640 l 1
  797 640 874 572 874 476 c 0
  874 201 l 0
  874 51 780 0 689 0 c 0
  688 0 689 125 689 125 c 1
-  Spiro
-    689 125 v
-    726.888 134.65 o
-    743.949 157.014 o
-    748 181.94 [
-    747 459 o
-    744.23 484.16 o
-    728.752 505.832 o
-    690 515 v
-    690 640 v
-    785.177 618.856 o
-    850.12 561.112 o
-    874 476 o
-    874 201 o
-    846.311 82.3116 o
-    777.325 18.7385 o
-    689 0 o
-    688.556 32.3519 o
-    688.778 92.6481 o
-    0 0 z
-  EndSpiro
-649 640 m 1
- 649 515 l 17
- 602 515 607 442.396484375 607 392 c 0
+643 640 m 1
+ 643 515 l 17
+ 603 515 607 442.396484375 607 392 c 0
  607 370 l 0
  607 124.0234375 l 0
  482 124 l 0
  482 392 l 0
- 482 599 567 640 649 640 c 1
-  Spiro
-    649 640 v
-    649 515 v
-    617.241 494.348 o
-    607.441 446.233 o
-    607 392 o
-    607 370 o
-    607 124.023 o
-    482 124 o
-    482 392 o
-    507.027 548.186 o
-    569.333 621.745 o
-    0 0 z
-  EndSpiro
+ 482 599 568 640 643 640 c 1
 273 108.065429688 m 1
  273 611.065429688 l 1
  398 611.065429688 l 1
