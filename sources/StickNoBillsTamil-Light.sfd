@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440589831
+ModificationTime: 1440590117
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -508,48 +508,29 @@ Encoding: tamil_new
 Compacted: 1
 UnicodeInterp: none
 NameList: Tamil
-DisplaySize: -96
+DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 117 13 6
+WinInfo: 0 7 7
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 227.499450684 m 0
  2048 227.499450684 l 1024
-720 1319 m 0
- 720 -729 l 1024
-787 1321 m 0
- 787 -727 l 1024
-842 -727 m 4
- 842 1321 l 1028
 -1024 595.999023438 m 0
  2048 595.999023438 l 1024
 -1024 776.999976844 m 0
  2048 776.999976844 l 1024
-217 1331 m 0
- 217 -717 l 1024
 -1024 -154.999964863 m 0
  2048 -154.999964863 l 1024
-499 1331 m 0
- 499 -717 l 1024
-273 1331 m 0
- 273 -717 l 1024
 -674 1331 m 1024
-756.5 1331 m 1024
-484 1331 m 1024
-444 1331 m 1024
 -1024 -263.200012207 m 0
  2048 -263.200012207 l 1024
 -1024 664 m 0
  2048 664 l 1024
 -1024 155.000061035 m 0
  2048 155.000061035 l 1024
-727 1331 m 1024
-687 1331 m 1024
-257 1331 m 1024
-217 1331 m 1024
 -1024 -181.699996948 m 0
  2048 -181.699996948 l 1024
   Named: "Tamil Descender"
@@ -2048,7 +2029,7 @@ StartChar: uni0BAA
 Encoding: 25 2986 68
 Width: 550
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
@@ -2075,26 +2056,26 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-40 109.065429688 m 1
+40 49.0654296875 m 1
  40 611.065429688 l 1
- 165 611.065429688 l 1
- 165 109.065429688 l 1
- 40 109.065429688 l 1
-508 106.065429688 m 17
+ 95 611.065429688 l 1
+ 95 49.0654296875 l 1
+ 40 49.0654296875 l 1
+508 46.0654296875 m 17
  508 610.565429688 l 1
- 383 610.565429688 l 1
- 383 106.065429688 l 1
- 508 106.065429688 l 17
-294 126.065429688 m 1
+ 453 610.565429688 l 1
+ 453 46.0654296875 l 1
+ 508 46.0654296875 l 17
+294 66.0654296875 m 1
  294 1.0654296875 l 1
  508 1.0654296875 l 1
- 508 126.065429688 l 1
- 294 126.065429688 l 1
-40 126.065429688 m 1
- 254 126.065429688 l 1
+ 508 66.0654296875 l 1
+ 294 66.0654296875 l 1
+40 66.0654296875 m 1
+ 254 66.0654296875 l 1
  254 1.0654296875 l 1
  40 1.0654296875 l 1
- 40 126.065429688 l 1
+ 40 66.0654296875 l 1
 EndSplineSet
 EndChar
 
@@ -9558,7 +9539,7 @@ EndChar
 
 StartChar: uni00C6
 Encoding: 378 198 248
-GlifName: "+AA0A"
+GlifName: 
 Width: 727
 VWidth: 0
 GlyphClass: 2
@@ -9619,7 +9600,7 @@ EndChar
 
 StartChar: uni00C1
 Encoding: 379 193 249
-GlifName: "PDa+AAoA-x+B1EACgDg"
+GlifName: x
 Width: 516
 VWidth: 0
 GlyphClass: 2
@@ -9655,7 +9636,7 @@ EndChar
 
 StartChar: uni00C4
 Encoding: 381 196 251
-GlifName: "+BUMA"
+GlifName: ""
 Width: 516
 VWidth: 0
 GlyphClass: 2
@@ -9673,7 +9654,7 @@ EndChar
 
 StartChar: uni00C0
 Encoding: 382 192 252
-GlifName: ""
+GlifName: 
 Width: 516
 VWidth: 0
 GlyphClass: 2
@@ -9960,7 +9941,7 @@ EndChar
 
 StartChar: uni0045
 Encoding: 389 69 259
-GlifName: 
+GlifName: File
 Width: 422
 VWidth: 0
 GlyphClass: 2
@@ -10004,7 +9985,7 @@ EndChar
 
 StartChar: uni20AC
 Encoding: 390 8364 260
-GlifName: 
+GlifName: uni0BAA
 Width: 494
 VWidth: 0
 GlyphClass: 2
@@ -10100,7 +10081,7 @@ EndChar
 
 StartChar: uni00C9
 Encoding: 391 201 261
-GlifName: 
+GlifName: View
 Width: 422
 VWidth: 0
 GlyphClass: 2
@@ -10136,7 +10117,7 @@ EndChar
 
 StartChar: uni00CB
 Encoding: 393 203 263
-GlifName: ""
+GlifName: "+AjAA-2+AAoA"
 Width: 422
 VWidth: 0
 GlyphClass: 2
@@ -10274,7 +10255,7 @@ EndChar
 
 StartChar: uni0047
 Encoding: 397 71 267
-GlifName: 
+GlifName: h
 Width: 493
 VWidth: 0
 GlyphClass: 2
@@ -10340,7 +10321,7 @@ EndChar
 
 StartChar: uni0048
 Encoding: 398 72 268
-GlifName: "+BAwA-W+AAoA+YogA"
+GlifName: "+AikA-P+AAoA"
 Width: 458
 VWidth: 0
 GlyphClass: 2
@@ -10502,7 +10483,7 @@ EndChar
 
 StartChar: uni00CD
 Encoding: 401 205 271
-GlifName: 
+GlifName: "+AP8A/wAA"
 Width: 209
 VWidth: 0
 GlyphClass: 2
@@ -10556,7 +10537,7 @@ EndChar
 
 StartChar: uni00CC
 Encoding: 404 204 274
-GlifName: 
+GlifName: ""
 Width: 209
 VWidth: 0
 GlyphClass: 2
@@ -10574,7 +10555,7 @@ EndChar
 
 StartChar: uni004A
 Encoding: 405 74 275
-GlifName: "+AAoA"
+GlifName: "+AjIA-s+AAoA"
 Width: 495
 VWidth: 0
 GlyphClass: 2
@@ -10620,7 +10601,7 @@ EndChar
 
 StartChar: uni004B
 Encoding: 406 75 276
-GlifName: "+BBEACgAA+BjkACgQC"
+GlifName: i
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -10694,7 +10675,7 @@ EndChar
 
 StartChar: uni0141
 Encoding: 408 321 278
-GlifName: ""
+GlifName: 
 Width: 428
 VWidth: 0
 GlyphClass: 2
@@ -10742,7 +10723,7 @@ EndChar
 
 StartChar: uni004D
 Encoding: 409 77 279
-GlifName: 
+GlifName: ""
 Width: 676
 VWidth: 0
 GlyphClass: 2
@@ -10809,7 +10790,7 @@ EndChar
 
 StartChar: uni004E
 Encoding: 410 78 280
-GlifName: "		"
+GlifName: 
 Width: 509
 VWidth: 0
 GlyphClass: 2
@@ -10865,7 +10846,7 @@ EndChar
 
 StartChar: uni00D1
 Encoding: 411 209 281
-GlifName: 
+GlifName: ""
 Width: 509
 VWidth: 0
 GlyphClass: 2
@@ -11044,7 +11025,7 @@ EndChar
 
 StartChar: uni00D6
 Encoding: 416 214 286
-GlifName: 
+GlifName: .
 Width: 508
 VWidth: 0
 GlyphClass: 2
@@ -11170,7 +11151,7 @@ EndChar
 
 StartChar: uni0050
 Encoding: 420 80 290
-GlifName: 
+GlifName: P
 Width: 474
 VWidth: 0
 GlyphClass: 2
@@ -11264,7 +11245,7 @@ EndChar
 
 StartChar: uni0051
 Encoding: 422 81 292
-GlifName: 
+GlifName: w
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -11380,7 +11361,7 @@ EndChar
 
 StartChar: uni0053
 Encoding: 424 83 294
-GlifName: 
+GlifName: i
 Width: 497
 VWidth: 0
 GlyphClass: 2
@@ -11440,7 +11421,7 @@ EndChar
 
 StartChar: uni0160
 Encoding: 425 352 295
-GlifName: 
+GlifName: f
 Width: 497
 VWidth: 0
 GlyphClass: 2
@@ -11494,7 +11475,7 @@ EndChar
 
 StartChar: uni00DE
 Encoding: 427 222 297
-GlifName: "I"
+GlifName: Save
 Width: 474
 VWidth: 0
 GlyphClass: 2
@@ -11540,7 +11521,7 @@ EndChar
 
 StartChar: uni2122
 Encoding: 428 8482 298
-GlifName: 
+GlifName: e
 Width: 485
 VWidth: 0
 GlyphClass: 2
@@ -11588,7 +11569,7 @@ EndChar
 
 StartChar: uni0055
 Encoding: 429 85 299
-GlifName: 
+GlifName: w
 Width: 512
 VWidth: 0
 GlyphClass: 2
@@ -11634,7 +11615,7 @@ EndChar
 
 StartChar: uni00DA
 Encoding: 430 218 300
-GlifName: 
+GlifName: "+//8A"
 Width: 512
 VWidth: 0
 GlyphClass: 2
@@ -11652,7 +11633,7 @@ EndChar
 
 StartChar: uni00DB
 Encoding: 431 219 301
-GlifName: ""
+GlifName: .
 Width: 512
 VWidth: 0
 GlyphClass: 2
@@ -11688,7 +11669,7 @@ EndChar
 
 StartChar: uni00D9
 Encoding: 433 217 303
-GlifName: 
+GlifName: i
 Width: 512
 VWidth: 0
 GlyphClass: 2
@@ -11706,7 +11687,7 @@ EndChar
 
 StartChar: uni0056
 Encoding: 434 86 304
-GlifName: 
+GlifName: o
 Width: 508
 VWidth: 0
 GlyphClass: 2
@@ -11747,7 +11728,7 @@ EndChar
 
 StartChar: uni0057
 Encoding: 435 87 305
-GlifName: "	"
+GlifName: i
 Width: 725
 VWidth: 0
 GlyphClass: 2
@@ -11805,7 +11786,7 @@ EndChar
 
 StartChar: uni0058
 Encoding: 436 88 306
-GlifName: 
+GlifName: t
 Width: 463
 VWidth: 0
 GlyphClass: 2
@@ -11848,7 +11829,7 @@ EndChar
 
 StartChar: uni0059
 Encoding: 437 89 307
-GlifName: 
+GlifName: .
 Width: 479
 VWidth: 0
 GlyphClass: 2
@@ -11910,7 +11891,7 @@ EndChar
 
 StartChar: uni0178
 Encoding: 439 376 309
-GlifName: 
+GlifName: NoBills-Light* TAMIL LETTER PA
 Width: 479
 VWidth: 0
 GlyphClass: 2
@@ -11928,7 +11909,7 @@ EndChar
 
 StartChar: uni005A
 Encoding: 440 90 310
-GlifName: 
+GlifName: "+BkIA"
 Width: 418
 VWidth: 0
 GlyphClass: 2
@@ -11986,7 +11967,7 @@ EndChar
 
 StartChar: uni0061
 Encoding: 442 97 312
-GlifName: 
+GlifName: P
 Width: 435
 VWidth: 0
 GlyphClass: 2
@@ -12105,7 +12086,7 @@ EndChar
 
 StartChar: uni00B4
 Encoding: 445 180 315
-GlifName: ""
+GlifName: 
 Width: 263
 VWidth: 0
 GlyphClass: 2
@@ -12133,7 +12114,7 @@ EndChar
 
 StartChar: uni00E4
 Encoding: 446 228 316
-GlifName: 
+GlifName:  
 Width: 435
 VWidth: 0
 GlyphClass: 2
@@ -12151,7 +12132,7 @@ EndChar
 
 StartChar: uni00E6
 Encoding: 447 230 317
-GlifName: 
+GlifName: A
 Width: 435
 VWidth: 0
 GlyphClass: 2
@@ -12261,7 +12242,7 @@ EndChar
 
 StartChar: uni00E0
 Encoding: 448 224 318
-GlifName: 
+GlifName: W
 Width: 435
 VWidth: 0
 GlyphClass: 2
@@ -12359,7 +12340,7 @@ EndChar
 
 StartChar: uni00E5
 Encoding: 450 229 320
-GlifName: "	"
+GlifName: 
 Width: 435
 VWidth: 0
 GlyphClass: 2
@@ -12377,7 +12358,7 @@ EndChar
 
 StartChar: uni005E
 Encoding: 451 94 321
-GlifName: "+AA0A"
+GlifName: "+AP8A/wAi"
 Width: 374
 VWidth: 0
 GlyphClass: 2
@@ -12410,7 +12391,7 @@ EndChar
 
 StartChar: uni007E
 Encoding: 452 126 322
-GlifName: 
+GlifName: "f+BwIA"
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -12563,7 +12544,7 @@ EndChar
 
 StartChar: uni00E3
 Encoding: 455 227 325
-GlifName: 
+GlifName: "+AicA-G+AAoA"
 Width: 435
 VWidth: 0
 GlyphClass: 2
@@ -12822,7 +12803,7 @@ EndChar
 
 StartChar: uni005D
 Encoding: 462 93 332
-GlifName: 
+GlifName: " H"
 Width: 258
 VWidth: 0
 GlyphClass: 2
@@ -12953,7 +12934,7 @@ EndChar
 
 StartChar: uni0063
 Encoding: 466 99 336
-GlifName: "+AAoA+AA0A"
+GlifName: 
 Width: 418
 VWidth: 0
 GlyphClass: 2
@@ -13451,7 +13432,7 @@ EndChar
 
 StartChar: uni0064
 Encoding: 476 100 346
-GlifName: 
+GlifName: "w+Bszv+wD/AP8A"
 Width: 414
 VWidth: 0
 GlyphClass: 2
@@ -13505,7 +13486,7 @@ EndChar
 
 StartChar: uni2020
 Encoding: 477 8224 347
-GlifName: 
+GlifName: File
 Width: 453
 VWidth: 0
 GlyphClass: 2
@@ -13801,7 +13782,7 @@ EndChar
 
 StartChar: uni02D9
 Encoding: 483 729 353
-GlifName: 
+GlifName: "odieresis'+AAoA-p61+AAoA-aS'ograve'+AAoA-p62+AAoA-aS'oslash'+AAoA-p63+AAoA-aS'otilde'+AAoA-p64+AAoA-aS'oe'+AAoA-p65+AAoA-aS'p'+AAoA-aS'thorn'+AAoA-p66+AAoA-aS'q'+AAoA-aS'r'+AAoA-aS's'+AAoA-aS'scaron'+AAoA-p67+AAoA-aS'germandbls'+AAoA-p68+AAoA-aS't'+AAoA-aS'u'+AAoA-aS'uacute'+AAoA-p69+AAoA-aS'ucircumflex'+AAoA-p70+AAoA-aS'udieresis'+AAoA-p71+AAoA-aS'ugrave'+AAoA-p72+AAoA-aS'v'+AAoA-aS'w'+AAoA-aS'x'+AAoA-aS'y'+AAoA-aS'yacute'+AAoA-p73+AAoA-aS'ydieresis'+AAoA-p74+AAoA-aS'z'+AAoA-aS'zcaron'+AAoA-p75+AAoA-aS'fi'+AAoA-p76+AAoA-aS'fl'+AAoA-p77+AAoA-aS'ordfeminine'+AAoA-p78+AAoA-aS'ordmasculine'+AAoA-p79+AAoA-aS'mu'+AAoA-p80+AAoA-aS'HKD'+AAoA-p81+AAoA-aS'zero'+AAoA-p82+AAoA-aS'one'+AAoA-p83+AAoA-aS'two'+AAoA-p84+AAoA-aS'three'+AAoA-p85+AAoA-aS'four'+AAoA-p86+AAoA-aS'five'+AAoA-p87+AAoA-aS'six'+AAoA-p88+AAoA-aS'seven'+AAoA-p89+AAoA-aS'eight'+AAoA-p90+AAoA-aS'nine'+AAoA-p91+AAoA-aS'fraction'+AAoA-p92+AAoA-aS'onehalf'+AAoA-p93+AAoA-aS'onequarter'+AAoA-p94+AAoA-aS'threequarters'+AAoA-p95+AAoA-aS'uni00B9'+AAoA-p96+AAoA-aS'uni00B2'+AAoA-p97+AAoA-aS'uni00B3'+AAoA-p98+AAoA-aS'asterisk'+AAoA-p99+AAoA-aS'backslash'+AAoA-p100+AAoA-aS'periodcentered'+AAoA-p101+AAoA-aS'bullet'+AAoA-p102+AAoA-aS'colon'+AAoA-p103+AAoA-aS'comma'+AAoA-p104+AAoA-aS'exclam'+AAoA-p105+AAoA-aS'exclamdown'+AAoA-p106+AAoA-aS'numbersign'+AAoA-p107+AAoA-aS'period'+AAoA-p108+AAoA-aS'question'+AAoA-p109+AAoA-aS'questiondown'+AAoA-p110+AAoA-aS'quotedbl'+AAoA-p111+AAoA-aS'quotesingle'+AAoA-p112+AAoA-aS'semicolon'+AAoA-p113+AAoA-aS'slash'+AAoA-p114+AAoA-aS'underscore'+AAoA-p115+AAoA-aS'quotedbl.alt'+AAoA-p116+AAoA-aS'braceleft'+AAoA-p117+AAoA-aS'braceright'+AAoA-p118+AAoA-aS'bracketleft'+AAoA-p119+AAoA-aS'bracketright'+AAoA-p120+AAoA-aS'parenleft'+AAoA-p121+AAoA-aS'parenleft'+AAoA-p122+AAoA-aS'parenright'+AAoA-p123+AAoA-aS'parenright'+AAoA-p124+AAoA-aS'emdash'+AAoA-p125+AAoA-aS'endash'+AAoA-p126+AAoA-aS'hyphen'+AAoA-p127+AAoA-aS'uni00AD'+AAoA-p128+AAoA-aS'guillemotleft'+AAoA-p129+AAoA-aS'guillemotright'+AAoA-p130+AAoA-aS'guilsinglleft'+AAoA-p131+AAoA-aS'guilsinglright'+AAoA-p132+AAoA-aS'quotedblbase'+AAoA-p133+AAoA-aS'quotedblleft'+AAoA-p134+AAoA-aS'quotedblright'+AAoA-p135+AAoA-aS'quoteleft'+AAoA-p136+AAoA-aS'quoteright'+AAoA-p137+AAoA-aS'quotesinglbase'+AAoA-p138+AAoA-aS'space'+AAoA-p139+AAoA-aS'uni007F'+AAoA-p140+AAoA-aS'EURO'+AAoA-p141+AAoA-aS'cent'+AAoA-p142+AAoA-aS'currency'+AAoA-p143+AAoA-aS'dollar'+AAoA-p144+AAoA-aS'florin'+AAoA-p145+AAoA-aS'sterling'+AAoA-p146+AAoA-aS'yen'+AAoA-p147+AAoA-aS'Percent_sign'+AAoA-p148+AAoA-aS'asciitilde'+AAoA-p149+AAoA-aS'divide'+AAoA-p150+AAoA-aS'equal'+AAoA-p151+AAoA-aS'greater'+AAoA-p152+AAoA-aS'less'+AAoA-p153+AAoA-aS'logicalnot'+AAoA-p154+AAoA-aS'minus'+AAoA-p155+AAoA-aS'multiply'+AAoA-p156+AAoA-aS'perthousand'+AAoA-p157+AAoA-aS'plus'+AAoA-p158+AAoA-aS'plusminus'+AAoA-p159+AAoA-aS'bar'+AAoA-p160+AAoA-aS'brokenbar'+AAoA-p161+AAoA-aS'at'+AAoA-p162+AAoA-aS'ampersand'+AAoA-p163+AAoA-aS'paragraph'+AAoA-p164+AAoA-aS'copyright'+AAoA-p165+AAoA-aS'registered'+AAoA-p166+AAoA-aS'section'+AAoA-p167+AAoA-aS'TradeMarkSign'+AAoA-p168+AAoA-aS'degree'+AAoA-p169+AAoA-aS'asciicircum'+AAoA-p170+AAoA-aS'dagger'+AAoA-p171+AAoA-aS'daggerdbl'+AAoA-p172+AAoA-aS'acute'+AAoA-p173+AAoA-aS'breve'+AAoA-p174+AAoA-aS'caron'+AAoA-p175+AAoA-aS'cedilla'+AAoA-p176+AAoA-aS'circumflex'+AAoA-p177+AAoA-aS'dieresis'+AAoA-p178+AAoA-aS'dotaccent'+AAoA-p179+AAoA-aS'grave'+AAoA-p180+AAoA-aS'hungarumlaut'+AAoA-p181+AAoA-aS'macron'+AAoA-p182+AAoA-aS'ring'+AAoA-p183+AAoA-aS'tilde'+AAoA-p184+AAoA-asS'com.schriftgestaltung.fontMasterID'+AAoA-p185+AAoA-S'DC4431BF-9234-4C16-9154-22D387E42D10'+AAoA-p186+AAoA-sS'com.schriftgestaltung.useNiceNames'+AAoA-p187+AAoA-L0L+AOgADQAA"
 Width: 202
 VWidth: 0
 GlyphClass: 2
@@ -13829,7 +13810,7 @@ EndChar
 
 StartChar: uni0131
 Encoding: 484 305 354
-GlifName: 
+GlifName: "sS'com.schriftgestaltung.fontMasterID'+AAoA-p185+AAoA-S'DC4431BF-9234-4C16-9154-22D387E42D10'+AAoA-p186+AAoA-sS'com.schriftgestaltung.useNiceNames'+AAoA-p187+AAoA-L0L+AOgADQAA"
 Width: 174
 VWidth: 0
 GlyphClass: 2
@@ -13945,7 +13926,7 @@ EndChar
 
 StartChar: uni00EA
 Encoding: 487 234 357
-GlifName: "8ZE+AAoA-p+gLcA-p"
+GlifName: 
 Width: 424
 VWidth: 0
 GlyphClass: 2
@@ -13963,7 +13944,7 @@ EndChar
 
 StartChar: uni00EB
 Encoding: 488 235 358
-GlifName: 
+GlifName: "+//////////8A/wCU"
 Width: 424
 VWidth: 0
 GlyphClass: 2
@@ -13981,7 +13962,7 @@ EndChar
 
 StartChar: uni00E8
 Encoding: 489 232 359
-GlifName: 
+GlifName: _
 Width: 424
 VWidth: 0
 GlyphClass: 2
@@ -14069,7 +14050,7 @@ EndChar
 
 StartChar: uni2014
 Encoding: 491 8212 361
-GlifName: (
+GlifName: ..
 Width: 906
 VWidth: 0
 GlyphClass: 2
@@ -14856,20 +14837,7 @@ EndChar
 
 StartChar: uni003E
 Encoding: 507 62 377
-GlifName: 8
-aS'ecircumflex'
-p49
-aS'edieresis'
-p50
-aS'egrave'
-p51
-aS'f'
-aS'g'
-aS'h'
-aS'i'
-aS'dotlessi'
-p52
-aS
+GlifName: 
 Width: 414
 VWidth: 0
 GlyphClass: 2
@@ -14901,7 +14869,7 @@ EndChar
 
 StartChar: uni00AB
 Encoding: 508 171 378
-GlifName: 
+GlifName: ayer: Fore (Back 
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -14949,7 +14917,7 @@ EndChar
 
 StartChar: uni00BB
 Encoding: 509 187 379
-GlifName: ""
+GlifName: 
 Width: 414
 VWidth: 0
 GlyphClass: 2
@@ -14997,7 +14965,7 @@ EndChar
 
 StartChar: uni2039
 Encoding: 510 8249 380
-GlifName: 
+GlifName: AMIL LETTER PA
 Width: 338
 VWidth: 0
 GlyphClass: 2
@@ -15114,7 +15082,7 @@ EndChar
 
 StartChar: uni02DD
 Encoding: 513 733 383
-GlifName: 
+GlifName: .
 Width: 263
 VWidth: 0
 GlyphClass: 2
@@ -16007,7 +15975,7 @@ EndChar
 
 StartChar: uni006F
 Encoding: 535 111 405
-GlifName: "x+CAoA-X+AZUACgQE"
+GlifName: 
 Width: 420
 VWidth: 0
 GlyphClass: 2
@@ -16403,7 +16371,7 @@ EndChar
 
 StartChar: uni00AA
 Encoding: 544 170 414
-GlifName: "+//cA"
+GlifName: "+Ae0A"
 Width: 227
 VWidth: 0
 GlyphClass: 2
@@ -16839,7 +16807,7 @@ EndChar
 
 StartChar: uni00B7
 Encoding: 553 183 423
-GlifName: 
+GlifName: "["
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -17135,7 +17103,7 @@ EndChar
 
 StartChar: uni00BF
 Encoding: 559 191 429
-GlifName: 
+GlifName: .
 Width: 460
 VWidth: 0
 GlyphClass: 2
@@ -17243,7 +17211,7 @@ EndChar
 
 StartChar: uni201E
 Encoding: 562 8222 432
-GlifName: 
+GlifName: rge
 Width: 359
 VWidth: 0
 GlyphClass: 2
