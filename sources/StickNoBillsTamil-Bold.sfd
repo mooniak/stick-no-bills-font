@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440670785
+ModificationTime: 1440670915
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 13 13 3
+WinInfo: 52 13 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -9333,7 +9333,7 @@ StartChar: tml_Ma
 Encoding: 26 2990 338
 Width: 681
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -12611,7 +12611,7 @@ StartChar: tml_LllU
 Encoding: 91 -1 440
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
@@ -12645,8 +12645,8 @@ SplineSet
 698 125 m 1
  740 125 747.78125 159.014648438 748 181.940429688 c 2
  747 459 l 0
- 747 483 744 515 698 515 c 1
- 698 640 l 1
+ 747 483 744 515 699 515 c 1
+ 699 640 l 5
  797 640 874 572 874 476 c 0
  874 201 l 0
  874 51 780 0 698 0 c 0
