@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440670252
+ModificationTime: 1440670456
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 52 13 3
+WinInfo: 13 13 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -8359,43 +8359,43 @@ StartChar: tml_Ya
 Encoding: 27 2991 320
 Width: 742
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 121<168.088 207 248 309.759 452.372 494 536 576.213>
 VStem: 41 124<123.142 519> 327 124<134.603 519> 536 165<4 121> 577 124<122.893 519>
 LayerCount: 3
 Fore
 SplineSet
 577 148 m 257xe8
- 577 610 l 261
- 702 610 l 261
+ 577 610 l 257
+ 702 610 l 257
  702 1 l 1
  536 1 l 257
  536 122 l 257xf0
  542 122 l 258
- 572 122 577 146 577 148 c 257xe8
+ 572 122 577 135 577 148 c 257xe8
 165 148 m 257
- 165 145 171 122 201 122 c 258
- 207 122 l 257
- 207 1 l 257
- 201 1 l 258
+ 165 137 170 122 194 122 c 258
+ 200 122 l 257
+ 200 1 l 257
+ 194 1 l 258
  95 1 40 98 40 143 c 258
- 40 610 l 261
- 165 610 l 261
+ 40 610 l 257
+ 165 610 l 257
  165 148 l 257
-452 610 m 261
+452 610 m 257
  452 148 l 258
- 452 145 458 122 488 122 c 258
+ 452 137 458 122 488 122 c 258
  494 122 l 257
  494 1 l 257
  327 1 l 1
  322 34 l 257
- 297 14 296 1 254 1 c 258
- 248 1 l 257
- 248 122 l 257
- 254 122 l 258
- 285 122 327 146 327 148 c 257
- 327 610 l 261
- 452 610 l 261
+ 317 12 295 1 261 1 c 258
+ 255 1 l 257
+ 255 122 l 257
+ 261 122 l 258
+ 284 122 327 123 327 148 c 257
+ 327 610 l 257
+ 452 610 l 257
 EndSplineSet
 EndChar
 
@@ -12306,7 +12306,7 @@ StartChar: tml_MU
 Encoding: 86 -1 435
 Width: 937
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
