@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440967195
+ModificationTime: 1440967417
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3323,7 +3323,7 @@ GlifName: divide
 Width: 650
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 40 151 228 127<100 550 100 550> 393 151
 VStem: 213 150
 LayerCount: 2
@@ -3337,7 +3337,6 @@ SplineSet
 EndSplineSet
 Refer: 175 46 N 1 0 0 1 196 415 2
 Refer: 175 46 N 1 0 0 1 196 62 2
-Validated: 1
 EndChar
 
 StartChar: uni0024
@@ -5438,20 +5437,19 @@ EndChar
 StartChar: uni002E
 Encoding: 14 46 175
 GlifName: period
-Width: 250
+Width: 180
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-50 53 m 256
- 50 95 83 129 125 129 c 256
- 167 129 200 95 200 53 c 256
- 200 11 167 -22 125 -22 c 256
- 83 -22 50 11 50 53 c 256
+15 53 m 256
+ 15 95 48 129 90 129 c 256
+ 132 129 165 95 165 53 c 256
+ 165 11 132 -22 90 -22 c 256
+ 48 -22 15 11 15 53 c 256
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00B7
@@ -5460,13 +5458,12 @@ GlifName: periodcentered
 Width: 250
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 270 151
 VStem: 17 150
 LayerCount: 2
 Fore
 Refer: 175 46 N 1 0 0 1 0 292 2
-Validated: 1
 EndChar
 
 StartChar: uni2030
@@ -8055,13 +8052,12 @@ StartChar: uni2026
 Encoding: 302 8230 313
 Width: 250
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 175 46 N 1 0 0 1 200 1 2
 Refer: 175 46 N 1 0 0 1 -201 1 2
 Refer: 175 46 N 1 0 0 1 0 1 2
-Validated: 1
 Colour: ffff00
 EndChar
 
@@ -8318,11 +8314,10 @@ StartChar: uni2219
 Encoding: 320 8729 322
 Width: 250
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 175 46 S 1 0 0 1 0 369 2
-Validated: 1
 Colour: ff0000
 EndChar
 
