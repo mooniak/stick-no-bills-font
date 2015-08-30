@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440969426
+ModificationTime: 1440969803
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,7 +495,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 196 14 6
+WinInfo: 252 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3044,11 +3044,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-178 -23 m 257
- 51 -23 l 257
- 88 129 l 257
- 215 129 l 257
- 178 -23 l 257
+178 -23 m 261
+ 51 -23 l 261
+ 88 129 l 261
+ 215 129 l 261
+ 178 -23 l 261
 EndSplineSet
 Validated: 1
 EndChar
@@ -5717,12 +5717,13 @@ GlifName: quotedblbase
 Width: 359
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: 465 271
 VStem: 26 127 206 127
 LayerCount: 2
 Fore
-Refer: 183 34 N 1 0 0 1 0 0 2
+Refer: 96 44 N 1 0 0 1 137 0 2
+Refer: 96 44 N 1 0 0 1 -44 0 2
 EndChar
 
 StartChar: uni201C
@@ -6197,9 +6198,9 @@ GlifName: t
 Width: 314
 VWidth: -9
 GlyphClass: 2
-Flags: HW
-HStem: 428.59 129.8<14.8012 84.101 218.301 284.301>
-VStem: 84.101 134.2<130.83 428.59 558.39 760.79>
+Flags: W
+HStem: 428.59 129.8<14.8008 84.1006 218.301 284.301>
+VStem: 84.1006 134.2<130.83 428.59 558.39 760.79>
 LayerCount: 2
 Fore
 SplineSet
@@ -6896,8 +6897,8 @@ HStem: 0.0898438 129.8<187.7 356> 433.49 132<30.4002 203.1> 577 152<161.2 167.2 
 VStem: 30.4002 325.6<0.0898438 127.69 440.09 565.49> 86.2 218<729 729>
 LayerCount: 2
 Fore
-Refer: 90 711 N 1 0 0 1 60.2 63 2
-Refer: 227 122 N 1 0 0 1 0 0 2
+Refer: 90 711 N 1 0 0 1 58.2002 114.64 2
+Refer: 227 122 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0030
@@ -7219,7 +7220,7 @@ HStem: 428.59 129.8<14.8012 84.101 218.301 284.301>
 VStem: 84.101 134.2<130.83 428.59 558.39 760.79>
 LayerCount: 2
 Fore
-Refer: 96 44 N 1 0 0 1 192.901 571 2
+Refer: 96 44 N 1 0 0 1 191.5 631.79 2
 Refer: 204 116 N 1 0 0 1 0 0 2
 EndChar
 
@@ -7227,11 +7228,11 @@ StartChar: uni016A
 Encoding: 261 362 254
 Width: 512
 VWidth: 0
+Flags: H
 LayerCount: 2
 Fore
-Refer: 150 175 N 1 0 0 1 0.5 54 2
+Refer: 309 713 N 1 0 0 1 47.5 252 2
 Refer: 52 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni016B
@@ -7243,7 +7244,7 @@ HStem: -5.16016 133.101<178.174 220.2 266.4 308.426> 545.74 20G<37.5998 174 312.
 VStem: 37.5998 136.4<132.101 565.74> 312.6 136.4<132.959 565.74>
 LayerCount: 2
 Fore
-Refer: 150 175 N 1 0 0 1 -11.7 -135 2
+Refer: 309 713 N 1 0 0 1 35.2998 114.64 2
 Refer: 210 117 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7267,7 +7268,7 @@ HStem: -5.16016 133.101<178.174 220.2 266.4 308.426> 545.74 20G<37.5998 174 312.
 VStem: 37.5998 136.4<132.101 565.74> 147.3 64<664 682 664 699.5> 275.3 64<664 682> 312.6 136.4<132.959 565.74>
 LayerCount: 2
 Fore
-Refer: 194 730 N 1 0 0 1 121.3 147 2
+Refer: 194 730 N 1 0 0 1 121.3 198.64 2
 Refer: 210 117 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7291,7 +7292,7 @@ HStem: -5.16016 133.101<178.174 220.2 266.4 308.426> 545.74 20G<37.5998 174 312.
 VStem: 37.5998 136.4<132.101 565.74> 130.3 284<577 729> 312.6 136.4<132.959 565.74>
 LayerCount: 2
 Fore
-Refer: 136 733 N 1 0 0 1 104.3 -28 2
+Refer: 136 733 N 1 0 0 1 104.3 23.6396 2
 Refer: 210 117 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7344,7 +7345,7 @@ HStem: 0.0898438 129.8<187.7 356> 433.49 132<30.4002 203.1> 577 152<184.7 238.7 
 VStem: 30.4002 325.6<0.0898438 127.69 440.09 565.49> 147.7 164<577 729>
 LayerCount: 2
 Fore
-Refer: 68 180 N 1 0 0 1 97.7 -28 2
+Refer: 68 180 N 1 0 0 1 97.7002 23.6396 2
 Refer: 227 122 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7368,7 +7369,7 @@ HStem: 0.0898438 129.8<187.7 356> 433.49 132<30.4002 203.1> 577 151<172.2 214.2>
 VStem: 30.4002 325.6<0.0898438 127.69 440.09 565.49> 118.2 150<631 673>
 LayerCount: 2
 Fore
-Refer: 106 729 N 1 0 0 1 92.2 -26 2
+Refer: 106 729 N 1 0 0 1 92.2002 25.6396 2
 Refer: 227 122 N 1 0 0 1 0 0 3
 EndChar
 
