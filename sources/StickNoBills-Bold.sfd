@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440965755
+ModificationTime: 1440965873
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2458,25 +2458,24 @@ EndChar
 StartChar: uni007E
 Encoding: 94 126 75
 GlifName: asciitilde
-Width: 568
+Width: 628
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 235 132<343 399.5> 308 132<147.5 198>
+Flags: HW
+HStem: 235 132<373 429.5> 308 132<177.5 228>
 LayerCount: 2
 Fore
 SplineSet
-518 281 m 257x80
- 462 247 418 235 381 235 c 256x80
- 289 235 239 308 157 308 c 256
- 127 308 92 299 50 272 c 257
- 50 405 l 257
- 95 431 132 440 163 440 c 256x40
- 250 440 299 367 387 367 c 256
- 422 367 464 379 518 412 c 257
- 518 281 l 257x80
+548 281 m 257x80
+ 492 247 448 235 411 235 c 256x80
+ 319 235 269 308 187 308 c 256
+ 157 308 122 299 80 272 c 257
+ 80 405 l 257
+ 125 431 162 440 193 440 c 256x40
+ 280 440 329 367 417 367 c 256
+ 452 367 494 379 548 412 c 257
+ 548 281 l 257x80
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni002A
