@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440977686
+ModificationTime: 1440978338
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -812,28 +812,28 @@ EndChar
 StartChar: uni0045
 Encoding: 37 69 12
 GlifName: E_
-Width: 422
+Width: 444
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 141<173 396 173 396> 277 141<173 302 173 302> 560 140<173 396 173 173>
-VStem: 32 364<0 141 560 700> 32 141<141 277 418 560>
+HStem: 0 141<183 406 183 406> 277 141<183 312 183 312> 560 140<183 406 183 183>
+VStem: 42 364<0 141 560 700> 42 141<141 277 418 560>
 LayerCount: 2
 Fore
 SplineSet
-32 0 m 257
- 32 700 l 257
- 396 700 l 257
- 396 560 l 257xf0
- 173 560 l 257
- 173 418 l 257
- 302 418 l 257
- 302 277 l 257
- 173 277 l 257
- 173 141 l 257xe8
- 396 141 l 257xf0
- 396 0 l 257
- 32 0 l 257
+42 0 m 257
+ 42 700 l 257
+ 406 700 l 257
+ 406 560 l 257xf0
+ 183 560 l 257
+ 183 418 l 257
+ 312 418 l 257
+ 312 277 l 257
+ 183 277 l 257
+ 183 141 l 257xe8
+ 406 141 l 257xf0
+ 406 0 l 257
+ 42 0 l 257
 EndSplineSet
 EndChar
 
@@ -896,60 +896,60 @@ EndChar
 StartChar: uni00C9
 Encoding: 136 201 14
 GlifName: E_acute
-Width: 422
+Width: 444
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 HStem: 0 141 277 141 560 140 766 152
-VStem: 32 141 32 364 168 164
+VStem: 42 141 42 364 178 164
 LayerCount: 2
 Fore
-Refer: 68 180 N 1 0 0 1 118 161 2
+Refer: 68 180 N 1 0 0 1 128 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni00CA
 Encoding: 137 202 15
 GlifName: E_circumflex
-Width: 422
+Width: 444
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 HStem: 0 141 277 141 560 140 766 152
-VStem: 32 141 32 364 105 218
+VStem: 42 141 42 364 115 218
 LayerCount: 2
 Fore
-Refer: 94 710 N 1 0 0 1 79 252 2
+Refer: 94 710 N 1 0 0 1 89 252 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni00CB
 Encoding: 138 203 16
 GlifName: E_dieresis
-Width: 422
+Width: 444
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 HStem: 0 141 277 141 560 140
-VStem: 32 141 32 364
+VStem: 42 141 42 364
 LayerCount: 2
 Fore
-Refer: 103 168 N 1 0 0 1 54 163 2
+Refer: 103 168 N 1 0 0 1 64 163 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni00C8
 Encoding: 135 200 17
 GlifName: E_grave
-Width: 422
+Width: 444
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 HStem: 0 141 277 141 560 140 766 152
-VStem: 32 141 32 364 95 164
+VStem: 42 141 42 364 105 164
 LayerCount: 2
 Fore
-Refer: 129 96 N 1 0 0 1 46 161 2
+Refer: 129 96 N 1 0 0 1 56 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 EndChar
 
@@ -993,26 +993,26 @@ EndChar
 StartChar: uni0046
 Encoding: 38 70 19
 GlifName: F_
-Width: 422
+Width: 432
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 1 21<32 173 32 32> 1 21<32 173 32 32> 277 141<173 302 173 302> 560 140<173 396 173 173>
-VStem: 32 141<1 277 418 560>
+HStem: 1 21<42 183 42 42> 1 21<42 183 42 42> 277 141<183 312 183 312> 560 140<183 406 183 183>
+VStem: 42 141<1 277 418 560>
 LayerCount: 2
 Fore
 SplineSet
-32 1 m 257
- 32 700 l 257
- 396 700 l 257
- 396 560 l 257
- 173 560 l 257
- 173 418 l 257
- 302 418 l 257xb8
- 302 277 l 257
- 173 277 l 257
- 173 1 l 257
- 32 1 l 257
+42 1 m 257
+ 42 700 l 257
+ 406 700 l 257
+ 406 560 l 257
+ 183 560 l 257
+ 183 418 l 257
+ 312 418 l 257xb8
+ 312 277 l 257
+ 183 277 l 257
+ 183 1 l 257
+ 42 1 l 257
 EndSplineSet
 EndChar
 
@@ -7441,12 +7441,12 @@ EndChar
 
 StartChar: uni0112
 Encoding: 205 274 279
-Width: 422
+Width: 444
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 150 175 N 1 0 0 1 -41 54 2
+Refer: 150 175 N 1 0 0 1 -31 54 2
 Refer: 12 69 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7465,12 +7465,12 @@ EndChar
 
 StartChar: uni0116
 Encoding: 207 278 281
-Width: 422
+Width: 444
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 106 729 N 1 0 0 1 113 163 2
+Refer: 106 729 N 1 0 0 1 123 163 2
 Refer: 12 69 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7489,12 +7489,12 @@ EndChar
 
 StartChar: uni011A
 Encoding: 211 282 283
-Width: 422
+Width: 444
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 90 711 N 1 0 0 1 79 252 2
+Refer: 90 711 N 1 0 0 1 89 252 2
 Refer: 12 69 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7734,12 +7734,12 @@ EndChar
 
 StartChar: uni0118
 Encoding: 209 280 301
-Width: 422
+Width: 444
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 92 184 S -1 0 0 1 498 -163 2
+Refer: 92 184 S -1 0 0 1 508 -163 2
 Refer: 12 69 N 1 0 0 1 0 0 2
 Colour: ffff00
 EndChar
