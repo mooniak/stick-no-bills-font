@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440966260
+ModificationTime: 1440966513
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,7 +495,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 56 14 6
+WinInfo: 0 14 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3703,25 +3703,24 @@ EndChar
 StartChar: uni0021
 Encoding: 1 33 118
 GlifName: exclam
-Width: 329
+Width: 244
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-88 53 m 260
- 88 95 121 129 163 129 c 260
- 205 129 238 95 238 53 c 260
- 238 11 205 -22 163 -22 c 260
- 121 -22 88 11 88 53 c 260
-100 166 m 261
- 100 700 l 261
- 229 700 l 261
- 229 166 l 261
- 100 166 l 261
+47 53 m 260
+ 47 95 80 129 122 129 c 260
+ 164 129 197 95 197 53 c 260
+ 197 11 164 -22 122 -22 c 260
+ 80 -22 47 11 47 53 c 260
+59 166 m 261
+ 59 700 l 261
+ 188 700 l 261
+ 188 166 l 261
+ 59 166 l 261
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00A1
@@ -5715,25 +5714,24 @@ EndChar
 StartChar: uni0022
 Encoding: 2 34 183
 GlifName: quotedbl
-Width: 407
+Width: 392
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-177 465 m 257
- 50 465 l 257
- 50 736 l 257
- 177 736 l 257
- 177 465 l 257
-357 465 m 257
- 230 465 l 257
- 230 736 l 257
- 357 736 l 257
- 357 465 l 257
+170 465 m 257
+ 43 465 l 257
+ 43 736 l 257
+ 170 736 l 257
+ 170 465 l 257
+350 465 m 257
+ 223 465 l 257
+ 223 736 l 257
+ 350 736 l 257
+ 350 465 l 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedbl.alt
@@ -5768,13 +5766,12 @@ GlifName: quotedblbase
 Width: 359
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 465 271
 VStem: 26 127 206 127
 LayerCount: 2
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni201C
@@ -5783,13 +5780,12 @@ GlifName: quotedblleft
 Width: 359
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 465 271
 VStem: 26 127 206 127
 LayerCount: 2
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni201D
@@ -5798,13 +5794,12 @@ GlifName: quotedblright
 Width: 359
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 465 271
 VStem: 26 127 206 127
 LayerCount: 2
 Fore
 Refer: 183 34 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni2018
