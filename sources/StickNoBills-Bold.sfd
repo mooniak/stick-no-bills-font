@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440966645
+ModificationTime: 1440966910
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -5392,50 +5392,48 @@ EndChar
 StartChar: uni0028
 Encoding: 8 40 173
 GlifName: parenleft
-Width: 262
+Width: 259
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-212 735 m 257
- 213 648 l 257
- 174 625 154 593 153 521 c 258
- 153 208 l 258
- 153 206 153 204 153 202 c 256
- 153 104 178 73 213 51 c 257
- 213 -37 l 257
- 71 22 50 93 50 189 c 257
- 50 510 l 257
- 50 652 113 696 212 735 c 257
+209.194335938 735 m 261
+ 210.194335938 648 l 261
+ 171.194335938 625 151.194335938 593 150.194335938 521 c 262
+ 150.194335938 208 l 262
+ 150.194335938 206 150.194335938 204 150.194335938 202 c 260
+ 150.194335938 104 175.194335938 73 210.194335938 51 c 261
+ 210.194335938 -37 l 261
+ 68.1943359375 22 47.1943359375 93 47.1943359375 189 c 261
+ 47.1943359375 510 l 261
+ 47.1943359375 652 110.194335938 696 209.194335938 735 c 261
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0029
 Encoding: 9 41 174
 GlifName: parenright
-Width: 330
+Width: 259
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 VStem: 161 119<202 208 208 510>
 LayerCount: 2
 Fore
 SplineSet
-101 746 m 257
- 209 706 280 650 280 510 c 257
- 280 189 l 257
- 280 93 243 9 101 -47 c 257
- 101 51 l 257
- 136 73 161 104 161 202 c 256
- 161 204 161 206 161 208 c 258
- 161 521 l 258
- 160 593 139 626 100 649 c 257
- 101 746 l 257
+46.8056640625 735 m 261
+ 45.8056640625 648 l 261
+ 84.8056640625 625 104.805664062 593 105.805664062 521 c 262
+ 105.805664062 208 l 262
+ 105.805664062 206 105.805664062 204 105.805664062 202 c 260
+ 105.805664062 104 80.8056640625 73 45.8056640625 51 c 261
+ 45.8056640625 -37 l 261
+ 187.805664062 22 208.805664062 93 208.805664062 189 c 261
+ 208.805664062 510 l 261
+ 208.805664062 652 145.805664062 696 46.8056640625 735 c 261
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni002E
@@ -5808,13 +5806,12 @@ GlifName: quoteleft
 Width: 187
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 465 271
 VStem: 30 127
 LayerCount: 2
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni2019
@@ -5823,13 +5820,12 @@ GlifName: quoteright
 Width: 187
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 465 271
 VStem: 30 127
 LayerCount: 2
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni201A
@@ -5838,32 +5834,30 @@ GlifName: quotesinglbase
 Width: 187
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 465 271
 VStem: 30 127
 LayerCount: 2
 Fore
 Refer: 191 39 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni0027
 Encoding: 7 39 191
 GlifName: quotesingle
-Width: 227
+Width: 212
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-177 465 m 257
- 50 465 l 257
- 50 736 l 257
- 177 736 l 257
- 177 465 l 257
+170 465 m 257
+ 43 465 l 257
+ 43 736 l 257
+ 170 736 l 257
+ 170 465 l 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0072
