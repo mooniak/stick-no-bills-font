@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440959957
+ModificationTime: 1440960015
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1150,86 +1150,81 @@ EndChar
 StartChar: uni0049
 Encoding: 41 73 23
 GlifName: I_
-Width: 209
+Width: 225
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21<34 175 34 34> 0 21<34 175 34 34> 680 20<34 175 175 175>
-VStem: 34 141<0 700 0 700>
+Flags: HW
+HStem: 0 21<42 183 42 42> 0 21<42 183 42 42> 680 20<42 183 183 183>
+VStem: 42 141<0 700 0 700>
 LayerCount: 2
 Fore
 SplineSet
-34 700 m 257xb0
- 175 700 l 257
- 175 0 l 257
- 34 0 l 257
- 34 700 l 257xb0
+42 700 m 257xb0
+ 183 700 l 257
+ 183 0 l 257
+ 42 0 l 257
+ 42 700 l 257xb0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00CD
 Encoding: 140 205 24
 GlifName: I_acute
-Width: 209
+Width: 225
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20 766 152
-VStem: 34 141 59 164
+VStem: 42 141 67 164
 LayerCount: 2
 Fore
-Refer: 68 180 N 1 0 0 1 9 161 2
+Refer: 68 180 N 1 0 0 1 17 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni00CE
 Encoding: 141 206 25
 GlifName: I_circumflex
-Width: 209
+Width: 225
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20 766 152
-VStem: -4 218 34 141
+VStem: 4 218 42 141
 LayerCount: 2
 Fore
-Refer: 94 710 N 1 0 0 1 -30 252 2
+Refer: 94 710 N 1 0 0 1 -22 252 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni00CF
 Encoding: 142 207 26
 GlifName: I_dieresis
-Width: 209
+Width: 225
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20
-VStem: 34 141
+VStem: 42 141
 LayerCount: 2
 Fore
-Refer: 103 168 N 1 0 0 1 -56 163 2
+Refer: 103 168 N 1 0 0 1 -48 163 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni00CC
 Encoding: 139 204 27
 GlifName: I_grave
-Width: 209
+Width: 225
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20 766 152
-VStem: -14 164 34 141
+VStem: -6 164 42 141
 LayerCount: 2
 Fore
-Refer: 129 96 N 1 0 0 1 -63 161 2
+Refer: 129 96 N 1 0 0 1 -55 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni004A
@@ -7747,13 +7742,13 @@ EndChar
 
 StartChar: uni012A
 Encoding: 217 298 288
-Width: 209
+Width: 225
 VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 150 175 N 1 0 0 1 -150.5 54 2
+Refer: 150 175 N 1 0 0 1 -142.5 54 2
 Refer: 23 73 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni012B
@@ -7977,13 +7972,13 @@ EndChar
 
 StartChar: uni0130
 Encoding: 221 304 304
-Width: 209
+Width: 225
 VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 106 729 N 1 0 0 1 3.5 163 2
+Refer: 106 729 N 1 0 0 1 11.5 163 2
 Refer: 23 73 N 1 0 0 1 0 0 3
-Validated: 1
 Colour: ffff00
 EndChar
 
@@ -8003,14 +7998,13 @@ EndChar
 
 StartChar: uni012E
 Encoding: 219 302 306
-Width: 209
+Width: 225
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 92 184 S -1 0 0 1 252 -163 2
+Refer: 92 184 S -1 0 0 1 260 -163 2
 Refer: 23 73 N 1 0 0 1 0 0 2
-Validated: 25
 Colour: ffff00
 EndChar
 
