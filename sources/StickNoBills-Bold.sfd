@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440961095
+ModificationTime: 1440961242
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2018,123 +2018,118 @@ EndChar
 StartChar: uni0057
 Encoding: 55 87 58
 GlifName: W_
-Width: 725
+Width: 689
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21<229 276 229 229 442 442 442 489> 0 21<229 276 229 229 442 442 442 489> 680 20<26 170 170 170 239 383 383 383 555 699 699 699>
+Flags: HW
+HStem: 0 21<211 258 211 211 424 424 424 471> 0 21<211 258 211 211 424 424 424 471> 680 20<8 152 152 152 221 365 365 365 537 681 681 681>
 LayerCount: 2
 Fore
 SplineSet
-26 700 m 257xa0
- 170 700 l 257
- 328 158 l 257
- 276 0 l 257
- 229 0 l 257
- 26 700 l 257xa0
-239 700 m 257
- 383 700 l 257
- 541 158 l 257
- 489 0 l 257
- 442 0 l 257
- 239 700 l 257
-699 700 m 257
- 576 290 l 257
- 566 290 l 257
- 500 514 l 257
- 555 700 l 257
- 699 700 l 257
+8 700 m 257xa0
+ 152 700 l 257
+ 310 158 l 257
+ 258 0 l 257
+ 211 0 l 257
+ 8 700 l 257xa0
+221 700 m 257
+ 365 700 l 257
+ 523 158 l 257
+ 471 0 l 257
+ 424 0 l 257
+ 221 700 l 257
+681 700 m 257
+ 558 290 l 257
+ 548 290 l 257
+ 482 514 l 257
+ 537 700 l 257
+ 681 700 l 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0058
 Encoding: 56 88 59
 GlifName: X_
-Width: 464
+Width: 442
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21<26 171 26 26 293 438 293 293> 0 21<26 171 26 26 293 438 293 293> 680 20<38 175 175 175 289 426 426 426>
+Flags: HW
+HStem: 0 21<15 160 15 15 282 427 282 282> 0 21<15 160 15 15 282 427 282 282> 680 20<27 164 164 164 278 415 415 415>
 LayerCount: 2
 Fore
 SplineSet
-426 700 m 257xa0
- 302 361 l 257
- 438 0 l 257
- 293 0 l 257
- 232 167 l 257
- 171 0 l 257
- 26 0 l 257
- 162 361 l 257
- 38 700 l 257
- 175 700 l 257
- 232 548 l 257
- 289 700 l 257
- 426 700 l 257xa0
+415 700 m 257xa0
+ 291 361 l 257
+ 427 0 l 257
+ 282 0 l 257
+ 221 167 l 257
+ 160 0 l 257
+ 15 0 l 257
+ 151 361 l 257
+ 27 700 l 257
+ 164 700 l 257
+ 221 548 l 257
+ 278 700 l 257
+ 415 700 l 257xa0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0059
 Encoding: 57 89 60
 GlifName: Y_
-Width: 479
+Width: 451
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21<157 303 157 157> 0 21<157 303 157 157> 680 20<26 173 173 173 308 453 453 453>
-VStem: 157 146<0 252 252 252>
+Flags: HW
+HStem: 0 21<143 289 143 143> 0 21<143 289 143 143> 680 20<12 159 159 159 294 439 439 439>
+VStem: 143 146<0 252 252 252>
 LayerCount: 2
 Fore
 SplineSet
-26 700 m 257xb0
- 173 700 l 257
- 303 253 l 257
- 303 0 l 257
- 157 0 l 257
- 157 252 l 257
- 26 700 l 257xb0
-269 565 m 257
- 308 700 l 257
- 453 700 l 257
- 344 331 l 257
- 335 331 l 257
- 269 565 l 257
+12 700 m 257xb0
+ 159 700 l 257
+ 289 253 l 257
+ 289 0 l 257
+ 143 0 l 257
+ 143 252 l 257
+ 12 700 l 257xb0
+255 565 m 257
+ 294 700 l 257
+ 439 700 l 257
+ 330 331 l 257
+ 321 331 l 257
+ 255 565 l 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00DD
 Encoding: 156 221 61
 GlifName: Y_acute
-Width: 479
+Width: 451
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20 766 152
-VStem: 157 146 194 164
+VStem: 120.556 146 157.556 164
 LayerCount: 2
 Fore
-Refer: 68 180 N 1 0 0 1 144 161 2
+Refer: 68 180 N 1 0 0 1 107.556 161 2
 Refer: 60 89 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni0178
 Encoding: 269 376 62
 GlifName: Y_dieresis
-Width: 479
+Width: 451
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21 680 20
-VStem: 157 146
+VStem: 120.556 146
 LayerCount: 2
 Fore
-Refer: 103 168 N 1 0 0 1 80 163 2
+Refer: 103 168 N 1 0 0 1 43.5562 163 2
 Refer: 60 89 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni005A
