@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440976529
+ModificationTime: 1440976748
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -480,13 +480,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 Compacted: 1
@@ -5280,7 +5280,7 @@ EndChar
 StartChar: uni0028
 Encoding: 8 40 173
 GlifName: parenleft
-Width: 202
+Width: 223
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -5303,24 +5303,24 @@ EndChar
 StartChar: uni0029
 Encoding: 9 41 174
 GlifName: parenright
-Width: 202
+Width: 223
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-VStem: 114.195 119<202 208 208 510>
+VStem: 135.195 119<202 208 208 510>
 LayerCount: 2
 Fore
 SplineSet
--1 -37 m 261
- 141 22 162 93 162 189 c 261
- 162 510 l 261
- 162 652 99 696 0 735 c 261
- -1 648 l 261
- 38 625 58 593 59 521 c 262
- 59 208 l 262
- 59 206 59 204 59 202 c 260
- 59 104 34 73 -1 51 c 261
- -1 -37 l 261
+20 -37 m 261
+ 162 22 183 93 183 189 c 261
+ 183 510 l 261
+ 183 652 120 696 21 735 c 261
+ 20 648 l 261
+ 59 625 79 593 80 521 c 262
+ 80 208 l 262
+ 80 206 80 204 80 202 c 260
+ 80 104 55 73 20 51 c 261
+ 20 -37 l 261
 EndSplineSet
 EndChar
 
