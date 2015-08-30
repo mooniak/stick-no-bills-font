@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440960390
+ModificationTime: 1440960521
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1259,7 +1259,7 @@ EndChar
 StartChar: uni004B
 Encoding: 43 75 29
 GlifName: K_
-Width: 491
+Width: 488
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -1286,7 +1286,7 @@ EndChar
 StartChar: uni004C
 Encoding: 44 76 30
 GlifName: L_
-Width: 443
+Width: 433
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -1339,38 +1339,37 @@ EndChar
 StartChar: uni004D
 Encoding: 45 77 32
 GlifName: M_
-Width: 676
+Width: 696
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21<32 32 32 173 285 285 285 382 503 503 503 644> 0 21<32 32 32 173 285 285 285 382 503 503 503 644> 680 20<32 142 142 142 503 644 644 644>
-VStem: 32 141<0 127 0 444> 503 141<0 700 0 700>
+Flags: HW
+HStem: 0 21<42 42 42 183 295 295 295 392 513 513 513 654> 0 21<42 42 42 183 295 295 295 392 513 513 513 654> 680 20<42 152 152 152 513 654 654 654>
+VStem: 42 141<0 127 0 444> 513 141<0 700 0 700>
 LayerCount: 2
 Fore
 SplineSet
-32 0 m 257xb8
- 32 444 l 257
- 41 444 l 257
- 173 127 l 257
- 173 0 l 257
- 32 0 l 257xb8
-32 700 m 257
- 142 700 l 257
- 333 237 l 257
- 439 476 l 257
+42 0 m 257xb8
+ 42 444 l 257
+ 51 444 l 257
+ 183 127 l 257
+ 183 0 l 257
+ 42 0 l 257xb8
+42 700 m 257
+ 152 700 l 257
+ 343 237 l 257
  449 476 l 257
- 449 151 l 257
- 382 0 l 257
- 285 0 l 257
- 32 608 l 257
- 32 700 l 257
-503 700 m 257
- 644 700 l 257
- 644 0 l 257
- 503 0 l 257
- 503 700 l 257
+ 459 476 l 257
+ 459 151 l 257
+ 392 0 l 257
+ 295 0 l 257
+ 42 608 l 257
+ 42 700 l 257
+513 700 m 257
+ 654 700 l 257
+ 654 0 l 257
+ 513 0 l 257
+ 513 700 l 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni004E
@@ -7765,7 +7764,7 @@ EndChar
 
 StartChar: uni0136
 Encoding: 223 310 290
-Width: 491
+Width: 488
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -7789,7 +7788,7 @@ EndChar
 
 StartChar: uni0139
 Encoding: 225 313 292
-Width: 443
+Width: 433
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -7813,7 +7812,7 @@ EndChar
 
 StartChar: uni013B
 Encoding: 227 315 294
-Width: 443
+Width: 433
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -7837,7 +7836,7 @@ EndChar
 
 StartChar: uni013D
 Encoding: 229 317 296
-Width: 443
+Width: 433
 VWidth: 0
 Flags: HW
 LayerCount: 2
