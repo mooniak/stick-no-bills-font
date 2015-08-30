@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440960119
+ModificationTime: 1440960390
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1259,52 +1259,50 @@ EndChar
 StartChar: uni004B
 Encoding: 43 75 29
 GlifName: K_
-Width: 475
+Width: 491
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21<26 167 26 26 319 457 319 319> 0 21<26 167 26 26 319 457 319 319> 680 20<26 167 167 167 314 453 453 453>
-VStem: 26 141<0 700 0 700>
+Flags: HW
+HStem: 0 21<42 183 42 42 335 473 335 335> 0 21<42 183 42 42 335 473 335 335> 680 20<42 183 183 183 330 469 469 469>
+VStem: 42 141<0 700 0 700>
 LayerCount: 2
 Fore
 SplineSet
-314 700 m 257xb0
- 453 700 l 257
- 347 341 l 257
- 457 0 l 257
- 319 0 l 257
- 207 341 l 257
- 314 700 l 257xb0
-26 700 m 257
- 167 700 l 257
- 167 0 l 257
- 26 0 l 257
- 26 700 l 257
+330 700 m 257xb0
+ 469 700 l 257
+ 363 341 l 257
+ 473 0 l 257
+ 335 0 l 257
+ 223 341 l 257
+ 330 700 l 257xb0
+42 700 m 257
+ 183 700 l 257
+ 183 0 l 257
+ 42 0 l 257
+ 42 700 l 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni004C
 Encoding: 44 76 30
 GlifName: L_
-Width: 428
+Width: 443
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 139<167 402 167 402> 680 20<26 167 167 167>
-VStem: 26 141<139 700 139 700 139 700>
+Flags: HW
+HStem: 0 139<183 418 183 418> 680 20<42 183 183 183>
+VStem: 42 141<139 700 139 700 139 700>
 LayerCount: 2
 Fore
 SplineSet
-402 139 m 257
- 402 0 l 257
- 26 0 l 257
- 26 700 l 257
- 167 700 l 257
- 167 139 l 257
- 402 139 l 257
+418 139 m 257
+ 418 0 l 257
+ 42 0 l 257
+ 42 700 l 257
+ 183 700 l 257
+ 183 139 l 257
+ 418 139 l 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0141
@@ -7767,13 +7765,13 @@ EndChar
 
 StartChar: uni0136
 Encoding: 223 310 290
-Width: 475
+Width: 491
 VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 96 44 N 1 0 0 1 108.5 -190 2
+Refer: 96 44 N 1 0 0 1 124.5 -190 2
 Refer: 29 75 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni0137
@@ -7791,13 +7789,13 @@ EndChar
 
 StartChar: uni0139
 Encoding: 225 313 292
-Width: 428
+Width: 443
 VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 68 180 N 1 0 0 1 0.5 161 2
+Refer: 68 180 N 1 0 0 1 16.5 161 2
 Refer: 30 76 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni013A
@@ -7815,13 +7813,13 @@ EndChar
 
 StartChar: uni013B
 Encoding: 227 315 294
-Width: 428
+Width: 443
 VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 96 44 N 1 0 0 1 81 -190 2
+Refer: 96 44 N 1 0 0 1 97 -190 2
 Refer: 30 76 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni013C
@@ -7839,14 +7837,13 @@ EndChar
 
 StartChar: uni013D
 Encoding: 229 317 296
-Width: 428
+Width: 443
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 96 44 N 1 0 0 1 442.5 576 2
+Refer: 96 44 N 1 0 0 1 458.5 576 2
 Refer: 30 76 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni0104
