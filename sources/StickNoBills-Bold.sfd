@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440960015
+ModificationTime: 1440960119
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1230,31 +1230,30 @@ EndChar
 StartChar: uni004A
 Encoding: 42 74 28
 GlifName: J_
-Width: 495
+Width: 490
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: -5 142<210.5 213 210.5 213 267 269.5 210.5 297> 680 20<323 463 463 463>
-VStem: 26 141<193 242 193 242> 323 140<193 700>
+Flags: HW
+HStem: -5 142<199.5 202 199.5 202 256 258.5 199.5 286> 680 20<312 452 452 452>
+VStem: 15 141<193 242 193 242> 312 140<193 700>
 LayerCount: 2
 Fore
 SplineSet
-213 -5 m 257
- 153 -5 26 54 26 193 c 257
- 26 242 l 257
- 167 242 l 257
- 167 193 l 258
- 168 147 208 137 213 137 c 257
- 213 -5 l 257
-267 -5 m 257
- 267 137 l 257
- 272 137 322 147 323 193 c 258
- 323 700 l 257
- 463 700 l 257
- 463 193 l 257
- 463 49 327 -5 267 -5 c 257
+202 -5 m 257
+ 142 -5 15 54 15 193 c 257
+ 15 242 l 257
+ 156 242 l 257
+ 156 193 l 258
+ 157 147 197 137 202 137 c 257
+ 202 -5 l 257
+256 -5 m 257
+ 256 137 l 257
+ 261 137 311 147 312 193 c 258
+ 312 700 l 257
+ 452 700 l 257
+ 452 193 l 257
+ 452 49 316 -5 256 -5 c 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni004B
