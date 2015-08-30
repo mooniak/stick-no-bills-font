@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1439553759
+ModificationTime: 1440959532
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -480,13 +480,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -1073,35 +1073,34 @@ EndChar
 StartChar: uni0048
 Encoding: 40 72 21
 GlifName: H_
-Width: 482
+Width: 478
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21G<44 185 297 438> 680 20G<44 185 297 438>
-VStem: 44 170<283 421> 44 141<0 283 421 700> 268 170<283 421> 297 141<0 283 421 700>
+Flags: HW
+HStem: 0 21G<42 183 295 436> 680 20G<42 183 295 436>
+VStem: 42 170<283 421> 42 141<0 283 421 700> 266 170<283 421> 295 141<0 283 421 700>
 LayerCount: 2
 Fore
 SplineSet
-214 421 m 257xe0
- 214 283 l 257xe0
- 185 283 l 257
- 185 0 l 257
- 44 0 l 257
- 44 700 l 257
- 185 700 l 257
- 185 421 l 257xd0
- 214 421 l 257xe0
-297 700 m 257xc4
- 438 700 l 257
- 438 0 l 257
- 297 0 l 257
- 297 283 l 257xc4
- 268 283 l 257
- 268 421 l 257xc8
- 297 421 l 257
- 297 700 l 257xc4
+212 421 m 257xe0
+ 212 283 l 257xe0
+ 183 283 l 257
+ 183 0 l 257
+ 42 0 l 257
+ 42 700 l 257
+ 183 700 l 257
+ 183 421 l 257xd0
+ 212 421 l 257xe0
+295 700 m 257xc4
+ 436 700 l 257
+ 436 0 l 257
+ 295 0 l 257
+ 295 283 l 257xc4
+ 266 283 l 257
+ 266 421 l 257xc8
+ 295 421 l 257
+ 295 700 l 257xc4
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: HKD
@@ -1640,31 +1639,30 @@ EndChar
 StartChar: uni0050
 Encoding: 48 80 43
 GlifName: P_
-Width: 474
+Width: 486
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21<26 167 26 26> 0 21<26 167 26 26> 318 139<221 254 254 257.5 221 299.5> 561 139<221 254 26 221>
-VStem: 26 141<0 700 0 700> 305 143<483 533.5>
+Flags: HW
+HStem: 0 21<42 183 42 42> 0 21<42 183 42 42> 318 139<237 270 270 273.5 237 315.5> 561 139<237 270 42 237>
+VStem: 42 141<0 700 0 700> 321 143<483 533.5>
 LayerCount: 2
 Fore
 SplineSet
-221 457 m 257x3c
- 254 457 l 258
- 261 457 305 458 305 508 c 256
- 305 559 263 561 254 561 c 258
- 221 561 l 257
- 221 700 l 257
- 402 700 448 626 448 512 c 256
- 448 369 378 318 221 318 c 257
- 221 457 l 257x3c
-26 700 m 257
- 167 700 l 257
- 167 0 l 257
- 26 0 l 257xbc
- 26 700 l 257
+237 457 m 257x3c
+ 270 457 l 258
+ 277 457 321 458 321 508 c 256
+ 321 559 279 561 270 561 c 258
+ 237 561 l 257
+ 237 700 l 257
+ 418 700 464 626 464 512 c 256
+ 464 369 394 318 237 318 c 257
+ 237 457 l 257x3c
+42 700 m 257
+ 183 700 l 257
+ 183 0 l 257
+ 42 0 l 257xbc
+ 42 700 l 257
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0025
