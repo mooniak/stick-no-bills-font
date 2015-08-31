@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440994863
+ModificationTime: 1440994984
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -496,7 +496,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 15 6
+WinInfo: 150 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4843,7 +4843,9 @@ GlifName: dotlessi
 Width: 174
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: 0 21G<68 108> 496 20G<68 108>
+VStem: 68 40<0 516>
 LayerCount: 4
 Fore
 SplineSet
@@ -10815,7 +10817,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 150 175 N 1 0 0 1 -192 54 2
+Refer: 309 713 N 1 0 0 1 -146 226 2
 Refer: 23 73 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 150 175 N 1 0 0 1 -150.5 54 2
@@ -10832,7 +10834,7 @@ Back
 Refer: 150 175 N 1 0 0 1 -168 -135 2
 Refer: 107 305 N 1 0 0 1 0 0 3
 Fore
-Refer: 150 175 N 1 0 0 1 -168 -135 2
+Refer: 309 713 N 1 0 0 1 -120 37 2
 Refer: 107 305 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 150 175 N 1 0 0 1 -168 -135 2
