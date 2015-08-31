@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440995063
+ModificationTime: 1440995409
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -491,12 +491,13 @@ p187
 L0L
 s."
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 195 15 6
+WinInfo: 165 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4697,7 +4698,7 @@ GlifName: divide
 Width: 650
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: 40 151 228 127<100 550 100 550> 393 151
 VStem: 213 150
 LayerCount: 4
@@ -4709,8 +4710,8 @@ SplineSet
  550 273 l 257
  100 273 l 257
 EndSplineSet
-Refer: 175 46 N 1 0 0 1 196 376 2
-Refer: 175 46 N 1 0 0 1 196 199 2
+Refer: 175 46 S 1 0 0 1 271 376 2
+Refer: 175 46 S 1 0 0 1 271 199 2
 Layer: 2
 SplineSet
 550 355 m 257
