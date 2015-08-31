@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441006717
+ModificationTime: 1441006784
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 180 15 6
+WinInfo: 210 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2923,8 +2923,8 @@ HStem: 0 21 680 20
 VStem: 143 146
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 66 163 2
-Refer: 60 89 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 92.5 114 2
+Refer: 60 89 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 80 163 2
 Refer: 60 89 N 1 0 0 1 0 0 2
@@ -10379,7 +10379,7 @@ VWidth: 0
 Flags: H
 LayerCount: 4
 Fore
-Refer: 136 733 N 1 0 0 1 116 161 2
+Refer: 136 733 N 1 0 0 1 116.5 161 2
 Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 136 733 N 1 0 0 1 116.5 161 2
@@ -10439,7 +10439,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 118 161 2
+Refer: 68 180 N 1 0 0 1 113 161 2
 Refer: 63 90 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 113.5 161 2
@@ -10453,7 +10453,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 82 -28 2
+Refer: 68 180 N 1 0 0 1 78 -28 2
 Refer: 227 122 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 78.5 -28 2
@@ -10467,7 +10467,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 106 729 N 1 0 0 1 112 163 2
+Refer: 106 729 N 1 0 0 1 112 118 2
 Refer: 63 90 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 106 729 N 1 0 0 1 108 163 2
@@ -10481,7 +10481,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 106 729 N 1 0 0 1 77 -26 2
+Refer: 106 729 N 1 0 0 1 77 -71 2
 Refer: 227 122 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 106 729 N 1 0 0 1 73 -26 2
@@ -10495,7 +10495,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 96 44 N 1 0 0 1 97 -193 2
+Refer: 96 44 S 1 0 0 1 125.5 -193 2
 Refer: 47 83 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 96 44 N 1 0 0 1 110.5 -193 2
@@ -10509,7 +10509,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 96 44 N 1 0 0 1 70 -195 2
+Refer: 96 44 S 1 0 0 1 98.5 -195 2
 Refer: 195 115 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 96 44 N 1 0 0 1 71.5 -195 2
@@ -10523,7 +10523,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 96 44 N 1 0 0 1 99 -190 2
+Refer: 96 44 S 1 0 0 1 121 -190 2
 Refer: 49 84 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 96 44 N 1 0 0 1 109.5 -190 2
