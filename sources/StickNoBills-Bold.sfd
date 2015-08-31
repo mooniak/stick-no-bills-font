@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1440998452
+ModificationTime: 1440998611
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2907,8 +2907,8 @@ GlifName: cent
 Width: 456
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
-VStem: 38 141<181 518> 164 71<-48 -5 -5 7 7 7 693 705 705 749> 289 71<-48 -5 -5 11 -48 86 687 705 705 749> 336 138<143 215 143 215>
+Flags: HW
+VStem: 38.0004 141<181 518> 164 71<-48 -5 -5 7 7 7 693 705 705 749> 289 71<-48 -5 -5 11 -48 86 687 705 705 749> 336 138<143 215 143 215>
 LayerCount: 2
 Fore
 SplineSet
@@ -4416,12 +4416,12 @@ EndChar
 StartChar: uni006C
 Encoding: 76 108 145
 GlifName: l
-Width: 226
+Width: 225
 VWidth: -8
 GlyphClass: 2
 Flags: HW
-HStem: 738.69 20G<41.9004 186>
-VStem: 41.9004 144.1<-9.11035 758.69>
+HStem: 738.69 20G<41.9 186>
+VStem: 41.9 144.1<-9.11035 758.69>
 LayerCount: 2
 Fore
 SplineSet
@@ -7624,14 +7624,14 @@ EndChar
 
 StartChar: uni013A
 Encoding: 226 314 293
-Width: 226
+Width: 225
 VWidth: 0
 Flags: HW
-HStem: 738.69 20G<41.8986 185.998> 759 152<104.948 158.948 67.9484 231.948>
-VStem: 41.8986 144.1<-9.11035 758.69> 67.9484 164<759 911>
+HStem: 738.69 20G<41.8982 185.998> 759 152<104.948 158.948 67.948 231.948>
+VStem: 41.8982 144.1<-9.11035 758.69> 67.948 164<759 911>
 LayerCount: 2
 Fore
-Refer: 68 180 N 1 0 0 1 17.5 214.69 2
+Refer: 68 180 N 1 0 0 1 17.4996 214.69 2
 Refer: 145 108 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7648,14 +7648,14 @@ EndChar
 
 StartChar: uni013C
 Encoding: 228 316 295
-Width: 226
+Width: 225
 VWidth: 0
 Flags: HW
-HStem: 738.69 20G<41.8986 185.998>
-VStem: 41.8986 144.1<-9.11035 758.69>
+HStem: 738.69 20G<41.8982 185.998>
+VStem: 41.8982 144.1<-9.11035 758.69>
 LayerCount: 2
 Fore
-Refer: 96 44 N 1 0 0 1 -19.0516 -190 2
+Refer: 96 44 N 1 0 0 1 -19.052 -190 2
 Refer: 145 108 N 1 0 0 1 0 0 3
 EndChar
 
@@ -7800,11 +7800,11 @@ EndChar
 
 StartChar: uni013E
 Encoding: 230 318 305
-Width: 226
+Width: 225
 VWidth: 0
 Flags: HW
-HStem: 738.69 20G<41.8986 185.998>
-VStem: 41.8986 144.1<-9.11035 758.69>
+HStem: 738.69 20G<41.8982 185.998>
+VStem: 41.8982 144.1<-9.11035 758.69>
 LayerCount: 2
 Fore
 Refer: 96 44 N 1 0 0 1 153.5 629.69 2
