@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441007985
+ModificationTime: 1441008046
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60 15 6
+WinInfo: 150 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2647,7 +2647,7 @@ HStem: -5 142 680 20 766 152
 VStem: 32 141 210 164 339 140
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 155.5 161 2
+Refer: 68 180 N 1 0 0 1 126.5 161 2
 Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 160 161 2
@@ -2905,7 +2905,7 @@ HStem: 0 21 680 20 766 152
 VStem: 143 146 180 164
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 125.5 161 2
+Refer: 68 180 N 1 0 0 1 96.5 161 2
 Refer: 60 89 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 144 161 2
@@ -2994,9 +2994,9 @@ GlifName: a
 Width: 434
 VWidth: 0
 GlyphClass: 2
-Flags: HW
-HStem: 1 112<162 179 162 179 228 231 162 228>
-VStem: 25 101<139 149 149 162 139 167 139 183.5> 267 116<149 227 227 227 351 363 361 375>
+Flags: W
+HStem: 1 39<105.808 181 226 303.668 386.124 409> 483 36<123.667 181 226 284.206>
+VStem: 25 40<80.1015 215.067 389 427.501> 343 40<77.6386 298 340.338 427.941>
 LayerCount: 4
 Fore
 SplineSet
@@ -3082,7 +3082,7 @@ HStem: 1 112 580 152
 VStem: 25 101 158 164 267 116
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 103.5 -25 2
+Refer: 68 180 N 1 0 0 1 74.5 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 109 -25 2
@@ -4961,7 +4961,7 @@ HStem: 0 111 208 116 402 114 577 152
 VStem: 38 122 178 164 295 114
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 123.5 -28 2
+Refer: 68 180 N 1 0 0 1 94.5 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 116 -28 2
@@ -6239,7 +6239,7 @@ HStem: 0 21<39 161 39 39> 0 21<39 161 39 39> 496 20<39 161 161 161>
 VStem: 39 122<0 516>
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 -12 -28 2
+Refer: 68 180 N 1 0 0 1 -41 -28 2
 Refer: 107 305 N 1 0 0 1 0 0 3
 Layer: 2
 SplineSet
@@ -7062,7 +7062,7 @@ HStem: -1 118 398 118 577 152
 VStem: 38 120 177 164 285 117
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 122.5 -28 2
+Refer: 68 180 N 1 0 0 1 93.5 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 117 -28 2
@@ -9351,7 +9351,7 @@ HStem: -5 121 494 20 577 152
 VStem: 38 124 180 164 288 124
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 125 -28 2
+Refer: 68 180 N 1 0 0 1 96 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 122 -28 2
@@ -9776,7 +9776,7 @@ HStem: 495 20 577 152
 VStem: 149 164 192 1
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 95 -28 2
+Refer: 68 180 N 1 0 0 1 66 -28 2
 Refer: 223 121 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 95 -28 2
@@ -10607,7 +10607,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 120 -28 2
+Refer: 68 180 N 1 0 0 1 91 -28 2
 Refer: 89 99 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 116.5 -28 2
@@ -10948,7 +10948,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 92 184 S -1 0 0 1 511 -163 2
+Refer: 311 731 S 1 0 0 1 378 0.4 2
 Refer: 65 97 N 1 0 0 1 0 0 2
 Layer: 2
 Refer: 92 184 S -1 0 0 1 512 -163 2
