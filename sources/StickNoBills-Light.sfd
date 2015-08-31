@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441006391
+ModificationTime: 1441006605
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60 15 6
+WinInfo: 150 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -639,8 +639,8 @@ HStem: 0 21 679 20 766 152
 VStem: 113 15 182 164
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 132 161 2
-Refer: 0 65 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 129 161 2
+Refer: 0 65 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 174 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -657,8 +657,8 @@ HStem: 0 21 679 20 766 152
 VStem: 113 15 119 218
 LayerCount: 4
 Fore
-Refer: 94 710 N 1 0 0 1 93 252 2
-Refer: 0 65 N 1 0 0 1 0 0 2
+Refer: 94 710 N 1 0 0 1 94.5 252 2
+Refer: 0 65 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 94 710 N 1 0 0 1 135 252 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -693,8 +693,8 @@ HStem: 0 21 679 20 766 152
 VStem: 109 164 113 15
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 60 161 2
-Refer: 0 65 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 124.5 161 2
+Refer: 0 65 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 102 161 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -776,8 +776,8 @@ HStem: 0 21 679 20 748 101 788 102
 VStem: 86 281 113 15
 LayerCount: 4
 Fore
-Refer: 208 732 N 1 0 0 1 60 662 2
-Refer: 0 65 N 1 0 0 1 0 0 2
+Refer: 208 732 N 1 0 0 1 62.5 648 2
+Refer: 0 65 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 208 732 N 1 0 0 1 102 662 2
 Refer: 0 65 N 1 0 0 1 0 0 2
@@ -917,7 +917,7 @@ VStem: 38 141 219 92 336 138
 LayerCount: 4
 Fore
 Refer: 92 184 N 1 0 0 1 117 -167 2
-Refer: 9 67 N 1 0 0 1 0 0 2
+Refer: 9 67 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 92 184 N 1 0 0 1 111 -167 2
 Refer: 9 67 N 1 0 0 1 0 0 2
@@ -1120,8 +1120,8 @@ HStem: 0 141 277 141 560 140 766 152
 VStem: 42 141 42 364 178 164
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 128 161 2
-Refer: 12 69 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 124 161 2
+Refer: 12 69 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 118 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
@@ -1156,8 +1156,8 @@ HStem: 0 141 277 141 560 140
 VStem: 42 141 42 364
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 64 163 2
-Refer: 12 69 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 91 114 2
+Refer: 12 69 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 54 163 2
 Refer: 12 69 N 1 0 0 1 0 0 2
@@ -1174,8 +1174,8 @@ HStem: 0 141 277 141 560 140 766 152
 VStem: 42 141 42 364 105 164
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 56 161 2
-Refer: 12 69 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 119.5 161 2
+Refer: 12 69 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 46 161 2
 Refer: 12 69 N 1 0 0 1 0 0 2
@@ -1522,8 +1522,8 @@ HStem: 0 21 680 20 766 152
 VStem: -8 141 17 164
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 -33 161 2
-Refer: 23 73 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 -38 161 2
+Refer: 23 73 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 9 161 2
 Refer: 23 73 N 1 0 0 1 0 0 2
@@ -1558,8 +1558,8 @@ HStem: 0 21 680 20
 VStem: -8 141
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 -98 163 2
-Refer: 23 73 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 -71 114 2
+Refer: 23 73 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 -56 163 2
 Refer: 23 73 N 1 0 0 1 0 0 2
@@ -1576,7 +1576,7 @@ HStem: 0 21 680 20 766 152
 VStem: -56 164 -8 141
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 -136 161 2
+Refer: 129 96 N 1 0 0 1 -42.5 161 2
 Refer: 23 73 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 -63 161 2
@@ -2021,8 +2021,8 @@ HStem: -5 142 564 141 766 152
 VStem: 38 141 216 164 345 141
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 166 161 2
-Refer: 35 79 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 162 161 2
+Refer: 35 79 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 158 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -2039,8 +2039,8 @@ HStem: -5 142 564 141 766 152
 VStem: 38 141 153 218 345 141
 LayerCount: 4
 Fore
-Refer: 94 710 N 1 0 0 1 127 252 2
-Refer: 35 79 N 1 0 0 1 0 0 2
+Refer: 94 710 N 1 0 0 1 127.5 252 2
+Refer: 35 79 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 94 710 N 1 0 0 1 119 252 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -2057,8 +2057,8 @@ HStem: -5 142 564 141
 VStem: 38 141 345 141
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 102 163 2
-Refer: 35 79 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 129 114 2
+Refer: 35 79 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 94 163 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -2075,8 +2075,8 @@ HStem: -5 142 564 141 766 152
 VStem: 38 141 143 164 345 141
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 94 161 2
-Refer: 35 79 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 157.5 161 2
+Refer: 35 79 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 86 161 2
 Refer: 35 79 N 1 0 0 1 0 0 2
@@ -2647,8 +2647,8 @@ HStem: -5 142 680 20 766 152
 VStem: 32 141 210 164 339 140
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 160 161 2
-Refer: 52 85 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 155.5 161 2
+Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 160 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
@@ -2666,7 +2666,7 @@ VStem: 32 141 147 218 339 140
 LayerCount: 4
 Fore
 Refer: 94 710 N 1 0 0 1 121 252 2
-Refer: 52 85 N 1 0 0 1 0 0 2
+Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 94 710 N 1 0 0 1 121 252 2
 Refer: 52 85 N 1 0 0 1 0 0 2
@@ -2683,8 +2683,8 @@ HStem: -5 142 680 20
 VStem: 32 141 339 140
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 96 163 2
-Refer: 52 85 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 122.5 114 2
+Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 96 163 2
 Refer: 52 85 N 1 0 0 1 0 0 2
@@ -2701,8 +2701,8 @@ HStem: -5 142 680 20 766 152
 VStem: 32 141 137 164 339 140
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 88 161 2
-Refer: 52 85 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 151 161 2
+Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 88 161 2
 Refer: 52 85 N 1 0 0 1 0 0 2
@@ -2905,8 +2905,8 @@ HStem: 0 21 680 20 766 152
 VStem: 143 146 180 164
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 130 161 2
-Refer: 60 89 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 125.5 161 2
+Refer: 60 89 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 144 161 2
 Refer: 60 89 N 1 0 0 1 0 0 2
@@ -3082,8 +3082,8 @@ HStem: 1 112 580 152
 VStem: 25 101 158 164 267 116
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 108 -25 2
-Refer: 65 97 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 103.5 -25 2
+Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 109 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -3101,7 +3101,7 @@ VStem: 25 101 95 218 267 116
 LayerCount: 4
 Fore
 Refer: 94 710 N 1 0 0 1 69 66 2
-Refer: 65 97 N 1 0 0 1 0 0 2
+Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 94 710 N 1 0 0 1 70 66 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -3146,8 +3146,8 @@ HStem: 1 112
 VStem: 25 101 267 116
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 43 -23 2
-Refer: 65 97 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 70.5 -72 2
+Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 44 -23 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -3274,8 +3274,8 @@ HStem: 1 112 580 152
 VStem: 25 101 85 164 267 116
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 36 -25 2
-Refer: 65 97 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 99 -25 2
+Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 37 -25 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -3583,8 +3583,8 @@ HStem: 1 112 562 101 602 102
 VStem: 25 101 63 281 267 116
 LayerCount: 4
 Fore
-Refer: 208 732 N 1 0 0 1 37 476 2
-Refer: 65 97 N 1 0 0 1 0 0 2
+Refer: 208 732 N 1 0 0 1 37 462 2
+Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 208 732 N 1 0 0 1 38 476 2
 Refer: 65 97 N 1 0 0 1 0 0 2
@@ -4961,8 +4961,8 @@ HStem: 0 111 208 116 402 114 577 152
 VStem: 38 122 178 164 295 114
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 128 -28 2
-Refer: 108 101 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 123.5 -28 2
+Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 116 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
@@ -4980,7 +4980,7 @@ VStem: 38 122 115 218 295 114
 LayerCount: 4
 Fore
 Refer: 94 710 N 1 0 0 1 89 63 2
-Refer: 108 101 N 1 0 0 1 0 0 2
+Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 94 710 N 1 0 0 1 77 63 2
 Refer: 108 101 N 1 0 0 1 0 0 2
@@ -4997,8 +4997,8 @@ HStem: 0 111 208 116 402 114
 VStem: 38 122 295 114
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 64 -26 2
-Refer: 108 101 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 90.5 -75 2
+Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 52 -26 2
 Refer: 108 101 N 1 0 0 1 0 0 2
@@ -5015,8 +5015,8 @@ HStem: 0 111 208 116 402 114 577 152
 VStem: 38 122 105 164 295 114
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 56 -28 2
-Refer: 108 101 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 119 -28 2
+Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 44 -28 2
 Refer: 108 101 N 1 0 0 1 0 0 2
@@ -6231,7 +6231,7 @@ EndChar
 StartChar: uni00ED
 Encoding: 172 237 139
 GlifName: iacute
-Width: 199
+Width: 174
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -6239,18 +6239,8 @@ HStem: 0 21<39 161 39 39> 0 21<39 161 39 39> 496 20<39 161 161 161>
 VStem: 39 122<0 516>
 LayerCount: 4
 Fore
-SplineSet
-80 0 m 261
- 80 516 l 261
- 120 516 l 261
- 120 0 l 261xb0
- 80 0 l 261
-86 577 m 257
- 114 577 l 257
- 162 729 l 257
- 122 729 l 257
- 86 577 l 257
-EndSplineSet
+Refer: 68 180 N 1 0 0 1 -12 -28 2
+Refer: 107 305 N 1 0 0 1 0 0 3
 Layer: 2
 SplineSet
 161 0 m 257xb0
@@ -6277,14 +6267,8 @@ HStem: 577 152
 VStem: -22 218
 LayerCount: 4
 Fore
-SplineSet
-68 0 m 261
- 68 516 l 261
- 108 516 l 261
- 108 0 l 261xb0
- 68 0 l 261
-EndSplineSet
-Refer: 94 710 N 1 0 0 1 -48 63 2
+Refer: 94 710 N 1 0 0 1 -46.5 63 2
+Refer: 107 305 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 94 710 N 1 0 0 1 -48 63 2
 Refer: 107 305 N 1 0 0 1 0 0 2
@@ -6293,7 +6277,7 @@ EndChar
 StartChar: uni00EF
 Encoding: 174 239 141
 GlifName: idieresis
-Width: 199
+Width: 174
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -6301,23 +6285,8 @@ HStem: 0 21<39 161 39 39> 0 21<39 161 39 39> 496 20<39 161 161 161> 576 151<-7 3
 VStem: -61 150<630 672> 39 122<0 516> 109 150<630 672>
 LayerCount: 4
 Fore
-SplineSet
-29 651 m 256x38
- 29 668 42 682 59 682 c 256
- 76 682 89 668 89 651 c 256
- 89 634 76 621 59 621 c 256
- 42 621 29 634 29 651 c 256x38
-80 0 m 257
- 80 516 l 257
- 120 516 l 257
- 120 0 l 257xb0
- 80 0 l 257
-109 651 m 260x32
- 109 668 122 682 139 682 c 260
- 156 682 169 668 169 651 c 260
- 169 634 156 621 139 621 c 260
- 122 621 109 634 109 651 c 260x32
-EndSplineSet
+Refer: 103 168 N 1 0 0 1 -45 -75 2
+Refer: 107 305 N 1 0 0 1 0 0 3
 Layer: 2
 SplineSet
 -61 651 m 256x38
@@ -6341,7 +6310,7 @@ EndChar
 StartChar: uni00EC
 Encoding: 171 236 142
 GlifName: igrave
-Width: 199
+Width: 174
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -6349,18 +6318,8 @@ HStem: 0 21<39 161 39 39> 0 21<39 161 39 39> 496 20<39 161 161 161>
 VStem: 39 122<0 516>
 LayerCount: 4
 Fore
-SplineSet
-39 729 m 261
- 79 729 l 261
- 115 577 l 261
- 87 577 l 261
- 39 729 l 261
-80 0 m 261
- 80 516 l 261
- 120 516 l 261
- 120 0 l 261xb0
- 80 0 l 261
-EndSplineSet
+Refer: 129 96 N 1 0 0 1 -16.5 -28 2
+Refer: 107 305 N 1 0 0 1 0 0 3
 Layer: 2
 SplineSet
 54 577 m 257
@@ -6937,8 +6896,8 @@ HStem: 0 21 398 121 562 101 602 102
 VStem: 38 124 84 281 288 124
 LayerCount: 4
 Fore
-Refer: 208 732 N 1 0 0 1 58 476 2
-Refer: 154 110 N 1 0 0 1 0 0 2
+Refer: 208 732 N 1 0 0 1 58.5 462 2
+Refer: 154 110 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 208 732 N 1 0 0 1 50 476 2
 Refer: 154 110 N 1 0 0 1 0 0 2
@@ -7103,8 +7062,8 @@ HStem: -1 118 398 118 577 152
 VStem: 38 120 177 164 285 117
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 127 -28 2
-Refer: 158 111 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 122.5 -28 2
+Refer: 158 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 117 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -7122,7 +7081,7 @@ VStem: 38 120 114 218 285 117
 LayerCount: 4
 Fore
 Refer: 94 710 N 1 0 0 1 88 63 2
-Refer: 158 111 N 1 0 0 1 0 0 2
+Refer: 158 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 94 710 N 1 0 0 1 78 63 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -7139,8 +7098,8 @@ HStem: -1 118 398 118
 VStem: 38 120 285 117
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 62 -26 2
-Refer: 158 111 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 89.5 -75 2
+Refer: 158 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 52 -26 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -7262,8 +7221,8 @@ HStem: -1 118 398 118 577 152
 VStem: 38 120 104 164 285 117
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 55 -28 2
-Refer: 158 111 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 118 -28 2
+Refer: 158 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 45 -28 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -7661,8 +7620,8 @@ HStem: -1 118 398 118 559 101 599 102
 VStem: 38 120 82 281 285 117
 LayerCount: 4
 Fore
-Refer: 208 732 N 1 0 0 1 56 473 2
-Refer: 158 111 N 1 0 0 1 0 0 2
+Refer: 208 732 N 1 0 0 1 56 459 2
+Refer: 158 111 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 208 732 N 1 0 0 1 46 473 2
 Refer: 158 111 N 1 0 0 1 0 0 2
@@ -9392,8 +9351,8 @@ HStem: -5 121 494 20 577 152
 VStem: 38 124 180 164 288 124
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 130 -28 2
-Refer: 210 117 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 125 -28 2
+Refer: 210 117 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 122 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
@@ -9410,8 +9369,8 @@ HStem: -5 121 494 20 577 152
 VStem: 38 124 116 218 288 124
 LayerCount: 4
 Fore
-Refer: 94 710 N 1 0 0 1 90 63 2
-Refer: 210 117 N 1 0 0 1 0 0 2
+Refer: 94 710 N 1 0 0 1 90.5 63 2
+Refer: 210 117 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 94 710 N 1 0 0 1 82 63 2
 Refer: 210 117 N 1 0 0 1 0 0 2
@@ -9428,8 +9387,8 @@ HStem: -5 121 494 20
 VStem: 38 124 288 124
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 65 -26 2
-Refer: 210 117 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 92 -75 2
+Refer: 210 117 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 57 -26 2
 Refer: 210 117 N 1 0 0 1 0 0 2
@@ -9446,8 +9405,8 @@ HStem: -5 121 494 20 577 152
 VStem: 38 124 107 164 288 124
 LayerCount: 4
 Fore
-Refer: 129 96 N 1 0 0 1 58 -28 2
-Refer: 210 117 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 120.5 -28 2
+Refer: 210 117 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 129 96 N 1 0 0 1 50 -28 2
 Refer: 210 117 N 1 0 0 1 0 0 2
@@ -9817,8 +9776,8 @@ HStem: 495 20 577 152
 VStem: 149 164 192 1
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 99 -28 2
-Refer: 223 121 N 1 0 0 1 0 0 2
+Refer: 68 180 N 1 0 0 1 95 -28 2
+Refer: 223 121 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 95 -28 2
 Refer: 223 121 N 1 0 0 1 0 0 2
@@ -9835,8 +9794,8 @@ HStem: 495 20
 VStem: 192 1
 LayerCount: 4
 Fore
-Refer: 103 168 N 1 0 0 1 35 -26 2
-Refer: 223 121 N 1 0 0 1 0 0 2
+Refer: 103 168 N 1 0 0 1 62 -75 2
+Refer: 223 121 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 103 168 N 1 0 0 1 31 -26 2
 Refer: 223 121 N 1 0 0 1 0 0 2
@@ -10606,7 +10565,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 86 728 N 1 0 0 1 106 336 2
+Refer: 86 728 N 1 0 0 1 107 302 2
 Refer: 0 65 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 86 728 N 1 0 0 1 147.5 336 2
@@ -10620,7 +10579,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 86 728 N 1 0 0 1 81 150 2
+Refer: 86 728 N 1 0 0 1 81.5 116 2
 Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 86 728 N 1 0 0 1 82.5 150 2
@@ -10634,7 +10593,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 166 161 2
+Refer: 68 180 N 1 0 0 1 161.413 161.008 2
 Refer: 9 67 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 160.5 161 2
@@ -10648,7 +10607,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 68 180 N 1 0 0 1 124 -28 2
+Refer: 68 180 N 1 0 0 1 120 -28 2
 Refer: 89 99 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 68 180 N 1 0 0 1 116.5 -28 2
@@ -10662,7 +10621,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 90 711 N 1 0 0 1 127 252 2
+Refer: 90 711 N 1 0 0 1 126.913 252.008 2
 Refer: 9 67 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 90 711 N 1 0 0 1 121 252 2
@@ -10676,7 +10635,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 90 711 N 1 0 0 1 85 63 2
+Refer: 90 711 N 1 0 0 1 85.5 63 2
 Refer: 89 99 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 90 711 N 1 0 0 1 77 63 2
@@ -10690,7 +10649,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 90 711 N 1 0 0 1 103 252 2
+Refer: 90 711 N 1 0 0 1 103.5 252 2
 Refer: 11 68 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 90 711 N 1 0 0 1 93 252 2
@@ -10704,7 +10663,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 96 44 N 1 0 0 1 428 569 2
+Refer: 96 44 N 1 0 0 1 428.5 570 2
 Refer: 99 100 N 1 0 0 1 0 0 2
 Layer: 2
 Refer: 96 44 N 1 0 0 1 424.5 569 2
@@ -10746,7 +10705,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 106 729 N 1 0 0 1 123 163 2
+Refer: 106 729 N 1 0 0 1 123 118 2
 Refer: 12 69 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 106 729 N 1 0 0 1 113 163 2
@@ -10760,7 +10719,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 106 729 N 1 0 0 1 123 -26 2
+Refer: 106 729 N 1 0 0 1 122.5 -71 2
 Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 106 729 N 1 0 0 1 111 -26 2
@@ -10802,7 +10761,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 86 728 N 1 0 0 1 139 336 2
+Refer: 86 728 N 1 0 0 1 138.432 302.008 2
 Refer: 20 71 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 86 728 N 1 0 0 1 127 336 2
@@ -10816,7 +10775,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 4
 Fore
-Refer: 86 728 N 1 0 0 1 161 147 2
+Refer: 86 728 N 1 0 0 1 161 113 2
 Refer: 127 103 N 1 0 0 1 0 0 3
 Layer: 2
 Refer: 86 728 N 1 0 0 1 167 147 2
