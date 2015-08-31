@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441007843
+ModificationTime: 1441007873
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -9554,25 +9554,25 @@ EndChar
 StartChar: uni00B9
 Encoding: 120 185 219
 GlifName: uni00B_9
-Width: 266
+Width: 102
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 391 309<95 161 95 161 93 161>
-VStem: 60 101<584 673 673 673> 93 68<391 610 610 610>
+HStem: 391 309<33.7537 99.7537 33.7537 99.7537 31.7537 99.7537>
+VStem: -1.24633 101<584 673 673 673> 31.7537 68<391 610 610 610>
 LayerCount: 4
 Fore
-Refer: 164 49 S 0.431063 0 0 0.431063 54 392 2
+Refer: 164 49 S 0.431063 0 0 0.431063 -7.24633 392 2
 Layer: 2
 SplineSet
-93 610 m 257xa0
- 60 584 l 257
- 60 673 l 257xc0
- 95 700 l 257
- 161 700 l 257
- 161 391 l 257
- 93 391 l 257
- 93 610 l 257xa0
+31.7578125 610 m 257xa0
+ -1.2421875 584 l 257
+ -1.2421875 673 l 257xc0
+ 33.7578125 700 l 257
+ 99.7578125 700 l 257
+ 99.7578125 391 l 257
+ 31.7578125 391 l 257
+ 31.7578125 610 l 257xa0
 EndSplineSet
 EndChar
 
