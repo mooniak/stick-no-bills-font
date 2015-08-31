@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441013021
+ModificationTime: 1441013053
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,7 +495,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60 15 6
+WinInfo: 90 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1181,8 +1181,8 @@ HStem: 0 21 680 20 766 152
 VStem: 4 218 42 141
 LayerCount: 2
 Fore
-Refer: 94 710 N 1 0 0 1 -22 252 2
-Refer: 23 73 N 1 0 0 1 0 0 2
+Refer: 94 710 N 1 0 0 1 -22.5 252 2
+Refer: 23 73 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni00CF
@@ -1211,8 +1211,8 @@ HStem: 0 21 680 20 766 152
 VStem: -6 164 42 141
 LayerCount: 2
 Fore
-Refer: 129 96 N 1 0 0 1 -55 161 2
-Refer: 23 73 N 1 0 0 1 0 0 2
+Refer: 129 96 N 1 0 0 1 -48 161 2
+Refer: 23 73 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni004A
@@ -4363,7 +4363,7 @@ GlifName: j
 Width: 242
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -199.36 128.7<-12.2998 50.7501> 547.34 20G<53.7002 187.9> 611.34 160.601<65.8467 173.554>
 VStem: 39.4004 160.6<635.797 746.332> 53.7002 134.2<-66.6247 567.34>
 LayerCount: 2
