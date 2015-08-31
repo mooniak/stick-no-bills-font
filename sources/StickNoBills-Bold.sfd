@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441002592
+ModificationTime: 1441005848
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3249,27 +3249,26 @@ EndChar
 StartChar: uni00B0
 Encoding: 111 176 102
 GlifName: degree
-Width: 282
+Width: 301
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 468 77<129.5 151 129.5 172> 622 77
-VStem: 25 77<572.5 594 572.5 615> 179 77<572.5 594>
+Flags: HW
+HStem: 468 77<139.5 161 139.5 182> 622 77
+VStem: 35 77<572.5 594 572.5 615> 189 77<572.5 594>
 LayerCount: 2
 Fore
 SplineSet
-25 583 m 256
- 25 647 77 698 140 698 c 256
- 204 698 256 647 256 583 c 256
- 256 520 204 468 140 468 c 256
- 77 468 25 520 25 583 c 256
-102 583 m 256
- 102 562 119 545 140 545 c 256
- 162 545 179 562 179 583 c 256
- 179 605 162 622 140 622 c 256
- 119 622 102 605 102 583 c 256
+35 583 m 256
+ 35 647 87 698 150 698 c 256
+ 214 698 266 647 266 583 c 256
+ 266 520 214 468 150 468 c 256
+ 87 468 35 520 35 583 c 256
+112 583 m 256
+ 112 562 129 545 150 545 c 256
+ 172 545 189 562 189 583 c 256
+ 189 605 172 622 150 622 c 256
+ 129 622 112 605 112 583 c 256
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni00A8
@@ -4097,29 +4096,29 @@ EndChar
 StartChar: uni00AB
 Encoding: 106 171 131
 GlifName: guillemotleft
-Width: 475
+Width: 457
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-27 259 m 257
- 27 321 l 257
- 238 477 l 257
- 238 352 l 257
- 149 292 l 257
- 238 224 l 257
- 238 102 l 257
- 27 259 l 257
-238 259 m 257
- 238 321 l 257
- 449 477 l 257
- 449 352 l 257
- 360 292 l 257
- 449 224 l 257
- 449 102 l 257
- 238 259 l 257
+20 259 m 257
+ 20 321 l 257
+ 231 477 l 257
+ 231 352 l 257
+ 142 292 l 257
+ 231 224 l 257
+ 231 102 l 257
+ 20 259 l 257
+231 259 m 257
+ 231 321 l 257
+ 442 477 l 257
+ 442 352 l 257
+ 353 292 l 257
+ 442 224 l 257
+ 442 102 l 257
+ 231 259 l 257
 EndSplineSet
 EndChar
 
@@ -4458,22 +4457,22 @@ EndChar
 StartChar: uni00AC
 Encoding: 107 172 147
 GlifName: logicalnot
-Width: 502
+Width: 540
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 327 115<26 358 26 476>
-VStem: 358 118<208 327 327 327>
+HStem: 327 115<40 372 40 490>
+VStem: 372 118<208 327 327 327>
 LayerCount: 2
 Fore
 SplineSet
-26 327 m 257
- 26 442 l 257
- 476 442 l 257
- 476 208 l 257
- 358 208 l 257
- 358 327 l 257
- 26 327 l 257
+40 327 m 257
+ 40 442 l 257
+ 490 442 l 257
+ 490 208 l 257
+ 372 208 l 257
+ 372 327 l 257
+ 40 327 l 257
 EndSplineSet
 EndChar
 
@@ -5493,22 +5492,22 @@ EndChar
 StartChar: uni00B1
 Encoding: 112 177 179
 GlifName: plusminus
-Width: 575
+Width: 427
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 40 127<100 476 100 476> 391 127
-VStem: 223 127
+HStem: 40 127<26 402 26 402> 391 127
+VStem: 149 127
 LayerCount: 2
 Fore
 SplineSet
-100 40 m 257
- 100 167 l 257
- 476 167 l 257
- 476 40 l 257
- 100 40 l 257
+26 40 m 257
+ 26 167 l 257
+ 402 167 l 257
+ 402 40 l 257
+ 26 40 l 257
 EndSplineSet
-Refer: 178 43 S 1 0 0 1 84 161 2
+Refer: 178 43 S 1 0 0 1 10 161 2
 EndChar
 
 StartChar: uni0071
@@ -6478,15 +6477,15 @@ EndChar
 StartChar: uni00AD
 Encoding: 108 173 216
 GlifName: uni00A_D_
-Width: 516
+Width: 376
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 HStem: 230 127
-VStem: 100 316
+VStem: 80 316
 LayerCount: 2
 Fore
-Refer: 137 45 N 1 0 0 1 0 0 2
+Refer: 137 45 N 1 0 0 1 -20 0 2
 EndChar
 
 StartChar: uni00B2
