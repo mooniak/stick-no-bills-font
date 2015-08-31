@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441008681
+ModificationTime: 1441008714
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,7 +495,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 105 15 6
+WinInfo: 135 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -517,23 +517,23 @@ GlifName: A_
 Width: 528
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21G<32 174.371 354.294 496> 679 20G<206 349.32> 679 20G<206 349.32>
 VStem: 161 15<549.661 582>
 LayerCount: 2
 Fore
 SplineSet
-32 0 m 257
- 161 582 l 257x90
+32 0 m 257x90
+ 161 582 l 257
  176 582 l 257
  236 302 l 257
  170 0 l 257
- 32 0 l 257
+ 32 0 l 257x90
 245 85 m 261
  275 223 l 257
  311 223 l 257
- 206 699 l 257xd0
- 345 699 l 257
+ 206 699 l 257
+ 345 699 l 257xd0
  496 0 l 257
  359 0 l 257
  339 85 l 257
@@ -7677,7 +7677,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 92 184 S -1 0 0 1 575 -163 2
+Refer: 311 731 S 1 0 0 1 456 0.3 2
 Refer: 0 65 N 1 0 0 1 0 0 2
 Colour: ffff00
 EndChar
