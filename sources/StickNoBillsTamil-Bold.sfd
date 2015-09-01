@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441041977
+ModificationTime: 1441079048
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: tamil_new
 Compacted: 1
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 32 8 2
+WinInfo: 80 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -11328,8 +11328,35 @@ StartChar: NameMe.60
 Encoding: 622 -1 393
 Width: 937
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
+Fore
+SplineSet
+411 609 m 1
+ 411 484 l 1
+ 365.243442789 484 330.584960938 427.249023438 341 350 c 4
+ 350.974609375 276.018554688 404.291072638 182.988565782 440 114.0234375 c 1
+ 315 114 l 1
+ 270.777037362 191.202799181 243.809900057 280.063214365 238.384642466 360.999995205 c 0
+ 229.333701322 496.026586546 280.238442723 609 411 609 c 1
+516 -198 m 1
+ 515 428 l 0
+ 515 452 510 484 466 484 c 1
+ 466 609 l 1
+ 563 609 642 541 642 445 c 0
+ 642 -198 l 1
+ 516 -198 l 1
+28 125 m 1
+ 735 125 l 1
+ 735 0 l 1
+ 28 0 l 1
+ 28 125 l 1
+28 610 m 1
+ 153 610 l 1
+ 153 180 l 1
+ 28 180 l 1
+ 28 610 l 1
+EndSplineSet
 EndChar
 
 StartChar: NameMe.61
@@ -12918,7 +12945,7 @@ StartChar: tml_NyUu
 Encoding: 95 -1 444
 Width: 0
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
