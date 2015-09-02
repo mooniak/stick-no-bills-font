@@ -13134,7 +13134,7 @@ StartChar: tml_Ii
 Encoding: 6 2952 332
 Width: 645
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
@@ -14452,7 +14452,7 @@ StartChar: tml_Ka
 Encoding: 15 2965 342
 Width: 829
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 SplineSet
@@ -14529,8 +14529,8 @@ SplineSet
  737 336 796 295 796 198.165039062 c 2
  796 183.165039062 l 0
  796 90 721 1.6796875 566 1.8447265625 c 1
- 568 42.1650390625 l 4
- 621 42.1650390625 755 58 755 189 c 4
+ 568 42.1650390625 l 0
+ 621 42.1650390625 755 58 755 189 c 0
  755 300.0078125 679 296 646 296 c 2
  206 296 l 2
 EndSplineSet
