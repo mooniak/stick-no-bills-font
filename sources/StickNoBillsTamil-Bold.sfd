@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441109381
+ModificationTime: 1441448140
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,23 +481,23 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
-Encoding: tamil_new
+Encoding: Custom
 Compacted: 1
 UnicodeInterp: none
-NameList: Tamil
+NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 78 13 6
+WinInfo: 39 13 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -13205,7 +13205,7 @@ StartChar: tml_NnUu
 Encoding: 97 -1 446
 Width: 1246
 VWidth: 0
-Flags: WO
+Flags: W
 LayerCount: 3
 Fore
 SplineSet
@@ -13573,96 +13573,58 @@ StartChar: tml_PUu
 Encoding: 101 -1 450
 Width: 775
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
-311 -169 m 1
- 165 -169 l 0
- 146.944335938 -168.673828125 130 -161 130 -140 c 0
- 130 -120 146 -109 169 -109 c 1
- 191.193359375 -109.729492188 204 -122 204 -145 c 0
- 294 -145 l 0
- 294 -137 l 0
- 294 -62 246 -14 169 -14 c 1
- 96 -14 40 -55 40 -130.614257812 c 0
- 40 -155 l 0
- 40 -241 120.887695312 -264 167 -264 c 0
- 311 -264 l 1
- 311 -169 l 1
-735 -102 m 2
- 735 -50.859375 715.075195312 -20 650 -20 c 2
- 576 -20 l 1
- 576 -115 l 0
- 644 -115 l 0
- 644 -169 l 0
- 366 -169 l 0
- 366 -264 l 1
- 644 -264 l 0
- 709 -264 735 -231 735 -178 c 0
- 735 -102 l 2
+298 -169 m 1
+ 152 -169 l 0
+ 133.944335938 -168.673828125 117 -161 117 -140 c 0
+ 117 -120 133 -109 156 -109 c 1
+ 178.193359375 -109.729492188 191 -122 191 -145 c 0
+ 281 -145 l 0
+ 281 -137 l 0
+ 281 -62 233 -14 156 -14 c 1
+ 83 -14 27 -55 27 -130.614257812 c 0
+ 27 -155 l 0
+ 27 -241 107.887695312 -264 154 -264 c 0
+ 298 -264 l 1
+ 298 -169 l 1
+722 -102 m 2
+ 722 -50.859375 702.075195312 -20 637 -20 c 2
+ 563 -20 l 1
+ 563 -115 l 0
+ 631 -115 l 0
+ 631 -169 l 0
+ 353 -169 l 0
+ 353 -264 l 1
+ 631 -264 l 0
+ 696 -264 722 -231 722 -178 c 0
+ 722 -102 l 2
   Spiro
-    735 -102 ]
-    727.44 -58.048 o
-    700.922 -29.8753 o
-    650 -20 [
-    576 -20 v
-    576 -115 o
-    644 -115 o
-    644 -169 o
-    366 -169 o
-    366 -264 v
-    644 -264 [
-    696.441 -253.502 o
-    725.871 -223.814 o
-    735 -178 o
+    722 -102 ]
+    714.44 -58.048 o
+    687.922 -29.8753 o
+    637 -20 [
+    563 -20 v
+    563 -115 o
+    631 -115 o
+    631 -169 o
+    353 -169 o
+    353 -264 v
+    631 -264 [
+    683.441 -253.502 o
+    712.871 -223.814 o
+    722 -178 o
     0 0 z
   EndSpiro
-97 109.065429688 m 1
- 97 611.065429688 l 1
- 222 611.065429688 l 1
- 222 109.065429688 l 1
- 97 109.065429688 l 1
-  Spiro
-    97 109.065 v
-    97 611.065 v
-    222 611.065 v
-    222 109.065 v
-    0 0 z
-  EndSpiro
-455 1 m 1
- 455 -146.5 l 1
- 580 -146.5 l 1
- 580 610.565429688 l 1
- 455 610.565429688 l 1
- 455 126 l 1
- 366 126 l 1
- 366 1 l 1
- 455 1 l 1
-  Spiro
-    455 1 v
-    455 -146.5 v
-    580 -146.5 v
-    580 610.565 v
-    455 610.565 v
-    455 126 v
-    366 126 v
-    366 1 v
-    0 0 z
-  EndSpiro
-97 126 m 1
- 311 126 l 1
- 311 1.0654296875 l 1
- 97 1.0654296875 l 1
- 97 126 l 1
-  Spiro
-    97 126 v
-    311 126 v
-    311 1.06543 v
-    97 1.06543 v
-    0 0 z
-  EndSpiro
+442 7 m 1
+ 442 -146.5 l 1
+ 567 -146.5 l 1
+ 567 7 l 1
+ 442 7 l 1
 EndSplineSet
+Refer: 325 2986 N 1 0 0 1 57 0 2
 EndChar
 
 StartChar: tml_MUu
