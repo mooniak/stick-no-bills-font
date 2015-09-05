@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441459026
+ModificationTime: 1441459069
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -8762,7 +8762,7 @@ StartChar: tml_Na
 Encoding: 23 2984 329
 Width: 698
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
@@ -8783,17 +8783,17 @@ SplineSet
  501 384 l 1
 319 1 m 1
  447 1 l 1
- 446 603 l 1
- 321 603 l 1
+ 446 602 l 5
+ 321 602 l 5
  319 1 l 1
 73 1 m 9
  198 1 l 1
- 198 605 l 1
- 73 605 l 1
+ 198 604 l 5
+ 73 604 l 5
  73 1 l 9
 594 485 m 1
- 594 610 l 1
- 73 610 l 1
+ 594 609 l 5
+ 73 609 l 5
  74 485 l 1
  594 485 l 1
 EndSplineSet
@@ -9618,7 +9618,7 @@ StartChar: tml_Ta
 Encoding: 22 2980 344
 Width: 809
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
