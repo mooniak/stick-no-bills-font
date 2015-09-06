@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441528234
+ModificationTime: 1441532736
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 96 8 2
+WinInfo: 40 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -12548,7 +12548,7 @@ VStem: 40 126<-60.7696 630.073> 298 125<0 114 239 606> 417 6<114 239> 562 127<-5
 LayerCount: 3
 Fore
 SplineSet
-341 710 m 2xfc40
+341 710 m 6xfc40
  163 710 165 580 165 499 c 0
  165 5 l 0
  164.975585938 -60.4873046875 189.944335938 -79.673828125 255 -80 c 0
@@ -12557,7 +12557,7 @@ SplineSet
  239 -205 l 0
  127.887695312 -205 40 -136 40 6 c 0
  40 504 l 0
- 40 761 141 836 340 836 c 2
+ 40 761 141 836 340 836 c 6
  488 836 l 6
  648.501953125 836 772 812 772 676 c 4
  772 666 l 4
@@ -12568,7 +12568,7 @@ SplineSet
  577 646 589.499023438 632 612 632 c 4
  635.579101562 632 647 646.581054688 647 665 c 4
  647 704 628.501953125 710 484.501953125 710 c 6
- 341 710 l 2xfc40
+ 341 710 l 6xfc40
 687 70 m 2xfd80
  687 0 l 0
  687 -108 608 -205 480 -205 c 0
@@ -13771,7 +13771,7 @@ StartChar: tml_MatraIi
 Encoding: 40 3008 484
 Width: 0
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 SplineSet
@@ -13828,8 +13828,24 @@ StartChar: tml_MatraU
 Encoding: 41 3009 485
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HWO
 LayerCount: 3
+Fore
+SplineSet
+269 588 m 1
+ 484.501953125 588 l 2
+ 629 588 647 581 647 542 c 0
+ 647 523.581054688 635.579101562 509 612 509 c 0
+ 589.499023438 509 577 523 577 543 c 0
+ 452 543 l 1
+ 452 456 525.852539062 384 596 384 c 0
+ 625 384 l 0
+ 681 384 772 436.456054688 772 543 c 0
+ 772 553 l 0
+ 772 689 649 713 488 713 c 2
+ 269 713 l 1
+ 269 588 l 1
+EndSplineSet
 EndChar
 
 StartChar: tml_MatraUu
