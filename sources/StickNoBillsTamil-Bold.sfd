@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441537004
+ModificationTime: 1441537110
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 48 8 2
+WinInfo: 56 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -11356,10 +11356,15 @@ Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
+512 746 m 1
+ 638 746 l 1
+ 741 609 l 1
+ 616 609 l 1
+ 512 746 l 1
 616 148 m 258xe8
  616 609 l 257
- 741 609 l 261xe8
- 741 148 l 6
+ 741 609 l 257xe8
+ 741 148 l 2
  740.255859375 99.01171875 694 0 561 0 c 257
  561 122 l 257xf0
  585.190857056 122 616 132.471444117 616 148 c 258xe8
