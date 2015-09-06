@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441522767
+ModificationTime: 1441522917
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 400 8 2
+WinInfo: 88 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -11000,34 +11000,27 @@ StartChar: NameMe.60
 Encoding: 622 -1 393
 Width: 937
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 125<28 342 499 747> 496 125<386.05 438 493 532.684>
 VStem: 28 125<180 610> 543 126<-204 487.443>
 LayerCount: 3
 Fore
 SplineSet
-438 621 m 5
- 438 496 l 5
- 302 485 328 241 499 114.0234375 c 5
- 342 101 l 5
- 149 259 197.001953125 621 438 621 c 5
-543 -204 m 5
- 542 440 l 4
- 542 464 537 496 493 496 c 5
- 493 621 l 5
- 590 621 669 553 669 457 c 4
- 669 -204 l 5
- 543 -204 l 5
-28 125 m 5
- 747 125 l 5
- 747 0 l 5
- 28 0 l 5
- 28 125 l 5
-28 610 m 5
- 153 610 l 5
- 153 180 l 5
- 28 180 l 5
- 28 610 l 5
+438 621 m 1
+ 438 496 l 1
+ 302 485 328 241 499 114.0234375 c 1
+ 342 101 l 1
+ 149 259 197.001953125 621 438 621 c 1
+28 125 m 1
+ 747 125 l 1
+ 747 0 l 1
+ 28 0 l 1
+ 28 125 l 1
+28 610 m 1
+ 153 610 l 1
+ 153 180 l 1
+ 28 180 l 1
+ 28 610 l 1
 EndSplineSet
 EndChar
 
@@ -12541,9 +12534,9 @@ EndChar
 
 StartChar: tml_TUu
 Encoding: 98 -1 447
-Width: 0
+Width: 812
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -205 125<184.094 339 394 536.428> 0 21G<298 423> 114 125<417 558.578> 507 125<579.528 644.466> 710 126<238.562 636.887>
 VStem: 40 126<-60.7696 630.073> 298 125<0 114 239 606> 417 6<114 239> 562 127<-54.276 111.169> 647 125<637.459 700.201>
 LayerCount: 3
@@ -12653,7 +12646,7 @@ StartChar: tml_PUu
 Encoding: 101 -1 450
 Width: 775
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -264 95<119.957 154 631 631> -109 95<119.101 187.954> 1 125.065<222 304> 109.065 17<97 222>
 VStem: 27 90<-166.683 -113.529> 97 125<126.065 609> 97 207<1 126.065> 191 90<-145 -113.387> 563 4<-115 -20>
 LayerCount: 3
