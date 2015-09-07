@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441629344
+ModificationTime: 1441631919
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 Compacted: 1
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 0 13 5
+WinInfo: 120 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -14959,14 +14959,14 @@ SplineSet
  190.200195312 288.600585938 316 324.600585938 367 324.600585938 c 1
 363 722 m 0
  362.599609375 598 l 1
- 306 596 164 567 164 455 c 2
- 164 232 l 2
- 164 135 313.5 81 364.387695312 81 c 1
+ 306 596 164 585 164 473 c 2
+ 164 213 l 2
+ 164 116 313.5 81 364.387695312 81 c 1
  364.387695312 -43 l 0
  359 -43 l 0
- 261 -43 40 14 40 219 c 1
- 40 459 l 1
- 40 674 288 722 363 722 c 0
+ 261 -43 40 -5 40 200 c 1
+ 40 477 l 1
+ 40 692 288 722 363 722 c 0
 EndSplineSet
 EndChar
 
