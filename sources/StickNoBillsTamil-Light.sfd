@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441687866
+ModificationTime: 1441687902
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1174,7 +1174,7 @@ StartChar: tml_Pa
 Encoding: 6 2986 6
 Width: 539
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 1 122<162 242> 107 17<40 162>
 VStem: 40 202<1 123> 40 122<123 595>
 LayerCount: 3
@@ -1228,9 +1228,9 @@ EndChar
 
 StartChar: tml_Tta
 Encoding: 7 2975 7
-Width: 625
+Width: 640
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 122<40 600>
 VStem: 40 122<176 596>
 LayerCount: 3
