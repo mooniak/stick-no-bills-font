@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441701696
+ModificationTime: 1441708258
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 0 8 2
+WinInfo: 112 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1199,7 +1199,7 @@ StartChar: tml_Ii
 Encoding: 13 2952 13
 Width: 629
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 1 21G<39 161> 187 125<193 287 482 574> 473 123<39 217>
 VStem: 39 178<473 596> 39 122<1 473> 178 125<202 296> 466 125<201 296>
 LayerCount: 3
@@ -5349,29 +5349,29 @@ StartChar: tml_MatraI.alt1
 Encoding: 143 -1 119
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HWO
 LayerCount: 3
 Fore
 SplineSet
-39 107 m 1x60
+39 106 m 5x60
  39 597 l 1
  161 597 l 1
- 161 107 l 1x50
- 39 107 l 1x60
-302 1 m 1
- 389 1 l 1
+ 161 106 l 5x50
+ 39 106 l 5x60
+302 0 m 1
+ 389 0 l 1
  389 -258 l 1
  511 -258 l 1
  511 596 l 1
  389 596 l 1
- 389 123 l 1
- 302 123 l 1
- 302 1 l 1
-39 1 m 1xa0
- 39 123 l 1x60
- 248 123 l 1
- 248 1 l 1
- 39 1 l 1xa0
+ 389 122 l 5
+ 302 122 l 5
+ 302 0 l 1
+39 0 m 1xa0
+ 39 122 l 5x60
+ 248 122 l 5
+ 248 0 l 1
+ 39 0 l 1xa0
 EndSplineSet
 EndChar
 
