@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441708005
+ModificationTime: 1441708223
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -7563,7 +7563,7 @@ StartChar: tml_YUu
 Encoding: 132 -1 108
 Width: 967
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -258 93<130 163 489 840> -106 93<129 196 757 840> 0 119<243 275 329 390 522 556 609 643>
 VStem: 39 88<-163 -111> 119 122<121 595> 199 88<-142 -111> 399 122<123 595> 609 156<0 119> 644 122<-143 -112 -20 168 120 595> 757 9<-112 -20> 840 89<-165 -112>
 LayerCount: 3
@@ -8305,7 +8305,7 @@ StartChar: tml_MatraI.alt1
 Encoding: 143 -1 119
 Width: 0
 VWidth: 0
-Flags: W
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
@@ -8331,25 +8331,25 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-39 107 m 1x60
+39 24 m 5x60
  39 597 l 1
- 161 597 l 1
- 161 107 l 1x50
- 39 107 l 1x60
-302 1 m 1
- 389 1 l 1
- 389 -258 l 1
+ 79 597 l 1
+ 79 24 l 5x50
+ 39 24 l 5x60
+302 0 m 1
+ 471 0 l 1
+ 471 -258 l 1
  511 -258 l 1
  511 596 l 1
- 389 596 l 1
- 389 123 l 1
- 302 123 l 1
- 302 1 l 1
-39 1 m 1xa0
- 39 123 l 1x60
- 248 123 l 1
- 248 1 l 1
- 39 1 l 1xa0
+ 471 596 l 1
+ 471 40 l 5
+ 302 40 l 5
+ 302 0 l 1
+39 0 m 1xa0
+ 39 40 l 5x60
+ 248 40 l 5
+ 248 0 l 1
+ 39 0 l 1xa0
 EndSplineSet
 EndChar
 
