@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441708223
+ModificationTime: 1441708359
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -7419,7 +7419,7 @@ StartChar: tml_PUu
 Encoding: 130 -1 106
 Width: 756
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -258 93<117 150 616 616> -106 93<116 184> 1 122<217 297> 107 17<95 217>
 VStem: 26 88<-163 -111> 95 122<123 595> 95 202<1 123> 187 88<-142 -111> 550 4<-112 -20>
 LayerCount: 3
@@ -7482,11 +7482,11 @@ SplineSet
  616 -112 l 0
  616 -165 l 0
  353 -165 l 0
-432 7 m 1
- 432 -143 l 1
+514 7 m 5
+ 514 -143 l 5
  554 -143 l 1
  554 7 l 1
- 432 7 l 1
+ 514 7 l 5
 EndSplineSet
 Refer: 6 2986 N 1 0 0 1 56 0 2
 EndChar
@@ -8305,7 +8305,7 @@ StartChar: tml_MatraI.alt1
 Encoding: 143 -1 119
 Width: 0
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 SplineSet
