@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441710222
+ModificationTime: 1441710307
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2176,7 +2176,7 @@ StartChar: tml_Ma
 Encoding: 19 2990 19
 Width: 663
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 123<161 243 365 405 459 497> 107 17<39 161> 122 1<243 365> 483 122<371 405 459 495>
 VStem: 39 122<123 595> 243 122<122 480> 503 123<130 478>
 LayerCount: 3
@@ -4096,7 +4096,7 @@ StartChar: tml_Month
 Encoding: 95 3060 71
 Width: 859
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
@@ -4161,33 +4161,8 @@ SplineSet
  572 737 563 753 539 753 c 0
  504 753 463 710 463 633 c 1
  403 633 l 0
-459 0 m 0
- 459 123 l 1x9e
- 499 123 502 157 502 179 c 2
- 502 434 l 0
- 502 457 500 483 459 483 c 1
- 459 605 l 1
- 547 605 624 564 624 434 c 0
- 624 197 l 0
- 624 51 540 0 459 0 c 0
-243 122 m 0x3e
- 243 434 l 0
- 242 571 324 605 405 605 c 1
- 405 483 l 17
- 371 483 365 459 365 434 c 2
- 365 122 l 1
- 243 122 l 0x3e
-39 107 m 1x5e
- 39 595 l 1
- 161 595 l 1
- 161 107 l 1
- 39 107 l 1x5e
-39 0 m 1x9e
- 39 123 l 1x5e
- 405 123 l 1
- 405 0 l 1x9e
- 39 0 l 1x9e
 EndSplineSet
+Refer: 19 2990 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: tml_Year
