@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441693417
+ModificationTime: 1441694044
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -497,7 +497,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 24 12 8
+WinInfo: 0 12 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4462,7 +4462,7 @@ StartChar: tml_Credit
 Encoding: 98 3063 74
 Width: 1140
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 SplineSet
@@ -6837,7 +6837,7 @@ StartChar: tml_NyUu
 Encoding: 124 -1 100
 Width: 1400
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -257 94<163 189 643 677> 1 122<180 210 265 298> 238 123<181 210 265 304> 472 105<484 606> 472 123<235 304 359 484 606 707>
 VStem: 39 124<145 217> 39 131<310 405> 39 171<116 123 238 360> 317 123<146 215> 484 123<0 577> 695 122<-150 -80 154 200>
 LayerCount: 3
@@ -6886,21 +6886,6 @@ EndSplineSet
 Refer: 4 2958 N 1 0 0 1 0 0 2
 Fore
 SplineSet
-1155 -0 m 1xe0e0
- 1277 -0 l 1
- 1277 593 l 1
- 1155 593 l 1
- 1155 -0 l 1xe0e0
-1104 473 m 1
- 1361 473 l 1
- 1361 595 l 1
- 1104 595 l 1
- 1104 473 l 1
-871 473 m 1
- 1050 473 l 1
- 1050 595 l 1
- 871 595 l 1
- 871 473 l 1
 448 -163 m 9
  448 -257 l 1
  644 -257 l 0
@@ -6926,6 +6911,7 @@ SplineSet
  190 -27 l 2
  102 -27 39 -57 39 -125 c 0
 EndSplineSet
+Refer: 9 3006 N 1 0 0 1 831 0 2
 Refer: 4 2958 N 1 0 0 1 0 0 2
 EndChar
 
