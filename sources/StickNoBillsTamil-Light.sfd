@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441687394
+ModificationTime: 1441687525
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1266,7 +1266,7 @@ StartChar: tml_Ra
 Encoding: 8 2992 8
 Width: 595
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 0 21G<39 161> 473 122<41 217>
 VStem: 39 178<473 595> 39 122<0 473>
 LayerCount: 3
@@ -1297,28 +1297,28 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-151 -177 m 1
+249 -177 m 5
  294 -177 l 1
  443 0 l 2
  445 591 l 1xc0
- 320 591 l 1
- 320 33 l 1
- 151 -177 l 1
-39 0 m 21xd0
+ 403 591 l 1
+ 403 4 l 1
+ 249 -177 l 5
+39 0 m 17xd0
  39 595 l 1xe0
- 161 595 l 1
- 161 0 l 5
- 39 0 l 21xd0
-271 473 m 1
- 557 473 l 1
+ 79 595 l 1
+ 79 0 l 1
+ 39 0 l 17xd0
+271 555 m 1
+ 557 555 l 1
  557 595 l 1
  271 595 l 1
- 271 473 l 1
-41 473 m 1
+ 271 555 l 1
+41 555 m 1
  41 595 l 1
  217 595 l 1
- 217 473 l 1
- 41 473 l 1
+ 217 555 l 1
+ 41 555 l 1
 EndSplineSet
 EndChar
 
@@ -1326,7 +1326,7 @@ StartChar: tml_MatraAa
 Encoding: 9 3006 9
 Width: 568
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 0 21G<39 161> 473 122<39 218>
 VStem: 39 179<473 595> 39 122<0 473>
 LayerCount: 3
