@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441708258
+ModificationTime: 1441806753
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 Compacted: 1
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 112 8 2
+WinInfo: 39 13 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3162,7 +3162,7 @@ SplineSet
  423 -159 419 -258 255 -258 c 1
  255 -164 l 17
 39 -126 m 0
- 39 -58 102 -28 190 -28 c 0
+ 39 -57 102 -28 190 -28 c 0
  545 -28 l 1
  545 381 l 0
  667 381 l 0
@@ -4054,25 +4054,25 @@ VStem: 39 123<-11 55 541 614> 289 122<123 595> 493 122<122 480> 753 123<130 478>
 LayerCount: 3
 Fore
 SplineSet
-394 -56 m 4
- 493 -56 l 4
+394 -56 m 0
+ 493 -56 l 0
  493 15 l 1
  615 15 l 1x8fc0
- 615 -57 l 4
- 615 -126 575 -178 494 -178 c 4
- 394 -178 l 5
- 394 -56 l 4
-39 28 m 4
- 39 -111 124 -178 233 -178 c 4
- 340 -178 l 5
- 340 -56 l 21
- 249 -56 l 4
- 185 -56 161 -37 161 27 c 4
+ 615 -57 l 0
+ 615 -126 575 -178 494 -178 c 0
+ 394 -178 l 1
+ 394 -56 l 0
+39 28 m 0
+ 39 -111 124 -178 233 -178 c 0
+ 340 -178 l 1
+ 340 -56 l 17
+ 249 -56 l 0
+ 185 -56 161 -37 161 27 c 0
  161 541 l 0
  161 577 165 634 239 634 c 0
  238 756 l 0
  153 756 39 709 39 546 c 0
- 39 28 l 4
+ 39 28 l 0
 EndSplineSet
 Refer: 19 2990 N 1 0 0 1 250 0 2
 EndChar
@@ -5349,7 +5349,7 @@ StartChar: tml_MatraI.alt1
 Encoding: 143 -1 119
 Width: 0
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -6452,7 +6452,7 @@ StartChar: tml_One
 Encoding: 177 3047 153
 Width: 0
 VWidth: 0
-Flags: W
+Flags: WO
 LayerCount: 3
 Fore
 SplineSet
