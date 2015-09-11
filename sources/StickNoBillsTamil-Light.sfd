@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441961127
+ModificationTime: 1441961376
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2176,7 +2176,7 @@ StartChar: tml_Ma
 Encoding: 19 2990 19
 Width: 663
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 123<161 243 365 405 459 497> 107 17<39 161> 122 1<243 365> 483 122<371 405 459 495>
 VStem: 39 122<123 595> 243 122<122 480> 503 123<130 478>
 LayerCount: 3
@@ -2244,7 +2244,7 @@ StartChar: tml_Llla
 Encoding: 20 2996 20
 Width: 663
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -145 123<368 559> 0 123<161 243 365 405 459 497> 107 17<39 161> 122 1<243 365> 483 122<371 405 459 495>
 VStem: 39 122<123 595> 243 122<122 480> 503 123<130 478>
 LayerCount: 3
@@ -2267,12 +2267,12 @@ Fore
 SplineSet
 53 -67 m 1
  53 -191 183 -260 327 -165 c 1
- 281 -160 235 -119 231 -87 c 1
- 213 -103 176 -91 175 -67 c 1x8f
+ 308 -163 285.0859375 -153 279 -148 c 1
+ 234 -189 93 -185 93 -67 c 1x8f
  53 -67 l 1
 243 1 m 1
- 283 1 l 5
- 283 -112 375 -106 559 -106 c 5
+ 283 1 l 1
+ 283 -112 375 -106 559 -106 c 1
  559 -146 l 0
  429 -145 l 1
  265 -146 243 -60 243 1 c 1
