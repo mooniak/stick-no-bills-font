@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442037223
+ModificationTime: 1442037329
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3624,7 +3624,7 @@ StartChar: tml_Nine
 Encoding: 90 3055 66
 Width: 977
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 SplineSet
@@ -3837,7 +3837,7 @@ StartChar: tml_Thousand
 Encoding: 93 3058 69
 Width: 1095
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
@@ -3920,39 +3920,13 @@ SplineSet
  830 96 l 2
  830 6 786 -61 694 -61 c 0
  616 -61 568 -3 568 69 c 0
-39 157 m 0
- 39 218 l 0
- 39 326 149 371 235 371 c 0
- 958 371 l 9xc480
- 958 249 l 1
- 238 249 l 2
- 174 249 160 239 160 188 c 0
- 160 127 180 122 269 122 c 1
- 269 -1 l 1
- 112 0 39 68 39 157 c 0
-322 -1 m 9
- 322 122 l 1
- 388 122 419 141 419 187 c 0
- 419 588 l 1
- 541 588 l 1x8c80
- 541 191 l 2
- 541 95 489 -1 322 -1 c 9
-164 348 m 17xa580
- 164 586 l 1xa680
- 287 586 l 1
- 286 348 l 1
- 164 348 l 17xa580
-381 470 m 1
- 381 595 l 1x9480
- 688 595 l 1
- 688 470 l 1
- 381 470 l 1
-164 470 m 1x8e80
- 164 595 l 1x9680
- 327 595 l 1
- 327 470 l 1x9680
- 164 470 l 1x8e80
+539 246 m 1x8e80
+ 539 371 l 1x9680
+ 959 371 l 1
+ 959 246 l 1x9680
+ 539 246 l 1x8e80
 EndSplineSet
+Refer: 24 2970 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: tml_Day
