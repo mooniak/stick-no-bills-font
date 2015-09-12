@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442036938
+ModificationTime: 1442037104
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3205,7 +3205,7 @@ StartChar: tml_Four
 Encoding: 85 3050 61
 Width: 908
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
@@ -3249,44 +3249,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-742 249 m 17xa580
+742 331 m 21xa580
  742 487 l 1xa680
  865 487 l 1
- 864 249 l 1
- 742 249 l 17xa580
-39 157 m 0
- 39 218 l 0
- 39 326 149 371 235 371 c 0
- 856 371 l 9xc480
- 856 249 l 1
- 238 249 l 2
- 174 249 160 239 160 188 c 0
- 160 127 180 122 269 122 c 1
- 269 -1 l 1
- 112 0 39 68 39 157 c 0
-322 -1 m 9
- 322 122 l 1
- 388 122 419 141 419 187 c 0
- 419 588 l 1
- 541 588 l 1x8c80
- 541 191 l 2
- 541 95 489 -1 322 -1 c 9
-164 348 m 17xa580
- 164 586 l 1xa680
- 287 586 l 1
- 286 348 l 1
- 164 348 l 17xa580
-381 470 m 1
- 381 595 l 1x9480
- 688 595 l 1
- 688 470 l 1
- 381 470 l 1
-164 470 m 1x8e80
- 164 595 l 1x9680
- 327 595 l 1
- 327 470 l 1x9680
- 164 470 l 1x8e80
+ 864 331 l 5
+ 742 331 l 21xa580
+527 331 m 1
+ 527 371 l 1x9480
+ 834 371 l 1
+ 834 331 l 1
+ 527 331 l 1
 EndSplineSet
+Refer: 24 2970 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: tml_Five
@@ -6667,7 +6641,7 @@ StartChar: tml_CUu
 Encoding: 123 -1 99
 Width: 1149
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -198 122<180 249 923 973> -1 123<337 435 488 564> 249 62<771 894> 348 23<330 452> 360 122<184 238> 470 122<330 493 547 859>
 VStem: 39 123<-56 9 268 341> 205 121<133 241> 330 163<470 592> 330 122<371 470> 585 122<142 588> 771 122<0 311> 988 122<-62 -15 47 91>
 LayerCount: 3
