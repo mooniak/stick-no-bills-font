@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442034178
+ModificationTime: 1442034258
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -2593,8 +2593,8 @@ SplineSet
  112 0 39 68 39 157 c 0
 322 -1 m 9
  322 122 l 1
- 388 122 419 141 419 187 c 0
- 419 588 l 1
+ 388 122 501 141 501 187 c 4
+ 501 588 l 5
  541 588 l 1x8c80
  541 191 l 2
  541 95 489 -1 322 -1 c 9
@@ -2603,16 +2603,16 @@ SplineSet
  205 586 l 1
  204 348 l 1
  164 348 l 17xa580
-381 470 m 1
+381 555 m 1
  381 595 l 1x9480
  688 595 l 1
- 688 470 l 1
- 381 470 l 1
-164 470 m 1x8e80
+ 688 555 l 1
+ 381 555 l 1
+164 555 m 1x8e80
  164 595 l 1x9680
  327 595 l 1
- 327 470 l 1x9680
- 164 470 l 1x8e80
+ 327 555 l 1x9680
+ 164 555 l 1x8e80
 EndSplineSet
 EndChar
 
