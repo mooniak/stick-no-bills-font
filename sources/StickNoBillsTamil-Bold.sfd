@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1441978769
+ModificationTime: 1442030835
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 Compacted: 1
@@ -497,7 +497,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 1
-WinInfo: 39 13 5
+WinInfo: 91 13 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1436,7 +1436,7 @@ StartChar: tml_Nna
 Encoding: 18 2979 18
 Width: 1460
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -12 122<163 190 230 258 546 573 613 641 935 958 998 1026> 1 21G<1203 1325> 484 122<221 349 388 483 711 762 801 869 1100 1146 1186 1203 1325 1422> 484 90<1203 1325>
 VStem: 39 122<111 155 300 414> 262 122<113 346> 422 122<112 407> 645 122<114 405> 807 122<113 408> 1029 122<115 406> 1203 122<1 574>
 LayerCount: 3
@@ -5682,7 +5682,7 @@ StartChar: tml_Rra
 Encoding: 158 2993 134
 Width: 732
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -155 122<184 237 472 546> 0 21G<65 194> 483 123<193 223 276 313 437 476 527 567>
 VStem: 39 122<-256 -177> 65 129<1 481> 316 122<2 481> 569 125<-13 64 460 482>
 LayerCount: 3
@@ -5701,21 +5701,21 @@ SplineSet
  569 16 570 -33 472 -33 c 0
  233 -33 l 0
  91 -33 39 -114 39 -256 c 1
-70 0 m 257
+70 0 m 261
  70 479 l 0xee
  70 529 111 606 223 606 c 257
  223 483 l 257
  198 483 192 471 192 458 c 258
- 194 1 l 257
- 70 0 l 257
+ 194 0 l 261
+ 70 0 l 261
 276 483 m 257
  276 606 l 257
  322 606 352 597 376 576 c 257
  404 599 437 606 476 606 c 257
  476 484 l 257
  458 484 436 481 436 459 c 258
- 438 2 l 257
- 316 1 l 257
+ 438 0 l 261
+ 316 0 l 261
  314 458 l 258
  314 472 302 483 276 483 c 257
 EndSplineSet
