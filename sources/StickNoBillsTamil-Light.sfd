@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442142624
+ModificationTime: 1442143638
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -4182,7 +4182,7 @@ StartChar: tml_Debit
 Encoding: 97 3062 73
 Width: 706
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
@@ -4226,9 +4226,9 @@ EndSplineSet
 Fore
 SplineSet
 255 -164 m 17
- 306 -164 301 -126 301 -81 c 2
- 301 21 l 1
- 301 239 l 9
+ 306 -164 383 -126 383 -81 c 2
+ 383 21 l 1
+ 383 239 l 9
  423 239 l 258
  423 18 l 2xf6
  423 -81 l 2
@@ -4249,15 +4249,15 @@ SplineSet
  39 -126 l 0
 48 146 m 258
  48 595 l 257
- 170 595 l 257
- 170 146 l 258
- 170 132 176 119 202 119 c 257
+ 88 595 l 257
+ 88 146 l 258
+ 88 132 176 40 202 40 c 257
  202 0 l 257
  102 0 48 68 48 146 c 258
 256 0 m 257
- 256 119 l 257
- 280 119 301 126 301 145 c 258
- 301 487 l 257
+ 256 40 l 257
+ 360 40 383 50 383 145 c 258
+ 383 487 l 257
  423 487 l 257
  423 145 l 258
  423 -10 351 0 256 0 c 257
@@ -6840,7 +6840,7 @@ StartChar: tml_TUu
 Encoding: 127 -1 103
 Width: 792
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -200 122<180 331 385 524> 0 21G<291 413> 111 122<407 545> 495 122<566 629> 693 123<233 622>
 VStem: 39 123<-59 615> 291 122<0 111 233 592> 407 6<111 233> 549 124<-53 109> 632 122<623 684>
 LayerCount: 3
