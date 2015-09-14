@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442202080
+ModificationTime: 1442202164
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 Compacted: 1
@@ -9057,15 +9057,15 @@ Fore
 SplineSet
 39 615 m 1
  319 615 l 2
- 375 615 446 567 446 529 c 0
- 446 511 397 461 374 461 c 4
- 352 461 340 510 340 530 c 0
- 218 530 l 1
- 218 445 289 375 358 375 c 0
- 387 375 l 0
- 442 375 490 426 490 530 c 0
- 490 540 l 0
- 490 673 434 655 323 655 c 2
+ 375 615 448 567 448 529 c 0
+ 448 511 397 457 374 457 c 0
+ 352 457 298 510 298 530 c 0
+ 258 530 l 1
+ 258 445 300 417 369 417 c 0
+ 381 417 l 0
+ 436 417 488 426 488 530 c 4
+ 488 540 l 4
+ 488 673 434 655 323 655 c 2
  39 655 l 1
  39 615 l 1
 EndSplineSet
