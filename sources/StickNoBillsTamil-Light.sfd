@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442156887
+ModificationTime: 1442201581
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,13 +481,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 Compacted: 1
@@ -4268,7 +4268,7 @@ StartChar: tml_Credit
 Encoding: 98 3063 74
 Width: 1143
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
@@ -4366,11 +4366,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-585 132 m 1
- 585 199 l 1
- 693 199 l 1
- 693 132 l 1
- 585 132 l 1
+585 149 m 5
+ 585 179 l 1
+ 693 179 l 1
+ 693 149 l 5
+ 585 149 l 5
 789 0 m 1
  789 30 l 1
  807 30 852 41 852 100 c 0
@@ -4383,7 +4383,7 @@ SplineSet
  663 122 l 0
  663 180 730 200 758 200 c 1
  758 170 l 0
- 742 170 693 158 693 100 c 4
+ 742 170 693 158 693 100 c 0
  693 43 740 30 758 30 c 1
  758 0 l 0
  702 0 663 51 663 84 c 0
@@ -8953,45 +8953,45 @@ EndChar
 
 StartChar: tml_MatraI
 Encoding: 163 3007 139
-Width: 0
+Width: 556
 VWidth: 0
 Flags: HW
 LayerCount: 3
 Back
 SplineSet
-643 678 m 1
- 643 800 l 1
- 825 800 858 684 858 582 c 0
- 858 69 l 1
- 736 69 l 1
- 736 579 l 2
- 736 641 709 678 643 678 c 1
-382 580 m 1
- 382 580 l 1
- 382 684 421 800 589 800 c 0
- 589 800 l 1
- 589 678 l 0
- 589 678 l 0
- 528 678 505 641 505 580 c 0
- 382 580 l 1
+301 678 m 1
+ 301 800 l 1
+ 483 800 516 684 516 582 c 0
+ 516 69 l 1
+ 394 69 l 1
+ 394 579 l 2
+ 394 641 367 678 301 678 c 1
+40 580 m 1
+ 40 580 l 1
+ 40 684 79 800 247 800 c 0
+ 247 800 l 1
+ 247 678 l 0
+ 247 678 l 0
+ 186 678 163 641 163 580 c 0
+ 40 580 l 1
 EndSplineSet
 Fore
 SplineSet
-643 678 m 1
- 643 800 l 1
- 825 800 858 684 858 582 c 0
- 858 69 l 1
- 736 69 l 1
- 736 579 l 2
- 736 641 709 678 643 678 c 1
-382 580 m 1
- 382 580 l 1
- 382 684 421 800 589 800 c 0
- 589 800 l 1
- 589 678 l 0
- 589 678 l 0
- 528 678 505 641 505 580 c 0
- 382 580 l 1
+301 678 m 1
+ 301 800 l 1
+ 483 800 516 684 516 582 c 0
+ 516 69 l 1
+ 394 69 l 1
+ 394 579 l 2
+ 394 641 367 678 301 678 c 1
+40 580 m 1
+ 40 580 l 1
+ 40 684 79 800 247 800 c 0
+ 247 800 l 1
+ 247 678 l 0
+ 247 678 l 0
+ 186 678 163 641 163 580 c 0
+ 40 580 l 1
 EndSplineSet
 EndChar
 
