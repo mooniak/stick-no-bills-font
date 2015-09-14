@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442200640
+ModificationTime: 1442200865
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -8955,7 +8955,7 @@ StartChar: tml_MatraI
 Encoding: 163 3007 139
 Width: 556
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 SplineSet
@@ -9033,41 +9033,41 @@ EndChar
 
 StartChar: tml_MatraU
 Encoding: 165 3009 141
-Width: 569
+Width: 571
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 SplineSet
-39 574 m 1
- 319 574 l 2
- 375 574 408 567 408 529 c 0
- 408 511 397 497 374 497 c 0
- 352 497 340 510 340 530 c 0
- 218 530 l 1
- 218 445 289 375 358 375 c 0
- 387 375 l 0
- 442 375 530 426 530 530 c 0
- 530 540 l 0
- 530 673 434 696 323 696 c 2
- 39 696 l 1
- 39 574 l 1
+40 574 m 1
+ 320 574 l 2
+ 376 574 409 567 409 529 c 0
+ 409 511 398 497 375 497 c 0
+ 353 497 341 510 341 530 c 0
+ 219 530 l 1
+ 219 445 290 375 359 375 c 0
+ 388 375 l 0
+ 443 375 531 426 531 530 c 0
+ 531 540 l 0
+ 531 673 435 696 324 696 c 2
+ 40 696 l 1
+ 40 574 l 1
 EndSplineSet
 Fore
 SplineSet
-39 574 m 1
- 319 574 l 2
- 375 574 408 567 408 529 c 0
- 408 511 397 497 374 497 c 0
- 352 497 340 510 340 530 c 0
- 218 530 l 1
- 218 445 289 375 358 375 c 0
- 387 375 l 0
- 442 375 530 426 530 530 c 0
- 530 540 l 0
- 530 673 434 696 323 696 c 2
- 39 696 l 1
- 39 574 l 1
+40 614 m 1
+ 320 614 l 2
+ 376 614 447 607 447 529 c 4
+ 447 470 398 456 375 456 c 4
+ 315 456 298 510 298 530 c 0
+ 259 530 l 5
+ 259 454 329 417 367 417 c 4
+ 380 417 l 0
+ 435 417 487 470 487 530 c 0
+ 487 540 l 0
+ 487 598 435 654 324 654 c 2
+ 40 654 l 1
+ 40 614 l 1
 EndSplineSet
 EndChar
 
