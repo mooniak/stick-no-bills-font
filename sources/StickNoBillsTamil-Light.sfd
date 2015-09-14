@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442206865
+ModificationTime: 1442206981
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -687,7 +687,7 @@ StartChar: tml_Ya
 Encoding: 1 2991 1
 Width: 727
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 119<164 196 250 310 443 477 530 564>
 VStem: 40 122<121 595> 320 122<123 595> 530 156<0 119> 564 122<120 595>
 LayerCount: 3
@@ -735,19 +735,19 @@ SplineSet
  687 595 l 257xe8
  687 0 l 1
  530 0 l 257
-40 140 m 262
- 40 595 l 257
- 80 595 l 257
- 80 145 l 257
- 80 87 142 40 191 40 c 258
- 196 40 l 257
- 196 0 l 257
- 190 0 l 258
- 129 0 40 57 40 140 c 262
-250 0 m 257
- 250 40 l 257
- 256 40 l 258
- 306 40 359 62 359 127 c 257
+81 140 m 258
+ 81 595 l 257
+ 121 595 l 257
+ 121 145 l 257
+ 121 87 166.243243243 40 202 40 c 262
+ 207 40 l 261
+ 207 0 l 261
+ 201 0 l 262
+ 152.2 0 81 57 81 140 c 258
+261 0 m 261
+ 261 40 l 261
+ 267 40 l 262
+ 311.660194175 40 359 62 359 127 c 257
  359 595 l 257
  399 595 l 257
  399 82 l 258
@@ -756,8 +756,8 @@ SplineSet
  477 0 l 257
  363 0 l 1
  363 36 l 257
- 344 15 302 -0 256 0 c 258
- 250 0 l 257
+ 345.953271028 15 308.271028037 0 267 0 c 262
+ 261 0 l 261
 EndSplineSet
 EndChar
 
@@ -765,7 +765,7 @@ StartChar: tml_O
 Encoding: 2 2962 2
 Width: 819
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
