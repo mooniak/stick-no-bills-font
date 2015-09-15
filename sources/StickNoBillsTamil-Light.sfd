@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442315655
+ModificationTime: 1442315746
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -7351,7 +7351,7 @@ StartChar: tml_RUu
 Encoding: 133 -1 109
 Width: 1063
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -150 122<205 274 836 886> 1 21G<400 522> 321 122<196 257> 473 122<402 594>
 VStem: 64 123<-8 57 220 317> 262 122<255 319> 400 194<473 595> 400 122<1 473> 901 122<-14 65 187 242>
 LayerCount: 3
@@ -7463,7 +7463,7 @@ StartChar: tml_RrUu
 Encoding: 134 -1 110
 Width: 1191
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -257 94<99 272 326 508> -120 93<99 701> -1 21G<249 372> 474 122<823 879> 474 109<701 823> 494 117<125 155 208 246 370 419 473 522>
 VStem: -2 129<-1 491> 249 122<0 492> 526 122<-150 490> 701 179<474 596> 701 122<-27 474>
 LayerCount: 3
@@ -7489,19 +7489,19 @@ Refer: 93 -1 N 1 0 0 1 -38 0 2
 Fore
 SplineSet
 1027 1 m 1xe380
- 1067 1 l 1
- 1067 594 l 1
  1027 594 l 1
+ 1067 594 l 1
+ 1067 1 l 1
  1027 1 l 1xe380
 911 556 m 1
- 1151 556 l 1xeb80
- 1151 596 l 1
  911 596 l 1xf380
+ 1151 596 l 1
+ 1151 556 l 1xeb80
  911 556 l 1
 703 556 m 1xebc0
- 857 556 l 1xf3c0
- 857 596 l 1
  703 596 l 1xf3c0
+ 857 596 l 1
+ 857 556 l 1xf3c0
  703 556 l 1xebc0
 EndSplineSet
 Refer: 93 -1 N 1 0 0 1 -38 0 2
