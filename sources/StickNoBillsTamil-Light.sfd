@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442296259
+ModificationTime: 1442296370
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -7027,7 +7027,7 @@ StartChar: tml_PUu
 Encoding: 130 -1 106
 Width: 702
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -258 93<104 137 603 603> -106 93<103 171> 1 122<204 284> 107 17<82 204>
 VStem: 13 88<-163 -111> 82 122<123 595> 82 202<1 123> 174 88<-142 -111> 537 4<-112 -20>
 LayerCount: 3
@@ -7105,7 +7105,7 @@ StartChar: tml_MUu
 Encoding: 131 -1 107
 Width: 1002
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -151 122<192 261 506 606> 0 123<524 606 728 768 822 860> 107 17<402 524> 122 1<606 728> 442 122<184 245> 483 122<734 768 822 858>
 VStem: 50 125<-11 54 353 436> 250 122<376 440> 402 122<123 595> 606 122<122 480> 865 123<130 478>
 LayerCount: 3
@@ -7158,7 +7158,8 @@ SplineSet
  169.153850625 523 116 464.625570776 116 387 c 2
  116 26 l 0
 506 -98 m 0
- 606 -98 l 0
+ 584 -98 l 2
+ 605.925745922 -98 606 -97.9998121044 606 -76 c 2
  606 15 l 1
  647 15 l 1
  647 -92 l 0
