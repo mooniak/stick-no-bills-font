@@ -1,5 +1,5 @@
 SplineFontDB: 3.0
-FontName: StickNoBillsSinhala-light
+FontName: StickNoBillsSinhala-Light
 FullName: Stick No Bills
 FamilyName: Stick No Bills
 OS2StyleName: "regular"
@@ -26,7 +26,11 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1435774564
+<<<<<<< HEAD
 ModificationTime: 1442244087
+=======
+ModificationTime: 1442114148
+>>>>>>> origin/master
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -798,13 +802,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
 Encoding: sinhala_final
 UnicodeInterp: none
@@ -812,7 +816,11 @@ NameList: sinhala
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
+<<<<<<< HEAD
 WinInfo: 0 10 6
+=======
+WinInfo: 560 8 2
+>>>>>>> origin/master
 BeginPrivate: 0
 EndPrivate
 Grid
