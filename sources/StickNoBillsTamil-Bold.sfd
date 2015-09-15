@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442315514
+ModificationTime: 1442315604
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -3700,7 +3700,7 @@ StartChar: tml_TtU
 Encoding: 110 -1 86
 Width: 825
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 122<275 456 611 666>
 VStem: 488 123<123 231> 664 122<-257 0 122 595>
 LayerCount: 3
@@ -3727,20 +3727,20 @@ SplineSet
  611 111 l 0
  611 43 550 0 456 0 c 0
  275 0 l 1
-281 176 m 1
- 403 176 l 1
- 403 589 l 1
+281 176 m 5
  281 589 l 1
- 281 176 l 1
-39 0 m 9
- 161 0 l 1
- 161 591 l 1
+ 403 589 l 1
+ 403 176 l 1
+ 281 176 l 5
+39 0 m 17
  39 591 l 1
- 39 0 l 9
+ 161 591 l 1
+ 161 0 l 1
+ 39 0 l 17
 39 595 m 1
- 40 473 l 1
- 512 473 l 1
  512 595 l 1
+ 512 473 l 1
+ 40 473 l 1
  39 595 l 1
 EndSplineSet
 EndChar
@@ -4371,7 +4371,7 @@ StartChar: tml_NgUu
 Encoding: 122 -1 98
 Width: 1038
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -258 93<130 163 545 910> -106 93<129 196 844 910> 0 122<336 517 672 727>
 VStem: 39 88<-163 -111> 199 88<-142 -111> 549 123<123 231> 725 122<-153 -112 -20 0 122 595> 844 3<-112 -20> 910 89<-165 -112>
 LayerCount: 3
