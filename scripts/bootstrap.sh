@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+
+apt-get update > /dev/null
+
+echo "Installing Git..."
+apt-get install git -y > /dev/null
+
+echo "Installing Fontforge"
+add-apt-repository ppa:fontforge/fontforge > /dev/null
+apt-get update > /dev/null
+apt-get install fontforge -y > /dev/null
+
+echo "Installing unzip..."
+apt-get install unzip -y > /dev/null
+
+echo "Installing setuptools..."
+apt-get install python-setuptools -y > /dev/null
+
+echo "Installing Robofab..."
+wget http://robofab.com/download/old/RoboFab560M_plusDependencies.zip
+unzip RoboFab560M_plusDependencies.zip
+cd RoboFab
+python setup.py install
+cd ../FontTools
+python setup.py install
+cd ..
+
+echo "Adding Kern Scripts..."
+git clone https://github.com/adobe-type-tools/python-modules.git
+cd python-modules
+cp WriteFeaturesKernFDK.py /usr/local/lib/python2.7/dist-packages
+cp WriteFeaturesMarkFDK.py /usr/local/lib/python2.7/dist-packages
+cd ..
+
+echo "Installing MutaatorMath..."
+git clone https://github.com/LettError/MutatorMath.git
+cd MutatorMath
+python setup.py install
+cd ..
+
+echo "Installing fontMath..."
+git clone https://github.com/typesupply/fontMath.git
+cd fontMath
+python setup.py install
+cd ..
+
+echo "Installing defcon..."
+git clone https://github.com/typesupply/defcon.git
+cd defcon
+python setup.py install
+cd ..
+
+echo "Installing Numpy..."
+apt-get install python-numpy -y > /dev/null
+
+echo "Installing hindkit..."
+git clone https://github.com/mooniak/hindkit.git
+cd hindkit
+python setup.py install
+cd ..
+
+echo "Installing AFDKO..."
+wget http://download.macromedia.com/pub/developer/opentype/FDK.2.5.64655/FDK-2.5.64655-LINUX.zip > /dev/null
+unzip FDK-2.5.64655-LINUX.zip > /dev/null
+cd FDK
+./FinishInstallLinux
+printf '%s\n%s\n' 'FDK_EXE="/home/vagrant/FDK/Tools/linux"' 'PATH=${PATH}:"/home/vagrant/FDK/Tools/linux" export PATH export FDK_EXE' 'export PATH' 'export FDK_EXE'>> /home/vagrant/.profile
