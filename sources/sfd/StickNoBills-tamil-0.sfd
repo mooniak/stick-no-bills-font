@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1442949011
+ModificationTime: 1442954261
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -483,13 +483,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: lohit-extended
 Compacted: 1
@@ -4342,6 +4342,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_KU
@@ -4408,63 +4409,8 @@ SplineSet
  322 473 l 1
 EndSplineSet
 Fore
-SplineSet
-480 -137 m 9
- 480 -177 l 1
- 690 -177 l 0
- 816 -177 877 -82 877 -15 c 0
- 877 219 l 2
- 877 337 774 364 713 370 c 1
- 713 330 l 1
- 745 330 837 314 837 215 c 0
- 837 -15 l 0
- 837 -84 760 -137 689 -137 c 0
- 480 -137 l 9
-79 30 m 0
- 79 -109 164 -177 273 -177 c 0
- 427 -177 l 1
- 427 -137 l 17
- 270 -137 l 0
- 190 -137 119 -88 119 29 c 0
- 119 287 l 0
- 119 417 200 461 278 461 c 0
- 278 501 l 0xe9
- 193 501 79 455 79 292 c 0
- 79 30 l 0
-237 172 m 0
- 237 196 l 0
- 237 259 269 371 443 371 c 0
- 655 371 l 9xc480
- 655 331 l 1
- 436 331 l 2
- 381 331 276.985351562 313 277 188 c 0
- 277.012335526 58 364.631578947 39 427 39 c 1
- 427 -1 l 1
- 253.52173913 0 237 128 237 172 c 0
-480 -1 m 1
- 480 39 l 1
- 573.960893855 39 618.634481931 98 619 187 c 0
- 619 588 l 1
- 659 588 l 1x8c80
- 659 191 l 2
- 659 95 616.497716895 -1 480 -1 c 1
-362 348 m 17xa580
- 362 586 l 1xa680
- 403 586 l 1
- 402 348 l 1
- 362 348 l 17xa580
-539 555 m 1
- 539 595 l 1x9480
- 791 595 l 1
- 791 555 l 1
- 539 555 l 1
-362 555 m 1x8e80
- 362 595 l 1x9680
- 485 595 l 1
- 485 555 l 1x9680
- 362 555 l 1x8e80
-EndSplineSet
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_CU
@@ -7307,8 +7253,8 @@ SplineSet
  545 -234 l 1
  545 -194 l 0
 715 -143 m 1
- 715 595 l 1
- 757 595 l 1
+ 715 155 l 1
+ 729 180.584960938 743 154.2890625 757 155 c 1
  757 -143 l 1
  715 -143 l 1
 EndSplineSet
@@ -7522,30 +7468,8 @@ Flags: W
 LayerCount: 3
 Back
 Fore
-SplineSet
-338 17 m 1
- 150 171 169.395291916 590.057574716 428 606 c 0
- 538.959917779 612.840440809 608 542 606 444 c 0
- 603.918800704 342.021234517 528 289 462 289 c 0
- 399 289 352 338 345 361 c 1
- 372 392 l 0
- 379 354 425 330 450 330 c 0
- 540 330 566 404 566 443 c 0
- 566 529.403555664 495.471382676 579.535365372 426 566 c 1
- 200 520.624023438 198 173.473053892 402 22 c 1
- 338 17 l 1
-67 0 m 1
- 67 40 l 1
- 690 40 l 1
- 690 0 l 1
- 67 0 l 1
-67 95 m 1
- 67 596 l 1
- 107 596 l 1
- 107 95 l 1
- 67 95 l 1
-EndSplineSet
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_Au
@@ -9666,6 +9590,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NgI
@@ -9677,6 +9602,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_CI
@@ -9688,6 +9614,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_JI
@@ -9699,6 +9626,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NyI
@@ -9710,6 +9638,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NnI
@@ -9721,6 +9650,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_TI
@@ -9732,6 +9662,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NI
@@ -9743,6 +9674,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NnnI
@@ -9754,6 +9686,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_PI
@@ -9765,6 +9698,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_MI
@@ -9776,6 +9710,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_YI
@@ -9787,6 +9722,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_RI
@@ -9798,6 +9734,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_RrI
@@ -9809,6 +9746,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_LI
@@ -9820,6 +9758,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_LlI
@@ -9831,6 +9770,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_LllI
@@ -9842,6 +9782,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_VI
@@ -9853,6 +9794,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_SsI
@@ -9864,6 +9806,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_SI
@@ -9875,6 +9818,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_HI
@@ -9886,6 +9830,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_KIi
@@ -9897,6 +9842,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NgIi
@@ -9908,6 +9854,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_CIi
@@ -9919,6 +9866,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_JIi
@@ -9930,6 +9878,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NyIi
@@ -9941,6 +9890,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NnIi
@@ -9952,6 +9902,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_TIi
@@ -9963,6 +9914,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NIi
@@ -9974,6 +9926,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NnnIi
@@ -9985,6 +9938,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_PIi
@@ -9996,6 +9950,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_MIi
@@ -10007,6 +9962,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_YIi
@@ -10018,6 +9974,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_RIi
@@ -10029,6 +9986,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_RrIi
@@ -10040,6 +9998,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_LIi
@@ -10051,6 +10010,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_LlIi
@@ -10062,6 +10022,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_LllIi
@@ -10073,6 +10034,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_VIi
@@ -10084,6 +10046,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_SsIi
@@ -10095,6 +10058,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_SIi
@@ -10106,6 +10070,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_HIi
@@ -10117,6 +10082,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NgU
@@ -10128,6 +10094,7 @@ LayerCount: 3
 Back
 Fore
 Layer: 2
+Colour: ff0000
 EndChar
 
 StartChar: tml_NnAi
@@ -10303,6 +10270,29 @@ Flags: W
 LayerCount: 3
 Back
 Fore
+SplineSet
+338 17 m 1
+ 150 171 169.395291916 590.057574716 428 606 c 0
+ 538.959917779 612.840440809 608 542 606 444 c 0
+ 603.918800704 342.021234517 528 289 462 289 c 0
+ 399 289 352 338 345 361 c 1
+ 372 392 l 0
+ 379 354 425 330 450 330 c 0
+ 540 330 566 404 566 443 c 0
+ 566 529.403555664 495.471382676 579.535365372 426 566 c 1
+ 200 520.624023438 198 173.473053892 402 22 c 1
+ 338 17 l 1
+67 0 m 1
+ 67 40 l 1
+ 690 40 l 1
+ 690 0 l 1
+ 67 0 l 1
+67 95 m 1
+ 67 596 l 1
+ 107 596 l 1
+ 107 95 l 1
+ 67 95 l 1
+EndSplineSet
 Layer: 2
 EndChar
 
