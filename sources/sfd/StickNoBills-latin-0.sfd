@@ -484,21 +484,21 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Adobe-Latin-3
 UnicodeInterp: none
-NameList: AGL For New Fonts
+NameList: adobe-latin-3
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 14 6
+WinInfo: 472 8 2
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -520,7 +520,7 @@ EndSplineSet
 TeXData: 1 0 0 307200 153600 102400 526336 1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65538 330
 
-StartChar: uni0041
+StartChar: A
 Encoding: 33 65 0
 GlifName: A_
 Width: 433
@@ -570,7 +570,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00C6
+StartChar: AE
 Encoding: 133 198 1
 GlifName: A_E_
 Width: 727
@@ -633,7 +633,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00C1
+StartChar: Aacute
 Encoding: 128 193 2
 GlifName: A_acute
 Width: 433
@@ -653,7 +653,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00C2
+StartChar: Acircumflex
 Encoding: 129 194 3
 GlifName: A_circumflex
 Width: 433
@@ -673,7 +673,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00C4
+StartChar: Adieresis
 Encoding: 131 196 4
 GlifName: A_dieresis
 Width: 433
@@ -693,7 +693,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00C0
+StartChar: Agrave
 Encoding: 127 192 5
 GlifName: A_grave
 Width: 433
@@ -713,7 +713,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00C5
+StartChar: Aring
 Encoding: 132 197 6
 GlifName: A_ring
 Width: 516
@@ -780,7 +780,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00C3
+StartChar: Atilde
 Encoding: 130 195 7
 GlifName: A_tilde
 Width: 433
@@ -800,7 +800,7 @@ Refer: 0 65 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0042
+StartChar: B
 Encoding: 34 66 8
 GlifName: B_
 Width: 496
@@ -862,7 +862,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0043
+StartChar: C
 Encoding: 35 67 9
 GlifName: C_
 Width: 494
@@ -928,7 +928,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00C7
+StartChar: Ccedilla
 Encoding: 134 199 10
 GlifName: C_cedilla
 Width: 494
@@ -948,7 +948,7 @@ Refer: 9 67 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0044
+StartChar: D
 Encoding: 36 68 11
 GlifName: D_
 Width: 472
@@ -996,7 +996,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0045
+StartChar: E
 Encoding: 37 69 12
 GlifName: E_
 Width: 444
@@ -1042,7 +1042,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni20AC
+StartChar: Euro
 Encoding: 307 8364 13
 GlifName: E_U_R_O_
 Width: 494
@@ -1140,7 +1140,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00C9
+StartChar: Eacute
 Encoding: 136 201 14
 GlifName: E_acute
 Width: 444
@@ -1160,7 +1160,7 @@ Refer: 12 69 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00CA
+StartChar: Ecircumflex
 Encoding: 137 202 15
 GlifName: E_circumflex
 Width: 444
@@ -1180,7 +1180,7 @@ Refer: 12 69 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00CB
+StartChar: Edieresis
 Encoding: 138 203 16
 GlifName: E_dieresis
 Width: 444
@@ -1200,7 +1200,7 @@ Refer: 12 69 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00C8
+StartChar: Egrave
 Encoding: 135 200 17
 GlifName: E_grave
 Width: 444
@@ -1220,7 +1220,7 @@ Refer: 12 69 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00D0
+StartChar: Eth
 Encoding: 143 208 18
 GlifName: E_th
 Width: 452
@@ -1284,7 +1284,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0046
+StartChar: F
 Encoding: 38 70 19
 GlifName: F_
 Width: 432
@@ -1326,7 +1326,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0047
+StartChar: G
 Encoding: 39 71 20
 GlifName: G_
 Width: 507
@@ -1395,7 +1395,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0048
+StartChar: H
 Encoding: 40 72 21
 GlifName: H_
 Width: 478
@@ -1451,7 +1451,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: HKD
+StartChar: uni5713
 Encoding: 65536 22291 22
 GlifName: H_K_D_
 Width: 843
@@ -1533,7 +1533,7 @@ Refer: 105 36 N 1 0 0 1 322 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0049
+StartChar: I
 Encoding: 41 73 23
 GlifName: I_
 Width: 124
@@ -1563,7 +1563,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00CD
+StartChar: Iacute
 Encoding: 140 205 24
 GlifName: I_acute
 Width: 124
@@ -1583,7 +1583,7 @@ Refer: 23 73 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00CE
+StartChar: Icircumflex
 Encoding: 141 206 25
 GlifName: I_circumflex
 Width: 124
@@ -1603,7 +1603,7 @@ Refer: 23 73 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00CF
+StartChar: Idieresis
 Encoding: 142 207 26
 GlifName: I_dieresis
 Width: 124
@@ -1623,7 +1623,7 @@ Refer: 23 73 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00CC
+StartChar: Igrave
 Encoding: 139 204 27
 GlifName: I_grave
 Width: 124
@@ -1643,7 +1643,7 @@ Refer: 23 73 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni004A
+StartChar: J
 Encoding: 42 74 28
 GlifName: J_
 Width: 484
@@ -1691,7 +1691,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni004B
+StartChar: K
 Encoding: 43 75 29
 GlifName: K_
 Width: 488
@@ -1735,7 +1735,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni004C
+StartChar: L
 Encoding: 44 76 30
 GlifName: L_
 Width: 433
@@ -1769,7 +1769,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0141
+StartChar: Lslash
 Encoding: 231 321 31
 GlifName: L_slash
 Width: 428
@@ -1819,7 +1819,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni004D
+StartChar: M
 Encoding: 45 77 32
 GlifName: M_
 Width: 696
@@ -1881,7 +1881,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni004E
+StartChar: N
 Encoding: 46 78 33
 GlifName: N_
 Width: 529
@@ -1939,7 +1939,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00D1
+StartChar: Ntilde
 Encoding: 144 209 34
 GlifName: N_tilde
 Width: 529
@@ -1960,7 +1960,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni004F
+StartChar: O
 Encoding: 47 79 35
 GlifName: O_
 Width: 524
@@ -2016,7 +2016,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0152
+StartChar: OE
 Encoding: 243 338 36
 GlifName: O_E_
 Width: 422
@@ -2088,7 +2088,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00D3
+StartChar: Oacute
 Encoding: 146 211 37
 GlifName: O_acute
 Width: 524
@@ -2108,7 +2108,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00D4
+StartChar: Ocircumflex
 Encoding: 147 212 38
 GlifName: O_circumflex
 Width: 524
@@ -2128,7 +2128,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00D6
+StartChar: Odieresis
 Encoding: 149 214 39
 GlifName: O_dieresis
 Width: 524
@@ -2148,7 +2148,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00D2
+StartChar: Ograve
 Encoding: 145 210 40
 GlifName: O_grave
 Width: 524
@@ -2168,7 +2168,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00D8
+StartChar: Oslash
 Encoding: 151 216 41
 GlifName: O_slash
 Width: 674
@@ -2240,7 +2240,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00D5
+StartChar: Otilde
 Encoding: 148 213 42
 GlifName: O_tilde
 Width: 524
@@ -2260,7 +2260,7 @@ Refer: 35 79 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0050
+StartChar: P
 Encoding: 48 80 43
 GlifName: P_
 Width: 479
@@ -2308,7 +2308,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0025
+StartChar: percent
 Encoding: 5 37 44
 GlifName: P_ercent_sign
 Width: 267
@@ -2358,7 +2358,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0051
+StartChar: Q
 Encoding: 49 81 45
 GlifName: Q_
 Width: 526
@@ -2420,7 +2420,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0052
+StartChar: R
 Encoding: 50 82 46
 GlifName: R_
 Width: 505
@@ -2478,7 +2478,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0053
+StartChar: S
 Encoding: 51 83 47
 GlifName: S_
 Width: 481
@@ -2540,7 +2540,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0160
+StartChar: Scaron
 Encoding: 255 352 48
 GlifName: S_caron
 Width: 481
@@ -2560,7 +2560,7 @@ Refer: 47 83 N 1 0 0 1 -7 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0054
+StartChar: T
 Encoding: 52 84 49
 GlifName: T_
 Width: 463
@@ -2598,7 +2598,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00DE
+StartChar: Thorn
 Encoding: 157 222 50
 GlifName: T_horn
 Width: 474
@@ -2646,7 +2646,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni2122
+StartChar: trademark
 Encoding: 311 8482 51
 GlifName: T_radeM_arkS_ign
 Width: 463
@@ -2726,7 +2726,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0055
+StartChar: U
 Encoding: 53 85 52
 GlifName: U_
 Width: 512
@@ -2774,7 +2774,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00DA
+StartChar: Uacute
 Encoding: 153 218 53
 GlifName: U_acute
 Width: 512
@@ -2794,7 +2794,7 @@ Refer: 52 85 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00DB
+StartChar: Ucircumflex
 Encoding: 154 219 54
 GlifName: U_circumflex
 Width: 512
@@ -2814,7 +2814,7 @@ Refer: 52 85 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00DC
+StartChar: Udieresis
 Encoding: 155 220 55
 GlifName: U_dieresis
 Width: 512
@@ -2834,7 +2834,7 @@ Refer: 52 85 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00D9
+StartChar: Ugrave
 Encoding: 152 217 56
 GlifName: U_grave
 Width: 512
@@ -2854,7 +2854,7 @@ Refer: 52 85 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0056
+StartChar: V
 Encoding: 54 86 57
 GlifName: V_
 Width: 472
@@ -2897,7 +2897,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0057
+StartChar: W
 Encoding: 55 87 58
 GlifName: W_
 Width: 657
@@ -2957,7 +2957,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0058
+StartChar: X
 Encoding: 56 88 59
 GlifName: X_
 Width: 442
@@ -3002,7 +3002,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0059
+StartChar: Y
 Encoding: 57 89 60
 GlifName: Y_
 Width: 451
@@ -3048,7 +3048,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00DD
+StartChar: Yacute
 Encoding: 156 221 61
 GlifName: Y_acute
 Width: 451
@@ -3068,7 +3068,7 @@ Refer: 60 89 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0178
+StartChar: Ydieresis
 Encoding: 269 376 62
 GlifName: Y_dieresis
 Width: 451
@@ -3088,7 +3088,7 @@ Refer: 60 89 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni005A
+StartChar: Z
 Encoding: 58 90 63
 GlifName: Z_
 Width: 400
@@ -3130,7 +3130,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni017D
+StartChar: Zcaron
 Encoding: 274 381 64
 GlifName: Z_caron
 Width: 400
@@ -3150,7 +3150,7 @@ Refer: 63 90 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0061
+StartChar: a
 Encoding: 65 97 65
 GlifName: a
 Width: 434
@@ -3266,7 +3266,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00E1
+StartChar: aacute
 Encoding: 160 225 66
 GlifName: aacute
 Width: 434
@@ -3286,7 +3286,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00E2
+StartChar: acircumflex
 Encoding: 161 226 67
 GlifName: acircumflex
 Width: 434
@@ -3306,7 +3306,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00B4
+StartChar: acute
 Encoding: 115 180 68
 GlifName: acute
 Width: 308
@@ -3336,7 +3336,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00E4
+StartChar: adieresis
 Encoding: 163 228 69
 GlifName: adieresis
 Width: 434
@@ -3356,7 +3356,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00E6
+StartChar: ae
 Encoding: 165 230 70
 GlifName: ae
 Width: 435
@@ -3461,7 +3461,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00E0
+StartChar: agrave
 Encoding: 159 224 71
 GlifName: agrave
 Width: 434
@@ -3481,7 +3481,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0026
+StartChar: ampersand
 Encoding: 6 38 72
 GlifName: ampersand
 Width: 666
@@ -3569,7 +3569,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni00E5
+StartChar: aring
 Encoding: 164 229 73
 GlifName: aring
 Width: 434
@@ -3589,7 +3589,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni005E
+StartChar: asciicircum
 Encoding: 62 94 74
 GlifName: asciicircum
 Width: 446
@@ -3624,7 +3624,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni007E
+StartChar: asciitilde
 Encoding: 94 126 75
 GlifName: asciitilde
 Width: 628
@@ -3661,7 +3661,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni002A
+StartChar: asterisk
 Encoding: 10 42 76
 GlifName: asterisk
 Width: 305
@@ -3719,7 +3719,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0040
+StartChar: at
 Encoding: 32 64 77
 GlifName: at
 Width: 722
@@ -3783,7 +3783,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00E3
+StartChar: atilde
 Encoding: 162 227 78
 GlifName: atilde
 Width: 434
@@ -3803,7 +3803,7 @@ Refer: 65 97 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0062
+StartChar: b
 Encoding: 66 98 79
 GlifName: b
 Width: 430
@@ -3859,7 +3859,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni005C
+StartChar: backslash
 Encoding: 60 92 80
 GlifName: backslash
 Width: 300
@@ -3888,7 +3888,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni007C
+StartChar: bar
 Encoding: 92 124 81
 GlifName: bar
 Width: 135
@@ -3917,7 +3917,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni007B
+StartChar: braceleft
 Encoding: 91 123 82
 GlifName: braceleft
 Width: 219
@@ -3966,7 +3966,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni007D
+StartChar: braceright
 Encoding: 93 125 83
 GlifName: braceright
 Width: 219
@@ -4018,7 +4018,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni005B
+StartChar: bracketleft
 Encoding: 59 91 84
 GlifName: bracketleft
 Width: 258
@@ -4057,7 +4057,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni005D
+StartChar: bracketright
 Encoding: 61 93 85
 GlifName: bracketright
 Width: 258
@@ -4096,7 +4096,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni02D8
+StartChar: breve
 Encoding: 284 728 86
 GlifName: breve
 Width: 244
@@ -4130,7 +4130,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00A6
+StartChar: brokenbar
 Encoding: 101 166 87
 GlifName: brokenbar
 Width: 132
@@ -4169,7 +4169,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni2022
+StartChar: bullet
 Encoding: 301 8226 88
 GlifName: bullet
 Width: 352
@@ -4197,7 +4197,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0063
+StartChar: c
 Encoding: 67 99 89
 GlifName: c
 Width: 420
@@ -4272,7 +4272,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni02C7
+StartChar: caron
 Encoding: 282 711 90
 GlifName: caron
 Width: 270
@@ -4308,7 +4308,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00E7
+StartChar: ccedilla
 Encoding: 166 231 91
 GlifName: ccedilla
 Width: 420
@@ -4328,7 +4328,7 @@ Refer: 89 99 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00B8
+StartChar: cedilla
 Encoding: 119 184 92
 GlifName: cedilla
 Width: 399
@@ -4358,7 +4358,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00A2
+StartChar: cent
 Encoding: 97 162 93
 GlifName: cent
 Width: 420
@@ -4456,7 +4456,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni02C6
+StartChar: circumflex
 Encoding: 281 710 94
 GlifName: circumflex
 Width: 270
@@ -4492,7 +4492,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni003A
+StartChar: colon
 Encoding: 26 58 95
 GlifName: colon
 Width: 153
@@ -4532,7 +4532,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni002C
+StartChar: comma
 Encoding: 12 44 96
 GlifName: comma
 Width: 177
@@ -4560,7 +4560,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00A9
+StartChar: copyright
 Encoding: 104 169 97
 GlifName: copyright
 Width: 764
@@ -4631,7 +4631,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00A4
+StartChar: currency
 Encoding: 99 164 98
 GlifName: currency
 Width: 598
@@ -4727,7 +4727,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0064
+StartChar: d
 Encoding: 68 100 99
 GlifName: d
 Width: 430
@@ -4783,7 +4783,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni2020
+StartChar: dagger
 Encoding: 299 8224 100
 GlifName: dagger
 Width: 453
@@ -4829,7 +4829,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni2021
+StartChar: daggerdbl
 Encoding: 300 8225 101
 GlifName: daggerdbl
 Width: 453
@@ -4891,7 +4891,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00B0
+StartChar: degree
 Encoding: 111 176 102
 GlifName: degree
 Width: 209
@@ -4931,7 +4931,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00A8
+StartChar: dieresis
 Encoding: 103 168 103
 GlifName: dieresis
 Width: 266
@@ -4969,7 +4969,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00F7
+StartChar: divide
 Encoding: 182 247 104
 GlifName: divide
 Width: 650
@@ -5003,7 +5003,7 @@ Refer: 175 46 N 1 0 0 1 196 62 2
 Layer: 3
 EndChar
 
-StartChar: uni0024
+StartChar: dollar
 Encoding: 4 36 105
 GlifName: dollar
 Width: 481
@@ -5091,7 +5091,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni02D9
+StartChar: dotaccent
 Encoding: 285 729 106
 GlifName: dotaccent
 Width: 202
@@ -5121,7 +5121,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0131
+StartChar: dotlessi
 Encoding: 222 305 107
 GlifName: dotlessi
 Width: 174
@@ -5151,7 +5151,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0065
+StartChar: e
 Encoding: 69 101 108
 GlifName: e
 Width: 448
@@ -5225,7 +5225,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00E9
+StartChar: eacute
 Encoding: 168 233 109
 GlifName: eacute
 Width: 448
@@ -5245,7 +5245,7 @@ Refer: 108 101 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00EA
+StartChar: ecircumflex
 Encoding: 169 234 110
 GlifName: ecircumflex
 Width: 448
@@ -5265,7 +5265,7 @@ Refer: 108 101 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00EB
+StartChar: edieresis
 Encoding: 170 235 111
 GlifName: edieresis
 Width: 448
@@ -5285,7 +5285,7 @@ Refer: 108 101 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00E8
+StartChar: egrave
 Encoding: 167 232 112
 GlifName: egrave
 Width: 448
@@ -5305,7 +5305,7 @@ Refer: 108 101 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0038
+StartChar: eight
 Encoding: 24 56 113
 GlifName: eight
 Width: 475
@@ -5377,7 +5377,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni2014
+StartChar: emdash
 Encoding: 292 8212 114
 GlifName: emdash
 Width: 906
@@ -5406,7 +5406,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni2013
+StartChar: endash
 Encoding: 291 8211 115
 GlifName: endash
 Width: 532
@@ -5435,7 +5435,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni003D
+StartChar: equal
 Encoding: 29 61 116
 GlifName: equal
 Width: 418
@@ -5475,7 +5475,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00F0
+StartChar: eth
 Encoding: 175 240 117
 GlifName: eth
 Width: 420
@@ -5563,7 +5563,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0021
+StartChar: exclam
 Encoding: 1 33 118
 GlifName: exclam
 Width: 146
@@ -5603,7 +5603,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00A1
+StartChar: exclamdown
 Encoding: 96 161 119
 GlifName: exclamdown
 Width: 138
@@ -5644,7 +5644,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0066
+StartChar: f
 Encoding: 70 102 120
 GlifName: f
 Width: 208
@@ -5698,7 +5698,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uniFB01
+StartChar: fi
 Encoding: 329 64257 121
 GlifName: fi
 Width: 494
@@ -5766,7 +5766,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0035
+StartChar: five
 Encoding: 21 53 122
 GlifName: five
 Width: 475
@@ -5830,7 +5830,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uniFB02
+StartChar: fl
 Encoding: 330 64258 123
 GlifName: fl
 Width: 314
@@ -5888,7 +5888,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0192
+StartChar: florin
 Encoding: 276 402 124
 GlifName: florin
 Width: 382
@@ -5954,7 +5954,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0034
+StartChar: four
 Encoding: 20 52 125
 GlifName: four
 Width: 497
@@ -6008,7 +6008,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni2044
+StartChar: fraction
 Encoding: 306 8260 126
 GlifName: fraction
 Width: 897
@@ -6037,7 +6037,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0067
+StartChar: g
 Encoding: 71 103 127
 GlifName: g
 Width: 419
@@ -6117,7 +6117,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00DF
+StartChar: germandbls
 Encoding: 158 223 128
 GlifName: germandbls
 Width: 522
@@ -6179,7 +6179,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0060
+StartChar: grave
 Encoding: 64 96 129
 GlifName: grave
 Width: 259
@@ -6209,7 +6209,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni003E
+StartChar: greater
 Encoding: 30 62 130
 GlifName: greater
 Width: 414
@@ -6243,7 +6243,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00AB
+StartChar: guillemotleft
 Encoding: 106 171 131
 GlifName: guillemotleft
 Width: 475
@@ -6293,7 +6293,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00BB
+StartChar: guillemotright
 Encoding: 122 187 132
 GlifName: guillemotright
 Width: 457
@@ -6343,7 +6343,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni2039
+StartChar: guilsinglleft
 Encoding: 304 8249 133
 GlifName: guilsinglleft
 Width: 338
@@ -6376,7 +6376,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni203A
+StartChar: guilsinglright
 Encoding: 305 8250 134
 GlifName: guilsinglright
 Width: 338
@@ -6409,7 +6409,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0068
+StartChar: h
 Encoding: 72 104 135
 GlifName: h
 Width: 437
@@ -6466,7 +6466,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni02DD
+StartChar: hungarumlaut
 Encoding: 289 733 136
 GlifName: hungarumlaut
 Width: 263
@@ -6496,7 +6496,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni002D
+StartChar: hyphen
 Encoding: 13 45 137
 GlifName: hyphen
 Width: 416
@@ -6524,7 +6524,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0069
+StartChar: i
 Encoding: 73 105 138
 GlifName: i
 Width: 139
@@ -6564,7 +6564,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00ED
+StartChar: iacute
 Encoding: 172 237 139
 GlifName: iacute
 Width: 174
@@ -6594,7 +6594,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00EE
+StartChar: icircumflex
 Encoding: 173 238 140
 GlifName: icircumflex
 Width: 174
@@ -6614,7 +6614,7 @@ Refer: 107 305 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00EF
+StartChar: idieresis
 Encoding: 174 239 141
 GlifName: idieresis
 Width: 174
@@ -6649,7 +6649,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00EC
+StartChar: igrave
 Encoding: 171 236 142
 GlifName: igrave
 Width: 174
@@ -6679,7 +6679,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni006A
+StartChar: j
 Encoding: 74 106 143
 GlifName: j
 Width: 201
@@ -6727,7 +6727,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni006B
+StartChar: k
 Encoding: 75 107 144
 GlifName: k
 Width: 460
@@ -6771,7 +6771,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni006C
+StartChar: l
 Encoding: 76 108 145
 GlifName: l
 Width: 124
@@ -6801,7 +6801,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni003C
+StartChar: less
 Encoding: 28 60 146
 GlifName: less
 Width: 414
@@ -6835,7 +6835,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00AC
+StartChar: logicalnot
 Encoding: 107 172 147
 GlifName: logicalnot
 Width: 501
@@ -6869,7 +6869,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0142
+StartChar: lslash
 Encoding: 232 322 148
 GlifName: lslash
 Width: 424
@@ -6905,7 +6905,7 @@ Refer: 145 108 N 1 0 0 1 117 0 2
 Layer: 3
 EndChar
 
-StartChar: uni006D
+StartChar: m
 Encoding: 77 109 149
 GlifName: m
 Width: 700
@@ -6982,7 +6982,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00AF
+StartChar: macron
 Encoding: 110 175 150
 GlifName: macron
 Width: 510
@@ -6999,7 +6999,7 @@ Refer: 215 95 N 1 0 0 1 0 917 2
 Layer: 3
 EndChar
 
-StartChar: uni2212
+StartChar: minus
 Encoding: 318 8722 151
 GlifName: minus
 Width: 416
@@ -7117,7 +7117,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00D7
+StartChar: multiply
 Encoding: 150 215 153
 GlifName: multiply
 Width: 493
@@ -7161,7 +7161,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni006E
+StartChar: n
 Encoding: 78 110 154
 GlifName: n
 Width: 450
@@ -7213,7 +7213,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0039
+StartChar: nine
 Encoding: 25 57 155
 GlifName: nine
 Width: 512
@@ -7278,7 +7278,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00F1
+StartChar: ntilde
 Encoding: 176 241 156
 GlifName: ntilde
 Width: 450
@@ -7298,7 +7298,7 @@ Refer: 154 110 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0023
+StartChar: numbersign
 Encoding: 3 35 157
 GlifName: numbersign
 Width: 888
@@ -7386,7 +7386,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni006F
+StartChar: o
 Encoding: 79 111 158
 GlifName: o
 Width: 440
@@ -7450,7 +7450,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00F3
+StartChar: oacute
 Encoding: 178 243 159
 GlifName: oacute
 Width: 440
@@ -7470,7 +7470,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00F4
+StartChar: ocircumflex
 Encoding: 179 244 160
 GlifName: ocircumflex
 Width: 440
@@ -7490,7 +7490,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00F6
+StartChar: odieresis
 Encoding: 181 246 161
 GlifName: odieresis
 Width: 440
@@ -7510,7 +7510,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0153
+StartChar: oe
 Encoding: 244 339 162
 GlifName: oe
 Width: 420
@@ -7617,7 +7617,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00F2
+StartChar: ograve
 Encoding: 177 242 163
 GlifName: ograve
 Width: 440
@@ -7637,7 +7637,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0031
+StartChar: one
 Encoding: 17 49 164
 GlifName: one
 Width: 198
@@ -7673,7 +7673,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00BD
+StartChar: onehalf
 Encoding: 124 189 165
 GlifName: onehalf
 Width: 581
@@ -7766,7 +7766,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00BC
+StartChar: onequarter
 Encoding: 123 188 166
 GlifName: onequarter
 Width: 560
@@ -7846,7 +7846,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00AA
+StartChar: ordfeminine
 Encoding: 105 170 167
 GlifName: ordfeminine
 Width: 230
@@ -7914,7 +7914,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00BA
+StartChar: ordmasculine
 Encoding: 121 186 168
 GlifName: ordmasculine
 Width: 230
@@ -7971,7 +7971,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00F8
+StartChar: oslash
 Encoding: 183 248 169
 GlifName: oslash
 Width: 420
@@ -8051,7 +8051,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00F5
+StartChar: otilde
 Encoding: 180 245 170
 GlifName: otilde
 Width: 440
@@ -8071,7 +8071,7 @@ Refer: 158 111 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0070
+StartChar: p
 Encoding: 80 112 171
 GlifName: p
 Width: 444
@@ -8127,7 +8127,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00B6
+StartChar: paragraph
 Encoding: 117 182 172
 GlifName: paragraph
 Width: 363
@@ -8169,7 +8169,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0028
+StartChar: parenleft
 Encoding: 8 40 173
 GlifName: parenleft
 Width: 192
@@ -8206,7 +8206,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0029
+StartChar: parenright
 Encoding: 9 41 174
 GlifName: parenright
 Width: 200
@@ -8244,7 +8244,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni002E
+StartChar: period
 Encoding: 14 46 175
 GlifName: period
 Width: 82
@@ -8272,7 +8272,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00B7
+StartChar: periodcentered
 Encoding: 118 183 176
 GlifName: periodcentered
 Width: 152
@@ -8290,7 +8290,7 @@ Refer: 175 46 N 1 0 0 1 25 292 2
 Layer: 3
 EndChar
 
-StartChar: uni2030
+StartChar: perthousand
 Encoding: 303 8240 177
 GlifName: perthousand
 Width: 897
@@ -8395,7 +8395,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni002B
+StartChar: plus
 Encoding: 11 43 178
 GlifName: plus
 Width: 405
@@ -8439,7 +8439,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00B1
+StartChar: plusminus
 Encoding: 112 177 179
 GlifName: plusminus
 Width: 461
@@ -8471,7 +8471,7 @@ Refer: 178 43 N 1 0 0 1 10 161 2
 Layer: 3
 EndChar
 
-StartChar: uni0071
+StartChar: q
 Encoding: 81 113 180
 GlifName: q
 Width: 438
@@ -8527,7 +8527,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni003F
+StartChar: question
 Encoding: 31 63 181
 GlifName: question
 Width: 460
@@ -8580,7 +8580,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00BF
+StartChar: questiondown
 Encoding: 126 191 182
 GlifName: questiondown
 Width: 445
@@ -8615,7 +8615,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0022
+StartChar: quotedbl
 Encoding: 2 34 183
 GlifName: quotedbl
 Width: 218
@@ -8693,7 +8693,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni201E
+StartChar: quotedblbase
 Encoding: 298 8222 185
 GlifName: quotedblbase
 Width: 228
@@ -8712,7 +8712,7 @@ Refer: 183 34 N 1 0 0 1 -14 0 2
 Layer: 3
 EndChar
 
-StartChar: uni201C
+StartChar: quotedblleft
 Encoding: 296 8220 186
 GlifName: quotedblleft
 Width: 359
@@ -8730,7 +8730,7 @@ Refer: 183 34 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni201D
+StartChar: quotedblright
 Encoding: 297 8221 187
 GlifName: quotedblright
 Width: 359
@@ -8748,7 +8748,7 @@ Refer: 183 34 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni2018
+StartChar: quoteleft
 Encoding: 293 8216 188
 GlifName: quoteleft
 Width: 187
@@ -8766,7 +8766,7 @@ Refer: 191 39 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni2019
+StartChar: quoteright
 Encoding: 294 8217 189
 GlifName: quoteright
 Width: 187
@@ -8784,7 +8784,7 @@ Refer: 191 39 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni201A
+StartChar: quotesinglbase
 Encoding: 295 8218 190
 GlifName: quotesinglbase
 Width: 187
@@ -8802,7 +8802,7 @@ Refer: 191 39 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0027
+StartChar: quotesingle
 Encoding: 7 39 191
 GlifName: quotesingle
 Width: 125
@@ -8830,7 +8830,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0072
+StartChar: r
 Encoding: 82 114 192
 GlifName: r
 Width: 223
@@ -8870,7 +8870,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00AE
+StartChar: registered
 Encoding: 109 174 193
 GlifName: registered
 Width: 374
@@ -8977,7 +8977,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni02DA
+StartChar: ring
 Encoding: 286 730 194
 GlifName: ring
 Width: 244
@@ -9017,7 +9017,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0073
+StartChar: s
 Encoding: 83 115 195
 GlifName: s
 Width: 415
@@ -9091,7 +9091,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0161
+StartChar: scaron
 Encoding: 256 353 196
 GlifName: scaron
 Width: 415
@@ -9111,7 +9111,7 @@ Refer: 195 115 N 1 0 0 1 5 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00A7
+StartChar: section
 Encoding: 102 167 197
 GlifName: section
 Width: 602
@@ -9197,7 +9197,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni003B
+StartChar: semicolon
 Encoding: 27 59 198
 GlifName: semicolon
 Width: 199
@@ -9237,7 +9237,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0037
+StartChar: seven
 Encoding: 23 55 199
 GlifName: seven
 Width: 435
@@ -9282,7 +9282,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0036
+StartChar: six
 Encoding: 22 54 200
 GlifName: six
 Width: 509
@@ -9348,7 +9348,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni002F
+StartChar: slash
 Encoding: 15 47 201
 GlifName: slash
 Width: 315
@@ -9376,7 +9376,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0020
+StartChar: space
 Encoding: 0 32 202
 GlifName: space
 Width: 300
@@ -9390,7 +9390,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni00A3
+StartChar: sterling
 Encoding: 98 163 203
 GlifName: sterling
 Width: 372
@@ -9450,7 +9450,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0074
+StartChar: t
 Encoding: 84 116 204
 GlifName: t
 Width: 247
@@ -9504,7 +9504,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00FE
+StartChar: thorn
 Encoding: 189 254 205
 GlifName: thorn
 Width: 422
@@ -9560,7 +9560,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0033
+StartChar: three
 Encoding: 19 51 206
 GlifName: three
 Width: 484
@@ -9626,7 +9626,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00BE
+StartChar: threequarters
 Encoding: 125 190 207
 GlifName: threequarters
 Width: 584
@@ -9746,7 +9746,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni02DC
+StartChar: tilde
 Encoding: 288 732 208
 GlifName: tilde
 Width: 333
@@ -9784,7 +9784,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0032
+StartChar: two
 Encoding: 18 50 209
 GlifName: two
 Width: 485
@@ -9845,7 +9845,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0075
+StartChar: u
 Encoding: 85 117 210
 GlifName: u
 Width: 450
@@ -9897,7 +9897,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00FA
+StartChar: uacute
 Encoding: 185 250 211
 GlifName: uacute
 Width: 450
@@ -9917,7 +9917,7 @@ Refer: 210 117 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00FB
+StartChar: ucircumflex
 Encoding: 186 251 212
 GlifName: ucircumflex
 Width: 450
@@ -9937,7 +9937,7 @@ Refer: 210 117 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00FC
+StartChar: udieresis
 Encoding: 187 252 213
 GlifName: udieresis
 Width: 450
@@ -9957,7 +9957,7 @@ Refer: 210 117 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00F9
+StartChar: ugrave
 Encoding: 184 249 214
 GlifName: ugrave
 Width: 450
@@ -9977,7 +9977,7 @@ Refer: 210 117 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni005F
+StartChar: underscore
 Encoding: 63 95 215
 GlifName: underscore
 Width: 510
@@ -10024,7 +10024,7 @@ Refer: 137 45 N 1 0 0 1 -20 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00B2
+StartChar: twosuperior
 Encoding: 113 178 217
 GlifName: uni00B_2
 Width: 222
@@ -10069,7 +10069,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00B3
+StartChar: threesuperior
 Encoding: 114 179 218
 GlifName: uni00B_3
 Width: 208
@@ -10124,7 +10124,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00B9
+StartChar: onesuperior
 Encoding: 120 185 219
 GlifName: uni00B_9
 Width: 102
@@ -10151,7 +10151,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0076
+StartChar: v
 Encoding: 86 118 220
 GlifName: v
 Width: 400
@@ -10194,7 +10194,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0077
+StartChar: w
 Encoding: 87 119 221
 GlifName: w
 Width: 577
@@ -10256,7 +10256,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0078
+StartChar: x
 Encoding: 88 120 222
 GlifName: x
 Width: 379
@@ -10300,7 +10300,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0079
+StartChar: y
 Encoding: 89 121 223
 GlifName: y
 Width: 390
@@ -10348,7 +10348,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni00FD
+StartChar: yacute
 Encoding: 188 253 224
 GlifName: yacute
 Width: 390
@@ -10368,7 +10368,7 @@ Refer: 223 121 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00FF
+StartChar: ydieresis
 Encoding: 190 255 225
 GlifName: ydieresis
 Width: 390
@@ -10388,7 +10388,7 @@ Refer: 223 121 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni00A5
+StartChar: yen
 Encoding: 100 165 226
 GlifName: yen
 Width: 452
@@ -10452,7 +10452,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni007A
+StartChar: z
 Encoding: 90 122 227
 GlifName: z
 Width: 356
@@ -10494,7 +10494,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni017E
+StartChar: zcaron
 Encoding: 275 382 228
 GlifName: zcaron
 Width: 356
@@ -10514,7 +10514,7 @@ Refer: 227 122 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0030
+StartChar: zero
 Encoding: 16 48 229
 GlifName: zero
 Width: 506
@@ -10564,7 +10564,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0143
+StartChar: Nacute
 Encoding: 233 323 230
 Width: 529
 VWidth: 0
@@ -10580,7 +10580,7 @@ Refer: 33 78 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0144
+StartChar: nacute
 Encoding: 234 324 231
 Width: 450
 VWidth: 0
@@ -10628,7 +10628,7 @@ Refer: 154 110 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0147
+StartChar: Ncaron
 Encoding: 237 327 234
 Width: 529
 VWidth: 0
@@ -10644,7 +10644,7 @@ Refer: 33 78 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0148
+StartChar: ncaron
 Encoding: 238 328 235
 Width: 450
 VWidth: 0
@@ -10660,7 +10660,7 @@ Refer: 154 110 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni014C
+StartChar: Omacron
 Encoding: 239 332 236
 Width: 524
 VWidth: 0
@@ -10676,7 +10676,7 @@ Refer: 35 79 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0154
+StartChar: Racute
 Encoding: 245 340 237
 Width: 505
 VWidth: 0
@@ -10692,7 +10692,7 @@ Refer: 46 82 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0155
+StartChar: racute
 Encoding: 246 341 238
 Width: 223
 VWidth: 0
@@ -10740,7 +10740,7 @@ Refer: 192 114 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0158
+StartChar: Rcaron
 Encoding: 249 344 241
 Width: 505
 VWidth: 0
@@ -10756,7 +10756,7 @@ Refer: 46 82 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0159
+StartChar: rcaron
 Encoding: 250 345 242
 Width: 223
 VWidth: 0
@@ -10775,7 +10775,7 @@ Refer: 192 114 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni015A
+StartChar: Sacute
 Encoding: 251 346 243
 Width: 481
 VWidth: 0
@@ -10791,7 +10791,7 @@ Refer: 47 83 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni015B
+StartChar: sacute
 Encoding: 252 347 244
 Width: 415
 VWidth: 0
@@ -10839,7 +10839,7 @@ Refer: 195 115 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni014D
+StartChar: omacron
 Encoding: 240 333 247
 Width: 440
 VWidth: 0
@@ -10855,7 +10855,7 @@ Refer: 158 111 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0150
+StartChar: Ohungarumlaut
 Encoding: 241 336 248
 Width: 524
 VWidth: 0
@@ -10871,7 +10871,7 @@ Refer: 35 79 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0151
+StartChar: ohungarumlaut
 Encoding: 242 337 249
 Width: 440
 VWidth: 0
@@ -10921,7 +10921,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni0164
+StartChar: Tcaron
 Encoding: 259 356 252
 Width: 463
 VWidth: 0
@@ -10937,7 +10937,7 @@ Refer: 49 84 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0165
+StartChar: tcaron
 Encoding: 260 357 253
 Width: 247
 VWidth: 0
@@ -10953,7 +10953,7 @@ Refer: 204 116 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni016A
+StartChar: Umacron
 Encoding: 261 362 254
 Width: 512
 VWidth: 0
@@ -10969,7 +10969,7 @@ Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni016B
+StartChar: umacron
 Encoding: 262 363 255
 Width: 450
 VWidth: 0
@@ -10985,7 +10985,7 @@ Refer: 210 117 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni016E
+StartChar: Uring
 Encoding: 263 366 256
 Width: 512
 VWidth: 0
@@ -11001,7 +11001,7 @@ Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni016F
+StartChar: uring
 Encoding: 264 367 257
 Width: 450
 VWidth: 0
@@ -11017,7 +11017,7 @@ Refer: 210 117 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0170
+StartChar: Uhungarumlaut
 Encoding: 265 368 258
 Width: 512
 VWidth: 0
@@ -11033,7 +11033,7 @@ Refer: 52 85 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0171
+StartChar: uhungarumlaut
 Encoding: 266 369 259
 Width: 450
 VWidth: 0
@@ -11049,7 +11049,7 @@ Refer: 210 117 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0172
+StartChar: Uogonek
 Encoding: 267 370 260
 Width: 512
 VWidth: 0
@@ -11068,7 +11068,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni0173
+StartChar: uogonek
 Encoding: 268 371 261
 Width: 450
 VWidth: 0
@@ -11085,7 +11085,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni0179
+StartChar: Zacute
 Encoding: 270 377 262
 Width: 400
 VWidth: 0
@@ -11101,7 +11101,7 @@ Refer: 63 90 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni017A
+StartChar: zacute
 Encoding: 271 378 263
 Width: 356
 VWidth: 0
@@ -11117,7 +11117,7 @@ Refer: 227 122 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni017B
+StartChar: Zdotaccent
 Encoding: 272 379 264
 Width: 400
 VWidth: 0
@@ -11133,7 +11133,7 @@ Refer: 63 90 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni017C
+StartChar: zdotaccent
 Encoding: 273 380 265
 Width: 356
 VWidth: 0
@@ -11197,7 +11197,7 @@ Refer: 49 84 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0100
+StartChar: Amacron
 Encoding: 191 256 269
 Width: 433
 VWidth: 0
@@ -11213,7 +11213,7 @@ Refer: 0 65 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0101
+StartChar: amacron
 Encoding: 192 257 270
 Width: 434
 VWidth: 0
@@ -11229,7 +11229,7 @@ Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0102
+StartChar: Abreve
 Encoding: 193 258 271
 Width: 433
 VWidth: 0
@@ -11245,7 +11245,7 @@ Refer: 0 65 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0103
+StartChar: abreve
 Encoding: 194 259 272
 Width: 434
 VWidth: 0
@@ -11261,7 +11261,7 @@ Refer: 65 97 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0106
+StartChar: Cacute
 Encoding: 197 262 273
 Width: 494
 VWidth: 0
@@ -11277,7 +11277,7 @@ Refer: 9 67 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0107
+StartChar: cacute
 Encoding: 198 263 274
 Width: 420
 VWidth: 0
@@ -11293,7 +11293,7 @@ Refer: 89 99 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni010C
+StartChar: Ccaron
 Encoding: 199 268 275
 Width: 494
 VWidth: 0
@@ -11309,7 +11309,7 @@ Refer: 9 67 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni010D
+StartChar: ccaron
 Encoding: 200 269 276
 Width: 420
 VWidth: 0
@@ -11325,7 +11325,7 @@ Refer: 89 99 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni010E
+StartChar: Dcaron
 Encoding: 201 270 277
 Width: 472
 VWidth: 0
@@ -11341,7 +11341,7 @@ Refer: 11 68 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni010F
+StartChar: dcaron
 Encoding: 202 271 278
 Width: 430
 VWidth: 0
@@ -11357,7 +11357,7 @@ Refer: 99 100 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0112
+StartChar: Emacron
 Encoding: 205 274 279
 Width: 444
 VWidth: 0
@@ -11373,7 +11373,7 @@ Refer: 12 69 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0113
+StartChar: emacron
 Encoding: 206 275 280
 Width: 448
 VWidth: 0
@@ -11389,7 +11389,7 @@ Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0116
+StartChar: Edotaccent
 Encoding: 207 278 281
 Width: 444
 VWidth: 0
@@ -11405,7 +11405,7 @@ Refer: 12 69 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0117
+StartChar: edotaccent
 Encoding: 208 279 282
 Width: 448
 VWidth: 0
@@ -11421,7 +11421,7 @@ Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni011A
+StartChar: Ecaron
 Encoding: 211 282 283
 Width: 444
 VWidth: 0
@@ -11437,7 +11437,7 @@ Refer: 12 69 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni011B
+StartChar: ecaron
 Encoding: 212 283 284
 Width: 448
 VWidth: 0
@@ -11453,7 +11453,7 @@ Refer: 108 101 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni011E
+StartChar: Gbreve
 Encoding: 213 286 285
 Width: 507
 VWidth: 0
@@ -11469,7 +11469,7 @@ Refer: 20 71 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni011F
+StartChar: gbreve
 Encoding: 214 287 286
 Width: 419
 VWidth: 0
@@ -11501,7 +11501,7 @@ Refer: 20 71 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni012A
+StartChar: Imacron
 Encoding: 217 298 288
 Width: 124
 VWidth: 0
@@ -11517,7 +11517,7 @@ Refer: 23 73 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni012B
+StartChar: imacron
 Encoding: 218 299 289
 Width: 174
 VWidth: 0
@@ -11568,7 +11568,7 @@ Refer: 144 107 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni0139
+StartChar: Lacute
 Encoding: 225 313 292
 Width: 433
 VWidth: 0
@@ -11584,7 +11584,7 @@ Refer: 30 76 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni013A
+StartChar: lacute
 Encoding: 226 314 293
 Width: 124
 VWidth: 0
@@ -11632,7 +11632,7 @@ Refer: 145 108 N 1 0 0 1 0 0 3
 Layer: 3
 EndChar
 
-StartChar: uni013D
+StartChar: Lcaron
 Encoding: 229 317 296
 Width: 433
 VWidth: 0
@@ -11648,7 +11648,7 @@ Refer: 30 76 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0104
+StartChar: Aogonek
 Encoding: 195 260 297
 Width: 433
 VWidth: 0
@@ -11665,7 +11665,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni0105
+StartChar: aogonek
 Encoding: 196 261 298
 Width: 434
 VWidth: 0
@@ -11682,7 +11682,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni0110
+StartChar: Dcroat
 Encoding: 203 272 299
 Width: 452
 VWidth: 0
@@ -11697,7 +11697,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni0111
+StartChar: dcroat
 Encoding: 204 273 300
 Width: 414
 VWidth: 0
@@ -11768,7 +11768,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni0118
+StartChar: Eogonek
 Encoding: 209 280 301
 Width: 444
 VWidth: 0
@@ -11785,7 +11785,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni0119
+StartChar: eogonek
 Encoding: 210 281 302
 Width: 448
 VWidth: 0
@@ -11818,7 +11818,7 @@ Refer: 127 103 N 1 0 0 1 0 0 2
 Layer: 3
 EndChar
 
-StartChar: uni0130
+StartChar: Idotaccent
 Encoding: 221 304 304
 Width: 124
 VWidth: 0
@@ -11835,7 +11835,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni013E
+StartChar: lcaron
 Encoding: 230 318 305
 Width: 124
 VWidth: 0
@@ -11852,7 +11852,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni012E
+StartChar: Iogonek
 Encoding: 219 302 306
 Width: 124
 VWidth: 0
@@ -11869,7 +11869,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni012F
+StartChar: iogonek
 Encoding: 220 303 307
 Width: 139
 VWidth: 0
@@ -11932,7 +11932,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni2260
+StartChar: notequal
 Encoding: 325 8800 310
 Width: 418
 VWidth: 0
@@ -11949,7 +11949,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni02DB
+StartChar: ogonek
 Encoding: 287 731 311
 Width: 219
 VWidth: 0
@@ -11970,7 +11970,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni03C0
+StartChar: pi
 Encoding: 290 960 312
 Width: 421
 VWidth: 0
@@ -12021,7 +12021,7 @@ Layer: 3
 Colour: ffff00
 EndChar
 
-StartChar: uni2026
+StartChar: ellipsis
 Encoding: 302 8230 313
 Width: 756
 VWidth: 0
@@ -12147,7 +12147,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni212E
+StartChar: estimated
 Encoding: 313 8494 316
 Width: 449
 VWidth: 0
@@ -12218,7 +12218,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni2202
+StartChar: partialdiff
 Encoding: 314 8706 317
 Width: 420
 VWidth: 0
@@ -12323,7 +12323,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni220F
+StartChar: product
 Encoding: 316 8719 319
 Width: 458
 VWidth: 0
@@ -12366,7 +12366,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni2211
+StartChar: summation
 Encoding: 317 8721 320
 Width: 676
 VWidth: 0
@@ -12455,7 +12455,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni221A
+StartChar: radical
 Encoding: 321 8730 323
 Width: 560
 VWidth: 0
@@ -12492,7 +12492,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni221E
+StartChar: infinity
 Encoding: 322 8734 324
 Width: 420
 VWidth: 0
@@ -12612,7 +12612,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni222B
+StartChar: integral
 Encoding: 323 8747 325
 Width: 285
 VWidth: 0
@@ -12649,7 +12649,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni2248
+StartChar: approxequal
 Encoding: 324 8776 326
 Width: 568
 VWidth: 0
@@ -12702,7 +12702,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni2264
+StartChar: lessequal
 Encoding: 326 8804 327
 Width: 414
 VWidth: 0
@@ -12745,7 +12745,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni2265
+StartChar: greaterequal
 Encoding: 327 8805 328
 Width: 414
 VWidth: 0
@@ -12789,7 +12789,7 @@ Layer: 3
 Colour: ff0000
 EndChar
 
-StartChar: uni25CA
+StartChar: lozenge
 Encoding: 328 9674 329
 Width: 427
 VWidth: 0
