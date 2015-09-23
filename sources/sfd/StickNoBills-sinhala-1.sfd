@@ -798,13 +798,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -812,7 +812,7 @@ NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 14 11
+WinInfo: 0 9 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3745,7 +3745,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0020
+StartChar: space
 Encoding: 0 32 27
 GlifName: uni0020
 Width: 300
