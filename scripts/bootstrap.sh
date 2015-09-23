@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
 apt-get update > /dev/null
-
+sudo apt-get install software-properties-common -y
+apt-get install python-software-properties -y
 echo "Installing Git..."
 apt-get install git -y > /dev/null
 
 echo "Installing Fontforge"
-add-apt-repository ppa:fontforge/fontforge > /dev/null
+add-apt-repository ppa:fontforge/fontforge -y > /dev/null
 apt-get update > /dev/null
 apt-get install fontforge -y > /dev/null
 apt-get install python-fontforge -y > /dev/null
