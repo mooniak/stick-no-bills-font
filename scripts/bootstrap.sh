@@ -9,6 +9,7 @@ echo "Installing Fontforge"
 add-apt-repository ppa:fontforge/fontforge > /dev/null
 apt-get update > /dev/null
 apt-get install fontforge -y > /dev/null
+apt-get install python-fontforge -y > /dev/null
 
 echo "Installing unzip..."
 apt-get install unzip -y > /dev/null
