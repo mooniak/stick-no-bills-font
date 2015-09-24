@@ -19,11 +19,15 @@ echo "Installing setuptools..."
 apt-get install python-setuptools -y > /dev/null
 
 echo "Installing Robofab..."
+git clone https://github.com/mooniak/robofab.git
+cd robofab
+python setup.py install
+cd ..
+
+echo "Installing FontTools..."
 wget http://robofab.com/download/old/RoboFab560M_plusDependencies.zip
 unzip RoboFab560M_plusDependencies.zip
-cd RoboFab
-python setup.py install
-cd ../FontTools
+cd FontTools
 python setup.py install
 cd ..
 
