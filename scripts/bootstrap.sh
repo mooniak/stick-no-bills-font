@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
 apt-get update > /dev/null
-
+sudo apt-get install software-properties-common -y
+apt-get install python-software-properties -y
 echo "Installing Git..."
 apt-get install git -y > /dev/null
 
 echo "Installing Fontforge"
-add-apt-repository ppa:fontforge/fontforge > /dev/null
+add-apt-repository ppa:fontforge/fontforge -y > /dev/null
 apt-get update > /dev/null
 apt-get install fontforge -y > /dev/null
 apt-get install python-fontforge -y > /dev/null
@@ -18,11 +19,15 @@ echo "Installing setuptools..."
 apt-get install python-setuptools -y > /dev/null
 
 echo "Installing Robofab..."
+git clone https://github.com/mooniak/robofab.git
+cd robofab
+python setup.py install
+cd ..
+
+echo "Installing FontTools..."
 wget http://robofab.com/download/old/RoboFab560M_plusDependencies.zip
 unzip RoboFab560M_plusDependencies.zip
-cd RoboFab
-python setup.py install
-cd ../FontTools
+cd FontTools
 python setup.py install
 cd ..
 
