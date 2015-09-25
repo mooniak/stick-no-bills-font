@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_SU" format="1">
+  <advance width="677"/>
+  <outline>
+    <contour>
+      <point x="508" y="131" type="line"/>
+      <point x="648" y="131" type="line"/>
+      <point x="648" y="-205" type="line"/>
+      <point x="508" y="-205" type="line"/>
+    </contour>
+    <contour>
+      <point x="388" y="-65" type="line"/>
+      <point x="518" y="-65" type="line"/>
+      <point x="518" y="-205" type="line"/>
+      <point x="388" y="-205" type="line"/>
+    </contour>
+    <contour>
+      <point x="90" y="-65" type="line"/>
+      <point x="332" y="-65" type="line"/>
+      <point x="332" y="-205" type="line"/>
+      <point x="90" y="-205" type="line"/>
+    </contour>
+    <component base="si_Sa"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-205</integer>
+            <key>width</key>
+            <integer>140</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>508</integer>
+            <key>width</key>
+            <integer>140</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>508</integer>
+            <key>width</key>
+            <integer>10</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

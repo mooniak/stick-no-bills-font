@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_R.halant" format="1">
+  <advance width="545"/>
+  <outline>
+    <contour>
+      <point x="30.001" y="389" type="line"/>
+      <point x="30.001" y="819" type="line"/>
+      <point x="166.001" y="819" type="line"/>
+      <point x="166.001" y="389" type="line"/>
+    </contour>
+    <component base="si_Ra"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>619</integer>
+            <key>width</key>
+            <integer>200</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>30</integer>
+            <key>width</key>
+            <integer>136</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

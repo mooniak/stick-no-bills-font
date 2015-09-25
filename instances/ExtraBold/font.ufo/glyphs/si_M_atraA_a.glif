@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_MatraAa" format="1">
+  <advance width="277"/>
+  <unicode hex="0DCF"/>
+  <outline>
+    <contour>
+      <point x="30" y="0" type="line" smooth="yes"/>
+      <point x="50" y="0" type="line"/>
+      <point x="189" y="0"/>
+      <point x="247" y="90"/>
+      <point x="247" y="206" type="curve"/>
+      <point x="247" y="368" type="line"/>
+      <point x="247" y="484"/>
+      <point x="189" y="574"/>
+      <point x="50" y="574" type="curve"/>
+      <point x="30" y="574" type="line" smooth="yes"/>
+      <point x="30" y="431" type="line" smooth="yes"/>
+      <point x="50" y="431" type="line"/>
+      <point x="102" y="431"/>
+      <point x="106" y="386"/>
+      <point x="106" y="358" type="curve"/>
+      <point x="106" y="206" type="line"/>
+      <point x="106" y="182"/>
+      <point x="102" y="143"/>
+      <point x="50" y="143" type="curve"/>
+      <point x="30" y="143" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>534</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>189</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

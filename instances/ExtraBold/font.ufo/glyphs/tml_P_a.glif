@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tml_Pa" format="1">
+  <advance width="537"/>
+  <unicode hex="0BAA"/>
+  <outline>
+    <contour>
+      <point x="39" y="107" type="line"/>
+      <point x="39" y="595" type="line"/>
+      <point x="161" y="595" type="line"/>
+      <point x="161" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="376" y="104" type="line"/>
+      <point x="498" y="104" type="line"/>
+      <point x="498" y="595" type="line"/>
+      <point x="376" y="595" type="line"/>
+    </contour>
+    <contour>
+      <point x="297" y="1" type="line"/>
+      <point x="498" y="1" type="line"/>
+      <point x="498" y="123" type="line"/>
+      <point x="297" y="123" type="line"/>
+    </contour>
+    <contour>
+      <point x="39" y="1" type="line"/>
+      <point x="39" y="123" type="line"/>
+      <point x="241" y="123" type="line"/>
+      <point x="241" y="1" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>107</integer>
+            <key>width</key>
+            <integer>17</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>40</integer>
+            <key>width</key>
+            <integer>202</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>40</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tml_MUu" format="1">
+  <advance width="1012"/>
+  <outline>
+    <contour>
+      <point x="64" y="27" type="line" smooth="yes"/>
+      <point x="64" y="-102"/>
+      <point x="143" y="-165"/>
+      <point x="244" y="-165" type="curve" smooth="yes"/>
+      <point x="445" y="-165" type="line"/>
+      <point x="445" y="-69" type="line"/>
+      <point x="255" y="-69" type="line" smooth="yes"/>
+      <point x="193" y="-69"/>
+      <point x="161" y="-46"/>
+      <point x="161" y="26" type="curve" smooth="yes"/>
+      <point x="161" y="364" type="line" smooth="yes"/>
+      <point x="161" y="429"/>
+      <point x="177" y="455"/>
+      <point x="219" y="455" type="curve" smooth="yes"/>
+      <point x="248" y="455"/>
+      <point x="266" y="438"/>
+      <point x="266" y="407" type="curve" smooth="yes"/>
+      <point x="266" y="379"/>
+      <point x="247" y="360"/>
+      <point x="217" y="360" type="curve" smooth="yes"/>
+      <point x="217" y="264" type="line"/>
+      <point x="296" y="264"/>
+      <point x="362" y="331"/>
+      <point x="362" y="395" type="curve" smooth="yes"/>
+      <point x="362" y="418" type="line" smooth="yes"/>
+      <point x="362" y="472"/>
+      <point x="314" y="551"/>
+      <point x="218" y="551" type="curve" smooth="yes"/>
+      <point x="209" y="551" type="line" smooth="yes"/>
+      <point x="97" y="551"/>
+      <point x="63" y="453"/>
+      <point x="64" y="366" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="499" y="-69" type="line" smooth="yes"/>
+      <point x="599" y="-69" type="line" smooth="yes"/>
+      <point x="599" y="15" type="line"/>
+      <point x="695" y="15" type="line"/>
+      <point x="695" y="-68" type="line" smooth="yes"/>
+      <point x="695" y="-123"/>
+      <point x="664" y="-165"/>
+      <point x="599" y="-165" type="curve" smooth="yes"/>
+      <point x="499" y="-165" type="line"/>
+    </contour>
+    <component base="tml_Ma" xOffset="356" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-151</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>107</integer>
+            <key>width</key>
+            <integer>17</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>122</integer>
+            <key>width</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>442</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>483</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>50</integer>
+            <key>width</key>
+            <integer>125</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>250</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>402</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>606</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>865</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
