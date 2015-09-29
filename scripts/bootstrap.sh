@@ -1,3 +1,13 @@
+#
+# bootstrap.sh
+#
+# Copyright (c) 2015,
+# Mooniak <hello@mooniak.com>
+# Ayantha Randika <paarandika@gmail.com>
+#
+# Released under the GNU General Public License version 3 or later.
+# See accompanying LICENSE file for details.
+
 #!/usr/bin/env bash
 
 apt-get update > /dev/null
@@ -25,11 +35,11 @@ python setup.py install
 cd ..
 
 echo "Installing FontTools..."
-wget http://robofab.com/download/old/RoboFab560M_plusDependencies.zip
-unzip RoboFab560M_plusDependencies.zip
-cd FontTools
+git clone https://github.com/behdad/fonttools.git
+cd fonttools
 python setup.py install
 cd ..
+
 
 echo "Adding Kern Scripts..."
 git clone https://github.com/adobe-type-tools/python-modules.git

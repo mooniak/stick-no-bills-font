@@ -1,3 +1,13 @@
+#
+# builder.sh
+#
+# Copyright (c) 2015,
+# Mooniak <hello@mooniak.com>
+# Ayantha Randika <paarandika@gmail.com>
+#
+# Released under the GNU General Public License version 3 or later.
+# See accompanying LICENSE file for details.
+
 #!/bin/bash
 
 cd ../sources/sfd
