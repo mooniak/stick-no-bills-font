@@ -23,13 +23,13 @@ family.masters[0]._file_name = 'StickNoBills-Regular.ufo'
 family.masters[1]._file_name = 'StickNoBills-ExtraBold.ufo'
 
 family.set_styles([
-    ('Regular',     0.0, 400),
-    ('Medium',     20, 500),
-    ('SemiBold',   41, 600),
-    ('Bold',       68, 700),
-    ('ExtraBold', 100.0, 800),
+    ('Light', 0.0, 400),
+    ('Regular', 13, 500),
+    ('Medium', 28, 600),
+    ('SemiBold', 47, 700),
+    ('Bold', 71, 800),
+    ('ExtraBold', 100, 900),
 ])
-
 # - - -
 
 #family.output_name_affix = '{} FDK'
