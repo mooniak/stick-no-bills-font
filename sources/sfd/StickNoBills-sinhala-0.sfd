@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1443542925
-ModificationTime: 1443542925
+ModificationTime: 1443615948
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -780,13 +780,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
 Encoding: sinhala_abhaya
 UnicodeInterp: none
@@ -796,7 +796,7 @@ AntiAlias: 1
 FitToEm: 1
 WinInfo: 0 22 15
 AnchorClass2: "si_rakar" "abvmAboveBaseMarkinSinhalalooku subtable" 
-BeginChars: 65538 491
+BeginChars: 65545 532
 
 StartChar: NameMe.124
 Encoding: 65536 -1 0
@@ -1233,7 +1233,7 @@ GlifName: si_A_u
 Width: 1020
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1434,7 +1434,7 @@ GlifName: si_B_h.halant
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1448,7 +1448,7 @@ GlifName: si_B_hI_
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1462,7 +1462,7 @@ GlifName: si_B_hI_i
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1476,7 +1476,7 @@ GlifName: si_B_hR_I_
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1490,7 +1490,7 @@ GlifName: si_B_hR_I_i
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1504,7 +1504,7 @@ GlifName: si_B_hR_a
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1518,7 +1518,7 @@ GlifName: si_B_hR_a.halant
 Width: 743
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1531,7 +1531,7 @@ GlifName: si_B_hU_
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1545,7 +1545,7 @@ GlifName: si_B_hU_u
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1559,23 +1559,27 @@ GlifName: si_B_ha
 Width: 743
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -8 40<209.944 256 209.944 256 312 351.909 527 573.056> 271 40<309 333 309 346 333 333 309 388.749> 524 40<417.596 471 527 574.556>
 VStem: 70 40 292 41<271 361 271 360> 439 40 673 40
 LayerCount: 2
 Back
 Fore
 SplineSet
-30.0254 394 m 257
- 335 394 l 257
- 334.932 439 l 258
- 335.004 523.08 265.887 563.996 198.724 563.996 c 256
- 144.095 563.996 90.7598 536.927 77 484 c 257
- 116 474 l 257
- 129.99 507.033 163.821 523.116 198.351 523.116 c 256
- 245.87 523.116 294.714 492.658 295 434 c 257
- 30 434 l 257
- 30.0254 394 l 257
+333 311 m 1
+ 333 361 l 2
+ 333 443 364.192 524 471 524 c 1
+ 471 564 l 1
+ 349.062 564 292 478.007 292 360 c 2
+ 292 271 l 1
+ 346 271 l 0
+ 431.498 271 439.126 199.586 439.126 152.124 c 0
+ 439.126 66.249 391.817 32 312 32 c 1
+ 312 -8 l 1
+ 411.866 -8 479 42.873 479 145 c 2
+ 479 164 l 2
+ 479 233 448.232 311 346 311 c 2
+ 333 311 l 1
 673 216 m 258
  673 98.1426 619.112 32 527 32 c 257
  527 -8 l 257
@@ -1585,33 +1589,24 @@ SplineSet
  527 524 l 257
  622.112 524 673 457.857 673 340 c 258
  673 216 l 258
-110 196 m 258
- 110 250 l 258
- 110 357.857 160.888 394 256 394 c 257
- 256 434 l 257
- 136.704 434 70.4199 376.263 70.0791 250 c 258
- 70.0791 196 l 258
- 70.4199 79.7373 136.704 -8 256 -8 c 257
- 256 32 l 257
- 163.888 32 110 98.1426 110 196 c 258
-309 271 m 257
- 346 271 l 258
- 431.498 271 439.126 199.586 439.126 152.124 c 256
- 439.126 66.249 391.817 32 312 32 c 257
- 312 -8 l 257
- 411.866 -8 479 42.873 479 145 c 258
- 479 164 l 258
- 479 233 448.232 311 346 311 c 258
- 309 311 l 257
- 309 271 l 257
-292 271 m 256
- 333 271 l 257
- 333 361 l 258
- 333 443 364.192 524 471 524 c 257
- 471 564 l 257
- 349.062 564 292 478.007 292 360 c 258
- 292 271 l 256
-414 188 m 1280
+110 196 m 2
+ 110 250 l 2
+ 110 357.857 160.888 394 256 394 c 2
+ 325 394 l 5
+ 334.932 439 l 2
+ 335.004 523.08 265.887 563.996 198.724 563.996 c 0
+ 144.095 563.996 90.7598 536.927 77 484 c 1
+ 116 474 l 1
+ 129.99 507.033 163.821 523.116 198.351 523.116 c 0
+ 245.87 523.116 294.714 492.658 295 434 c 1
+ 30 434 l 1
+ 30.0254 394 l 1
+ 123.545405044 394 l 1
+ 88.7092663709 363.937954452 70.2584907234 316.46247333 70.0791 250 c 2
+ 70.0791 196 l 2
+ 70.4199 79.7373 136.704 -8 256 -8 c 1
+ 256 32 l 1
+ 163.888 32 110 98.1426 110 196 c 2
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -1669,7 +1664,7 @@ GlifName: si_B_ha.reph
 Width: 743
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -10275,10 +10270,10 @@ EndChar
 StartChar: si_Mb.halant
 Encoding: 356 -1 258
 GlifName: si_M_b.halant
-Width: 600
+Width: 583
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -10289,10 +10284,10 @@ EndChar
 StartChar: si_MbI
 Encoding: 357 -1 259
 GlifName: si_M_bI_
-Width: 600
+Width: 583
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -10303,10 +10298,10 @@ EndChar
 StartChar: si_MbIi
 Encoding: 358 -1 260
 GlifName: si_M_bI_i
-Width: 600
+Width: 583
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -10317,10 +10312,10 @@ EndChar
 StartChar: si_MbU
 Encoding: 359 -1 261
 GlifName: si_M_bU_
-Width: 600
+Width: 583
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -10331,73 +10326,70 @@ EndChar
 StartChar: si_MbUu
 Encoding: 360 -1 262
 GlifName: si_M_bU_u
-Width: 600
+Width: 583
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 263 3513 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Mba si_MatraUu
 EndChar
 
 StartChar: si_Mba
 Encoding: 51 3513 263
 GlifName: si_M_ba
-Width: 600
+Width: 583
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -11 146 100 104 348 125 616 139
 VStem: 30 136 223 157 311 92 437 140
 LayerCount: 2
 Back
 Fore
 SplineSet
-185 -11 m 256
- 89.8105 -11 30 65 30 167 c 258
- 30 336 l 258
- 30 433.794 91.8652 478.511 149.833 478.511 c 256
- 200.931 478.511 249 443.766 249 380 c 258
- 249 315 l 258
- 249 288.714 269.711 275.607 290.442 275.607 c 256
- 311.211 275.607 332 288.763 332 315 c 258
- 332 469 l 257
- 372 469 l 257
- 372 310 l 258
- 372 256.851 331.223 230.25 290.46 230.25 c 256
- 249.723 230.25 209 256.816 209 310 c 258
- 209 380 l 258
- 209 415.421 178.608 437.969 146.246 437.969 c 256
- 109.4 437.969 70 408.739 70 336 c 258
- 70 167 l 258
- 70 102.152 113.086 29 185 29 c 256
- 215.878 29 222.906 42.0168 222.906 68.9291 c 256
- 222.906 91.4149 218 123.601 218 166 c 256
- 218 180.669 225.158 204 252 204 c 258
- 331 204 l 258
- 357.842 204 365 180.669 365 166 c 256
- 365 123.601 360.094 91.4149 360.094 68.9291 c 256
- 360.094 42.0168 367.122 29 398 29 c 256
- 469.914 29 513 102.17 513 167 c 258
- 513 514 l 258
- 513 661.715 409.056 715 296 715 c 257
- 296 755 l 257
- 455.37 755 553 671.037 553 514 c 258
- 553 167 l 258
- 553 65 493.189 -11 398 -11 c 256
- 342.85 -11 320.641 17.2227 320.641 57.807 c 256
- 320.641 77.8003333333 328.018 119.288117647 328.018 138.174 c 256
- 328.018 159.923 309.204 171.282 290.673 171.282 c 256
- 272.693 171.282 254.98 160.588 254.98 138.313 c 256
- 254.98 119.327117647 262.359 77.8003333333 262.359 57.807 c 256
- 262.359 17.2227 240.15 -11 185 -11 c 256
-69.375 553 m 257
- 30.375 563 l 257
- 30.375 673.921 143.923 755 240 755 c 257
- 240 715 l 257
- 155.506 715 69.375 644.132 69.375 553 c 257
+74.375 553 m 261
+ 35.375 563 l 257
+ 35.375 680.776225138 152.932798987 755 257 755 c 257
+ 257 715 l 257
+ 164.404723929 715 74.375 651.181059841 74.375 553 c 261
+71 366 m 258
+ 71 463 206 461.838867188 206 370 c 258
+ 206 310 l 258
+ 206 256.81640625 246.72265625 230.25 287.459960938 230.25 c 256
+ 328.22265625 230.25 369 256.850585938 369 310 c 258
+ 369 469 l 257
+ 329 469 l 257
+ 329 315 l 258
+ 329 288.762695312 308.2109375 275.607421875 287.442382812 275.607421875 c 256
+ 266.7109375 275.607421875 246 288.713867188 246 315 c 258
+ 246 370 l 258
+ 246 521.25390625 30 512 30 366 c 258
+ 30 167 l 258
+ 30 65 89.8105 -11 185 -11 c 256
+ 240.15 -11 262.359 17.2227 262.359 57.807 c 256
+ 262.359 77.8003333333 254.98 119.327117647 254.98 138.313 c 256
+ 254.98 169.588 272.693 171.282 290.673 171.282 c 256
+ 309.204 171.282 328.018 170.923 328.018 138.174 c 256
+ 328.018 119.288117647 320.641 77.8003333333 320.641 57.807 c 256
+ 320.641 17.2227 342.85 -11 398 -11 c 256
+ 493.189 -11 553 65 553 167 c 258
+ 553 514 l 258
+ 553 671.037 471.370117188 755 312 755 c 257
+ 312 715 l 257
+ 425.055664062 715 513 661.715 513 514 c 258
+ 513 167 l 258
+ 513 102.17 469.914 29 398 29 c 256
+ 367.122 29 360.094 42.0168 360.094 68.9291 c 256
+ 360.094 99.7061203226 394.493164062 204 311 204 c 258
+ 272 204 l 258
+ 190.408203125 204 222.906 99.6430882557 222.906 68.9291 c 256
+ 222.906 42.0168 215.878 29 185 29 c 256
+ 113.086 29 71 102 71 167 c 258
+ 71 366 l 258
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -12086,7 +12078,7 @@ GlifName: si_N_d.halant
 Width: 672
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12100,7 +12092,7 @@ GlifName: si_N_dI_
 Width: 672
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12114,7 +12106,7 @@ GlifName: si_N_dI_i
 Width: 672
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12128,7 +12120,7 @@ GlifName: si_N_dR_a
 Width: 672
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12195,13 +12187,38 @@ GlifName: si_N_da
 Width: 672
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -204 126 0 136 263 135 454 121
 VStem: 30 136 222 143
 LayerCount: 2
 Back
 Fore
 SplineSet
+501.022460938 -203.963867188 m 256
+ 416.453125 -203.963867188 333 -151.096679688 333 -45 c 257
+ 373 -45 l 257
+ 373 -120.985351562 439.059570312 -164.28125 505.197265625 -164.28125 c 256
+ 560.845703125 -164.28125 616.549804688 -133.626953125 633 -66 c 257
+ 672 -76 l 257
+ 654.008789062 -161.220703125 577.064453125 -203.963867188 501.022460938 -203.963867188 c 256
+170 199 m 256
+ 170 335.290039062 265.044921875 402 396 402 c 258
+ 532 402 l 257
+ 532 493.372070312 460.287109375 537.564453125 382.646484375 537.564453125 c 256
+ 321.682617188 537.564453125 263.614257812 504.8515625 247 443 c 257
+ 208 456 l 257
+ 229.407226562 536.278320312 303.420898438 579.36328125 380.706054688 579.36328125 c 256
+ 479.015625 579.36328125 572 518.502929688 572 389 c 258
+ 572 362 l 257
+ 386 362 l 258
+ 270.018554688 362 211.624023438 293.45703125 211.624023438 199 c 256
+ 211.624023438 108.484375 273.124023438 40 397 40 c 257
+ 436 40 l 257
+ 507 40 566.998046875 74.5439453125 601 148 c 257
+ 638 138 l 257
+ 596.008789062 22.3046875 493 0 436 0 c 257
+ 397 0 l 258
+ 277 0 170 60.3916015625 170 199 c 256
 238 446 m 257
  220.287 452.007 204.045 454.74 189.241 454.74 c 256
  107.931 454.74 70 372.292 70 297 c 258
@@ -12214,7 +12231,6 @@ SplineSet
  206.008 497.145 222.377 494.482 238.051 489.245 c 256
  238 446 l 257
 EndSplineSet
-Refer: 69 3503 N 1 0 0 1 140 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -14027,45 +14043,12 @@ GlifName: si_O_o
 Width: 580
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-312 348 m 1280
-348 612 m 257
- 348 652 l 257
- 507.638 652 550 589.89 550 474 c 258
- 550 197 l 256
- 508 197 l 256
- 508 465 l 258
- 508 583.936 463.736 612 348 612 c 257
-58.333 612 m 257
- 58.333 652 l 257
- 347.333 652 l 257
- 347.333 612 l 257
- 58.333 612 l 257
-183 819 m 258
- 269 819 l 257
- 269 779 l 257
- 179 779 l 258
- 131.44 779 107.918 747.482 107.918 715.848 c 256
- 107.918 683.982 131.787 652 179 652 c 258
- 260 652 l 257
- 260 612 l 257
- 193.617 611.877 l 258
- 141.024 611.877 93.8486 614.938 93.8486 651.652 c 257
- 72.1846 671.542 66.5934 695.102 66.5934 718.17 c 256
- 66.5934 769.818 114.676 819 183 819 c 258
-325.5 779 m 257
- 325.5 819 l 257
- 391 819 l 258
- 539.359 819 546.333 752 546.333 673 c 257
- 506.333 673 l 257
- 506.333 771.056 457.995 779.343 415.643 779.343 c 256
- 407.028 779.343 398.662 779 391 779 c 258
- 325.5 779 l 257
-72 336 m 258
+72 366 m 258
  72 139 l 258
  72 104.059 94.8457 40 171 40 c 256
  246.154 40 269 104.059 269 139 c 258
@@ -14081,20 +14064,47 @@ SplineSet
  356.595 0 313.931 21.3961 290 57.9649 c 257
  266.069 21.3961 223.405 3.55271e-15 171 0 c 256
  88.1074 0 30 52.25 30 133 c 258
- 30 336 l 258
- 30 433.794 88.1928 478.511 142.72 478.511 c 256
- 190.784 478.511 236 443.766 236 380 c 258
- 236 315 l 258
- 236 288.714 256.711 275.607 277.442 275.607 c 256
- 298.211 275.607 319 288.763 319 315 c 258
- 319 469 l 257
- 359 469 l 257
- 359 310 l 258
- 359 256.851 318.223 230.25 277.46 230.25 c 256
- 236.723 230.25 196 256.816 196 310 c 258
- 196 380 l 258
- 196 415.421 168.887 437.969 140.018 437.969 c 256
- 107.148 437.969 72 408.739 72 336 c 258
+ 30 366 l 258
+ 30 440.801829071 86.3438020634 479.693858656 141.477825997 479.693858656 c 0
+ 194.294011973 479.693858656 246 444.003139492 246 370 c 258
+ 246 315 l 258
+ 246 288.713867188 266.7109375 275.607421875 287.442382812 275.607421875 c 256
+ 308.2109375 275.607421875 329 288.762695312 329 315 c 258
+ 329 469 l 257
+ 369 469 l 257
+ 369 310 l 258
+ 369 256.850585938 328.22265625 230.25 287.459960938 230.25 c 256
+ 246.72265625 230.25 206 256.81640625 206 310 c 258
+ 206 370 l 258
+ 206 415.558180314 173.025023072 438.770248078 139.790628341 438.770248078 c 0
+ 106.029169798 438.770248078 72 414.816102575 72 366 c 258
+325.5 779 m 257
+ 325.5 819 l 257
+ 391 819 l 258
+ 539.359 819 546.333 742 546.333 673 c 257
+ 506.333 673 l 257
+ 506.333 778.276313714 451.627221373 779 391 779 c 258
+ 325.5 779 l 257
+348 612 m 257
+ 348 652 l 257
+ 507.638 652 550 589.89 550 474 c 258
+ 550 197 l 256
+ 508 197 l 256
+ 508 465 l 258
+ 508 583.936 463.736 612 348 612 c 257
+183.666992188 819 m 2
+ 269.666992188 819 l 1
+ 269.666992188 779 l 1
+ 179.666992188 779 l 2
+ 132.107421875 779 108.584960938 747.482421875 108.584960938 715.84765625 c 0
+ 108.584960938 683.982421875 132.454101562 652 179.666992188 652 c 0
+ 348 652 l 1
+ 348 612 l 1
+ 59 612 l 1
+ 59 652 l 1
+ 94.138671875 652 l 1
+ 72.787109375 671.81640625 67.2607421875 695.235351562 67.2607421875 718.169921875 c 0
+ 67.2607421875 769.818359375 115.342773438 819 183.666992188 819 c 2
 EndSplineSet
 EndChar
 
@@ -14104,31 +14114,27 @@ GlifName: si_O_s
 Width: 580
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 40<132.923 171 382.798 447.077> 241 1<508 550 508 550> 715 40<202.753 257 245 257 314 325>
-VStem: 30 42<133 139 139 336> 196 40<310 315 315 380> 269 42<139 192> 319 40<315 469> 508 42<139 242 241 242 242 514 242 242>
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-171 0 m 256
- 88.1074 0 30 52.25 30 133 c 258
- 30 336 l 258
- 30 433.794 88.1928 478.511 142.72 478.511 c 256
- 190.784 478.511 236 443.766 236 380 c 258
- 236 315 l 258
- 236 288.714 256.711 275.607 277.442 275.607 c 256
- 298.211 275.607 319 288.763 319 315 c 258
- 319 469 l 257
- 359 469 l 257
- 359 310 l 258
- 359 256.851 318.223 230.25 277.46 230.25 c 256
- 236.723 230.25 196 256.816 196 310 c 258
- 196 380 l 258
- 196 415.421 168.887 437.969 140.018 437.969 c 256
- 107.148 437.969 72 408.739 72 336 c 258
+30 366 m 258
+ 30 440.626008166 86.432392404 479.525584748 141.607804933 479.525584748 c 0
+ 194.378809841 479.525584748 246 443.942431983 246 370 c 258
+ 246 315 l 258
+ 246 288.713867188 266.7109375 275.607421875 287.442382812 275.607421875 c 256
+ 308.2109375 275.607421875 329 288.762695312 329 315 c 258
+ 329 469 l 257
+ 369 469 l 257
+ 369 310 l 258
+ 369 256.850585938 328.22265625 230.25 287.459960938 230.25 c 256
+ 246.72265625 230.25 206 256.81640625 206 310 c 258
+ 206 370 l 258
+ 206 415.574222366 173.001796533 438.818576606 139.755520529 438.818576606 c 0
+ 106.005583151 438.818576606 72 414.864611304 72 366 c 258
  72 139 l 258
- 72 104.059 94.8457 40 171 40 c 256
+ 72 104 94.8457 40 171 40 c 256
  246.154 40 269 104.059 269 139 c 258
  269 192 l 257
  311 192 l 257
@@ -14141,22 +14147,20 @@ SplineSet
  550 52.25 491.893 0 409 0 c 256
  356.595 0 313.931 21.3961 290 57.9649 c 257
  266.069 21.3961 223.405 3.55271e-15 171 0 c 256
+ 88.1074 0 30 52 30 133 c 258
+ 30 366 l 258
 508 241 m 256
  508 514 l 258
- 508 661.715 438.056 715 325 715 c 257
- 314 715 l 257
+ 508 668.134543525 434.97789123 715 314 715 c 257
  314 755 l 257
- 325 755 l 257
- 484.37 755 550 671.037 550 514 c 258
+ 480.859872721 755 550 677.666778352 550 514 c 258
  550 241 l 256
  508 241 l 256
 74.375 553 m 257
  35.375 563 l 257
- 35.375 673.921 148.923 755 245 755 c 257
- 257 755 l 257
+ 35.375 680.776225138 152.932798987 755 257 755 c 257
  257 715 l 257
- 245 715 l 257
- 160.506 715 74.375 644.132 74.375 553 c 257
+ 164.404723929 715 74.375 651.181059841 74.375 553 c 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -14841,7 +14845,7 @@ GlifName: si_S_.halant
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -14856,7 +14860,7 @@ GlifName: si_S_I_
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -14871,7 +14875,7 @@ GlifName: si_S_I_i
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 463 119 660 130
 VStem: 522 118
 LayerCount: 2
@@ -14916,7 +14920,7 @@ GlifName: si_S_R_.halant
 Width: 677
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -14929,7 +14933,7 @@ GlifName: si_S_R_I_
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -14943,7 +14947,7 @@ GlifName: si_S_R_I_i
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -14957,7 +14961,7 @@ GlifName: si_S_R_a
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -14971,7 +14975,7 @@ GlifName: si_S_U_
 Width: 678
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -205 140
 VStem: 508 140 508 10
 LayerCount: 2
@@ -15032,7 +15036,7 @@ GlifName: si_S_U_u
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -205 137 -174 140
 LayerCount: 2
 Back
@@ -15087,13 +15091,27 @@ GlifName: si_S_a
 Width: 677
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 40<197.368 261.131 197.368 271.663 462.869 526.631> 362 40<30 105 105 105 192 531 30 532 30 550.185> 523 40
 VStem: 77 40<97.764 192 141 192 141 192 241 288> 342 40<97.764 192 140 141 140 192 141 192> 607 40<140 141 141 192 241 288>
 LayerCount: 2
 Back
 Fore
 SplineSet
+84 477 m 257
+ 123 464 l 257
+ 136.473 500.315 171.421 524 234 524 c 256
+ 312.207 524 343 469 343 415 c 258
+ 343 379 l 257
+ 383 379 l 257
+ 383 415 l 258
+ 383 469 413.793 524 492 524 c 256
+ 554.579 524 589.527 500.315 603 464 c 257
+ 642 477 l 257
+ 616.293 541.871 555.881 564 492 564 c 256
+ 455.339 564 394.349 551.303 363 497.885 c 257
+ 331.651 551.303 270.661 564 234 564 c 256
+ 170.119 564 109.707 541.871 84 477 c 257
 30 362 m 257
  105 362 l 257
  83.819 350.654 77 319.714 77 288 c 258
@@ -15109,42 +15127,24 @@ SplineSet
  647 336.857 641.795 402 531 402 c 257
  30 402 l 257
  30 362 l 257
-84 477 m 257
- 123 464 l 257
- 136.473 500.315 171.421 524 234 524 c 256
- 312.207 524 343 469 343 415 c 258
- 343 379 l 257
- 383 379 l 257
- 383 415 l 258
- 383 469 413.793 524 492 524 c 256
- 554.579 524 589.527 500.315 603 464 c 257
- 642 477 l 257
- 616.293 541.871 555.881 564 492 564 c 256
- 455.339 564 394.349 551.303 363 497.885 c 257
- 331.651 551.303 270.661 564 234 564 c 256
- 170.119 564 109.707 541.871 84 477 c 257
-77 140 m 258
- 77 55.528 144.673 0 229 0 c 256
- 314.327 0 382 55.528 382 140 c 258
- 382 192 l 257
- 342 192 l 257
- 342 141 l 258
- 342 74.3121 293.263 40 229 40 c 256
- 165.737 40 117 74.3121 117 141 c 258
- 117 192 l 257
- 77 192 l 257
- 77 140 l 258
-342 140 m 258
- 342 55.528 409.673 0 495 0 c 256
- 579.327 0 647 55.528 647 140 c 258
- 647 192 l 257
- 607 192 l 257
- 607 141 l 258
- 607 74.3121 558.263 40 495 40 c 256
- 430.737 40 382 74.3121 382 141 c 258
- 382 192 l 257
- 342 192 l 257
- 342 140 l 258
+77 140 m 2
+ 77 55.5283203125 144.672851562 0 229 0 c 0
+ 286.395656131 0 335.803386663 25.1245401883 361.999971828 67.2824490914 c 1
+ 388.196567505 25.1244518058 437.604379126 -1.06581410364e-14 495 0 c 0
+ 579.327 0 647 55.528 647 140 c 2
+ 647 192 l 1
+ 607 192 l 1
+ 607 141 l 2
+ 607 74.3121 558.263 40 495 40 c 0
+ 430.737 40 382 74.3121 382 141 c 2
+ 382 192 l 1
+ 342 192 l 1
+ 342 141 l 2
+ 342 74.3125 293.262695312 40 229 40 c 0
+ 165.737304688 40 117 74.3125 117 141 c 2
+ 117 192 l 1
+ 77 192 l 1
+ 77 140 l 2
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -15197,7 +15197,7 @@ GlifName: si_S_a.reph
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15211,7 +15211,7 @@ GlifName: si_S_h.halant
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15226,7 +15226,7 @@ GlifName: si_S_hI_
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15241,7 +15241,7 @@ GlifName: si_S_hI_i
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 462 119 659 130
 VStem: 472 118
 LayerCount: 2
@@ -15285,7 +15285,7 @@ GlifName: si_S_hR_.halant
 Width: 703
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15298,7 +15298,7 @@ GlifName: si_S_hR_I_
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15312,7 +15312,7 @@ GlifName: si_S_hR_I_i
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15326,7 +15326,7 @@ GlifName: si_S_hR_a
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15340,7 +15340,7 @@ GlifName: si_S_hU_
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15354,7 +15354,7 @@ GlifName: si_S_hU_u
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -15368,7 +15368,7 @@ GlifName: si_S_ha
 Width: 703
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -8 40<169.944 216 169.944 216 272 311.909 487 533.056> 271 40<252 306 269 293 269 306 269 306> 524 40<168.444 216 377.596 431 487 534.556>
 VStem: 30 40 252 41<271 360 360 361 271 419.004> 399 40 633 40
 LayerCount: 2
@@ -15403,13 +15403,11 @@ SplineSet
  351.817 32 399.126 66.249 399.126 152.124 c 256
  399.126 199.586 391.498 271 306 271 c 258
  269 271 l 257
-400.05 124 m 256
- 400.05 135.466666667 380.663195818 269.496658134 565.250816423 274.84584342 c 256
- 568.775102417 274.947974098 572.374301198 275 576.05 275 c 257
- 576.05 235 l 257
- 572.831839968 235 569.688605306 234.952516699 566.618553965 234.859421017 c 256
- 443.144481868 231.115215561 438.048786964 153.590269455 438 124 c 256
- 400.05 124 l 256
+401.049804688 124 m 257
+ 401.049804688 138.360351562 385.018554688 275 575.049804688 275 c 257
+ 575.049804688 235 l 257
+ 447.596679688 235 438.053710938 156.5625 438 124 c 257
+ 401.049804688 124 l 257
 252 271 m 256
  252 360 l 258
  252 478.007 309.062 564 431 564 c 257
@@ -15474,7 +15472,7 @@ GlifName: si_S_ha.reph
 Width: 703
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -19101,6 +19099,416 @@ Width: 0
 VWidth: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Fa.touch
+Encoding: 565 -1 491
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ka.touch
+Encoding: 525 -1 492
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Kha.touch
+Encoding: 526 -1 493
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ga.touch
+Encoding: 527 -1 494
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Gha.touch
+Encoding: 528 -1 495
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Nga.touch
+Encoding: 529 -1 496
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Nnga.touch
+Encoding: 530 -1 497
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ca.touch
+Encoding: 531 -1 498
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Cha.touch
+Encoding: 532 -1 499
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ja.touch
+Encoding: 533 -1 500
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Jha.touch
+Encoding: 534 -1 501
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Nya.touch
+Encoding: 535 -1 502
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Jnya.touch
+Encoding: 536 -1 503
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ndja.touch
+Encoding: 537 -1 504
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Tta.touch
+Encoding: 538 -1 505
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ttha.touch
+Encoding: 539 -1 506
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Dda.touch
+Encoding: 540 -1 507
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ddha.touch
+Encoding: 541 -1 508
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Nna.touch
+Encoding: 542 -1 509
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ndda.touch
+Encoding: 543 -1 510
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ta.touch
+Encoding: 544 -1 511
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Tha.touch
+Encoding: 545 -1 512
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Da.touch
+Encoding: 546 -1 513
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Dha.touch
+Encoding: 547 -1 514
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Na.touch
+Encoding: 548 -1 515
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Nda.touch
+Encoding: 549 -1 516
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Pa.touch
+Encoding: 550 -1 517
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Pha.touch
+Encoding: 551 -1 518
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ba.touch
+Encoding: 552 -1 519
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Bha.touch
+Encoding: 553 -1 520
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ma.touch
+Encoding: 554 -1 521
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Mba.touch
+Encoding: 555 -1 522
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ya.touch
+Encoding: 556 -1 523
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ra.touch
+Encoding: 557 -1 524
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_La.touch
+Encoding: 558 -1 525
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Va.touch
+Encoding: 559 -1 526
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Sha.touch
+Encoding: 560 -1 527
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ssa.touch
+Encoding: 561 -1 528
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Sa.touch
+Encoding: 562 -1 529
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Ha.touch
+Encoding: 563 -1 530
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+EndChar
+
+StartChar: si_Lla.touch
+Encoding: 564 -1 531
+Width: 0
+VWidth: 0
+Flags: HW
 LayerCount: 2
 Back
 Fore

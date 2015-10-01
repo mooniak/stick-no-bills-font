@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tml_Tta" format="1">
+  <advance width="642"/>
+  <unicode hex="0B9F"/>
+  <outline>
+    <contour>
+      <point x="93" y="0" type="line"/>
+      <point x="93" y="40" type="line"/>
+      <point x="571" y="40" type="line"/>
+      <point x="571" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="93" y="95" type="line"/>
+      <point x="93" y="596" type="line"/>
+      <point x="134" y="596" type="line"/>
+      <point x="134" y="95" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>42</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
