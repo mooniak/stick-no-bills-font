@@ -19,12 +19,6 @@
       <point x="600" y="-179" type="curve"/>
     </contour>
     <contour>
-      <point x="952" y="123" type="line"/>
-      <point x="1092" y="123" type="line"/>
-      <point x="1092" y="-205" type="line"/>
-      <point x="952" y="-205" type="line"/>
-    </contour>
-    <contour>
       <point x="864" y="-42" type="line"/>
       <point x="881" y="-42"/>
       <point x="929.148" y="-46.167"/>
@@ -33,6 +27,12 @@
       <point x="926.106" y="-186.639"/>
       <point x="885" y="-182"/>
       <point x="864" y="-182" type="curve"/>
+    </contour>
+    <contour>
+      <point x="952" y="123" type="line"/>
+      <point x="1092" y="123" type="line"/>
+      <point x="1092" y="-205" type="line"/>
+      <point x="952" y="-205" type="line"/>
     </contour>
     <component base="si_Jha"/>
   </outline>

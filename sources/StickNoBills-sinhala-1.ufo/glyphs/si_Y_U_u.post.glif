@@ -3,12 +3,6 @@
   <advance width="518"/>
   <outline>
     <contour>
-      <point x="329" y="123" type="line"/>
-      <point x="329" y="-205" type="line"/>
-      <point x="469" y="-205" type="line"/>
-      <point x="469" y="123" type="line"/>
-    </contour>
-    <contour>
       <point x="30" y="-39" type="line"/>
       <point x="56.334" y="-58.333"/>
       <point x="79.4443" y="-64.7773"/>
@@ -29,6 +23,12 @@
       <point x="79.4443" y="-204.777"/>
       <point x="56.334" y="-198.333"/>
       <point x="30" y="-179" type="curve"/>
+    </contour>
+    <contour>
+      <point x="329" y="123" type="line"/>
+      <point x="469" y="123" type="line"/>
+      <point x="469" y="-205" type="line"/>
+      <point x="329" y="-205" type="line"/>
     </contour>
     <component base="si_Ya.post"/>
   </outline>
