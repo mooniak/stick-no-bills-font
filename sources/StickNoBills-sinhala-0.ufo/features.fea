@@ -500,36 +500,35 @@ feature abvm {
 } abvm;
 
 @GDEF_Simple = [\NameMe.124 \anusvara \dottedcircle \si_A \si_Aa \si_Aae \si_Ae 
-	\si_Ai \si_Au \si_BR.halant \si_BRa \si_Ba \si_BhRa.halant \si_Bha 
-	\si_CR.halant \si_Ca \si_Cha \si_DDdh.halant \si_DR.halant \si_DV.halant 
-	\si_Da \si_DdR.halant \si_Dda \si_Ddha \si_DhR.halant \si_Dha \si_E \si_Ee 
-	\si_FRI \si_FRIi \si_Fa \si_Fa.reph \si_GDha \si_GR.halant \si_Ga 
-	\si_GhR.halant \si_Gha \si_Ha \si_Halant \si_I \si_Ii \si_JR.halant \si_Ja 
-	\si_JhR.halant \si_JhU.reph \si_JhUu.reph \si_Jha \si_Jha.reph 
-	\si_JnyR.halant \si_Jnya \si_KSs.halant \si_KU.reph \si_KV.halant \si_Ka 
-	\si_KhR.halant \si_Kha \si_La \si_Lla \si_MR.halant \si_Ma \si_MatraAa 
-	\si_MatraAae \si_MatraAe \si_MatraAi \si_MatraAu \si_MatraE \si_MatraEe 
-	\si_MatraI \si_MatraIi \si_MatraLl \si_MatraLs \si_MatraO \si_MatraOo 
-	\si_MatraR \si_MatraRr \si_MatraU \si_MatraU.alt \si_MatraUu \si_MatraUu.alt 
-	\si_Mba \si_ND.halant \si_NDRI \si_NDRIi \si_NDh.halant \si_NTh.halant 
-	\si_NV.halant \si_Na \si_Na.reph \si_NdRa \si_Nda \si_NdjI \si_NdjR.halant 
-	\si_NdjU \si_Ndja \si_Nga \si_Nna \si_Nndda \si_Nnga \si_NyR.halant \si_Nya 
-	\si_Oo \si_Os \si_PR.halant \si_Pa \si_Pha \si_Pha.reph \si_Ra \si_SR.halant 
-	\si_Sa \si_ShR.halant \si_Sha \si_SsR.halant \si_SsRI \si_SsRIi \si_Ssa 
-	\si_TR.halant \si_TTh.halant \si_TV.halant \si_Ta \si_Tha \si_TtR.halant 
-	\si_TtTth.halant \si_TtTthI \si_TtTthIi \si_TtTthU \si_TtTthUu \si_TtTtha 
-	\si_Tta \si_Ttha \si_U \si_Uu \si_VR.halant \si_Va \si_Y.post.halant 
-	\si_YUu.post.reph \si_Ya \si_Yu.post.reph \si_kundaliya \si_vocalicL 
-	\si_vocalicLL \si_vocalicR \si_vocalicRr \space \visarga \zwj \zwnj 
-	\si_Fa.touch \si_Ka.touch \si_Kha.touch \si_Ga.touch \si_Gha.touch 
-	\si_Nga.touch \si_Nnga.touch \si_Ca.touch \si_Cha.touch \si_Ja.touch 
-	\si_Jha.touch \si_Nya.touch \si_Jnya.touch \si_Ndja.touch \si_Tta.touch 
-	\si_Ttha.touch \si_Dda.touch \si_Ddha.touch \si_Nna.touch \si_Ndda.touch 
-	\si_Ta.touch \si_Tha.touch \si_Da.touch \si_Dha.touch \si_Na.touch 
-	\si_Nda.touch \si_Pa.touch \si_Pha.touch \si_Ba.touch \si_Bha.touch 
-	\si_Ma.touch \si_Mba.touch \si_Ya.touch \si_Ra.touch \si_La.touch 
-	\si_Va.touch \si_Sha.touch \si_Ssa.touch \si_Sa.touch \si_Ha.touch 
-	\si_Lla.touch ];
+	\si_Ai \si_Au \si_BR.halant \si_BRa \si_Ba \si_Ba.touch \si_BhRa.halant \si_Bha 
+	\si_Bha.touch \si_CR.halant \si_Ca \si_Ca.touch \si_Cha \si_Cha.touch 
+	\si_DDdh.halant \si_DR.halant \si_DV.halant \si_Da \si_Da.touch 
+	\si_DdR.halant \si_Dda \si_Dda.touch \si_Ddha \si_Ddha.touch \si_DhR.halant 
+	\si_Dha \si_Dha.touch \si_E \si_Ee \si_FRI \si_FRIi \si_Fa \si_Fa.reph 
+	\si_Fa.touch \si_GDha \si_GR.halant \si_Ga \si_Ga.touch \si_GhR.halant \si_Gha 
+	\si_Gha.touch \si_Ha \si_Ha.touch \si_Halant \si_I \si_Ii \si_JR.halant \si_Ja 
+	\si_Ja.touch \si_JhR.halant \si_JhU.reph \si_JhUu.reph \si_Jha \si_Jha.reph 
+	\si_Jha.touch \si_JnyR.halant \si_Jnya \si_Jnya.touch \si_KSs.halant 
+	\si_KU.reph \si_KV.halant \si_Ka \si_Ka.touch \si_KhR.halant \si_Kha 
+	\si_Kha.touch \si_La \si_La.touch \si_Lla \si_Lla.touch \si_MR.halant \si_Ma 
+	\si_Ma.touch \si_MatraAa \si_MatraAae \si_MatraAe \si_MatraAi \si_MatraAu 
+	\si_MatraE \si_MatraEe \si_MatraI \si_MatraIi \si_MatraLl \si_MatraLs 
+	\si_MatraO \si_MatraOo \si_MatraR \si_MatraRr \si_MatraU \si_MatraU.alt 
+	\si_MatraUu \si_MatraUu.alt \si_Mba \si_Mba.touch \si_ND.halant \si_NDRI 
+	\si_NDRIi \si_NDh.halant \si_NTh.halant \si_NV.halant \si_Na \si_Na.reph 
+	\si_Na.touch \si_NdRa \si_Nda \si_Nda.touch \si_Ndda.touch \si_NdjI 
+	\si_NdjR.halant \si_NdjU \si_Ndja \si_Ndja.touch \si_Nga \si_Nga.touch \si_Nna 
+	\si_Nna.touch \si_Nndda \si_Nnga \si_Nnga.touch \si_NyR.halant \si_Nya 
+	\si_Nya.touch \si_Oo \si_Os \si_PR.halant \si_Pa \si_Pa.touch \si_Pha 
+	\si_Pha.reph \si_Pha.touch \si_Ra \si_Ra.touch \si_SR.halant \si_Sa 
+	\si_Sa.touch \si_ShR.halant \si_Sha \si_Sha.touch \si_SsR.halant \si_SsRI 
+	\si_SsRIi \si_Ssa \si_Ssa.touch \si_TR.halant \si_TTh.halant \si_TV.halant 
+	\si_Ta \si_Ta.touch \si_Tha \si_Tha.touch \si_TtR.halant \si_TtTth.halant 
+	\si_TtTthI \si_TtTthIi \si_TtTthU \si_TtTthUu \si_TtTtha \si_Tta \si_Tta.touch 
+	\si_Ttha \si_Ttha.touch \si_U \si_Uu \si_VR.halant \si_Va \si_Va.touch 
+	\si_Y.post.halant \si_YUu.post.reph \si_Ya \si_Ya.touch \si_Yu.post.reph 
+	\si_kundaliya \si_vocalicL \si_vocalicLL \si_vocalicR \si_vocalicRr \space 
+	\visarga \zwj \zwnj \glyph532 \glyph533 ];
 @GDEF_Ligature = [\si_B.halant \si_BI \si_BIi \si_BRI \si_BRIi \si_BU \si_BUu 
 	\si_Ba.reph \si_Bh.halant \si_BhI \si_BhIi \si_BhRI \si_BhRIi \si_BhRa \si_BhU 
 	\si_BhUu \si_Bha.reph \si_C.halant \si_CI \si_CIi \si_CRI \si_CRIi \si_CRa 

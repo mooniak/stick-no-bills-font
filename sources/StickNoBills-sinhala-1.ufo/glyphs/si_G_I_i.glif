@@ -2,39 +2,7 @@
 <glyph name="si_GIi" format="1">
   <advance width="717"/>
   <outline>
-    <contour>
-      <point x="421" y="671" type="curve" smooth="yes"/>
-      <point x="421" y="736"/>
-      <point x="474" y="789"/>
-      <point x="539" y="789" type="curve" smooth="yes"/>
-      <point x="604" y="789"/>
-      <point x="657" y="736"/>
-      <point x="657" y="671" type="curve" smooth="yes"/>
-      <point x="657" y="606"/>
-      <point x="604" y="553"/>
-      <point x="539" y="553" type="curve" smooth="yes"/>
-      <point x="474" y="553"/>
-      <point x="421" y="606"/>
-    </contour>
-    <contour>
-      <point x="289" y="659" type="line" smooth="yes"/>
-      <point x="262.143" y="659"/>
-      <point x="227" y="654.112"/>
-      <point x="227" y="602" type="curve"/>
-      <point x="97" y="602" type="line"/>
-      <point x="97" y="630" type="line" smooth="yes"/>
-      <point x="97" y="723.409"/>
-      <point x="173.741" y="789"/>
-      <point x="273" y="789" type="curve" smooth="yes"/>
-      <point x="536" y="789" type="line" smooth="yes"/>
-      <point x="603.976" y="789"/>
-      <point x="633" y="735.729"/>
-      <point x="633" y="622" type="curve"/>
-      <point x="503" y="622" type="line"/>
-      <point x="503" y="657.112"/>
-      <point x="487.857" y="659"/>
-      <point x="461" y="659" type="curve" smooth="yes"/>
-    </contour>
+    <component base="si_MatraIi" xOffset="67"/>
     <component base="si_Ga"/>
   </outline>
 </glyph>
