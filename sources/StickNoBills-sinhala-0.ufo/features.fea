@@ -577,5 +577,6 @@ feature abvm {
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
+  LigatureCaretByPos \si_NnI 213;
 } GDEF;
 
