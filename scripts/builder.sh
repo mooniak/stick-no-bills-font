@@ -25,3 +25,28 @@ python merger.py ../masters/StickNoBills-ExtraBold.ufo ../sources/StickNoBills-s
 
 cd ../
 python build.py
+
+echo "Update the gh-pages branch? [y/n]"
+res="n"
+read -t 120 res
+
+if [ "$res" = "y" ];
+  then
+  echo "Please do not chage the files while the process ends"
+  cp -a build ~
+  git checkout gh-pages
+  if [ $? -eq 0 ];
+    then
+    rm fonts/*
+    mv ~/build/* fonts
+    rm -r ~/build
+    git add fonts/*
+    git commit -m "Updated fonts"
+    git push
+    git checkout master
+    echo "Done :)"
+  else
+    echo "Update gh-pages failed :("
+  fi
+fi
+echo "Build Finished!"
