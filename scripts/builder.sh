@@ -32,7 +32,7 @@ read -t 120 res
 
 if [ "$res" = "y" ];
   then
-  echo "Please do not chage the files while the process ends"
+  echo "Please DO NOT move/edit files till the process ends!"
   cp -a build ~
   git checkout gh-pages
   if [ $? -eq 0 ];
@@ -44,9 +44,9 @@ if [ "$res" = "y" ];
     git commit -m "Updated fonts"
     git push
     git checkout master
-    echo "Done :)"
+    echo "Done!:) gh-pages branch succsesffuly updated!"
   else
-    echo "Update gh-pages failed :("
+    echo "Failed!:( Could not update gh-pages branch! "
   fi
 fi
 echo "Build Finished!"
