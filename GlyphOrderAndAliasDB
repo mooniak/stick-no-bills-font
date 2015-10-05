@@ -2,7 +2,11 @@
 NULL NULL uni0000
 CR CR uni000D
 space space uni0020
+zwnj zwnj uni200C
+zwj zwj uni200D
+dottedcircle dottedcircle uni25CC
 
+###----- Sinhala ------###
 ### Vowel letters
 anusvara anusvara uni0D82
 visarga visarga uni0D83
@@ -572,13 +576,9 @@ si_Ha.touch	si_Ha.touch
 si_Lla.touch	si_Lla.touch
 si_Fa.touch	si_Fa.touch
 
-### misc
-zwnj zwnj uni200C
-zwj zwj uni200D
-dottedcircle dottedcircle uni25CC
-
 ###----- End of Sinhala ------###
 
+###----- Latin ------###
 # Adobe Latin 3
 
 # space space uni0020 # SPACE
@@ -912,3 +912,131 @@ greaterequal greaterequal uni2265 # GREATER-THAN OR EQUAL TO
 lozenge lozenge uni25CA # LOZENGE
 fi fi uniFB01 # LATIN SMALL LIGATURE FI
 fl fl uniFB02 # LATIN SMALL LIGATURE FL
+
+###----- End of Latin ------###
+
+###----- Tamil ------###
+tml_Anusvara	tml_Anusvara
+tml_Visarga	tml_Visarga
+tml_A	tml_A
+tml_Aa	tml_Aa
+tml_I	tml_I
+tml_Ii	tml_Ii
+tml_U	tml_U
+tml_Uu	tml_Uu
+tml_E	tml_E
+tml_Ee	tml_Ee
+tml_Ai	tml_Ai
+tml_O	tml_O
+tml_Oo	tml_Oo
+tml_Au	tml_Au
+tml_Ka	tml_Ka
+tml_Nga	tml_Nga
+tml_Ca	tml_Ca
+tml_Ja	tml_Ja
+tml_Nya	tml_Nya
+tml_Tta	tml_Tta
+tml_Nna	tml_Nna
+tml_Ta	tml_Ta
+tml_Na	tml_Na
+tml_Nnna	tml_Nnna
+tml_Pa	tml_Pa
+tml_Ma	tml_Ma
+tml_Ya	tml_Ya
+tml_Ra	tml_Ra
+tml_Rra	tml_Rra
+tml_La	tml_La
+tml_Lla	tml_Lla
+tml_Llla	tml_Llla
+tml_Va	tml_Va
+tml_Sha	tml_Sha
+tml_Ssa	tml_Ssa
+tml_Sa	tml_Sa
+tml_Ha	tml_Ha
+tml_MatraAa	tml_MatraAa
+tml_MatraI	tml_MatraI
+tml_MatraIi	tml_MatraIi
+tml_MatraU	tml_MatraU
+tml_MatraUu	tml_MatraUu
+tml_MatraE	tml_MatraE
+tml_MatraEe	tml_MatraEe
+tml_MatraAi	tml_MatraAi
+tml_MatraO	tml_MatraO
+tml_MatraOo	tml_MatraOo
+tml_MatraAu	tml_MatraAu
+tml_Virama	tml_Virama
+tml_Om	tml_Om
+tml_AuLengthmark	tml_AuLengthmark
+tml_Zero	tml_Zero
+tml_One	tml_One
+tml_Two	tml_Two
+tml_Three	tml_Three
+tml_Four	tml_Four
+tml_Five	tml_Five
+tml_Six	tml_Six
+tml_Seven	tml_Seven
+tml_Eight	tml_Eight
+tml_Nine	tml_Nine
+tml_Ten	tml_Ten
+tml_Hundred	tml_Hundred
+tml_Thousand	tml_Thousand
+tml_Day	tml_Day
+tml_Month	tml_Month
+tml_Year	tml_Year
+tml_Debit	tml_Debit
+tml_Credit	tml_Credit
+tml_Above	tml_Above
+tml_Rupee	tml_Rupee
+tml_Number	tml_Number
+tml_Shree	tml_Shree
+tml_KSsa	tml_KSsa
+tml_TtI	tml_TtI
+tml_TtIi	tml_TtIi
+tml_KU	tml_KU
+tml_CU	tml_CU
+tml_NyU	tml_NyU
+tml_TtU	tml_TtU
+tml_NnU	tml_NnU
+tml_TU	tml_TU
+tml_NU	tml_NU
+tml_NnnU	tml_NnnU
+tml_MU	tml_MU
+tml_RU	tml_RU
+tml_RrU	tml_RrU
+tml_LU	tml_LU
+tml_LlU	tml_LlU
+tml_LllU	tml_LllU
+tml_KUu	tml_KUu
+tml_NgUu	tml_NgUu
+tml_CUu	tml_CUu
+tml_NyUu	tml_NyUu
+tml_TtUu	tml_TtUu
+tml_NnUu	tml_NnUu
+tml_TUu	tml_TUu
+tml_NUu	tml_NUu
+tml_NnnUu	tml_NnnUu
+tml_PUu	tml_PUu
+tml_MUu	tml_MUu
+tml_YUu	tml_YUu
+tml_RUu	tml_RUu
+tml_RrUu	tml_RrUu
+tml_LUu	tml_LUu
+tml_LlUu	tml_LlUu
+tml_LllUu	tml_LllUu
+tml_NnAa.alt	tml_NnAa.alt
+tml_NnnAa.alt	tml_NnnAa.alt
+tml_RrAa.alt	tml_RrAa.alt
+tml_MatraAi.alt	tml_MatraAi.alt
+tml_MatraI.alt1	tml_MatraI.alt2
+tml_MatraI.alt2	tml_MatraI.alt3
+tml_MatraI.alt3	tml_MatraI.alt4
+tml_MatraI.alt4	tml_MatraI.alt5
+tml_MatraI.alt5	tml_MatraI.alt6
+tml_MatraI.alt6	tml_MatraI.alt7
+tml_MatraI.alt7	tml_MatraI.alt8
+tml_MatraIi.alt1	tml_MatraIi.alt2
+tml_MatraU.alt1	tml_MatraU.alt2
+tml_MatraI.stylalt1	tml_MatraI.stylalt2
+tml_MatraIi.stylalt1	tml_MatraIi.stylalt2
+
+###----- End of Tamil ------###
