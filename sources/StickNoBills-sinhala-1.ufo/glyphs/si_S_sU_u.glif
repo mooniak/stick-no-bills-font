@@ -19,12 +19,6 @@
       <point x="52" y="-174" type="curve"/>
     </contour>
     <contour>
-      <point x="480" y="131" type="line"/>
-      <point x="620" y="131" type="line"/>
-      <point x="620" y="-205" type="line"/>
-      <point x="480" y="-205" type="line"/>
-    </contour>
-    <contour>
       <point x="360" y="-34" type="line"/>
       <point x="389.143" y="-34"/>
       <point x="440.826" y="-39.9221"/>
@@ -33,6 +27,12 @@
       <point x="435.611" y="-180.252"/>
       <point x="396" y="-174"/>
       <point x="360" y="-174" type="curve"/>
+    </contour>
+    <contour>
+      <point x="480" y="131" type="line"/>
+      <point x="620" y="131" type="line"/>
+      <point x="620" y="-205" type="line"/>
+      <point x="480" y="-205" type="line"/>
     </contour>
     <component base="si_Ssa"/>
   </outline>
