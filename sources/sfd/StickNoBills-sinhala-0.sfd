@@ -23,8 +23,8 @@ FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1444024930
-ModificationTime: 1444045537
+CreationTime: 1444049496
+ModificationTime: 1444109188
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -795,15 +795,15 @@ NameList: sinhala
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 480 8 9
+WinInfo: 324 9 8
 Grid
--1074 242 m 4
- 2133 242 l 1028
+-1071 242.5 m 4
+ 2136 242.5 l 1028
 -1069 192.5 m 0
  2138 192.5 l 1024
 EndSplineSet
 AnchorClass2: "si_rakar" "abvmAboveBaseMarkinSinhalalooku subtable" 
-BeginChars: 65553 532
+BeginChars: 65545 539
 
 StartChar: NameMe.124
 Encoding: 65536 -1 0
@@ -820,38 +820,38 @@ EndChar
 StartChar: anusvara
 Encoding: 1 3458 1
 GlifName: anusvara
-Width: 469
+Width: 449
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 45 130 384 130
-VStem: 30 135 304 135
+VStem: 20 135 294 135
 LayerCount: 2
 Back
 Fore
 SplineSet
-259.334 45 m 257
- 259.334 85 l 257
- 368.889 85 388.668 150.602 388.668 248 c 258
- 388.668 311 l 258
- 388.668 408.398 366.889 474 259.334 474 c 257
- 259.334 514 l 257
- 280.405 514 l 258
- 425.668 514 428.668 369.253 428.668 311 c 258
- 428.668 248 l 258
- 428.668 189.747 425.668 45 280.405 45 c 258
- 259.334 45 l 257
-188.263 45 m 258
- 43 45 40 189.747 40 248 c 258
- 40 311 l 258
- 40 369.253 43 514 188.263 514 c 258
- 209.334 514 l 257
- 209.334 474 l 257
- 101.779 474 80 408.398 80 311 c 258
- 80 248 l 258
- 80 150.602 99.7793 85 209.334 85 c 257
- 209.334 45 l 257
- 188.263 45 l 258
+249.333984375 45 m 257
+ 249.333984375 85 l 257
+ 358.888671875 85 378.66796875 150.6015625 378.66796875 248 c 258
+ 378.66796875 311 l 258
+ 378.66796875 408.3984375 356.888671875 474 249.333984375 474 c 257
+ 249.333984375 514 l 257
+ 270.405273438 514 l 258
+ 415.66796875 514 418.66796875 369.252929688 418.66796875 311 c 258
+ 418.66796875 248 l 258
+ 418.66796875 189.747070312 415.66796875 45 270.405273438 45 c 258
+ 249.333984375 45 l 257
+178.262695312 45 m 258
+ 33 45 30 189.747070312 30 248 c 258
+ 30 311 l 258
+ 30 369.252929688 33 514 178.262695312 514 c 258
+ 199.333984375 514 l 257
+ 199.333984375 474 l 257
+ 91.779296875 474 70 408.3984375 70 311 c 258
+ 70 248 l 258
+ 70 150.6015625 89.779296875 85 199.333984375 85 c 257
+ 199.333984375 45 l 257
+ 178.262695312 45 l 258
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -1006,7 +1006,7 @@ EndChar
 StartChar: si_Aa
 Encoding: 4 3462 4
 GlifName: si_A_a
-Width: 811
+Width: 794
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -1149,7 +1149,7 @@ EndChar
 StartChar: si_Ae
 Encoding: 5 3463 6
 GlifName: si_A_e
-Width: 800
+Width: 790
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -1223,7 +1223,7 @@ EndChar
 StartChar: si_Ai
 Encoding: 17 3475 7
 GlifName: si_A_i
-Width: 1051
+Width: 1036
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -1237,7 +1237,7 @@ EndChar
 StartChar: si_Au
 Encoding: 20 3478 8
 GlifName: si_A_u
-Width: 1020
+Width: 996
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -1259,6 +1259,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 18 3510 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ba si_Halant
 EndChar
 
@@ -1273,6 +1274,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 18 3510 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ba si_MatraI
 EndChar
 
@@ -1287,6 +1289,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 18 3510 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ba si_MatraIi
 EndChar
 
@@ -1355,6 +1358,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 18 3510 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ba si_MatraU
 EndChar
 
@@ -1369,6 +1373,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 18 3510 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ba si_MatraUu
 EndChar
 
@@ -1430,6 +1435,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 18 3510 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Ba si_Reph
 EndChar
 
@@ -1456,6 +1462,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 30 3511 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Bha si_Halant
 EndChar
 
@@ -1470,6 +1477,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 30 3511 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Bha si_MatraI
 EndChar
 
@@ -1553,6 +1561,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 30 3511 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Bha si_MatraU
 EndChar
 
@@ -1567,6 +1576,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 30 3511 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Bha si_MatraUu
 EndChar
 
@@ -1685,6 +1695,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 30 3511 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Bha si_Reph
 EndChar
 
@@ -1719,7 +1730,8 @@ SplineSet
  163.821 438.116 129.99 422.033 116 389 c 257
  77 399 l 257
  90.7598 451.927 144.095 478.996 198.724 478.996 c 256
- 265.887 478.996 335.004 438.08 334.932 354 c 258
+ 232.3055 478.996 266.3755 468.767 292.041125 448.028 c 256
+ 317.70675 427.289 334.968 396.04 334.932 354 c 258
  335 309 l 257
  209 309 l 258
  149.782 309 114.737 252.398 114.737 191.123 c 256
@@ -1728,7 +1740,11 @@ SplineSet
  136.137 0 72.8038 98.7086 72.8038 191.135 c 256
  72.8038 235.86 87.6331 279.113 115.457 309 c 257
  30.0254 309 l 257
-206 819 m 258
+85.333 612 m 257
+ 85.333 652 l 257
+ 115.822 652 l 257
+ 101.899 670.11 94.9775 692.449 94.9775 714.83 c 256
+ 94.9775 766.802 132.309 819 206 819 c 258
  279 819 l 257
  279 779 l 257
  196 779 l 258
@@ -1737,10 +1753,6 @@ SplineSet
  335 652 l 257
  335 612 l 257
  85.333 612 l 257
- 85.333 652 l 257
- 115.822 652 l 257
- 101.899 670.11 94.9775 692.449 94.9775 714.83 c 256
- 94.9775 766.802 132.309 819 206 819 c 258
 335 0 m 257
  335 40 l 257
  448.056 40 519 95.2852 519 241 c 258
@@ -1819,6 +1831,7 @@ SplineSet
  503.333 770 455.333 779 410 779 c 258
  334.5 779 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ca si_MatraI
 EndChar
 
@@ -1881,13 +1894,14 @@ SplineSet
  494.222 819 571.174 789.785 571.2 693.8 c 256
  571.2 643.88 530.88 603.56 480.96 603.56 c 256
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ca si_MatraIi
 EndChar
 
 StartChar: si_CR.halant
 Encoding: 142 -1 36
 GlifName: si_C_R_.halant
-Width: 565
+Width: 590
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -1900,7 +1914,7 @@ EndChar
 StartChar: si_CRI
 Encoding: 144 -1 37
 GlifName: si_C_R_I_
-Width: 565
+Width: 590
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -1908,13 +1922,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 34 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_CRa si_MatraI
 EndChar
 
 StartChar: si_CRIi
 Encoding: 145 -1 38
 GlifName: si_C_R_I_i
-Width: 594
+Width: 590
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -1922,6 +1937,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 35 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_CRa si_MatraIi
 EndChar
 
@@ -1936,6 +1952,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 42 3488 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Ca si_Halant si_Ra
 EndChar
 
@@ -1951,6 +1968,7 @@ Back
 Fore
 Refer: 274 3540 N 1 0 0 1 80 0 2
 Refer: 42 3488 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ca si_MatraU
 EndChar
 
@@ -1966,6 +1984,7 @@ Back
 Fore
 Refer: 276 3542 N 1 0 0 1 62 0 2
 Refer: 42 3488 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ca si_MatraUu
 EndChar
 
@@ -2071,6 +2090,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 42 3488 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Ca si_Reph
 EndChar
 
@@ -2089,132 +2109,137 @@ EndChar
 StartChar: si_Ch.halant
 Encoding: 146 -1 45
 GlifName: si_C_h.halant
-Width: 655
+Width: 622
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-313.001 489 m 257
- 313.001 819 l 257
- 353.001 819 l 257
- 353.001 526 l 257
- 320.685 489 l 257
- 313.001 489 l 257
+313.000976562 489 m 257
+ 313.000976562 819 l 257
+ 353.000976562 819 l 257
+ 353.000976562 526 l 257
+ 320.684570312 489 l 257
+ 313.000976562 489 l 257
 EndSplineSet
 Refer: 50 3489 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Cha si_Halant
 EndChar
 
 StartChar: si_ChI
 Encoding: 147 -1 46
 GlifName: si_C_hI_
-Width: 628
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 266 3538 N 1 0 0 1 197 29 2
 Refer: 50 3489 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Cha si_MatraI
 EndChar
 
 StartChar: si_ChIi
 Encoding: 148 -1 47
 GlifName: si_C_hI_i
-Width: 628
+Width: 622
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 50 3489 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Cha si_MatraIi
 EndChar
 
 StartChar: si_ChU
 Encoding: 149 -1 48
 GlifName: si_C_hU_
-Width: 628
+Width: 622
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 50 3489 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Cha si_MatraU
 EndChar
 
 StartChar: si_ChUu
 Encoding: 150 -1 49
 GlifName: si_C_hU_u
-Width: 628
+Width: 622
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 50 3489 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Cha si_MatraUu
 EndChar
 
 StartChar: si_Cha
 Encoding: 28 3489 50
 GlifName: si_C_ha
-Width: 628
+Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -12 135 236 124 251 84 283 119 283 52 451 124
 VStem: 34 140 250 89 454 140
 LayerCount: 2
 Back
 Fore
 SplineSet
-279 -12 m 258
- 102 -12 30 59.2461 30 202 c 257
- 70 202 l 257
- 70 70.8008 146 28 279 28 c 258
- 341 28 l 258
- 474 28 550 71.8008 550 202 c 257
- 550 264 l 257
- 441 264 l 258
- 358 264 287 332 287 415 c 256
- 287 498 358 566 441 566 c 256
- 503.085 566 556.778 527.952 579.895 474.038 c 257
- 544.079 461.744 l 257
- 526.184 500.869 486.612 528.25 441 528.25 c 256
- 378.75 528.25 327.75 477.25 327.75 415 c 256
- 327.75 352.75 378.75 302 441 302 c 258
- 549 302 l 257
- 581 302 590 288 590 265 c 257
- 590 202 l 257
- 590 59.2461 518 -12 341 -12 c 258
- 279 -12 l 258
-30 251 m 257
- 30 373 97 402 194 402 c 258
- 287 402 l 257
- 287 469 256.207 524 178 524 c 256
- 115.421 524 80.4727 500.315 67 464 c 257
- 28 477 l 257
- 53.707 541.871 114.119 564 178 564 c 256
- 228.978 564 326.999 539.449 326.951 415 c 257
- 327 362 l 257
- 195 362 l 258
- 86 362 70.001 317.104 70 251 c 257
- 30 251 l 257
-360 498 m 257
- 310 494 l 257
- 530.721 785 l 257
- 570 774 l 257
- 360 498 l 257
+592 193 m 257
+ 592 49.74609375 520 -6 343 -6 c 258
+ 281 -6 l 258
+ 104 -6 32 49.74609375 32 192.5 c 257
+ 72 192.5 l 257
+ 72 61.30078125 148 34 281 34 c 258
+ 343 34 l 258
+ 476 34 552 62.30078125 552 193 c 257
+ 552 264 l 257
+ 443 264 l 258
+ 360 264 289 332 289 415 c 256
+ 289 498 360 566 443 566 c 256
+ 505.084960938 566 558.778320312 527.952148438 581.89453125 474.038085938 c 257
+ 546.079101562 461.744140625 l 257
+ 528.18359375 500.869140625 488.612304688 528.25 443 528.25 c 256
+ 380.75 528.25 329.75 477.25 329.75 415 c 256
+ 329.75 352.75 380.75 302 443 302 c 258
+ 551 302 l 257
+ 583 302 592 288 592 265 c 257
+ 592 193 l 257
+32 242 m 257
+ 32 364 99 402 196 402 c 258
+ 289 402 l 257
+ 289 469 258.20703125 524 180 524 c 256
+ 117.420898438 524 82.47265625 500.315429688 69 464 c 257
+ 30 477 l 257
+ 55.70703125 541.87109375 116.119140625 564 180 564 c 256
+ 230.977539062 564 328.999023438 539.44921875 328.951171875 415 c 257
+ 329 362 l 257
+ 197 362 l 258
+ 88 362 72.0009765625 308.103515625 72 242 c 257
+ 32 242 l 257
+362 498 m 257
+ 312 494 l 257
+ 532.720703125 785 l 257
+ 572 774 l 257
+ 362 498 l 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -2291,7 +2316,7 @@ EndChar
 StartChar: si_D.halant
 Encoding: 263 -1 52
 GlifName: si_D_.halant
-Width: 522
+Width: 532
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -2300,6 +2325,7 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 272 0 2
 Refer: 73 3503 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Da si_Halant
 EndChar
 
@@ -2353,6 +2379,7 @@ SplineSet
  33.3584 69.1836 30 118.444 30 209 c 258
 EndSplineSet
 Refer: 96 -1 N 1 0 0 1 141 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_DDha si_MatraI
 EndChar
 
@@ -2380,6 +2407,7 @@ SplineSet
  33.3584 68.1836 30 117.444 30 208 c 258
 EndSplineSet
 Refer: 97 -1 N 1 0 0 1 141 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_DDha si_MatraIi
 EndChar
 
@@ -2434,6 +2462,7 @@ SplineSet
  33.3584 69.1836 30 118.444 30 209 c 258
 EndSplineSet
 Refer: 103 -1 N 1 0 0 1 141 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_DDha si_MatraUu
 EndChar
 
@@ -2467,67 +2496,69 @@ EndChar
 StartChar: si_DI
 Encoding: 267 -1 59
 GlifName: si_D_I_
-Width: 522
+Width: 537
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-25 602 m 257
- 65 602 l 257
- 65 654.112 74.1426 749 217 749 c 257
- 271 749 l 257
- 413.857 749 423 654.112 423 602 c 257
- 463 602 l 257
- 463 630 l 257
- 463 723 387.259 789 287 789 c 257
- 201 789 l 257
- 100.741 789 25 723 25 630 c 257
- 25 602 l 257
+30 602 m 257
+ 70 602 l 257
+ 70 654.112304688 79.142578125 749 222 749 c 257
+ 276 749 l 257
+ 418.857421875 749 428 654.112304688 428 602 c 257
+ 468 602 l 257
+ 468 630 l 257
+ 468 723 392.258789062 789 292 789 c 257
+ 206 789 l 257
+ 105.741210938 789 30 723 30 630 c 257
+ 30 602 l 257
 EndSplineSet
-Refer: 73 3503 N 1 0 0 1 0 0 2
+Refer: 73 3503 N 1 0 0 1 5 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Da si_MatraI
 EndChar
 
 StartChar: si_DIi
 Encoding: 268 -1 60
 GlifName: si_D_I_i
-Width: 522
+Width: 542
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-398.96 573.56 m 256
- 349.04 573.56 308.72 613.88 308.72 663.8 c 256
- 308.72 713.72 349.04 754.04 398.96 754.04 c 256
- 448.88 754.04 489.2 713.72 489.2 663.8 c 256
- 489.2 613.88 448.88 573.56 398.96 573.56 c 256
-20 602 m 257
- 20 630 l 257
- 20 723 95.7412 789 196 789 c 257
- 327 789 l 257
- 412.222 789 489.174 759.785 489.2 663.8 c 257
- 444 663 l 257
- 444 741 357.783 749 311 749 c 257
- 212 749 l 257
- 69.1426 749 60 654.112 60 602 c 257
- 20 602 l 257
+408.959960938 573.559570312 m 256
+ 359.040039062 573.559570312 318.719726562 613.879882812 318.719726562 663.799804688 c 256
+ 318.719726562 713.719726562 359.040039062 754.040039062 408.959960938 754.040039062 c 256
+ 458.879882812 754.040039062 499.200195312 713.719726562 499.200195312 663.799804688 c 256
+ 499.200195312 613.879882812 458.879882812 573.559570312 408.959960938 573.559570312 c 256
+30 602 m 257
+ 30 630 l 257
+ 30 723 105.741210938 789 206 789 c 257
+ 337 789 l 257
+ 422.221679688 789 499.173828125 759.78515625 499.200195312 663.799804688 c 257
+ 454 663 l 257
+ 454 741 367.783203125 749 321 749 c 257
+ 222 749 l 257
+ 79.142578125 749 70 654.112304688 70 602 c 257
+ 30 602 l 257
 EndSplineSet
-Refer: 73 3503 N 1 0 0 1 0 0 2
+Refer: 73 3503 N 1 0 0 1 10 0 2
 PickledDataWithLists: "(dp1
 ."
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Da si_MatraIi
 EndChar
 
 StartChar: si_DR.halant
 Encoding: 275 -1 61
 GlifName: si_D_R_.halant
-Width: 522
+Width: 532
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -2540,7 +2571,7 @@ EndChar
 StartChar: si_DRI
 Encoding: 277 -1 62
 GlifName: si_D_R_I_
-Width: 522
+Width: 532
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -2554,7 +2585,7 @@ EndChar
 StartChar: si_DRIi
 Encoding: 278 -1 63
 GlifName: si_D_R_I_i
-Width: 522
+Width: 532
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -2568,7 +2599,7 @@ EndChar
 StartChar: si_DRa
 Encoding: 276 -1 64
 GlifName: si_D_R_a
-Width: 522
+Width: 532
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -2582,7 +2613,7 @@ EndChar
 StartChar: si_DU
 Encoding: 269 -1 65
 GlifName: si_D_U_
-Width: 522
+Width: 473
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -2642,13 +2673,14 @@ I-197
 sg8
 I140
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Da si_MatraU
 EndChar
 
 StartChar: si_DUu
 Encoding: 270 -1 66
 GlifName: si_D_U_u
-Width: 483
+Width: 473
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -2742,13 +2774,14 @@ I457
 sg8
 I121
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Da si_MatraUu
 EndChar
 
 StartChar: si_DV.halant
 Encoding: 515 -1 67
 GlifName: si_D_V_.halant
-Width: 755
+Width: 684
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -2756,126 +2789,130 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-273 392 m 257
- 254.468 398.285 238.04 401.168 223.518 401.168 c 256
- 147.925 401.168 124 323.047 124 240 c 258
- 124 209 l 258
- 124 128.436 125.558 84.5967 190 8 c 257
- 148 -8 l 257
- 88.3584 69.1836 84 118.444 84 209 c 258
- 84 240 l 258
- 84 383.545 149.263 443.66 223.526 443.66 c 256
- 239.8 443.66 256.505 440.773 273.051 435.245 c 256
- 273 392 l 257
+219 392 m 257
+ 200.467773438 398.28515625 184.040039062 401.16796875 169.517578125 401.16796875 c 256
+ 93.9248046875 401.16796875 70 323.046875 70 240 c 258
+ 70 209 l 258
+ 70 128.435546875 71.5576171875 84.5966796875 136 8 c 257
+ 94 -8 l 257
+ 34.3583984375 69.18359375 30 118.444335938 30 209 c 258
+ 30 240 l 258
+ 30 383.544921875 95.2626953125 443.66015625 169.526367188 443.66015625 c 256
+ 185.799804688 443.66015625 202.504882812 440.7734375 219.05078125 435.245117188 c 256
+ 219 392 l 257
 EndSplineSet
-Refer: 496 -1 N 1 0 0 1 190 0 2
+Refer: 496 -1 N 1 0 0 1 136 0 2
 EndChar
 
 StartChar: si_DVI
 Encoding: 516 -1 68
 GlifName: si_D_V_I_
-Width: 755
+Width: 685
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-148 -8 m 257
- 88.3584 69.1836 84 118.444 84 209 c 258
- 84 240 l 258
- 84 383.545 149.263 443.66 223.526 443.66 c 256
- 239.8 443.66 256.505 440.773 273.051 435.245 c 256
- 273 392 l 257
- 254.468 398.285 238.04 401.168 223.518 401.168 c 256
- 147.925 401.168 124 323.047 124 240 c 258
- 124 209 l 258
- 124 128.436 125.558 84.5967 190 8 c 257
- 148 -8 l 257
+94 -8 m 257
+ 34.3583984375 69.18359375 30 118.444335938 30 209 c 258
+ 30 240 l 258
+ 30 383.544921875 95.2626953125 443.66015625 169.526367188 443.66015625 c 256
+ 185.799804688 443.66015625 202.504882812 440.7734375 219.05078125 435.245117188 c 256
+ 219 392 l 257
+ 200.467773438 398.28515625 184.040039062 401.16796875 169.517578125 401.16796875 c 256
+ 93.9248046875 401.16796875 70 323.046875 70 240 c 258
+ 70 209 l 258
+ 70 128.435546875 71.5576171875 84.5966796875 136 8 c 257
+ 94 -8 l 257
 EndSplineSet
-Refer: 497 -1 N 1 0 0 1 190 0 2
+Refer: 497 -1 N 1 0 0 1 136 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_DVa si_MatraI
 EndChar
 
 StartChar: si_DVIi
 Encoding: 517 -1 69
 GlifName: si_D_V_I_i
-Width: 758
+Width: 684
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-148 -8 m 257
- 88.3584 69.1836 84 118.444 84 209 c 258
- 84 240 l 258
- 84 383.545 149.263 443.66 223.526 443.66 c 256
- 239.8 443.66 256.505 440.773 273.051 435.245 c 256
- 273 392 l 257
- 254.468 398.285 238.04 401.168 223.518 401.168 c 256
- 147.925 401.168 124 323.047 124 240 c 258
- 124 209 l 258
- 124 128.436 125.558 84.5967 190 8 c 257
- 148 -8 l 257
+94 -8 m 257
+ 34.3583984375 69.18359375 30 118.444335938 30 209 c 258
+ 30 240 l 258
+ 30 383.544921875 95.2626953125 443.66015625 169.526367188 443.66015625 c 256
+ 185.799804688 443.66015625 202.504882812 440.7734375 219.05078125 435.245117188 c 256
+ 219 392 l 257
+ 200.467773438 398.28515625 184.040039062 401.16796875 169.517578125 401.16796875 c 256
+ 93.9248046875 401.16796875 70 323.046875 70 240 c 258
+ 70 209 l 258
+ 70 128.435546875 71.5576171875 84.5966796875 136 8 c 257
+ 94 -8 l 257
 EndSplineSet
-Refer: 498 -1 N 1 0 0 1 190 0 2
+Refer: 498 -1 N 1 0 0 1 136 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_DVa si_MatraIi
 EndChar
 
 StartChar: si_DVU
 Encoding: 518 -1 70
 GlifName: si_D_V_U_
-Width: 758
+Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-148 -8 m 257
- 88.3584 69.1836 84 118.444 84 209 c 258
- 84 240 l 258
- 84 383.545 149.263 443.66 223.526 443.66 c 256
- 239.8 443.66 256.505 440.773 273.051 435.245 c 256
- 273 392 l 257
- 254.468 398.285 238.04 401.168 223.518 401.168 c 256
- 147.925 401.168 124 323.047 124 240 c 258
- 124 209 l 258
- 124 128.436 125.558 84.5967 190 8 c 257
- 148 -8 l 257
+94 -8 m 257
+ 34.3583984375 69.18359375 30 118.444335938 30 209 c 258
+ 30 240 l 258
+ 30 383.544921875 95.2626953125 443.66015625 169.526367188 443.66015625 c 256
+ 185.799804688 443.66015625 202.504882812 440.7734375 219.05078125 435.245117188 c 256
+ 219 392 l 257
+ 200.467773438 398.28515625 184.040039062 401.16796875 169.517578125 401.16796875 c 256
+ 93.9248046875 401.16796875 70 323.046875 70 240 c 258
+ 70 209 l 258
+ 70 128.435546875 71.5576171875 84.5966796875 136 8 c 257
+ 94 -8 l 257
 EndSplineSet
-Refer: 503 -1 N 1 0 0 1 190 0 2
+Refer: 503 -1 N 1 0 0 1 136 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_DVa si_MatraU
 EndChar
 
 StartChar: si_DVUu
 Encoding: 519 -1 71
 GlifName: si_D_V_U_u
-Width: 758
+Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-148 -8 m 257
- 88.3584 69.1836 84 118.444 84 209 c 258
- 84 240 l 258
- 84 383.545 149.263 443.66 223.526 443.66 c 256
- 239.8 443.66 256.505 440.773 273.051 435.245 c 256
- 273 392 l 257
- 254.468 398.285 238.04 401.168 223.518 401.168 c 256
- 147.925 401.168 124 323.047 124 240 c 258
- 124 209 l 258
- 124 128.436 125.558 84.5967 190 8 c 257
- 148 -8 l 257
+94 -8 m 257
+ 34.3583984375 69.18359375 30 118.444335938 30 209 c 258
+ 30 240 l 258
+ 30 383.544921875 95.2626953125 443.66015625 169.526367188 443.66015625 c 256
+ 185.799804688 443.66015625 202.504882812 440.7734375 219.05078125 435.245117188 c 256
+ 219 392 l 257
+ 200.467773438 398.28515625 184.040039062 401.16796875 169.517578125 401.16796875 c 256
+ 93.9248046875 401.16796875 70 323.046875 70 240 c 258
+ 70 209 l 258
+ 70 128.435546875 71.5576171875 84.5966796875 136 8 c 257
+ 94 -8 l 257
 EndSplineSet
-Refer: 504 -1 N 1 0 0 1 190 0 2
+Refer: 504 -1 N 1 0 0 1 136 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_DVa si_MatraUu
 EndChar
 
@@ -2959,7 +2996,7 @@ EndChar
 StartChar: si_Da
 Encoding: 42 3503 73
 GlifName: si_D_a
-Width: 522
+Width: 532
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -3038,7 +3075,7 @@ EndChar
 StartChar: si_Da.reph
 Encoding: 274 -1 74
 GlifName: si_D_a.reph
-Width: 522
+Width: 532
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3046,6 +3083,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 73 3503 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Da si_Reph
 EndChar
 
@@ -3064,7 +3102,7 @@ EndChar
 StartChar: si_Dd.halant
 Encoding: 221 -1 76
 GlifName: si_D_d.halant
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3130,13 +3168,14 @@ SplineSet
  524.359 819 579.333 776 579.333 673 c 257
  539.333 673 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Dda si_Halant
 EndChar
 
 StartChar: si_DdI
 Encoding: 222 -1 77
 GlifName: si_D_dI_
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3199,13 +3238,14 @@ SplineSet
  524.359 819 579.333 776 579.333 673 c 257
  539.333 673 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Dda si_MatraI
 EndChar
 
 StartChar: si_DdIi
 Encoding: 223 -1 78
 GlifName: si_D_dI_i
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3270,13 +3310,14 @@ SplineSet
  594 241 l 256
  552 241 l 256
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Dda si_MatraIi
 EndChar
 
 StartChar: si_DdR.halant
 Encoding: 227 -1 79
 GlifName: si_D_dR_.halant
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -3289,7 +3330,7 @@ EndChar
 StartChar: si_DdRI
 Encoding: 229 -1 80
 GlifName: si_D_dR_I_
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3297,13 +3338,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 77 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_DdRa si_MatraI
 EndChar
 
 StartChar: si_DdRIi
 Encoding: 230 -1 81
 GlifName: si_D_dR_I_i
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3311,13 +3353,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 78 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_DdRa si_MatraIi
 EndChar
 
 StartChar: si_DdRa
 Encoding: 228 -1 82
 GlifName: si_D_dR_a
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3325,13 +3368,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 85 3497 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Dda si_Halant si_Ra
 EndChar
 
 StartChar: si_DdU
 Encoding: 224 -1 83
 GlifName: si_D_dU_
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3356,13 +3400,14 @@ SplineSet
  93 -165 l 257
 EndSplineSet
 Refer: 85 3497 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Dda si_MatraU
 EndChar
 
 StartChar: si_DdUu
 Encoding: 225 -1 84
 GlifName: si_D_dU_u
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3389,13 +3434,14 @@ SplineSet
  544 83 l 257
 EndSplineSet
 Refer: 85 3497 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Dda si_MatraUu
 EndChar
 
 StartChar: si_Dda
 Encoding: 36 3497 85
 GlifName: si_D_da
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -3506,7 +3552,7 @@ EndChar
 StartChar: si_Dda.reph
 Encoding: 226 -1 86
 GlifName: si_D_da.reph
-Width: 632
+Width: 624
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3514,6 +3560,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 85 3497 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Dda si_Reph
 EndChar
 
@@ -3547,6 +3594,7 @@ SplineSet
  552.001 518 l 257
 EndSplineSet
 Refer: 93 3498 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ddha si_Halant
 EndChar
 
@@ -3574,13 +3622,14 @@ SplineSet
  158.765 870.293 196.479 922 272 922 c 258
 EndSplineSet
 Refer: 93 3498 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ddha si_MatraI
 EndChar
 
 StartChar: si_DdhIi
 Encoding: 233 -1 90
 GlifName: si_D_dhI_i
-Width: 624
+Width: 627
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3658,6 +3707,7 @@ I703
 sg8
 I116
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ddha si_MatraIi
 EndChar
 
@@ -3689,6 +3739,7 @@ SplineSet
  92 -165 l 257
 EndSplineSet
 Refer: 93 3498 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ddha si_MatraU
 EndChar
 
@@ -3722,6 +3773,7 @@ SplineSet
  542 83 l 257
 EndSplineSet
 Refer: 93 3498 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ddha si_MatraUu
 EndChar
 
@@ -3861,7 +3913,7 @@ EndChar
 StartChar: si_Dh.halant
 Encoding: 284 -1 95
 GlifName: si_D_h.halant
-Width: 632
+Width: 580
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3919,13 +3971,14 @@ SplineSet
  501.333 770 453.333 779 408 779 c 258
  318.5 779 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Dha si_Halant
 EndChar
 
 StartChar: si_DhI
 Encoding: 285 -1 96
 GlifName: si_D_hI_
-Width: 632
+Width: 580
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -3981,13 +4034,14 @@ SplineSet
  486.359 819 541.333 776 541.333 673 c 257
  501.333 673 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Dha si_MatraI
 EndChar
 
 StartChar: si_DhIi
 Encoding: 286 -1 97
 GlifName: si_D_hI_i
-Width: 632
+Width: 581
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -4046,13 +4100,14 @@ SplineSet
  550 199 l 256
  508 199 l 256
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Dha si_MatraIi
 EndChar
 
 StartChar: si_DhR.halant
 Encoding: 290 -1 98
 GlifName: si_D_hR_.halant
-Width: 593
+Width: 580
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -4065,7 +4120,7 @@ EndChar
 StartChar: si_DhRI
 Encoding: 292 -1 99
 GlifName: si_D_hR_I_
-Width: 593
+Width: 580
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -4073,13 +4128,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 96 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_DhRa si_MatraI
 EndChar
 
 StartChar: si_DhRIi
 Encoding: 293 -1 100
 GlifName: si_D_hR_I_i
-Width: 593
+Width: 581
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -4087,6 +4143,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 97 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_DhRa si_MatraIi
 EndChar
 
@@ -4101,6 +4158,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 104 3504 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Dha si_Halant si_Ra
 EndChar
 
@@ -4132,6 +4190,7 @@ SplineSet
  49 -165 l 257
 EndSplineSet
 Refer: 104 3504 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Dha si_MatraU
 EndChar
 
@@ -4165,6 +4224,7 @@ SplineSet
  498 83 l 257
 EndSplineSet
 Refer: 104 3504 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Dha si_MatraUu
 EndChar
 
@@ -4277,6 +4337,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 104 3504 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Dha si_Reph
 EndChar
 
@@ -4295,7 +4356,7 @@ EndChar
 StartChar: si_DvocR
 Encoding: 271 -1 107
 GlifName: si_D_vocR_
-Width: 867
+Width: 826
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -4304,21 +4365,23 @@ Back
 Fore
 Refer: 272 3544 N 1 0 0 1 512 0 2
 Refer: 73 3503 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_5 subtable" si_Da si_MatraR
 EndChar
 
 StartChar: si_DvocRr
 Encoding: 272 -1 108
 GlifName: si_D_vocR_r
-Width: 1212
+Width: 1183
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 273 3570 N 1 0 0 1 512 0 2
 Refer: 73 3503 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_5 subtable" si_Da si_MatraRr
 EndChar
 
@@ -4528,24 +4591,25 @@ EndChar
 StartChar: si_F.halant
 Encoding: 441 -1 111
 GlifName: si_F_.halant
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 119 3526 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Fa si_Halant
 EndChar
 
 StartChar: si_FI
 Encoding: 442 -1 112
 GlifName: si_F_I_
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4556,10 +4620,10 @@ EndChar
 StartChar: si_FIi
 Encoding: 443 -1 113
 GlifName: si_F_I_i
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4570,10 +4634,10 @@ EndChar
 StartChar: si_FRI
 Encoding: 449 -1 114
 GlifName: si_F_R_I_
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4583,10 +4647,10 @@ EndChar
 StartChar: si_FRIi
 Encoding: 450 -1 115
 GlifName: si_F_R_I_i
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4596,10 +4660,10 @@ EndChar
 StartChar: si_FRa
 Encoding: 448 -1 116
 GlifName: si_F_R_a
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4610,10 +4674,10 @@ EndChar
 StartChar: si_FU
 Encoding: 444 -1 117
 GlifName: si_F_U_
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4624,10 +4688,10 @@ EndChar
 StartChar: si_FUu
 Encoding: 445 -1 118
 GlifName: si_F_U_u
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4638,10 +4702,10 @@ EndChar
 StartChar: si_Fa
 Encoding: 61 3526 119
 GlifName: si_F_a
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 143 425 139
 VStem: 30 139 261 128 481 139
 LayerCount: 2
@@ -4650,20 +4714,20 @@ Fore
 SplineSet
 30 242 m 257
  30 424 l 258
- 30 508.469449902 97.6729 564 182 564 c 256
+ 30 508.469 97.6729 564 182 564 c 256
  239.396 564 288.803 538.875 315 496.718 c 257
  341.197 538.875 390.604 564 448 564 c 256
- 532.327 564 600 508.469449902 600 424 c 258
+ 532.327 564 600 508.469 600 424 c 258
  600 242 l 257
  560 242 l 257
  560 423 l 258
- 560 489.685964471 511.263 524 448 524 c 256
- 383.737 524 335 489.685964471 335 423 c 258
+ 560 489.686 511.263 524 448 524 c 256
+ 383.737 524 335 489.686 335 423 c 258
  335 242 l 257
  295 242 l 257
  295 423 l 258
- 295 489.685964471 246.263 524 182 524 c 256
- 118.737 524 70 489.685964471 70 423 c 258
+ 295 489.686 246.263 524 182 524 c 256
+ 118.737 524 70 489.686 70 423 c 258
  70 242 l 257
  30 242 l 257
 30.0791 192 m 256
@@ -4720,10 +4784,10 @@ EndChar
 StartChar: si_Fa.reph
 Encoding: 446 -1 120
 GlifName: si_F_a.reph
-Width: 650
+Width: 630
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -4754,6 +4818,7 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 457 0 2
 Refer: 132 3484 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ga si_Halant
 EndChar
 
@@ -4763,7 +4828,7 @@ GlifName: si_G_D_ha
 Width: 1050
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -8 140 200 2 241 106 616 138
 VStem: 30 141 337 124 506 138 721 100 898 141
 LayerCount: 2
@@ -4822,16 +4887,16 @@ SplineSet
  252 271 l 256
 977 202 m 256
  977 514 l 258
- 977 665.823608792 905.1304366 715 787 715 c 257
+ 977 665.824 905.13 715 787 715 c 257
  787 755 l 257
- 951.176741784 755 1019 675.274453599 1019 514 c 258
+ 951.177 755 1019 675.274 1019 514 c 258
  1019 202 l 256
  977 202 l 256
-569.461 630.188 m 261
- 529.715 643.683 l 261
- 573.39093795 722.97536852 649.891868329 755 731 755 c 257
+569.461 630.188 m 257
+ 529.715 643.683 l 257
+ 573.391 722.975 649.892 755 731 755 c 257
  731 715 l 257
- 662.272238356 715 602.907230665 689.847386738 569.461 630.188 c 261
+ 662.272 715 602.907 689.847 569.461 630.188 c 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -4905,6 +4970,7 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 65 0 2
 Refer: 132 3484 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ga si_MatraI
 EndChar
 
@@ -4920,13 +4986,14 @@ Back
 Fore
 Refer: 267 3539 N 1 0 0 1 80 0 2
 Refer: 132 3484 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ga si_MatraIi
 EndChar
 
 StartChar: si_GR.halant
 Encoding: 115 -1 126
 GlifName: si_G_R_.halant
-Width: 717
+Width: 703
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -4939,7 +5006,7 @@ EndChar
 StartChar: si_GRI
 Encoding: 116 -1 127
 GlifName: si_G_R_I_
-Width: 717
+Width: 703
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -4947,13 +5014,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 124 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_GRa si_MatraI
 EndChar
 
 StartChar: si_GRIi
 Encoding: 117 -1 128
 GlifName: si_G_R_I_i
-Width: 717
+Width: 703
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -4961,6 +5029,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 125 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_GRa si_MatraIi
 EndChar
 
@@ -4975,6 +5044,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 132 3484 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Ga si_Halant si_Ra
 EndChar
 
@@ -5036,13 +5106,14 @@ SplineSet
  672.921 106 l 256
  633 106 l 256
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ga si_MatraU
 EndChar
 
 StartChar: si_GUu
 Encoding: 112 -1 131
 GlifName: si_G_U_u
-Width: 703
+Width: 726
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -5152,6 +5223,7 @@ I524
 sg8
 I40
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ga si_MatraUu
 EndChar
 
@@ -5261,6 +5333,7 @@ Back
 Fore
 Refer: 400 -1 N 1 0 0 1 145 0 2
 Refer: 132 3484 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Ga si_Reph
 EndChar
 
@@ -5279,7 +5352,7 @@ EndChar
 StartChar: si_Gh.halant
 Encoding: 118 -1 135
 GlifName: si_G_h.halant
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -5294,39 +5367,37 @@ EndChar
 StartChar: si_GhI
 Encoding: 119 -1 136
 GlifName: si_G_hI_
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 266 3538 S 1 0 0 1 69 1 2
+Refer: 266 3538 N 1 0 0 1 69 1 2
 Refer: 144 3485 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Gha si_MatraI
 EndChar
 
 StartChar: si_GhIi
 Encoding: 120 -1 137
 GlifName: si_G_hI_i
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 267 3539 S 1 0 0 1 81 1 2
+Refer: 267 3539 N 1 0 0 1 81 1 2
 Refer: 144 3485 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Gha si_MatraIi
 EndChar
 
 StartChar: si_GhR.halant
 Encoding: 65537 -1 138
 GlifName: si_G_hR_.halant
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -5343,26 +5414,25 @@ GlifName: si_G_hR_I_
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 136 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_GhRa si_MatraI
 EndChar
 
 StartChar: si_GhRIi
 Encoding: 126 -1 140
 GlifName: si_G_hR_I_i
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 137 -1 S 1 0 0 1 0 0 2
+Refer: 137 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_GhRa si_MatraIi
 EndChar
@@ -5370,7 +5440,7 @@ EndChar
 StartChar: si_GhRa
 Encoding: 127 -1 141
 GlifName: si_G_hR_a
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -5378,6 +5448,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 144 3485 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Gha si_Halant si_Ra
 EndChar
 
@@ -5415,7 +5486,7 @@ EndChar
 StartChar: si_GhUu
 Encoding: 122 -1 143
 GlifName: si_G_hU_u
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -5448,7 +5519,7 @@ EndChar
 StartChar: si_Gha
 Encoding: 24 3485 144
 GlifName: si_G_ha
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -5576,7 +5647,7 @@ EndChar
 StartChar: si_Gha.reph
 Encoding: 123 -1 145
 GlifName: si_G_ha.reph
-Width: 687
+Width: 677
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -5612,6 +5683,7 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 467 0 2
 Refer: 154 3524 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ha si_Halant
 EndChar
 
@@ -5627,6 +5699,7 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 74 0 2
 Refer: 154 3524 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ha si_MatraI
 EndChar
 
@@ -5641,6 +5714,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 154 3524 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ha si_MatraIi
 EndChar
 
@@ -5700,6 +5774,7 @@ SplineSet
  105 -165 l 257
 EndSplineSet
 Refer: 154 3524 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ha si_MatraU
 EndChar
 
@@ -5733,6 +5808,7 @@ SplineSet
  388 -122 l 257
 EndSplineSet
 Refer: 154 3524 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ha si_MatraUu
 EndChar
 
@@ -5859,6 +5935,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 154 3524 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Ha si_Reph
 EndChar
 
@@ -5921,50 +5998,50 @@ EndChar
 StartChar: si_I
 Encoding: 7 3465 158
 GlifName: si_I_
-Width: 569
+Width: 555
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -204 126 0 128 176 140 428 141
 VStem: 30 138 402 137
 LayerCount: 2
 Back
 Fore
 SplineSet
-196 0 m 257
- 196 40 l 257
- 205.667 40 247.333 40 257 40 c 256
- 342.2 40 489 92.9551 489 259 c 258
- 489 380 l 258
- 489 499.888 366 529 312 529 c 256
- 312 569 l 256
- 328 569 l 257
- 431.754 569 529 496.126 529 380 c 258
- 529 259 l 258
- 529 105.834 421.519 0 257 0 c 258
- 196 0 l 257
-75 -76 m 257
- 114 -66 l 257
- 130.45 -133.627 186.154 -164.281 241.803 -164.281 c 256
- 307.94 -164.281 374 -120.985 374 -45 c 257
- 414 -45 l 257
- 414 -151.097 330.547 -203.964 245.978 -203.964 c 256
- 169.936 -203.964 92.9912 -161.221 75 -76 c 257
-34 292 m 258
- 34 387 l 258
- 34 492.126 137.246 569 241 569 c 257
- 257 569 l 256
- 257 529 l 257
- 241 529 l 257
- 199.286 529 76.1562 489.334 76 387.5 c 258
- 75.9033 292 l 258
- 75.9517 242 122.976 217 169.988 217 c 256
- 217 217 264 242 264 292 c 258
- 264 365 l 257
- 304 365 l 257
- 304 292 l 258
- 304 213.563 236.608 174.437 169.161 174.437 c 256
- 101.608 174.437 34 213.688 34 292 c 258
+192 0 m 257
+ 192 40 l 257
+ 201.666992188 40 243.333007812 40 253 40 c 256
+ 338.200195312 40 485 92.955078125 485 259 c 258
+ 485 380 l 258
+ 485 499.887695312 362 529 308 529 c 256
+ 308 569 l 256
+ 324 569 l 257
+ 427.75390625 569 525 496.125976562 525 380 c 258
+ 525 259 l 258
+ 525 105.833984375 417.518554688 0 253 0 c 258
+ 192 0 l 257
+71 -76 m 257
+ 110 -66 l 257
+ 126.450195312 -133.626953125 182.154296875 -164.28125 237.802734375 -164.28125 c 256
+ 303.940429688 -164.28125 370 -120.985351562 370 -45 c 257
+ 410 -45 l 257
+ 410 -151.096679688 326.546875 -203.963867188 241.977539062 -203.963867188 c 256
+ 165.935546875 -203.963867188 88.9912109375 -161.220703125 71 -76 c 257
+30 292 m 258
+ 30 387 l 258
+ 30 492.125976562 133.24609375 569 237 569 c 257
+ 253 569 l 256
+ 253 529 l 257
+ 237 529 l 257
+ 195.286132812 529 72.15625 489.333984375 72 387.5 c 258
+ 71.9033203125 292 l 258
+ 71.9521484375 242 118.975585938 217 165.98828125 217 c 256
+ 213 217 260 242 260 292 c 258
+ 260 365 l 257
+ 300 365 l 257
+ 300 292 l 258
+ 300 213.563476562 232.608398438 174.436523438 165.161132812 174.436523438 c 256
+ 97.6083984375 174.436523438 30 213.688476562 30 292 c 258
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -6014,7 +6091,7 @@ EndChar
 StartChar: si_Ii
 Encoding: 8 3466 159
 GlifName: si_I_i
-Width: 515
+Width: 526
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -6089,10 +6166,10 @@ EndChar
 StartChar: si_J.halant
 Encoding: 151 -1 160
 GlifName: si_J_.halant
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 619 200
 VStem: 32 136
 LayerCount: 2
@@ -6130,16 +6207,17 @@ I619
 sg8
 I200
 sass."
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ja si_Halant
 EndChar
 
 StartChar: si_JI
 Encoding: 152 -1 161
 GlifName: si_J_I_
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6151,24 +6229,25 @@ EndChar
 StartChar: si_JIi
 Encoding: 153 -1 162
 GlifName: si_J_I_i
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 169 3490 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ja si_MatraIi
 EndChar
 
 StartChar: si_JR.halant
 Encoding: 157 -1 163
 GlifName: si_J_R_.halant
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6178,10 +6257,10 @@ EndChar
 StartChar: si_JRI
 Encoding: 159 -1 164
 GlifName: si_J_R_I_
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6192,10 +6271,10 @@ EndChar
 StartChar: si_JRIi
 Encoding: 160 -1 165
 GlifName: si_J_R_I_i
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6206,10 +6285,10 @@ EndChar
 StartChar: si_JRa
 Encoding: 158 -1 166
 GlifName: si_J_R_a
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6220,24 +6299,25 @@ EndChar
 StartChar: si_JU
 Encoding: 154 -1 167
 GlifName: si_J_U_
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 169 3490 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ja si_MatraU
 EndChar
 
 StartChar: si_JUu
 Encoding: 155 -1 168
 GlifName: si_J_U_u
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6248,16 +6328,34 @@ EndChar
 StartChar: si_Ja
 Encoding: 29 3490 169
 GlifName: si_J_a
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -12 135 378 24 451 124
 VStem: 34 140 250 128 454 140
 LayerCount: 2
 Back
 Fore
 SplineSet
+279 -6 m 258
+ 102 -6 30 49.7461 30 192.5 c 257
+ 70 192.5 l 257
+ 70 61.3008 146 34 279 34 c 258
+ 341 34 l 258
+ 474 34 550 62.3008 550 192.5 c 257
+ 590 192.5 l 257
+ 590 49.7461 518 -6 341 -6 c 258
+ 279 -6 l 258
+30 242 m 257
+ 30 364 97 402 194 402 c 258
+ 419 402 l 258
+ 527 402 590 368 590 242 c 257
+ 550 242 l 257
+ 550 320 530 362 421 362 c 258
+ 195 362 l 258
+ 85.7383 362 70.001 308.104 70 242 c 257
+ 30 242 l 257
 31 477 m 257
  56.707 541.871 117.119 564 181 564 c 256
  217.661 564 278.651 551.303 310 497.885 c 257
@@ -6272,24 +6370,6 @@ SplineSet
  290 469 259.207 524 181 524 c 256
  118.421 524 83.4727 500.315 70 464 c 257
  31 477 l 257
-279 -12 m 258
- 102 -12 30 59.2461 30 202 c 257
- 70 202 l 257
- 70 70.8008 146 28 279 28 c 258
- 341 28 l 258
- 474 28 550 71.8008 550 202 c 257
- 590 202 l 257
- 590 59.2461 518 -12 341 -12 c 258
- 279 -12 l 258
-30 251 m 257
- 30 373 97 402 194 402 c 258
- 419 402 l 258
- 527 402 590 377 590 251 c 257
- 550 251 l 257
- 550 329 530 362 421 362 c 258
- 195 362 l 258
- 85.7383 362 70.001 317.104 70 251 c 257
- 30 251 l 257
 304 490 m 257
  527.721 785 l 257
  567 774 l 257
@@ -6344,10 +6424,10 @@ EndChar
 StartChar: si_Ja.reph
 Encoding: 156 -1 170
 GlifName: si_J_a.reph
-Width: 626
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6370,10 +6450,10 @@ EndChar
 StartChar: si_Jh.halant
 Encoding: 161 -1 172
 GlifName: si_J_h.halant
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -6385,13 +6465,13 @@ SplineSet
  1018.33 673 l 257
  1018.33 770 970.333 779 925 779 c 258
  848 779 l 257
-848 652 m 257
- 1007.37 652 1073 568.037 1073 411 c 258
- 1073 241 l 256
- 1031 241 l 256
+1031 241 m 256
  1031 411 l 258
  1031 558.715 961.056 612 848 612 c 257
  848 652 l 257
+ 1007.37 652 1073 568.037 1073 411 c 258
+ 1073 241 l 256
+ 1031 241 l 256
 33 452 m 257
  64.0312 533.159 124.235 565.088 181.841 565.088 c 256
  244.9 565.088 304.845 526.827 320 473 c 257
@@ -6399,17 +6479,23 @@ SplineSet
  276.237 490.735 229.535 521.199 181.232 521.199 c 256
  138.707 521.199 94.9414 497.588 72 440 c 257
  33 452 l 257
-706 440 m 257
- 679.113 505.605 614.181 538.284 540.39 538.284 c 256
- 476.96 538.284 406.983 514.137 349 466 c 257
- 69 225 l 257
- 30 196 l 257
+30 196 m 257
  30 246 l 257
  320 494 l 257
  389.698 548.094 472.16 577.395 547.339 577.395 c 256
  638.535 577.395 719.016 534.279 753 440 c 257
  706 440 l 257
-733.667 440 m 258
+ 679.113 505.605 614.181 538.284 540.39 538.284 c 256
+ 476.96 538.284 406.983 514.137 349 466 c 257
+ 69 225 l 257
+ 30 196 l 257
+694 0 m 256
+ 611.107 0 553 52.25 553 133 c 258
+ 553 307 l 258
+ 553 387.75 601.107 480 723.667 480 c 258
+ 729 480 l 257
+ 753 440 l 257
+ 733.667 440 l 258
  607.846 440 595 335.941 595 301 c 258
  595 139 l 258
  595 104.059 617.846 40 694 40 c 256
@@ -6425,12 +6511,6 @@ SplineSet
  1073 52.25 1014.89 0 932 0 c 256
  879.595 0 836.931 21.3961 813 57.9649 c 257
  789.069 21.3961 746.405 3.55271e-15 694 0 c 256
- 611.107 0 553 52.25 553 133 c 258
- 553 307 l 258
- 553 387.75 601.107 480 723.667 480 c 258
- 729 480 l 257
- 753 440 l 257
- 733.667 440 l 258
 30 196 m 257
  30 246 l 257
  100 237 105.981 184.713 106 166 c 257
@@ -6454,19 +6534,19 @@ SplineSet
  65.0488 146.19 l 258
  65.0488 167.92 63.5771 199 44 199 c 256
  40.7168 199 34.2529 197.3 30 196 c 257
-575.333 612 m 5
- 575.333 652 l 1
- 605.821976076 652 l 1
- 591.899457404 670.110770229 584.977 692.449443417 584.977 714.83 c 0
- 584.977 766.802 622.309 819 696 819 c 2
- 791.667 819 l 1
- 791.667 779 l 1
- 686 779 l 2
- 644.071 779 622.881 747.025 622.881 715.163 c 0
- 622.881 683.526000354 643.773999533 652.000000705 685.999998584 652 c 0
- 792 652 l 1
- 792 612 l 1
- 575.333 612 l 5
+575.333 612 m 257
+ 575.333 652 l 257
+ 605.822 652 l 257
+ 591.899 670.111 584.977 692.449 584.977 714.83 c 256
+ 584.977 766.802 622.309 819 696 819 c 258
+ 791.667 819 l 257
+ 791.667 779 l 257
+ 686 779 l 258
+ 644.071 779 622.881 747.025 622.881 715.163 c 256
+ 622.881 683.526 643.774 652 686 652 c 258
+ 792 652 l 257
+ 792 612 l 257
+ 575.333 612 l 257
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Jha si_Halant
@@ -6475,7 +6555,7 @@ EndChar
 StartChar: si_JhI
 Encoding: 162 -1 173
 GlifName: si_J_hI_
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -6571,13 +6651,14 @@ SplineSet
  1003.36 819 1058.33 776 1058.33 673 c 257
  1018.33 673 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Jha si_MatraI
 EndChar
 
 StartChar: si_JhIi
 Encoding: 163 -1 174
 GlifName: si_J_hI_i
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -6676,16 +6757,17 @@ SplineSet
  1073 241 l 256
  1031 241 l 256
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Jha si_MatraIi
 EndChar
 
 StartChar: si_JhR.halant
 Encoding: 169 -1 175
 GlifName: si_J_hR_.halant
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -6695,7 +6777,7 @@ EndChar
 StartChar: si_JhRI
 Encoding: 171 -1 176
 GlifName: si_J_hR_I_
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -6703,13 +6785,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 173 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_JhRa si_MatraI
 EndChar
 
 StartChar: si_JhRIi
 Encoding: 172 -1 177
 GlifName: si_J_hR_I_i
-Width: 1138
+Width: 1104
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -6717,13 +6800,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 174 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_JhRa si_MatraIi
 EndChar
 
 StartChar: si_JhRa
 Encoding: 170 -1 178
 GlifName: si_J_hR_a
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -6731,13 +6815,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 183 3491 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Jha si_Halant si_Ra
 EndChar
 
 StartChar: si_JhU
 Encoding: 164 -1 179
 GlifName: si_J_hU_
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -6762,13 +6847,14 @@ SplineSet
  572 -165 l 257
 EndSplineSet
 Refer: 183 3491 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Jha si_MatraU
 EndChar
 
 StartChar: si_JhU.reph
 Encoding: 167 -1 180
 GlifName: si_J_hU_.reph
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -6782,7 +6868,7 @@ EndChar
 StartChar: si_JhUu
 Encoding: 165 -1 181
 GlifName: si_J_hU_u
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -6809,13 +6895,14 @@ SplineSet
  1021 83 l 257
 EndSplineSet
 Refer: 183 3491 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Jha si_MatraUu
 EndChar
 
 StartChar: si_JhUu.reph
 Encoding: 168 -1 182
 GlifName: si_J_hU_u.reph
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -6829,7 +6916,7 @@ EndChar
 StartChar: si_Jha
 Encoding: 30 3491 183
 GlifName: si_J_ha
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -6977,7 +7064,7 @@ EndChar
 StartChar: si_Jha.reph
 Encoding: 166 -1 184
 GlifName: si_J_ha.reph
-Width: 1138
+Width: 1103
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -7003,7 +7090,7 @@ EndChar
 StartChar: si_Jny.halant
 Encoding: 186 -1 186
 GlifName: si_J_ny.halant
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7012,13 +7099,14 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 680 0 2
 Refer: 195 3493 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Jnya si_Halant
 EndChar
 
 StartChar: si_JnyI
 Encoding: 191 -1 187
 GlifName: si_J_nyI_
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7027,13 +7115,14 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 390 0 2
 Refer: 195 3493 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Jnya si_MatraI
 EndChar
 
 StartChar: si_JnyIi
 Encoding: 192 -1 188
 GlifName: si_J_nyI_i
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7042,13 +7131,14 @@ Back
 Fore
 Refer: 267 3539 N 1 0 0 1 391 0 2
 Refer: 195 3493 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Jnya si_MatraIi
 EndChar
 
 StartChar: si_JnyR.halant
 Encoding: 195 -1 189
 GlifName: si_J_nyR_.halant
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -7061,7 +7151,7 @@ EndChar
 StartChar: si_JnyRI
 Encoding: 197 -1 190
 GlifName: si_J_nyR_I_
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7075,7 +7165,7 @@ EndChar
 StartChar: si_JnyRIi
 Encoding: 198 -1 191
 GlifName: si_J_nyR_I_i
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7083,13 +7173,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 195 3493 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_JnyRa si_MatraIi
 EndChar
 
 StartChar: si_JnyRa
 Encoding: 196 -1 192
 GlifName: si_J_nyR_a
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7103,7 +7194,7 @@ EndChar
 StartChar: si_JnyU
 Encoding: 193 -1 193
 GlifName: si_J_nyU_
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7111,13 +7202,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 195 3493 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Jnya si_MatraU
 EndChar
 
 StartChar: si_JnyUu
 Encoding: 194 -1 194
 GlifName: si_J_nyU_u
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7125,13 +7217,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 195 3493 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Jnya si_MatraUu
 EndChar
 
 StartChar: si_Jnya
 Encoding: 32 3493 195
 GlifName: si_J_nya
-Width: 1083
+Width: 1051
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -7273,6 +7366,7 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 623 0 2
 Refer: 218 3482 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ka si_Halant
 EndChar
 
@@ -7304,6 +7398,7 @@ Back
 Fore
 Refer: 267 3539 N 1 0 0 1 137 0 2
 Refer: 218 3482 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ka si_MatraIi
 EndChar
 
@@ -7317,7 +7412,7 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 198 -1 S 1 0 0 1 0 0 2
+Refer: 198 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_KRa si_MatraI
 EndChar
@@ -7333,6 +7428,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 199 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_KRa si_MatraIi
 EndChar
 
@@ -7359,6 +7455,7 @@ SplineSet
  116 -47 l 257
 EndSplineSet
 Refer: 218 3482 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Ka si_Halant si_Ra
 EndChar
 
@@ -7368,7 +7465,7 @@ GlifName: si_K_S_s.halant
 Width: 1138
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -7382,13 +7479,12 @@ GlifName: si_K_S_sI_
 Width: 1155
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 266 3538 S 1 0 0 1 552 30 2
+Refer: 266 3538 N 1 0 0 1 552 30 2
 Refer: 208 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_KSsa si_MatraI
 EndChar
 
@@ -7398,13 +7494,12 @@ GlifName: si_K_S_sI_i
 Width: 1155
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 267 3539 S 1 0 0 1 566 30 2
+Refer: 267 3539 N 1 0 0 1 566 30 2
 Refer: 208 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_KSsa si_MatraIi
 EndChar
 
@@ -7414,7 +7509,7 @@ GlifName: si_K_S_sU_
 Width: 1155
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -7436,7 +7531,6 @@ SplineSet
  580 -165 l 257
 EndSplineSet
 Refer: 208 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_KSsa si_MatraU
 EndChar
 
@@ -7446,7 +7540,7 @@ GlifName: si_K_S_sU_u
 Width: 1155
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -7479,29 +7573,11 @@ GlifName: si_K_S_sa
 Width: 1155
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
-814 -6 m 258
- 637 -6 565 49.74609375 565 192.5 c 257
- 605 192.5 l 257
- 605 61.30078125 681 34 814 34 c 258
- 876 34 l 258
- 1009 34 1085 62.30078125 1085 192.5 c 257
- 1125 192.5 l 257
- 1125 49.74609375 1053 -6 876 -6 c 258
- 814 -6 l 258
-565 242 m 257
- 565 364 632 402 729 402 c 258
- 954 402 l 258
- 1062 402 1125 368 1125 242 c 257
- 1085 242 l 257
- 1085 320 1065 362 956 362 c 258
- 730 362 l 258
- 620.73828125 362 605.000976562 308.103515625 605 242 c 257
- 565 242 l 257
 183.589 -4.77248 m 256
  122.991 -4.77248 65.0029 38.8293 65.0029 114 c 258
  65.0488 146.19 l 258
@@ -7535,6 +7611,24 @@ SplineSet
  495.96 531.109 381.142 494.644 282 409 c 258
  69 225 l 257
  30 196 l 257
+814 -6 m 258
+ 637 -6 565 49.7461 565 192.5 c 257
+ 605 192.5 l 257
+ 605 61.3008 681 34 814 34 c 258
+ 876 34 l 258
+ 1009 34 1085 62.3008 1085 192.5 c 257
+ 1125 192.5 l 257
+ 1125 49.7461 1053 -6 876 -6 c 258
+ 814 -6 l 258
+565 242 m 257
+ 565 364 632 402 729 402 c 258
+ 954 402 l 258
+ 1062 402 1125 368 1125 242 c 257
+ 1085 242 l 257
+ 1085 320 1065 362 956 362 c 258
+ 730 362 l 258
+ 620.738 362 605.001 308.104 605 242 c 257
+ 565 242 l 257
 825 379 m 257
  825.049 415 l 257
  825.001 539.449 923.022 564 974 564 c 256
@@ -7628,13 +7722,14 @@ SplineSet
  138.707 521.199 94.9414 497.588 72 440 c 257
  33 452 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ka si_MatraU
 EndChar
 
 StartChar: si_KU.reph
 Encoding: 95 -1 210
 GlifName: si_K_U_.reph
-Width: 840
+Width: 760
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -7648,12 +7743,12 @@ EndChar
 StartChar: si_KUu
 Encoding: 93 -1 211
 GlifName: si_K_U_u
-Width: 788
+Width: 783
 VWidth: 0
 GlyphClass: 3
 Flags: W
-HStem: -205 205<586 783> -205 114 0 70 122 80 191 11 446 121
-VStem: 239 100 400 129 591 217 630 140
+HStem: -205.003 41.003<656.504 783> 0 40<128.765 237.349 316.342 438.09 671.891 783> 90 40<586 698> 369.904 33.096<356.358 396.098> 521.199 43.889<116.665 248.857 412.149 586.812>
+VStem: 65.0029 40.9971<63.7292 198.977> 256 40<61.0322 192> 463 40<65.4076 318.883> 604 40<-150.875 -16.0029> 690 40<138.537 412.534>
 LayerCount: 2
 Back
 Fore
@@ -7787,6 +7882,7 @@ I446
 sg8
 I121
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ka si_MatraUu
 EndChar
 
@@ -7796,28 +7892,11 @@ GlifName: si_K_V_.halant
 Width: 1155
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
-813 349 m 257
- 813 449.276 689.223 525.129 551.169 525.129 c 256
- 473.074 525.129 390.41 500.856 323 443 c 258
- 69 225 l 257
- 30 196 l 257
- 30 246 l 257
- 294 471 l 258
- 371.578 537.118 469.312 566.684 561.324 566.684 c 256
- 715.702 566.684 853.974 483.457 853.932 350 c 257
- 854 309 l 257
- 805 309 l 258
- 667.373 309 613 285.762 613 181 c 256
- 613 111.89 672.708 40 780 40 c 257
- 780 0 l 257
- 660.896 0 573 85.7334 573 181 c 256
- 573 230.761 584.247 268.244 610 296 c 256
- 652.614 341.928 718.439 349 813 349 c 257
 30 196 m 257
  30 246 l 257
  100 237 105.981 184.713 106 166 c 257
@@ -7841,6 +7920,45 @@ SplineSet
  65.0488 146.19 l 258
  65.0488 167.92 63.5771 199 44 199 c 256
  40.7168 199 34.2529 197.3 30 196 c 257
+780 0 m 257
+ 660.896 0 573 85.7334 573 181 c 256
+ 573 230.761 584.247 268.244 610 296 c 256
+ 652.614 341.928 718.439 349 813 349 c 257
+ 813 449.276 689.223 525.129 551.169 525.129 c 256
+ 473.074 525.129 390.41 500.856 323 443 c 258
+ 69 225 l 257
+ 30 196 l 257
+ 30 246 l 257
+ 294 471 l 258
+ 371.578 537.118 469.312 566.684 561.324 566.684 c 256
+ 715.702 566.684 853.974 483.457 853.932 350 c 257
+ 854 309 l 257
+ 805 309 l 258
+ 667.373 309 613 285.762 613 181 c 256
+ 613 111.89 672.708 40 780 40 c 257
+ 780 0 l 257
+593.333 612 m 257
+ 593.333 652 l 257
+ 623.822 652 l 257
+ 609.899 670.111 602.977 692.449 602.977 714.83 c 256
+ 602.977 766.802 640.309 819 714 819 c 258
+ 780 819 l 257
+ 780 779 l 257
+ 704 779 l 258
+ 662.071 779 640.881 747.025 640.881 715.163 c 256
+ 640.881 683.526 661.774 652 704 652 c 258
+ 780.333 652 l 257
+ 780.333 612 l 257
+ 593.333 612 l 257
+836 0 m 257
+ 836 40 l 257
+ 949.056 40 1020 95.2852 1020 241 c 258
+ 1020 411 l 258
+ 1020 558.715 949.056 612 836 612 c 257
+ 836 652 l 257
+ 995.37 652 1061 568.037 1061 411 c 258
+ 1061 241 l 258
+ 1061 83.9629 995.37 0 836 0 c 257
 33 452 m 257
  64.0312 533.159 124.235 565.088 181.841 565.088 c 256
  244.9 565.088 304.845 526.827 320 473 c 257
@@ -7855,35 +7973,13 @@ SplineSet
  1011.33 673 l 257
  1011.33 770 963.333 779 918 779 c 258
  835.5 779 l 257
-836 0 m 257
- 836 40 l 257
- 949.056 40 1020 95.2852 1020 241 c 258
- 1020 411 l 258
- 1020 558.715 949.056 612 836 612 c 257
- 836 652 l 257
- 995.37 652 1061 568.037 1061 411 c 258
- 1061 241 l 258
- 1061 83.9629 995.37 0 836 0 c 257
-593.333 612 m 1
- 593.333 652 l 1
- 623.821976076 652 l 1
- 609.899457404 670.110770229 602.977 692.449443417 602.977 714.83 c 0
- 602.977 766.802 640.309 819 714 819 c 2
- 780 819 l 1
- 780 779 l 1
- 704 779 l 2
- 662.071 779 640.881 747.025 640.881 715.163 c 0
- 640.881 683.526000236 661.773999689 652.00000047 703.999999056 652 c 2
- 780.333 652 l 1
- 780.333 612 l 1
- 593.333 612 l 1
 EndSplineSet
 EndChar
 
 StartChar: si_KVI
 Encoding: 468 -1 213
 GlifName: si_K_V_I_
-Width: 1155
+Width: 1091
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -7973,7 +8069,7 @@ EndChar
 StartChar: si_KVIi
 Encoding: 469 -1 214
 GlifName: si_K_V_I_i
-Width: 1155
+Width: 1091
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -8059,43 +8155,46 @@ SplineSet
  276.237 490.735 229.535 521.199 181.232 521.199 c 256
  138.707 521.199 94.9414 497.588 72 440 c 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_KVa si_MatraIi
 EndChar
 
 StartChar: si_KVU
 Encoding: 470 -1 215
 GlifName: si_K_V_U_
-Width: 1108
+Width: 1091
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 274 3540 N 1 0 0 1 585 0 2
+Refer: 274 3540 N 1 0 0 1 578 0 2
 Refer: 217 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_KVa si_MatraU
 EndChar
 
 StartChar: si_KVUu
 Encoding: 471 -1 216
 GlifName: si_K_V_U_u
-Width: 1138
+Width: 1091
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 276 3542 N 1 0 0 1 567 0 2
+Refer: 276 3542 N 1 0 0 1 555 0 2
 Refer: 217 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_KVa si_MatraUu
 EndChar
 
 StartChar: si_KVa
 Encoding: 452 -1 217
 GlifName: si_K_V_a
-Width: 1155
+Width: 1091
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -8205,6 +8304,7 @@ I616
 sg8
 I138
 sass."
+LCarets2: 2 0 0
 Ligature2: "si_akhands subtable" si_Ka si_Halant si_Va
 EndChar
 
@@ -8278,6 +8378,7 @@ Back
 Fore
 Refer: 400 -1 N 1 0 0 1 180 0 2
 Refer: 218 3482 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Ka si_Reph
 EndChar
 
@@ -8351,6 +8452,7 @@ SplineSet
  479.359 819 534.333 776 534.333 673 c 257
  494.333 673 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Kha si_Halant
 EndChar
 
@@ -8450,6 +8552,7 @@ I616
 sg8
 I138
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Kha si_MatraI
 EndChar
 
@@ -8552,13 +8655,14 @@ I616
 sg8
 I138
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Kha si_MatraIi
 EndChar
 
 StartChar: si_KhR.halant
 Encoding: 105 -1 224
 GlifName: si_K_hR_.halant
-Width: 622
+Width: 586
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -8571,7 +8675,7 @@ EndChar
 StartChar: si_KhRI
 Encoding: 106 -1 225
 GlifName: si_K_hR_I_
-Width: 623
+Width: 586
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -8579,13 +8683,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 222 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_KhRa si_MatraI
 EndChar
 
 StartChar: si_KhRIi
 Encoding: 107 -1 226
 GlifName: si_K_hR_I_i
-Width: 623
+Width: 586
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -8593,6 +8698,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 223 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_KhRa si_MatraIi
 EndChar
 
@@ -8607,6 +8713,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 230 3483 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Kha si_Halant si_Ra
 EndChar
 
@@ -8720,6 +8827,7 @@ I715
 sg8
 I40
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Kha si_MatraU
 EndChar
 
@@ -8845,6 +8953,7 @@ I616
 sg8
 I139
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Kha si_MatraUu
 EndChar
 
@@ -8963,12 +9072,13 @@ GlifName: si_L_.halant
 Width: 606
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 157 3530 N 1 0 0 1 314 0 2
+Refer: 157 3530 S 1 0 0 1 300 0 2
 Refer: 237 3517 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_La si_Halant
 EndChar
 
@@ -8978,7 +9088,7 @@ GlifName: si_L_I_
 Width: 606
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -8989,7 +9099,7 @@ SplineSet
  333 530 l 257
  266 530 l 257
 EndSplineSet
-Refer: 266 3538 S 1 0 0 1 11 0 2
+Refer: 266 3538 N 1 0 0 1 11 0 2
 Refer: 237 3517 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_La si_MatraI
@@ -8998,7 +9108,7 @@ EndChar
 StartChar: si_LIi
 Encoding: 383 -1 234
 GlifName: si_L_I_i
-Width: 570
+Width: 606
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -9077,6 +9187,7 @@ SplineSet
  494 -205 l 257
  494 0 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_La si_MatraU
 EndChar
 
@@ -9221,6 +9332,7 @@ I426
 sg8
 I140
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_La si_MatraUu
 EndChar
 
@@ -9371,6 +9483,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 244 3525 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Lla si_MatraIi
 EndChar
 
@@ -9398,6 +9511,7 @@ SplineSet
  94 -8 l 257
 EndSplineSet
 Refer: 394 3509 N 1 0 0 1 139 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Lla si_MatraU
 EndChar
 
@@ -9426,6 +9540,7 @@ SplineSet
 EndSplineSet
 Refer: 260 3537 N 1 0 0 1 667 0 2
 Refer: 394 3509 N 1 0 0 1 139 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Lla si_MatraUu
 EndChar
 
@@ -9504,6 +9619,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 255 3512 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ma si_Halant
 EndChar
 
@@ -9518,6 +9634,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 255 3512 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ma si_MatraI
 EndChar
 
@@ -9532,6 +9649,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 255 3512 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ma si_MatraIi
 EndChar
 
@@ -9601,6 +9719,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 255 3512 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ma si_MatraU
 EndChar
 
@@ -9615,6 +9734,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 255 3512 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ma si_MatraUu
 EndChar
 
@@ -9752,7 +9872,7 @@ EndChar
 StartChar: si_MatraAa.halant
 Encoding: 84 -1 259
 GlifName: si_M_atraA_a.halant
-Width: 278
+Width: 261
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -9761,6 +9881,7 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 1 0 2
 Refer: 258 3535 N 1 0 0 1 1 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_MatraAa si_Halant
 EndChar
 
@@ -9842,7 +9963,7 @@ EndChar
 StartChar: si_MatraAe
 Encoding: 64 3536 261
 GlifName: si_M_atraA_e
-Width: 277
+Width: 257
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -9900,7 +10021,7 @@ EndChar
 StartChar: si_MatraAi
 Encoding: 73 3547 262
 GlifName: si_M_atraA_i
-Width: 878
+Width: 888
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -9914,7 +10035,7 @@ EndChar
 StartChar: si_MatraAu
 Encoding: 76 3550 263
 GlifName: si_M_atraA_u
-Width: 1024
+Width: 1000
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -9928,7 +10049,7 @@ EndChar
 StartChar: si_MatraE
 Encoding: 71 3545 264
 GlifName: si_M_atraE_
-Width: 447
+Width: 457
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10012,7 +10133,7 @@ EndChar
 StartChar: si_MatraEe
 Encoding: 72 3546 265
 GlifName: si_M_atraE_e
-Width: 796
+Width: 700
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10080,7 +10201,7 @@ EndChar
 StartChar: si_MatraLl
 Encoding: 78 3571 268
 GlifName: si_M_atraL_l
-Width: 610
+Width: 380
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10093,7 +10214,7 @@ EndChar
 StartChar: si_MatraLs
 Encoding: 77 3551 269
 GlifName: si_M_atraL_s
-Width: 610
+Width: 380
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10146,7 +10267,7 @@ EndChar
 StartChar: si_MatraO
 Encoding: 74 3548 270
 GlifName: si_M_atraO_
-Width: 801
+Width: 784
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10160,7 +10281,7 @@ EndChar
 StartChar: si_MatraOo
 Encoding: 75 3549 271
 GlifName: si_M_atraO_o
-Width: 801
+Width: 784
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10175,7 +10296,7 @@ EndChar
 StartChar: si_MatraR
 Encoding: 70 3544 272
 GlifName: si_M_atraR_
-Width: 355
+Width: 314
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10206,15 +10327,15 @@ EndChar
 StartChar: si_MatraRr
 Encoding: 79 3570 273
 GlifName: si_M_atraR_r
-Width: 700
+Width: 671
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 272 3544 N 1 0 0 1 345 0 2
-Refer: 272 3544 N 1 0 0 1 0 0 2
+Refer: 272 3544 N 1 0 0 1 357 0 2
+Refer: 272 3544 N 1 0 0 1 22 0 2
 EndChar
 
 StartChar: si_MatraU
@@ -10361,11 +10482,6 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-30 0 m 257
- 30 40 l 257
- 227 40 l 257
- 227 0 l 257
- 30 0 l 257
 47.9453 -64 m 258
  47.9453 -28.1055 58.8887 -9.99219 75 0 c 256
  213 0 l 257
@@ -10378,6 +10494,11 @@ SplineSet
  146 -205.003 l 258
  89.875 -205.003 48 -161.81 48 -104 c 258
  47.9453 -64 l 258
+30 0 m 257
+ 30 40 l 257
+ 227 40 l 257
+ 227 0 l 257
+ 30 0 l 257
 30 40 m 257
  142 90 l 257
  227 90 l 257
@@ -10402,6 +10523,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 283 3513 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Mba si_Halant
 EndChar
 
@@ -10430,6 +10552,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 283 3513 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Mba si_MatraIi
 EndChar
 
@@ -10595,13 +10718,14 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 484 0 2
 Refer: 317 3505 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Na si_Halant
 EndChar
 
 StartChar: si_ND.halant
 Encoding: 477 -1 286
 GlifName: si_N_D_.halant
-Width: 1023
+Width: 962
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10615,7 +10739,7 @@ EndChar
 StartChar: si_NDI
 Encoding: 482 -1 287
 GlifName: si_N_D_I_
-Width: 942
+Width: 962
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -10624,13 +10748,14 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 281 0 2
 Refer: 294 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_NDa si_MatraI
 EndChar
 
 StartChar: si_NDIi
 Encoding: 483 -1 288
 GlifName: si_N_D_I_i
-Width: 942
+Width: 962
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -10639,13 +10764,14 @@ Back
 Fore
 Refer: 267 3539 N 1 0 0 1 290 0 2
 Refer: 294 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_NDa si_MatraIi
 EndChar
 
 StartChar: si_NDRI
 Encoding: 487 -1 289
 GlifName: si_N_D_R_I_
-Width: 1023
+Width: 962
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10658,7 +10784,7 @@ EndChar
 StartChar: si_NDRIi
 Encoding: 488 -1 290
 GlifName: si_N_D_R_I_i
-Width: 1023
+Width: 962
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -10671,7 +10797,7 @@ EndChar
 StartChar: si_NDRa
 Encoding: 486 -1 291
 GlifName: si_N_D_R_a
-Width: 1023
+Width: 962
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -10679,13 +10805,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 294 -1 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_NDa si_Halant si_Ra
 EndChar
 
 StartChar: si_NDU
 Encoding: 484 -1 292
 GlifName: si_N_D_U_
-Width: 1097
+Width: 903
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -10747,13 +10874,14 @@ SplineSet
  832 -205 l 257
  832 41 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_NDa si_MatraU
 EndChar
 
 StartChar: si_NDUu
 Encoding: 485 -1 293
 GlifName: si_N_D_U_u
-Width: 1097
+Width: 903
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -10819,13 +10947,14 @@ SplineSet
  832 -205 l 257
  832 41 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_NDa si_MatraUu
 EndChar
 
 StartChar: si_NDa
 Encoding: 454 -1 294
 GlifName: si_N_D_a
-Width: 1097
+Width: 962
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -10926,6 +11055,7 @@ I454
 sg8
 I121
 sass."
+LCarets2: 2 0 0
 Ligature2: "si_akhands subtable" si_Na si_Halant si_Da
 EndChar
 
@@ -10935,12 +11065,18 @@ GlifName: si_N_D_h.halant
 Width: 1097
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
-727.667 440 m 258
+688 0 m 256
+ 605.107 0 547 52.25 547 133 c 258
+ 547 307 l 258
+ 547 387.75 595.107 480 727.667 480 c 258
+ 747 480 l 257
+ 767 440 l 257
+ 727.667 440 l 258
  601.846 440 589 335.941 589 301 c 258
  589 139 l 258
  589 104.059 611.846 40 688 40 c 256
@@ -10956,46 +11092,32 @@ SplineSet
  1067 52.25 1008.89 0 926 0 c 256
  873.595 0 830.931 21.3961 807 57.9649 c 257
  783.069 21.3961 740.405 3.55271e-15 688 0 c 256
- 605.107 0 547 52.25 547 133 c 258
- 547 307 l 258
- 547 387.75 595.107 480 727.667 480 c 258
- 747 480 l 257
- 767 440 l 257
- 727.667 440 l 258
-842 652 m 257
- 1001.37 652 1067 568.037 1067 411 c 258
- 1067 241 l 256
- 1025 241 l 256
- 1025 411 l 258
- 1025 558.715 955.056 612 842 612 c 257
- 842 652 l 257
-835.5 779 m 257
- 835.5 819 l 257
- 925 819 l 258
- 1003.36 819 1058.33 776 1058.33 673 c 257
- 1018.33 673 l 257
- 1018.33 770 970.333 779 925 779 c 258
- 835.5 779 l 257
-727 440 m 257
- 704.323 500.212 615.7 545.915 521.724 545.915 c 256
- 449.935 545.915 375.024 519.245 324 452 c 258
- 245.998 349.2 l 258
- 197.26 285.26 135.828 212.587 66.6181 212.587 c 256
- 61.1269 212.587 55.5867 213.044 50 214 c 257
- 50 258 l 256
+565.333 612 m 257
+ 565.333 652 l 257
+ 595.822 652 l 257
+ 581.899 670.111 574.977 692.449 574.977 714.83 c 256
+ 574.977 766.802 612.309 819 686 819 c 258
+ 780 819 l 257
+ 780 779 l 257
+ 676 779 l 258
+ 634.071 779 612.881 747.025 612.881 715.163 c 256
+ 612.881 683.526 633.774 652 676 652 c 258
+ 782 652 l 257
+ 782 612 l 257
+ 565.333 612 l 257
+50 258 m 256
  54.3891 256.664 58.9252 256.041 63.5673 256.041 c 256
  112.157 256.041 172.354 324.252 196.999 356.2 c 258
  294.013 485 l 258
  346.701 554.952 440.485 589.47 531.046 589.47 c 256
  640.433 589.47 745.117 539.109 767 440 c 257
  727 440 l 257
-33 452 m 257
- 64.0312 533.159 124.235 565.088 181.841 565.088 c 256
- 244.9 565.088 304.845 526.827 320 473 c 257
- 289 445 l 257
- 276.237 490.735 229.535 521.199 181.232 521.199 c 256
- 138.707 521.199 94.9414 497.588 72 440 c 257
- 33 452 l 257
+ 704.323 500.212 615.7 545.915 521.724 545.915 c 256
+ 449.935 545.915 375.024 519.245 324 452 c 258
+ 245.998 349.2 l 258
+ 197.26 285.26 135.828 212.587 66.6181 212.587 c 256
+ 61.1269 212.587 55.5867 213.044 50 214 c 257
+ 50 258 l 256
 30 256 m 258
  30 344 l 257
  71 344 l 257
@@ -11007,19 +11129,27 @@ SplineSet
  451.48 372.244 492.414 287.188 492.414 208.132 c 256
  492.414 68.7225 384.57 -4.50763 273.044 -4.50763 c 256
  153.632 -4.50763 30 79.4433 30 256 c 258
-686 819 m 2
- 780 819 l 1
- 780 779 l 1
- 676 779 l 2
- 634.071 779 612.881 747.025 612.881 715.163 c 0
- 612.881 683.526 633.774414062 652 676 652 c 0
- 782 652 l 1
- 782 612 l 1
- 565.333 612 l 1
- 565.333 652 l 1
- 595.821976076 652 l 1
- 581.899457404 670.110770229 574.977 692.449443417 574.977 714.83 c 0
- 574.977 766.802 612.309 819 686 819 c 2
+33 452 m 257
+ 64.0312 533.159 124.235 565.088 181.841 565.088 c 256
+ 244.9 565.088 304.845 526.827 320 473 c 257
+ 289 445 l 257
+ 276.237 490.735 229.535 521.199 181.232 521.199 c 256
+ 138.707 521.199 94.9414 497.588 72 440 c 257
+ 33 452 l 257
+1025 241 m 256
+ 1025 411 l 258
+ 1025 558.715 955.056 612 842 612 c 257
+ 842 652 l 257
+ 1001.37 652 1067 568.037 1067 411 c 258
+ 1067 241 l 256
+ 1025 241 l 256
+835.5 779 m 257
+ 835.5 819 l 257
+ 925 819 l 258
+ 1003.36 819 1058.33 776 1058.33 673 c 257
+ 1018.33 673 l 257
+ 1018.33 770 970.333 779 925 779 c 258
+ 835.5 779 l 257
 EndSplineSet
 EndChar
 
@@ -11034,7 +11164,13 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-727.667 440 m 258
+688 0 m 256
+ 605.107 0 547 52.25 547 133 c 258
+ 547 307 l 258
+ 547 387.75 595.107 480 727.667 480 c 258
+ 747 480 l 257
+ 767 440 l 257
+ 727.667 440 l 258
  601.846 440 589 335.941 589 301 c 258
  589 139 l 258
  589 104.059 611.846 40 688 40 c 256
@@ -11050,18 +11186,7 @@ SplineSet
  1067 52.25 1008.89 0 926 0 c 256
  873.595 0 830.931 21.3961 807 57.9649 c 257
  783.069 21.3961 740.405 3.55271e-15 688 0 c 256
- 605.107 0 547 52.25 547 133 c 258
- 547 307 l 258
- 547 387.75 595.107 480 727.667 480 c 258
- 747 480 l 257
- 767 440 l 257
- 727.667 440 l 258
-727 440 m 257
- 704.323 500.212 615.7 545.915 521.724 545.915 c 256
- 449.935 545.915 375.024 519.245 324 452 c 258
- 245.998 349.2 l 258
- 197.26 285.26 135.828 212.587 66.6181 212.587 c 256
- 61.1269 212.587 55.5867 213.044 50 214 c 257
+50 214 m 257
  50 258 l 256
  54.3891 256.664 58.9252 256.041 63.5673 256.041 c 256
  112.157 256.041 172.354 324.252 196.999 356.2 c 258
@@ -11069,6 +11194,11 @@ SplineSet
  346.701 554.952 440.485 589.47 531.046 589.47 c 256
  640.433 589.47 745.117 539.109 767 440 c 257
  727 440 l 257
+ 704.323 500.212 615.7 545.915 521.724 545.915 c 256
+ 449.935 545.915 375.024 519.245 324 452 c 258
+ 245.998 349.2 l 258
+ 197.26 285.26 135.828 212.587 66.6181 212.587 c 256
+ 61.1269 212.587 55.5867 213.044 50 214 c 257
 30 256 m 258
  30 344 l 257
  71 344 l 257
@@ -11080,7 +11210,9 @@ SplineSet
  451.48 372.244 492.414 287.188 492.414 208.132 c 256
  492.414 68.7225 384.57 -4.50763 273.044 -4.50763 c 256
  153.632 -4.50763 30 79.4433 30 256 c 258
-686 819 m 258
+686 612 m 258
+ 611.669 612 574.977 663.304 574.977 714.83 c 256
+ 574.977 766.802 612.309 819 686 819 c 258
  780 819 l 257
  780 779 l 257
  676 779 l 258
@@ -11089,8 +11221,6 @@ SplineSet
  780 652 l 257
  780 612 l 257
  686 612 l 258
- 611.669 612 574.977 663.304 574.977 714.83 c 256
- 574.977 766.802 612.309 819 686 819 c 258
 33 452 m 257
  64.0312 533.159 124.235 565.088 181.841 565.088 c 256
  244.9 565.088 304.845 526.827 320 473 c 257
@@ -11098,21 +11228,22 @@ SplineSet
  276.237 490.735 229.535 521.199 181.232 521.199 c 256
  138.707 521.199 94.9414 497.588 72 440 c 257
  33 452 l 257
-835 652 m 257
- 1001.37 652 1067 568.037 1067 411 c 258
- 1067 241 l 256
- 1025 241 l 256
+1025 241 m 256
  1025 411 l 258
  1025 558.715 955.056 612 835 612 c 257
  835 652 l 257
-835.5 779 m 257
+ 1001.37 652 1067 568.037 1067 411 c 258
+ 1067 241 l 256
+ 1025 241 l 256
+1018.33 673 m 257
+ 1018.33 770 970.333 779 925 779 c 258
+ 835.5 779 l 257
  835.5 819 l 257
  925 819 l 258
  1003.36 819 1058.33 776 1058.33 673 c 257
  1018.33 673 l 257
- 1018.33 770 970.333 779 925 779 c 258
- 835.5 779 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_NDha si_MatraI
 EndChar
 
@@ -11127,7 +11258,13 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-727.667 440 m 258
+688 0 m 256
+ 605.107 0 547 52.25 547 133 c 258
+ 547 307 l 258
+ 547 387.75 595.107 480 727.667 480 c 258
+ 747 480 l 257
+ 767 440 l 257
+ 727.667 440 l 258
  601.846 440 589 335.941 589 301 c 258
  589 139 l 258
  589 104.059 611.846 40 688 40 c 256
@@ -11143,36 +11280,7 @@ SplineSet
  1067 52.25 1008.89 0 926 0 c 256
  873.595 0 830.931 21.3961 807 57.9649 c 257
  783.069 21.3961 740.405 3.55271e-15 688 0 c 256
- 605.107 0 547 52.25 547 133 c 258
- 547 307 l 258
- 547 387.75 595.107 480 727.667 480 c 258
- 747 480 l 257
- 767 440 l 257
- 727.667 440 l 258
-835 652 m 257
- 1001.37 652 1067 568.037 1067 411 c 258
- 1067 241 l 256
- 1025 241 l 256
- 1025 411 l 258
- 1025 558.715 955.056 612 835 612 c 257
- 835 652 l 257
-686 819 m 258
- 780 819 l 257
- 780 779 l 257
- 676 779 l 258
- 634.071 779 612.881 747.025 612.881 715.163 c 256
- 612.881 683.526 633.774 652 676 652 c 258
- 780 652 l 257
- 780 612 l 257
- 686 612 l 258
- 611.669 612 574.977 663.304 574.977 714.83 c 256
- 574.977 766.802 612.309 819 686 819 c 258
-727 440 m 257
- 704.323 500.212 615.7 545.915 521.724 545.915 c 256
- 449.935 545.915 375.024 519.245 324 452 c 258
- 245.998 349.2 l 258
- 197.26 285.26 135.828 212.587 66.6181 212.587 c 256
- 61.1269 212.587 55.5867 213.044 50 214 c 257
+50 214 m 257
  50 258 l 256
  54.3891 256.664 58.9252 256.041 63.5673 256.041 c 256
  112.157 256.041 172.354 324.252 196.999 356.2 c 258
@@ -11180,13 +11288,11 @@ SplineSet
  346.701 554.952 440.485 589.47 531.046 589.47 c 256
  640.433 589.47 745.117 539.109 767 440 c 257
  727 440 l 257
-33 452 m 257
- 64.0312 533.159 124.235 565.088 181.841 565.088 c 256
- 244.9 565.088 304.845 526.827 320 473 c 257
- 289 445 l 257
- 276.237 490.735 229.535 521.199 181.232 521.199 c 256
- 138.707 521.199 94.9414 497.588 72 440 c 257
- 33 452 l 257
+ 704.323 500.212 615.7 545.915 521.724 545.915 c 256
+ 449.935 545.915 375.024 519.245 324 452 c 258
+ 245.998 349.2 l 258
+ 197.26 285.26 135.828 212.587 66.6181 212.587 c 256
+ 61.1269 212.587 55.5867 213.044 50 214 c 257
 30 256 m 258
  30 344 l 257
  71 344 l 257
@@ -11198,23 +11304,49 @@ SplineSet
  451.48 372.244 492.414 287.188 492.414 208.132 c 256
  492.414 68.7225 384.57 -4.50763 273.044 -4.50763 c 256
  153.632 -4.50763 30 79.4433 30 256 c 258
-893.5 779 m 258
+686 612 m 258
+ 611.669 612 574.977 663.304 574.977 714.83 c 256
+ 574.977 766.802 612.309 819 686 819 c 258
+ 780 819 l 257
+ 780 779 l 257
+ 676 779 l 258
+ 634.071 779 612.881 747.025 612.881 715.163 c 256
+ 612.881 683.526 633.774 652 676 652 c 258
+ 780 652 l 257
+ 780 612 l 257
+ 686 612 l 258
+981.46 603.56 m 256
+ 931.54 603.56 891.22 643.88 891.22 693.8 c 256
+ 891.22 729.745 912.125 760.713 942.467 775.235 c 257
+ 924.86 778.291 907.431 779 893.5 779 c 258
  835 779 l 257
  835 819 l 257
  909.5 819 l 258
  994.722 819 1071.67 789.785 1071.7 693.8 c 256
  1071.7 643.88 1031.38 603.56 981.46 603.56 c 256
- 931.54 603.56 891.22 643.88 891.22 693.8 c 256
- 891.22 729.745 912.125 760.713 942.467 775.235 c 257
- 924.86 778.291 907.431 779 893.5 779 c 258
+33 452 m 257
+ 64.0312 533.159 124.235 565.088 181.841 565.088 c 256
+ 244.9 565.088 304.845 526.827 320 473 c 257
+ 289 445 l 257
+ 276.237 490.735 229.535 521.199 181.232 521.199 c 256
+ 138.707 521.199 94.9414 497.588 72 440 c 257
+ 33 452 l 257
+1025 241 m 256
+ 1025 411 l 258
+ 1025 558.715 955.056 612 835 612 c 257
+ 835 652 l 257
+ 1001.37 652 1067 568.037 1067 411 c 258
+ 1067 241 l 256
+ 1025 241 l 256
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_NDha si_MatraIi
 EndChar
 
 StartChar: si_NDhU
 Encoding: 475 -1 298
 GlifName: si_N_D_hU_
-Width: 969
+Width: 1097
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -11222,13 +11354,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 300 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_NDha si_MatraU
 EndChar
 
 StartChar: si_NDhUu
 Encoding: 476 -1 299
 GlifName: si_N_D_hU_u
-Width: 969
+Width: 1097
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -11236,6 +11369,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 300 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_NDha si_MatraUu
 EndChar
 
@@ -11366,6 +11500,7 @@ I616
 sg8
 I138
 sass."
+LCarets2: 2 0 0
 Ligature2: "si_akhands subtable" si_Na si_Halant si_Dha
 EndChar
 
@@ -11381,6 +11516,7 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 156 0 2
 Refer: 317 3505 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Na si_MatraI
 EndChar
 
@@ -11396,13 +11532,14 @@ Back
 Fore
 Refer: 267 3539 N 1 0 0 1 155 0 2
 Refer: 317 3505 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Na si_MatraIi
 EndChar
 
 StartChar: si_NTh.halant
 Encoding: 489 -1 303
 GlifName: si_N_T_h.halant
-Width: 1078
+Width: 1061
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -11422,7 +11559,7 @@ EndChar
 StartChar: si_NThI
 Encoding: 490 -1 304
 GlifName: si_N_T_hI_
-Width: 1078
+Width: 1061
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -11443,13 +11580,14 @@ SplineSet
  595.765 870.293 633.479 922 709 922 c 258
 EndSplineSet
 Refer: 308 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_NTha si_MatraI
 EndChar
 
 StartChar: si_NThIi
 Encoding: 491 -1 305
 GlifName: si_N_T_hI_i
-Width: 1078
+Width: 1064
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -11472,43 +11610,46 @@ SplineSet
  709 715 l 257
 EndSplineSet
 Refer: 308 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_NTha si_MatraIi
 EndChar
 
 StartChar: si_NThU
 Encoding: 492 -1 306
 GlifName: si_N_T_hU_
-Width: 561
+Width: 1061
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 274 3540 N 1 0 0 1 555 0 2
+Refer: 274 3540 N 1 0 0 1 548 0 2
 Refer: 308 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_NTha si_MatraU
 EndChar
 
 StartChar: si_NThUu
 Encoding: 493 -1 307
 GlifName: si_N_T_hU_u
-Width: 561
+Width: 1061
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 276 3542 N 1 0 0 1 537 0 2
+Refer: 276 3542 N 1 0 0 1 525 0 2
 Refer: 308 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_NTha si_MatraUu
 EndChar
 
 StartChar: si_NTha
 Encoding: 455 -1 308
 GlifName: si_N_T_ha
-Width: 1097
+Width: 1061
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -11639,6 +11780,7 @@ I616
 sg8
 I139
 sass."
+LCarets2: 2 0 0
 Ligature2: "si_akhands subtable" si_Na si_Halant si_Tha
 EndChar
 
@@ -11670,6 +11812,7 @@ SplineSet
  640 83 l 257
 EndSplineSet
 Refer: 317 3505 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Na si_MatraU
 EndChar
 
@@ -11710,54 +11853,15 @@ EndChar
 StartChar: si_NV.halant
 Encoding: 494 -1 311
 GlifName: si_N_V_.halant
-Width: 1155
+Width: 1065
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
-809.5 779 m 257
- 809.5 819 l 257
- 892 819 l 258
- 970.359 819 1025.33 776 1025.33 673 c 257
- 985.333 673 l 257
- 985.333 770 937.333 779 892 779 c 258
- 809.5 779 l 257
-33 452 m 257
- 64.0312 533.159 124.235 565.088 181.841 565.088 c 256
- 244.9 565.088 304.845 526.827 320 473 c 257
- 289 445 l 257
- 276.237 490.735 229.535 521.199 181.232 521.199 c 256
- 138.707 521.199 94.9414 497.588 72 440 c 257
- 33 452 l 257
-810 0 m 257
- 810 40 l 257
- 923.056 40 994 95.2852 994 241 c 258
- 994 411 l 258
- 994 558.715 923.056 612 810 612 c 257
- 810 652 l 257
- 969.37 652 1035 568.037 1035 411 c 258
- 1035 241 l 258
- 1035 83.9629 969.37 0 810 0 c 257
-30 256 m 258
- 30 344 l 257
- 71 344 l 257
- 71 313 71 301 71 270 c 256
- 71 111.066 175.557 37.2843 274.531 37.2843 c 256
- 363.473 37.2843 447.907 96.8668 447.907 207.781 c 256
- 447.907 269.002 423.599 334.853 330 370 c 257
- 355 403 l 257
- 451.48 372.244 492.414 287.188 492.414 208.132 c 256
- 492.414 68.7225 384.57 -4.50763 273.044 -4.50763 c 256
- 153.632 -4.50763 30 79.4433 30 256 c 258
-827.932 350 m 257
- 828 309 l 257
- 779 309 l 258
- 641.373 309 587 285.762 587 181 c 256
- 587 111.89 646.708 40 754 40 c 257
- 754 0 l 257
+754 0 m 257
  634.896 0 547 85.7334 547 181 c 256
  547 230.761 558.247 268.244 584 296 c 256
  626.614 341.928 689.439 349 784.932 350 c 257
@@ -11772,26 +11876,65 @@ SplineSet
  294.013 485 l 258
  343.119 550.195 439.09 584.165 536.286 584.165 c 256
  680.756 584.165 827.932 509.114 827.932 350 c 257
-567.333 612 m 1
- 567.333 652 l 1
- 597.821976076 652 l 1
- 583.899457404 670.110770229 576.977 692.449443417 576.977 714.83 c 0
- 576.977 766.802 614.309 819 688 819 c 2
- 754 819 l 1
- 754 779 l 1
- 678 779 l 2
- 636.071 779 614.881 747.025 614.881 715.163 c 0
- 614.881 683.526000236 635.773999689 652.00000047 677.999999056 652 c 0
- 754.333 652 l 1
- 754.333 612 l 1
- 567.333 612 l 1
+ 828 309 l 257
+ 779 309 l 258
+ 641.373 309 587 285.762 587 181 c 256
+ 587 111.89 646.708 40 754 40 c 257
+ 754 0 l 257
+567.333 612 m 257
+ 567.333 652 l 257
+ 597.822 652 l 257
+ 583.899 670.111 576.977 692.449 576.977 714.83 c 256
+ 576.977 766.802 614.309 819 688 819 c 258
+ 754 819 l 257
+ 754 779 l 257
+ 678 779 l 258
+ 636.071 779 614.881 747.025 614.881 715.163 c 256
+ 614.881 683.526 635.774 652 678 652 c 258
+ 754.333 652 l 257
+ 754.333 612 l 257
+ 567.333 612 l 257
+30 256 m 258
+ 30 344 l 257
+ 71 344 l 257
+ 71 313 71 301 71 270 c 256
+ 71 111.066 175.557 37.2843 274.531 37.2843 c 256
+ 363.473 37.2843 447.907 96.8668 447.907 207.781 c 256
+ 447.907 269.002 423.599 334.853 330 370 c 257
+ 355 403 l 257
+ 451.48 372.244 492.414 287.188 492.414 208.132 c 256
+ 492.414 68.7225 384.57 -4.50763 273.044 -4.50763 c 256
+ 153.632 -4.50763 30 79.4433 30 256 c 258
+810 0 m 257
+ 810 40 l 257
+ 923.056 40 994 95.2852 994 241 c 258
+ 994 411 l 258
+ 994 558.715 923.056 612 810 612 c 257
+ 810 652 l 257
+ 969.37 652 1035 568.037 1035 411 c 258
+ 1035 241 l 258
+ 1035 83.9629 969.37 0 810 0 c 257
+33 452 m 257
+ 64.0312 533.159 124.235 565.088 181.841 565.088 c 256
+ 244.9 565.088 304.845 526.827 320 473 c 257
+ 289 445 l 257
+ 276.237 490.735 229.535 521.199 181.232 521.199 c 256
+ 138.707 521.199 94.9414 497.588 72 440 c 257
+ 33 452 l 257
+809.5 779 m 257
+ 809.5 819 l 257
+ 892 819 l 258
+ 970.359 819 1025.33 776 1025.33 673 c 257
+ 985.333 673 l 257
+ 985.333 770 937.333 779 892 779 c 258
+ 809.5 779 l 257
 EndSplineSet
 EndChar
 
 StartChar: si_NVI
 Encoding: 495 -1 312
 GlifName: si_N_V_I_
-Width: 1155
+Width: 1066
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -11865,13 +12008,14 @@ SplineSet
  995.333 770 937.333 779 892 779 c 258
  809.5 779 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_NVa si_MatraI
 EndChar
 
 StartChar: si_NVIi
 Encoding: 496 -1 313
 GlifName: si_N_V_I_i
-Width: 1155
+Width: 1067
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -11948,43 +12092,46 @@ SplineSet
  138.707 521.199 94.9414 497.588 72 440 c 257
  33 452 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_NVa si_MatraIi
 EndChar
 
 StartChar: si_NVU
 Encoding: 497 -1 314
 GlifName: si_N_V_U_
-Width: 1082
+Width: 1065
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 274 3540 N 1 0 0 1 559 0 2
+Refer: 274 3540 N 1 0 0 1 552 0 2
 Refer: 316 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_NVa si_MatraU
 EndChar
 
 StartChar: si_NVUu
 Encoding: 498 -1 315
 GlifName: si_N_V_U_u
-Width: 1082
+Width: 1065
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 276 3542 N 1 0 0 1 541 0 2
+Refer: 276 3542 N 1 0 0 1 529 0 2
 Refer: 316 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_NVa si_MatraUu
 EndChar
 
 StartChar: si_NVa
 Encoding: 456 -1 316
 GlifName: si_N_V_a
-Width: 1155
+Width: 1065
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -12085,6 +12232,7 @@ I616
 sg8
 I138
 sass."
+LCarets2: 2 0 0
 Ligature2: "si_akhands subtable" si_Na si_Halant si_Va
 EndChar
 
@@ -12233,6 +12381,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 326 3507 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Nda si_MatraI
 EndChar
 
@@ -12247,6 +12396,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 326 3507 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Nda si_MatraIi
 EndChar
 
@@ -12274,17 +12424,17 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-238 446 m 257
- 220.287 452.007 204.045 454.74 189.241 454.74 c 256
- 107.931 454.74 70 372.292 70 297 c 258
- 70 209 l 258
- 70 128.436 71.5576 84.5967 136 8 c 257
- 94 -8 l 257
+94 -8 m 257
  34.3584 69.1836 30 118.444 30 209 c 258
  30 297 l 258
  30 433.904 109.859 497.145 189.636 497.145 c 256
  206.008 497.145 222.377 494.482 238.051 489.245 c 256
  238 446 l 257
+ 220.287 452.007 204.045 454.74 189.241 454.74 c 256
+ 107.931 454.74 70 372.292 70 297 c 258
+ 70 209 l 258
+ 70 128.436 71.5576 84.5967 136 8 c 257
+ 94 -8 l 257
 EndSplineSet
 Refer: 65 -1 N 1 0 0 1 140 0 2
 LCarets2: 1 0
@@ -12302,17 +12452,17 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-238 446 m 257
- 220.287 452.007 204.045 454.74 189.241 454.74 c 256
- 107.931 454.74 70 372.292 70 297 c 258
- 70 209 l 258
- 70 128.436 71.5576 84.5967 136 8 c 257
- 94 -8 l 257
+94 -8 m 257
  34.3584 69.1836 30 118.444 30 209 c 258
  30 297 l 258
  30 433.904 109.859 497.145 189.636 497.145 c 256
  206.008 497.145 222.377 494.482 238.051 489.245 c 256
  238 446 l 257
+ 220.287 452.007 204.045 454.74 189.241 454.74 c 256
+ 107.931 454.74 70 372.292 70 297 c 258
+ 70 209 l 258
+ 70 128.436 71.5576 84.5967 136 8 c 257
+ 94 -8 l 257
 EndSplineSet
 Refer: 66 -1 N 1 0 0 1 140 0 2
 LCarets2: 1 0
@@ -12444,7 +12594,7 @@ GlifName: si_N_dj.halant
 Width: 765
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12457,6 +12607,7 @@ SplineSet
  455.001 489 l 257
 EndSplineSet
 Refer: 336 3494 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ndja si_Halant
 EndChar
 
@@ -12466,7 +12617,7 @@ GlifName: si_N_djI_
 Width: 765
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12479,11 +12630,12 @@ GlifName: si_N_djI_i
 Width: 765
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 336 3494 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ndja si_MatraIi
 EndChar
 
@@ -12493,7 +12645,7 @@ GlifName: si_N_djR_.halant
 Width: 765
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12506,7 +12658,7 @@ GlifName: si_N_djR_a
 Width: 765
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12520,7 +12672,7 @@ GlifName: si_N_djU_
 Width: 765
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12550,7 +12702,7 @@ GlifName: si_N_djU_u
 Width: 765
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12574,6 +12726,7 @@ SplineSet
  483 -122 l 257
 EndSplineSet
 Refer: 336 3494 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ndja si_MatraUu
 EndChar
 
@@ -12583,7 +12736,7 @@ GlifName: si_N_dja
 Width: 765
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12621,50 +12774,63 @@ GlifName: si_N_g.halant
 Width: 580
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: -8 140 200 2 251 100 397 100 616 138
 VStem: 30 138 245 100 287 105 422 141
 LayerCount: 2
 Back
 Fore
 SplineSet
-210.667 310 m 0
- 84.8457 310 72 279.941 72 228 c 2
- 72 139 l 2
- 72 104.059 94.8457 40 171 40 c 0
- 246.154 40 269 104.059 269 139 c 2
- 269 192 l 1
- 311 192 l 1
- 311 139 l 2
- 311 104.059 333.846 40 409 40 c 0
- 485.154 40 508 104.059 508 139 c 2
- 508 242 l 1
- 550 242 l 1
- 550 133 l 2
- 550 52.25 491.893 0 409 0 c 0
- 356.595 0 313.931 21.3961 290 57.9649 c 1
- 266.069 21.3961 223.405 3.55271e-15 171 0 c 0
- 88.1074 0 30 52.25 30 133 c 2
- 30 227 l 2
- 30 307.75 70.1074 350 160.667 350 c 0
- 259 350 l 0
- 297.429 350 317.144 377.602 317.144 404.609 c 0
- 317.144 430.477 299.056 455.8 262 455.8 c 2
- 174 455.8 l 2
- 96.3633 455.8 93 414.199 93 402.8 c 1
- 53 402.8 l 1
- 53 464.327 93.2119 495.8 173 495.8 c 2
- 258 495.8 l 2
- 322.961 495.8 354.745 450.032 354.745 403.927 c 0
- 354.745 357.137 322.01 310 258 310 c 0
- 210.667 310 l 0
-325 652 m 257
- 484.37 652 550 568.03126663 550 411 c 258
+171 0 m 256
+ 88.1074 0 30 52.25 30 133 c 258
+ 30 227 l 258
+ 30 307.75 70.1074 350 160.667 350 c 258
+ 259 350 l 258
+ 297.429 350 317.144 377.602 317.144 404.609 c 256
+ 317.144 430.477 299.056 455.8 262 455.8 c 258
+ 174 455.8 l 258
+ 96.3633 455.8 93 414.199 93 402.8 c 257
+ 53 402.8 l 257
+ 53 464.327 93.2119 495.8 173 495.8 c 258
+ 258 495.8 l 258
+ 322.961 495.8 354.745 450.032 354.745 403.927 c 256
+ 354.745 357.137 322.01 310 258 310 c 258
+ 210.667 310 l 258
+ 84.8457 310 72 279.941 72 228 c 258
+ 72 139 l 258
+ 72 104.059 94.8457 40 171 40 c 256
+ 246.154 40 269 104.059 269 139 c 258
+ 269 192 l 257
+ 311 192 l 257
+ 311 139 l 258
+ 311 104.059 333.846 40 409 40 c 256
+ 485.154 40 508 104.059 508 139 c 258
+ 508 242 l 257
+ 550 242 l 257
+ 550 133 l 258
+ 550 52.25 491.893 0 409 0 c 256
+ 356.595 0 313.931 21.3961 290 57.9649 c 257
+ 266.069 21.3961 223.405 3.55271e-15 171 0 c 256
+42.333 612 m 257
+ 42.333 652 l 257
+ 72.8223 652 l 257
+ 58.8994 670.11 51.9775 692.449 51.9775 714.83 c 256
+ 51.9775 766.802 89.3086 819 163 819 c 258
+ 257 819 l 257
+ 257 779 l 257
+ 153 779 l 258
+ 111.071 779 89.8809 747.025 89.8809 715.163 c 256
+ 89.8809 683.526 110.774 652 153 652 c 258
+ 325 652 l 257
+ 325 612 l 257
+ 42.333 612 l 257
+508 242 m 256
+ 508 411 l 258
+ 508 558.71 438.056 612 325 612 c 257
+ 325 652 l 257
+ 484.37 652 550 568.031 550 411 c 258
  550 242 l 256
  508 242 l 256
- 508 411 l 258
- 508 558.709606973 438.056 612 325 612 c 257
- 325 652 l 257
 312.5 779 m 257
  312.5 819 l 257
  402 819 l 258
@@ -12672,19 +12838,6 @@ SplineSet
  495.333 673 l 257
  495.333 770 447.333 779 402 779 c 258
  312.5 779 l 257
-42.3330078125 612 m 1
- 42.3330078125 652 l 1
- 72.822265625 652 l 1
- 58.8994140625 670.110351562 51.9775390625 692.44921875 51.9775390625 714.830078125 c 0
- 51.9775390625 766.801757812 89.30859375 819 163 819 c 2
- 257 819 l 1
- 257 779 l 1
- 153 779 l 2
- 111.071289062 779 89.880859375 747.025390625 89.880859375 715.163085938 c 0
- 89.880859375 683.526367188 110.774414062 652 153 652 c 0
- 325 652 l 1
- 325 612 l 1
- 42.3330078125 612 l 1
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -12754,9 +12907,9 @@ GlifName: si_N_gI_
 Width: 580
 VWidth: 0
 GlyphClass: 3
-Flags: HW
-HStem: 0 40<132.923 171 382.798 447.077> 241 1<508 550 508 550> 310 40<160.667 210.667 210.667 250 214 214 214 250 250 258> 456 40 612 40<150 160 160 325 325 381.528> 779 40<129.036 253 160 253 160 253 308.5 402>
-VStem: 30 42<133 139 139 227 227 228> 53 40<402.8 408.5 402.8 433.563> 214 36<310 350 310 350> 269 42<139 192> 325 3 495 40 508 42<139 242 241 242 242 411 242 242>
+Flags: W
+HStem: 0 40<132.923 171 382.798 447.077> 241 1 310 40<160.667 210.667 210.667 258> 456 40 612 40<150 160 160 325 325 381.528> 779 40<129.036 253 160 253 160 253 308.5 402>
+VStem: 30 42<133 139 139 227 227 228> 53 40<402.8 408.5 402.8 433.563> 214 36 269 42<139 192> 325 3 495 40 508 42<139 242 242 411>
 LayerCount: 2
 Back
 Fore
@@ -12770,12 +12923,14 @@ SplineSet
  308.5 779 l 257
 325 652 m 257
  484.37 652 550 568.037 550 411 c 258
- 550 242 l 260
- 508 242 l 260
+ 550 242 l 256
+ 508 242 l 256
  508 411 l 258
  508 558.715 438.056 612 325 612 c 257
  325 652 l 257
-160 819 m 258
+160 612 m 258
+ 85.6695 612 48.9774 663.304 48.9774 714.83 c 256
+ 48.9774 766.802 86.3087 819 160 819 c 258
  253 819 l 257
  253 779 l 257
  150 779 l 258
@@ -12784,38 +12939,36 @@ SplineSet
  325 652 l 257
  325 612 l 257
  160 612 l 258
- 85.6695 612 48.9774 663.304 48.9774 714.83 c 256
- 48.9774 766.802 86.3087 819 160 819 c 258
-53 402.8 m 1
- 53 464.327 93.2119 495.8 173 495.8 c 2
- 258 495.8 l 2
- 322.961 495.8 354.745 450.032 354.745 403.927 c 0
- 354.745 357.137 322.01 310 258 310 c 0
- 210.667 310 l 0
- 84.8457 310 72 279.941 72 228 c 2
- 72 139 l 2
- 72 104.059 94.8457 40 171 40 c 0
- 246.154 40 269 104.059 269 139 c 2
- 269 192 l 1
- 311 192 l 1
- 311 139 l 2
- 311 104.059 333.846 40 409 40 c 0
- 485.154 40 508 104.059 508 139 c 2
- 508 242 l 1
- 550 242 l 1
- 550 133 l 2
- 550 52.25 491.893 0 409 0 c 0
- 356.595 0 313.931 21.3961 290 57.9649 c 1
- 266.069 21.3961 223.405 3.55271e-15 171 0 c 0
- 88.1074 0 30 52.25 30 133 c 2
- 30 227 l 2
- 30 307.75 70.1074 350 160.667 350 c 0
- 259 350 l 0
- 297.429 350 317.144 377.602 317.144 404.609 c 0
- 317.144 430.477 299.056 455.8 262 455.8 c 2
- 174 455.8 l 2
- 96.3633 455.8 93 414.199 93 402.8 c 1
- 53 402.8 l 1
+53 402.8 m 257
+ 53 464.327 93.2119 495.8 173 495.8 c 258
+ 258 495.8 l 258
+ 322.961 495.8 354.745 450.032 354.745 403.927 c 256
+ 354.745 357.137 322.01 310 258 310 c 258
+ 210.667 310 l 258
+ 84.8457 310 72 279.941 72 228 c 258
+ 72 139 l 258
+ 72 104.059 94.8457 40 171 40 c 256
+ 246.154 40 269 104.059 269 139 c 258
+ 269 192 l 257
+ 311 192 l 257
+ 311 139 l 258
+ 311 104.059 333.846 40 409 40 c 256
+ 485.154 40 508 104.059 508 139 c 258
+ 508 242 l 257
+ 550 242 l 257
+ 550 133 l 258
+ 550 52.25 491.893 0 409 0 c 256
+ 356.595 0 313.931 21.3961 290 57.9649 c 257
+ 266.069 21.3961 223.405 3.55271e-15 171 0 c 256
+ 88.1074 0 30 52.25 30 133 c 258
+ 30 227 l 258
+ 30 307.75 70.1074 350 160.667 350 c 258
+ 259 350 l 258
+ 297.429 350 317.144 377.602 317.144 404.609 c 256
+ 317.144 430.477 299.056 455.8 262 455.8 c 258
+ 174 455.8 l 258
+ 96.3633 455.8 93 414.199 93 402.8 c 257
+ 53 402.8 l 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -12905,21 +13058,21 @@ GlifName: si_N_gI_i
 Width: 580
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: -8 140 200 2 251 100 397 100 616 138
 VStem: 30 138 245 100 287 105 422 141
 LayerCount: 2
 Back
 Fore
 SplineSet
-508 242 m 260
+508 242 m 256
  508 411 l 258
- 508 558.690363318 438.056 612 325 612 c 257
+ 508 558.69 438.056 612 325 612 c 257
  325 652 l 257
  327.843 652 330.655 651.973 333.438 651.92 c 256
- 486.69 648.982 550 565.210275712 550 411 c 258
- 550 242 l 260
- 508 242 l 260
+ 486.69 648.982 550 565.21 550 411 c 258
+ 550 242 l 256
+ 508 242 l 256
 458.96 603.56 m 256
  409.04 603.56 368.72 643.88 368.72 693.8 c 256
  368.72 729.745 389.625 760.713 419.967 775.235 c 257
@@ -12940,36 +13093,36 @@ SplineSet
  325 652 l 257
  325 612 l 257
  160 612 l 258
-171 0 m 0
- 88.1074 0 30 52.25 30 133 c 2
- 30 227 l 2
- 30 307.75 70.1074 350 160.667 350 c 0
- 259 350 l 0
- 297.429 350 317.144 377.602 317.144 404.609 c 0
- 317.144 430.477 299.056 455.8 262 455.8 c 2
- 174 455.8 l 2
- 96.3633 455.8 93 414.199 93 402.8 c 1
- 53 402.8 l 1
- 53 464.327 93.2119 495.8 173 495.8 c 2
- 258 495.8 l 2
- 322.961 495.8 354.745 450.032 354.745 403.927 c 0
- 354.745 357.137 322.01 310 258 310 c 0
- 210.667 310 l 0
- 84.8457 310 72 279.941 72 228 c 2
- 72 139 l 2
- 72 104.059 94.8457 40 171 40 c 0
- 246.154 40 269 104.059 269 139 c 2
- 269 192 l 1
- 311 192 l 1
- 311 139 l 2
- 311 104.059 333.846 40 409 40 c 0
- 485.154 40 508 104.059 508 139 c 2
- 508 242 l 5
- 550 242 l 5
- 550 133 l 2
- 550 52.25 491.893 0 409 0 c 0
- 356.595 0 313.931 21.3961 290 57.9649 c 1
- 266.069 21.3961 223.405 0 171 0 c 0
+171 0 m 256
+ 88.1074 0 30 52.25 30 133 c 258
+ 30 227 l 258
+ 30 307.75 70.1074 350 160.667 350 c 258
+ 259 350 l 258
+ 297.429 350 317.144 377.602 317.144 404.609 c 256
+ 317.144 430.477 299.056 455.8 262 455.8 c 258
+ 174 455.8 l 258
+ 96.3633 455.8 93 414.199 93 402.8 c 257
+ 53 402.8 l 257
+ 53 464.327 93.2119 495.8 173 495.8 c 258
+ 258 495.8 l 258
+ 322.961 495.8 354.745 450.032 354.745 403.927 c 256
+ 354.745 357.137 322.01 310 258 310 c 258
+ 210.667 310 l 258
+ 84.8457 310 72 279.941 72 228 c 258
+ 72 139 l 258
+ 72 104.059 94.8457 40 171 40 c 256
+ 246.154 40 269 104.059 269 139 c 258
+ 269 192 l 257
+ 311 192 l 257
+ 311 139 l 258
+ 311 104.059 333.846 40 409 40 c 256
+ 485.154 40 508 104.059 508 139 c 258
+ 508 242 l 257
+ 550 242 l 257
+ 550 133 l 258
+ 550 52.25 491.893 0 409 0 c 256
+ 356.595 0 313.931 21.3961 290 57.9649 c 257
+ 266.069 21.3961 223.405 0 171 0 c 256
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -13172,11 +13325,11 @@ GlifName: si_N_n.halant000000000000001
 Width: 963
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 157 3530 S 1 0 0 1 761 0 2
+Refer: 157 3530 N 1 0 0 1 761 0 2
 Refer: 348 3499 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Nna si_Halant
@@ -13189,7 +13342,7 @@ GlifName: si_N_nI_
 Width: 963
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -13206,7 +13359,7 @@ GlifName: si_N_nI_i000000000000001
 Width: 963
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -13222,7 +13375,7 @@ GlifName: si_N_nU_
 Width: 963
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -13254,7 +13407,7 @@ GlifName: si_N_nU_u
 Width: 963
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -13288,7 +13441,7 @@ GlifName: si_N_na
 Width: 963
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -13300,11 +13453,11 @@ SplineSet
  439 383 l 258
  439 511.834 363.322 566 268 566 c 256
  114.17 566 96 434.254 96 398 c 256
- 96 365.455 105.838867188 232.5 257 232.5 c 260
- 277.512695312 232.5 287 232.5 303 232.5 c 261
- 303 192.5 l 261
- 293 192.5 262.15625 192.458984375 236.25 192.458984375 c 260
- 139.377929688 192.458984375 56 275.274 56 398 c 256
+ 96 365.455 105.839 232.5 257 232.5 c 256
+ 277.513 232.5 287 232.5 303 232.5 c 257
+ 303 192.5 l 257
+ 293 192.5 262.156 192.459 236.25 192.459 c 256
+ 139.378 192.459 56 275.274 56 398 c 256
  56 535 158 606 268 606 c 256
  478.698 606 480.075 430.731 480.075 383 c 256
  480.075 368.861 480 194.315 480 176 c 256
@@ -13314,31 +13467,31 @@ SplineSet
  9.99902 5 l 257
 680 241.5 m 257
  680 432 l 258
- 680 491.916348968 636.698 521.93 593.423 521.93 c 256
+ 680 491.916 636.698 521.93 593.423 521.93 c 256
  569.728 521.93 546.041 512.933 529.474 494.92 c 257
  509.655 534.323 l 257
  532.965 554.529 563.184 564.625 593.41 564.625 c 256
  634.845 564.625 676.292 545.653 699.971 507.745 c 257
  723.606 545.677 765.002 564.625 806.41 564.625 c 256
- 869.69 564.625 933 520.37256484 933 432 c 258
+ 869.69 564.625 933 520.373 933 432 c 258
  933 241.5 l 257
  893 241.5 l 257
  893 432 l 258
- 893 491.916348968 849.699 521.93 806.423 521.93 c 256
- 763.199 521.93 720 491.987347012 720 432 c 258
+ 893 491.916 849.699 521.93 806.423 521.93 c 256
+ 763.199 521.93 720 491.987 720 432 c 258
  720 241.5 l 257
  680 241.5 l 257
 535 160 m 258
  535 192.5 l 257
  575 192.5 l 257
  575 160 l 258
- 575 76.0066203594 654.628 33.789 734.192 33.789 c 256
- 813.628 33.789 893 75.8715482384 893 160 c 258
+ 575 76.0066 654.628 33.789 734.192 33.789 c 256
+ 813.628 33.789 893 75.8715 893 160 c 258
  893 192.5 l 257
  933 192.5 l 257
  933 160 l 258
- 933 48.9479380468 833.657 -6.60447 734.236 -6.60447 c 256
- 634.657 -6.60447 535 49.1232720501 535 160 c 258
+ 933 48.9479 833.657 -6.60447 734.236 -6.60447 c 256
+ 634.657 -6.60447 535 49.1233 535 160 c 258
 362.277 581 m 257
  515.999 784 l 257
  562 772 l 257
@@ -13353,7 +13506,7 @@ GlifName: si_N_na.reph000000000000001
 Width: 963
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -13381,81 +13534,79 @@ GlifName: si_N_ndd.halant
 Width: 730
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
 321 0 m 256
- 238.107421875 0 180 52.25 180 133 c 258
+ 238.107 0 180 52.25 180 133 c 258
  180 235 l 258
- 180 266.713867188 186.819335938 297.654296875 208 309 c 257
- 136.025390625 309 l 257
+ 180 266.714 186.819 297.654 208 309 c 257
+ 136.025 309 l 257
  136 349 l 257
  421 349 l 257
- 420.713867188 407.658203125 371.870117188 438.116210938 324.350585938 438.116210938 c 256
- 289.821289062 438.116210938 255.990234375 422.033203125 242 389 c 257
+ 420.714 407.658 371.87 438.116 324.351 438.116 c 256
+ 289.821 438.116 255.99 422.033 242 389 c 257
  203 399 l 257
- 216.759765625 451.926757812 270.094726562 478.99609375 324.723632812 478.99609375 c 256
- 358.3046875 478.99609375 392.375 468.766601562 418.041015625 448.028320312 c 256
- 443.70703125 427.2890625 460.967773438 396.040039062 460.931640625 354 c 258
+ 216.76 451.927 270.095 478.996 324.724 478.996 c 256
+ 358.305 478.996 392.375 468.767 418.041 448.028 c 256
+ 443.707 427.289 460.968 396.04 460.932 354 c 258
  461 309 l 257
  297 309 l 258
- 260.630859375 309 222 301.575195312 222 235 c 258
+ 260.631 309 222 301.575 222 235 c 258
  222 139 l 258
- 222 104.05859375 244.845703125 40 321 40 c 256
- 396.154296875 40 419 104.05859375 419 139 c 258
+ 222 104.059 244.846 40 321 40 c 256
+ 396.154 40 419 104.059 419 139 c 258
  419 192 l 257
  461 192 l 257
  461 139 l 258
- 461 104.05859375 483.845703125 40 559 40 c 256
- 635.154296875 40 658 104.05859375 658 139 c 258
+ 461 104.059 483.846 40 559 40 c 256
+ 635.154 40 658 104.059 658 139 c 258
  658 241 l 257
  700 241 l 257
  700 133 l 258
- 700 52.25 641.892578125 0 559 0 c 256
- 506.594726562 0 463.930664062 21.396484375 440 57.96484375 c 257
- 416.069335938 21.396484375 373.405273438 0 321 0 c 256
-192.333007812 612 m 257
- 192.333007812 652 l 257
- 222.822265625 652 l 257
- 208.899414062 670.110351562 201.977539062 692.44921875 201.977539062 714.830078125 c 256
- 201.977539062 766.801757812 239.30859375 819 313 819 c 258
- 407 819 l 257
- 407 779 l 257
- 303 779 l 258
- 261.071289062 779 239.880859375 747.025390625 239.880859375 715.163085938 c 256
- 239.880859375 683.526367188 260.774414062 652 303 652 c 258
- 475 652 l 257
- 475 612 l 257
- 192.333007812 612 l 257
-658 241 m 256
- 658 411 l 258
- 658 558.71484375 588.055664062 612 475 612 c 257
- 475 652 l 257
- 634.370117188 652 700 568.037109375 700 411 c 258
- 700 241 l 256
- 658 241 l 256
-645.333007812 673 m 257
- 645.333007812 770 597.333007812 779 552 779 c 258
- 462.5 779 l 257
- 462.5 819 l 257
- 552 819 l 258
- 630.359375 819 685.333007812 776 685.333007812 673 c 257
- 645.333007812 673 l 257
-229 392 m 257
- 205.092 399.3 184.614 402.504 167.112 402.504 c 256
- 88.7123 402.504 70 338.232 70 290 c 258
- 70 209 l 258
- 70 190.741 69.515 174.369 69.515 159.074 c 256
- 69.515 106.882 75.1625 67.2373 125 8 c 257
- 83 -8 l 257
+ 700 52.25 641.893 0 559 0 c 256
+ 506.595 0 463.931 21.3965 440 57.9648 c 257
+ 416.069 21.3965 373.405 0 321 0 c 256
+83 -8 m 257
  34.2221 55.1247 29.7796 99.5723 29.7796 163.208 c 256
- 29.7796 177.381 30 192.505 30 209 c 258
- 30 290 l 258
+ 29.7796 177.381 30 192.505 30 290 c 256
  30 392.505 87.0764 444.852 165.771 444.852 c 256
  190.718 444.852 217.838 439.591 246 429 c 256
  229 392 l 257
+ 205.092 399.3 184.614 402.504 167.112 402.504 c 256
+ 88.7123 402.504 70 338.232 70 290 c 256
+ 70 190.741 69.515 174.369 69.515 159.074 c 256
+ 69.515 106.882 75.1625 67.2373 125 8 c 257
+ 83 -8 l 257
+192.333 612 m 257
+ 192.333 652 l 257
+ 222.822 652 l 257
+ 208.899 670.11 201.978 692.449 201.978 714.83 c 256
+ 201.978 766.802 239.309 819 313 819 c 258
+ 407 819 l 257
+ 407 779 l 257
+ 303 779 l 258
+ 261.071 779 239.881 747.025 239.881 715.163 c 256
+ 239.881 683.526 260.774 652 303 652 c 258
+ 475 652 l 257
+ 475 612 l 257
+ 192.333 612 l 257
+658 241 m 256
+ 658 411 l 258
+ 658 558.715 588.056 612 475 612 c 257
+ 475 652 l 257
+ 634.37 652 700 568.037 700 411 c 258
+ 700 241 l 256
+ 658 241 l 256
+645.333 673 m 257
+ 645.333 770 597.333 779 552 779 c 258
+ 462.5 779 l 257
+ 462.5 819 l 257
+ 552 819 l 258
+ 630.359 819 685.333 776 685.333 673 c 257
+ 645.333 673 l 257
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Nndda si_Halant
@@ -13467,78 +13618,76 @@ GlifName: si_N_nddI_
 Width: 730
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
 321 0 m 256
- 238.107421875 0 180 52.25 180 133 c 258
+ 238.107 0 180 52.25 180 133 c 258
  180 235 l 258
- 180 266.713867188 186.819335938 297.654296875 208 309 c 257
- 136.025390625 309 l 257
+ 180 266.714 186.819 297.654 208 309 c 257
+ 136.025 309 l 257
  136 349 l 257
  421 349 l 257
- 420.713867188 407.658203125 371.870117188 438.116210938 324.350585938 438.116210938 c 256
- 289.821289062 438.116210938 255.990234375 422.033203125 242 389 c 257
+ 420.714 407.658 371.87 438.116 324.351 438.116 c 256
+ 289.821 438.116 255.99 422.033 242 389 c 257
  203 399 l 257
- 216.759765625 451.926757812 270.094726562 478.99609375 324.723632812 478.99609375 c 256
- 398.999023438 478.99609375 460.999023438 431.905273438 460.931640625 354 c 258
+ 216.76 451.927 270.095 478.996 324.724 478.996 c 256
+ 398.999 478.996 460.999 431.905 460.932 354 c 258
  461 309 l 257
  297 309 l 258
- 260.630859375 309 222 301.575195312 222 235 c 258
+ 260.631 309 222 301.575 222 235 c 258
  222 139 l 258
- 222 104.05859375 244.845703125 40 321 40 c 256
- 396.154296875 40 419 104.05859375 419 139 c 258
+ 222 104.059 244.846 40 321 40 c 256
+ 396.154 40 419 104.059 419 139 c 258
  419 192 l 257
  461 192 l 257
  461 139 l 258
- 461 104.05859375 483.845703125 40 559 40 c 256
- 635.154296875 40 658 104.061523438 658 139 c 258
+ 461 104.059 483.846 40 559 40 c 256
+ 635.154 40 658 104.062 658 139 c 258
  658 241 l 257
  700 241 l 257
  700 133 l 258
- 700 52.255859375 641.892578125 0 559 0 c 256
- 506.594726562 0 463.930664062 21.396484375 440 57.96484375 c 257
- 416.069335938 21.396484375 373.405273438 0 321 0 c 256
+ 700 52.2559 641.893 0 559 0 c 256
+ 506.595 0 463.931 21.3965 440 57.9648 c 257
+ 416.069 21.3965 373.405 0 321 0 c 256
+83 -8 m 257
+ 34.2221 55.1247 29.7796 99.5723 29.7796 163.208 c 256
+ 29.7796 177.381 30 192.505 30 290 c 256
+ 30 392.505 87.0764 444.852 165.771 444.852 c 256
+ 190.718 444.852 217.838 439.591 246 429 c 256
+ 229 392 l 257
+ 205.092 399.3 184.614 402.504 167.112 402.504 c 256
+ 88.7123 402.504 70 338.232 70 290 c 256
+ 70 190.741 69.515 174.369 69.515 159.074 c 256
+ 69.515 106.882 75.1625 67.2373 125 8 c 257
+ 83 -8 l 257
 313 612 m 258
- 238.671875 612 201.977539062 663.303710938 201.977539062 714.830078125 c 256
- 201.977539062 766.801757812 239.30859375 819 313 819 c 258
+ 238.672 612 201.978 663.304 201.978 714.83 c 256
+ 201.978 766.802 239.309 819 313 819 c 258
  407 819 l 257
  407 779 l 257
  303 779 l 258
- 261.071289062 779 239.880859375 747.025390625 239.880859375 715.163085938 c 256
- 239.880859375 683.526367188 260.775390625 652 303 652 c 258
+ 261.071 779 239.881 747.025 239.881 715.163 c 256
+ 239.881 683.526 260.775 652 303 652 c 258
  475 652 l 257
  475 612 l 257
  313 612 l 258
 658 241 m 256
  658 411 l 258
- 658 558.71484375 588.055664062 612 475 612 c 257
+ 658 558.715 588.056 612 475 612 c 257
  475 652 l 257
- 634.370117188 652 700 568.037109375 700 411 c 258
+ 634.37 652 700 568.037 700 411 c 258
  700 241 l 256
  658 241 l 256
-645.333007812 673 m 257
- 645.333007812 770 597.333007812 779 552 779 c 258
+645.333 673 m 257
+ 645.333 770 597.333 779 552 779 c 258
  462.5 779 l 257
  462.5 819 l 257
  552 819 l 258
- 630.359375 819 685.333007812 776 685.333007812 673 c 257
- 645.333007812 673 l 257
-229 392 m 257
- 205.092 399.3 184.614 402.504 167.112 402.504 c 256
- 88.7123 402.504 70 338.232 70 290 c 258
- 70 209 l 258
- 70 190.741 69.515 174.369 69.515 159.074 c 256
- 69.515 106.882 75.1625 67.2373 125 8 c 257
- 83 -8 l 257
- 34.2221 55.1247 29.7796 99.5723 29.7796 163.208 c 256
- 29.7796 177.381 30 192.505 30 209 c 258
- 30 290 l 258
- 30 392.505 87.0764 444.852 165.771 444.852 c 256
- 190.718 444.852 217.838 439.591 246 429 c 256
- 229 392 l 257
+ 630.359 819 685.333 776 685.333 673 c 257
+ 645.333 673 l 257
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Nndda si_MatraI
@@ -13550,7 +13699,7 @@ GlifName: si_N_nddI_i
 Width: 730
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -13577,11 +13726,11 @@ SplineSet
  461 192 l 257
  461 139 l 258
  461 104.059 483.846 40 559 40 c 256
- 635.154 40 658 104.076187393 658 139 c 258
+ 635.154 40 658 104.076 658 139 c 258
  658 242 l 257
  700 242 l 257
  700 133 l 258
- 700 52.2856931002 641.893 0 559 0 c 256
+ 700 52.2857 641.893 0 559 0 c 256
  506.595 0 463.931 21.3965 440 57.9648 c 257
  416.069 21.3965 373.405 0 321 0 c 256
 83 -8 m 257
@@ -13596,13 +13745,13 @@ SplineSet
  69.515 106.882 75.1625 67.2373 125 8 c 257
  83 -8 l 257
 313 612 m 258
- 238.671921816 612 201.978 663.304 201.978 714.83 c 256
+ 238.672 612 201.978 663.304 201.978 714.83 c 256
  201.978 766.802 239.309 819 313 819 c 258
  407 819 l 257
  407 779 l 257
  303 779 l 258
  261.071 779 239.881 747.025 239.881 715.163 c 256
- 239.881 683.526 260.775469753 652 303 652 c 258
+ 239.881 683.526 260.775 652 303 652 c 258
  475 652 l 257
  475 612 l 257
  313 612 l 258
@@ -13656,6 +13805,7 @@ SplineSet
  197 -165 l 257
 EndSplineSet
 Refer: 356 3500 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Nndda si_MatraU
 EndChar
 
@@ -13689,6 +13839,7 @@ SplineSet
  644 83 l 257
 EndSplineSet
 Refer: 356 3500 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Nndda si_MatraUu
 EndChar
 
@@ -13770,6 +13921,7 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 690 0 2
 Refer: 362 3487 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Nnga si_Halant
 EndChar
 
@@ -13785,6 +13937,7 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 212 0 2
 Refer: 362 3487 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Nnga si_MatraI
 EndChar
 
@@ -13800,6 +13953,7 @@ Back
 Fore
 Refer: 267 3539 N 1 0 0 1 227 0 2
 Refer: 362 3487 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Nnga si_MatraIi
 EndChar
 
@@ -13827,6 +13981,7 @@ SplineSet
  34.3584 69.1836 30 118.444 30 209 c 258
 EndSplineSet
 Refer: 130 -1 N 1 0 0 1 140 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Nnga si_MatraU
 EndChar
 
@@ -13836,7 +13991,7 @@ GlifName: si_N_ngU_u
 Width: 896
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -13988,7 +14143,7 @@ EndChar
 StartChar: si_Ny.halant
 Encoding: 173 -1 364
 GlifName: si_N_y.halant
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -13997,13 +14152,14 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 796 0 2
 Refer: 373 3492 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Nya si_Halant
 EndChar
 
 StartChar: si_NyI
 Encoding: 178 -1 365
 GlifName: si_N_yI_
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -14012,13 +14168,14 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 512 0 2
 Refer: 373 3492 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Nya si_MatraI
 EndChar
 
 StartChar: si_NyIi
 Encoding: 179 -1 366
 GlifName: si_N_yI_i
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -14027,13 +14184,14 @@ Back
 Fore
 Refer: 267 3539 N 1 0 0 1 490 0 2
 Refer: 373 3492 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Nya si_MatraIi
 EndChar
 
 StartChar: si_NyR.halant
 Encoding: 182 -1 367
 GlifName: si_N_yR_.halant
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -14046,7 +14204,7 @@ EndChar
 StartChar: si_NyRI
 Encoding: 184 -1 368
 GlifName: si_N_yR_I_
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -14054,13 +14212,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 373 3492 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_NyRa si_MatraI
 EndChar
 
 StartChar: si_NyRIi
 Encoding: 185 -1 369
 GlifName: si_N_yR_I_i
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -14074,7 +14233,7 @@ EndChar
 StartChar: si_NyRa
 Encoding: 183 -1 370
 GlifName: si_N_yR_a
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -14082,13 +14241,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 373 3492 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Nya si_Halant si_Ra
 EndChar
 
 StartChar: si_NyU
 Encoding: 180 -1 371
 GlifName: si_N_yU_
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -14096,13 +14256,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 373 3492 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Nya si_MatraU
 EndChar
 
 StartChar: si_NyUu
 Encoding: 181 -1 372
 GlifName: si_N_yU_u
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -14110,13 +14271,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 373 3492 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Nya si_MatraUu
 EndChar
 
 StartChar: si_Nya
 Encoding: 31 3492 373
 GlifName: si_N_ya
-Width: 1083
+Width: 1113
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -14384,7 +14546,7 @@ GlifName: si_P_.halant
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -14400,11 +14562,11 @@ GlifName: si_P_I_
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 266 3538 S 1 0 0 1 16 0 2
+Refer: 266 3538 N 1 0 0 1 16 0 2
 Refer: 386 3508 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Pa si_MatraI
@@ -14416,11 +14578,11 @@ GlifName: si_P_I_i
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 267 3539 S 1 0 0 1 25 0 2
+Refer: 267 3539 N 1 0 0 1 25 0 2
 Refer: 386 3508 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Pa si_MatraIi
@@ -14429,10 +14591,10 @@ EndChar
 StartChar: si_PR.halant
 Encoding: 316 -1 380
 GlifName: si_P_R_.halant
-Width: 628
+Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -14442,28 +14604,30 @@ EndChar
 StartChar: si_PRI
 Encoding: 318 -1 381
 GlifName: si_P_R_I_
-Width: 628
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 378 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_PRa si_MatraI
 EndChar
 
 StartChar: si_PRIi
 Encoding: 319 -1 382
 GlifName: si_P_R_I_i
-Width: 628
+Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 379 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_PRa si_MatraIi
 EndChar
 
@@ -14473,11 +14637,12 @@ GlifName: si_P_R_a
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 386 3508 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Pa si_Halant si_Ra
 EndChar
 
@@ -14487,7 +14652,7 @@ GlifName: si_P_U_
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -14509,6 +14674,7 @@ SplineSet
  529 51 l 257
 EndSplineSet
 Refer: 386 3508 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Pa si_MatraU
 EndChar
 
@@ -14518,7 +14684,7 @@ GlifName: si_P_U_u
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -14542,6 +14708,7 @@ SplineSet
  533 51 l 257
 EndSplineSet
 Refer: 386 3508 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Pa si_MatraUu
 EndChar
 
@@ -14551,7 +14718,7 @@ GlifName: si_P_a
 Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -12 135 283 119 378 24 451 124
 VStem: 34 140 250 128 454 140
 LayerCount: 2
@@ -14573,13 +14740,13 @@ SplineSet
  118.421 524 83.4727 500.315 70 464 c 257
  31 477 l 257
 279 -6 m 262
- 102 -6 30 49.74609375 30 192.5 c 261
+ 102 -6 30 49.7461 30 192.5 c 261
  70 192.5 l 261
- 70 61.30078125 146 34 279 34 c 262
+ 70 61.3008 146 34 279 34 c 262
  341 34 l 262
- 474 34 550 62.30078125 550 192.5 c 261
+ 474 34 550 62.3008 550 192.5 c 261
  590 192.5 l 261
- 590 49.74609375 518 -6 341 -6 c 262
+ 590 49.7461 518 -6 341 -6 c 262
  279 -6 l 262
 30 242 m 261
  30 364 97 402 194 402 c 262
@@ -14588,7 +14755,7 @@ SplineSet
  550 242 l 261
  550 320 530 362 421 362 c 262
  195 362 l 262
- 85.7383 362 70.0009765625 308.103515625 70 242 c 261
+ 85.7383 362 70.001 308.104 70 242 c 261
  30 242 l 261
 EndSplineSet
 PickledDataWithLists: "(dp1
@@ -14647,7 +14814,7 @@ GlifName: si_P_a.reph
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -14686,6 +14853,7 @@ SplineSet
  476.001 518 l 257
 EndSplineSet
 Refer: 394 3509 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Pha si_Halant
 EndChar
 
@@ -14713,13 +14881,14 @@ SplineSet
  82.7654 870.293 120.479 922 196 922 c 258
 EndSplineSet
 Refer: 394 3509 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Pha si_MatraI
 EndChar
 
 StartChar: si_PhIi
 Encoding: 322 -1 391
 GlifName: si_P_hI_i
-Width: 548
+Width: 551
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -14742,6 +14911,7 @@ SplineSet
  196 715 l 257
 EndSplineSet
 Refer: 394 3509 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Pha si_MatraIi
 EndChar
 
@@ -14751,11 +14921,11 @@ GlifName: si_P_hU_
 Width: 548
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 274 3540 S 1 0 0 1 35 0 2
+Refer: 274 3540 N 1 0 0 1 35 0 2
 Refer: 394 3509 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Pha si_MatraU
@@ -14767,11 +14937,11 @@ GlifName: si_P_hU_u
 Width: 548
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 276 3542 S 1 0 0 1 12 0 2
+Refer: 276 3542 N 1 0 0 1 12 0 2
 Refer: 394 3509 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Pha si_MatraUu
@@ -15038,6 +15208,7 @@ SplineSet
  244.047 696.853 l 257
  244.047 646.985 223.963 587.853 139 587.853 c 256
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_reph subtable" si_Ra si_Halant
 EndChar
 
@@ -15047,7 +15218,7 @@ GlifName: si_S_.halant
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15063,11 +15234,11 @@ GlifName: si_S_I_
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 266 3538 S 1 0 0 1 69 1 2
+Refer: 266 3538 N 1 0 0 1 69 1 2
 Refer: 410 3523 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Sa si_MatraI
@@ -15079,13 +15250,13 @@ GlifName: si_S_I_i
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: 463 119 660 130
 VStem: 522 118
 LayerCount: 2
 Back
 Fore
-Refer: 267 3539 S 1 0 0 1 81 1 2
+Refer: 267 3539 N 1 0 0 1 81 1 2
 Refer: 410 3523 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -15125,7 +15296,7 @@ GlifName: si_S_R_.halant
 Width: 677
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15138,7 +15309,7 @@ GlifName: si_S_R_I_
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15152,7 +15323,7 @@ GlifName: si_S_R_I_i
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15166,21 +15337,22 @@ GlifName: si_S_R_a
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 410 3523 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Sa si_Halant si_Ra
 EndChar
 
 StartChar: si_SU
 Encoding: 419 -1 408
 GlifName: si_S_U_
-Width: 678
+Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: -205 140
 VStem: 508 140 508 10
 LayerCount: 2
@@ -15232,6 +15404,7 @@ I-205
 sg8
 I140
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Sa si_MatraU
 EndChar
 
@@ -15241,7 +15414,7 @@ GlifName: si_S_U_u
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: -205 137 -174 140
 LayerCount: 2
 Back
@@ -15296,26 +15469,26 @@ GlifName: si_S_a
 Width: 677
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 40<197.368 257.698 495 526.631> 362 40<30 531 30 105 173.815 192 192 531 531 532> 523 40
-VStem: 77 40<140 141 141 192 241 288> 342 40<141 192> 607 40<141 192 241 288>
+VStem: 77 40<140 141 141 192.5 242 288> 342 40<141 192.5> 607 40<141 192.5 242 288>
 LayerCount: 2
 Back
 Fore
 SplineSet
 77 140 m 258
- 77 192.5 l 261
- 117 192.5 l 261
+ 77 192.5 l 257
+ 117 192.5 l 257
  117 141 l 258
  117 74.3125 165.737 40 229 40 c 256
  293.263 40 342 74.3125 342 141 c 258
- 342 192.5 l 261
- 382 192.5 l 261
+ 342 192.5 l 257
+ 382 192.5 l 257
  382 141 l 258
  382 74.3121 430.737 40 495 40 c 256
  558.263 40 607 74.3121 607 141 c 258
- 607 192.5 l 261
- 647 192.5 l 261
+ 607 192.5 l 257
+ 647 192.5 l 257
  647 140 l 258
  647 55.528 579.327 0 495 0 c 256
  437.604 -1.06581e-14 388.197 25.1245 362 67.2824 c 257
@@ -15402,11 +15575,12 @@ GlifName: si_S_a.reph
 Width: 677
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 410 3523 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Sa si_Reph
 EndChar
 
@@ -15434,6 +15608,7 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 460 0 2
 Refer: 422 3521 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Sha si_Halant
 EndChar
 
@@ -15449,6 +15624,7 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 67 0 2
 Refer: 422 3521 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Sha si_MatraI
 EndChar
 
@@ -15493,6 +15669,7 @@ I659
 sg8
 I130
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Sha si_MatraIi
 EndChar
 
@@ -15562,6 +15739,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 422 3521 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Sha si_MatraU
 EndChar
 
@@ -15576,6 +15754,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 422 3521 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Sha si_MatraUu
 EndChar
 
@@ -15691,6 +15870,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 422 3521 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Sha si_Reph
 EndChar
 
@@ -15712,7 +15892,7 @@ GlifName: si_S_s.halant
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15728,11 +15908,11 @@ GlifName: si_S_sI_
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 266 3538 S 1 0 0 1 18 0 2
+Refer: 266 3538 N 1 0 0 1 18 0 2
 Refer: 434 3522 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ssa si_MatraI
@@ -15744,7 +15924,7 @@ GlifName: si_S_sI_i
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15760,7 +15940,7 @@ GlifName: si_S_sR_.halant
 Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15773,7 +15953,7 @@ GlifName: si_S_sR_I_
 Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15786,7 +15966,7 @@ GlifName: si_S_sR_I_i
 Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15799,7 +15979,7 @@ GlifName: si_S_sR_a
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15813,7 +15993,7 @@ GlifName: si_S_sU_
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15835,6 +16015,7 @@ SplineSet
  529 -205 l 257
 EndSplineSet
 Refer: 434 3522 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ssa si_MatraU
 EndChar
 
@@ -15844,7 +16025,7 @@ GlifName: si_S_sU_u
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15877,29 +16058,11 @@ GlifName: si_S_sa
 Width: 620
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
-279 -6 m 262
- 102 -6 30 49.74609375 30 192.5 c 261
- 70 192.5 l 261
- 70 61.30078125 146 34 279 34 c 262
- 341 34 l 262
- 474 34 550 62.30078125 550 192.5 c 261
- 590 192.5 l 261
- 590 49.74609375 518 -6 341 -6 c 262
- 279 -6 l 262
-30 242 m 261
- 30 364 97 402 194 402 c 262
- 419 402 l 262
- 527 402 590 368 590 242 c 261
- 550 242 l 261
- 550 320 530 362 421 362 c 262
- 195 362 l 262
- 85.7383 362 70.0009765625 308.103515625 70 242 c 261
- 30 242 l 261
 31 477 m 257
  56.707 541.871 117.119 564 181 564 c 256
  217.661 564 278.651 551.303 310 497.885 c 257
@@ -15914,6 +16077,24 @@ SplineSet
  290 469 259.207 524 181 524 c 256
  118.421 524 83.4727 500.315 70 464 c 257
  31 477 l 257
+279 -6 m 258
+ 102 -6 30 49.7461 30 192.5 c 257
+ 70 192.5 l 257
+ 70 61.3008 146 34 279 34 c 258
+ 341 34 l 258
+ 474 34 550 62.3008 550 192.5 c 257
+ 590 192.5 l 257
+ 590 49.7461 518 -6 341 -6 c 258
+ 279 -6 l 258
+30 242 m 257
+ 30 364 97 402 194 402 c 258
+ 419 402 l 258
+ 527 402 590 368 590 242 c 257
+ 550 242 l 257
+ 550 320 530 362 421 362 c 258
+ 195 362 l 258
+ 85.7383 362 70.001 308.104 70 242 c 257
+ 30 242 l 257
 282 168 m 257
  282 257.976 340 337 444 367 c 257
  510 367 l 257
@@ -15928,7 +16109,7 @@ GlifName: si_S_sa.reph
 Width: 620
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -15961,6 +16142,7 @@ Back
 Fore
 Refer: 157 3530 N 1 0 0 1 470 0 2
 Refer: 458 3501 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ta si_Halant
 EndChar
 
@@ -15976,6 +16158,7 @@ Back
 Fore
 Refer: 266 3538 N 1 0 0 1 140 0 2
 Refer: 458 3501 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ta si_MatraI
 EndChar
 
@@ -15991,6 +16174,7 @@ Back
 Fore
 Refer: 267 3539 N 1 0 0 1 140 0 2
 Refer: 458 3501 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ta si_MatraIi
 EndChar
 
@@ -16010,7 +16194,7 @@ EndChar
 StartChar: si_TRI
 Encoding: 255 -1 441
 GlifName: si_T_R_I_
-Width: 771
+Width: 760
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -16018,13 +16202,14 @@ LayerCount: 2
 Back
 Fore
 Refer: 438 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_TRa si_MatraI
 EndChar
 
 StartChar: si_TRIi
 Encoding: 256 -1 442
 GlifName: si_T_R_I_i
-Width: 771
+Width: 760
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -16032,6 +16217,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 439 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_TRa si_MatraIi
 EndChar
 
@@ -16046,16 +16232,17 @@ LayerCount: 2
 Back
 Fore
 Refer: 458 3501 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Ta si_Halant si_Ra
 EndChar
 
 StartChar: si_TTh.halant
 Encoding: 499 -1 444
 GlifName: si_T_T_h.halant
-Width: 1080
+Width: 1061
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -16072,10 +16259,10 @@ EndChar
 StartChar: si_TThI
 Encoding: 500 -1 445
 GlifName: si_T_T_hI_
-Width: 1078
+Width: 1061
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -16093,16 +16280,17 @@ SplineSet
  595.765 870.293 633.479 922 709 922 c 258
 EndSplineSet
 Refer: 449 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_TTha si_MatraI
 EndChar
 
 StartChar: si_TThIi
 Encoding: 501 -1 446
 GlifName: si_T_T_hI_i
-Width: 1080
+Width: 1064
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -16122,20 +16310,21 @@ SplineSet
  709 715 l 257
 EndSplineSet
 Refer: 449 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_TTha si_MatraIi
 EndChar
 
 StartChar: si_TThU
 Encoding: 502 -1 447
 GlifName: si_T_T_hU_
-Width: 1078
+Width: 1061
 VWidth: 0
 GlyphClass: 3
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 274 3540 S 1 0 0 1 548 0 2
+Refer: 274 3540 N 1 0 0 1 548 0 2
 Refer: 449 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_TTha si_MatraU
@@ -16144,14 +16333,14 @@ EndChar
 StartChar: si_TThUu
 Encoding: 503 -1 448
 GlifName: si_T_T_hU_u
-Width: 1078
+Width: 1061
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 276 3542 S 1 0 0 1 525 0 2
+Refer: 276 3542 N 1 0 0 1 525 0 2
 Refer: 449 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_TTha si_MatraUu
@@ -16163,26 +16352,17 @@ GlifName: si_T_T_ha
 Width: 1061
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: 0 40<806 862.528 806 885.685> 371 32 464 40<902.676 934 902.676 934> 715 40<804 868.851>
 VStem: 468 40 547 41 764 40<715 715 715 755> 989 42<168.143 241 235 241 241 498 498 517>
 LayerCount: 2
 Back
 Fore
 SplineSet
-764 637 m 258
- 764 755 l 257
- 804 755 l 257
- 933.702 755 1031 700 1031 517 c 258
- 1031 235 l 257
- 989 235 l 257
- 989 498 l 258
- 989 643.279 941.385 715 804 715 c 257
- 803.95 637 l 258
- 804 536.674 871.352 504 934 504 c 257
- 934 464 l 257
- 817 464 764 540.655 764 637 c 258
-30 196 m 257
+314 -4.34473 m 256
+ 115.88320157 -4.34473 109.999071879 132.096482099 73.2143704242 180.821705956 c 256
+ 65.2184514435 191.413145518 55.7624788139 197.86 42.5547 197.86 c 256
+ 38.4893 197.86 34.3115 197.262 30 196 c 257
  49.7656 234.221 l 257
  53.7686 234.969 57.6396 235.327 61.3896 235.327 c 256
  148.853 235.327 100.451 36.1543 314 36.1543 c 256
@@ -16191,27 +16371,37 @@ SplineSet
  362 403 l 257
  493.94 373.184 508.384 280.072 508.384 188.966 c 256
  508.384 81.1544 445.63 -4.34473 314 -4.34473 c 256
- 72.8184 -4.34473 116.524 197.86 42.5547 197.86 c 256
- 38.4893 197.86 34.3115 197.262 30 196 c 257
-710 429.931 m 257
- 680.805 490.835 605.392 528.417 522.717 528.417 c 256
- 463.8 528.417 401.195 509.331 349 466 c 257
- 69 225 l 257
- 30 196 l 257
+989 235 m 257
+ 989 498 l 258
+ 989 643.279 941.385 715 804 715 c 257
+ 803.95 637 l 258
+ 804 536.674 871.352 504 934 504 c 257
+ 934 464 l 257
+ 817 464 764 540.655 764 637 c 258
+ 764 755 l 257
+ 804 755 l 257
+ 933.702 755 1031 700 1031 517 c 258
+ 1031 235 l 257
+ 989 235 l 257
+30 196 m 257
  30 246 l 257
  320 494 l 257
  384.26 543.873 460.931 568.056 532.135 568.056 c 256
  631.843 568.056 720.83 520.635 750 429.931 c 257
  710 429.931 l 257
-547.374 270 m 258
+ 680.805 490.835 605.392 528.417 522.717 528.417 c 256
+ 463.8 528.417 401.195 509.331 349 466 c 257
+ 69 225 l 257
+ 30 196 l 257
+750 0 m 257
+ 600.759 0 547.375 116 547.375 200 c 258
+ 547.374 270 l 258
  547.374 349.011 584.619 454.98 720 468.55 c 256
  750 429.931 l 257
  638.341 429.996 588.375 357.23 588.375 270 c 258
  588.375 200 l 258
  588.375 112 649.265 40.0039 750 40.0693 c 257
  750 0 l 257
- 600.759 0 547.375 116 547.375 200 c 258
- 547.374 270 l 258
 65 452 m 257
  96.0312 533.159 156.235 565.088 213.841 565.088 c 256
  276.9 565.088 336.845 526.827 352 473 c 257
@@ -16219,11 +16409,11 @@ SplineSet
  308.237 490.735 261.535 521.199 213.232 521.199 c 256
  170.707 521.199 126.941 497.588 104 440 c 257
  65 452 l 257
-989 241 m 256
- 1031 241 l 256
- 1031 83.9629 965.37 0 806 0 c 257
+806 0 m 257
  806 40 l 257
  919.056 40 989 95.2852 989 241 c 256
+ 1031 241 l 256
+ 1031 83.9629 965.37 0 806 0 c 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -16288,23 +16478,11 @@ GlifName: si_T_U_
 Width: 760
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
-30 196 m 257
- 49.7656 234.221 l 257
- 53.7686 234.969 57.6396 235.327 61.3896 235.327 c 256
- 148.853 235.327 100.451 36.1543 314 36.1543 c 256
- 417.317 36.1543 468.056 105.088 468.056 188.818 c 256
- 468.056 275.191 460.403 341.519 324.777 370.904 c 257
- 362 403 l 257
- 493.94 373.184 508.384 280.072 508.384 188.966 c 256
- 508.384 81.1544 445.63 -4.34473 314 -4.34473 c 256
- 193.409 -4.34473 144.04 46.2065 115.573 96.7576 c 256
- 87.1053 147.309 79.5393 197.86 42.5547 197.86 c 256
- 38.4893 197.86 34.3115 197.262 30 196 c 257
 668.19 -205.003 m 258
  610.365 -205.003 553 -166 553 -57 c 258
  553 -32 l 258
@@ -16318,41 +16496,6 @@ SplineSet
  730 -165 l 257
  730 -205 l 257
  668.19 -205.003 l 258
-690 102 m 256
- 690 314 l 258
- 690 454.189 597.759 520.572 498.843 520.572 c 256
- 446.546 520.572 392.383 502.016 349 466 c 257
- 69 225 l 257
- 30 196 l 257
- 30 246 l 257
- 320 494 l 257
- 375.041 536.719 443.008 559.834 507.668 559.834 c 256
- 624.207 559.834 730 484.744 730 314 c 258
- 730 102 l 256
- 690 102 l 256
-104 440 m 257
- 65 452 l 257
- 96.0312 533.159 156.235 565.088 213.841 565.088 c 256
- 276.9 565.088 336.845 526.827 352 473 c 257
- 321 445 l 257
- 308.237 490.735 261.535 521.199 213.232 521.199 c 256
- 170.707 521.199 126.941 497.588 104 440 c 257
-EndSplineSet
-LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Ta si_MatraU
-EndChar
-
-StartChar: si_TUu
-Encoding: 251 -1 451
-GlifName: si_T_U_u
-Width: 760
-VWidth: 0
-GlyphClass: 3
-Flags: HW
-LayerCount: 2
-Back
-Fore
-SplineSet
 30 196 m 257
  49.7656 234.221 l 257
  53.7686 234.969 57.6396 235.327 61.3896 235.327 c 256
@@ -16365,20 +16508,18 @@ SplineSet
  193.409 -4.34473 144.04 46.2065 115.573 96.7576 c 256
  87.1053 147.309 79.5393 197.86 42.5547 197.86 c 256
  38.4893 197.86 34.3115 197.262 30 196 c 257
-631 130 m 17
- 671.846 130 690.118164062 145.392578125 690 178 c 2
- 690 314 l 2
- 690 454.189 597.759 520.572 498.843 520.572 c 0
- 446.546 520.572 392.383 502.016 349 466 c 2
- 69 225 l 1
- 30 196 l 1
- 30 246 l 1
- 320 494 l 2
- 375.041 536.719 443.008 559.834 507.668 559.834 c 0
- 624.207 559.834 730 484.744 730 314 c 2
- 730 178 l 2
- 730.021484375 165.392578125 726.555 142 717 130 c 1
- 631 130 l 17
+690 102 m 256
+ 690 314 l 258
+ 690 454.189 597.759 520.572 498.843 520.572 c 256
+ 446.546 520.572 392.383 502.016 349 466 c 257
+ 69 225 l 257
+ 30 196 l 257
+ 30 246 l 257
+ 320 494 l 257
+ 375.041 536.719 443.008 559.834 507.668 559.834 c 256
+ 624.207 559.834 730 484.744 730 314 c 258
+ 730 102 l 256
+ 690 102 l 256
 65 452 m 257
  96.0312 533.159 156.235 565.088 213.841 565.088 c 256
  276.9 565.088 336.845 526.827 352 473 c 257
@@ -16386,27 +16527,76 @@ SplineSet
  308.237 490.735 261.535 521.199 213.232 521.199 c 256
  170.707 521.199 126.941 497.588 104 440 c 257
  65 452 l 257
-719 0 m 1
- 662.47 0 644 -28.6729 644 -64 c 2
- 644 -104 l 2
- 644.12 -133.833 659.775 -164 702 -164 c 0
- 783 -164 l 1
- 783 -205 l 1
- 702 -205.003 l 2
- 645.875 -205.003 604 -161.81 604 -104 c 2
- 603.945 -64 l 2
- 603.945 -28.1055 614.889 -9.99219 631 0 c 1
- 586 0 l 1
- 586 40 l 1
- 698 90 l 1
- 586 90 l 1
- 586 130 l 1
- 783 130 l 1
- 783 90 l 1
- 671 40 l 1
- 783 40 l 1
- 783 0 l 1
- 719 0 l 1
+EndSplineSet
+LCarets2: 1 0
+Ligature2: "si_blws_1 subtable" si_Ta si_MatraU
+EndChar
+
+StartChar: si_TUu
+Encoding: 251 -1 451
+GlifName: si_T_U_u
+Width: 783
+VWidth: 0
+GlyphClass: 3
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+702 -205.003 m 258
+ 645.875 -205.003 604 -161.81 604 -104 c 258
+ 603.945 -64 l 258
+ 603.945 -28.1055 614.889 -9.99219 631 0 c 257
+ 586 0 l 257
+ 586 40 l 257
+ 698 90 l 257
+ 586 90 l 257
+ 586 130 l 257
+ 783 130 l 257
+ 783 90 l 257
+ 671 40 l 257
+ 783 40 l 257
+ 783 0 l 257
+ 719 0 l 257
+ 662.47 0 644 -28.6729 644 -64 c 258
+ 644 -104 l 258
+ 644.12 -133.833 659.775 -164 702 -164 c 258
+ 783 -164 l 257
+ 783 -205 l 257
+ 702 -205.003 l 258
+30 246 m 257
+ 320 494 l 258
+ 375.041 536.719 443.008 559.834 507.668 559.834 c 256
+ 624.207 559.834 730 484.744 730 314 c 258
+ 730 178 l 258
+ 730.021 165.393 726.555 142 717 130 c 257
+ 631 130 l 257
+ 671.846 130 690.118 145.393 690 178 c 258
+ 690 314 l 258
+ 690 454.189 597.759 520.572 498.843 520.572 c 256
+ 446.546 520.572 392.383 502.016 349 466 c 258
+ 69 225 l 257
+ 30 196 l 257
+ 30 246 l 257
+30 196 m 257
+ 49.7656 234.221 l 257
+ 53.7686 234.969 57.6396 235.327 61.3896 235.327 c 256
+ 148.853 235.327 100.451 36.1543 314 36.1543 c 256
+ 417.317 36.1543 468.056 105.088 468.056 188.818 c 256
+ 468.056 275.191 460.403 341.519 324.777 370.904 c 257
+ 362 403 l 257
+ 493.94 373.184 508.384 280.072 508.384 188.966 c 256
+ 508.384 81.1544 445.63 -4.34473 314 -4.34473 c 256
+ 193.409 -4.34473 144.04 46.2065 115.573 96.7576 c 256
+ 87.1053 147.309 79.5393 197.86 42.5547 197.86 c 256
+ 38.4893 197.86 34.3115 197.262 30 196 c 257
+65 452 m 257
+ 96.0312 533.159 156.235 565.088 213.841 565.088 c 256
+ 276.9 565.088 336.845 526.827 352 473 c 257
+ 321 445 l 257
+ 308.237 490.735 261.535 521.199 213.232 521.199 c 256
+ 170.707 521.199 126.941 497.588 104 440 c 257
+ 65 452 l 257
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ta si_MatraUu
@@ -16415,35 +16605,20 @@ EndChar
 StartChar: si_TV.halant
 Encoding: 505 -1 452
 GlifName: si_T_V_.halant
-Width: 1061
+Width: 1070
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 40<705.354 759 705.354 759 815 871.528> 309 40<745.719 784 784 793 745.719 833> 371 32 715 40
 VStem: 468 40 552 40<146.445 205.88> 793 40 999 41<241 411>
 LayerCount: 2
 Back
 Fore
 SplineSet
-30 196 m 257
- 34.3115 197.262 38.4893 197.86 42.5547 197.86 c 256
- 116.524 197.86 72.8184 -4.34473 314 -4.34473 c 256
- 445.63 -4.34473 508.384 81.1544 508.384 188.966 c 256
- 508.384 280.072 493.94 373.184 362 403 c 257
- 324.777 370.904 l 257
- 460.403 341.519 468.056 275.191 468.056 188.818 c 256
- 468.056 105.088 417.317 36.1543 314 36.1543 c 256
- 100.451 36.1543 148.853 235.327 61.3896 235.327 c 256
- 57.6396 235.327 53.7686 234.969 49.7656 234.221 c 257
- 30 196 l 257
-65 452 m 257
- 96.0312 533.159 156.235 565.088 213.841 565.088 c 256
- 276.9 565.088 336.845 526.827 352 473 c 257
- 321 445 l 257
- 308.237 490.735 261.535 521.199 213.232 521.199 c 256
- 170.707 521.199 126.941 497.588 104 440 c 257
- 65 452 l 257
-793 349 m 257
+759 0 m 257
+ 639.896 0 552 85.7334 552 181 c 256
+ 552 230.761 563.247 268.244 589 296 c 256
+ 631.614 341.928 698.439 349 793 349 c 257
  793 459.961 663.305 526.592 534.618 526.592 c 256
  465.791 526.592 397.253 507.532 349 466 c 258
  69 225 l 257
@@ -16457,16 +16632,31 @@ SplineSet
  646.373 309 592 285.762 592 181 c 256
  592 111.89 651.708 40 759 40 c 257
  759 0 l 257
- 639.896 0 552 85.7334 552 181 c 256
- 552 230.761 563.247 268.244 589 296 c 256
- 631.614 341.928 698.439 349 793 349 c 257
-814.5 779 m 257
- 814.5 819 l 257
- 897 819 l 258
- 975.359 819 1030.33 776 1030.33 673 c 257
- 990.333 673 l 257
- 990.333 770 942.333 779 897 779 c 258
- 814.5 779 l 257
+572.333 612 m 257
+ 572.333 652 l 257
+ 602.822 652 l 257
+ 588.899 670.111 581.977 692.449 581.977 714.83 c 256
+ 581.977 766.802 619.309 819 693 819 c 258
+ 759 819 l 257
+ 759 779 l 257
+ 683 779 l 258
+ 641.071 779 619.881 747.025 619.881 715.163 c 256
+ 619.881 683.526 640.774 652 683 652 c 258
+ 759.333 652 l 257
+ 759.333 612 l 257
+ 572.333 612 l 257
+30 196 m 257
+ 49.7656 234.221 l 257
+ 53.7686 234.969 57.6396 235.327 61.3896 235.327 c 256
+ 148.853 235.327 100.451 36.1543 314 36.1543 c 256
+ 417.317 36.1543 468.056 105.088 468.056 188.818 c 256
+ 468.056 275.191 460.403 341.519 324.777 370.904 c 257
+ 362 403 l 257
+ 493.94 373.184 508.384 280.072 508.384 188.966 c 256
+ 508.384 81.1544 445.63 -4.34473 314 -4.34473 c 256
+ 139.373802965 -4.34473 114.096972578 101.659149286 85.3676781065 160.163868565 c 256
+ 74.418062282 182.461812591 62.9669394433 197.86 42.5547 197.86 c 256
+ 38.4893 197.86 34.3115 197.262 30 196 c 257
 815 0 m 257
  815 40 l 257
  928.056 40 999 95.2852 999 241 c 258
@@ -16476,19 +16666,20 @@ SplineSet
  974.37 652 1040 568.037 1040 411 c 258
  1040 241 l 258
  1040 83.9629 974.37 0 815 0 c 257
-572.333 612 m 1
- 572.333 652 l 1
- 602.821976076 652 l 1
- 588.899457404 670.110770229 581.977 692.449443417 581.977 714.83 c 0
- 581.977 766.802 619.309 819 693 819 c 2
- 759 819 l 1
- 759 779 l 1
- 683 779 l 2
- 641.071 779 619.881 747.025 619.881 715.163 c 0
- 619.881 683.526000236 640.773999689 652.00000047 682.999999056 652 c 2
- 759.333 652 l 1
- 759.333007812 612 l 1
- 572.333 612 l 1
+65 452 m 257
+ 96.0312 533.159 156.235 565.088 213.841 565.088 c 256
+ 276.9 565.088 336.845 526.827 352 473 c 257
+ 321 445 l 257
+ 308.237 490.735 261.535 521.199 213.232 521.199 c 256
+ 170.707 521.199 126.941 497.588 104 440 c 257
+ 65 452 l 257
+814.5 779 m 257
+ 814.5 819 l 257
+ 897 819 l 258
+ 975.359 819 1030.33 776 1030.33 673 c 257
+ 990.333 673 l 257
+ 990.333 770 942.333 779 897 779 c 258
+ 814.5 779 l 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -16548,7 +16739,7 @@ EndChar
 StartChar: si_TVI
 Encoding: 506 -1 453
 GlifName: si_T_V_I_
-Width: 1061
+Width: 1071
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -16558,7 +16749,10 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-793 349 m 257
+759 0 m 257
+ 639.896 0 552 85.7334 552 181 c 256
+ 552 230.761 563.247 268.244 589 296 c 256
+ 631.614 341.928 698.439 349 793 349 c 257
  793 459.961 663.305 526.592 534.618 526.592 c 256
  465.791 526.592 397.253 507.532 349 466 c 258
  69 225 l 257
@@ -16572,9 +16766,6 @@ SplineSet
  646.373 309 592 285.762 592 181 c 256
  592 111.89 651.708 40 759 40 c 257
  759 0 l 257
- 639.896 0 552 85.7334 552 181 c 256
- 552 230.761 563.247 268.244 589 296 c 256
- 631.614 341.928 698.439 349 793 349 c 257
 30 196 m 257
  49.7656 234.221 l 257
  53.7686 234.969 57.6396 235.327 61.3896 235.327 c 256
@@ -16584,9 +16775,12 @@ SplineSet
  362 403 l 257
  493.94 373.184 508.384 280.072 508.384 188.966 c 256
  508.384 81.1544 445.63 -4.34473 314 -4.34473 c 256
- 72.8184 -4.34473 116.524 197.86 42.5547 197.86 c 256
+ 128.854815201 -4.34473 111.593679812 114.814533323 80.104983893 170.18573871 c 256
+ 70.574551651 186.944499456 59.7408137291 197.86 42.5547 197.86 c 256
  38.4893 197.86 34.3115 197.262 30 196 c 257
-683 819 m 258
+683 612 m 258
+ 608.669 612 571.977 663.304 571.977 714.83 c 256
+ 571.977 766.802 609.309 819 683 819 c 258
  759 819 l 257
  759 779 l 257
  673 779 l 258
@@ -16595,8 +16789,6 @@ SplineSet
  758.5 652 l 257
  758.5 612 l 257
  683 612 l 258
- 608.669 612 571.977 663.304 571.977 714.83 c 256
- 571.977 766.802 609.309 819 683 819 c 258
 815 0 m 257
  815 40 l 257
  928.056 40 999 95.2852 999 241 c 258
@@ -16681,61 +16873,48 @@ EndChar
 StartChar: si_TVIi
 Encoding: 507 -1 454
 GlifName: si_T_V_I_i
-Width: 1061
+Width: 1070
 VWidth: 0
 GlyphClass: 3
-Flags: HW
-HStem: 0 40<705.354 759 705.354 759 815 871.528> 309 40<784 793 745.719 833> 371 32 715 40
+Flags: W
+HStem: 0 40<705.354 759 705.354 759 815 871.528> 309 40<745.719 784 784 793 745.719 833> 371 32 715 40
 VStem: 468 40 552 40<146.445 205.88> 793 40 999 41<241 411>
 LayerCount: 2
 Back
 Fore
 SplineSet
-30 196 m 257
- 34.3115 197.262 38.4893 197.86 42.5547 197.86 c 256
- 116.524 197.86 72.8184 -4.34473 314 -4.34473 c 256
- 445.63 -4.34473 508.384 81.1544 508.384 188.966 c 256
- 508.384 280.072 493.94 373.184 362 403 c 257
- 324.777 370.904 l 257
- 460.403 341.519 468.056 275.191 468.056 188.818 c 256
- 468.056 105.088 417.317 36.1543 314 36.1543 c 256
- 100.451 36.1543 148.853 235.327 61.3896 235.327 c 256
- 57.6396 235.327 53.7686 234.969 49.7656 234.221 c 257
- 30 196 l 257
-65 452 m 257
- 104 440 l 257
- 126.941 497.588 170.707 521.199 213.232 521.199 c 256
- 261.535 521.199 308.237 490.735 321 445 c 257
- 352 473 l 257
- 336.845 526.827 276.9 565.088 213.841 565.088 c 256
- 156.235 565.088 96.0312 533.159 65 452 c 257
-793 349 m 257
- 698.439 349 631.614 341.928 589 296 c 256
- 563.247 268.244 552 230.761 552 181 c 256
- 552 85.7334 639.896 0 759 0 c 257
- 759 40 l 257
- 651.708 40 592 111.89 592 181 c 256
- 592 285.762 646.373 309 784 309 c 258
- 833 309 l 257
- 832.932 354 l 257
- 832.932 487.51 685.21 565.489 537.011 565.489 c 256
- 457.126 565.489 377.101 542.831 320 494 c 258
- 30 246 l 257
- 30 196 l 257
+759 0 m 257
+ 639.896 0 552 85.7334 552 181 c 256
+ 552 230.761 563.247 268.244 589 296 c 256
+ 631.614 341.928 698.439 349 793 349 c 257
+ 793 459.961 663.305 526.592 534.618 526.592 c 256
+ 465.791 526.592 397.253 507.532 349 466 c 258
  69 225 l 257
- 349 466 l 258
- 397.253 507.532 465.791 526.592 534.618 526.592 c 256
- 663.305 526.592 793 459.961 793 349 c 257
-815 0 m 257
- 815 40 l 257
- 928.056 40 999 95.2852 999 241 c 258
- 999 411 l 258
- 999 558.715 928.056 612 815 612 c 257
- 815 652 l 257
- 974.37 652 1040 568.037 1040 411 c 258
- 1040 241 l 258
- 1040 83.9629 974.37 0 815 0 c 257
-683 819 m 258
+ 30 196 l 257
+ 30 246 l 257
+ 320 494 l 258
+ 377.101 542.831 457.126 565.489 537.011 565.489 c 256
+ 685.21 565.489 832.932 487.51 832.932 354 c 257
+ 833 309 l 257
+ 784 309 l 258
+ 646.373 309 592 285.762 592 181 c 256
+ 592 111.89 651.708 40 759 40 c 257
+ 759 0 l 257
+30 196 m 257
+ 49.7656 234.221 l 257
+ 53.7686 234.969 57.6396 235.327 61.3896 235.327 c 256
+ 148.853 235.327 100.451 36.1543 314 36.1543 c 256
+ 417.317 36.1543 468.056 105.088 468.056 188.818 c 256
+ 468.056 275.191 460.403 341.519 324.777 370.904 c 257
+ 362 403 l 257
+ 493.94 373.184 508.384 280.072 508.384 188.966 c 256
+ 508.384 81.1544 445.63 -4.34473 314 -4.34473 c 256
+ 137.255997882 -4.34473 113.505841848 104.24589583 84.3206258569 162.271210207 c 256
+ 73.6802352943 183.42616783 62.3174182548 197.86 42.5547 197.86 c 256
+ 38.4893 197.86 34.3115 197.262 30 196 c 257
+683 612 m 258
+ 608.669 612 571.977 663.304 571.977 714.83 c 256
+ 571.977 766.802 609.309 819 683 819 c 258
  759 819 l 257
  759 779 l 257
  673 779 l 258
@@ -16744,17 +16923,32 @@ SplineSet
  758.5 652 l 257
  758.5 612 l 257
  683 612 l 258
- 608.669 612 571.977 663.304 571.977 714.83 c 256
- 571.977 766.802 609.309 819 683 819 c 258
-880 779 m 258
+815 0 m 257
+ 815 40 l 257
+ 928.056 40 999 95.2852 999 241 c 258
+ 999 411 l 258
+ 999 558.715 928.056 612 815 612 c 257
+ 815 652 l 257
+ 818.755814078 652 822.459566261 651.953368115 826.111624468 651.860246866 c 256
+ 977.426906072 648.001965536 1040 564.336166873 1040 411 c 258
+ 1040 241 l 258
+ 1040 83.9629 974.37 0 815 0 c 257
+967.96 603.56 m 256
+ 918.04 603.56 877.72 643.88 877.72 693.8 c 256
+ 877.72 729.745 898.625 760.713 928.967 775.235 c 257
+ 911.36 778.291 893.931 779 880 779 c 258
  814.5 779 l 257
  814.5 819 l 257
  896 819 l 258
  981.222 819 1058.17 789.785 1058.2 693.8 c 256
  1058.2 643.88 1017.88 603.56 967.96 603.56 c 256
- 918.04 603.56 877.72 643.88 877.72 693.8 c 256
- 877.72 729.745 898.625 760.713 928.967 775.235 c 257
- 911.36 778.291 893.931 779 880 779 c 258
+65 452 m 257
+ 96.0312 533.159 156.235 565.088 213.841 565.088 c 256
+ 276.9 565.088 336.845 526.827 352 473 c 257
+ 321 445 l 257
+ 308.237 490.735 261.535 521.199 213.232 521.199 c 256
+ 170.707 521.199 126.941 497.588 104 440 c 257
+ 65 452 l 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -16816,14 +17010,14 @@ EndChar
 StartChar: si_TVU
 Encoding: 508 -1 455
 GlifName: si_T_V_U_
-Width: 1078
+Width: 1070
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 274 3540 N 1 0 0 1 559 0 2
+Refer: 274 3540 N 1 0 0 1 557 0 2
 Refer: 457 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_TVa si_MatraU
@@ -16832,22 +17026,23 @@ EndChar
 StartChar: si_TVUu
 Encoding: 509 -1 456
 GlifName: si_T_V_U_u
-Width: 1078
+Width: 1070
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 276 3542 N 1 0 0 1 541 0 2
+Refer: 276 3542 N 1 0 0 1 534 0 2
 Refer: 457 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_TVa si_MatraUu
 EndChar
 
 StartChar: si_TVa
 Encoding: 504 -1 457
 GlifName: si_T_V_a
-Width: 1061
+Width: 1070
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -16941,6 +17136,7 @@ I446
 sg8
 I121
 sass."
+LCarets2: 2 0 0
 Ligature2: "si_akhands subtable" si_Ta si_Halant si_Va
 EndChar
 
@@ -16971,18 +17167,18 @@ SplineSet
  446.546 520.572 392.383 502.016 349 466 c 257
  69 225 l 257
  30 196 l 257
-30 196 m 261
- 49.7656 234.221 l 261
- 53.7686 234.969 57.6396 235.327 61.3896 235.327 c 260
- 148.853 235.327 100.451 36.1543 314 36.1543 c 260
- 417.317 36.1543 468.056 105.088 468.056 188.818 c 260
- 468.056 275.191 460.403 341.519 324.777 370.904 c 261
- 362 403 l 261
- 493.94 373.184 508.384 280.072 508.384 188.966 c 260
- 508.384 81.1544 445.63 -4.34473 314 -4.34473 c 260
- 193.409 -4.34473 144.04 46.2065 115.573 96.7576 c 260
- 87.1053 147.309 79.5393 197.86 42.5547 197.86 c 260
- 38.4893 197.86 34.3115 197.262 30 196 c 261
+30 196 m 257
+ 49.7656 234.221 l 257
+ 53.7686 234.969 57.6396 235.327 61.3896 235.327 c 256
+ 148.853 235.327 100.451 36.1543 314 36.1543 c 256
+ 417.317 36.1543 468.056 105.088 468.056 188.818 c 256
+ 468.056 275.191 460.403 341.519 324.777 370.904 c 257
+ 362 403 l 257
+ 493.94 373.184 508.384 280.072 508.384 188.966 c 256
+ 508.384 81.1544 445.63 -4.34473 314 -4.34473 c 256
+ 193.409 -4.34473 144.04 46.2065 115.573 96.7576 c 256
+ 87.1053 147.309 79.5393 197.86 42.5547 197.86 c 256
+ 38.4893 197.86 34.3115 197.262 30 196 c 257
 65 452 m 257
  96.0312 533.159 156.235 565.088 213.841 565.088 c 256
  276.9 565.088 336.845 526.827 352 473 c 257
@@ -17037,6 +17233,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 458 3501 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Ta si_Reph
 EndChar
 
@@ -17070,6 +17267,7 @@ SplineSet
  472.001 518 l 257
 EndSplineSet
 Refer: 466 3502 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Tha si_Halant
 EndChar
 
@@ -17097,13 +17295,14 @@ SplineSet
  78.7654 870.293 116.479 922 192 922 c 258
 EndSplineSet
 Refer: 466 3502 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Tha si_MatraI
 EndChar
 
 StartChar: si_ThIi
 Encoding: 259 -1 463
 GlifName: si_T_hI_i
-Width: 544
+Width: 547
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -17126,6 +17325,7 @@ SplineSet
  192 715 l 257
 EndSplineSet
 Refer: 466 3502 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Tha si_MatraIi
 EndChar
 
@@ -17135,11 +17335,11 @@ GlifName: si_T_hU_
 Width: 544
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 274 3540 S 1 0 0 1 31 0 2
+Refer: 274 3540 N 1 0 0 1 31 0 2
 Refer: 466 3502 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Tha si_MatraU
@@ -17151,7 +17351,7 @@ GlifName: si_T_hU_u
 Width: 544
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -17267,6 +17467,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 466 3502 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Tha si_Reph
 EndChar
 
@@ -17288,11 +17489,24 @@ GlifName: si_T_t.halant
 Width: 551
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
+46.833 612 m 257
+ 46.833 652 l 257
+ 77.3223 652 l 257
+ 63.3994 670.11 56.4775 692.449 56.4775 714.83 c 256
+ 56.4775 766.802 93.8086 819 167.5 819 c 258
+ 240.5 819 l 257
+ 240.5 779 l 257
+ 157.5 779 l 258
+ 115.571 779 94.3809 747.025 94.3809 715.163 c 256
+ 94.3809 683.526 115.274 652 157.5 652 c 258
+ 296 652 l 257
+ 296 612 l 257
+ 46.833 612 l 257
 36.999 270 m 258
  36.999 354.561 79.6602 470 239.625 470 c 257
  239.625 429.931 l 257
@@ -17318,19 +17532,6 @@ SplineSet
  464.833 673 l 257
  464.833 770 416.833 779 371.5 779 c 258
  296 779 l 257
-46.8330078125 612 m 1
- 46.8330078125 652 l 1
- 77.322265625 652 l 1
- 63.3994140625 670.110351562 56.4775390625 692.44921875 56.4775390625 714.830078125 c 0
- 56.4775390625 766.801757812 93.80859375 819 167.5 819 c 2
- 240.5 819 l 1
- 240.5 779 l 1
- 157.5 779 l 2
- 115.571289062 779 94.380859375 747.025390625 94.380859375 715.163085938 c 0
- 94.380859375 683.526367188 115.274414062 652 157.5 652 c 0
- 296 652 l 1
- 296 612 l 1
- 46.8330078125 612 l 1
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Tta si_Halant
@@ -17339,52 +17540,52 @@ EndChar
 StartChar: si_TtI
 Encoding: 207 -1 470
 GlifName: si_T_tI_
-Width: 551
+Width: 544
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -5 140 522 130 703 116
 VStem: 30 138 388 140
 LayerCount: 2
 Back
 Fore
 SplineSet
-157.5 612 m 258
- 83.1695 612 46.4774 663.304 46.4774 714.83 c 256
- 46.4774 766.802 83.8087 819 157.5 819 c 258
- 240.5 819 l 257
- 240.5 779 l 257
- 147.5 779 l 258
- 105.571 779 84.3813 747.025 84.3813 715.163 c 256
- 84.3813 683.526 105.274 652 147.5 652 c 258
- 296 652 l 257
- 296 612 l 257
- 157.5 612 l 258
-239.625 0 m 257
- 90.3838 0 37 116 37 200 c 258
- 36.999 270 l 258
- 36.999 354.561 79.6602 470 239.625 470 c 257
- 239.625 429.931 l 257
- 127.966 429.996 78 357.23 78 270 c 258
- 78 200 l 258
- 78 112 138.89 40.0039 239.625 40.0693 c 257
- 239.625 0 l 257
-296 0 m 257
- 296 40 l 257
- 409.056 40 480 95.2852 480 241 c 258
- 480 411 l 258
- 480 558.715 409.056 612 296 612 c 257
- 296 652 l 257
- 455.37 652 521 568.037 521 411 c 258
- 521 241 l 258
- 521 83.9629 455.37 0 296 0 c 257
-296 779 m 257
- 296 819 l 257
- 371.5 819 l 258
- 449.859 819 504.833 776 504.833 673 c 257
- 464.833 673 l 257
- 464.833 770 416.833 779 371.5 779 c 258
- 296 779 l 257
+150.5 612 m 258
+ 76.169921875 612 39.4775390625 663.303710938 39.4775390625 714.830078125 c 256
+ 39.4775390625 766.801757812 76.80859375 819 150.5 819 c 258
+ 233.5 819 l 257
+ 233.5 779 l 257
+ 140.5 779 l 258
+ 98.5712890625 779 77.380859375 747.025390625 77.380859375 715.163085938 c 256
+ 77.380859375 683.526367188 98.2744140625 652 140.5 652 c 258
+ 289 652 l 257
+ 289 612 l 257
+ 150.5 612 l 258
+232.625 0 m 257
+ 83.3837890625 0 30 116 30 200 c 258
+ 29.9990234375 270 l 258
+ 29.9990234375 354.560546875 72.66015625 470 232.625 470 c 257
+ 232.625 429.930664062 l 257
+ 120.965820312 429.99609375 71 357.23046875 71 270 c 258
+ 71 200 l 258
+ 71 112 131.889648438 40.00390625 232.625 40.0693359375 c 257
+ 232.625 0 l 257
+289 0 m 257
+ 289 40 l 257
+ 402.055664062 40 473 95.28515625 473 241 c 258
+ 473 411 l 258
+ 473 558.71484375 402.055664062 612 289 612 c 257
+ 289 652 l 257
+ 448.370117188 652 514 568.037109375 514 411 c 258
+ 514 241 l 258
+ 514 83.962890625 448.370117188 0 289 0 c 257
+289 779 m 257
+ 289 819 l 257
+ 364.5 819 l 258
+ 442.859375 819 497.833007812 776 497.833007812 673 c 257
+ 457.833007812 673 l 257
+ 457.833007812 770 409.833007812 779 364.5 779 c 258
+ 289 779 l 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -17424,61 +17625,62 @@ I703
 sg8
 I116
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Tta si_MatraI
 EndChar
 
 StartChar: si_TtIi
 Encoding: 208 -1 471
 GlifName: si_T_tI_i
-Width: 551
+Width: 544
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -5 140 522 123 603 42 703 116
 VStem: 30 138 297 4 316 108 388 140
 LayerCount: 2
 Back
 Fore
 SplineSet
-157.5 612 m 258
- 83.1695 612 46.4774 663.304 46.4774 714.83 c 256
- 46.4774 766.802 83.8087 819 157.5 819 c 258
- 240.5 819 l 257
- 240.5 779 l 257
- 147.5 779 l 258
- 105.571 779 84.3813 747.025 84.3813 715.163 c 256
- 84.3813 683.526 105.274 652 147.5 652 c 258
- 296 652 l 257
- 296 612 l 257
- 157.5 612 l 258
-36.999 270 m 258
- 36.999 354.561 79.6602 470 239.625 470 c 257
- 239.625 429.931 l 257
- 127.966 429.996 78 357.23 78 270 c 258
- 78 200 l 258
- 78 112 138.89 40.0039 239.625 40.0693 c 257
- 239.625 0 l 257
- 90.3838 0 37 116 37 200 c 258
- 36.999 270 l 258
-296 0 m 257
- 296 40 l 257
- 409.056 40 480 95.2852 480 241 c 258
- 480 411 l 258
- 480 558.715 409.056 612 296 612 c 257
- 296 652 l 257
- 300.726 652 305.369 651.926 309.93 651.779 c 256
- 459.204 646.956 521 563.381 521 411 c 258
- 521 241 l 258
- 521 83.9629 455.37 0 296 0 c 257
-442.46 603.56 m 256
- 392.54 603.56 352.22 643.88 352.22 693.8 c 256
- 352.22 729.745 373.125 760.713 403.467 775.235 c 257
- 385.86 778.291 368.431 779 354.5 779 c 258
- 296 779 l 257
- 296 819 l 257
- 370.5 819 l 258
- 455.722 819 532.674 789.785 532.7 693.8 c 256
- 532.7 643.88 492.38 603.56 442.46 603.56 c 256
+150.5 612 m 258
+ 76.169921875 612 39.4775390625 663.303710938 39.4775390625 714.830078125 c 256
+ 39.4775390625 766.801757812 76.80859375 819 150.5 819 c 258
+ 233.5 819 l 257
+ 233.5 779 l 257
+ 140.5 779 l 258
+ 98.5712890625 779 77.380859375 747.025390625 77.380859375 715.163085938 c 256
+ 77.380859375 683.526367188 98.2744140625 652 140.5 652 c 258
+ 289 652 l 257
+ 289 612 l 257
+ 150.5 612 l 258
+29.9990234375 270 m 258
+ 29.9990234375 354.560546875 72.66015625 470 232.625 470 c 257
+ 232.625 429.930664062 l 257
+ 120.965820312 429.99609375 71 357.23046875 71 270 c 258
+ 71 200 l 258
+ 71 112 131.889648438 40.00390625 232.625 40.0693359375 c 257
+ 232.625 0 l 257
+ 83.3837890625 0 30 116 30 200 c 258
+ 29.9990234375 270 l 258
+289 0 m 257
+ 289 40 l 257
+ 402.055664062 40 473 95.28515625 473 241 c 258
+ 473 411 l 258
+ 473 558.71484375 402.055664062 612 289 612 c 257
+ 289 652 l 257
+ 293.725585938 652 298.369140625 651.92578125 302.9296875 651.779296875 c 256
+ 452.204101562 646.956054688 514 563.380859375 514 411 c 258
+ 514 241 l 258
+ 514 83.962890625 448.370117188 0 289 0 c 257
+435.459960938 603.559570312 m 256
+ 385.540039062 603.559570312 345.219726562 643.879882812 345.219726562 693.799804688 c 256
+ 345.219726562 729.745117188 366.125 760.712890625 396.466796875 775.235351562 c 257
+ 378.860351562 778.291015625 361.430664062 779 347.5 779 c 258
+ 289 779 l 257
+ 289 819 l 257
+ 363.5 819 l 258
+ 448.721679688 819 525.673828125 789.78515625 525.700195312 693.799804688 c 256
+ 525.700195312 643.879882812 485.379882812 603.559570312 435.459960938 603.559570312 c 256
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -17533,47 +17735,50 @@ I703
 sg8
 I116
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Tta si_MatraIi
 EndChar
 
 StartChar: si_TtR.halant
 Encoding: 212 -1 472
 GlifName: si_T_tR_.halant
-Width: 559
+Width: 544
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 469 -1 N 1 0 0 1 0 0 2
+Refer: 469 -1 N 1 0 0 1 -7 0 2
 EndChar
 
 StartChar: si_TtRI
 Encoding: 214 -1 473
 GlifName: si_T_tR_I_
-Width: 559
+Width: 544
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 470 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_TtRa si_MatraI
 EndChar
 
 StartChar: si_TtRIi
 Encoding: 215 -1 474
 GlifName: si_T_tR_I_i
-Width: 559
+Width: 544
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 471 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_TtRa si_MatraIi
 EndChar
 
@@ -17588,6 +17793,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 484 3495 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Tta si_Halant si_Ra
 EndChar
 
@@ -17614,10 +17820,10 @@ EndChar
 StartChar: si_TtTthI
 Encoding: 521 -1 477
 GlifName: si_T_tT_thI_
-Width: 721
+Width: 708
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -17643,7 +17849,7 @@ GlifName: si_T_tT_thI_i
 Width: 724
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -17692,10 +17898,10 @@ EndChar
 StartChar: si_TtTthUu
 Encoding: 524 -1 480
 GlifName: si_T_tT_thU_u
-Width: 721
+Width: 708
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -17744,7 +17950,7 @@ EndChar
 StartChar: si_TtU
 Encoding: 209 -1 482
 GlifName: si_T_tU_
-Width: 559
+Width: 551
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -17798,13 +18004,14 @@ I616
 sg8
 I138
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Tta si_MatraU
 EndChar
 
 StartChar: si_TtUu
 Encoding: 210 -1 483
 GlifName: si_T_tU_u
-Width: 559
+Width: 551
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -17867,6 +18074,7 @@ I616
 sg8
 I138
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Tta si_MatraUu
 EndChar
 
@@ -17963,6 +18171,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 484 3495 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Tta si_Reph
 EndChar
 
@@ -17981,79 +18190,81 @@ EndChar
 StartChar: si_Tth.halant
 Encoding: 216 -1 487
 GlifName: si_T_th.halant
-Width: 593
+Width: 580
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-521.001 518 m 257
- 521.001 819 l 257
- 563.001 819 l 257
- 563.001 518 l 257
- 521.001 518 l 257
+508.000976562 518 m 257
+ 508.000976562 819 l 257
+ 550.000976562 819 l 257
+ 550.000976562 518 l 257
+ 508.000976562 518 l 257
 EndSplineSet
-Refer: 492 3496 N 1 0 0 1 0 0 2
+Refer: 492 3496 N 1 0 0 1 -13 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ttha si_Halant
 EndChar
 
 StartChar: si_TthI
 Encoding: 217 -1 488
 GlifName: si_T_thI_
-Width: 593
+Width: 580
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-241 922 m 258
- 408 922 l 258
- 514 922 557.333 853.602 557.333 776 c 257
- 517.333 776 l 257
- 517.333 854.182 460.614 881.917 407.849 882 c 258
- 241 882 l 258
- 195.505 882 172.848 850.335 172.848 818.627 c 256
- 172.848 786.835 195.626 755 241 755 c 257
- 241 715 l 257
- 165.542 715 127.765 766.793 127.765 818.565 c 256
- 127.765 870.293 165.479 922 241 922 c 258
+228 922 m 258
+ 395 922 l 258
+ 501 922 544.333007812 853.6015625 544.333007812 776 c 257
+ 504.333007812 776 l 257
+ 504.333007812 854.181640625 447.614257812 881.916992188 394.848632812 882 c 258
+ 228 882 l 258
+ 182.504882812 882 159.84765625 850.334960938 159.84765625 818.626953125 c 256
+ 159.84765625 786.834960938 182.625976562 755 228 755 c 257
+ 228 715 l 257
+ 152.541992188 715 114.764648438 766.79296875 114.764648438 818.565429688 c 256
+ 114.764648438 870.29296875 152.478515625 922 228 922 c 258
 EndSplineSet
-Refer: 492 3496 N 1 0 0 1 0 0 2
+Refer: 492 3496 N 1 0 0 1 -13 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ttha si_MatraI
 EndChar
 
 StartChar: si_TthIi
 Encoding: 218 -1 489
 GlifName: si_T_thI_i
-Width: 593
+Width: 583
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -5 140 522 123 603 42 703 116
 VStem: 30 138 297 4 316 108 388 140
 LayerCount: 2
 Back
 Fore
 SplineSet
-241 715 m 257
- 165.555 715 127.805 766.775 127.805 818.538 c 256
- 127.805 870.275 165.518 922 241 922 c 258
- 434 922 l 258
- 518.722 922 595.674 892.785 595.7 796.8 c 256
- 595.7 746.88 555.38 706.56 505.46 706.56 c 256
- 455.54 706.56 415.22 746.88 415.22 796.8 c 256
- 415.22 832.745 436.125 863.713 466.467 878.234 c 257
- 448.859 881.291 431.432 882 416.849 882 c 258
- 241 882 l 258
- 195.505 882 172.848 850.335 172.848 818.627 c 256
- 172.848 786.835 195.626 755 241 755 c 257
- 241 715 l 257
+228 715 m 257
+ 152.5546875 715 114.8046875 766.775390625 114.8046875 818.538085938 c 256
+ 114.8046875 870.275390625 152.517578125 922 228 922 c 258
+ 421 922 l 258
+ 505.721679688 922 582.673828125 892.78515625 582.700195312 796.799804688 c 256
+ 582.700195312 746.879882812 542.379882812 706.559570312 492.459960938 706.559570312 c 256
+ 442.540039062 706.559570312 402.219726562 746.879882812 402.219726562 796.799804688 c 256
+ 402.219726562 832.745117188 423.125 863.712890625 453.466796875 878.234375 c 257
+ 435.859375 881.291015625 418.431640625 882 403.848632812 882 c 258
+ 228 882 l 258
+ 182.504882812 882 159.84765625 850.334960938 159.84765625 818.626953125 c 256
+ 159.84765625 786.834960938 182.625976562 755 228 755 c 257
+ 228 715 l 257
 EndSplineSet
-Refer: 492 3496 N 1 0 0 1 0 0 2
+Refer: 492 3496 N 1 0 0 1 -13 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -18107,6 +18318,7 @@ I703
 sg8
 I116
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ttha si_MatraIi
 EndChar
 
@@ -18138,39 +18350,41 @@ SplineSet
  46 -165 l 257
 EndSplineSet
 Refer: 492 3496 N 1 0 0 1 -13 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ttha si_MatraU
 EndChar
 
 StartChar: si_TthUu
 Encoding: 220 -1 491
 GlifName: si_T_thU_u
-Width: 593
+Width: 580
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-59 -142 m 257
- 85.1853 -155.703 106.32 -160.636 125.163 -160.636 c 256
- 173.629 -160.636 206.931 -128 272 -128 c 257
- 272 -170 l 257
- 206.504 -170 172.646 -200.902 123.873 -200.902 c 256
- 105.277 -200.902 84.5129 -196.41 59 -184 c 257
- 59 -142 l 257
-328 -128 m 257
- 357.143 -128 426.825 -130.922 506 -161 c 257
- 506 -205 l 257
- 421.61 -171.253 356 -170 328 -170 c 257
- 328 -128 l 257
-506 83 m 257
- 546 83 l 257
- 546 -205 l 257
- 506 -205 l 257
- 506 83 l 257
+46 -142 m 257
+ 72.185546875 -155.703125 93.3203125 -160.635742188 112.163085938 -160.635742188 c 256
+ 160.62890625 -160.635742188 193.930664062 -128 259 -128 c 257
+ 259 -170 l 257
+ 193.50390625 -170 159.646484375 -200.90234375 110.873046875 -200.90234375 c 256
+ 92.27734375 -200.90234375 71.5126953125 -196.41015625 46 -184 c 257
+ 46 -142 l 257
+315 -128 m 257
+ 344.142578125 -128 413.825195312 -130.921875 493 -161 c 257
+ 493 -205 l 257
+ 408.610351562 -171.252929688 343 -170 315 -170 c 257
+ 315 -128 l 257
+493 83 m 257
+ 533 83 l 257
+ 533 -205 l 257
+ 493 -205 l 257
+ 493 83 l 257
 EndSplineSet
-Refer: 492 3496 N 1 0 0 1 0 0 2
+Refer: 492 3496 N 1 0 0 1 -13 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ttha si_MatraUu
 EndChar
 
@@ -18377,7 +18591,7 @@ EndChar
 StartChar: si_Uu
 Encoding: 10 3468 495
 GlifName: si_U_u
-Width: 957
+Width: 933
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -18391,7 +18605,7 @@ EndChar
 StartChar: si_V.halant
 Encoding: 386 -1 496
 GlifName: si_V_.halant
-Width: 565
+Width: 548
 VWidth: 0
 GlyphClass: 3
 Flags: HW
@@ -18399,49 +18613,49 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-302.5 779 m 257
- 302.5 819 l 257
- 378 819 l 258
- 456.359 819 511.333 776 511.333 673 c 257
- 471.333 673 l 257
- 471.333 770 423.333 779 378 779 c 258
- 302.5 779 l 257
-296 0 m 257
- 296 40 l 257
- 409.056 40 480 95.2852 480 241 c 258
- 480 411 l 258
- 480 558.715 409.056 612 296 612 c 257
- 296 652 l 257
- 455.37 652 521 568.037 521 411 c 258
- 521 241 l 258
- 521 83.9629 455.37 0 296 0 c 257
-313.932 354 m 258
- 314 309 l 257
- 265 309 l 258
- 127.373 309 73 285.762 73 181 c 256
- 73 111.89 132.708 40 240 40 c 257
- 240 0 l 257
- 120.896 0 33 85.7334 33 181 c 256
- 33 230.761 44.2471 268.244 70 296 c 256
- 112.613 341.929 179.439 349 274 349 c 257
- 273.714 407.658 224.87 438.116 177.351 438.116 c 256
- 142.821 438.116 108.99 422.033 95 389 c 257
- 56 399 l 257
- 69.7441 451.867 122.961 478.84 177.516 478.84 c 256
- 244.727 478.84 313.969 437.9 313.932 354 c 258
-53.3330078125 612 m 1
- 53.3330078125 652 l 1
- 83.822265625 652 l 1
- 69.8994140625 670.110351562 62.9775390625 692.44921875 62.9775390625 714.830078125 c 0
- 62.9775390625 766.801757812 100.30859375 819 174 819 c 2
- 247 819 l 1
- 247 779 l 1
- 164 779 l 2
- 122.071289062 779 100.880859375 747.025390625 100.880859375 715.163085938 c 0
- 100.880859375 683.526367188 121.774414062 652 164 652 c 0
- 296 652 l 1
- 296 612 l 1
- 53.3330078125 612 l 1
+237 0 m 257
+ 117.896484375 0 30 85.7333984375 30 181 c 256
+ 30 230.760742188 41.2470703125 268.244140625 67 296 c 256
+ 109.61328125 341.928710938 176.439453125 349 271 349 c 257
+ 270.713867188 407.658203125 221.870117188 438.116210938 174.350585938 438.116210938 c 256
+ 139.821289062 438.116210938 105.990234375 422.033203125 92 389 c 257
+ 53 399 l 257
+ 66.744140625 451.8671875 119.9609375 478.83984375 174.515625 478.83984375 c 256
+ 241.7265625 478.83984375 310.96875 437.900390625 310.931640625 354 c 258
+ 311 309 l 257
+ 262 309 l 258
+ 124.373046875 309 70 285.76171875 70 181 c 256
+ 70 111.889648438 129.708007812 40 237 40 c 257
+ 237 0 l 257
+50.3330078125 612 m 257
+ 50.3330078125 652 l 257
+ 80.822265625 652 l 257
+ 66.8994140625 670.110351562 59.9775390625 692.44921875 59.9775390625 714.830078125 c 256
+ 59.9775390625 766.801757812 97.30859375 819 171 819 c 258
+ 244 819 l 257
+ 244 779 l 257
+ 161 779 l 258
+ 119.071289062 779 97.880859375 747.025390625 97.880859375 715.163085938 c 256
+ 97.880859375 683.526367188 118.774414062 652 161 652 c 258
+ 293 652 l 257
+ 293 612 l 257
+ 50.3330078125 612 l 257
+293 0 m 257
+ 293 40 l 257
+ 406.055664062 40 477 95.28515625 477 241 c 258
+ 477 411 l 258
+ 477 558.71484375 406.055664062 612 293 612 c 257
+ 293 652 l 257
+ 452.370117188 652 518 568.037109375 518 411 c 258
+ 518 241 l 258
+ 518 83.962890625 452.370117188 0 293 0 c 257
+468.333007812 673 m 257
+ 468.333007812 770 420.333007812 779 375 779 c 258
+ 299.5 779 l 257
+ 299.5 819 l 257
+ 375 819 l 258
+ 453.359375 819 508.333007812 776 508.333007812 673 c 257
+ 468.333007812 673 l 257
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Va si_Halant
@@ -18450,122 +18664,124 @@ EndChar
 StartChar: si_VI
 Encoding: 387 -1 497
 GlifName: si_V_I_
-Width: 565
+Width: 549
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-240 0 m 257
- 120.896 0 33 85.7334 33 181 c 256
- 33 230.761 44.2471 268.244 70 296 c 256
- 112.613 341.929 179.439 349 274 349 c 257
- 273.714 407.658 224.87 438.116 177.351 438.116 c 256
- 142.821 438.116 108.99 422.033 95 389 c 257
- 56 399 l 257
- 69.7441 451.867 122.961 478.84 177.516 478.84 c 256
- 244.727 478.84 313.969 437.9 313.932 354 c 258
- 314 309 l 257
- 265 309 l 258
- 127.373 309 73 285.762 73 181 c 256
- 73 111.89 132.708 40 240 40 c 257
- 240 0 l 257
-164 612 m 258
- 89.6695 612 52.9774 663.304 52.9774 714.83 c 256
- 52.9774 766.802 90.3087 819 164 819 c 258
- 247 819 l 257
- 247 779 l 257
- 154 779 l 258
- 112.071 779 90.8813 747.025 90.8813 715.163 c 256
- 90.8813 683.526 111.774 652 154 652 c 258
- 302.5 652 l 257
- 302.5 612 l 257
- 164 612 l 258
-296 0 m 257
- 296 40 l 257
- 409.056 40 480 95.2852 480 241 c 258
- 480 411 l 258
- 480 558.715 409.056 612 296 612 c 257
- 296 652 l 257
- 455.37 652 521 568.037 521 411 c 258
- 521 241 l 258
- 521 83.9629 455.37 0 296 0 c 257
-481.333 673 m 257
- 481.333 770 423.333 779 378 779 c 258
- 302.5 779 l 257
- 302.5 819 l 257
- 378 819 l 258
- 456.359 819 521.333 776 521.333 673 c 257
- 481.333 673 l 257
+237 0 m 257
+ 117.896484375 0 30 85.7333984375 30 181 c 256
+ 30 230.760742188 41.2470703125 268.244140625 67 296 c 256
+ 109.61328125 341.928710938 176.439453125 349 271 349 c 257
+ 270.713867188 407.658203125 221.870117188 438.116210938 174.350585938 438.116210938 c 256
+ 139.821289062 438.116210938 105.990234375 422.033203125 92 389 c 257
+ 53 399 l 257
+ 66.744140625 451.8671875 119.9609375 478.83984375 174.515625 478.83984375 c 256
+ 241.7265625 478.83984375 310.96875 437.900390625 310.931640625 354 c 258
+ 311 309 l 257
+ 262 309 l 258
+ 124.373046875 309 70 285.76171875 70 181 c 256
+ 70 111.889648438 129.708007812 40 237 40 c 257
+ 237 0 l 257
+161 612 m 258
+ 86.669921875 612 49.9775390625 663.303710938 49.9775390625 714.830078125 c 256
+ 49.9775390625 766.801757812 87.30859375 819 161 819 c 258
+ 244 819 l 257
+ 244 779 l 257
+ 151 779 l 258
+ 109.071289062 779 87.880859375 747.025390625 87.880859375 715.163085938 c 256
+ 87.880859375 683.526367188 108.774414062 652 151 652 c 258
+ 299.5 652 l 257
+ 299.5 612 l 257
+ 161 612 l 258
+293 0 m 257
+ 293 40 l 257
+ 406.055664062 40 477 95.28515625 477 241 c 258
+ 477 411 l 258
+ 477 558.71484375 406.055664062 612 293 612 c 257
+ 293 652 l 257
+ 452.370117188 652 518 568.037109375 518 411 c 258
+ 518 241 l 258
+ 518 83.962890625 452.370117188 0 293 0 c 257
+478.333007812 673 m 257
+ 478.333007812 770 420.333007812 779 375 779 c 258
+ 299.5 779 l 257
+ 299.5 819 l 257
+ 375 819 l 258
+ 453.359375 819 518.333007812 776 518.333007812 673 c 257
+ 478.333007812 673 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Va si_MatraI
 EndChar
 
 StartChar: si_VIi
 Encoding: 388 -1 498
 GlifName: si_V_I_i
-Width: 565
+Width: 567
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-240 0 m 257
- 120.896 0 33 85.7334 33 181 c 256
- 33 230.761 44.2471 268.244 70 296 c 256
- 112.613 341.929 179.439 349 274 349 c 257
- 273.714 407.658 224.87 438.116 177.351 438.116 c 256
- 142.821 438.116 108.99 422.033 95 389 c 257
- 56 399 l 257
- 69.7441 451.867 122.961 478.84 177.516 478.84 c 256
- 244.727 478.84 313.969 437.9 313.932 354 c 258
- 314 309 l 257
- 265 309 l 258
- 127.373 309 73 285.762 73 181 c 256
- 73 111.89 132.708 40 240 40 c 257
- 240 0 l 257
-164 612 m 258
- 89.6695 612 52.9774 663.304 52.9774 714.83 c 256
- 52.9774 766.802 90.3087 819 164 819 c 258
- 247 819 l 257
- 247 779 l 257
- 154 779 l 258
- 112.071 779 90.8813 747.025 90.8813 715.163 c 256
- 90.8813 683.526 111.774 652 154 652 c 258
- 302.5 652 l 257
- 302.5 612 l 257
- 164 612 l 258
-296 0 m 257
- 296 40 l 257
- 409.056 40 480 95.2852 480 241 c 258
- 480 411 l 258
- 480 558.715 409.056 612 296 612 c 257
- 296 652 l 257
- 299.298 652 302.556 651.964 305.774 651.892 c 256
- 458.058 648.494 521 564.787 521 411 c 258
- 521 241 l 258
- 521 83.9629 455.37 0 296 0 c 257
-448.96 603.56 m 256
- 399.04 603.56 358.72 643.88 358.72 693.8 c 256
- 358.72 729.745 379.625 760.713 409.967 775.235 c 257
- 392.36 778.291 374.931 779 361 779 c 258
- 302.5 779 l 257
- 302.5 819 l 257
- 377 819 l 258
- 462.222 819 539.174 789.785 539.2 693.8 c 256
- 539.2 643.88 498.88 603.56 448.96 603.56 c 256
+237 0 m 257
+ 117.896484375 0 30 85.7333984375 30 181 c 256
+ 30 230.760742188 41.2470703125 268.244140625 67 296 c 256
+ 109.61328125 341.928710938 176.439453125 349 271 349 c 257
+ 270.713867188 407.658203125 221.870117188 438.116210938 174.350585938 438.116210938 c 256
+ 139.821289062 438.116210938 105.990234375 422.033203125 92 389 c 257
+ 53 399 l 257
+ 66.744140625 451.8671875 119.9609375 478.83984375 174.515625 478.83984375 c 256
+ 241.7265625 478.83984375 310.96875 437.900390625 310.931640625 354 c 258
+ 311 309 l 257
+ 262 309 l 258
+ 124.373046875 309 70 285.76171875 70 181 c 256
+ 70 111.889648438 129.708007812 40 237 40 c 257
+ 237 0 l 257
+161 612 m 258
+ 86.669921875 612 49.9775390625 663.303710938 49.9775390625 714.830078125 c 256
+ 49.9775390625 766.801757812 87.30859375 819 161 819 c 258
+ 244 819 l 257
+ 244 779 l 257
+ 151 779 l 258
+ 109.071289062 779 87.880859375 747.025390625 87.880859375 715.163085938 c 256
+ 87.880859375 683.526367188 108.774414062 652 151 652 c 258
+ 299.5 652 l 257
+ 299.5 612 l 257
+ 161 612 l 258
+293 0 m 257
+ 293 40 l 257
+ 406.055664062 40 477 95.28515625 477 241 c 258
+ 477 411 l 258
+ 477 558.71484375 406.055664062 612 293 612 c 257
+ 293 652 l 257
+ 296.297851562 652 299.555664062 651.963867188 302.774414062 651.891601562 c 256
+ 455.057617188 648.494140625 518 564.787109375 518 411 c 258
+ 518 241 l 258
+ 518 83.962890625 452.370117188 0 293 0 c 257
+445.959960938 603.559570312 m 256
+ 396.040039062 603.559570312 355.719726562 643.879882812 355.719726562 693.799804688 c 256
+ 355.719726562 729.745117188 376.625 760.712890625 406.966796875 775.235351562 c 257
+ 389.360351562 778.291015625 371.930664062 779 358 779 c 258
+ 299.5 779 l 257
+ 299.5 819 l 257
+ 374 819 l 258
+ 459.221679688 819 536.173828125 789.78515625 536.200195312 693.799804688 c 256
+ 536.200195312 643.879882812 495.879882812 603.559570312 445.959960938 603.559570312 c 256
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Va si_MatraIi
 EndChar
 
 StartChar: si_VR.halant
 Encoding: 392 -1 499
 GlifName: si_V_R_.halant
-Width: 565
+Width: 548
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -18578,28 +18794,30 @@ EndChar
 StartChar: si_VRI
 Encoding: 394 -1 500
 GlifName: si_V_R_I_
-Width: 565
+Width: 548
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 497 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_VRa si_MatraI
 EndChar
 
 StartChar: si_VRIi
 Encoding: 395 -1 501
 GlifName: si_V_R_I_i
-Width: 594
+Width: 548
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 498 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_VRa si_MatraIi
 EndChar
 
@@ -18615,17 +18833,18 @@ Back
 Fore
 SplineSet
 55 -47 m 257
- 55 -75 l 258
- 55 -181.124 134.781 -234.375 297.578 -234.375 c 256
- 464.69 -234.375 542.003 -171.773 542.003 -48.6387 c 256
- 542.003 16.4586 538.538 67.0715 463 106 c 257
- 364 0 l 256
- 411.3 -0.0543168 407 -41.654 407 -47 c 257
- 407 -94.543 351.84 -103.663 297.012 -103.663 c 256
- 239.16 -103.663 185 -94.5429 185 -47 c 257
+ 185 -47 l 257
+ 185 -94.5429 239.16 -103.663 297.012 -103.663 c 256
+ 351.84 -103.663 407 -94.543 407 -47 c 257
+ 407 -41.654 411.3 -0.0543168 364 0 c 256
+ 463 106 l 257
+ 538.538 67.0715 542.003 16.4586 542.003 -48.6387 c 256
+ 542.003 -171.773 464.69 -234.375 297.578 -234.375 c 256
+ 134.781 -234.375 55 -181.124 55 -75 c 258
  55 -47 l 257
 EndSplineSet
 Refer: 505 3520 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Va si_Halant si_Ra
 EndChar
 
@@ -18635,12 +18854,13 @@ GlifName: si_V_U_
 Width: 551
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 274 3540 N 1 0 0 1 45 0 2
+Refer: 274 3540 N 1 0 0 1 38 0 2
 Refer: 505 3520 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Va si_MatraU
 EndChar
 
@@ -18650,12 +18870,13 @@ GlifName: si_V_U_u
 Width: 551
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 276 3542 N 1 0 0 1 27 0 2
+Refer: 276 3542 N 1 0 0 1 15 0 2
 Refer: 505 3520 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Va si_MatraUu
 EndChar
 
@@ -18757,6 +18978,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 505 3520 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Va si_Reph
 EndChar
 
@@ -18778,7 +19000,7 @@ GlifName: si_Y_.halant
 Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -18790,14 +19012,14 @@ EndChar
 StartChar: si_Y.post.halant
 Encoding: 368 -1 509
 GlifName: si_Y_.post.halant
-Width: 518
+Width: 498
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 157 3530 N 1 0 0 1 225 0 2
+Refer: 157 3530 S 1 0 0 1 235 0 2
 Refer: 518 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -18807,11 +19029,12 @@ GlifName: si_Y_I_
 Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 517 3514 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ya si_MatraI
 EndChar
 
@@ -18821,11 +19044,12 @@ GlifName: si_Y_I_i
 Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 517 3514 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ya si_MatraIi
 EndChar
 
@@ -18835,37 +19059,39 @@ GlifName: si_Y_U_
 Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
 Refer: 517 3514 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ya si_MatraU
 EndChar
 
 StartChar: si_YU.post
 Encoding: 369 -1 513
 GlifName: si_Y_U_.post
-Width: 503
+Width: 498
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-403 51 m 257
- 444 91 l 257
- 444 -205 l 257
- 403 -205 l 257
- 403 51 l 257
-30 -165 m 257
- 348 -165 l 257
- 348 -205 l 257
- 30 -205 l 257
- 30 -165 l 257
+408 51 m 257
+ 449 91 l 257
+ 449 -205 l 257
+ 408 -205 l 257
+ 408 51 l 257
+35 -165 m 257
+ 353 -165 l 257
+ 353 -205 l 257
+ 35 -205 l 257
+ 35 -165 l 257
 EndSplineSet
-Refer: 518 -1 N 1 0 0 1 -5 0 2
+Refer: 518 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_Ya.post si_MatraU
 EndChar
 
@@ -18875,7 +19101,7 @@ GlifName: si_Y_U_u
 Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -18889,29 +19115,29 @@ GlifName: si_Y_U_u.post
 Width: 498
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -205 23 -65 23 0 136 263 139 457 121
 VStem: 30 143 45 142 313 140
 LayerCount: 2
 Back
 Fore
 SplineSet
-30 -143 m 257
- 54.334 -164.333 95.4443 -168.777 116.741 -168.777 c 256
- 159.334 -168.777 191.667 -146 251 -146 c 256
- 288 -146 323.148 -158.167 342 -165 c 257
- 342 -205 l 257
- 320.106 -194.639 288 -182 251 -182 c 256
- 191.667 -182 159.334 -204.777 116.741 -204.777 c 256
- 95.4443 -204.777 54.334 -200.333 30 -179 c 257
- 30 -143 l 257
-398 51 m 257
- 439 91 l 257
- 439 -205 l 257
- 398 -205 l 257
- 398 51 l 257
+40 -143 m 257
+ 64.333984375 -164.333007812 105.444335938 -168.77734375 126.741210938 -168.77734375 c 256
+ 169.333984375 -168.77734375 201.666992188 -146 261 -146 c 256
+ 298 -146 333.1484375 -158.166992188 352 -165 c 257
+ 352 -205 l 257
+ 330.106445312 -194.638671875 298 -182 261 -182 c 256
+ 201.666992188 -182 169.333984375 -204.77734375 126.741210938 -204.77734375 c 256
+ 105.444335938 -204.77734375 64.333984375 -200.333007812 40 -179 c 257
+ 40 -143 l 257
+408 51 m 257
+ 449 91 l 257
+ 449 -205 l 257
+ 408 -205 l 257
+ 408 51 l 257
 EndSplineSet
-Refer: 518 -1 N 1 0 0 1 -10 0 2
+Refer: 518 -1 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -18965,16 +19191,17 @@ I457
 sg8
 I121
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_Ya.post si_MatraUu
 EndChar
 
 StartChar: si_YUu.post.reph
 Encoding: 373 -1 516
 GlifName: si_Y_U_u.post.reph
-Width: 518
+Width: 498
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -18987,7 +19214,7 @@ GlifName: si_Y_a
 Width: 630
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -19019,79 +19246,81 @@ SplineSet
  357.585 524 335 480.059 335 402 c 257
  479 402 l 258
  590 402 600 346.857 600 298 c 258
- 600 242 l 261
- 560 242 l 261
+ 600 242 l 257
+ 560 242 l 257
  560 298 l 258
  560 359.795 522.092 362.013 487.86 362.013 c 256
  485.211 362.013 482.585 362 295 362 c 257
-30 242 m 261
+30 242 m 257
  30 340 l 258
  30 493.265 132.283 563 248 563 c 258
  265 563 l 257
  265 523 l 257
  246 523 l 258
  133.205 523 70 450.938 70 341 c 258
- 70 242 l 261
- 30 242 l 261
+ 70 242 l 257
+ 30 242 l 257
 EndSplineSet
 EndChar
 
 StartChar: si_Ya.post
 Encoding: 367 -1 518
 GlifName: si_Y_a.post
-Width: 518
+Width: 498
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-136 396 m 257
- 157 515 209.894 566 293 566 c 256
- 345.748 566 407 548 443 473 c 257
- 405 459 l 257
- 394.118 480.996 372.367 526 293 526 c 256
- 190.18 526 182 410.227 173 376 c 257
- 136 396 l 257
-135 0 m 257
- 145 40 l 257
- 338 40 l 258
- 400.374 40 438 93.9902 438 155 c 258
- 438 275 l 258
- 438 362.28 341.678 363 308 363 c 256
- 297.586 363 175.521 363 163 363 c 257
- 163 403 l 257
- 173.176 403 298.026 403 308 403 c 256
- 389.63 403 478 397.088 478 240 c 258
- 478 160 l 258
- 478 75.8418 435.048 0.0849609 346.149 0.0849609 c 256
- 346.1 0.0849609 346.05 0.0849609 346 0.0849609 c 258
- 135 0 l 257
-40 0 m 257
- 118 313 l 258
- 130.478 363.072 138.507 404.314 138.507 436.638 c 256
- 138.507 494.71 112.593 524 40 524 c 257
- 40 564 l 257
- 146.538 564 179.43 503.453 179.43 433.751 c 256
- 179.43 410.55 175.785 386.335 170 363 c 258
- 80 0 l 257
- 40 0 l 257
+126 396 m 257
+ 147 515 199.893554688 566 283 566 c 256
+ 335.748046875 566 397 548 433 473 c 257
+ 395 459 l 257
+ 384.118164062 480.99609375 362.3671875 526 283 526 c 256
+ 180.1796875 526 172 410.2265625 163 376 c 257
+ 126 396 l 257
+125 0 m 257
+ 135 40 l 257
+ 328 40 l 258
+ 390.374023438 40 428 93.990234375 428 155 c 258
+ 428 275 l 258
+ 428 362.280273438 331.677734375 363 298 363 c 256
+ 287.5859375 363 165.521484375 363 153 363 c 257
+ 153 403 l 257
+ 163.17578125 403 288.026367188 403 298 403 c 256
+ 379.629882812 403 468 397.087890625 468 240 c 258
+ 468 160 l 258
+ 468 75.841796875 425.047851562 0.0849609375 336.149414062 0.0849609375 c 256
+ 336.099609375 0.0849609375 336.049804688 0.0849609375 336 0.0849609375 c 258
+ 125 0 l 257
+30 0 m 257
+ 108 313 l 258
+ 120.477539062 363.072265625 128.506835938 404.314453125 128.506835938 436.637695312 c 256
+ 128.506835938 494.709960938 102.592773438 524 30 524 c 257
+ 30 564 l 257
+ 136.538085938 564 169.4296875 503.453125 169.4296875 433.750976562 c 256
+ 169.4296875 410.549804688 165.78515625 386.334960938 160 363 c 258
+ 70 0 l 257
+ 30 0 l 257
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "si_pstf subtable" si_Halant si_Ya
 EndChar
 
 StartChar: si_Ya.post.reph
 Encoding: 371 -1 519
 GlifName: si_Y_a.post.reph
-Width: 518
+Width: 498
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 518 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Ya.post si_Reph
 EndChar
 
@@ -19101,7 +19330,7 @@ GlifName: si_Y_a.reph
 Width: 630
 VWidth: 0
 GlyphClass: 3
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -19124,10 +19353,10 @@ EndChar
 StartChar: si_Yu.post.reph
 Encoding: 372 -1 522
 GlifName: si_Y_u.post.reph
-Width: 518
+Width: 498
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -19152,7 +19381,7 @@ GlifName: si_vocalicL_
 Width: 884
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -19207,7 +19436,7 @@ GlifName: si_vocalicL_L_
 Width: 1282
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -19218,7 +19447,7 @@ EndChar
 StartChar: si_vocalicR
 Encoding: 11 3469 526
 GlifName: si_vocalicR_
-Width: 964
+Width: 965
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -19278,7 +19507,7 @@ EndChar
 StartChar: si_vocalicRr
 Encoding: 12 3470 527
 GlifName: si_vocalicR_r
-Width: 1381
+Width: 1299
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -19304,51 +19533,51 @@ EndChar
 StartChar: visarga
 Encoding: 2 3459 529
 GlifName: visarga
-Width: 388
+Width: 384
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -7 40 223 40 298 40 528 40
 LayerCount: 2
 Back
 Fore
 SplineSet
-218.916 -7.4502 m 257
- 218.916 32.5498 l 257
- 279.371 32.5498 309.539 80.0874 309.539 127.656 c 256
- 309.539 175.288 279.292 222.95 218.916 222.95 c 257
- 218.916 262.95 l 257
- 232.612 262.95 l 258
- 314.215 262.95 355.061 195.301 355.061 127.676 c 256
- 355.061 60.1004 314.275 -7.4502 232.612 -7.4502 c 258
- 218.916 -7.4502 l 257
-155.388 -7.4502 m 258
- 73.7252 -7.4502 32.9388 60.1004 32.9388 127.676 c 256
- 32.9388 195.301 73.7851 262.95 155.388 262.95 c 258
- 169.084 262.95 l 257
- 169.084 222.95 l 257
- 108.708 222.95 78.461 175.288 78.461 127.656 c 256
- 78.461 80.0874 108.629 32.5498 169.084 32.5498 c 257
- 169.084 -7.4502 l 257
- 155.388 -7.4502 l 258
-218.916 297.55 m 257
- 218.916 337.55 l 257
- 279.371 337.55 309.539 385.087 309.539 432.656 c 256
- 309.539 480.288 279.292 527.95 218.916 527.95 c 257
- 218.916 567.95 l 257
- 232.612 567.95 l 258
- 314.215 567.95 355.061 500.301 355.061 432.676 c 256
- 355.061 365.1 314.275 297.55 232.612 297.55 c 258
- 218.916 297.55 l 257
-155.388 297.55 m 258
- 73.7253 297.55 32.9387 365.101 32.9387 432.676 c 256
- 32.9387 500.301 73.7849 567.95 155.388 567.95 c 258
- 169.084 567.95 l 257
- 169.084 527.95 l 257
- 108.708 527.95 78.461 480.288 78.461 432.656 c 256
- 78.461 385.087 108.629 337.55 169.084 337.55 c 257
- 169.084 297.55 l 257
- 155.388 297.55 l 258
+216.916015625 -7.4501953125 m 257
+ 216.916015625 32.5498046875 l 257
+ 277.37109375 32.5498046875 307.5390625 80.0869140625 307.5390625 127.65625 c 256
+ 307.5390625 175.288085938 277.291992188 222.950195312 216.916015625 222.950195312 c 257
+ 216.916015625 262.950195312 l 257
+ 230.612304688 262.950195312 l 258
+ 312.21484375 262.950195312 353.060546875 195.30078125 353.060546875 127.67578125 c 256
+ 353.060546875 60.1005859375 312.275390625 -7.4501953125 230.612304688 -7.4501953125 c 258
+ 216.916015625 -7.4501953125 l 257
+153.387695312 -7.4501953125 m 258
+ 71.7255859375 -7.4501953125 30.9384765625 60.1005859375 30.9384765625 127.67578125 c 256
+ 30.9384765625 195.30078125 71.78515625 262.950195312 153.387695312 262.950195312 c 258
+ 167.083984375 262.950195312 l 257
+ 167.083984375 222.950195312 l 257
+ 106.708007812 222.950195312 76.4609375 175.288085938 76.4609375 127.65625 c 256
+ 76.4609375 80.0869140625 106.62890625 32.5498046875 167.083984375 32.5498046875 c 257
+ 167.083984375 -7.4501953125 l 257
+ 153.387695312 -7.4501953125 l 258
+216.916015625 297.549804688 m 257
+ 216.916015625 337.549804688 l 257
+ 277.37109375 337.549804688 307.5390625 385.086914062 307.5390625 432.65625 c 256
+ 307.5390625 480.288085938 277.291992188 527.950195312 216.916015625 527.950195312 c 257
+ 216.916015625 567.950195312 l 257
+ 230.612304688 567.950195312 l 258
+ 312.21484375 567.950195312 353.060546875 500.30078125 353.060546875 432.67578125 c 256
+ 353.060546875 365.099609375 312.275390625 297.549804688 230.612304688 297.549804688 c 258
+ 216.916015625 297.549804688 l 257
+153.387695312 297.549804688 m 258
+ 71.7255859375 297.549804688 30.9384765625 365.100585938 30.9384765625 432.67578125 c 256
+ 30.9384765625 500.30078125 71.78515625 567.950195312 153.387695312 567.950195312 c 258
+ 167.083984375 567.950195312 l 257
+ 167.083984375 527.950195312 l 257
+ 106.708007812 527.950195312 76.4609375 480.288085938 76.4609375 432.65625 c 256
+ 76.4609375 385.086914062 106.62890625 337.549804688 167.083984375 337.549804688 c 257
+ 167.083984375 297.549804688 l 257
+ 153.387695312 297.549804688 l 258
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -19428,6 +19657,83 @@ SplineSet
  20 9 l 257
  -20 9 l 257
 EndSplineSet
+EndChar
+
+StartChar: si_R.halant
+Encoding: 374 -1 532
+Width: 515
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 397 3515 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_RAe
+Encoding: 375 -1 533
+Width: 515
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 397 3515 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_RAae
+Encoding: 376 -1 534
+Width: 515
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 397 3515 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_RI
+Encoding: 377 -1 535
+Width: 515
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 397 3515 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_RIi
+Encoding: 378 -1 536
+Width: 515
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 397 3515 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_RU
+Encoding: 379 -1 537
+Width: 515
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 397 3515 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_RUu
+Encoding: 380 -1 538
+Width: 515
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 397 3515 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

@@ -487,7 +487,6 @@ feature rkrf {
 lookup abvmAboveBaseMarkinSinhalalooku {
   lookupflag 0;
   markClass [\si_Rakar ] <anchor 288 -5> @si_rakar;
-  pos base [\si_Ma ] <anchor 318 -3> mark @si_rakar;
   pos base [\si_Va ] <anchor 303 -6> mark @si_rakar;
 } abvmAboveBaseMarkinSinhalalooku;
 

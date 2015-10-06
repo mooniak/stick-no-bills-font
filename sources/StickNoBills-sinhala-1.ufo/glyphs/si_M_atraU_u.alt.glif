@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_MatraUu.alt" format="1">
-  <advance width="834"/>
+  <advance width="297"/>
   <outline>
     <contour>
       <point x="52.9453" y="-31" type="line" smooth="yes"/>
@@ -28,6 +28,12 @@
       <point x="53" y="-75" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="30" y="20" type="line"/>
+      <point x="30" y="90" type="line"/>
+      <point x="267" y="90" type="line"/>
+      <point x="267" y="20" type="line"/>
+    </contour>
+    <contour>
       <point x="30" y="90" type="line"/>
       <point x="97" y="132" type="line"/>
       <point x="267" y="132" type="line"/>
@@ -38,12 +44,6 @@
       <point x="30" y="202" type="line"/>
       <point x="267" y="202" type="line"/>
       <point x="267" y="132" type="line"/>
-    </contour>
-    <contour>
-      <point x="30" y="20" type="line"/>
-      <point x="30" y="90" type="line"/>
-      <point x="267" y="90" type="line"/>
-      <point x="267" y="20" type="line"/>
     </contour>
   </outline>
 </glyph>
