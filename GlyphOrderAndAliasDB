@@ -5,6 +5,7 @@ space space uni0020
 zwnj zwnj uni200C
 zwj zwj uni200D
 dottedcircle dottedcircle uni25CC
+# zwnbs zwnbs uniFEFF
 
 ###----- Sinhala ------###
 ### Vowel letters
@@ -916,83 +917,130 @@ fl fl uniFB02 # LATIN SMALL LIGATURE FL
 ###----- End of Latin ------###
 
 ###----- Tamil ------###
-tml_Anusvara	tml_Anusvara
-tml_Visarga	tml_Visarga
-tml_A	tml_A
-tml_Aa	tml_Aa
-tml_I	tml_I
-tml_Ii	tml_Ii
-tml_U	tml_U
-tml_Uu	tml_Uu
-tml_E	tml_E
-tml_Ee	tml_Ee
-tml_Ai	tml_Ai
-tml_O	tml_O
-tml_Oo	tml_Oo
-tml_Au	tml_Au
-tml_Ka	tml_Ka
-tml_Nga	tml_Nga
-tml_Ca	tml_Ca
-tml_Ja	tml_Ja
-tml_Nya	tml_Nya
-tml_Tta	tml_Tta
-tml_Nna	tml_Nna
-tml_Ta	tml_Ta
-tml_Na	tml_Na
-tml_Nnna	tml_Nnna
-tml_Pa	tml_Pa
-tml_Ma	tml_Ma
-tml_Ya	tml_Ya
-tml_Ra	tml_Ra
-tml_Rra	tml_Rra
-tml_La	tml_La
-tml_Lla	tml_Lla
-tml_Llla	tml_Llla
-tml_Va	tml_Va
-tml_Sha	tml_Sha
-tml_Ssa	tml_Ssa
-tml_Sa	tml_Sa
-tml_Ha	tml_Ha
-tml_MatraAa	tml_MatraAa
-tml_MatraI	tml_MatraI
-tml_MatraIi	tml_MatraIi
-tml_MatraU	tml_MatraU
-tml_MatraUu	tml_MatraUu
-tml_MatraE	tml_MatraE
-tml_MatraEe	tml_MatraEe
-tml_MatraAi	tml_MatraAi
-tml_MatraO	tml_MatraO
-tml_MatraOo	tml_MatraOo
-tml_MatraAu	tml_MatraAu
-tml_Virama	tml_Virama
-tml_Om	tml_Om
-tml_AuLengthmark	tml_AuLengthmark
-tml_Zero	tml_Zero
-tml_One	tml_One
-tml_Two	tml_Two
-tml_Three	tml_Three
-tml_Four	tml_Four
-tml_Five	tml_Five
-tml_Six	tml_Six
-tml_Seven	tml_Seven
-tml_Eight	tml_Eight
-tml_Nine	tml_Nine
-tml_Ten	tml_Ten
-tml_Hundred	tml_Hundred
-tml_Thousand	tml_Thousand
-tml_Day	tml_Day
-tml_Month	tml_Month
-tml_Year	tml_Year
-tml_Debit	tml_Debit
-tml_Credit	tml_Credit
-tml_Above	tml_Above
-tml_Rupee	tml_Rupee
-tml_Number	tml_Number
+tml_Anusvara	tml_Anusvara	uni0B82
+tml_Visarga	tml_Visarga	uni0B83
+tml_A	tml_A	uni0B85
+tml_Aa	tml_Aa	uni0B86
+tml_I	tml_I	uni0B87
+tml_Ii	tml_Ii	uni0B88
+tml_U	tml_U	uni0B89
+tml_Uu	tml_Uu	uni0B8A
+tml_E	tml_E	uni0B8E
+tml_Ee	tml_Ee	uni0B8F
+tml_Ai	tml_Ai	uni0B90
+tml_O	tml_O	uni0B92
+tml_Oo	tml_Oo	uni0B93
+tml_Au	tml_Au	uni0B94
+tml_Ka	tml_Ka	uni0B95
+tml_Nga	tml_Nga	uni0B99
+tml_Ca	tml_Ca	uni0B9A
+tml_Ja	tml_Ja	uni0B9C
+tml_Nya	tml_Nya	uni0B9E
+tml_Tta	tml_Tta	uni0B9F
+tml_Nna	tml_Nna	uni0BA3
+tml_Ta	tml_Ta	uni0BA4
+tml_Na	tml_Na	uni0BA8
+tml_Nnna	tml_Nnna	uni0BA9
+tml_Pa	tml_Pa	uni0BAA
+tml_Ma	tml_Ma	uni0BAE
+tml_Ya	tml_Ya	uni0BAF
+tml_Ra	tml_Ra	uni0BB0
+tml_Rra	tml_Rra	uni0BB1
+tml_La	tml_La	uni0BB2
+tml_Lla	tml_Lla	uni0BB3
+tml_Llla	tml_Llla	uni0BB4
+tml_Va	tml_Va	uni0BB5
+tml_Sha	tml_Sha	uni0BB6
+tml_Ssa	tml_Ssa	uni0BB7
+tml_Sa	tml_Sa	uni0BB8
+tml_Ha	tml_Ha	uni0BB9
+tml_MatraAa	tml_MatraAa	uni0BBE
+tml_MatraI	tml_MatraI	uni0BBF
+tml_MatraIi	tml_MatraIi	uni0BC0
+tml_MatraU	tml_MatraU	uni0BC1
+tml_MatraUu	tml_MatraUu	uni0BC2
+tml_MatraE	tml_MatraE	uni0BC6
+tml_MatraEe	tml_MatraEe	uni0BC7
+tml_MatraAi	tml_MatraAi	uni0BC8
+tml_MatraO	tml_MatraO	uni0BCA
+tml_MatraOo	tml_MatraOo	uni0BCB
+tml_MatraAu	tml_MatraAu	uni0BCC
+tml_Virama	tml_Virama	uni0BCD
+tml_Om	tml_Om	uni0BD0
+tml_AuLengthmark	tml_AuLengthmark	uni0BD7
+tml_Zero	tml_Zero	uni0BE6
+tml_One	tml_One	uni0BE7
+tml_Two	tml_Two	uni0BE8
+tml_Three	tml_Three	uni0BE9
+tml_Four	tml_Four	uni0BEA
+tml_Five	tml_Five	uni0BEB
+tml_Six	tml_Six	uni0BEC
+tml_Seven	tml_Seven	uni0BED
+tml_Eight	tml_Eight	uni0BEE
+tml_Nine	tml_Nine	uni0BEF
+tml_Ten	tml_Ten	uni0BF0
+tml_Hundred	tml_Hundred	uni0BF1
+tml_Thousand	tml_Thousand	uni0BF2
+tml_Day	tml_Day	uni0BF3
+tml_Month	tml_Month	uni0BF4
+tml_Year	tml_Year	uni0BF5
+tml_Debit	tml_Debit	uni0BF6
+tml_Credit	tml_Credit	uni0BF7
+tml_Above	tml_Above	uni0BF8
+tml_Rupee	tml_Rupee	uni0BF9
+tml_Number	tml_Number	uni0BFA
 tml_Shree	tml_Shree
 tml_KSsa	tml_KSsa
+tml_KI	tml_KI
+tml_NgI	tml_NgI
+tml_CI	tml_CI
+tml_JI	tml_JI
+tml_NyI	tml_NyI
 tml_TtI	tml_TtI
+tml_NnI	tml_NnI
+tml_TI	tml_TI
+tml_NI	tml_NI
+tml_NnnI	tml_NnnI
+tml_PI	tml_PI
+tml_MI	tml_MI
+tml_YI	tml_YI
+tml_RI	tml_RI
+tml_RrI	tml_RrI
+tml_LI	tml_LI
+tml_LlI	tml_LlI
+tml_LllI	tml_LllI
+tml_VI	tml_VI
+tml_SsI	tml_SsI
+tml_SI	tml_SI
+tml_HI	tml_HI
+tml_KSsI	tml_KSsI
+tml_ShI	tml_ShI
+tml_KIi	tml_KIi
+tml_NgIi	tml_NgIi
+tml_CIi	tml_CIi
+tml_JIi	tml_JIi
+tml_NyIi	tml_NyIi
 tml_TtIi	tml_TtIi
+tml_NnIi	tml_NnIi
+tml_TIi	tml_TIi
+tml_NIi	tml_NIi
+tml_NnnIi	tml_NnnIi
+tml_PIi	tml_PIi
+tml_MIi	tml_MIi
+tml_YIi	tml_YIi
+tml_RIi	tml_RIi
+tml_RrIi	tml_RrIi
+tml_LIi	tml_LIi
+tml_LlIi	tml_LlIi
+tml_LllIi	tml_LllIi
+tml_VIi	tml_VIi
+tml_SsIi	tml_SsIi
+tml_SIi	tml_SIi
+tml_HIi	tml_HIi
+tml_KSsIi	tml_KSsIi
+tml_ShIi	tml_ShIi
 tml_KU	tml_KU
+tml_NgU	tml_NgU
 tml_CU	tml_CU
 tml_NyU	tml_NyU
 tml_TtU	tml_TtU
@@ -1000,12 +1048,21 @@ tml_NnU	tml_NnU
 tml_TU	tml_TU
 tml_NU	tml_NU
 tml_NnnU	tml_NnnU
+tml_PU	tml_PU
 tml_MU	tml_MU
+tml_YU	tml_YU
 tml_RU	tml_RU
 tml_RrU	tml_RrU
 tml_LU	tml_LU
 tml_LlU	tml_LlU
 tml_LllU	tml_LllU
+tml_VU	tml_VU
+tml_SU	tml_SU
+tml_ShU	tml_ShU
+tml_SsU	tml_SsU
+tml_HU	tml_HU
+tml_KSsU	tml_KSsU
+tml_JU	tml_JU
 tml_KUu	tml_KUu
 tml_NgUu	tml_NgUu
 tml_CUu	tml_CUu
@@ -1023,20 +1080,28 @@ tml_RrUu	tml_RrUu
 tml_LUu	tml_LUu
 tml_LlUu	tml_LlUu
 tml_LllUu	tml_LllUu
+tml_VUu	tml_VUu
+tml_SUu	tml_SUu
+tml_ShUu	tml_ShUu
+tml_SsUu	tml_SsUu
+tml_HUu	tml_HUu
+tml_KSsUu	tml_KSsUu
+tml_JUu	tml_JUu
 tml_NnAa.alt	tml_NnAa.alt
 tml_NnnAa.alt	tml_NnnAa.alt
 tml_RrAa.alt	tml_RrAa.alt
-tml_MatraAi.alt	tml_MatraAi.alt
-tml_MatraI.alt1	tml_MatraI.alt2
-tml_MatraI.alt2	tml_MatraI.alt3
-tml_MatraI.alt3	tml_MatraI.alt4
-tml_MatraI.alt4	tml_MatraI.alt5
-tml_MatraI.alt5	tml_MatraI.alt6
-tml_MatraI.alt6	tml_MatraI.alt7
-tml_MatraI.alt7	tml_MatraI.alt8
-tml_MatraIi.alt1	tml_MatraIi.alt2
-tml_MatraU.alt1	tml_MatraU.alt2
-tml_MatraI.stylalt1	tml_MatraI.stylalt2
-tml_MatraIi.stylalt1	tml_MatraIi.stylalt2
+tml_NnAi	tml_NnAi
+tml_NnnAi	tml_NnnAi
+tml_LAi	tml_LAi
+tml_LlAi	tml_LlAi
+tml_RI.alt	tml_RI.alt
+tml_RIi.alt	tml_RIi.alt
+tml_RVirama.alt	tml_RVirama.alt
+tml_KI.alt	tml_KI.alt
+tml_CI.alt	tml_CI.alt
+tml_TI.alt	tml_TI.alt
+tml_KIi.alt	tml_KIi.alt
+tml_CIi.alt	tml_CIi.alt
+tml_TIi.alt	tml_TIi.alt
 
 ###----- End of Tamil ------###
