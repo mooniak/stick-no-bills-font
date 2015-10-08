@@ -2,10 +2,13 @@
 
 languagesystem DFLT dflt;
 languagesystem sinh dflt;
+languagesystem taml dflt;
+languagesystem tml2 dflt;
 
 # include (../../features/GENERATED_classes.fea);
 include (../../features/tables.fea);
 
+##--------------- Lookups Sinhala ---------------##
 
 #---- --AKHN ------------
 
@@ -830,12 +833,169 @@ lookup si_touch_pos {
   # pos cursive si_Fa.touch <anchor NULL> <anchor 558 0>;
 } si_touch_pos;
 
+##--------------- Lookups Tamil ---------------##
+
+#---- AKHN ----
+
+lookup tml_akhands {
+    sub tml_Ka tml_Virama tml_Ssa by tml_KSsa;
+    sub tml_Sha tml_Virama tml_Ra tml_MatraIi by tml_Shree;
+    sub tml_Sa tml_Virama tml_Ra tml_MatraIi by tml_Shree;
+} tml_akhands;
+
+#---- ABVS ----
+
+lookup tml_above_base_sub_1 {
+    sub tml_Ka tml_MatraI by tml_KI;
+    sub tml_Nga tml_MatraI by tml_NgI;
+    sub tml_Ca tml_MatraI by tml_CI;
+    sub tml_Ja tml_MatraI by tml_JI;
+    sub tml_Nya tml_MatraI by tml_NyI;
+    sub tml_Tta tml_MatraI by tml_TtI;
+    sub tml_Nna tml_MatraI by tml_NnI;
+    sub tml_Ta tml_MatraI by tml_TI;
+    sub tml_Na tml_MatraI by tml_NI;
+    sub tml_Nnna tml_MatraI by tml_NnnI;
+    sub tml_Pa tml_MatraI by tml_PI;
+    sub tml_Ma tml_MatraI by tml_MI;
+    sub tml_Ya tml_MatraI by tml_YI;
+    sub tml_Ra tml_MatraI by tml_RI;
+    sub tml_Rra tml_MatraI by tml_RrI;
+    sub tml_La tml_MatraI by tml_LI;
+    sub tml_Lla tml_MatraI by tml_LlI;
+    sub tml_Llla tml_MatraI by tml_LllI;
+    sub tml_Va tml_MatraI by tml_VI;
+    sub tml_Sa tml_MatraI by tml_SI;
+    sub tml_Sha tml_MatraI by tml_ShI;
+    sub tml_Ssa tml_MatraI by tml_SsI;
+    sub tml_Ha tml_MatraI by tml_HI;
+    sub tml_KSsa tml_MatraI by tml_KSsI;
+} tml_above_base_sub_1;
+
+lookup tml_above_base_sub_2 {
+    sub tml_Ka tml_MatraIi by tml_KIi;
+    sub tml_Nga tml_MatraIi by tml_NgIi;
+    sub tml_Ca tml_MatraIi by tml_CIi;
+    sub tml_Ja tml_MatraIi by tml_JIi;
+    sub tml_Nya tml_MatraIi by tml_NyIi;
+    sub tml_Tta tml_MatraIi by tml_TtIi;
+    sub tml_Nna tml_MatraIi by tml_NnIi;
+    sub tml_Ta tml_MatraIi by tml_TIi;
+    sub tml_Na tml_MatraIi by tml_NIi;
+    sub tml_Nnna tml_MatraIi by tml_NnnIi;
+    sub tml_Pa tml_MatraIi by tml_PIi;
+    sub tml_Ma tml_MatraIi by tml_MIi;
+    sub tml_Ya tml_MatraIi by tml_YIi;
+    sub tml_Ra tml_MatraIi by tml_RIi;
+    sub tml_Rra tml_MatraIi by tml_RrIi;
+    sub tml_La tml_MatraIi by tml_LIi;
+    sub tml_Lla tml_MatraIi by tml_LlIi;
+    sub tml_Llla tml_MatraIi by tml_LllIi;
+    sub tml_Va tml_MatraIi by tml_VIi;
+    sub tml_Sa tml_MatraIi by tml_SIi;
+    sub tml_Sha tml_MatraIi by tml_ShIi;
+    sub tml_Ssa tml_MatraIi by tml_SsIi;
+    sub tml_Ha tml_MatraIi by tml_HIi;
+    sub tml_KSsa tml_MatraIi by tml_KSsIi;
+ } tml_above_base_sub_2;
+
+
+#---- PSTS ----
+
+lookup tml_post_base_sub_1 {
+    sub tml_Ka tml_MatraU by tml_KU;
+    sub tml_Nga tml_MatraU by tml_NgU;
+    sub tml_Ca tml_MatraU by tml_CU;
+    sub tml_Ja tml_MatraU by tml_JU;
+    sub tml_Nya tml_MatraU by tml_NyU;
+    sub tml_Tta tml_MatraU by tml_TtU;
+    sub tml_Nna tml_MatraU by tml_NnU;
+    sub tml_Ta tml_MatraU by tml_TU;
+    sub tml_Na tml_MatraU by tml_NU;
+    sub tml_Nnna tml_MatraU by tml_NnnU;
+    sub tml_Pa tml_MatraU by tml_PU;
+    sub tml_Ma tml_MatraU by tml_MU;
+    sub tml_Ya tml_MatraU by tml_YU;
+    sub tml_Ra tml_MatraU by tml_RU;
+    sub tml_Rra tml_MatraU by tml_RrU;
+    sub tml_La tml_MatraU by tml_LU;
+    sub tml_Lla tml_MatraU by tml_LlU;
+    sub tml_Llla tml_MatraU by tml_LllU;
+    sub tml_Va tml_MatraU by tml_VU;
+    sub tml_Sa tml_MatraU by tml_SU;
+    sub tml_Sha tml_MatraU by tml_ShU;
+    sub tml_Ssa tml_MatraU by tml_SsU;
+    sub tml_Ha tml_MatraU by tml_HU;
+    sub tml_KSsa tml_MatraU by tml_KSsU;
+} tml_post_base_sub_1;
+
+lookup tml_post_base_sub_2 {
+    sub tml_Ka tml_MatraUu by tml_KUu;
+    sub tml_Nga tml_MatraUu by tml_NgUu;
+    sub tml_Ca tml_MatraUu by tml_CUu;
+    sub tml_Ja tml_MatraUu by tml_JUu;
+    sub tml_Nya tml_MatraUu by tml_NyUu;
+    sub tml_Tta tml_MatraUu by tml_TtUu;
+    sub tml_Nna tml_MatraUu by tml_NnUu;
+    sub tml_Ta tml_MatraUu by tml_TUu;
+    sub tml_Na tml_MatraUu by tml_NUu;
+    sub tml_Nnna tml_MatraUu by tml_NnnUu;
+    sub tml_Pa tml_MatraUu by tml_PUu;
+    sub tml_Ma tml_MatraUu by tml_MUu;
+    sub tml_Ya tml_MatraUu by tml_YUu;
+    sub tml_Ra tml_MatraUu by tml_RUu;
+    sub tml_Rra tml_MatraUu by tml_RrUu;
+    sub tml_La tml_MatraUu by tml_LUu;
+    sub tml_Lla tml_MatraUu by tml_LlUu;
+    sub tml_Llla tml_MatraUu by tml_LllUu;
+    sub tml_Va tml_MatraUu by tml_VUu;
+    sub tml_Sa tml_MatraUu by tml_SUu;
+    sub tml_Sha tml_MatraUu by tml_ShUu;
+    sub tml_Ssa tml_MatraUu by tml_SsUu;
+    sub tml_Ha tml_MatraUu by tml_HUu;
+    sub tml_KSsa tml_MatraUu by tml_KSsUu;
+ } tml_post_base_sub_2;
+
+#---- SALT ----
+
+# lookup tml_stylistic_alternates_1 {
+#     sub tml_Nna tml_MatraAa by tml_NnAa.alt;
+#     sub tml_Nnna tml_MatraAa by tml_NnnAa.alt;
+#     sub tml_Rra tml_MatraAa by tml_RrAa.alt;
+# } tml_stylistic_alternates_1;
+#
+# lookup tml_stylistic_alternates_2 {
+#     sub tml_Ra tml_Virama by tml_RVirama.alt;
+#     sub tml_Ra tml_MatraI by tml_RI.alt;
+#     sub tml_Ra tml_MatraIi by tml_RIi.alt;
+# } tml_stylistic_alternates_2;
+#
+# lookup tml_stylistic_alternates_3 {
+#     sub tml_Nna tml_MatraAi by tml_NnAi;
+#     sub tml_Nnna tml_MatraAi by tml_NnnAi;
+#     sub tml_La tml_MatraAi by tml_LAi;
+#     sub tml_Lla tml_MatraAi by tml_LlAi;
+# } tml_stylistic_alternates_3;
+#
+# lookup tml_stylistic_alternates_4 {
+#     sub tml_KI by tml_KI.alt;
+#     sub tml_CI by tml_CI.alt;
+#     sub tml_TI by tml_TI.alt;
+#     sub tml_KIi by tml_KIi.alt;
+#     sub tml_CIi by tml_CIi.alt;
+#     sub tml_TIi by tml_TIi.alt;
+# } tml_stylistic_alternates_4;
+
 ##--------------- Features ---------------##
 
 feature akhn {
   script sinh;
       lookup si_akhands;
       lookup si_touching;
+  script taml;
+      lookup tml_akhands;
+  script tml2;
+      lookup tml_akhands;
 } akhn;
 
 #-------------
@@ -874,6 +1034,12 @@ feature abvs {
       lookup si_abvs_5;
       lookup si_abvs_6;
       lookup si_abvs_7;
+  script taml;
+      lookup tml_above_base_sub_1;
+      lookup tml_above_base_sub_2;
+  script tml2;
+      lookup tml_above_base_sub_1;
+      lookup tml_above_base_sub_2;
 } abvs;
 
 #-------------
@@ -892,6 +1058,12 @@ feature blws {
 feature psts {
   script sinh;
       lookup si_raer;
+  script taml;
+      lookup tml_post_base_sub_1;
+      lookup tml_post_base_sub_2;
+  script tml2;
+      lookup tml_post_base_sub_1;
+      lookup tml_post_base_sub_2;
 } psts;
 
 #-------------
@@ -913,19 +1085,65 @@ feature blwm {
     script sinh;
 } blwm;
 
+#-------------
+
+# feature salt {
+#     script taml;
+#         lookup tml_stylistic_alternates_1;
+#         lookup tml_stylistic_alternates_2;
+#         lookup tml_stylistic_alternates_3;
+#         lookup tml_stylistic_alternates_4;
+#     script tml2;
+#         lookup tml_stylistic_alternates_1;
+#         lookup tml_stylistic_alternates_2;
+#         lookup tml_stylistic_alternates_3;
+#         lookup tml_stylistic_alternates_4;
+# } salt;
+#
 # feature ss01 {
 #   script sinh;
 #     lookup si_da_style;
+#   script taml;
+#      lookup tml_stylistic_alternates_1;
+#   script tml2;
+#      lookup tml_stylistic_alternates_1;
 # } ss01;
-#-------------
-#---std ligatures
+#
+# #-------------
+#
+# feature ss02 {
+#     script taml;
+#         lookup tml_stylistic_alternates_2;
+#     script tml2;
+#         lookup tml_stylistic_alternates_2;
+# } ss02;
+#
+# #-------------
+#
+# feature ss03 {
+#     script taml;
+#         lookup tml_stylistic_alternates_3;
+#     script tml2;
+#         lookup tml_stylistic_alternates_3;
+# } ss03;
+#
+# #-------------
+#
+# feature ss04 {
+#     script taml;
+#         lookup tml_stylistic_alternates_4;
+#     script tml2;
+#         lookup tml_stylistic_alternates_4;
+# } ss04;
+
+##--------------- Std Ligature ---------------##
 
 feature liga {
 sub f i by fi;
 sub f l by fl;
 } liga;
 
-#---numr features
+##--------------- Numeric Features ---------------##
 
 @FIGURES = [ zero one two three four five six seven eight nine ];
 
