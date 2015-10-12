@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/mooniak/stick-no-bills-font.png?label=ready&title=Ready)](https://waffle.io/mooniak/stick-no-bills-font)
 
 |  WORK IN PROGRESS      |
 | ------------- |:-------------:|
