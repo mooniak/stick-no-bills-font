@@ -1,4 +1,3 @@
-languagesystem DFLT dflt;
 languagesystem sinh dflt;
 
 
@@ -480,26 +479,6 @@ feature rkrf {
      language dflt ;
       lookup si_rakaar;
 } rkrf;
-
-# GPOS 
-
-
-lookup abvmAboveBaseMarkinSinhalalooku {
-  lookupflag 0;
-  markClass [\si_Rakar ] <anchor 288 -5> @si_rakar;
-  pos base [\si_Va ] <anchor 303 -6> mark @si_rakar;
-} abvmAboveBaseMarkinSinhalalooku;
-
-feature abvm {
-
- script DFLT;
-     language dflt ;
-      lookup abvmAboveBaseMarkinSinhalalooku;
-
- script sinh;
-     language dflt ;
-      lookup abvmAboveBaseMarkinSinhalalooku;
-} abvm;
 
 @GDEF_Simple = [\anusvara \dottedcircle \si_A \si_Aa \si_Aae \si_Ae \si_Ai \si_Au 
 	\si_BR.halant \si_BRa \si_Ba \si_Ba.touch \si_BhRa.halant \si_Bha 
