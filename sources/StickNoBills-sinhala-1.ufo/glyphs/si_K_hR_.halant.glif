@@ -2,6 +2,26 @@
 <glyph name="si_KhR.halant" format="1">
   <advance width="622"/>
   <outline>
+    <contour>
+      <point x="351" y="-103" type="line"/>
+      <point x="503.188" y="-103"/>
+      <point x="466.877" y="0"/>
+      <point x="441" y="0" type="curve"/>
+      <point x="574" y="89" type="line"/>
+      <point x="657.554" y="-53.5439"/>
+      <point x="583" y="-234"/>
+      <point x="351.115" y="-233.947" type="curve"/>
+    </contour>
+    <contour>
+      <point x="296.115" y="-233.947" type="line"/>
+      <point x="162" y="-234"/>
+      <point x="47.833" y="-167.027"/>
+      <point x="47.833" y="-37.0908" type="curve"/>
+      <point x="188.833" y="-37.0908" type="line"/>
+      <point x="188.833" y="-72.625"/>
+      <point x="227.901" y="-103"/>
+      <point x="296" y="-103" type="curve"/>
+    </contour>
     <component base="si_Kh.halant"/>
   </outline>
 </glyph>

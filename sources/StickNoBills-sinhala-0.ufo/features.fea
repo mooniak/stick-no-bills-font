@@ -1,4 +1,3 @@
-languagesystem DFLT dflt;
 languagesystem sinh dflt;
 
 
@@ -479,26 +478,6 @@ feature rkrf {
       lookup si_rakaar;
 } rkrf;
 
-# GPOS 
-
-
-lookup abvmAboveBaseMarkinSinhalalooku {
-  lookupflag 0;
-  markClass [\si_Rakar ] <anchor 288 -5> @si_rakar;
-  pos base [\si_Ma ] <anchor 320 -3> mark @si_rakar;
-} abvmAboveBaseMarkinSinhalalooku;
-
-feature abvm {
-
- script DFLT;
-     language dflt ;
-      lookup abvmAboveBaseMarkinSinhalalooku;
-
- script sinh;
-     language dflt ;
-      lookup abvmAboveBaseMarkinSinhalalooku;
-} abvm;
-
 @GDEF_Simple = [\NameMe.124 \anusvara \dottedcircle \si_A \si_Aa \si_Aae \si_Ae 
 	\si_Ai \si_Au \si_BR.halant \si_BRa \si_Ba \si_Ba.touch \si_BhRa.halant \si_Bha 
 	\si_Bha.touch \si_CR.halant \si_Ca \si_Ca.touch \si_Cha \si_Cha.touch 
@@ -529,7 +508,7 @@ feature abvm {
 	\si_Ttha.touch \si_U \si_Uu \si_VR.halant \si_Va \si_Va.touch 
 	\si_Y.post.halant \si_YUu.post.reph \si_Ya \si_Ya.touch \si_Yu.post.reph 
 	\si_kundaliya \si_vocalicL \si_vocalicLL \si_vocalicR \si_vocalicRr \space 
-	\visarga \zwj \zwnj ];
+	\visarga \zwj \zwnj \si_HR.halant \si_HRI \si_FR.halant ];
 @GDEF_Ligature = [\si_B.halant \si_BI \si_BIi \si_BRI \si_BRIi \si_BU \si_BUu 
 	\si_Ba.reph \si_Bh.halant \si_BhI \si_BhIi \si_BhRI \si_BhRIi \si_BhRa \si_BhU 
 	\si_BhUu \si_Bha.reph \si_C.halant \si_CI \si_CIi \si_CRI \si_CRIi \si_CRa 

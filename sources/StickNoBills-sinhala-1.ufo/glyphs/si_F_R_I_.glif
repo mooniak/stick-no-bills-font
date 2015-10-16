@@ -2,6 +2,26 @@
 <glyph name="si_FRI" format="1">
   <advance width="650"/>
   <outline>
-    <component base="si_Fa"/>
+    <contour>
+      <point x="356" y="-103" type="curve"/>
+      <point x="356.115" y="-233.947" type="line"/>
+      <point x="588" y="-234"/>
+      <point x="665.554" y="-56.5439"/>
+      <point x="583" y="89" type="curve"/>
+      <point x="450" y="1" type="line"/>
+      <point x="475.877" y="1"/>
+      <point x="508.188" y="-103"/>
+    </contour>
+    <contour>
+      <point x="301.115" y="-233.947" type="curve"/>
+      <point x="301" y="-103" type="line"/>
+      <point x="232.901" y="-103"/>
+      <point x="193.833" y="-72.625"/>
+      <point x="193.833" y="-37.0908" type="curve"/>
+      <point x="52.833" y="-37.0908" type="line"/>
+      <point x="52.833" y="-167.027"/>
+      <point x="167" y="-234"/>
+    </contour>
+    <component base="si_FI"/>
   </outline>
 </glyph>

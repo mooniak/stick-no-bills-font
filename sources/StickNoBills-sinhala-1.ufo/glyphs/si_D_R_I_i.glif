@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_DRIi" format="1">
-  <advance width="552"/>
+  <advance width="517"/>
   <outline>
-    <component base="si_Da"/>
+    <contour>
+      <point x="353" y="553" type="curve" smooth="yes"/>
+      <point x="288" y="553"/>
+      <point x="235" y="606"/>
+      <point x="235" y="671" type="curve" smooth="yes"/>
+      <point x="235" y="736"/>
+      <point x="288" y="789"/>
+      <point x="353" y="789" type="curve" smooth="yes"/>
+      <point x="418" y="789"/>
+      <point x="471" y="736"/>
+      <point x="471" y="671" type="curve" smooth="yes"/>
+      <point x="471" y="606"/>
+      <point x="418" y="553"/>
+    </contour>
+    <contour>
+      <point x="30" y="602" type="line"/>
+      <point x="30" y="630" type="line" smooth="yes"/>
+      <point x="30" y="723.409"/>
+      <point x="106.747" y="789"/>
+      <point x="206" y="789" type="curve" smooth="yes"/>
+      <point x="353" y="789" type="line" smooth="yes"/>
+      <point x="416.976" y="789"/>
+      <point x="471" y="736.729"/>
+      <point x="471" y="671" type="curve"/>
+      <point x="317" y="622" type="line"/>
+      <point x="317" y="657.112"/>
+      <point x="301.857" y="659"/>
+      <point x="275" y="659" type="curve" smooth="yes"/>
+      <point x="222" y="659" type="line" smooth="yes"/>
+      <point x="195.143" y="659"/>
+      <point x="160" y="654.112"/>
+      <point x="160" y="602" type="curve"/>
+    </contour>
+    <component base="si_DRa"/>
   </outline>
 </glyph>
