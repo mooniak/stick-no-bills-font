@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_FR.halant" format="1">
-  <advance width="0"/>
+  <advance width="630"/>
+  <outline>
+    <contour>
+      <point x="344.115" y="-193.947" type="line"/>
+      <point x="508.148" y="-193.947"/>
+      <point x="606.99" y="-62.1113"/>
+      <point x="541" y="66" type="curve"/>
+      <point x="575" y="89" type="line"/>
+      <point x="649.297" y="-41.9863"/>
+      <point x="563" y="-234"/>
+      <point x="344.115" y="-233.947" type="curve"/>
+    </contour>
+    <contour>
+      <point x="289" y="-234" type="line"/>
+      <point x="158.885" y="-234.053"/>
+      <point x="35.833" y="-168.776"/>
+      <point x="35.833" y="-37.0908" type="curve"/>
+      <point x="75.833" y="-37.0908" type="line"/>
+      <point x="75.833" y="-163.737"/>
+      <point x="208" y="-194"/>
+      <point x="289" y="-194" type="curve"/>
+    </contour>
+    <component base="si_F.halant"/>
+  </outline>
 </glyph>
