@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445095127
-ModificationTime: 1445200896
+ModificationTime: 1445201142
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -780,13 +780,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p359
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p360
-sS'com.schriftgestaltung.useNiceNames'
-p361
 I00
+sS'com.schriftgestaltung.fontMasterID'
+p360
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p361
 s."
 Encoding: sinhala_abhaya
 UnicodeInterp: none
@@ -794,7 +794,7 @@ NameList: sinhala
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 319 11 8
+WinInfo: 77 11 8
 AnchorClass2: "si_rakar" "" 
 BeginChars: 65538 542
 
@@ -9071,7 +9071,7 @@ GlifName: si_K_U_u
 Width: 783
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -205 41<702 783> 0 40<586 631 586 586 690.735 719 719 783> 90 40<586 698 586 783 586 783> 370 33 521 44
 VStem: 65 41 256 40<114 192> 463 40<74.5468 114> 604 40<-132.905 -64> 690 40<177.375 178 178 314>
 LayerCount: 2
@@ -9207,6 +9207,7 @@ I521
 sg8
 I44
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ka si_MatraUu
 EndChar
 
