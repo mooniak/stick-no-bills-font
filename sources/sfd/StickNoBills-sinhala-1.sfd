@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445095132
-ModificationTime: 1445200251
+ModificationTime: 1445200938
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -794,7 +794,7 @@ NameList: sinhala
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 423 9 7
+WinInfo: 369 9 7
 AnchorClass2: "si_rakar" "" 
 BeginChars: 65538 542
 
@@ -10395,12 +10395,13 @@ GlifName: si_L_.halant
 Width: 626
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 160 3530 N 1 0 0 1 314 0 2
+Refer: 160 3530 S 1 0 0 1 314 0 2
 Refer: 240 3517 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_La si_Halant
 EndChar
 
@@ -12646,7 +12647,7 @@ GlifName: si_N_D_.halant
 Width: 972
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
