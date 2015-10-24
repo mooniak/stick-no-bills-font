@@ -4,57 +4,12 @@
   <unicode hex="00BD"/>
   <outline>
     <contour>
-      <point x="86" y="644" type="line"/>
-      <point x="86" y="672" type="line"/>
-      <point x="124" y="701.5" type="line"/>
-      <point x="144" y="701.5" type="line"/>
-      <point x="144" y="352" type="line"/>
-      <point x="124" y="352" type="line"/>
-      <point x="124" y="674" type="line"/>
-    </contour>
-    <contour>
-      <point x="340.973" y="261" type="line"/>
-      <point x="345.473" y="303"/>
-      <point x="375.973" y="346.5"/>
-      <point x="428.973" y="351" type="curve"/>
-      <point x="428.973" y="332" type="line" smooth="yes"/>
-      <point x="428.973" y="332"/>
-      <point x="371.473" y="330.5"/>
-      <point x="359.473" y="257" type="curve"/>
-    </contour>
-    <contour>
-      <point x="350.473" y="1" type="line"/>
-      <point x="350.473" y="20" type="line"/>
-      <point x="552.473" y="20" type="line"/>
-      <point x="552.473" y="1" type="line"/>
-    </contour>
-    <contour>
-      <point x="350.473" y="41" type="line"/>
-      <point x="350.473" y="129.5"/>
-      <point x="454.473" y="165"/>
-      <point x="472.973" y="174" type="curve" smooth="yes"/>
-      <point x="500.973" y="187.5"/>
-      <point x="535.473" y="205"/>
-      <point x="535.473" y="248" type="curve" smooth="yes"/>
-      <point x="535.473" y="290.5"/>
-      <point x="519.473" y="332"/>
-      <point x="451.473" y="332" type="curve"/>
-      <point x="451.473" y="351" type="line"/>
-      <point x="530.473" y="351"/>
-      <point x="556.473" y="300.5"/>
-      <point x="555.473" y="248" type="curve" smooth="yes"/>
-      <point x="554.473" y="206"/>
-      <point x="531.973" y="183"/>
-      <point x="497.973" y="165.5" type="curve" smooth="yes"/>
-      <point x="460.973" y="146.5"/>
-      <point x="370.473" y="116.5"/>
-      <point x="370.473" y="41" type="curve"/>
-    </contour>
-    <contour>
       <point x="52" y="-2" type="line"/>
       <point x="484" y="702" type="line"/>
       <point x="509" y="702" type="line"/>
       <point x="77" y="-2" type="line"/>
     </contour>
+    <component base="two" xScale="0.5" yScale="0.5" xOffset="325.236" yOffset="1"/>
+    <component base="one" xScale="0.5" yScale="0.5" xOffset="66" yOffset="352"/>
   </outline>
 </glyph>
