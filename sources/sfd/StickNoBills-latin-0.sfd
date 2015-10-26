@@ -23,8 +23,8 @@ FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1445674680
-ModificationTime: 1445674680
+CreationTime: 1445864577
+ModificationTime: 1445869387
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -492,7 +492,11 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 192 8 5
+Grid
+-1024 700 m 0
+ 2048 700 l 1024
+EndSplineSet
 BeginChars: 331 331
 
 StartChar: A
@@ -3584,7 +3588,7 @@ GlifName: divide
 Width: 650
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -5509,44 +5513,69 @@ EndChar
 StartChar: one
 Encoding: 222 49 222
 GlifName: one
-Width: 198
+Width: 160
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 LayerCount: 2
 Back
 Fore
 SplineSet
-76 624 m 257
- 76 667 l 257
- 116 700 l 257
- 156 700 l 257
- 156 0 l 257
- 116 0 l 257
- 116 624 l 257
- 76 624 l 257
+40 624 m 257
+ 40 667 l 257
+ 80 700 l 257
+ 120 700 l 257
+ 120 0 l 257
+ 80 0 l 257
+ 80 624 l 257
+ 40 624 l 257
 EndSplineSet
 EndChar
 
 StartChar: onehalf
 Encoding: 223 189 223
 GlifName: onehalf
-Width: 581
+Width: 554
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-52 -2 m 257
- 484 702 l 257
- 509 702 l 257
- 77 -2 l 257
- 52 -2 l 257
+63 662 m 257
+ 63 683.5 l 257
+ 83 700 l 257
+ 113 700 l 257
+ 113 350 l 257
+ 83 350 l 257
+ 83 662 l 257
+ 63 662 l 257
+299.208007812 261 m 257
+ 303.708007812 303 334.208007812 346.5 387.208007812 351 c 257
+ 387.208007812 321 l 256
+ 387.208007812 321 336 321 328 254 c 257
+ 299.208007812 261 l 257
+308.708007812 0 m 257
+ 308.708007812 30 l 257
+ 510.708007812 30 l 257
+ 510.708007812 0 l 257
+ 308.708007812 0 l 257
+308.708007812 51 m 257
+ 308.708007812 139.5 412.708007812 165 431.208007812 174 c 256
+ 459.208007812 187.5 483.708007812 205 483.708007812 248 c 256
+ 483.708007812 290.5 465.708007812 321 409.708007812 321 c 257
+ 409.708007812 351 l 257
+ 488.708007812 351 513.708007812 300.509765625 513.708007812 248 c 256
+ 513.708007812 198 490.208007812 173 456.208007812 155.5 c 256
+ 419.208007812 136.5 338.708007812 120.5 338.708007812 51 c 257
+ 308.708007812 51 l 257
+0 0 m 257
+ 432 700 l 257
+ 468 700 l 257
+ 36 0 l 257
+ 0 0 l 257
 EndSplineSet
-Refer: 280 50 N 0.5 0 0 0.5 325.236 1 2
-Refer: 222 49 N 0.5 0 0 0.5 66 352 2
 EndChar
 
 StartChar: onequarter
@@ -5555,7 +5584,7 @@ GlifName: onequarter
 Width: 560
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -5576,7 +5605,7 @@ GlifName: uni00B_9
 Width: 102
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -5850,19 +5879,19 @@ EndChar
 StartChar: period
 Encoding: 236 46 236
 GlifName: period
-Width: 82
+Width: 138
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-15 4 m 256
- 15 18 27 30 41 30 c 256
- 55 30 67 18 67 4 c 256
- 67 -10 55 -22 41 -22 c 256
- 27 -22 15 -10 15 4 c 256
+30 35 m 256
+ 30 56 48 74 69 74 c 256
+ 90 74 108 56 108 35 c 256
+ 108 14 90 -4 69 -4 c 256
+ 48 -4 30 14 30 35 c 256
 EndSplineSet
 EndChar
 
@@ -5872,7 +5901,7 @@ GlifName: periodcentered
 Width: 152
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6840,41 +6869,41 @@ GlifName: T_radeM_arkS_ign
 Width: 463
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-25.5898 687.572 m 257
+25.58984375 678.572265625 m 257
  25.5898 699.2 l 257
  158.088 699.2 l 257
- 158.088 687.572 l 257
- 97.8057 687.572 l 257
- 97.8057 485 l 257
- 85.5664 485 l 257
- 85.5664 687.572 l 257
- 25.5898 687.572 l 257
-180.852 485 m 257
- 180.852 652.994 l 257
- 183.606 652.994 l 257
- 193.092 629.432 l 257
- 193.092 485 l 257
- 180.852 485 l 257
+ 158.087890625 678.572265625 l 257
+ 102.805664062 678.572265625 l 257
+ 102.805664062 485 l 257
+ 80.56640625 485 l 257
+ 80.56640625 678.572265625 l 257
+ 25.58984375 678.572265625 l 257
+180 485 m 257
+ 180 644 l 257
+ 185 644 l 257
+ 202.091796875 603.905273438 l 257
+ 202.143554688 485 l 257
+ 180 485 l 257
 180.852 692.468 m 257
  180.852 699.2 l 257
- 192.174 699.2 l 257
- 272.958 503.054 l 257
- 339.054 652.382 l 257
- 342.114 652.382 l 257
- 342.114 628.514 l 257
+ 202.173828125 699.200195312 l 257
+ 272.958007812 527.053710938 l 257
+ 335 663 l 257
+ 342 663 l 257
+ 342 629 l 257
  278.772 485 l 257
  267.144 485 l 257
  180.852 692.468 l 257
-355.884 485 m 257
- 355.884 699.2 l 257
- 368.124 699.2 l 257
- 368.124 485 l 257
- 355.884 485 l 257
+354.772460938 485 m 257
+ 354.772460938 699.200195312 l 257
+ 377.012695312 699.200195312 l 257
+ 377.012695312 485 l 257
+ 354.772460938 485 l 257
 EndSplineSet
 EndChar
 
@@ -7476,7 +7505,7 @@ GlifName: uni2219
 Width: 250
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
