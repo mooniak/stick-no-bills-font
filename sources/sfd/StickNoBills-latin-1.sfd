@@ -5,7 +5,7 @@ FamilyName: Stick No Bills
 OS2FamilyName: "Stick No Bills Regular"
 OS2StyleName: "regular"
 Weight: Bold
-Copyright: Remove All VKern Pairs
+Copyright: Copyright (c) 2013-2015 STICK NO BILLS (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
 ItalicAngle: 0
@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445884902
-ModificationTime: 1445885002
+ModificationTime: 1445889789
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -48,6 +48,7 @@ OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 258 0 0 "kernHorizontalKerninglookup0" { "kernHorizontalKerninglookup0 subtable"  } ['kern' ('latn' <'dflt' > 'hani' <'dflt' > 'DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 6 7 "kernHorizontalKerninglookup0 subtable"
  1 A
@@ -492,7 +493,9 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 248 8 4
+WinInfo: 0 8 4
+BeginPrivate: 0
+EndPrivate
 BeginChars: 331 331
 
 StartChar: A
