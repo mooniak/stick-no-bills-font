@@ -1,16 +1,15 @@
-FONTLOG for Stick No Bills
--------------------
+##FONTLOG for STICK NO BILLS™ font
 
-This file provides detailed information on the  STICK NO BILLS™ font software.
+This file provides detailed information on the STICK NO BILLS™ font software.
 This information should be distributed along with the  Stick No Bills fonts and any derivative works.
 
 
 Basic Font Information
 --------------------------
 
-STICK NO BILLS - is the bespoke typeface of Stick No Bills™ Poster Gallery in Galle, Sri Lanka. The font is developed and maintained by mooniak <mooniak.com>
+STICK NO BILLS - is the bespoke typeface of Stick No Bills™ Poster Gallery in Galle, Sri Lanka. The font is developed and maintained by mooniak. <mooniak.com> We welcome improvments and contributions.
 
-The first drawings were developed by Martyn Hodges for uppercase and numerals and mooniak is working on further refining and developing them into a font.
+The first drawings were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more langauges. The stencil structure is lightly based on stensil letters found in streets. STICK NO BILLS family contains 6 weights from extra light to Extra Bold for multiple purposes. 
 
 
 
@@ -61,8 +60,27 @@ alphabetical order.
 - W: 
 - D: Initial concept design
 
-
 - N: Kosala Senevirathne
 - E: kosala@mooniak.com
-- W: 
-- D: Designer - Design and full Adobe Latin 1 support. Italics 
+- W: http://mooniak.com
+- D: Designer - Design and full Sinhala and Adobe Latin 1 support.
+
+- N: Siva Puranthara
+- E: puransiva@gmail.com
+- W: http://mooniak.com
+- D: Designer - Initial Tamil support.
+
+- N: Lasantha Premarathna
+- E: lasa@mooniak.com
+- W: http://mooniak.com
+- D: Designer - Design Adobe Latin 3 support / Light master design.
+
+- N: Ayantha Randika
+- E: randika@mooniak.com
+- W: http://mooniak.com
+- D: Developer Opentype features and engineering.
+
+- N: Pathum Egodawatta
+- E: pathum@mooniak.com
+- W: http://mooniak.com
+- D: Project Manager
