@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445925837
-ModificationTime: 1445925837
+ModificationTime: 1445974315
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -780,13 +780,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
 Encoding: sinhala_abhaya
 UnicodeInterp: none
@@ -794,7 +794,13 @@ NameList: sinhala
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 168 8 2
+WinInfo: 0 9 7
+Grid
+817 1353 m 4
+ 817 -784 l 1028
+301 1353 m 0
+ 301 -784 l 1024
+EndSplineSet
 AnchorClass2: "si_rakar" "" 
 BeginChars: 65538 542
 
@@ -1667,12 +1673,13 @@ GlifName: si_B_hI_
 Width: 754
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 104 0 2
+Refer: 269 3538 S 1 0 0 1 707 0 2
 Refer: 30 3511 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Bha si_MatraI
 EndChar
 
@@ -1682,12 +1689,13 @@ GlifName: si_B_hI_i
 Width: 754
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 105 0 2
+Refer: 270 3539 S 1 0 0 1 744 0 2
 Refer: 30 3511 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Bha si_MatraIi
 EndChar
 
@@ -1697,7 +1705,7 @@ GlifName: si_B_hR_I_
 Width: 754
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1727,7 +1735,7 @@ GlifName: si_B_hR_I_i
 Width: 754
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -2279,11 +2287,11 @@ GlifName: si_C_R_.halant
 Width: 601
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 36 0 2
+Refer: 409 -1 S 1 0 0 1 604 0 2
 Refer: 33 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2293,12 +2301,13 @@ GlifName: si_C_R_I_
 Width: 601
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 36 0 2
+Refer: 409 -1 N 1 0 0 1 604 0 2
 Refer: 34 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_CRa si_MatraI
 EndChar
 
@@ -2308,12 +2317,13 @@ GlifName: si_C_R_I_i
 Width: 604
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 36 0 2
+Refer: 409 -1 N 1 0 0 1 604 0 2
 Refer: 35 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_CRa si_MatraIi
 EndChar
 
@@ -2323,12 +2333,13 @@ GlifName: si_C_R_a
 Width: 604
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 36 0 2
+Refer: 409 -1 N 1 0 0 1 604 0 2
 Refer: 42 3488 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Ca si_Halant si_Ra
 EndChar
 
@@ -2338,12 +2349,13 @@ GlifName: si_C_U_
 Width: 604
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 71 0 2
+Refer: 277 3540 N 1 0 0 1 579 0 2
 Refer: 42 3488 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Ca si_MatraU
 EndChar
 
@@ -2353,12 +2365,13 @@ GlifName: si_C_U_u
 Width: 604
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 62 0 2
+Refer: 279 3542 S 1 0 0 1 581 0 2
 Refer: 42 3488 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Ca si_MatraUu
 EndChar
 
@@ -3359,7 +3372,7 @@ GlifName: si_D_V_U_
 Width: 758
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -3386,7 +3399,7 @@ GlifName: si_D_V_U_u
 Width: 758
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -5148,12 +5161,13 @@ GlifName: si_F_I_
 Width: 650
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 33 0 2
+Refer: 269 3538 S 1 0 0 1 636 0 2
 Refer: 120 3526 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Fa si_MatraI
 EndChar
 
@@ -5163,12 +5177,13 @@ GlifName: si_F_I_i
 Width: 650
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 18 0 2
+Refer: 270 3539 S 1 0 0 1 662 0 2
 Refer: 120 3526 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Fa si_MatraIi
 EndChar
 
@@ -5203,7 +5218,7 @@ GlifName: si_F_R_I_
 Width: 650
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -5228,7 +5243,7 @@ GlifName: si_F_R_I_i
 Width: 650
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -5603,12 +5618,13 @@ GlifName: si_G_I_
 Width: 717
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 67 0 2
+Refer: 269 3538 S 1 0 0 1 670 0 2
 Refer: 133 3484 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ga si_MatraI
 EndChar
 
@@ -5618,12 +5634,13 @@ GlifName: si_G_I_i
 Width: 717
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 67 0 2
+Refer: 270 3539 N 1 0 0 1 706 0 2
 Refer: 133 3484 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ga si_MatraIi
 EndChar
 
@@ -5662,7 +5679,7 @@ GlifName: si_G_R_I_
 Width: 717
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -5692,7 +5709,7 @@ GlifName: si_G_R_I_i
 Width: 717
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6021,12 +6038,13 @@ GlifName: si_G_hI_
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 72 1 2
+Refer: 269 3538 S 1 0 0 1 675 1 2
 Refer: 145 3485 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Gha si_MatraI
 EndChar
 
@@ -6036,12 +6054,13 @@ GlifName: si_G_hI_i
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 57 1 2
+Refer: 270 3539 S 1 0 0 1 687 1 2
 Refer: 145 3485 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Gha si_MatraIi
 EndChar
 
@@ -6081,7 +6100,7 @@ GlifName: si_G_hR_I_
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6111,7 +6130,7 @@ GlifName: si_G_hR_I_i
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6193,6 +6212,7 @@ SplineSet
  90 -65 l 257
 EndSplineSet
 Refer: 145 3485 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Gha si_MatraU
 EndChar
 
@@ -6406,12 +6426,13 @@ GlifName: si_H_I_
 Width: 716
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 74 0 2
+Refer: 269 3538 S 1 0 0 1 669 0 2
 Refer: 157 3524 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ha si_MatraI
 EndChar
 
@@ -6421,12 +6442,13 @@ GlifName: si_H_I_i
 Width: 716
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 67 0 2
+Refer: 270 3539 N 1 0 0 1 705 0 2
 Refer: 157 3524 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ha si_MatraIi
 EndChar
 
@@ -6465,7 +6487,7 @@ GlifName: si_H_R_I_
 Width: 716
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6494,7 +6516,7 @@ GlifName: si_H_R_I_i
 Width: 716
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -8122,12 +8144,13 @@ GlifName: si_J_nyI_
 Width: 1083
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 390 0 2
+Refer: 269 3538 S 1 0 0 1 993 0 2
 Refer: 198 3493 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Jnya si_MatraI
 EndChar
 
@@ -8137,19 +8160,20 @@ GlifName: si_J_nyI_i
 Width: 1083
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 391 0 2
+Refer: 270 3539 S 1 0 0 1 1029 0 2
 Refer: 198 3493 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Jnya si_MatraIi
 EndChar
 
 StartChar: si_JnyR.halant
 Encoding: 195 -1 192
 GlifName: si_J_nyR_.halant
-Width: 1083
+Width: 1049
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -8163,37 +8187,39 @@ EndChar
 StartChar: si_JnyRI
 Encoding: 197 -1 193
 GlifName: si_J_nyR_I_
-Width: 1083
+Width: 1049
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 391 0 2
+Refer: 269 3538 N 1 0 0 1 993 0 2
 Refer: 195 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_JnyRa si_MatraI
 EndChar
 
 StartChar: si_JnyRIi
 Encoding: 198 -1 194
 GlifName: si_J_nyR_I_i
-Width: 1083
+Width: 1049
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 391 0 2
+Refer: 270 3539 N 1 0 0 1 1029 0 2
 Refer: 195 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_JnyRa si_MatraIi
 EndChar
 
 StartChar: si_JnyRa
 Encoding: 196 -1 195
 GlifName: si_J_nyR_a
-Width: 1083
+Width: 1049
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -8270,6 +8296,7 @@ SplineSet
  692.333 -78.3965 723.333 -101.091 764.333 -101 c 257
  764.333 -234.038 l 257
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Jnya si_Halant si_Ra
 EndChar
 
@@ -8373,13 +8400,14 @@ I-197
 sg8
 I140
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Jnya si_MatraU
 EndChar
 
 StartChar: si_JnyUu
 Encoding: 194 -1 197
 GlifName: si_J_nyU_u
-Width: 1083
+Width: 1022
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -8510,6 +8538,7 @@ I457
 sg8
 I121
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Jnya si_MatraUu
 EndChar
 
@@ -8668,12 +8697,13 @@ GlifName: si_K_I_
 Width: 800
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 147 0 2
+Refer: 269 3538 S 1 0 0 1 750 0 2
 Refer: 221 3482 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ka si_MatraI
 EndChar
 
@@ -8683,12 +8713,13 @@ GlifName: si_K_I_i
 Width: 800
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 148 0 2
+Refer: 270 3539 N 1 0 0 1 786 0 2
 Refer: 221 3482 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ka si_MatraIi
 EndChar
 
@@ -8698,7 +8729,7 @@ GlifName: si_K_R_I_
 Width: 800
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -8728,7 +8759,7 @@ GlifName: si_K_R_I_i
 Width: 800
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -8802,12 +8833,13 @@ GlifName: si_K_S_sI_
 Width: 1204
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 583 30 2
+Refer: 269 3538 S 1 0 0 1 1186 30 2
 Refer: 211 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_KSsa si_MatraI
 EndChar
 
@@ -8817,12 +8849,13 @@ GlifName: si_K_S_sI_i
 Width: 1204
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 555 30 2
+Refer: 270 3539 N 1 0 0 1 1222 30 2
 Refer: 211 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_KSsa si_MatraIi
 EndChar
 
@@ -9418,12 +9451,13 @@ GlifName: si_K_V_U_
 Width: 1108
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 575 0 2
+Refer: 277 3540 S 1 0 0 1 1083 0 2
 Refer: 220 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_KVa si_MatraU
 EndChar
 
@@ -9433,12 +9467,13 @@ GlifName: si_K_V_U_u
 Width: 1108
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 567 0 2
+Refer: 279 3542 S 1 0 0 1 1085 0 2
 Refer: 220 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_KVa si_MatraUu
 EndChar
 
@@ -10137,6 +10172,7 @@ I616
 sg8
 I139
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Kha si_MatraU
 EndChar
 
@@ -10401,7 +10437,7 @@ GlifName: si_L_I_
 Width: 626
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -10412,8 +10448,9 @@ SplineSet
  348 426 l 257
  281 426 l 257
 EndSplineSet
-Refer: 269 3538 N 1 0 0 1 22 0 2
+Refer: 269 3538 S 1 0 0 1 626 0 2
 Refer: 240 3517 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_La si_MatraI
 EndChar
 
@@ -10423,7 +10460,7 @@ GlifName: si_L_I_i
 Width: 626
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -10434,8 +10471,9 @@ SplineSet
  348 426 l 257
  281 426 l 257
 EndSplineSet
-Refer: 270 3539 N 1 0 0 1 2 0 2
+Refer: 270 3539 N 1 0 0 1 657 0 2
 Refer: 240 3517 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_La si_MatraIi
 EndChar
 
@@ -11811,25 +11849,25 @@ EndChar
 StartChar: si_MatraI
 Encoding: 66 3538 269
 GlifName: si_M_atraI_i
-Width: 583
+Width: 0
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-30 602 m 257
- 30 630 l 257
- 29.623 723.409 106.741 789 206 789 c 257
- 377 789 l 257
- 476.259 789 553.377 723.409 553 630 c 257
- 553 602 l 257
- 423 602 l 257
- 423 654.112 387.857 658 361 659 c 257
- 222 659 l 257
- 195.143 658 160 654.112 160 602 c 257
- 30 602 l 257
+-573 602 m 261
+ -573 630 l 261
+ -573.376953125 723.409179688 -496.258789062 789 -397 789 c 261
+ -226 789 l 261
+ -126.741210938 789 -49.623046875 723.409179688 -50 630 c 261
+ -50 602 l 261
+ -180 602 l 261
+ -180 654.112304688 -215.142578125 658 -242 659 c 261
+ -381 659 l 261
+ -407.857421875 658 -443 654.112304688 -443 602 c 261
+ -573 602 l 261
 EndSplineSet
 PickledDataWithLists: "(dp1
 ."
@@ -11838,31 +11876,31 @@ EndChar
 StartChar: si_MatraIi
 Encoding: 67 3539 270
 GlifName: si_M_atraI_i000000000000001
-Width: 619
+Width: 0
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 462 119 659 130<208.572 222 222 393>
-VStem: 472 118
+Flags: HW
+HStem: 462 119 659 130<-410.428 -397 -397 -226>
+VStem: -147 118
 LayerCount: 2
 Back
 Fore
 SplineSet
-471 553 m 256
- 406 553 353 606 353 671 c 256
- 353 736 406 789 471 789 c 256
- 536 789 589 736 589 671 c 256
- 589 606 536 553 471 553 c 256
-30 602 m 257
- 30 630 l 258
- 30 723.409 106.747 789 206 789 c 258
- 471 789 l 258
- 534.976 789 589 736.729 589 671 c 257
- 435 622 l 257
- 435 657.112 419.857 659 393 659 c 258
- 222 659 l 258
- 195.143 659 160 654.112 160 602 c 257
- 30 602 l 257
+-168 553 m 260
+ -233 553 -286 606 -286 671 c 260
+ -286 736 -233 789 -168 789 c 260
+ -103 789 -50 736 -50 671 c 260
+ -50 606 -103 553 -168 553 c 260
+-609 602 m 261
+ -609 630 l 262
+ -609 723.409179688 -532.252929688 789 -433 789 c 262
+ -168 789 l 262
+ -104.024414062 789 -50 736.728515625 -50 671 c 261
+ -204 622 l 261
+ -204 657.112304688 -219.142578125 659 -246 659 c 262
+ -417 659 l 262
+ -443.857421875 659 -479 654.112304688 -479 602 c 261
+ -609 602 l 261
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -12037,31 +12075,31 @@ EndChar
 StartChar: si_MatraU
 Encoding: 68 3540 277
 GlifName: si_M_atraU_
-Width: 508
+Width: 0
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -197 140
-VStem: 30 172
+VStem: -478 172
 LayerCount: 2
 Back
 Fore
 SplineSet
-338 123 m 257
- 478 123 l 257
- 478 -205 l 257
- 338 -205 l 257
- 338 123 l 257
-268 -65 m 257
- 348 -65 l 257
- 348 -205 l 257
- 268 -205 l 257
- 268 -65 l 257
-30 -65 m 257
- 212 -65 l 257
- 212 -205 l 257
- 30 -205 l 257
- 30 -65 l 257
+-170 123 m 257
+ -30 123 l 257
+ -30 -205 l 257
+ -170 -205 l 257
+ -170 123 l 257
+-240 -65 m 257
+ -160 -65 l 257
+ -160 -205 l 257
+ -240 -205 l 257
+ -240 -65 l 257
+-478 -65 m 257
+ -296 -65 l 257
+ -296 -205 l 257
+ -478 -205 l 257
+ -478 -65 l 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -12118,33 +12156,33 @@ EndChar
 StartChar: si_MatraUu
 Encoding: 69 3542 279
 GlifName: si_M_atraU_u
-Width: 514
+Width: -2
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: -205 140 -182 140<198.334 218 274 282.5 198.334 284.5>
-VStem: 30 188<-179 -42 -182 -39 -182 -39>
+Flags: HW
+HStem: -205 140 -182 140<-317.666 -298 -242 -233.5 -317.666 -231.5>
+VStem: -486 188<-179 -42 -182 -39 -182 -39>
 LayerCount: 2
 Back
 Fore
 SplineSet
-30 -39 m 257
- 56.334 -58.333 79.4443 -64.7773 100.741 -64.7773 c 256
- 143.334 -64.7773 178.667 -42 218 -42 c 257
- 218 -182 l 257
- 178.667 -182 143.334 -204.777 100.741 -204.777 c 256
- 79.4443 -204.777 56.334 -198.333 30 -179 c 257
- 30 -39 l 257
-344 -205 m 257
- 344 123 l 257
- 484 123 l 257
- 484 -205 l 257
- 344 -205 l 257
-274 -42 m 257
- 291 -42 321.148 -46.167 344 -61 c 257
- 344 -205 l 257
- 318.106 -186.639 295 -182 274 -182 c 257
- 274 -42 l 257
+-486 -39 m 257
+ -459.666015625 -58.3330078125 -436.555664062 -64.77734375 -415.258789062 -64.77734375 c 256
+ -372.666015625 -64.77734375 -337.333007812 -42 -298 -42 c 257
+ -298 -182 l 257
+ -337.333007812 -182 -372.666015625 -204.77734375 -415.258789062 -204.77734375 c 256
+ -436.555664062 -204.77734375 -459.666015625 -198.333007812 -486 -179 c 257
+ -486 -39 l 257
+-172 -205 m 257
+ -172 123 l 257
+ -32 123 l 257
+ -32 -205 l 257
+ -172 -205 l 257
+-242 -42 m 257
+ -225 -42 -194.8515625 -46.1669921875 -172 -61 c 257
+ -172 -205 l 257
+ -197.893554688 -186.638671875 -221 -182 -242 -182 c 257
+ -242 -42 l 257
 EndSplineSet
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -12650,12 +12688,13 @@ GlifName: si_N_D_I_
 Width: 972
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 281 0 2
+Refer: 269 3538 S 1 0 0 1 885 15 2
 Refer: 297 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_5 subtable" si_NDa si_MatraI
 EndChar
 
@@ -12665,26 +12704,27 @@ GlifName: si_N_D_I_i
 Width: 972
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 290 0 2
+Refer: 270 3539 S 1 0 0 1 921 15 2
 Refer: 297 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_6 subtable" si_NDa si_MatraIi
 EndChar
 
 StartChar: si_NDRI
 Encoding: 487 -1 292
 GlifName: si_N_D_R_I_
-Width: 972
+Width: 935
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 281 0 2
+Refer: 269 3538 N 1 0 0 1 885 15 2
 Refer: 294 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -12694,18 +12734,18 @@ GlifName: si_N_D_R_I_i
 Width: 972
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 290 0 2
+Refer: 270 3539 S 1 0 0 1 921 15 2
 Refer: 294 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDRa
 Encoding: 486 -1 294
 GlifName: si_N_D_R_a
-Width: 972
+Width: 935
 VWidth: 0
 GlyphClass: 3
 Flags: W
@@ -12772,6 +12812,7 @@ SplineSet
  578.333 -78.3965 609.333 -101.091 650.333 -101 c 257
  650.333 -234.038 l 257
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_NDa si_Halant si_Ra
 EndChar
 
@@ -13654,12 +13695,13 @@ GlifName: si_N_I_
 Width: 758
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 142 0 2
+Refer: 269 3538 S 1 0 0 1 725 0 2
 Refer: 320 3505 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Na si_MatraI
 EndChar
 
@@ -13669,12 +13711,13 @@ GlifName: si_N_I_i
 Width: 758
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 141 0 2
+Refer: 270 3539 S 1 0 0 1 751 0 2
 Refer: 320 3505 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Na si_MatraIi
 EndChar
 
@@ -13760,12 +13803,13 @@ GlifName: si_N_T_hU_
 Width: 1078
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 545 0 2
+Refer: 277 3540 S 1 0 0 1 1053 0 2
 Refer: 311 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_NTha si_MatraU
 EndChar
 
@@ -13775,12 +13819,13 @@ GlifName: si_N_T_hU_u
 Width: 1078
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 539 0 2
+Refer: 279 3542 S 1 0 0 1 1055 0 2
 Refer: 311 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_NTha si_MatraUu
 EndChar
 
@@ -14235,12 +14280,13 @@ GlifName: si_N_V_U_
 Width: 1082
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 549 0 2
+Refer: 277 3540 S 1 0 0 1 1057 0 2
 Refer: 319 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_NVa si_MatraU
 EndChar
 
@@ -14250,12 +14296,13 @@ GlifName: si_N_V_U_u
 Width: 1082
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 541 0 2
+Refer: 279 3542 N 1 0 0 1 1059 0 2
 Refer: 319 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_NVa si_MatraUu
 EndChar
 
@@ -16192,12 +16239,13 @@ GlifName: si_N_ngI_
 Width: 911
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 265 0 2
+Refer: 269 3538 S 1 0 0 1 863 0 2
 Refer: 365 3487 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Nnga si_MatraI
 EndChar
 
@@ -16207,12 +16255,13 @@ GlifName: si_N_ngI_i
 Width: 911
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 262 0 2
+Refer: 270 3539 N 1 0 0 1 899 0 2
 Refer: 365 3487 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Nnga si_MatraIi
 EndChar
 
@@ -16364,12 +16413,13 @@ GlifName: si_N_yI_
 Width: 1168
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 474 0 2
+Refer: 269 3538 S 1 0 0 1 1078 15 2
 Refer: 376 3492 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Nya si_MatraI
 EndChar
 
@@ -16379,12 +16429,13 @@ GlifName: si_N_yI_i
 Width: 1168
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 480 0 2
+Refer: 270 3539 S 1 0 0 1 1114 15 2
 Refer: 376 3492 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Nya si_MatraIi
 EndChar
 
@@ -16405,15 +16456,16 @@ EndChar
 StartChar: si_NyRI
 Encoding: 184 -1 371
 GlifName: si_N_yR_I_
-Width: 1168
+Width: 1134
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 477 0 2
+Refer: 269 3538 S 1 0 0 1 1078 15 2
 Refer: 373 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_NyRa si_MatraI
 EndChar
 
@@ -16423,12 +16475,13 @@ GlifName: si_N_yR_I_i
 Width: 1168
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 480 0 2
+Refer: 270 3539 S 1 0 0 1 1114 15 2
 Refer: 373 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_NyRa si_MatraIi
 EndChar
 
@@ -17067,12 +17120,13 @@ GlifName: si_P_I_
 Width: 628
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 23 0 2
+Refer: 269 3538 S 1 0 0 1 626 0 2
 Refer: 389 3508 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Pa si_MatraI
 EndChar
 
@@ -17082,12 +17136,13 @@ GlifName: si_P_I_i
 Width: 628
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 4 0 2
+Refer: 270 3539 S 1 0 0 1 647 0 2
 Refer: 389 3508 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Pa si_MatraIi
 EndChar
 
@@ -17122,7 +17177,7 @@ GlifName: si_P_R_I_
 Width: 628
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -17148,7 +17203,7 @@ GlifName: si_P_R_I_i
 Width: 628
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -17465,12 +17520,13 @@ GlifName: si_P_hU_
 Width: 568
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 35 0 2
+Refer: 277 3540 S 1 0 0 1 543 0 2
 Refer: 397 3509 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Pha si_MatraU
 EndChar
 
@@ -17480,12 +17536,13 @@ GlifName: si_P_hU_u
 Width: 568
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 28 0 2
+Refer: 279 3542 S 1 0 0 1 545 0 2
 Refer: 397 3509 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Pha si_MatraUu
 EndChar
 
@@ -18013,27 +18070,27 @@ EndChar
 StartChar: si_Rakar
 Encoding: 88 -1 409
 GlifName: si_R_akar
-Width: 568
+Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-303.5 -233.947 m 257
- 303.5 -102.81 l 257
- 356.5 -103 397.5 -79.9609 397.5 -47 c 257
- 397.5 -9.45703 366.5 -5 303.5 -5 c 256
- 303.5 115 l 257
- 464.485 115 532.503 46.7178 532.503 -48.6387 c 256
- 532.503 -165.896 434.5 -234 303.5 -233.947 c 257
-247.333 -234.038 m 257
- 144.333 -234.091 45.333 -170.326 45.333 -75.0908 c 258
- 45.333 -47.0908 l 257
- 175.333 -47.0908 l 257
- 175.333 -78.3965 206.333 -101.091 247.333 -101 c 257
- 247.333 -234.038 l 257
+-264.5 -233.947265625 m 257
+ -264.5 -102.809570312 l 257
+ -211.5 -103 -170.5 -79.9609375 -170.5 -47 c 257
+ -170.5 -9.45703125 -201.5 -5 -264.5 -5 c 256
+ -264.5 115 l 257
+ -103.514648438 115 -35.4970703125 46.7177734375 -35.4970703125 -48.638671875 c 256
+ -35.4970703125 -165.896484375 -133.5 -234 -264.5 -233.947265625 c 257
+-320.666992188 -234.038085938 m 257
+ -423.666992188 -234.090820312 -522.666992188 -170.326171875 -522.666992188 -75.0908203125 c 258
+ -522.666992188 -47.0908203125 l 257
+ -392.666992188 -47.0908203125 l 257
+ -392.666992188 -78.396484375 -361.666992188 -101.090820312 -320.666992188 -101 c 257
+ -320.666992188 -234.038085938 l 257
 EndSplineSet
 EndChar
 
@@ -18088,12 +18145,13 @@ GlifName: si_S_I_
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 67 1 2
+Refer: 269 3538 S 1 0 0 1 670 0 2
 Refer: 420 3523 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Sa si_MatraI
 EndChar
 
@@ -18103,13 +18161,13 @@ GlifName: si_S_I_i
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 463 119 660 130
 VStem: 522 118
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 52 1 2
+Refer: 270 3539 N 1 0 0 1 696 0 2
 Refer: 420 3523 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -18139,6 +18197,7 @@ I660
 sg8
 I130
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Sa si_MatraIi
 EndChar
 
@@ -18177,7 +18236,7 @@ GlifName: si_S_R_I_
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -18207,7 +18266,7 @@ GlifName: si_S_R_I_i
 Width: 687
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -18486,12 +18545,13 @@ GlifName: si_S_hI_
 Width: 717
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 67 0 2
+Refer: 269 3538 S 1 0 0 1 669 0 2
 Refer: 432 3521 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Sha si_MatraI
 EndChar
 
@@ -18501,13 +18561,13 @@ GlifName: si_S_hI_i
 Width: 717
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 462 119 659 130
 VStem: 472 118
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 67 0 2
+Refer: 270 3539 N 1 0 0 1 705 0 2
 Refer: 432 3521 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -18537,6 +18597,7 @@ I659
 sg8
 I130
 sass."
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Sha si_MatraIi
 EndChar
 
@@ -18575,7 +18636,7 @@ GlifName: si_S_hR_I_
 Width: 717
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -18605,7 +18666,7 @@ GlifName: si_S_hR_I_i
 Width: 717
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -18945,12 +19006,13 @@ GlifName: si_S_sI_
 Width: 660
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 39 0 2
+Refer: 269 3538 S 1 0 0 1 642 0 2
 Refer: 444 3522 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ssa si_MatraI
 EndChar
 
@@ -18960,12 +19022,13 @@ GlifName: si_S_sI_i
 Width: 660
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 22 0 2
+Refer: 270 3539 S 1 0 0 1 665 0 2
 Refer: 444 3522 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ssa si_MatraIi
 EndChar
 
@@ -19000,7 +19063,7 @@ GlifName: si_S_sR_I_
 Width: 660
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -19025,7 +19088,7 @@ GlifName: si_S_sR_I_i
 Width: 660
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -19234,12 +19297,13 @@ GlifName: si_T_I_
 Width: 771
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 142 0 2
+Refer: 269 3538 S 1 0 0 1 734 0 2
 Refer: 468 3501 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ta si_MatraI
 EndChar
 
@@ -19249,12 +19313,13 @@ GlifName: si_T_I_i
 Width: 771
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 142 0 2
+Refer: 270 3539 S 1 0 0 1 760 0 2
 Refer: 468 3501 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ta si_MatraIi
 EndChar
 
@@ -19293,7 +19358,7 @@ GlifName: si_T_R_I_
 Width: 771
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -19323,7 +19388,7 @@ GlifName: si_T_R_I_i
 Width: 771
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -19459,12 +19524,13 @@ GlifName: si_T_T_hU_
 Width: 1080
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 549 0 2
+Refer: 277 3540 S 1 0 0 1 1055 0 2
 Refer: 459 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_TTha si_MatraU
 EndChar
 
@@ -19474,12 +19540,13 @@ GlifName: si_T_T_hU_u
 Width: 1080
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 541 0 2
+Refer: 279 3542 S 1 0 0 1 1057 0 2
 Refer: 459 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_TTha si_MatraUu
 EndChar
 
@@ -20065,12 +20132,13 @@ GlifName: si_T_V_U_
 Width: 1082
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 549 0 2
+Refer: 277 3540 S 1 0 0 1 1057 0 2
 Refer: 467 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_2 subtable" si_TVa si_MatraU
 EndChar
 
@@ -20080,12 +20148,13 @@ GlifName: si_T_V_U_u
 Width: 1082
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HWO
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 543 0 2
+Refer: 279 3542 S 1 0 0 1 1059 0 2
 Refer: 467 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_4 subtable" si_TVa si_MatraUu
 EndChar
 
@@ -20382,12 +20451,13 @@ GlifName: si_T_hU_
 Width: 561
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 28 0 2
+Refer: 277 3540 S 1 0 0 1 536 0 2
 Refer: 476 3502 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Tha si_MatraU
 EndChar
 
@@ -20397,12 +20467,13 @@ GlifName: si_T_hU_u
 Width: 561
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 21 0 2
+Refer: 279 3542 S 1 0 0 1 538 0 2
 Refer: 476 3502 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Tha si_MatraUu
 EndChar
 
@@ -20823,11 +20894,11 @@ GlifName: si_T_tR_.halant
 Width: 559
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 -6 0 2
+Refer: 409 -1 S 1 0 0 1 562 0 2
 Refer: 479 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -20837,12 +20908,13 @@ GlifName: si_T_tR_I_
 Width: 559
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 -6 0 2
+Refer: 409 -1 S 1 0 0 1 562 0 2
 Refer: 480 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_TtRa si_MatraI
 EndChar
 
@@ -20852,12 +20924,13 @@ GlifName: si_T_tR_I_i
 Width: 559
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 -6 0 2
+Refer: 409 -1 S 1 0 0 1 562 0 2
 Refer: 481 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_TtRa si_MatraIi
 EndChar
 
@@ -20867,12 +20940,13 @@ GlifName: si_T_tR_a
 Width: 558
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 -6 0 2
+Refer: 409 -1 N 1 0 0 1 562 0 2
 Refer: 494 3495 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Tta si_Halant si_Ra
 EndChar
 
@@ -21032,13 +21106,13 @@ GlifName: si_T_tU_
 Width: 558
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -197 140 -5 145 616 138
 VStem: 30 138 70 172 388 140
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 29 0 2
+Refer: 277 3540 S 1 0 0 1 537 0 2
 Refer: 494 3495 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -21083,6 +21157,7 @@ I616
 sg8
 I138
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Tta si_MatraU
 EndChar
 
@@ -21092,13 +21167,13 @@ GlifName: si_T_tU_u
 Width: 558
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -202 140 -174 140 -5 145 616 138
 VStem: 30 138 52 188 388 140
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 21 0 2
+Refer: 279 3542 N 1 0 0 1 539 0 2
 Refer: 494 3495 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
@@ -21148,6 +21223,7 @@ I616
 sg8
 I138
 sass."
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Tta si_MatraUu
 EndChar
 
@@ -21776,11 +21852,11 @@ GlifName: si_V_R_.halant
 Width: 565
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 0 0 2
+Refer: 409 -1 S 1 0 0 1 568 0 2
 Refer: 506 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -21790,12 +21866,13 @@ GlifName: si_V_R_I_
 Width: 565
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 0 0 2
+Refer: 409 -1 N 1 0 0 1 568 0 2
 Refer: 507 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_VRa si_MatraI
 EndChar
 
@@ -21805,12 +21882,13 @@ GlifName: si_V_R_I_i
 Width: 564
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 0 0 2
+Refer: 409 -1 N 1 0 0 1 568 0 2
 Refer: 508 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_4 subtable" si_VRa si_MatraIi
 EndChar
 
@@ -21820,12 +21898,13 @@ GlifName: si_V_R_a
 Width: 568
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 409 -1 N 1 0 0 1 0 0 2
+Refer: 409 -1 N 1 0 0 1 568 0 2
 Refer: 515 3520 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Va si_Halant si_Ra
 EndChar
 
@@ -21835,12 +21914,13 @@ GlifName: si_V_U_
 Width: 568
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 277 3540 N 1 0 0 1 35 0 2
+Refer: 277 3540 S 1 0 0 1 543 0 2
 Refer: 515 3520 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_1 subtable" si_Va si_MatraU
 EndChar
 
@@ -21850,12 +21930,13 @@ GlifName: si_V_U_u
 Width: 568
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 279 3542 N 1 0 0 1 28 0 2
+Refer: 279 3542 S 1 0 0 1 545 0 2
 Refer: 515 3520 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_blws_3 subtable" si_Va si_MatraUu
 EndChar
 
@@ -22005,12 +22086,13 @@ GlifName: si_Y_I_
 Width: 655
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 269 3538 N 1 0 0 1 37 0 2
+Refer: 269 3538 S 1 0 0 1 640 0 2
 Refer: 527 3514 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_1 subtable" si_Ya si_MatraI
 EndChar
 
@@ -22020,12 +22102,13 @@ GlifName: si_Y_I_i
 Width: 655
 VWidth: 0
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 270 3539 N 1 0 0 1 17 0 2
+Refer: 270 3539 N 1 0 0 1 671 0 2
 Refer: 527 3514 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_abvs_2 subtable" si_Ya si_MatraIi
 EndChar
 
