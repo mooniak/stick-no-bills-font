@@ -5,7 +5,7 @@ FamilyName: Stick No Bills
 OS2FamilyName: "Stick No Bills Regular"
 OS2StyleName: "regular"
 Weight: Bold
-Copyright: Copyright (c) 2013-2015 STICK NO BILLS (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)
+Copyright: Remove All VKern Pairs
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
 ItalicAngle: 0
@@ -23,8 +23,8 @@ FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1445884902
-ModificationTime: 1445889789
+CreationTime: 1445925824
+ModificationTime: 1445925824
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -48,7 +48,6 @@ OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 258 0 0 "kernHorizontalKerninglookup0" { "kernHorizontalKerninglookup0 subtable"  } ['kern' ('latn' <'dflt' > 'hani' <'dflt' > 'DFLT' <'dflt' > ) ]
-MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 6 7 "kernHorizontalKerninglookup0 subtable"
  1 A
@@ -493,9 +492,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 4
-BeginPrivate: 0
-EndPrivate
+WinInfo: 0 8 2
 BeginChars: 331 331
 
 StartChar: A
@@ -4833,15 +4830,15 @@ LayerCount: 2
 Back
 Fore
 SplineSet
--42 -199.36 m 257
- -12.2998 -70.6602 l 257
- 17.4004 -70.6602 l 257
- 48.2002 -69.5596 53.6998 -44.2598 53.7002 -42.0596 c 258
- 53.7998 540 l 257
+53.7998 540 m 257
  188 540 l 257
  187.9 -42.0596 l 258
  187.892 -93.7598 132.9 -199.36 20.7002 -199.36 c 258
  -42 -199.36 l 257
+ -12.2998 -70.6602 l 257
+ 17.4004 -70.6602 l 257
+ 48.2002 -69.5596 53.6998 -44.2598 53.7002 -42.0596 c 258
+ 53.7998 540 l 257
 47.4307 650.694 m 256
  47.4307 690.295 80.1006 722.966 119.7 722.966 c 256
  159.3 722.966 191.97 690.295 191.97 650.694 c 256
@@ -5566,13 +5563,13 @@ SplineSet
  399.75 272 377 263.5 377 235 c 257
  306 248 l 257
 306.25 101 m 257
- 306.25 141.616 347.7545 163.46875 389.259 181.377875 c 256
- 430.7635 199.287 472.268 213.2525 472.268 238.094 c 256
+ 306.25 141.616 347.755 163.469 389.259 181.378 c 256
+ 430.764 199.287 472.268 213.252 472.268 238.094 c 256
  472.268 264.945 453.66 272 438.75 273 c 257
  438.75 350 l 257
  507.997 350 552.25 307.308 552.25 238 c 256
- 552.25 188.9865 514.86475 162.68475 477.547125 144.66225 c 256
- 440.2295 126.63975 402.9795 116.8965 403.25 101 c 257
+ 552.25 188.987 514.865 162.685 477.547 144.662 c 256
+ 440.229 126.64 402.979 116.897 403.25 101 c 257
  306.25 101 l 257
 EndSplineSet
 EndChar
@@ -6412,25 +6409,25 @@ GlifName: registered
 Width: 404
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: W
 LayerCount: 2
 Back
 Fore
 SplineSet
-198 511 m 261
- 198 547 l 261
- 202 547 l 262
- 219 547 226 557 226 568 c 260
- 226 582 216 591 202 591 c 262
- 198 591 l 261
- 198 628 l 261
- 240 628 262 604 262 570 c 260
- 262 551 256 538 243 530 c 261
- 253 522 260.96484375 513.046875 262 492 c 262
- 265 431 l 261
- 230 431 l 261
- 227 481 l 262
- 225.62109375 503.9765625 218 511 198 511 c 261
+198 511 m 257
+ 198 547 l 257
+ 202 547 l 258
+ 219 547 226 557 226 568 c 256
+ 226 582 216 591 202 591 c 258
+ 198 591 l 257
+ 198 628 l 257
+ 240 628 262 604 262 570 c 256
+ 262 551 256 538 243 530 c 257
+ 253 522 260.965 513.047 262 492 c 258
+ 265 431 l 257
+ 230 431 l 257
+ 227 481 l 258
+ 225.621 503.977 218 511 198 511 c 257
 192 354 m 257
  109.778 355.015 30 432.636 30 525 c 256
  30 650.199 133.423 703 195 703 c 257
@@ -6445,11 +6442,11 @@ SplineSet
  211 703 l 257
  277 702 374 641 374 528 c 256
  374 424.559 291.107 357.121 211 354 c 257
-143 430 m 261
- 143 627 l 261
- 182 627 l 261
- 182 430 l 261
- 143 430 l 261
+143 430 m 257
+ 143 627 l 257
+ 182 627 l 257
+ 182 430 l 257
+ 143 430 l 257
 EndSplineSet
 EndChar
 

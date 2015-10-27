@@ -5,7 +5,7 @@ FamilyName: Stick No Bills
 OS2FamilyName: "Stick No Bills Regular"
 OS2StyleName: "regular"
 Weight: Light
-Copyright: Copyright (c) 2013-2015 STICK NO BILLS (http://www.sticknobillsonline.com) Copyright (c) 2015 mooniak (http://mooniak.com)
+Copyright: Remove All VKern Pairs
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
 ItalicAngle: 0
@@ -23,8 +23,8 @@ FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1445884895
-ModificationTime: 1445889799
+CreationTime: 1445925811
+ModificationTime: 1445925811
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -48,7 +48,6 @@ OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 258 0 0 "kernHorizontalKerninglookup0" { "kernHorizontalKerninglookup0 subtable"  } ['kern' ('latn' <'dflt' > 'hani' <'dflt' > 'DFLT' <'dflt' > ) ]
-MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 6 7 "kernHorizontalKerninglookup0 subtable"
  1 A
@@ -493,9 +492,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 320 8 2
-BeginPrivate: 0
-EndPrivate
+WinInfo: 0 8 2
 BeginChars: 331 331
 
 StartChar: A
@@ -4833,15 +4830,15 @@ LayerCount: 2
 Back
 Fore
 SplineSet
--42 -181 m 257
- -33 -143 l 257
- -22 -143 l 257
- 33 -140 85 -85 85 -35 c 258
- 85 516 l 257
+85 516 m 257
  125 516 l 257
  125 -35 l 258
  125 -82 77 -181 -25 -181 c 258
  -42 -181 l 257
+ -33 -143 l 257
+ -22 -143 l 257
+ 33 -140 85 -85 85 -35 c 258
+ 85 516 l 257
 79 583 m 256
  79 598 92 610 107 610 c 256
  122 610 134 598 134 583 c 256
@@ -6412,7 +6409,7 @@ GlifName: registered
 Width: 384
 VWidth: 0
 GlyphClass: 2
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -7683,34 +7680,34 @@ Fore
 SplineSet
 50 488 m 257
  50 698 l 257
- 92 698 l 257
- 92 614 l 257
- 101 614 l 257
- 101 573 l 257
- 92 573 l 257
- 92 488 l 257
+ 80 698 l 257
+ 80 608 l 257
+ 101 608 l 257
+ 101 578 l 257
+ 80 578 l 257
+ 80 488 l 257
  50 488 l 257
-117 573 m 257
- 117 614 l 257
- 126 614 l 257
- 126 698 l 257
+117 578 m 257
+ 117 608 l 257
+ 139 608 l 257
+ 139 698 l 257
  169 698 l 257
  169 488 l 257
- 126 488 l 257
- 126 573 l 257
- 117 573 l 257
+ 139 488 l 257
+ 139 578 l 257
+ 117 578 l 257
 198 488 m 257
  198 698 l 257
- 241 698 l 257
- 241 488 l 257
+ 228 698 l 257
+ 228 488 l 257
  198 488 l 257
-257 611 m 257
- 283 698 l 257
- 325 698 l 257
- 299 611 l 257
- 326 488 l 257
- 284 488 l 257
- 257 611 l 257
+240 601 m 257
+ 293 698 l 257
+ 324 698 l 257
+ 271 601 l 257
+ 325 488 l 257
+ 294 488 l 257
+ 240 601 l 257
 EndSplineSet
 Refer: 141 36 N 1 0 0 1 322 0 2
 EndChar
