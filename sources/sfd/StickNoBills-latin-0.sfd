@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445925811
-ModificationTime: 1446054852
+ModificationTime: 1446059633
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -492,7 +492,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 207 9 5
+WinInfo: 351 9 5
 BeginChars: 422 331
 
 StartChar: A
@@ -1060,7 +1060,7 @@ GlifName: E_U_R_O_
 Width: 494
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6272,7 +6272,7 @@ EndChar
 StartChar: quoteleft
 Encoding: 374 8216 251
 GlifName: quoteleft
-Width: 187
+Width: 120
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -6285,10 +6285,10 @@ EndChar
 StartChar: quoteright
 Encoding: 375 8217 252
 GlifName: quoteright
-Width: 187
+Width: 120
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Back
 Fore
@@ -6298,7 +6298,7 @@ EndChar
 StartChar: quotesinglbase
 Encoding: 376 8218 253
 GlifName: quotesinglbase
-Width: 187
+Width: 120
 VWidth: 0
 GlyphClass: 2
 Flags: HW
@@ -6368,23 +6368,23 @@ EndChar
 StartChar: radical
 Encoding: 378 8730 257
 GlifName: radical
-Width: 560
+Width: 559
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
 6 513 m 257
- 160 568 l 257
- 366 58 l 257
+ 168 569 l 257
+ 368 72 l 257
  509 819 l 257
- 534 819 l 257
- 383 -2 l 257
+ 549 819 l 257
+ 400 -2 l 257
  353 -2 l 257
- 141 528 l 257
- 15 483 l 257
+ 141 520 l 257
+ 17 477 l 257
  6 513 l 257
 EndSplineSet
 EndChar
