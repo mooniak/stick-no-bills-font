@@ -9,7 +9,7 @@ Basic Font Information
 
 STICK NO BILLS - is the bespoke typeface of Stick No Bills™ Poster Gallery in Galle, Sri Lanka. The font is developed and maintained by mooniak. <mooniak.com> We welcome improvments and contributions.
 
-The first drawings were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more langauges. The stencil structure is lightly based on stensil letters found in streets. STICK NO BILLS family contains 6 weights from extra light to Extra Bold for multiple purposes. 
+The first drawings were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more langauges. The stencil structure is lightly based on stensil letters found in streets. STICK NO BILLS family contains 6 weights from extra light to Extra Bold for multiple purposes.
 
 
 
@@ -34,6 +34,17 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+31st October 2015 (mooniak) STICK NO BILLS Pre Release rc-v1.190
+- Leading to v 1.200 Major release
+- Complete Sinhla support
+- Fixing all the targeted issues for 1.200
+
+
+23th April 2015 (mooniak) STICK NO BILLS Pre Release  v1.1.0
+- Adobe Latin 1 Support (229 glyphs)
+- Minor bug fixes and design improvements
+
+
 2nd March 2015 (mooniak) STICK NO BILLS Beta  v0.1.0
 - Pre Release
 
@@ -57,7 +68,7 @@ alphabetical order.
 
 - N: Martyn Hodges
 - E: allroundboatbuilder@yahoo.com
-- W: 
+- W:
 - D: Initial concept design
 
 - N: Kosala Senevirathne
