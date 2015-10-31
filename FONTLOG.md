@@ -38,6 +38,7 @@ following the format of the other entries, to the start of this section.
 - Leading to v 1.200 Major release
 - Complete Sinhla support
 - Fixing all the targeted issues for 1.200
+- Multiple weight from Extra Light to ExtraBold
 
 
 23th April 2015 (mooniak) STICK NO BILLS Pre Release  v1.1.0
