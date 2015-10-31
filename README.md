@@ -11,10 +11,10 @@ STICK NO BILLS™ Font
 ===================
 
 
-STICK NO BILLS - was developed as the bespoke Libre typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. Now with financial support from Google Mooniak is expanding it to multiple weights and multi script support.
+STICK NO BILLS - was developed as the bespoke Libre typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. Now with financial support from Google Mooniak is expanding it to multiple weights and multi script support. We welcome improvments and contributions.
+ 
+ The first drawings were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more langauges. The stencil structure is lightly based on stensil letters found in streets. STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes. 
 
-
-The first drawings were developed by Martyn Hodges for uppercase and numerals and mooniak is working on further refining and developing them into a font.
 
 See our [blog post](http://blog.mooniak.com/tagged/sticknobillsfont) on the process.
 See [videos](https://www.youtube.com/playlist?list=PLpw12zH02-AlMNu3QMfNtlES1UXHR_0v-)
