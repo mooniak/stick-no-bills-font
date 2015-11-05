@@ -1,88 +1,30 @@
-languagesystem DFLT dflt;
-languagesystem hani dflt;
-languagesystem latn dflt;
 
 
-# GPOS 
-
-
-lookup kernHorizontalKerninglookup0 {
-  lookupflag 0;
-    @kc0_first_1 = [\uni0041 ];
-    @kc0_first_2 = [\uni0054 \uni0059 \uni0050 \uni0046 ];
-    @kc0_first_3 = [\uni0066 \uni0072 \uni0076 \uni0077 \uni0079 ];
-    @kc0_first_4 = [\uni004C ];
-    @kc0_first_5 = [\uni0057 \uni0056 ];
-    @kc0_first_6 = [];
-    @kc0_second_1 = [\uni0057 \uni0056 \uni0054 \uni0059 ];
-    @kc0_second_2 = [\uni002E \uni002C ];
-    @kc0_second_3 = [\uni0061 \uni0065 \uni0073 \uni006F \uni0071 \uni0064 \uni0063 \uni0067 \uni0075 ];
-    @kc0_second_4 = [\uni0041 ];
-    @kc0_second_5 = [\uni0077 \uni0076 \uni0074 ];
-    @kc0_second_6 = [\uni003B \uni003A ];
-    pos @kc0_first_1 @kc0_second_1 -68;
-    pos @kc0_first_1 @kc0_second_2 60;
-    pos @kc0_first_1 @kc0_second_3 -22;
-    pos @kc0_first_1 @kc0_second_5 -66;
-    pos @kc0_first_1 @kc0_second_6 44;
-    pos @kc0_first_2 @kc0_second_1 16;
-    pos @kc0_first_2 @kc0_second_2 -78;
-    pos @kc0_first_2 @kc0_second_3 -29;
-    pos @kc0_first_2 @kc0_second_4 -98;
-    pos @kc0_first_2 @kc0_second_5 -22;
-    pos @kc0_first_2 @kc0_second_6 -62;
-    pos @kc0_first_3 @kc0_second_2 -40;
-    pos @kc0_first_4 @kc0_second_1 -80;
-    pos @kc0_first_4 @kc0_second_3 82;
-    pos @kc0_first_4 @kc0_second_5 -75;
-    pos @kc0_first_4 @kc0_second_6 61;
-    pos @kc0_first_5 @kc0_second_2 -106;
-    pos @kc0_first_5 @kc0_second_3 -54;
-    pos @kc0_first_5 @kc0_second_4 -127;
-    pos @kc0_first_5 @kc0_second_6 -73;
-} kernHorizontalKerninglookup0;
-
-feature kern {
-
- script DFLT;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-
- script hani;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-
- script latn;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-} kern;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
-
-@GDEF_Simple = [\tml_Oo \tml_Ya \tml_O \tml_Va \tml_E \tml_A \tml_Pa \tml_Tta 
-	\tml_Ra \tml_MatraAa \tml_Na \tml_Three \tml_Nga \tml_Ii \tml_Lla \tml_La 
-	\tml_Nya \tml_Nnna \tml_Nna \tml_Ma \tml_Llla \tml_Aa \tml_I \tml_Ka \tml_Ca 
-	\tml_Ta \tml_Four \tml_Five \tml_Six \tml_Seven \tml_Eight \tml_Nine \tml_Ten 
-	\tml_Hundred \tml_Thousand \tml_Day \tml_Month \tml_Year \tml_Debit 
-	\tml_Credit \tml_Above \tml_Rupee \tml_Number \zwnj \dottedcircle \zwj \tml_TtI 
-	\tml_KU \tml_CU \tml_NyU \tml_TtU \tml_NnU \tml_TU \tml_NU \tml_NnnU \tml_MU 
-	\tml_RU \tml_RrU \tml_LU \tml_LlU \tml_LllU \tml_KUu \tml_NgUu \tml_CUu 
-	\tml_NyUu \tml_TtUu \tml_NnUu \tml_TUu \tml_NUu \tml_NnnUu \tml_PUu \tml_MUu 
-	\tml_YUu \tml_RUu \tml_RrUu \tml_LUu \tml_LlUu \tml_LllUu \tml_KSsa \tml_Shree 
-	\tml_NnAa.alt \tml_NnnAa.alt \tml_RrAa.alt \tml_TtIi \tml_Au \tml_Ja \tml_Rra 
-	\tml_Sha \tml_Ssa \tml_Sa \tml_Ha \tml_MatraI \tml_MatraIi \tml_MatraU 
-	\tml_MatraUu \tml_MatraE \tml_MatraEe \tml_MatraAi \tml_MatraO \tml_MatraOo 
-	\tml_MatraAu \tml_Virama \tml_Om \tml_AuLengthmark \tml_Zero \tml_One \tml_Two 
-	\tml_Anusvara \tml_Visarga \tml_U \tml_Uu \tml_Ee \tml_Ai \space \tml_KI 
-	\tml_NgI \tml_CI \tml_JI \tml_NyI \tml_NnI \tml_TI \tml_NI \tml_NnnI \tml_PI 
-	\tml_MI \tml_YI \tml_RI \tml_RrI \tml_LI \tml_LlI \tml_LllI \tml_VI \tml_SsI 
-	\tml_SI \tml_HI \tml_KIi \tml_NgIi \tml_CIi \tml_JIi \tml_NyIi \tml_NnIi 
-	\tml_TIi \tml_NIi \tml_NnnIi \tml_PIi \tml_MIi \tml_YIi \tml_RIi \tml_RrIi 
-	\tml_LIi \tml_LlIi \tml_LllIi \tml_VIi \tml_SsIi \tml_SIi \tml_HIi \tml_NgU 
-	\tml_PU \tml_YU \tml_VU \tml_VUu \tml_KSsI \tml_KSsIi \tml_ShIi \tml_ShI 
-	\tml_NnAi \tml_NnnAi \tml_LAi \tml_LlAi \tml_RI.alt \tml_RIi.alt \tml_KI.alt 
-	\tml_CI.alt \tml_TI.alt \tml_KIi.alt \tml_CIi.alt \tml_TIi.alt 
-	\tml_RVirama.alt \tml_SU \tml_ShU \tml_SsU \tml_HU \tml_KSsU \tml_JU \tml_SUu 
-	\tml_ShUu \tml_SsUu \tml_HUu \tml_KSsUu \tml_JUu ];
+@GDEF_Simple = [\dottedcircle \space \tml_A \tml_Aa \tml_Above \tml_Ai 
+	\tml_Anusvara \tml_Au \tml_AuLengthmark \tml_CI \tml_CI.alt \tml_CIi 
+	\tml_CIi.alt \tml_CU \tml_CUu \tml_Ca \tml_Credit \tml_Day \tml_Debit \tml_E 
+	\tml_Ee \tml_Eight \tml_Five \tml_Four \tml_HI \tml_HIi \tml_HU \tml_HUu \tml_Ha 
+	\tml_Hundred \tml_I \tml_Ii \tml_JI \tml_JIi \tml_JU \tml_JUu \tml_Ja \tml_KI 
+	\tml_KI.alt \tml_KIi \tml_KIi.alt \tml_KSsI \tml_KSsIi \tml_KSsU \tml_KSsUu 
+	\tml_KSsa \tml_KU \tml_KUu \tml_Ka \tml_LAi \tml_LI \tml_LIi \tml_LU \tml_LUu 
+	\tml_La \tml_LlAi \tml_LlI \tml_LlIi \tml_LlU \tml_LlUu \tml_Lla \tml_LllI 
+	\tml_LllIi \tml_LllU \tml_LllUu \tml_Llla \tml_MI \tml_MIi \tml_MU \tml_MUu 
+	\tml_Ma \tml_MatraAa \tml_MatraAi \tml_MatraAu \tml_MatraE \tml_MatraEe 
+	\tml_MatraI \tml_MatraIi \tml_MatraO \tml_MatraOo \tml_MatraU \tml_MatraUu 
+	\tml_Month \tml_NI \tml_NIi \tml_NU \tml_NUu \tml_Na \tml_NgI \tml_NgIi \tml_NgU 
+	\tml_NgUu \tml_Nga \tml_Nine \tml_NnAa.alt \tml_NnAi \tml_NnI \tml_NnIi 
+	\tml_NnU \tml_NnUu \tml_Nna \tml_NnnAa.alt \tml_NnnAi \tml_NnnI \tml_NnnIi 
+	\tml_NnnU \tml_NnnUu \tml_Nnna \tml_Number \tml_NyI \tml_NyIi \tml_NyU 
+	\tml_NyUu \tml_Nya \tml_O \tml_Om \tml_One \tml_Oo \tml_PI \tml_PIi \tml_PU 
+	\tml_PUu \tml_Pa \tml_RI \tml_RI.alt \tml_RIi \tml_RIi.alt \tml_RU \tml_RUu 
+	\tml_RVirama.alt \tml_Ra \tml_RrAa.alt \tml_RrI \tml_RrIi \tml_RrU \tml_RrUu 
+	\tml_Rra \tml_Rupee \tml_SI \tml_SIi \tml_SU \tml_SUu \tml_Sa \tml_Seven 
+	\tml_ShI \tml_ShIi \tml_ShU \tml_ShUu \tml_Sha \tml_Shree \tml_Six \tml_SsI 
+	\tml_SsIi \tml_SsU \tml_SsUu \tml_Ssa \tml_TI \tml_TI.alt \tml_TIi \tml_TIi.alt 
+	\tml_TU \tml_TUu \tml_Ta \tml_Ten \tml_Thousand \tml_Three \tml_TtI \tml_TtIi 
+	\tml_TtU \tml_TtUu \tml_Tta \tml_Two \tml_U \tml_Uu \tml_VI \tml_VIi \tml_VU 
+	\tml_VUu \tml_Va \tml_Virama \tml_Visarga \tml_YI \tml_YIi \tml_YU \tml_YUu 
+	\tml_Ya \tml_Year \tml_Zero \zwj \zwnj ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
