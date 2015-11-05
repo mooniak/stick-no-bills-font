@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445925837
-ModificationTime: 1445974315
+ModificationTime: 1446118383
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -780,21 +780,22 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p359
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p360
-sS'com.schriftgestaltung.useNiceNames'
-p361
 I00
+sS'com.schriftgestaltung.fontMasterID'
+p360
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p361
 s."
-Encoding: sinhala_abhaya
+Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 9 7
+WinInfo: 512 8 4
 Grid
 817 1353 m 4
  817 -784 l 1028
@@ -802,18 +803,32 @@ Grid
  301 -784 l 1024
 EndSplineSet
 AnchorClass2: "si_rakar" "" 
-BeginChars: 65538 542
+BeginChars: 65540 543
 
-StartChar: NameMe.124
+StartChar: si_Ya.post.MatraI
 Encoding: 65536 -1 0
 GlifName: N_ameM_e.124
-Width: 0
+Width: 498
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 LayerCount: 2
 Back
 Fore
+SplineSet
+38 602 m 257
+ 38 630 l 257
+ 37.623046875 723.409179688 114.741210938 789 214 789 c 257
+ 302 789 l 261
+ 401.258789062 789 478.376953125 723.409179688 478 630 c 261
+ 478 602 l 261
+ 348 602 l 261
+ 348 654.112304688 312.857421875 658 286 659 c 261
+ 230 659 l 257
+ 203.142578125 658 168 654.112304688 168 602 c 257
+ 38 602 l 257
+EndSplineSet
+Refer: 528 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: anusvara
@@ -20148,7 +20163,7 @@ GlifName: si_T_V_U_u
 Width: 1082
 VWidth: 0
 GlyphClass: 3
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -22792,6 +22807,34 @@ SplineSet
  30 9 l 257
  -30 9 l 257
 EndSplineSet
+EndChar
+
+StartChar: si_Ya.post.MatraIi
+Encoding: 65535 -1 542
+Width: 498
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+370 553 m 260
+ 305 553 252 606 252 671 c 260
+ 252 736 305 789 370 789 c 260
+ 435 789 488 736 488 671 c 260
+ 488 606 435 553 370 553 c 260
+40 602 m 257
+ 40 630 l 258
+ 40 723.409179688 116.747070312 789 216 789 c 258
+ 370 789 l 262
+ 433.975585938 789 488 736.728515625 488 671 c 261
+ 334 622 l 261
+ 334 657.112304688 318.857421875 659 292 659 c 262
+ 232 659 l 258
+ 205.142578125 659 170 654.112304688 170 602 c 257
+ 40 602 l 257
+EndSplineSet
+Refer: 528 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
