@@ -44,13 +44,19 @@ Once you have Welipilla set up, do the following..
 
 - Run Vagrant box, this will take a few minuits to set up the build enviroment.
 
-```vagrant up```
+```shell
+$vagrant up
+```
 
-- SSH into vagrant box.
-```vagrant ssh```
+- SSH into vagrant box.(Use putty on Windows)
+```shell
+$vagrant ssh
+```
 
 - Run builder script.
-```cd /vagrant/scripts && sh builder.sh```
+```shell
+$cd /vagrant/scripts && sh builder.sh
+```
 
 
 ## Credits
