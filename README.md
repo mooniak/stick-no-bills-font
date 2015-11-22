@@ -67,7 +67,7 @@ Special thanks to STICK NO BILLS Gallery for help us making this project open an
 - Kosala Senevirathne (@kosalaya) of mooniak
 - Lasantha Premarathne (@lazpremarathna) of mooniak
 - Siva Puranthara of mooniak
-- Ayantha Randika of mooniak
+- Ayantha Randika (@paarandika) of mooniak
 
 
 
