@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445925837
-ModificationTime: 1446118383
+ModificationTime: 1447007037
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -780,13 +780,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
 Encoding: Custom
 Compacted: 1
@@ -795,7 +795,7 @@ NameList: sinhala
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 512 8 4
+WinInfo: 72 8 4
 Grid
 817 1353 m 4
  817 -784 l 1028
@@ -811,7 +811,7 @@ GlifName: N_ameM_e.124
 Width: 498
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -22479,7 +22479,7 @@ GlifName: si_kundaliya
 Width: 1666
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 LayerCount: 2
 Back
 Fore
@@ -22504,9 +22504,11 @@ SplineSet
 957.6 -0.599609 m 257
  858.4 55.4004 l 257
  970 282 l 257
- 1282 119 1359.37 118.399 1516 118.399 c 257
+ 1213.31229603 135.48990329 1291 113 1392 113 c 0
+ 1516 113 l 257
  1516 0 l 257
- 1316.5 -7.10543e-15 1195.42 40.793 1017.25 122.177 c 257
+ 1392 0 l 0
+ 1262 0 1152.64600801 42.5334070457 1017.25 122.177 c 257
  957.6 -0.599609 l 257
 EndSplineSet
 EndChar
