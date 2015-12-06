@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445925824
-ModificationTime: 1446059777
+ModificationTime: 1449425494
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -492,7 +492,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 9 9 5
+WinInfo: 54 9 5
 BeginChars: 422 331
 
 StartChar: A
@@ -1788,7 +1788,7 @@ GlifName: P_
 Width: 479
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1798,15 +1798,17 @@ SplineSet
  183 700 l 257
  183 0 l 257
  42 0 l 257
-237 318 m 257
+237 319 m 257
  237 457 l 257
  270 457 l 258
  277 457 321 458 321 508 c 256
  321 559 279 561 270 561 c 258
  237 561 l 257
  237 700 l 257
- 418 700 464 626 464 512 c 256
- 464 369 394 318 237 318 c 257
+ 250.02094123 700 262.343229705 700.752929688 274 700 c 1
+ 421.38031951 700.230305335 464 618.364735059 464 512 c 256
+ 464 380.76724837 416.046385787 316.957521692 274 319 c 1
+ 262.249462498 318.286472828 249.919286672 319 237 319 c 257
 EndSplineSet
 EndChar
 
@@ -1851,7 +1853,7 @@ GlifName: R_
 Width: 505
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1867,14 +1869,16 @@ SplineSet
  310 411 336 450 336 490 c 256
  336 538 299 567 250 567 c 258
  237 567 l 257
- 237 700 l 257
- 387 700 463 610 463 490 c 256
- 463 422 443 381 400 352 c 257
+ 237 700 l 261
+ 258.999860981 700 l 5
+ 397.747241058 697.532675649 468 613.249671349 468 510 c 260
+ 468 436.144927536 441.412698413 385.202898551 400 352 c 261
  441 326 462 266 466 217 c 258
  483 0 l 257
  353 0 l 257
  338 178 l 258
- 331 257 308 286 237 286 c 257
+ 331.37491619 252.768802995 310.41783712 285.002916803 248 286 c 1
+ 237 286 l 257
 EndSplineSet
 EndChar
 
@@ -1884,7 +1888,7 @@ GlifName: R_acute
 Width: 505
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -1898,7 +1902,7 @@ GlifName: R_caron
 Width: 505
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -6301,7 +6305,7 @@ GlifName: quotesinglbase
 Width: 187
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -7405,7 +7409,7 @@ GlifName: uni0156
 Width: 505
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
