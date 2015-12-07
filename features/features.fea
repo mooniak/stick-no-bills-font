@@ -684,6 +684,13 @@ lookup si_split_matra {
 #     pos base \tml_KSsa <anchor 1500 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
 # } tml_above_base_mark_1;
 
+#----------- DUMMY GPOS --------
+#-------------------------------
+
+lookup dummy{
+	pos si_A <0 0 0 0>;
+}dummy;
+
 ##--------------- Features ---------------##
 
 feature akhn {
@@ -772,7 +779,7 @@ feature kern {
 
 feature dist {
     script sinh;
-      # lookup si_touch_pos;
+      lookup dummy;
 } dist;
 
 feature abvm {
