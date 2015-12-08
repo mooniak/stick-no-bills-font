@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727163
-ModificationTime: 1449561736
+ModificationTime: 1449571691
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -476,7 +476,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 104 8 3
+WinInfo: 168 8 3
 Grid
 -1000 -209.399993896 m 0
  2000 -209.399993896 l 1024
@@ -8663,7 +8663,7 @@ GlifName: tml_N_yU_u
 Width: 1400
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -257 94<172.5 395 189 395 448 643 643 644 189 448> 1 122 238 123 472 105 472 123
 VStem: 39 124 39 131 39 171 317 123 484 123 695 122<-95 -80>
 LayerCount: 2
@@ -12613,17 +12613,17 @@ GlifName: tml_T_tU_u
 Width: 1312
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -258 94 -121 277 -121 93 2 123 252 122 351 23 473 109 473 122<783 962 783 962 783 1016 1016 1273>
 VStem: 49 121 621 122 783 179<473 595 473 595> 783 122
 LayerCount: 2
 Fore
 SplineSet
-1067 0 m 257
+1067 -119 m 261
  1067 593 l 257
  1189 593 l 257
- 1189 0 l 257
- 1067 0 l 257
+ 1189 -119 l 261
+ 1067 -119 l 261
 1016 473 m 257
  1016 595 l 257
  1273 595 l 257
@@ -12636,7 +12636,6 @@ SplineSet
  783 473 l 257
 EndSplineSet
 Refer: 161 -1 N 1 0 0 1 0 0 2
-Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2

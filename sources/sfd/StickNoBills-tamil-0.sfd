@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727157
-ModificationTime: 1449561758
+ModificationTime: 1449571676
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -476,7 +476,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 3
+WinInfo: 168 8 3
 BeginChars: 191 191
 
 StartChar: NameMe.76.1
@@ -12626,17 +12626,17 @@ GlifName: tml_T_tU_u
 Width: 1193
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: -258 94 -121 277 -121 93 2 123 252 122 351 23 473 109 473 122
 VStem: 11 121 583 122 745 179 745 122
 LayerCount: 2
 Fore
 SplineSet
-1029 0 m 257
+1029 -90 m 261
  1029 593 l 257
  1069 593 l 257
- 1069 0 l 257
- 1029 0 l 257
+ 1069 -90 l 261
+ 1029 -90 l 261
 934 555 m 257
  934 595 l 257
  1153 595 l 257
@@ -12649,7 +12649,6 @@ SplineSet
  745 555 l 257
 EndSplineSet
 Refer: 161 -1 N 1 0 0 1 -38 0 2
-Validated: 8912901
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
