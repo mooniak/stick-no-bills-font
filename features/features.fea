@@ -626,33 +626,33 @@ lookup tml_post_base_sub_2 {
 
 #---- SALT ----
 
-# lookup tml_stylistic_alternates_1 {
-#     sub tml_Nna tml_MatraAa by tml_NnAa.alt;
-#     sub tml_Nnna tml_MatraAa by tml_NnnAa.alt;
-#     sub tml_Rra tml_MatraAa by tml_RrAa.alt;
-# } tml_stylistic_alternates_1;
-#
-# lookup tml_stylistic_alternates_2 {
-#     sub tml_Ra tml_Virama by tml_RVirama.alt;
-#     sub tml_Ra tml_MatraI by tml_RI.alt;
-#     sub tml_Ra tml_MatraIi by tml_RIi.alt;
-# } tml_stylistic_alternates_2;
-#
-# lookup tml_stylistic_alternates_3 {
-#     sub tml_Nna tml_MatraAi by tml_NnAi;
-#     sub tml_Nnna tml_MatraAi by tml_NnnAi;
-#     sub tml_La tml_MatraAi by tml_LAi;
-#     sub tml_Lla tml_MatraAi by tml_LlAi;
-# } tml_stylistic_alternates_3;
-#
-# lookup tml_stylistic_alternates_4 {
-#     sub tml_KI by tml_KI.alt;
-#     sub tml_CI by tml_CI.alt;
-#     sub tml_TI by tml_TI.alt;
-#     sub tml_KIi by tml_KIi.alt;
-#     sub tml_CIi by tml_CIi.alt;
-#     sub tml_TIi by tml_TIi.alt;
-# } tml_stylistic_alternates_4;
+lookup tml_stylistic_alternates_1 {
+    sub tml_Nna tml_MatraAa by tml_NnAa.alt;
+    sub tml_Nnna tml_MatraAa by tml_NnnAa.alt;
+    sub tml_Rra tml_MatraAa by tml_RrAa.alt;
+} tml_stylistic_alternates_1;
+
+lookup tml_stylistic_alternates_2 {
+    sub tml_Ra tml_Virama by tml_RVirama.alt;
+    sub tml_Ra tml_MatraI by tml_RI.alt;
+    sub tml_Ra tml_MatraIi by tml_RIi.alt;
+} tml_stylistic_alternates_2;
+
+lookup tml_stylistic_alternates_3 {
+    sub tml_Nna tml_MatraAi by tml_NnAi;
+    sub tml_Nnna tml_MatraAi by tml_NnnAi;
+    sub tml_La tml_MatraAi by tml_LAi;
+    sub tml_Lla tml_MatraAi by tml_LlAi;
+} tml_stylistic_alternates_3;
+
+lookup tml_stylistic_alternates_4 {
+    sub tml_KI by tml_KI.alt;
+    sub tml_CI by tml_CI.alt;
+    sub tml_TI by tml_TI.alt;
+    sub tml_KIi by tml_KIi.alt;
+    sub tml_CIi by tml_CIi.alt;
+    sub tml_TIi by tml_TIi.alt;
+} tml_stylistic_alternates_4;
 
 lookup tml_above_base_mark_1 {
     markClass [\tml_Anusvara ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
@@ -796,54 +796,54 @@ feature blwm {
 
 #-------------
 
-# feature salt {
-#     script taml;
-#         lookup tml_stylistic_alternates_1;
-#         lookup tml_stylistic_alternates_2;
-#         lookup tml_stylistic_alternates_3;
-#         lookup tml_stylistic_alternates_4;
-#     script tml2;
-#         lookup tml_stylistic_alternates_1;
-#         lookup tml_stylistic_alternates_2;
-#         lookup tml_stylistic_alternates_3;
-#         lookup tml_stylistic_alternates_4;
-# } salt;
-#
-# feature ss01 {
-#   script sinh;
-#     lookup si_da_style;
-#   script taml;
-#      lookup tml_stylistic_alternates_1;
-#   script tml2;
-#      lookup tml_stylistic_alternates_1;
-# } ss01;
-#
-# #-------------
-#
-# feature ss02 {
-#     script taml;
-#         lookup tml_stylistic_alternates_2;
-#     script tml2;
-#         lookup tml_stylistic_alternates_2;
-# } ss02;
-#
-# #-------------
-#
-# feature ss03 {
-#     script taml;
-#         lookup tml_stylistic_alternates_3;
-#     script tml2;
-#         lookup tml_stylistic_alternates_3;
-# } ss03;
-#
-# #-------------
-#
-# feature ss04 {
-#     script taml;
-#         lookup tml_stylistic_alternates_4;
-#     script tml2;
-#         lookup tml_stylistic_alternates_4;
-# } ss04;
+feature salt {
+    script taml;
+        lookup tml_stylistic_alternates_1;
+        lookup tml_stylistic_alternates_2;
+        lookup tml_stylistic_alternates_3;
+        lookup tml_stylistic_alternates_4;
+    script tml2;
+        lookup tml_stylistic_alternates_1;
+        lookup tml_stylistic_alternates_2;
+        lookup tml_stylistic_alternates_3;
+        lookup tml_stylistic_alternates_4;
+} salt;
+
+feature ss01 {
+  # script sinh;
+  #   lookup si_da_style;
+  script taml;
+     lookup tml_stylistic_alternates_1;
+  script tml2;
+     lookup tml_stylistic_alternates_1;
+} ss01;
+
+#-------------
+
+feature ss02 {
+    script taml;
+        lookup tml_stylistic_alternates_2;
+    script tml2;
+        lookup tml_stylistic_alternates_2;
+} ss02;
+
+#-------------
+
+feature ss03 {
+    script taml;
+        lookup tml_stylistic_alternates_3;
+    script tml2;
+        lookup tml_stylistic_alternates_3;
+} ss03;
+
+#-------------
+
+feature ss04 {
+    script taml;
+        lookup tml_stylistic_alternates_4;
+    script tml2;
+        lookup tml_stylistic_alternates_4;
+} ss04;
 
 ##--------------- Std Ligature ---------------##
 
