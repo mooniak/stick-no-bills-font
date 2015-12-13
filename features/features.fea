@@ -16,7 +16,7 @@ lookup si_akhands {
   sub si_Ka si_Halant zwj si_Ssa by si_KSsa;
   sub si_Ka si_Halant zwj si_Va by si_KVa;
   sub si_Ta si_Halant zwj si_Va by si_TVa;
-  # sub si_Ta si_Halant zwj si_Tha by si_TTha;
+  sub si_Ta si_Halant zwj si_Tha by si_TTha;
   sub si_Na si_Halant zwj si_Da by si_NDa;
   sub si_Na si_Halant zwj si_Va by si_NVa;
   sub si_Na si_Halant zwj si_Dha by si_NDha;
@@ -500,523 +500,196 @@ lookup si_split_matra {
   sub si_MatraAu by si_MatraLs;
 } si_split_matra;
 
-#----------- Da forms ------------
-#---------------------------------
-
-# lookup si_da_style {
-  # sub si_Da si_MatraAa by si_DAa;
-  # sub si_Da si_MatraAa.halant by si_DAa.halant;
-  # sub si_Da si_MatraAae by si_DAae;
-  # sub si_Da si_MatraAe by si_DAe;
-  # sub si_Da si_Ya.post si_MatraAa.halant by si_DYOo.post;
-  # sub si_Da si_YUu.post by si_DYUu.post;
-  # sub si_Da si_Ya.post by si_DYa.post;
-  # sub si_Da si_Ya.post si_MatraAa by si_DYAa.post;
-  # sub si_Da si_YU.post by si_DYu.post;
-  # sub si_Nda si_MatraAa by si_NdAa;
-  # sub si_Nda si_MatraAa.halant by si_NdAa.halant;
-  # sub si_Nda si_MatraAae by si_NdAae;
-  # sub si_Nda si_MatraAe by si_NdAe;
-  # sub si_Jnya si_MatraAa by si_JnyAa;
-  # sub si_Jnya si_MatraAa.halant by si_JnyAa.halant;
-  # sub si_Jnya si_MatraAae by si_JnyAee;
-  # sub si_Jnya si_MatraAe by si_JnyAe;
-  # sub si_NDa si_MatraAa by si_NDAa;
-  # sub si_NDa si_MatraAa.halant by si_NDAa.halant;
-  # sub si_NDa si_MatraAae by si_NDAee;
-  # sub si_NDa si_MatraAe by si_NDAe;
-  # sub si_Nya si_MatraAa by si_NyAa;
-  # sub si_Nya si_MatraAa.halant by si_NyAa.halant;
-  # sub si_Nya si_MatraAae by si_NyAee;
-  # sub si_Nya si_MatraAe by si_NyAe;
-
-# } si_da_style;
-
-
-#----------- Touching ------------
-#---------------------------------
-
-# lookup si_touching {
-#   sub si_Ka zwj si_Halant by si_Ka.touch;
-#   sub si_Kha zwj si_Halant by si_Kha.touch;
-#   sub si_Ga  zwj si_Halant by si_Ga.touch;
-#   sub si_Gha zwj si_Halant by si_Gha.touch;
-#   sub si_Nga zwj si_Halant by si_Nga.touch;
-#   sub si_Nnga zwj si_Halant by si_Nnga.touch;
-#   sub si_Ca zwj si_Halant by si_Ca.touch;
-#   sub si_Cha zwj si_Halant by si_Cha.touch;
-#   sub si_Ja zwj si_Halant by si_Ja.touch;
-#   sub si_Jha zwj si_Halant by si_Jha.touch;
-#   sub si_Nya zwj si_Halant by si_Nya.touch;
-#   sub si_Jnya zwj si_Halant by si_Jnya.touch;
-#   sub si_Ndja zwj si_Halant by si_Ndja.touch;
-#   sub si_Tta zwj si_Halant by si_Tta.touch;
-#   sub si_Ttha zwj si_Halant by si_Ttha.touch;
-#   sub si_Dda zwj si_Halant by si_Dda.touch;
-#   sub si_Ddha zwj si_Halant by si_Ddha.touch;
-#   sub si_Nna zwj si_Halant by si_Nna.touch;
-#   sub si_Nndda zwj si_Halant by si_Ndda.touch;
-#   sub si_Ta zwj si_Halant by si_Ta.touch;
-#   sub si_Tha zwj si_Halant by si_Tha.touch;
-#   sub si_Da zwj si_Halant by si_Da.touch;
-#   sub si_Dha zwj si_Halant by si_Dha.touch;
-#   sub si_Na zwj si_Halant by si_Na.touch;
-  # sub si_Nda zwj si_Halant by si_Nda.touch;
-  # sub si_Pa zwj si_Halant by si_Pa.touch;
-  # sub si_Pha zwj si_Halant by si_Pha.touch;
-  # sub si_Ba zwj si_Halant by si_Ba.touch;
-  # sub si_Bha zwj si_Halant by si_Bha.touch;
-  # sub si_Ma zwj si_Halant by si_Ma.touch;
-  # sub si_Mba zwj si_Halant by si_Mba.touch;
-  # sub si_Ya zwj si_Halant by si_Ya.touch;
-  # sub si_Ra zwj si_Halant by si_Ra.touch;
-  # sub si_La zwj si_Halant by si_La.touch;
-  # sub si_Va zwj si_Halant by si_Va.touch;
-  # sub si_Sha zwj si_Halant by si_Sha.touch;
-  # sub si_Ssa zwj si_Halant by si_Ssa.touch;
-  # sub si_Sa zwj si_Halant by si_Sa.touch;
-  # sub si_Ha zwj si_Halant by si_Ha.touch;
-  # sub si_Lla zwj si_Halant by si_Lla.touch;
-  # sub si_Fa zwj si_Halant by si_Fa.touch;
-# } si_touching;
-
-# lookup si_touch_pos {
-#   pos cursive si_Ka <anchor 69 0> <anchor NULL>;
-#   pos cursive si_Kha <anchor 39 0> <anchor NULL>;
-#   pos cursive si_Ga <anchor 57 1> <anchor NULL>;
-#   pos cursive si_Gha <anchor 55 0> <anchor NULL>;
-#   pos cursive si_Nga <anchor 43 0> <anchor NULL>;
-#   pos cursive si_Nnga <anchor 43 0> <anchor NULL>;
-#   pos cursive si_Ca <anchor 73 0> <anchor NULL>;
-#   pos cursive si_Cha <anchor 53 0> <anchor NULL>;
-#   pos cursive si_Ja <anchor 48 0> <anchor NULL>;
-#   pos cursive si_Jha <anchor 71 0> <anchor NULL>;
-#   pos cursive si_Nya <anchor 43 0> <anchor NULL>;
-#   pos cursive si_Jnya <anchor 52 0> <anchor NULL>;
-#   pos cursive si_Ndja <anchor 43 0> <anchor NULL>;
-#   pos cursive si_Tta <anchor 38 0> <anchor NULL>;
-#   pos cursive si_Ttha <anchor 39 0> <anchor NULL>;
-#   pos cursive si_Dda <anchor 43 0> <anchor NULL>;
-#   pos cursive si_Ddha <anchor 53 0> <anchor NULL>;
-#   pos cursive si_Nna <anchor 52 0> <anchor NULL>;
-#   pos cursive si_Nndda <anchor 37 0> <anchor NULL>;
-#   pos cursive si_Ta <anchor 68 0> <anchor NULL>;
-#   pos cursive si_Tha <anchor 52 0> <anchor NULL>;
-#   pos cursive si_Da <anchor 51 0> <anchor NULL>;
-#   pos cursive si_Dha <anchor 46 0> <anchor NULL>;
-#   pos cursive si_Na <anchor 78 0> <anchor NULL>;
-#   pos cursive si_Nda <anchor 42 0> <anchor NULL>;
-#   pos cursive si_Pa <anchor 53 0> <anchor NULL>;
-#   pos cursive si_Pha <anchor 45 0> <anchor NULL>;
-#   pos cursive si_Ba <anchor 40 0> <anchor NULL>;
-#   pos cursive si_Bha <anchor 25 0> <anchor NULL>;
-#   pos cursive si_Ma <anchor 48 0> <anchor NULL>;
-#   pos cursive si_Mba <anchor 36 0> <anchor NULL>;
-#   pos cursive si_Ya <anchor 42 0> <anchor NULL>;
-#   pos cursive si_La <anchor 44 0> <anchor NULL>;
-#   pos cursive si_Va <anchor 47 0> <anchor NULL>;
-#   pos cursive si_Sha <anchor 44 0> <anchor NULL>;
-#   pos cursive si_Ssa <anchor 46 0> <anchor NULL>;
-#   pos cursive si_Sa <anchor 72 0> <anchor NULL>;
-#   pos cursive si_Ha <anchor 43 0> <anchor NULL>;
-#   pos cursive si_Lla <anchor 50 0> <anchor NULL>;
-#   pos cursive si_Fa <anchor 44 0> <anchor NULL>;
-#
-#   #---------------------------------------------
-#
-#   pos cursive si_KI <anchor 69 0> <anchor NULL>;
-#   pos cursive si_KhI <anchor 39 0> <anchor NULL>;
-#   pos cursive si_GI <anchor 57 1> <anchor NULL>;
-#   pos cursive si_GhI <anchor 55 0> <anchor NULL>;
-#   pos cursive si_NngI <anchor 43 0> <anchor NULL>;
-#   pos cursive si_CI <anchor 73 0> <anchor NULL>;
-#   pos cursive si_ChI <anchor 53 0> <anchor NULL>;
-#   pos cursive si_JI <anchor 48 0> <anchor NULL>;
-#   pos cursive si_JhI <anchor 71 0> <anchor NULL>;
-#   pos cursive si_NyI <anchor 43 0> <anchor NULL>;
-#   pos cursive si_JnyI <anchor 52 0> <anchor NULL>;
-#   pos cursive si_NdjI <anchor 43 0> <anchor NULL>;
-#   pos cursive si_TtI <anchor 38 0> <anchor NULL>;
-#   pos cursive si_TthI <anchor 39 0> <anchor NULL>;
-#   pos cursive si_DdI <anchor 43 0> <anchor NULL>;
-#   pos cursive si_DdhI <anchor 53 0> <anchor NULL>;
-#   pos cursive si_NnI <anchor 52 0> <anchor NULL>;
-#   pos cursive si_NnddI <anchor 37 0> <anchor NULL>;
-#   pos cursive si_TI <anchor 68 0> <anchor NULL>;
-#   pos cursive si_ThI <anchor 52 0> <anchor NULL>;
-#   pos cursive si_DI <anchor 51 0> <anchor NULL>;
-#   pos cursive si_DhI <anchor 46 0> <anchor NULL>;
-#   pos cursive si_NI <anchor 78 0> <anchor NULL>;
-#   pos cursive si_NdI <anchor 42 0> <anchor NULL>;
-#   pos cursive si_PI <anchor 53 0> <anchor NULL>;
-#   pos cursive si_PhI <anchor 45 0> <anchor NULL>;
-#   pos cursive si_BI <anchor 40 0> <anchor NULL>;
-#   pos cursive si_BhI <anchor 25 0> <anchor NULL>;
-#   pos cursive si_MI <anchor 48 0> <anchor NULL>;
-#   pos cursive si_MbI <anchor 36 0> <anchor NULL>;
-#   pos cursive si_YI <anchor 42 0> <anchor NULL>;
-#   pos cursive si_LI <anchor 44 0> <anchor NULL>;
-#   pos cursive si_VI <anchor 47 0> <anchor NULL>;
-#   pos cursive si_ShI <anchor 44 0> <anchor NULL>;
-#   pos cursive si_SsI <anchor 46 0> <anchor NULL>;
-#   pos cursive si_SI <anchor 72 0> <anchor NULL>;
-#   pos cursive si_HI <anchor 43 0> <anchor NULL>;
-#   pos cursive si_LlI <anchor 50 0> <anchor NULL>;
-#   pos cursive si_FI <anchor 44 0> <anchor NULL>;
-#
-#   #---------------------------------------------
-#
-#   pos cursive si_KIi <anchor 69 0> <anchor NULL>;
-#   pos cursive si_KhIi <anchor 39 0> <anchor NULL>;
-#   pos cursive si_GIi <anchor 57 1> <anchor NULL>;
-#   pos cursive si_GhIi <anchor 55 0> <anchor NULL>;
-#   pos cursive si_NngIi <anchor 43 0> <anchor NULL>;
-#   pos cursive si_CIi <anchor 73 0> <anchor NULL>;
-#   pos cursive si_ChIi <anchor 53 0> <anchor NULL>;
-#   pos cursive si_JIi <anchor 48 0> <anchor NULL>;
-#   pos cursive si_JhIi <anchor 71 0> <anchor NULL>;
-#   pos cursive si_NyIi <anchor 43 0> <anchor NULL>;
-#   pos cursive si_JnyIi <anchor 52 0> <anchor NULL>;
-#   pos cursive si_NdjIi <anchor 43 0> <anchor NULL>;
-#   pos cursive si_TtIi <anchor 38 0> <anchor NULL>;
-#   pos cursive si_TthIi <anchor 39 0> <anchor NULL>;
-#   pos cursive si_DdIi <anchor 43 0> <anchor NULL>;
-#   pos cursive si_DdhIi <anchor 53 0> <anchor NULL>;
-#   pos cursive si_NnIi <anchor 52 0> <anchor NULL>;
-#   pos cursive si_NnddIi <anchor 37 0> <anchor NULL>;
-#   pos cursive si_TIi <anchor 68 0> <anchor NULL>;
-#   pos cursive si_ThIi <anchor 52 0> <anchor NULL>;
-#   pos cursive si_DIi <anchor 51 0> <anchor NULL>;
-#   pos cursive si_DhIi <anchor 46 0> <anchor NULL>;
-#   pos cursive si_NIi <anchor 78 0> <anchor NULL>;
-#   pos cursive si_NdIi <anchor 42 0> <anchor NULL>;
-#   pos cursive si_PIi <anchor 53 0> <anchor NULL>;
-#   pos cursive si_PhIi <anchor 45 0> <anchor NULL>;
-#   pos cursive si_BIi <anchor 40 0> <anchor NULL>;
-#   pos cursive si_BhIi <anchor 25 0> <anchor NULL>;
-#   pos cursive si_MIi <anchor 48 0> <anchor NULL>;
-#   pos cursive si_MbIi <anchor 36 0> <anchor NULL>;
-#   pos cursive si_YIi <anchor 42 0> <anchor NULL>;
-#   pos cursive si_LIi <anchor 44 0> <anchor NULL>;
-#   pos cursive si_VIi <anchor 47 0> <anchor NULL>;
-#   pos cursive si_ShIi <anchor 44 0> <anchor NULL>;
-#   pos cursive si_SsIi <anchor 46 0> <anchor NULL>;
-#   pos cursive si_SIi <anchor 72 0> <anchor NULL>;
-#   pos cursive si_HIi <anchor 43 0> <anchor NULL>;
-#   pos cursive si_LlIi <anchor 50 0> <anchor NULL>;
-#   pos cursive si_FIi <anchor 44 0> <anchor NULL>;
-#
-#   #---------------------------------------------
-#
-#   pos cursive si_KU <anchor 69 0> <anchor NULL>;
-#   pos cursive si_KhU <anchor 39 0> <anchor NULL>;
-#   pos cursive si_GU <anchor 57 1> <anchor NULL>;
-#   pos cursive si_GhU <anchor 55 0> <anchor NULL>;
-#   pos cursive si_NngU <anchor 43 0> <anchor NULL>;
-#   pos cursive si_CU <anchor 73 0> <anchor NULL>;
-#   pos cursive si_ChU <anchor 53 0> <anchor NULL>;
-#   pos cursive si_JU <anchor 48 0> <anchor NULL>;
-#   pos cursive si_JhU <anchor 71 0> <anchor NULL>;
-#   pos cursive si_NyU <anchor 43 0> <anchor NULL>;
-#   pos cursive si_JnyU <anchor 52 0> <anchor NULL>;
-#   pos cursive si_NdjU <anchor 43 0> <anchor NULL>;
-#   pos cursive si_TtU <anchor 38 0> <anchor NULL>;
-#   pos cursive si_TthU <anchor 39 0> <anchor NULL>;
-#   pos cursive si_DdU <anchor 43 0> <anchor NULL>;
-#   pos cursive si_DdhU <anchor 53 0> <anchor NULL>;
-#   pos cursive si_NnU <anchor 52 0> <anchor NULL>;
-#   pos cursive si_NnddU <anchor 37 0> <anchor NULL>;
-#   pos cursive si_TU <anchor 68 0> <anchor NULL>;
-#   pos cursive si_ThU <anchor 52 0> <anchor NULL>;
-#   pos cursive si_DU <anchor 51 0> <anchor NULL>;
-#   pos cursive si_DhU <anchor 46 0> <anchor NULL>;
-#   pos cursive si_NU <anchor 78 0> <anchor NULL>;
-#   pos cursive si_NdU <anchor 42 0> <anchor NULL>;
-#   pos cursive si_PU <anchor 53 0> <anchor NULL>;
-#   pos cursive si_PhU <anchor 45 0> <anchor NULL>;
-#   pos cursive si_BU <anchor 40 0> <anchor NULL>;
-#   pos cursive si_BhU <anchor 25 0> <anchor NULL>;
-#   pos cursive si_MU <anchor 48 0> <anchor NULL>;
-#   pos cursive si_MbU <anchor 36 0> <anchor NULL>;
-#   pos cursive si_YU <anchor 42 0> <anchor NULL>;
-#   pos cursive si_LU <anchor 44 0> <anchor NULL>;
-#   pos cursive si_VU <anchor 47 0> <anchor NULL>;
-#   pos cursive si_ShU <anchor 44 0> <anchor NULL>;
-#   pos cursive si_SsU <anchor 46 0> <anchor NULL>;
-#   pos cursive si_SU <anchor 72 0> <anchor NULL>;
-#   pos cursive si_HU <anchor 43 0> <anchor NULL>;
-#   pos cursive si_LlU <anchor 50 0> <anchor NULL>;
-#   pos cursive si_FU <anchor 44 0> <anchor NULL>;
-#
-#   #---------------------------------------------
-#
-#   pos cursive si_KUu <anchor 69 0> <anchor NULL>;
-#   pos cursive si_KhUu <anchor 39 0> <anchor NULL>;
-#   pos cursive si_GUu <anchor 57 1> <anchor NULL>;
-#   pos cursive si_GhUu <anchor 55 0> <anchor NULL>;
-#   pos cursive si_NngUu <anchor 43 0> <anchor NULL>;
-#   pos cursive si_CUu <anchor 73 0> <anchor NULL>;
-#   pos cursive si_ChUu <anchor 53 0> <anchor NULL>;
-#   pos cursive si_JUu <anchor 48 0> <anchor NULL>;
-#   pos cursive si_JhUu <anchor 71 0> <anchor NULL>;
-#   pos cursive si_NyUu <anchor 43 0> <anchor NULL>;
-#   pos cursive si_JnyUu <anchor 52 0> <anchor NULL>;
-#   pos cursive si_NdjUu <anchor 43 0> <anchor NULL>;
-#   pos cursive si_TtUu <anchor 38 0> <anchor NULL>;
-#   pos cursive si_TthUu <anchor 39 0> <anchor NULL>;
-#   pos cursive si_DdUu <anchor 43 0> <anchor NULL>;
-#   pos cursive si_DdhUu <anchor 53 0> <anchor NULL>;
-#   pos cursive si_NnUu <anchor 52 0> <anchor NULL>;
-#   pos cursive si_NnddUu <anchor 37 0> <anchor NULL>;
-#   pos cursive si_TUu <anchor 68 0> <anchor NULL>;
-#   pos cursive si_ThUu <anchor 52 0> <anchor NULL>;
-#   pos cursive si_DUu <anchor 51 0> <anchor NULL>;
-#   pos cursive si_DhUu <anchor 46 0> <anchor NULL>;
-#   pos cursive si_NUu <anchor 78 0> <anchor NULL>;
-#   pos cursive si_NdUu <anchor 42 0> <anchor NULL>;
-#   pos cursive si_PUu <anchor 53 0> <anchor NULL>;
-#   pos cursive si_PhUu <anchor 45 0> <anchor NULL>;
-#   pos cursive si_BUu <anchor 40 0> <anchor NULL>;
-#   pos cursive si_BhUu <anchor 25 0> <anchor NULL>;
-#   pos cursive si_MUu <anchor 48 0> <anchor NULL>;
-#   pos cursive si_MbUu <anchor 36 0> <anchor NULL>;
-#   pos cursive si_YUu <anchor 42 0> <anchor NULL>;
-#   pos cursive si_LUu <anchor 44 0> <anchor NULL>;
-#   pos cursive si_VUu <anchor 47 0> <anchor NULL>;
-#   pos cursive si_ShUu <anchor 44 0> <anchor NULL>;
-#   pos cursive si_SsUu <anchor 46 0> <anchor NULL>;
-#   pos cursive si_SUu <anchor 72 0> <anchor NULL>;
-#   pos cursive si_HUu <anchor 43 0> <anchor NULL>;
-#   pos cursive si_LlUu <anchor 50 0> <anchor NULL>;
-#   pos cursive si_FUu <anchor 44 0> <anchor NULL>;
-#
-#   #---------------------------------------------
-#
-#   pos cursive si_Ka.touch <anchor NULL> <anchor 701 0>;
-#   pos cursive si_Kha.touch <anchor NULL> <anchor 584 0>;
-#   pos cursive si_Ga.touch <anchor NULL> <anchor 585 0>;
-#   pos cursive si_Gha.touch <anchor NULL> <anchor 628 0>;
-#   pos cursive si_Nga.touch <anchor NULL> <anchor 571 0>;
-#   pos cursive si_Nnga.touch <anchor NULL> <anchor 702 0>;
-#   pos cursive si_Ca.touch <anchor NULL> <anchor 576 0>;
-#   pos cursive si_Cha.touch <anchor NULL> <anchor 550 0>;
-#   pos cursive si_Ja.touch <anchor NULL> <anchor 550 0>;
-#   pos cursive si_Jha.touch <anchor NULL> <anchor 1038 0>;
-#   pos cursive si_Nya.touch <anchor NULL> <anchor 976 0>;
-#   pos cursive si_Jnya.touch <anchor NULL> <anchor 788 0>;
-#   pos cursive si_Ndja.touch <anchor NULL> <anchor 650 0>;
-#   pos cursive si_Tta.touch <anchor NULL> <anchor 558 0>;
-#   pos cursive si_Ttha.touch <anchor NULL> <anchor 590 0>;
-#   pos cursive si_Dda.touch <anchor NULL> <anchor 599 0>;
-#   pos cursive si_Ddha.touch <anchor NULL> <anchor 599 0>;
-#   pos cursive si_Nna.touch <anchor NULL> <anchor 915 0>;
-#   pos cursive si_Ndda.touch <anchor NULL> <anchor 680 0>;
-#   pos cursive si_Ta.touch <anchor NULL> <anchor 664 0>;
-#   pos cursive si_Tha.touch <anchor NULL> <anchor 565 0>;
-#   pos cursive si_Da.touch <anchor NULL> <anchor 379 0>;
-#   pos cursive si_Dha.touch <anchor NULL> <anchor 588 0>;
-#   pos cursive si_Na.touch <anchor NULL> <anchor 760 0>;
-#   pos cursive si_Nda.touch <anchor NULL> <anchor 488 0>;
-#   pos cursive si_Pa.touch <anchor NULL> <anchor 574 0>;
-#   pos cursive si_Pha.touch <anchor NULL> <anchor 508 0>;
-#   pos cursive si_Ba.touch <anchor NULL> <anchor 575 0>;
-#   pos cursive si_Bha.touch <anchor NULL> <anchor 621 0>;
-#   pos cursive si_Ma.touch <anchor NULL> <anchor 588 0>;
-#   pos cursive si_Mba.touch <anchor NULL> <anchor 568 0>;
-#   pos cursive si_Ya.touch <anchor NULL> <anchor 566 0>;
-#   pos cursive si_Ra.touch <anchor NULL> <anchor 466 0>;
-#   pos cursive si_La.touch <anchor NULL> <anchor 607 0>;
-#   pos cursive si_Va.touch <anchor NULL> <anchor 548 0>;
-#   pos cursive si_Sha.touch <anchor NULL> <anchor 582 0>;
-#   pos cursive si_Ssa.touch <anchor NULL> <anchor 574 0>;
-#   pos cursive si_Sa.touch <anchor NULL> <anchor 628 0>;
-#   pos cursive si_Ha.touch <anchor NULL> <anchor 605 0>;
-#   pos cursive si_Lla.touch <anchor NULL> <anchor 592 0>;
-#   pos cursive si_Fa.touch <anchor NULL> <anchor 558 0>;
-# } si_touch_pos;
 
 ##--------------- Lookups Tamil ---------------##
 
 #---- AKHN ----
 
-# lookup tml_akhands {
-#     sub tml_Ka tml_Virama tml_Ssa by tml_KSsa;
-#     sub tml_Sha tml_Virama tml_Ra tml_MatraIi by tml_Shree;
-#     sub tml_Sa tml_Virama tml_Ra tml_MatraIi by tml_Shree;
-# } tml_akhands;
-#
-# #---- ABVS ----
-#
-# lookup tml_above_base_sub_1 {
-#     sub tml_Ka tml_MatraI by tml_KI;
-#     sub tml_Nga tml_MatraI by tml_NgI;
-#     sub tml_Ca tml_MatraI by tml_CI;
-#     sub tml_Ja tml_MatraI by tml_JI;
-#     sub tml_Nya tml_MatraI by tml_NyI;
-#     sub tml_Tta tml_MatraI by tml_TtI;
-#     sub tml_Nna tml_MatraI by tml_NnI;
-#     sub tml_Ta tml_MatraI by tml_TI;
-#     sub tml_Na tml_MatraI by tml_NI;
-#     sub tml_Nnna tml_MatraI by tml_NnnI;
-#     sub tml_Pa tml_MatraI by tml_PI;
-#     sub tml_Ma tml_MatraI by tml_MI;
-#     sub tml_Ya tml_MatraI by tml_YI;
-#     sub tml_Ra tml_MatraI by tml_RI;
-#     sub tml_Rra tml_MatraI by tml_RrI;
-#     sub tml_La tml_MatraI by tml_LI;
-#     sub tml_Lla tml_MatraI by tml_LlI;
-#     sub tml_Llla tml_MatraI by tml_LllI;
-#     sub tml_Va tml_MatraI by tml_VI;
-#     sub tml_Sa tml_MatraI by tml_SI;
-#     sub tml_Sha tml_MatraI by tml_ShI;
-#     sub tml_Ssa tml_MatraI by tml_SsI;
-#     sub tml_Ha tml_MatraI by tml_HI;
-#     sub tml_KSsa tml_MatraI by tml_KSsI;
-# } tml_above_base_sub_1;
-#
-# lookup tml_above_base_sub_2 {
-#     sub tml_Ka tml_MatraIi by tml_KIi;
-#     sub tml_Nga tml_MatraIi by tml_NgIi;
-#     sub tml_Ca tml_MatraIi by tml_CIi;
-#     sub tml_Ja tml_MatraIi by tml_JIi;
-#     sub tml_Nya tml_MatraIi by tml_NyIi;
-#     sub tml_Tta tml_MatraIi by tml_TtIi;
-#     sub tml_Nna tml_MatraIi by tml_NnIi;
-#     sub tml_Ta tml_MatraIi by tml_TIi;
-#     sub tml_Na tml_MatraIi by tml_NIi;
-#     sub tml_Nnna tml_MatraIi by tml_NnnIi;
-#     sub tml_Pa tml_MatraIi by tml_PIi;
-#     sub tml_Ma tml_MatraIi by tml_MIi;
-#     sub tml_Ya tml_MatraIi by tml_YIi;
-#     sub tml_Ra tml_MatraIi by tml_RIi;
-#     sub tml_Rra tml_MatraIi by tml_RrIi;
-#     sub tml_La tml_MatraIi by tml_LIi;
-#     sub tml_Lla tml_MatraIi by tml_LlIi;
-#     sub tml_Llla tml_MatraIi by tml_LllIi;
-#     sub tml_Va tml_MatraIi by tml_VIi;
-#     sub tml_Sa tml_MatraIi by tml_SIi;
-#     sub tml_Sha tml_MatraIi by tml_ShIi;
-#     sub tml_Ssa tml_MatraIi by tml_SsIi;
-#     sub tml_Ha tml_MatraIi by tml_HIi;
-#     sub tml_KSsa tml_MatraIi by tml_KSsIi;
-#  } tml_above_base_sub_2;
+lookup tml_akhands {
+    sub tml_Ka tml_Virama tml_Ssa by tml_KSsa;
+    sub tml_Sha tml_Virama tml_Ra tml_MatraIi by tml_Shree;
+    sub tml_Sa tml_Virama tml_Ra tml_MatraIi by tml_Shree;
+} tml_akhands;
+
+#---- ABVS ----
+
+lookup tml_above_base_sub_1 {
+    sub tml_Ka tml_MatraI by tml_KI;
+    sub tml_Nga tml_MatraI by tml_NgI;
+    sub tml_Ca tml_MatraI by tml_CI;
+    sub tml_Ja tml_MatraI by tml_JI;
+    sub tml_Nya tml_MatraI by tml_NyI;
+    sub tml_Tta tml_MatraI by tml_TtI;
+    sub tml_Nna tml_MatraI by tml_NnI;
+    sub tml_Ta tml_MatraI by tml_TI;
+    sub tml_Na tml_MatraI by tml_NI;
+    sub tml_Nnna tml_MatraI by tml_NnnI;
+    sub tml_Pa tml_MatraI by tml_PI;
+    sub tml_Ma tml_MatraI by tml_MI;
+    sub tml_Ya tml_MatraI by tml_YI;
+    sub tml_Ra tml_MatraI by tml_RI;
+    sub tml_Rra tml_MatraI by tml_RrI;
+    sub tml_La tml_MatraI by tml_LI;
+    sub tml_Lla tml_MatraI by tml_LlI;
+    sub tml_Llla tml_MatraI by tml_LllI;
+    sub tml_Va tml_MatraI by tml_VI;
+    sub tml_Sa tml_MatraI by tml_SI;
+    sub tml_Sha tml_MatraI by tml_ShI;
+    sub tml_Ssa tml_MatraI by tml_SsI;
+    sub tml_Ha tml_MatraI by tml_HI;
+    sub tml_KSsa tml_MatraI by tml_KSsI;
+} tml_above_base_sub_1;
+
+lookup tml_above_base_sub_2 {
+    sub tml_Ka tml_MatraIi by tml_KIi;
+    sub tml_Nga tml_MatraIi by tml_NgIi;
+    sub tml_Ca tml_MatraIi by tml_CIi;
+    sub tml_Ja tml_MatraIi by tml_JIi;
+    sub tml_Nya tml_MatraIi by tml_NyIi;
+    sub tml_Tta tml_MatraIi by tml_TtIi;
+    sub tml_Nna tml_MatraIi by tml_NnIi;
+    sub tml_Ta tml_MatraIi by tml_TIi;
+    sub tml_Na tml_MatraIi by tml_NIi;
+    sub tml_Nnna tml_MatraIi by tml_NnnIi;
+    sub tml_Pa tml_MatraIi by tml_PIi;
+    sub tml_Ma tml_MatraIi by tml_MIi;
+    sub tml_Ya tml_MatraIi by tml_YIi;
+    sub tml_Ra tml_MatraIi by tml_RIi;
+    sub tml_Rra tml_MatraIi by tml_RrIi;
+    sub tml_La tml_MatraIi by tml_LIi;
+    sub tml_Lla tml_MatraIi by tml_LlIi;
+    sub tml_Llla tml_MatraIi by tml_LllIi;
+    sub tml_Va tml_MatraIi by tml_VIi;
+    sub tml_Sa tml_MatraIi by tml_SIi;
+    sub tml_Sha tml_MatraIi by tml_ShIi;
+    sub tml_Ssa tml_MatraIi by tml_SsIi;
+    sub tml_Ha tml_MatraIi by tml_HIi;
+    sub tml_KSsa tml_MatraIi by tml_KSsIi;
+ } tml_above_base_sub_2;
 
 
 #---- PSTS ----
 
-# lookup tml_post_base_sub_1 {
-#     sub tml_Ka tml_MatraU by tml_KU;
-#     sub tml_Nga tml_MatraU by tml_NgU;
-#     sub tml_Ca tml_MatraU by tml_CU;
-#     sub tml_Ja tml_MatraU by tml_JU;
-#     sub tml_Nya tml_MatraU by tml_NyU;
-#     sub tml_Tta tml_MatraU by tml_TtU;
-#     sub tml_Nna tml_MatraU by tml_NnU;
-#     sub tml_Ta tml_MatraU by tml_TU;
-#     sub tml_Na tml_MatraU by tml_NU;
-#     sub tml_Nnna tml_MatraU by tml_NnnU;
-#     sub tml_Pa tml_MatraU by tml_PU;
-#     sub tml_Ma tml_MatraU by tml_MU;
-#     sub tml_Ya tml_MatraU by tml_YU;
-#     sub tml_Ra tml_MatraU by tml_RU;
-#     sub tml_Rra tml_MatraU by tml_RrU;
-#     sub tml_La tml_MatraU by tml_LU;
-#     sub tml_Lla tml_MatraU by tml_LlU;
-#     sub tml_Llla tml_MatraU by tml_LllU;
-#     sub tml_Va tml_MatraU by tml_VU;
-#     sub tml_Sa tml_MatraU by tml_SU;
-#     sub tml_Sha tml_MatraU by tml_ShU;
-#     sub tml_Ssa tml_MatraU by tml_SsU;
-#     sub tml_Ha tml_MatraU by tml_HU;
-#     sub tml_KSsa tml_MatraU by tml_KSsU;
-# } tml_post_base_sub_1;
+lookup tml_post_base_sub_1 {
+    sub tml_Ka tml_MatraU by tml_KU;
+    sub tml_Nga tml_MatraU by tml_NgU;
+    sub tml_Ca tml_MatraU by tml_CU;
+    sub tml_Ja tml_MatraU by tml_JU;
+    sub tml_Nya tml_MatraU by tml_NyU;
+    sub tml_Tta tml_MatraU by tml_TtU;
+    sub tml_Nna tml_MatraU by tml_NnU;
+    sub tml_Ta tml_MatraU by tml_TU;
+    sub tml_Na tml_MatraU by tml_NU;
+    sub tml_Nnna tml_MatraU by tml_NnnU;
+    sub tml_Pa tml_MatraU by tml_PU;
+    sub tml_Ma tml_MatraU by tml_MU;
+    sub tml_Ya tml_MatraU by tml_YU;
+    sub tml_Ra tml_MatraU by tml_RU;
+    sub tml_Rra tml_MatraU by tml_RrU;
+    sub tml_La tml_MatraU by tml_LU;
+    sub tml_Lla tml_MatraU by tml_LlU;
+    sub tml_Llla tml_MatraU by tml_LllU;
+    sub tml_Va tml_MatraU by tml_VU;
+    sub tml_Sa tml_MatraU by tml_SU;
+    sub tml_Sha tml_MatraU by tml_ShU;
+    sub tml_Ssa tml_MatraU by tml_SsU;
+    sub tml_Ha tml_MatraU by tml_HU;
+    sub tml_KSsa tml_MatraU by tml_KSsU;
+} tml_post_base_sub_1;
 
-# lookup tml_post_base_sub_2 {
-#     sub tml_Ka tml_MatraUu by tml_KUu;
-#     sub tml_Nga tml_MatraUu by tml_NgUu;
-#     sub tml_Ca tml_MatraUu by tml_CUu;
-#     sub tml_Ja tml_MatraUu by tml_JUu;
-#     sub tml_Nya tml_MatraUu by tml_NyUu;
-#     sub tml_Tta tml_MatraUu by tml_TtUu;
-#     sub tml_Nna tml_MatraUu by tml_NnUu;
-#     sub tml_Ta tml_MatraUu by tml_TUu;
-#     sub tml_Na tml_MatraUu by tml_NUu;
-#     sub tml_Nnna tml_MatraUu by tml_NnnUu;
-#     sub tml_Pa tml_MatraUu by tml_PUu;
-#     sub tml_Ma tml_MatraUu by tml_MUu;
-#     sub tml_Ya tml_MatraUu by tml_YUu;
-#     sub tml_Ra tml_MatraUu by tml_RUu;
-#     sub tml_Rra tml_MatraUu by tml_RrUu;
-#     sub tml_La tml_MatraUu by tml_LUu;
-#     sub tml_Lla tml_MatraUu by tml_LlUu;
-#     sub tml_Llla tml_MatraUu by tml_LllUu;
-#     sub tml_Va tml_MatraUu by tml_VUu;
-#     sub tml_Sa tml_MatraUu by tml_SUu;
-#     sub tml_Sha tml_MatraUu by tml_ShUu;
-#     sub tml_Ssa tml_MatraUu by tml_SsUu;
-#     sub tml_Ha tml_MatraUu by tml_HUu;
-#     sub tml_KSsa tml_MatraUu by tml_KSsUu;
-#  } tml_post_base_sub_2;
+lookup tml_post_base_sub_2 {
+    sub tml_Ka tml_MatraUu by tml_KUu;
+    sub tml_Nga tml_MatraUu by tml_NgUu;
+    sub tml_Ca tml_MatraUu by tml_CUu;
+    sub tml_Ja tml_MatraUu by tml_JUu;
+    sub tml_Nya tml_MatraUu by tml_NyUu;
+    sub tml_Tta tml_MatraUu by tml_TtUu;
+    sub tml_Nna tml_MatraUu by tml_NnUu;
+    sub tml_Ta tml_MatraUu by tml_TUu;
+    sub tml_Na tml_MatraUu by tml_NUu;
+    sub tml_Nnna tml_MatraUu by tml_NnnUu;
+    sub tml_Pa tml_MatraUu by tml_PUu;
+    sub tml_Ma tml_MatraUu by tml_MUu;
+    sub tml_Ya tml_MatraUu by tml_YUu;
+    sub tml_Ra tml_MatraUu by tml_RUu;
+    sub tml_Rra tml_MatraUu by tml_RrUu;
+    sub tml_La tml_MatraUu by tml_LUu;
+    sub tml_Lla tml_MatraUu by tml_LlUu;
+    sub tml_Llla tml_MatraUu by tml_LllUu;
+    sub tml_Va tml_MatraUu by tml_VUu;
+    sub tml_Sa tml_MatraUu by tml_SUu;
+    sub tml_Sha tml_MatraUu by tml_ShUu;
+    sub tml_Ssa tml_MatraUu by tml_SsUu;
+    sub tml_Ha tml_MatraUu by tml_HUu;
+    sub tml_KSsa tml_MatraUu by tml_KSsUu;
+ } tml_post_base_sub_2;
 
 #---- SALT ----
 
-# lookup tml_stylistic_alternates_1 {
-#     sub tml_Nna tml_MatraAa by tml_NnAa.alt;
-#     sub tml_Nnna tml_MatraAa by tml_NnnAa.alt;
-#     sub tml_Rra tml_MatraAa by tml_RrAa.alt;
-# } tml_stylistic_alternates_1;
-#
-# lookup tml_stylistic_alternates_2 {
-#     sub tml_Ra tml_Virama by tml_RVirama.alt;
-#     sub tml_Ra tml_MatraI by tml_RI.alt;
-#     sub tml_Ra tml_MatraIi by tml_RIi.alt;
-# } tml_stylistic_alternates_2;
-#
-# lookup tml_stylistic_alternates_3 {
-#     sub tml_Nna tml_MatraAi by tml_NnAi;
-#     sub tml_Nnna tml_MatraAi by tml_NnnAi;
-#     sub tml_La tml_MatraAi by tml_LAi;
-#     sub tml_Lla tml_MatraAi by tml_LlAi;
-# } tml_stylistic_alternates_3;
-#
-# lookup tml_stylistic_alternates_4 {
-#     sub tml_KI by tml_KI.alt;
-#     sub tml_CI by tml_CI.alt;
-#     sub tml_TI by tml_TI.alt;
-#     sub tml_KIi by tml_KIi.alt;
-#     sub tml_CIi by tml_CIi.alt;
-#     sub tml_TIi by tml_TIi.alt;
-# } tml_stylistic_alternates_4;
+lookup tml_stylistic_alternates_1 {
+    sub tml_Nna tml_MatraAa by tml_NnAa.alt;
+    sub tml_Nnna tml_MatraAa by tml_NnnAa.alt;
+    sub tml_Rra tml_MatraAa by tml_RrAa.alt;
+} tml_stylistic_alternates_1;
 
-# lookup tml_above_base_mark_1 {
-#     markClass [\tml_Anusvara ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-#     markClass [\tml_Virama ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
-#
-#     pos base \tml_Ka <anchor 750 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Nga <anchor 1038 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Ca <anchor 712 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Ja <anchor 827 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Nya <anchor 1192 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Tta <anchor 788 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Nna <anchor 1615 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Ta <anchor 731 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Na <anchor 615 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Nnna <anchor 1212 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Pa <anchor 712 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Ma <anchor 846 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Ya <anchor 1000 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Rra <anchor 692 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_La <anchor 981 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Lla <anchor 1038 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Llla <anchor 769 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Va <anchor 1000 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Sha <anchor 1058 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Ssa <anchor 1288 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Sa <anchor 1212 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_Ha <anchor 1385 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     # pos base \tml_VowelAa <anchor 577 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-#     pos base \tml_KSsa <anchor 1500 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
-# } tml_above_base_mark_1;
+lookup tml_stylistic_alternates_2 {
+    sub tml_Ra tml_Virama by tml_RVirama.alt;
+    sub tml_Ra tml_MatraI by tml_RI.alt;
+    sub tml_Ra tml_MatraIi by tml_RIi.alt;
+} tml_stylistic_alternates_2;
+
+lookup tml_stylistic_alternates_3 {
+    sub tml_Nna tml_MatraAi by tml_NnAi;
+    sub tml_Nnna tml_MatraAi by tml_NnnAi;
+    sub tml_La tml_MatraAi by tml_LAi;
+    sub tml_Lla tml_MatraAi by tml_LlAi;
+} tml_stylistic_alternates_3;
+
+lookup tml_stylistic_alternates_4 {
+    sub tml_KI by tml_KI.alt;
+    sub tml_CI by tml_CI.alt;
+    sub tml_TI by tml_TI.alt;
+    sub tml_KIi by tml_KIi.alt;
+    sub tml_CIi by tml_CIi.alt;
+    sub tml_TIi by tml_TIi.alt;
+} tml_stylistic_alternates_4;
+
+lookup tml_above_base_mark_1 {
+    markClass [\tml_Anusvara ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+    markClass [\tml_Virama ] <anchor 0 0> @MARKS_CLASS_0_LUT0_SUB0;
+
+    pos base \tml_Ka <anchor 750 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Nga <anchor 1038 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Ca <anchor 712 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Ja <anchor 827 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Nya <anchor 1192 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Tta <anchor 788 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Nna <anchor 1615 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Ta <anchor 731 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Na <anchor 615 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Nnna <anchor 1212 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Pa <anchor 712 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Ma <anchor 846 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Ya <anchor 1000 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Rra <anchor 692 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_La <anchor 981 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Lla <anchor 1038 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Llla <anchor 769 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Va <anchor 1000 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Sha <anchor 1058 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Ssa <anchor 1288 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Sa <anchor 1212 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_Ha <anchor 1385 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    # pos base \tml_VowelAa <anchor 577 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+    pos base \tml_KSsa <anchor 1500 0> mark @MARKS_CLASS_0_LUT0_SUB0 ;
+} tml_above_base_mark_1;
+
+#----------- DUMMY GPOS --------
+#-------------------------------
+
+lookup dummy{
+	pos si_A <0 0 0 0>;
+}dummy;
 
 ##--------------- Features ---------------##
 
@@ -1024,10 +697,10 @@ feature akhn {
   script sinh;
       lookup si_akhands;
       # lookup si_touching;
-  # script taml;
-  #     lookup tml_akhands;
-  # script tml2;
-  #     lookup tml_akhands;
+  script taml;
+      lookup tml_akhands;
+  script tml2;
+      lookup tml_akhands;
 } akhn;
 
 #-------------
@@ -1066,12 +739,12 @@ feature abvs {
       lookup si_abvs_5;
       lookup si_abvs_6;
       lookup si_abvs_7;
-  # script taml;
-  #     lookup tml_above_base_sub_1;
-  #     lookup tml_above_base_sub_2;
-  # script tml2;
-  #     lookup tml_above_base_sub_1;
-  #     lookup tml_above_base_sub_2;
+  script taml;
+      lookup tml_above_base_sub_1;
+      lookup tml_above_base_sub_2;
+  script tml2;
+      lookup tml_above_base_sub_1;
+      lookup tml_above_base_sub_2;
 } abvs;
 
 #-------------
@@ -1090,12 +763,12 @@ feature blws {
 feature psts {
   script sinh;
       lookup si_raer;
-  # script taml;
-  #     lookup tml_post_base_sub_1;
-  #     lookup tml_post_base_sub_2;
-  # script tml2;
-  #     lookup tml_post_base_sub_1;
-  #     lookup tml_post_base_sub_2;
+  script taml;
+      lookup tml_post_base_sub_1;
+      lookup tml_post_base_sub_2;
+  script tml2;
+      lookup tml_post_base_sub_1;
+      lookup tml_post_base_sub_2;
 } psts;
 
 #-------------
@@ -1106,15 +779,15 @@ feature kern {
 
 feature dist {
     script sinh;
-      # lookup si_touch_pos;
+      lookup dummy;
 } dist;
 
 feature abvm {
     script sinh;
-    # script taml;
-    # lookup tml_above_base_mark_1;
-    # script tml2;
-    # lookup tml_above_base_mark_1;
+    script taml;
+    lookup tml_above_base_mark_1;
+    script tml2;
+    lookup tml_above_base_mark_1;
 } abvm;
 
 feature blwm {
@@ -1123,54 +796,54 @@ feature blwm {
 
 #-------------
 
-# feature salt {
-#     script taml;
-#         lookup tml_stylistic_alternates_1;
-#         lookup tml_stylistic_alternates_2;
-#         lookup tml_stylistic_alternates_3;
-#         lookup tml_stylistic_alternates_4;
-#     script tml2;
-#         lookup tml_stylistic_alternates_1;
-#         lookup tml_stylistic_alternates_2;
-#         lookup tml_stylistic_alternates_3;
-#         lookup tml_stylistic_alternates_4;
-# } salt;
-#
-# feature ss01 {
-#   script sinh;
-#     lookup si_da_style;
-#   script taml;
-#      lookup tml_stylistic_alternates_1;
-#   script tml2;
-#      lookup tml_stylistic_alternates_1;
-# } ss01;
-#
-# #-------------
-#
-# feature ss02 {
-#     script taml;
-#         lookup tml_stylistic_alternates_2;
-#     script tml2;
-#         lookup tml_stylistic_alternates_2;
-# } ss02;
-#
-# #-------------
-#
-# feature ss03 {
-#     script taml;
-#         lookup tml_stylistic_alternates_3;
-#     script tml2;
-#         lookup tml_stylistic_alternates_3;
-# } ss03;
-#
-# #-------------
-#
-# feature ss04 {
-#     script taml;
-#         lookup tml_stylistic_alternates_4;
-#     script tml2;
-#         lookup tml_stylistic_alternates_4;
-# } ss04;
+feature salt {
+    script taml;
+        lookup tml_stylistic_alternates_1;
+        lookup tml_stylistic_alternates_2;
+        lookup tml_stylistic_alternates_3;
+        lookup tml_stylistic_alternates_4;
+    script tml2;
+        lookup tml_stylistic_alternates_1;
+        lookup tml_stylistic_alternates_2;
+        lookup tml_stylistic_alternates_3;
+        lookup tml_stylistic_alternates_4;
+} salt;
+
+feature ss01 {
+  # script sinh;
+  #   lookup si_da_style;
+  script taml;
+     lookup tml_stylistic_alternates_1;
+  script tml2;
+     lookup tml_stylistic_alternates_1;
+} ss01;
+
+#-------------
+
+feature ss02 {
+    script taml;
+        lookup tml_stylistic_alternates_2;
+    script tml2;
+        lookup tml_stylistic_alternates_2;
+} ss02;
+
+#-------------
+
+feature ss03 {
+    script taml;
+        lookup tml_stylistic_alternates_3;
+    script tml2;
+        lookup tml_stylistic_alternates_3;
+} ss03;
+
+#-------------
+
+feature ss04 {
+    script taml;
+        lookup tml_stylistic_alternates_4;
+    script tml2;
+        lookup tml_stylistic_alternates_4;
+} ss04;
 
 ##--------------- Std Ligature ---------------##
 
