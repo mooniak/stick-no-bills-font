@@ -13,11 +13,19 @@ STICK NO BILLS™ Font
 
 STICK NO BILLS - was developed as the bespoke Libre typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. Now with financial support from Google Mooniak is expanding it to multiple weights and multi script support. We welcome improvments and contributions.
  
- The first drawings were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more langauges. The stencil structure is lightly based on stensil letters found in streets. STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes. 
+The first drawings were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more langauges. The stencil structure is lightly based on stensil letters found in streets. STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes.
+ 
+It is a stencil style trilingual Sinhala Tamil and Latin font face came to the arena as the bespoke typeface of the Stick No Bills™ Poster Gallery in Galle, Sri Lanka.
 
+Stencil is the solutions for creating a reproducible, replicable lettering. Sinhala stenciled letters can be seen in mainly Sri Lankan Railway cars and busses.  There is no  accepted style or common consensus on the cuts and that is the beauty of stencil. All of these have different stencil cuts in very different places without an aim to make-up overall harmony. This project is inspired partly  by existing Sinhala and Tamil stencil lettering around us. But we built the letters of all three alphabets in thinking about the stencil structure ground up. Therefore it is a novel face but very readable.
 
-See our [blog post](http://blog.mooniak.com/tagged/sticknobillsfont) on the process.
-See [videos](https://www.youtube.com/playlist?list=PLpw12zH02-AlMNu3QMfNtlES1UXHR_0v-)
+STICK NO BILLS - was developed as the bespoke Libre typeface of Stick No Bills™ Poster Gallery in Galle, Sri Lanka. Stick No Bills™ houses a collection of Sri Lankan posters created from the years of late 19th century. The first drawings were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is worked on further refining and developing. Now with financial support from Google Mooniak is expanding it to multiple weights and multi script support.
+
+STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes. The designers of Mooniak, the collaborative collective of creatives based in Colombo, Sri Lanka led the project. For Mooniak Kosala Senevirathne with Latin and Sinhala design, Lasantha Premarathne in Latin design, Siva Puran and Tharique Azeez in Tamil design and testing, Pathum Egodawatta and Ayantha Randika in consulting, managing and Opentype engineering contributed to the project.
+
+See the [Web specimen](http://mooniak.com/stick-no-bills-font/)
+See our [blog posts](http://blog.mooniak.com/tagged/sticknobillsfont) on the process.
+See [process videos](https://www.youtube.com/playlist?list=PLpw12zH02-AlMNu3QMfNtlES1UXHR_0v-)
 
 
 ## Repository Structure
@@ -32,7 +40,7 @@ This repo is the active devleopment repo of the project. So files move here and 
 
 - `/sources/sfd` contains source `.sfd` files which opens in [FontForge](http://fontforge.github.io/en-US/). These files are under active developemnt. There might be some FontForge revision files around too.
 
-- See `/documentation` for screenshots, testing documents and specimens.
+- See `/documentation` for screenshots, corrospondance and testing documents.
 
 
 
@@ -67,8 +75,8 @@ Special thanks to STICK NO BILLS Gallery for help us making this project open an
 - Kosala Senevirathne (@kosalaya) of mooniak
 - Lasantha Premarathne (@lazpremarathna) of mooniak
 - Siva Puranthara of mooniak
+- Tharique Azeez
 - Ayantha Randika (@paarandika) of mooniak
-
 
 
 ## License
