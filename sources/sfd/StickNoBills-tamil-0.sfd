@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727157
-ModificationTime: 1450443010
+ModificationTime: 1450450840
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -12899,25 +12899,28 @@ GlifName: tml_U_
 Width: 1003
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 122 141 122 545 159 583 84
 VStem: 4 122 22 148 266 122 436 123
 LayerCount: 2
 Fore
 SplineSet
-40 472 m 256
- 40 593 124.586 696 267 696 c 256
+80.3999836408 486 m 0
+ 80 486 40.3805559758 486 40.3805559758 486 c 0
+ 54 612 130.112401722 696 267 696 c 256
  412.223 696 524 598 524 457 c 258
  524 430 l 257
  484 430 l 257
  484 457 l 258
  484 592 362.583 656 267 656 c 256
- 146.247 656 80 570.01 80 473 c 256
- 80 391 132 325 227 325 c 256
+ 151.671407964 656 86.0618214824 577.562079631 80.3999836408 486 c 0
+40.3437250373 459 m 0
+ 41 459 80.5157915912 459 80.5157915912 459 c 0
+ 92 380 137.471686318 325 227 325 c 256
  312.986 325 353.268 434 337 504 c 257
  378 504 l 257
  397.78 388 319.483 285 228 285 c 256
- 136 285 40 345 40 472 c 256
+ 139.197670804 285 46.6685676624 340.901609196 40.3437250373 459 c 0
 260 0 m 257
  260 38 l 257
  963 38 l 257
@@ -12941,7 +12944,6 @@ SplineSet
  101 128 101 33 101 33 c 256
  58 33 l 256
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13003,7 +13005,7 @@ GlifName: tml_U_u
 Width: 1383
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 122 141 122 149 101 343 101 537 101 545 159 583 84
 VStem: 39 122 57 148 301 122 471 123 659 103 659 140 883 101
 LayerCount: 2
@@ -13065,7 +13067,6 @@ SplineSet
  259 0 l 257
 EndSplineSet
 Refer: 173 2953 N 1 0 0 1 0 0 2
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13323,7 +13324,7 @@ GlifName: tml_V_irama
 Width: 0
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
