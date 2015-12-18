@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727163
-ModificationTime: 1449755418
+ModificationTime: 1450442772
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -476,12 +476,13 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 4
+WinInfo: 176 8 2
 Grid
 -1000 -209.399993896 m 0
  2000 -209.399993896 l 1024
   Named: "bottom"
 EndSplineSet
+AnchorClass2: "@MARKS_CLASS_0_LUT0_SUB0" "" 
 BeginChars: 191 191
 
 StartChar: .notdef
@@ -590,68 +591,68 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I225
+L225L
 sg8
-I116
+L116L
 sa(dp10
 g7
-I498
+L498L
 sg8
-I110
+L110L
 sa(dp11
 g7
-I681
+L681L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I762
+L762L
 sg8
-I41
+L41L
 sa(dp13
 g7
-I853
+L853L
 sg8
-I122
+L122L
 sa(dp14
 g7
-I853
+L853L
 sg8
-I3
+L3L
 sasS'hhints'
 p15
 (lp16
 (dp17
 g7
-I-127
+L-127L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I110
+L110L
 sg8
-I125
+L125L
 sa(dp19
 g7
-I205
+L205L
 sg8
-I119
+L119L
 sa(dp20
 g7
-I373
+L373L
 sg8
-I122
+L122L
 sa(dp21
 g7
-I562
+L562L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -690,73 +691,73 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I225
+L225L
 sg8
-I116
+L116L
 sa(dp10
 g7
-I498
+L498L
 sg8
-I110
+L110L
 sa(dp11
 g7
-I681
+L681L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I762
+L762L
 sg8
-I41
+L41L
 sa(dp13
 g7
-I853
+L853L
 sg8
-I122
+L122L
 sa(dp14
 g7
-I853
+L853L
 sg8
-I3
+L3L
 sa(dp15
 g7
-I1073
+L1073L
 sg8
-I122
+L122L
 sasS'hhints'
 p16
 (lp17
 (dp18
 g7
-I-293
+L-293L
 sg8
-I122
+L122L
 sa(dp19
 g7
-I-127
+L-127L
 sg8
-I122
+L122L
 sa(dp20
 g7
-I205
+L205L
 sg8
-I119
+L119L
 sa(dp21
 g7
-I373
+L373L
 sg8
-I122
+L122L
 sa(dp22
 g7
-I562
+L562L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -766,7 +767,7 @@ GlifName: tml_A_bove
 Width: 1561
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -797,7 +798,6 @@ SplineSet
  39 -5 l 256
 EndSplineSet
 Refer: 156 2999 S 1 0 0 1 303 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_Ai
@@ -890,53 +890,53 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I54
+L54L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I301
+L301L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I460
+L460L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I783
+L783L
 sg8
-I122
+L122L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-180
+L-180L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I158
+L158L
 sg8
-I122
+L122L
 sa(dp17
 g7
-I307
+L307L
 sg8
-I125
+L125L
 sa(dp18
 g7
-I569
+L569L
 sg8
-I127
+L127L
 sass."
 EndChar
 
@@ -970,14 +970,13 @@ GlifName: tml_A_u
 Width: 1845
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -132 123 0 122 29 122 237 123 266 123 472 123 573 122
 VStem: 39 171 39 124 317 123 483 123 733 123 910 171 910 131 910 124 1182 123 1343 123
 LayerCount: 2
 Fore
 Refer: 115 2962 N 1 0 0 1 0 0 2
 Refer: 61 2995 N 1 0 0 0.993388 869 -6.04297 2
-Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -988,93 +987,93 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I171
+L171L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I124
+L124L
 sa(dp10
 g7
-I317
+L317L
 sg8
-I123
+L123L
 sa(dp11
 g7
-I483
+L483L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I733
+L733L
 sg8
-I123
+L123L
 sa(dp13
 g7
-I910
+L910L
 sg8
-I171
+L171L
 sa(dp14
 g7
-I910
+L910L
 sg8
-I131
+L131L
 sa(dp15
 g7
-I910
+L910L
 sg8
-I124
+L124L
 sa(dp16
 g7
-I1182
+L1182L
 sg8
-I123
+L123L
 sa(dp17
 g7
-I1343
+L1343L
 sg8
-I123
+L123L
 sasS'hhints'
 p18
 (lp19
 (dp20
 g7
-I-132
+L-132L
 sg8
-I123
+L123L
 sa(dp21
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp22
 g7
-I29
+L29L
 sg8
-I122
+L122L
 sa(dp23
 g7
-I237
+L237L
 sg8
-I123
+L123L
 sa(dp24
 g7
-I266
+L266L
 sg8
-I123
+L123L
 sa(dp25
 g7
-I472
+L472L
 sg8
-I123
+L123L
 sa(dp26
 g7
-I573
+L573L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -1275,58 +1274,58 @@ p4
 (dp6
 S'position'
 p7
-I40
+L40L
 sS'width'
 p8
-I121
+L121L
 sa(dp9
 g7
-I165
+L165L
 sg8
-I163
+L163L
 sa(dp10
 g7
-I165
+L165L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I420
+L420L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I596
+L596L
 sg8
-I160
+L160L
 sa(dp13
 g7
-I606
+L606L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-1
+L-1L
 sg8
-I123
+L123L
 sa(dp17
 g7
-I249
+L249L
 sg8
-I62
+L62L
 sa(dp18
 g7
-I348
+L348L
 sg8
-I23
+L23L
 sa(dp19
 g7
-I470
+L470L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -1406,7 +1405,7 @@ SplineSet
  247 -207 l 258
  118.008886689 -206.591800274 53 -110 53 29 c 258
 EndSplineSet
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -1417,73 +1416,73 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I123
+L123L
 sa(dp9
 g7
-I205
+L205L
 sg8
-I121
+L121L
 sa(dp10
 g7
-I330
+L330L
 sg8
-I163
+L163L
 sa(dp11
 g7
-I330
+L330L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I585
+L585L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I771
+L771L
 sg8
-I122
+L122L
 sa(dp14
 g7
-I988
+L988L
 sg8
-I122
+L122L
 sasS'hhints'
 p15
 (lp16
 (dp17
 g7
-I-198
+L-198L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I-1
+L-1L
 sg8
-I123
+L123L
 sa(dp19
 g7
-I249
+L249L
 sg8
-I62
+L62L
 sa(dp20
 g7
-I348
+L348L
 sg8
-I23
+L23L
 sa(dp21
 g7
-I360
+L360L
 sg8
-I122
+L122L
 sa(dp22
 g7
-I470
+L470L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -1496,6 +1495,7 @@ GlyphClass: 2
 Flags: HW
 HStem: -1 123<224.5 269 322 355 224.5 405.5> 249 122<235 238 238 643> 348 23<235 286> 470 125<164 327 164 327 164 381 381 688> 470 118<164 541 381 541 419 541 419 688>
 VStem: 39 121<157.5 213.5 157.5 218 157.5 272> 164 163<470 586 470 595 586 586 470 595> 164 122<348 586> 419 122<187 191 191 588>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 372 -1 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1511,10 +1511,10 @@ SplineSet
  160.213044788 165.308488727 39 163 39 163 c 1
  39 157 l 258
  39 68 112 0 269 -1 c 257
- 287 121 l 261
+ 287 121 l 257
  204.227539062 121 162 123 160.310546875 163 c 0
 322 -1 m 257
- 340 121 l 261
+ 340 121 l 257
  406 121 419 141 419 187 c 258
  419 588 l 257
  541 588 l 257
@@ -1546,53 +1546,53 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I121
+L121L
 sa(dp9
 g7
-I164
+L164L
 sg8
-I163
+L163L
 sa(dp10
 g7
-I164
+L164L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I419
+L419L
 sg8
-I122
+L122L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I-1
+L-1L
 sg8
-I123
+L123L
 sa(dp15
 g7
-I249
+L249L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I348
+L348L
 sg8
-I23
+L23L
 sa(dp17
 g7
-I470
+L470L
 sg8
-I125
+L125L
 sa(dp18
 g7
-I470
+L470L
 sg8
-I118
+L118L
 sass."
 EndChar
 
@@ -1838,53 +1838,53 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I171
+L171L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I39
+L39L
 sg8
-I124
+L124L
 sa(dp11
 g7
-I317
+L317L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I484
+L484L
 sg8
-I123
+L123L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I1
+L1L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I238
+L238L
 sg8
-I123
+L123L
 sa(dp17
 g7
-I472
+L472L
 sg8
-I123
+L123L
 sa(dp18
 g7
-I472
+L472L
 sg8
-I105
+L105L
 sass."
 EndChar
 
@@ -1920,58 +1920,58 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I124
+L124L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I39
+L39L
 sg8
-I171
+L171L
 sa(dp11
 g7
-I317
+L317L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I484
+L484L
 sg8
-I123
+L123L
 sa(dp13
 g7
-I484
+L484L
 sg8
-I123
+L123L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I1
+L1L
 sg8
-I122
+L122L
 sa(dp17
 g7
-I238
+L238L
 sg8
-I123
+L123L
 sa(dp18
 g7
-I472
+L472L
 sg8
-I105
+L105L
 sa(dp19
 g7
-I472
+L472L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -2160,7 +2160,6 @@ SplineSet
  1397.23185411 629 1413.78546969 912.8795465 1218 939.935388193 c 13
 EndSplineSet
 Refer: 29 3001 S 1 0 0 1 9 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_HU
@@ -2188,7 +2187,6 @@ SplineSet
  1174.00976562 482 l 261
 EndSplineSet
 Refer: 29 3001 S 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_HUu
@@ -2229,7 +2227,6 @@ SplineSet
  1397.00976562 601 l 256
 EndSplineSet
 Refer: 29 3001 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_Ha
@@ -2241,79 +2238,79 @@ GlyphClass: 2
 Flags: HW
 HStem: -210 122<242.556 308 1122 1192.9> 0 123<184.324 221 276 314.598 464 496.925 618 665> 237 122<186.474 221 276 314.996> 474 122<239.075 307 361 440.231> 481 123<847.036 872 926 964.743 1085.53 1125 1177 1216.49>
 VStem: 49 172<117.935 122 237 359> 49 125<130.36 224.825 226 228.444> 102 122<-311 -222.636> 322 123<127.381 231.505> 464 201<0 123> 497 121<125.125 418.819> 719 124<0 479.363> 965 123<0 479.197> 1220 122<-59.2922 70 458 478.215>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 1021 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-1342 217 m 13xe19c
- 1220 217 l 5
- 1220 70 l 262
- 1220 -66 1193 -102 1122 -98 c 260
- 1033.140625 -92.994140625 400 -98 308 -98 c 260
- 152.393554688 -98 102 -157.974609375 102 -311 c 261
- 224 -311 l 261
- 224 -237.724609375 239.41796875 -210 282 -210 c 262
- 1149 -210 l 262
- 1293 -210 1342 -118 1342 70 c 262
- 1342 217 l 13xe19c
-1220 272 m 13
- 1342 272 l 5
- 1342 473 l 262
- 1341 528 1290 604 1177 604 c 261xe89c
- 1177 482 l 261
- 1199 482 1220 479 1220 458 c 262
- 1220 272 l 13
-361 474 m 261xf0bc
- 361 596 l 261
- 530.176757812 596 616.953125 481.998046875 618 355 c 261
- 618 123 l 261xf0bc
- 665 123 l 261
- 665 0 l 261
- 464 0 l 261
- 464 123 l 261xf0dc
- 471 124 497 127 497 146 c 262
- 497 354 l 261
- 495.974609375 423.732421875 437.922851562 474 361 474 c 261xf0bc
-926 481 m 261xe89c
- 926 604 l 261
- 972 604 1002 595 1026 574 c 261
- 1054 597 1086 604 1125 604 c 261
- 1125 482 l 261
- 1107 482 1085 479 1085 457 c 262
- 1088 0 l 261
- 965 -1 l 261
- 965 457 l 262
- 965 471 952 481 926 481 c 261xe89c
-49 151 m 260xe29c
- 49 193 50 140 49 220 c 260xe29c
- 48 324 171 359 221 359 c 261
- 221 237 l 260xe49c
- 192 237 174 210 174 181 c 260xe29c
- 174 149 188 122 221 122 c 261
- 221 0 l 260xe49c
- 119 0 49 91 49 151 c 260xe29c
-276 0 m 261
- 276 122 l 260
- 317 122 323 150 322 181 c 260
- 321 208 318 237 276 237 c 261
- 276 359 l 260
- 372 359 445 276 445 224 c 262
- 445 152 l 262
- 446 89 385 0 276 0 c 261
-719 0 m 261
- 719 477 l 262
- 719 527 760 604 872 604 c 261
- 872 481 l 261xe89c
- 847 481 843 469 843 456 c 262
- 843 0 l 261
- 719 0 l 261
-49 226 m 261xf29c
- 49 282 l 262xf49c
- 49 374.994140625 79.005859375 596 307 596 c 261
- 307 474 l 261
- 241.887695312 474 192.224609375 432.383789062 185 356 c 260
- 180 299 55 256 49 226 c 261xf29c
+1342 217 m 9xe19c
+ 1220 217 l 1
+ 1220 70 l 258
+ 1220 -66 1193 -102 1122 -98 c 256
+ 1033.140625 -92.994140625 400 -98 308 -98 c 256
+ 152.393554688 -98 102 -157.974609375 102 -311 c 257
+ 224 -311 l 257
+ 224 -237.724609375 239.41796875 -210 282 -210 c 258
+ 1149 -210 l 258
+ 1293 -210 1342 -118 1342 70 c 258
+ 1342 217 l 9xe19c
+1220 272 m 9
+ 1342 272 l 1
+ 1342 473 l 258
+ 1341 528 1290 604 1177 604 c 257xe89c
+ 1177 482 l 257
+ 1199 482 1220 479 1220 458 c 258
+ 1220 272 l 9
+361 474 m 257xf0bc
+ 361 596 l 257
+ 530.176757812 596 616.953125 481.998046875 618 355 c 257
+ 618 123 l 257xf0bc
+ 665 123 l 257
+ 665 0 l 257
+ 464 0 l 257
+ 464 123 l 257xf0dc
+ 471 124 497 127 497 146 c 258
+ 497 354 l 257
+ 495.974609375 423.732421875 437.922851562 474 361 474 c 257xf0bc
+926 481 m 257xe89c
+ 926 604 l 257
+ 972 604 1002 595 1026 574 c 257
+ 1054 597 1086 604 1125 604 c 257
+ 1125 482 l 257
+ 1107 482 1085 479 1085 457 c 258
+ 1088 0 l 257
+ 965 -1 l 257
+ 965 457 l 258
+ 965 471 952 481 926 481 c 257xe89c
+49 151 m 256xe29c
+ 49 193 50 140 49 220 c 256xe29c
+ 48 324 171 359 221 359 c 257
+ 221 237 l 256xe49c
+ 192 237 174 210 174 181 c 256xe29c
+ 174 149 188 122 221 122 c 257
+ 221 0 l 256xe49c
+ 119 0 49 91 49 151 c 256xe29c
+276 0 m 257
+ 276 122 l 256
+ 317 122 323 150 322 181 c 256
+ 321 208 318 237 276 237 c 257
+ 276 359 l 256
+ 372 359 445 276 445 224 c 258
+ 445 152 l 258
+ 446 89 385 0 276 0 c 257
+719 0 m 257
+ 719 477 l 258
+ 719 527 760 604 872 604 c 257
+ 872 481 l 257xe89c
+ 847 481 843 469 843 456 c 258
+ 843 0 l 257
+ 719 0 l 257
+49 226 m 257xf29c
+ 49 282 l 258xf49c
+ 49 374.994140625 79.005859375 596 307 596 c 257
+ 307 474 l 257
+ 241.887695312 474 192.224609375 432.383789062 185 356 c 256
+ 180 299 55 256 49 226 c 257xf29c
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -2324,73 +2321,73 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I172
+L172L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I125
+L125L
 sa(dp10
 g7
-I92
+L92L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I312
+L312L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I487
+L487L
 sg8
-I121
+L121L
 sa(dp13
 g7
-I731
+L731L
 sg8
-I129
+L129L
 sa(dp14
 g7
-I982
+L982L
 sg8
-I122
+L122L
 sa(dp15
 g7
-I1236
+L1236L
 sg8
-I122
+L122L
 sasS'hhints'
 p16
 (lp17
 (dp18
 g7
-I-155
+L-155L
 sg8
-I122
+L122L
 sa(dp19
 g7
-I0
+L0L
 sg8
-I123
+L123L
 sa(dp20
 g7
-I237
+L237L
 sg8
-I123
+L123L
 sa(dp21
 g7
-I474
+L474L
 sg8
-I122
+L122L
 sa(dp22
 g7
-I481
+L481L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -2509,7 +2506,7 @@ SplineSet
  366 -119 l 256
  304 -54 267 -27 231 61 c 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -2520,78 +2517,78 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I121
+L121L
 sa(dp9
 g7
-I342
+L342L
 sg8
-I89
+L89L
 sa(dp10
 g7
-I659
+L659L
 sg8
-I54
+L54L
 sa(dp11
 g7
-I784
+L784L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I944
+L944L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I981
+L981L
 sg8
-I123
+L123L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-141
+L-141L
 sg8
-I119
+L119L
 sa(dp17
 g7
-I35
+L35L
 sg8
-I121
+L121L
 sa(dp18
 g7
-I131
+L131L
 sg8
-I11
+L11L
 sa(dp19
 g7
-I136
+L136L
 sg8
-I122
+L122L
 sa(dp20
 g7
-I141
+L141L
 sg8
-I90
+L90L
 sa(dp21
 g7
-I279
+L279L
 sg8
-I122
+L122L
 sa(dp22
 g7
-I424
+L424L
 sg8
-I121
+L121L
 sa(dp23
 g7
-I583
+L583L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -2649,43 +2646,43 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I178
+L178L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I178
+L178L
 sg8
-I125
+L125L
 sa(dp11
 g7
-I466
+L466L
 sg8
-I125
+L125L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I1
+L1L
 sg8
-I21
+L21L
 sa(dp15
 g7
-I187
+L187L
 sg8
-I125
+L125L
 sa(dp16
 g7
-I473
+L473L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -2868,7 +2865,7 @@ GlifName: tml_J_U_
 Width: 1316
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2887,7 +2884,6 @@ SplineSet
  718 560 l 257
 EndSplineSet
 Refer: 37 2972 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_JUu
@@ -2896,7 +2892,7 @@ GlifName: tml_J_U_u
 Width: 1467
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2928,7 +2924,6 @@ SplineSet
  1105.13 363 l 258
 EndSplineSet
 Refer: 37 2972 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_Ja
@@ -2937,9 +2932,10 @@ GlifName: tml_J_a
 Width: 950
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -178 123<347 367 347 405> 16 124<598 664 598 664 580 664 598 718> 158 123<225.5 718 262 718 718 736> 307 125<162.5 260 260 301> 561 123<664 664 664 718> 569 127<212.5 251.5>
 VStem: 40 122<436.5 518.5 472 518.5 482.5 509.5> 55 122<13.5 69.5 13.5 83 13.5 123.5> 302 122<483 499 440.5 518.5> 410 119 461 122<320 408 371 408 408 451 320 468 408 451 320 475.5 320 534.5> 782 122<-37 -3.5>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 511 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3006,7 +3002,6 @@ SplineSet
  904 -151 774 -177 619 -177 c 256
  619 -55 l 256
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -3017,68 +3012,68 @@ p4
 (dp6
 S'position'
 p7
-I40
+L40L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I55
+L55L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I302
+L302L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I410
+L410L
 sg8
-I119
+L119L
 sa(dp12
 g7
-I461
+L461L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I782
+L782L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-178
+L-178L
 sg8
-I123
+L123L
 sa(dp17
 g7
-I16
+L16L
 sg8
-I124
+L124L
 sa(dp18
 g7
-I158
+L158L
 sg8
-I123
+L123L
 sa(dp19
 g7
-I307
+L307L
 sg8
-I125
+L125L
 sa(dp20
 g7
-I561
+L561L
 sg8
-I123
+L123L
 sa(dp21
 g7
-I569
+L569L
 sg8
-I127
+L127L
 sass."
 EndChar
 
@@ -3109,7 +3104,6 @@ SplineSet
  420 588 l 257
 EndSplineSet
 Refer: 49 2965 N 1 0 0 1 -8 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_KI.alt
@@ -3138,7 +3132,6 @@ SplineSet
  852.702 697 620.702 733 518.702 733 c 257
 EndSplineSet
 Refer: 49 2965 N 1 0 0 1 12.7024 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_KIi
@@ -3165,7 +3158,6 @@ SplineSet
  419 474.656 l 257
 EndSplineSet
 Refer: 49 2965 N 1 0 0 1 -8 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_KIi.alt
@@ -3193,7 +3185,6 @@ SplineSet
  66 272 l 257
 EndSplineSet
 Refer: 49 2965 N 1 0 0 1 0 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_KSsI
@@ -3725,7 +3716,8 @@ GlifName: tml_K_S_sa
 Width: 1818
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 1131 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3831,7 +3823,6 @@ SplineSet
  1778 0 l 257
  1678 0 l 257
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: tml_KU
@@ -3974,7 +3965,7 @@ SplineSet
  1562 -1 l 257
  1376.66699219 -3.5322265625 1421.33300781 -0.84765625 1236 -1 c 257
 EndSplineSet
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -3985,58 +3976,58 @@ p4
 (dp6
 S'position'
 p7
-I40
+L40L
 sS'width'
 p8
-I121
+L121L
 sa(dp9
 g7
-I165
+L165L
 sg8
-I163
+L163L
 sa(dp10
 g7
-I165
+L165L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I420
+L420L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I627
+L627L
 sg8
-I123
+L123L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-1
+L-1L
 sg8
-I123
+L123L
 sa(dp16
 g7
-I21
+L21L
 sg8
-I120
+L120L
 sa(dp17
 g7
-I249
+L249L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I348
+L348L
 sg8
-I23
+L23L
 sa(dp19
 g7
-I470
+L470L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -4049,6 +4040,7 @@ GlyphClass: 2
 Flags: HW
 HStem: -11 123<232.5 277 232.5 277 331 364 232.5 414.5> 2 124<571 609 571 636> 249 122<226 229 229 603 603 611> 348 23<226 295> 470 125<173 335 173 335 173 389 389 682> 470 71<389 550 428 550 428 682>
 VStem: 48 121<157.5 213.5 157.5 240 157.5 293.5> 173 162<470 539 470 595 539 539 470 595> 173 122<348 539> 428 122<187 191 191 541> 664 122<157 212>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 431 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4098,7 +4090,6 @@ SplineSet
  335 470 l 257
  173 470 l 257
 EndSplineSet
-Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -4109,63 +4100,63 @@ p4
 (dp6
 S'position'
 p7
-I48
+L48L
 sS'width'
 p8
-I121
+L121L
 sa(dp9
 g7
-I173
+L173L
 sg8
-I162
+L162L
 sa(dp10
 g7
-I173
+L173L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I428
+L428L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I664
+L664L
 sg8
-I122
+L122L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-11
+L-11L
 sg8
-I123
+L123L
 sa(dp16
 g7
-I2
+L2L
 sg8
-I124
+L124L
 sa(dp17
 g7
-I249
+L249L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I348
+L348L
 sg8
-I23
+L23L
 sa(dp19
 g7
-I470
+L470L
 sg8
-I125
+L125L
 sa(dp20
 g7
-I470
+L470L
 sg8
-I71
+L71L
 sass."
 EndChar
 
@@ -4243,7 +4234,7 @@ GlifName: tml_L_I_
 Width: 1086
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4263,7 +4254,6 @@ SplineSet
  555.006 810 533.006 461 724.006 461 c 257
 EndSplineSet
 Refer: 55 2994 N 1 0 0 1 1.00611 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_LIi
@@ -4374,58 +4364,58 @@ p4
 (dp6
 S'position'
 p7
-I51
+L51L
 sS'width'
 p8
-I124
+L124L
 sa(dp9
 g7
-I51
+L51L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I51
+L51L
 sg8
-I171
+L171L
 sa(dp11
 g7
-I323
+L323L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I743
+L743L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-257
+L-257L
 sg8
-I94
+L94L
 sa(dp17
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I237
+L237L
 sg8
-I123
+L123L
 sa(dp19
 g7
-I485
+L485L
 sg8
-I121
+L121L
 sass."
 EndChar
 
@@ -4435,7 +4425,7 @@ GlifName: tml_L_U_u
 Width: 1448
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -257 94<172.5 407 189 407 461 690 690 691 189 461> 0 122 237 123 485 121
 VStem: 51 124 51 131 51 171 323 123 483 122 743 122<-80 231>
 LayerCount: 2
@@ -4480,7 +4470,6 @@ SplineSet
  1151 474 l 257
 EndSplineSet
 Refer: 55 2994 N 1 0 0 1 10 0 2
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -4491,58 +4480,58 @@ p4
 (dp6
 S'position'
 p7
-I51
+L51L
 sS'width'
 p8
-I124
+L124L
 sa(dp9
 g7
-I51
+L51L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I51
+L51L
 sg8
-I171
+L171L
 sa(dp11
 g7
-I323
+L323L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I743
+L743L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-257
+L-257L
 sg8
-I94
+L94L
 sa(dp17
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I237
+L237L
 sg8
-I123
+L123L
 sa(dp19
 g7
-I485
+L485L
 sg8
-I121
+L121L
 sass."
 EndChar
 
@@ -4552,9 +4541,10 @@ GlifName: tml_L_a
 Width: 892
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 122<193.5 210 193.5 210 265 285.5 193.5 319.5> 237 123 485 121<264.5 297>
 VStem: 39 171<0 220 237 323 323 359> 39 131<151 377 298.5 323 323 373.5> 39 124<165 195.5 165 220 165 323> 311 123 472 122<151.5 165 151.5 165> 731 122
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 551 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4599,7 +4589,6 @@ SplineSet
  731 458 719 471 681 471 c 257
  680 594 l 257
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -4610,53 +4599,53 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I171
+L171L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I39
+L39L
 sg8
-I124
+L124L
 sa(dp11
 g7
-I311
+L311L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I472
+L472L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I731
+L731L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp17
 g7
-I237
+L237L
 sg8
-I123
+L123L
 sa(dp18
 g7
-I485
+L485L
 sg8
-I121
+L121L
 sass."
 EndChar
 
@@ -4811,7 +4800,7 @@ GlifName: tml_L_lI_i
 Width: 1150
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4829,7 +4818,6 @@ SplineSet
  740.006 482.656 l 257
 EndSplineSet
 Refer: 61 2995 N 1 0 0 1 -0.993638 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_LlU
@@ -4838,7 +4826,7 @@ GlifName: tml_L_lU_
 Width: 1350
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4866,7 +4854,6 @@ SplineSet
  708 -178 l 257
 EndSplineSet
 Refer: 61 2995 N 1 0 0 1 228 -3 2
-Validated: 37
 EndChar
 
 StartChar: tml_LlUu
@@ -4875,7 +4862,7 @@ GlifName: tml_L_lU_u
 Width: 1461
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -4909,7 +4896,6 @@ SplineSet
  819.028 -54 l 257
 EndSplineSet
 Refer: 61 2995 N 1 0 0 1 339.028 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_Lla
@@ -4918,9 +4904,10 @@ GlifName: tml_L_la
 Width: 976
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 122<195.5 212 195.5 212 267 287.5 195.5 321.5> 237 123 482 123<639.5 660 714 938>
 VStem: 41 171<0 220 237 326 326 359> 41 131<151 377 298.5 326 326 376.5> 41 124<165 195.5 165 220 165 326> 313 123
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 531 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4969,7 +4956,6 @@ SplineSet
  938 482 l 257
  714 482 l 257
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -4980,43 +4966,43 @@ p4
 (dp6
 S'position'
 p7
-I41
+L41L
 sS'width'
 p8
-I171
+L171L
 sa(dp9
 g7
-I41
+L41L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I41
+L41L
 sg8
-I124
+L124L
 sa(dp11
 g7
-I313
+L313L
 sg8
-I123
+L123L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp15
 g7
-I237
+L237L
 sg8
-I123
+L123L
 sa(dp16
 g7
-I482
+L482L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -5153,7 +5139,7 @@ GlifName: tml_L_llU_
 Width: 892
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -258 93<191.5 377 262 377 262 377 262 431 431 653> -146 179 0 123 107 17 122 1 483 122
 VStem: 52 123<-85 -53 -85 -52> 267 122 470 122<-146 32 -146 32> 471 122 587 5<-120 -27 -27 -27> 653 93<-165 -120 -120 -120> 730 123
 LayerCount: 2
@@ -5190,7 +5176,6 @@ SplineSet
  470 32 l 257
 EndSplineSet
 Refer: 71 2990 N 1 0 0 1 228 0 2
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -5201,73 +5186,73 @@ p4
 (dp6
 S'position'
 p7
-I52
+L52L
 sS'width'
 p8
-I123
+L123L
 sa(dp9
 g7
-I267
+L267L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I470
+L470L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I471
+L471L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I587
+L587L
 sg8
-I5
+L5L
 sa(dp13
 g7
-I653
+L653L
 sg8
-I93
+L93L
 sa(dp14
 g7
-I730
+L730L
 sg8
-I123
+L123L
 sasS'hhints'
 p15
 (lp16
 (dp17
 g7
-I-258
+L-258L
 sg8
-I93
+L93L
 sa(dp18
 g7
-I-146
+L-146L
 sg8
-I179
+L179L
 sa(dp19
 g7
-I0
+L0L
 sg8
-I123
+L123L
 sa(dp20
 g7
-I107
+L107L
 sg8
-I17
+L17L
 sa(dp21
 g7
-I122
+L122L
 sg8
-I1
+L1L
 sa(dp22
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -5277,7 +5262,7 @@ GlifName: tml_L_llU_u
 Width: 1003
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -258 93<179.5 488 250 488 250 488 250 542 542 765> -146 179 2 123 108 17 124 1 442 122<196 206 206 216> 485 122
 VStem: 39 125<-52 353> 239 122<397 419.5> 378 122 581 122<-146 32 -146 32> 582 122 698 5<-120 -27 -27 -27> 765 93 842 123
 LayerCount: 2
@@ -5318,7 +5303,6 @@ SplineSet
  581 32 l 257
 EndSplineSet
 Refer: 71 2990 N 1 0 0 1 339 2 2
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -5329,83 +5313,83 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I125
+L125L
 sa(dp9
 g7
-I239
+L239L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I378
+L378L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I581
+L581L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I582
+L582L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I698
+L698L
 sg8
-I5
+L5L
 sa(dp14
 g7
-I765
+L765L
 sg8
-I93
+L93L
 sa(dp15
 g7
-I842
+L842L
 sg8
-I123
+L123L
 sasS'hhints'
 p16
 (lp17
 (dp18
 g7
-I-258
+L-258L
 sg8
-I93
+L93L
 sa(dp19
 g7
-I-146
+L-146L
 sg8
-I179
+L179L
 sa(dp20
 g7
-I2
+L2L
 sg8
-I123
+L123L
 sa(dp21
 g7
-I108
+L108L
 sg8
-I17
+L17L
 sa(dp22
 g7
-I124
+L124L
 sg8
-I1
+L1L
 sa(dp23
 g7
-I442
+L442L
 sg8
-I122
+L122L
 sa(dp24
 g7
-I485
+L485L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -5415,9 +5399,10 @@ GlifName: tml_L_lla
 Width: 663
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -145 123<429 559> 0 123 107 17 122 1 483 122
 VStem: 39 122 243 122<-14 1 -14 1> 503 123
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 441 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5434,7 +5419,6 @@ SplineSet
  265 -146 243 -60 243 1 c 257
 EndSplineSet
 Refer: 71 2990 N 1 0 0 1 0 0 2
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -5445,48 +5429,48 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I243
+L243L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I503
+L503L
 sg8
-I123
+L123L
 sasS'hhints'
 p11
 (lp12
 (dp13
 g7
-I-145
+L-145L
 sg8
-I123
+L123L
 sa(dp14
 g7
-I0
+L0L
 sg8
-I123
+L123L
 sa(dp15
 g7
-I107
+L107L
 sg8
-I17
+L17L
 sa(dp16
 g7
-I122
+L122L
 sg8
-I1
+L1L
 sa(dp17
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -5601,7 +5585,7 @@ GlifName: tml_M_U_
 Width: 915
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -151 122 0 123 107 17 122 1 483 122 634 122<201 238>
 VStem: 39 123 289 122 493 122<-56 15 -91.5 15> 753 123
 LayerCount: 2
@@ -5628,7 +5612,6 @@ SplineSet
  394 -56 l 256
 EndSplineSet
 Refer: 71 2990 N 1 0 0 1 250 0 2
-Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -5639,58 +5622,58 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I123
+L123L
 sa(dp9
 g7
-I289
+L289L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I493
+L493L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I753
+L753L
 sg8
-I123
+L123L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I-151
+L-151L
 sg8
-I122
+L122L
 sa(dp15
 g7
-I0
+L0L
 sg8
-I123
+L123L
 sa(dp16
 g7
-I107
+L107L
 sg8
-I17
+L17L
 sa(dp17
 g7
-I122
+L122L
 sg8
-I1
+L1L
 sa(dp18
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sa(dp19
 g7
-I634
+L634L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -5700,7 +5683,7 @@ GlifName: tml_M_U_u
 Width: 1016
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -151 122 0 123 107 17 122 1 442 122<196 206 206 216> 483 122
 VStem: 39 125<27 353> 239 122<397 419.5> 391 122 595 122<-56 15 -91.5 15> 854 123
 LayerCount: 2
@@ -5733,7 +5716,6 @@ SplineSet
  495 -56 l 256
 EndSplineSet
 Refer: 71 2990 N 1 0 0 1 352 0 2
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -5744,63 +5726,63 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I125
+L125L
 sa(dp9
 g7
-I239
+L239L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I391
+L391L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I595
+L595L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I854
+L854L
 sg8
-I123
+L123L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-151
+L-151L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I0
+L0L
 sg8
-I123
+L123L
 sa(dp17
 g7
-I107
+L107L
 sg8
-I17
+L17L
 sa(dp18
 g7
-I122
+L122L
 sg8
-I1
+L1L
 sa(dp19
 g7
-I442
+L442L
 sg8
-I122
+L122L
 sa(dp20
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -5810,9 +5792,10 @@ GlifName: tml_M_a
 Width: 663
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 123<39 405 39 405 459 479 39 499.5> 107 17 122 1<243 243 243 365> 483 122<388 405 459 479.5>
 VStem: 39 122<107 123 107 595 123 123 107 595> 243 122<122 434 122 434> 503 123
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 411 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5843,7 +5826,6 @@ SplineSet
  405 0 l 257
  39 0 l 257
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -5854,43 +5836,43 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I243
+L243L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I503
+L503L
 sg8
-I123
+L123L
 sasS'hhints'
 p11
 (lp12
 (dp13
 g7
-I0
+L0L
 sg8
-I123
+L123L
 sa(dp14
 g7
-I107
+L107L
 sg8
-I17
+L17L
 sa(dp15
 g7
-I122
+L122L
 sg8
-I1
+L1L
 sa(dp16
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -5938,28 +5920,28 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I179
+L179L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I122
+L122L
 sasS'hhints'
 p10
 (lp11
 (dp12
 g7
-I0
+L0L
 sg8
-I21
+L21L
 sa(dp13
 g7
-I473
+L473L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -6028,12 +6010,11 @@ GlifName: tml_M_atraA_u
 Width: 1899
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 61 2995 N 1 0 0 1 923 1 2
 Refer: 75 3014 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_MatraE
@@ -6149,43 +6130,43 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I121
+L121L
 sa(dp9
 g7
-I187
+L187L
 sg8
-I125
+L125L
 sa(dp10
 g7
-I459
+L459L
 sg8
-I123
+L123L
 sasS'hhints'
 p11
 (lp12
 (dp13
 g7
-I-42
+L-42L
 sg8
-I121
+L121L
 sa(dp14
 g7
-I194
+L194L
 sg8
-I123
+L123L
 sa(dp15
 g7
-I346
+L346L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I582
+L582L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -6402,7 +6383,7 @@ SplineSet
  405 0 l 257
  39 0 l 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_NI
@@ -6432,7 +6413,6 @@ SplineSet
  314 592 l 257
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 1 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_NIi
@@ -6459,7 +6439,6 @@ SplineSet
  313 476.656 l 257
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 1 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_NU
@@ -6546,63 +6525,63 @@ p4
 (dp6
 S'position'
 p7
-I264
+L264L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I424
+L424L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I647
+L647L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I803
+L803L
 sg8
-I139
+L139L
 sa(dp12
 g7
-I819
+L819L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I995
+L995L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-256
+L-256L
 sg8
-I94
+L94L
 sa(dp17
 g7
-I-119
+L-119L
 sg8
-I93
+L93L
 sa(dp18
 g7
-I3
+L3L
 sg8
-I122
+L122L
 sa(dp19
 g7
-I489
+L489L
 sg8
-I123
+L123L
 sa(dp20
 g7
-I489
+L489L
 sg8
-I32
+L32L
 sass."
 EndChar
 
@@ -6646,78 +6625,78 @@ p4
 (dp6
 S'position'
 p7
-I263
+L263L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I423
+L423L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I646
+L646L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I802
+L802L
 sg8
-I139
+L139L
 sa(dp12
 g7
-I818
+L818L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I994
+L994L
 sg8
-I179
+L179L
 sa(dp14
 g7
-I994
+L994L
 sg8
-I122
+L122L
 sasS'hhints'
 p15
 (lp16
 (dp17
 g7
-I-256
+L-256L
 sg8
-I94
+L94L
 sa(dp18
 g7
-I-119
+L-119L
 sg8
-I93
+L93L
 sa(dp19
 g7
-I3
+L3L
 sg8
-I122
+L122L
 sa(dp20
 g7
-I473
+L473L
 sg8
-I122
+L122L
 sa(dp21
 g7
-I473
+L473L
 sg8
-I111
+L111L
 sa(dp22
 g7
-I489
+L489L
 sg8
-I123
+L123L
 sa(dp23
 g7
-I489
+L489L
 sg8
-I32
+L32L
 sass."
 EndChar
 
@@ -6730,6 +6709,7 @@ GlyphClass: 2
 Flags: HW
 HStem: -157 122<205 468 247 468 468 469>
 VStem: 39 128<-257 -219.5 -257 -182> 520 123<10 25>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 331 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6762,12 +6742,11 @@ SplineSet
  193 0 l 257
  71 0 l 257
 71 595 m 257
- 221 595 l 261
- 221 474 l 261
+ 221 595 l 257
+ 221 474 l 257
  72 474 l 257
  71 595 l 257
 EndSplineSet
-Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -6778,23 +6757,23 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I128
+L128L
 sa(dp9
 g7
-I520
+L520L
 sg8
-I123
+L123L
 sasS'hhints'
 p10
 (lp11
 (dp12
 g7
-I-157
+L-157L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -6804,7 +6783,7 @@ GlifName: tml_N_gI_
 Width: 1098
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6824,7 +6803,6 @@ SplineSet
  809 803 l 257
 EndSplineSet
 Refer: 93 2969 N 1 0 0 1 1 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_NgIi
@@ -6833,7 +6811,7 @@ GlifName: tml_N_gI_i
 Width: 1092
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6849,7 +6827,6 @@ SplineSet
  935 792 919 826 862 826 c 257
 EndSplineSet
 Refer: 93 2969 N 1 0 0 1 1 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_NgU
@@ -6986,53 +6963,53 @@ p4
 (dp6
 S'position'
 p7
-I40
+L40L
 sS'width'
 p8
-I88
+L88L
 sa(dp9
 g7
-I200
+L200L
 sg8
-I88
+L88L
 sa(dp10
 g7
-I550
+L550L
 sg8
-I123
+L123L
 sa(dp11
 g7
-I726
+L726L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I845
+L845L
 sg8
-I3
+L3L
 sa(dp13
 g7
-I911
+L911L
 sg8
-I89
+L89L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-258
+L-258L
 sg8
-I93
+L93L
 sa(dp17
 g7
-I-106
+L-106L
 sg8
-I93
+L93L
 sa(dp18
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -7042,9 +7019,10 @@ GlifName: tml_N_ga
 Width: 895
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 122<39 448 161 448 275 448 275 448 448 471 333 333 333 448 448 681>
 VStem: 503 123<145 211 211 221.5> 734 122<0 595 0 595>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 301 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7085,7 +7063,6 @@ SplineSet
  512 595 l 257
  39 595 l 257
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -7096,23 +7073,23 @@ p4
 (dp6
 S'position'
 p7
-I503
+L503L
 sS'width'
 p8
-I123
+L123L
 sa(dp9
 g7
-I734
+L734L
 sg8
-I122
+L122L
 sasS'hhints'
 p10
 (lp11
 (dp12
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -7573,28 +7550,28 @@ p4
 (dp6
 S'position'
 p7
-I512
+L512L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I688
+L688L
 sg8
-I122
+L122L
 sasS'hhints'
 p10
 (lp11
 (dp12
 g7
-I-258
+L-258L
 sg8
-I94
+L94L
 sa(dp13
 g7
-I-121
+L-121L
 sg8
-I93
+L93L
 sass."
 EndChar
 
@@ -7676,9 +7653,10 @@ GlifName: tml_N_na
 Width: 1460
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -12 122 1 21<904.5 952 1006 1054.5 1203 1325 1203 1203> 484 122 484 90
 VStem: 39 122<166 167 167 289> 262 122<166 289> 422 122<167 168 168 287 287 289 162 438.5> 645 122<167 289 289 300> 807 122<168 169 169 288 288 290 163 439.5> 1029 122 1203 122<1 563 1 563>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 781 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7747,7 +7725,6 @@ SplineSet
  1422 472 l 257
  1194 473 l 257
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -7758,63 +7735,63 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I262
+L262L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I422
+L422L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I645
+L645L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I807
+L807L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I1029
+L1029L
 sg8
-I122
+L122L
 sa(dp14
 g7
-I1203
+L1203L
 sg8
-I122
+L122L
 sasS'hhints'
 p15
 (lp16
 (dp17
 g7
-I-12
+L-12L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I1
+L1L
 sg8
-I21
+L21L
 sa(dp19
 g7
-I484
+L484L
 sg8
-I122
+L122L
 sa(dp20
 g7
-I484
+L484L
 sg8
-I90
+L90L
 sass."
 EndChar
 
@@ -8017,7 +7994,7 @@ GlifName: tml_N_nnI_
 Width: 1255
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8038,7 +8015,6 @@ SplineSet
  819 581 l 257
 EndSplineSet
 Refer: 108 2985 N 1 0 0 1 0 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_NnnIi
@@ -8047,7 +8023,7 @@ GlifName: tml_N_nnI_i
 Width: 1228
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8065,7 +8041,6 @@ SplineSet
  818 487.656 l 257
 EndSplineSet
 Refer: 108 2985 N 1 0 0 1 0 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_NnnU
@@ -8170,78 +8145,78 @@ p4
 (dp6
 S'position'
 p7
-I40
+L40L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I263
+L263L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I423
+L423L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I646
+L646L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I808
+L808L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I1030
+L1030L
 sg8
-I122
+L122L
 sa(dp14
 g7
-I1193
+L1193L
 sg8
-I133
+L133L
 sa(dp15
 g7
-I1204
+L1204L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I1380
+L1380L
 sg8
-I122
+L122L
 sasS'hhints'
 p17
 (lp18
 (dp19
 g7
-I-256
+L-256L
 sg8
-I94
+L94L
 sa(dp20
 g7
-I-119
+L-119L
 sg8
-I93
+L93L
 sa(dp21
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp22
 g7
-I470
+L470L
 sg8
-I52
+L52L
 sa(dp23
 g7
-I472
+L472L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -8285,88 +8260,88 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I262
+L262L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I422
+L422L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I645
+L645L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I807
+L807L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I1029
+L1029L
 sg8
-I122
+L122L
 sa(dp14
 g7
-I1192
+L1192L
 sg8
-I133
+L133L
 sa(dp15
 g7
-I1203
+L1203L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I1379
+L1379L
 sg8
-I179
+L179L
 sa(dp17
 g7
-I1379
+L1379L
 sg8
-I122
+L122L
 sasS'hhints'
 p18
 (lp19
 (dp20
 g7
-I-256
+L-256L
 sg8
-I94
+L94L
 sa(dp21
 g7
-I-119
+L-119L
 sg8
-I93
+L93L
 sa(dp22
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp23
 g7
-I470
+L470L
 sg8
-I52
+L52L
 sa(dp24
 g7
-I473
+L473L
 sg8
-I122
+L122L
 sa(dp25
 g7
-I473
+L473L
 sg8
-I111
+L111L
 sass."
 EndChar
 
@@ -8376,9 +8351,10 @@ GlifName: tml_N_nna
 Width: 1076
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -14 122<173.5 186 173.5 186 173.5 287.5> 0 21<819 819 819 941> 483 90<801 941> 483 122<300.5 335 300.5 335 300.5 389>
 VStem: 40 122<153 154 154 290> 263 122<154 290> 423 122<154 155 155 288 288 290> 646 122<154 290 290 301> 819 122<0 573 0 573>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 581 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8429,7 +8405,6 @@ SplineSet
  941 0 l 257
  819 0 l 257
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -8440,53 +8415,53 @@ p4
 (dp6
 S'position'
 p7
-I40
+L40L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I263
+L263L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I423
+L423L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I646
+L646L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I819
+L819L
 sg8
-I122
+L122L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-14
+L-14L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I0
+L0L
 sg8
-I21
+L21L
 sa(dp17
 g7
-I483
+L483L
 sg8
-I90
+L90L
 sa(dp18
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -8531,7 +8506,6 @@ SplineSet
  1118 600 l 261
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 6 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_NyI
@@ -8561,7 +8535,6 @@ SplineSet
  794.005859375 582 l 257
 EndSplineSet
 Refer: 114 2974 N 1 0 0 1 10.0064 0 2
-Validated: 524293
 EndChar
 
 StartChar: tml_NyIi
@@ -8588,7 +8561,6 @@ SplineSet
  674.005859375 472.65625 l 257
 EndSplineSet
 Refer: 114 2974 N 1 0 0 1 0.00611 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_NyU
@@ -8630,7 +8602,7 @@ SplineSet
 EndSplineSet
 Refer: 20 2958 N 1 0 0 1 1.00611 0 2
 Refer: 20 2958 N 1 0 0 1 1.00611 0 2
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -8641,63 +8613,63 @@ p4
 (dp6
 S'position'
 p7
-I40
+L40L
 sS'width'
 p8
-I124
+L124L
 sa(dp9
 g7
-I40
+L40L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I40
+L40L
 sg8
-I171
+L171L
 sa(dp11
 g7
-I318
+L318L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I485
+L485L
 sg8
-I123
+L123L
 sa(dp13
 g7
-I696
+L696L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-257
+L-257L
 sg8
-I94
+L94L
 sa(dp17
 g7
-I1
+L1L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I238
+L238L
 sg8
-I123
+L123L
 sa(dp19
 g7
-I472
+L472L
 sg8
-I105
+L105L
 sa(dp20
 g7
-I472
+L472L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -8754,7 +8726,7 @@ SplineSet
  39 -125 l 258
 EndSplineSet
 Refer: 20 2958 N 1 0 0 1 0 0 2
-Validated: 8388645
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -8765,63 +8737,63 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I124
+L124L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I39
+L39L
 sg8
-I171
+L171L
 sa(dp11
 g7
-I317
+L317L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I484
+L484L
 sg8
-I123
+L123L
 sa(dp13
 g7
-I695
+L695L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-257
+L-257L
 sg8
-I94
+L94L
 sa(dp17
 g7
-I1
+L1L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I238
+L238L
 sg8
-I123
+L123L
 sa(dp19
 g7
-I472
+L472L
 sg8
-I105
+L105L
 sa(dp20
 g7
-I472
+L472L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -8834,6 +8806,7 @@ GlyphClass: 2
 Flags: HW
 HStem: -208 122<149.234 540 596 920.27> 1 122<412.367 449 504 544.2> 238 122<411.253 449 504 544.494> 472 105<723 845> 472 123<473.33 543 598 723 845 956> 475 122<149.729 208>
 VStem: 9 122<-67.3164 455.173> 278 124<130.613 231.073> 278 131<309.525 404.785> 278 171<238 360> 556 122<133.099 228.32> 723 122<0 577> 926 123<-79.2319 196.582>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 631 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8861,7 +8834,6 @@ SplineSet
  596 -86 l 257
 EndSplineSet
 Refer: 20 2958 N 1 0 0 1 220 0 2
-Validated: 8388613
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -8872,63 +8844,63 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I124
+L124L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I39
+L39L
 sg8
-I171
+L171L
 sa(dp11
 g7
-I317
+L317L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I484
+L484L
 sg8
-I123
+L123L
 sa(dp13
 g7
-I706
+L706L
 sg8
-I123
+L123L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-165
+L-165L
 sg8
-I122
+L122L
 sa(dp17
 g7
-I1
+L1L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I238
+L238L
 sg8
-I123
+L123L
 sa(dp19
 g7
-I472
+L472L
 sg8
-I105
+L105L
 sa(dp20
 g7
-I472
+L472L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -9080,7 +9052,7 @@ SplineSet
  654 -178 l 257
  558 -458 244 -458 189 -284 c 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_One
@@ -9093,7 +9065,6 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 49 2965 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_Oo
@@ -9169,58 +9140,58 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I171
+L171L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I124
+L124L
 sa(dp10
 g7
-I216
+L216L
 sg8
-I123
+L123L
 sa(dp11
 g7
-I317
+L317L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I483
+L483L
 sg8
-I123
+L123L
 sa(dp13
 g7
-I733
+L733L
 sg8
-I123
+L123L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-132
+L-132L
 sg8
-I123
+L123L
 sa(dp17
 g7
-I29
+L29L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I266
+L266L
 sg8
-I123
+L123L
 sa(dp19
 g7
-I573
+L573L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -9230,7 +9201,7 @@ GlifName: tml_P_I_
 Width: 716
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9250,7 +9221,6 @@ SplineSet
  389 688 379 642 379 590 c 262
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 1 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_PIi
@@ -9259,7 +9229,7 @@ GlifName: tml_P_I_i
 Width: 735
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9275,7 +9245,6 @@ SplineSet
  578 791 562 825 505 825 c 257
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 1 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_PU
@@ -9354,7 +9323,6 @@ SplineSet
  432 7 l 257
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 56 0 2
-Validated: 8388613
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9365,53 +9333,53 @@ p4
 (dp6
 S'position'
 p7
-I26
+L26L
 sS'width'
 p8
-I88
+L88L
 sa(dp9
 g7
-I95
+L95L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I95
+L95L
 sg8
-I202
+L202L
 sa(dp11
 g7
-I187
+L187L
 sg8
-I88
+L88L
 sa(dp12
 g7
-I550
+L550L
 sg8
-I4
+L4L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-258
+L-258L
 sg8
-I93
+L93L
 sa(dp16
 g7
-I-106
+L-106L
 sg8
-I93
+L93L
 sa(dp17
 g7
-I1
+L1L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I107
+L107L
 sg8
-I17
+L17L
 sass."
 EndChar
 
@@ -9421,9 +9389,10 @@ GlifName: tml_P_a
 Width: 537
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 1 122<39 241 39 241 39 297 297 498> 107 17
 VStem: 39 202<1 123 107 123 1 595 1 123> 39 122<107 123 107 595 123 123 107 595>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 271 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9448,7 +9417,6 @@ SplineSet
  241 1 l 257
  39 1 l 257
 EndSplineSet
-Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9459,28 +9427,28 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I202
+L202L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I122
+L122L
 sasS'hhints'
 p10
 (lp11
 (dp12
 g7
-I1
+L1L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I107
+L107L
 sg8
-I17
+L17L
 sass."
 EndChar
 
@@ -9691,7 +9659,7 @@ SplineSet
  848 473 l 257
  578 473 l 257
 EndSplineSet
-Validated: 8388645
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9702,48 +9670,48 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I123
+L123L
 sa(dp9
 g7
-I294
+L294L
 sg8
-I194
+L194L
 sa(dp10
 g7
-I294
+L294L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I795
+L795L
 sg8
-I122
+L122L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I-150
+L-150L
 sg8
-I122
+L122L
 sa(dp15
 g7
-I1
+L1L
 sg8
-I21
+L21L
 sa(dp16
 g7
-I379
+L379L
 sg8
-I122
+L122L
 sa(dp17
 g7
-I473
+L473L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -9808,7 +9776,7 @@ SplineSet
  979 473 l 257
  709 473 l 257
 EndSplineSet
-Validated: 8388645
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9819,53 +9787,53 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I123
+L123L
 sa(dp9
 g7
-I237
+L237L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I375
+L375L
 sg8
-I194
+L194L
 sa(dp11
 g7
-I375
+L375L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I876
+L876L
 sg8
-I122
+L122L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-150
+L-150L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I1
+L1L
 sg8
-I21
+L21L
 sa(dp17
 g7
-I321
+L321L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I473
+L473L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -9954,28 +9922,28 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I178
+L178L
 sa(dp9
 g7
-I39
+L39L
 sg8
-I122
+L122L
 sasS'hhints'
 p10
 (lp11
 (dp12
 g7
-I0
+L0L
 sg8
-I21
+L21L
 sa(dp13
 g7
-I473
+L473L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -10038,7 +10006,7 @@ SplineSet
  404 1 l 257
  280 0 l 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_RrI
@@ -10068,7 +10036,6 @@ SplineSet
  748 656.289 738 693.289 685 693.289 c 257
 EndSplineSet
 Refer: 137 2993 S 1 0 0 1 0 0 2
-Validated: 524293
 EndChar
 
 StartChar: tml_RrIi
@@ -10095,7 +10062,6 @@ SplineSet
  441 504.656 l 257
 EndSplineSet
 Refer: 137 2993 N 1 0 0 1 0 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_RrU
@@ -10165,48 +10131,48 @@ p4
 (dp6
 S'position'
 p7
-I37
+L37L
 sS'width'
 p8
-I129
+L129L
 sa(dp9
 g7
-I288
+L288L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I564
+L564L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I739
+L739L
 sg8
-I122
+L122L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I-257
+L-257L
 sg8
-I94
+L94L
 sa(dp15
 g7
-I-120
+L-120L
 sg8
-I93
+L93L
 sa(dp16
 g7
-I-1
+L-1L
 sg8
-I21
+L21L
 sa(dp17
 g7
-I494
+L494L
 sg8
-I117
+L117L
 sass."
 EndChar
 
@@ -10239,7 +10205,7 @@ SplineSet
  765 474 l 257
 EndSplineSet
 Refer: 135 -1 N 1 0 0 1 26 0 2
-Validated: 8388613
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -10250,63 +10216,63 @@ p4
 (dp6
 S'position'
 p7
-I62
+L62L
 sS'width'
 p8
-I129
+L129L
 sa(dp9
 g7
-I313
+L313L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I590
+L590L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I765
+L765L
 sg8
-I179
+L179L
 sa(dp12
 g7
-I765
+L765L
 sg8
-I122
+L122L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-257
+L-257L
 sg8
-I94
+L94L
 sa(dp16
 g7
-I-120
+L-120L
 sg8
-I93
+L93L
 sa(dp17
 g7
-I-1
+L-1L
 sg8
-I21
+L21L
 sa(dp18
 g7
-I474
+L474L
 sg8
-I122
+L122L
 sa(dp19
 g7
-I474
+L474L
 sg8
-I109
+L109L
 sa(dp20
 g7
-I494
+L494L
 sg8
-I117
+L117L
 sass."
 EndChar
 
@@ -10319,41 +10285,41 @@ GlyphClass: 2
 Flags: HW
 HStem: -155 122<233 237 237 472 472 498> 0 21<70 70> 483 123<210.5 223 276 289>
 VStem: 39 122<-256 -216 -256 -185> 65 129 316 122<1 2> 569 125
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 371 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-39 -311 m 261
- 39 -169 91 -88 233 -88 c 262
- 472 -88 l 262
- 557 -88 569 -30 569 47 c 262
- 569 460 l 262
- 569 481 549 484 527 484 c 261
- 527 606 l 261
- 640 606 691 530 691 475 c 262
- 691 64 l 262
- 691 -128 615 -210 498 -210 c 262
- 237 -210 l 262
- 190 -210 161 -231 161 -311 c 261
- 39 -311 l 261
-70 0 m 261
- 70 479 l 262
- 70 529 111 606 223 606 c 261
- 223 483 l 261
- 198 483 192 471 192 458 c 262
- 194 1 l 261
- 70 0 l 261
-276 483 m 261
- 276 606 l 261
- 322 606 352 597 376 576 c 261
- 404 599 437 606 476 606 c 261
- 476 484 l 261
- 458 484 436 481 436 459 c 262
- 438 2 l 261
- 316 1 l 261
- 314 458 l 262
- 314 472 302 483 276 483 c 261
+39 -311 m 257
+ 39 -169 91 -88 233 -88 c 258
+ 472 -88 l 258
+ 557 -88 569 -30 569 47 c 258
+ 569 460 l 258
+ 569 481 549 484 527 484 c 257
+ 527 606 l 257
+ 640 606 691 530 691 475 c 258
+ 691 64 l 258
+ 691 -128 615 -210 498 -210 c 258
+ 237 -210 l 258
+ 190 -210 161 -231 161 -311 c 257
+ 39 -311 l 257
+70 0 m 257
+ 70 479 l 258
+ 70 529 111 606 223 606 c 257
+ 223 483 l 257
+ 198 483 192 471 192 458 c 258
+ 194 1 l 257
+ 70 0 l 257
+276 483 m 257
+ 276 606 l 257
+ 322 606 352 597 376 576 c 257
+ 404 599 437 606 476 606 c 257
+ 476 484 l 257
+ 458 484 436 481 436 459 c 258
+ 438 2 l 257
+ 316 1 l 257
+ 314 458 l 258
+ 314 472 302 483 276 483 c 257
 EndSplineSet
-Validated: 8388609
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -10364,43 +10330,43 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I65
+L65L
 sg8
-I129
+L129L
 sa(dp10
 g7
-I316
+L316L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I569
+L569L
 sg8
-I125
+L125L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I-155
+L-155L
 sg8
-I122
+L122L
 sa(dp15
 g7
-I0
+L0L
 sg8
-I21
+L21L
 sa(dp16
 g7
-I483
+L483L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -10488,7 +10454,7 @@ SplineSet
  471 473 l 257
  278 473 l 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_SI
@@ -10825,6 +10791,7 @@ GlyphClass: 2
 Flags: HW
 HStem: 0 122<195.5 212 195.5 212 267 287.5 195.5 321.5> 237 123 484 121<266.5 299 353 387.5>
 VStem: 41 171<0 220 237 326 326 359> 41 131<151 377 298.5 326 326 376.5> 41 124<165 195.5 165 220 165 326> 313 123 762 122<168 402> 1021 122
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 531 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10881,7 +10848,6 @@ SplineSet
  604 482 597 470 597 326 c 257
  474 325 l 257
 EndSplineSet
-Validated: 8912933
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -10892,53 +10858,53 @@ p4
 (dp6
 S'position'
 p7
-I41
+L41L
 sS'width'
 p8
-I171
+L171L
 sa(dp9
 g7
-I41
+L41L
 sg8
-I131
+L131L
 sa(dp10
 g7
-I41
+L41L
 sg8
-I124
+L124L
 sa(dp11
 g7
-I313
+L313L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I762
+L762L
 sg8
-I122
+L122L
 sa(dp13
 g7
-I1021
+L1021L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp17
 g7
-I237
+L237L
 sg8
-I123
+L123L
 sa(dp18
 g7
-I484
+L484L
 sg8
-I121
+L121L
 sass."
 EndChar
 
@@ -11229,7 +11195,8 @@ GlifName: tml_S_ha
 Width: 1258
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 561 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11271,7 +11238,6 @@ SplineSet
  930 473 l 257
  302 473 l 257
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: tml_Shree
@@ -11339,7 +11305,7 @@ SplineSet
  538 1 l 257
  337 1 l 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_Six
@@ -11796,9 +11762,10 @@ GlifName: tml_S_sa
 Width: 1258
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 123<454 454 608 850 1120 1220 1120 1120> 237 123 483 122<269 301 351 389.5>
 VStem: 40 172<0 220 0 220 237 305 305 359> 40 125<164 199.5 164 220 164 220 164 305 164 369> 314 122<161 199> 487 121<146 354 354 354> 669 123<334 340 340 424 313.5 433 313.5 501.5> 962 122<-178 123 -178 123 158 413>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 621 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11872,7 +11839,6 @@ SplineSet
  1220 0 l 257
  903 1 l 257
 EndSplineSet
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -11883,53 +11849,53 @@ p4
 (dp6
 S'position'
 p7
-I40
+L40L
 sS'width'
 p8
-I172
+L172L
 sa(dp9
 g7
-I40
+L40L
 sg8
-I125
+L125L
 sa(dp10
 g7
-I314
+L314L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I487
+L487L
 sg8
-I121
+L121L
 sa(dp12
 g7
-I669
+L669L
 sg8
-I123
+L123L
 sa(dp13
 g7
-I962
+L962L
 sg8
-I122
+L122L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I0
+L0L
 sg8
-I123
+L123L
 sa(dp17
 g7
-I237
+L237L
 sg8
-I123
+L123L
 sa(dp18
 g7
-I483
+L483L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -11960,7 +11926,6 @@ SplineSet
  420 592 l 257
 EndSplineSet
 Refer: 163 2980 N 1 0 0 1 1 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_TI.alt
@@ -11989,7 +11954,6 @@ SplineSet
  810.328 697 601.328 733 499.328 733 c 257
 EndSplineSet
 Refer: 163 2980 N 1 0 0 1 24.3286 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_TIi
@@ -12016,7 +11980,6 @@ SplineSet
  420 477.656 l 257
 EndSplineSet
 Refer: 163 2980 N 1 0 0 1 1 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_TIi.alt
@@ -12044,7 +12007,6 @@ SplineSet
  96.0264 272 l 257
 EndSplineSet
 Refer: 163 2980 N 1 0 0 1 30.0261 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_TU
@@ -12119,7 +12081,7 @@ SplineSet
  335 473 l 257
  174 473 l 257
 EndSplineSet
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -12130,53 +12092,53 @@ p4
 (dp6
 S'position'
 p7
-I49
+L49L
 sS'width'
 p8
-I121
+L121L
 sa(dp9
 g7
-I621
+L621L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I783
+L783L
 sg8
-I122
+L122L
 sasS'hhints'
 p11
 (lp12
 (dp13
 g7
-I-258
+L-258L
 sg8
-I94
+L94L
 sa(dp14
 g7
-I-121
+L-121L
 sg8
-I277
+L277L
 sa(dp15
 g7
-I-121
+L-121L
 sg8
-I93
+L93L
 sa(dp16
 g7
-I2
+L2L
 sg8
-I123
+L123L
 sa(dp17
 g7
-I252
+L252L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I351
+L351L
 sg8
-I23
+L23L
 sass."
 EndChar
 
@@ -12237,7 +12199,7 @@ SplineSet
  413 0 l 257
  291 0 l 257
 EndSplineSet
-Validated: 8388645
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -12248,58 +12210,58 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I123
+L123L
 sa(dp9
 g7
-I291
+L291L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I407
+L407L
 sg8
-I6
+L6L
 sa(dp11
 g7
-I549
+L549L
 sg8
-I124
+L124L
 sa(dp12
 g7
-I632
+L632L
 sg8
-I122
+L122L
 sasS'hhints'
 p13
 (lp14
 (dp15
 g7
-I-200
+L-200L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I0
+L0L
 sg8
-I21
+L21L
 sa(dp17
 g7
-I111
+L111L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I495
+L495L
 sg8
-I122
+L122L
 sa(dp19
 g7
-I693
+L693L
 sg8
-I123
+L123L
 sass."
 EndChar
 
@@ -12312,20 +12274,21 @@ GlyphClass: 2
 Flags: HW
 HStem: -158 122<291.5 559 329 559 559 560> 2 123<232.5 269 232.5 269 322 355 232.5 405.5> 251 123<576 597> 351 23<235 286>
 VStem: 39 123<110.5 157 157 272> 130 128<-256 -218 -256 -181.5> 611 122<151 151 205 205>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 351 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
-50 -306 m 261
- 50 -157 113 -86 249 -86 c 262
+50 -306 m 257
+ 50 -157 113 -86 249 -86 c 258
  559 -86 l 258
  608 -86 610 -56 610 -26 c 258
  611 151 l 257
  733 151 l 257
  733 -26 l 258
  733 -92 713 -208 560 -208 c 258
- 232 -208 l 262
- 191 -208 178 -230 178 -306 c 261
- 50 -306 l 261
+ 232 -208 l 258
+ 191 -208 178 -230 178 -306 c 257
+ 50 -306 l 257
 39 157 m 257
  162 157 l 257
  169 120 196 125 269 125 c 257
@@ -12363,7 +12326,6 @@ SplineSet
  326 473 l 257
  164 473 l 257
 EndSplineSet
-Validated: 8388645
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -12374,43 +12336,43 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I123
+L123L
 sa(dp9
 g7
-I130
+L130L
 sg8
-I128
+L128L
 sa(dp10
 g7
-I611
+L611L
 sg8
-I122
+L122L
 sasS'hhints'
 p11
 (lp12
 (dp13
 g7
-I-158
+L-158L
 sg8
-I122
+L122L
 sa(dp14
 g7
-I2
+L2L
 sg8
-I123
+L123L
 sa(dp15
 g7
-I251
+L251L
 sg8
-I123
+L123L
 sa(dp16
 g7
-I351
+L351L
 sg8
-I23
+L23L
 sass."
 EndChar
 
@@ -12580,18 +12542,18 @@ p4
 (dp6
 S'position'
 p7
-I503
+L503L
 sS'width'
 p8
-I123
+L123L
 sasS'hhints'
 p9
 (lp10
 (dp11
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -12749,7 +12711,7 @@ SplineSet
  783 473 l 257
 EndSplineSet
 Refer: 161 -1 N 1 0 0 1 0 0 2
-Validated: 8912901
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -12760,68 +12722,68 @@ p4
 (dp6
 S'position'
 p7
-I49
+L49L
 sS'width'
 p8
-I121
+L121L
 sa(dp9
 g7
-I621
+L621L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I783
+L783L
 sg8
-I179
+L179L
 sa(dp11
 g7
-I783
+L783L
 sg8
-I122
+L122L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I-258
+L-258L
 sg8
-I94
+L94L
 sa(dp15
 g7
-I-121
+L-121L
 sg8
-I277
+L277L
 sa(dp16
 g7
-I-121
+L-121L
 sg8
-I93
+L93L
 sa(dp17
 g7
-I2
+L2L
 sg8
-I123
+L123L
 sa(dp18
 g7
-I252
+L252L
 sg8
-I122
+L122L
 sa(dp19
 g7
-I351
+L351L
 sg8
-I23
+L23L
 sa(dp20
 g7
-I473
+L473L
 sg8
-I109
+L109L
 sa(dp21
 g7
-I473
+L473L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -12831,9 +12793,10 @@ GlifName: tml_T_ta
 Width: 625
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 122<27 587 27 587>
 VStem: 27 122<0 596 122 596 176 596 176 596>
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 331 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12848,7 +12811,6 @@ SplineSet
  149 176 l 257
  27 176 l 257
 EndSplineSet
-Validated: 1
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -12859,18 +12821,18 @@ p4
 (dp6
 S'position'
 p7
-I27
+L27L
 sS'width'
 p8
-I122
+L122L
 sasS'hhints'
 p9
 (lp10
 (dp11
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sass."
 EndChar
 
@@ -12970,48 +12932,48 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I57
+L57L
 sg8
-I148
+L148L
 sa(dp10
 g7
-I301
+L301L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I471
+L471L
 sg8
-I123
+L123L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp15
 g7
-I141
+L141L
 sg8
-I122
+L122L
 sa(dp16
 g7
-I545
+L545L
 sg8
-I159
+L159L
 sa(dp17
 g7
-I583
+L583L
 sg8
-I84
+L84L
 sass."
 EndChar
 
@@ -13094,78 +13056,78 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I57
+L57L
 sg8
-I148
+L148L
 sa(dp10
 g7
-I301
+L301L
 sg8
-I122
+L122L
 sa(dp11
 g7
-I471
+L471L
 sg8
-I123
+L123L
 sa(dp12
 g7
-I659
+L659L
 sg8
-I103
+L103L
 sa(dp13
 g7
-I659
+L659L
 sg8
-I140
+L140L
 sa(dp14
 g7
-I883
+L883L
 sg8
-I101
+L101L
 sasS'hhints'
 p15
 (lp16
 (dp17
 g7
-I0
+L0L
 sg8
-I122
+L122L
 sa(dp18
 g7
-I141
+L141L
 sg8
-I122
+L122L
 sa(dp19
 g7
-I149
+L149L
 sg8
-I101
+L101L
 sa(dp20
 g7
-I343
+L343L
 sg8
-I101
+L101L
 sa(dp21
 g7
-I537
+L537L
 sg8
-I101
+L101L
 sa(dp22
 g7
-I545
+L545L
 sg8
-I159
+L159L
 sa(dp23
 g7
-I583
+L583L
 sg8
-I84
+L84L
 sass."
 EndChar
 
@@ -13175,7 +13137,7 @@ GlifName: tml_V_I_
 Width: 1053
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -13195,7 +13157,6 @@ SplineSet
  714.139 465 l 257
 EndSplineSet
 Refer: 179 2997 N 1 0 0 1 0.00606137 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_VIi
@@ -13204,7 +13165,7 @@ GlifName: tml_V_I_i
 Width: 1068
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -13220,7 +13181,6 @@ SplineSet
  911.006 792 895.006 826 838.006 826 c 257
 EndSplineSet
 Refer: 179 2997 N 1 0 0 1 0.00606137 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_VU
@@ -13229,7 +13189,7 @@ GlifName: tml_V_U_
 Width: 874
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -13240,7 +13200,6 @@ SplineSet
  710.006 -255 l 257
 EndSplineSet
 Refer: 179 2997 N 1 0 0 1 0.00606137 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_VUu
@@ -13284,7 +13243,6 @@ SplineSet
  720 -143 l 257
 EndSplineSet
 Refer: 179 2997 N 1 0 0 1 9 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_Va
@@ -13293,7 +13251,8 @@ GlifName: tml_V_a
 Width: 873
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 581 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13336,26 +13295,24 @@ SplineSet
  834 0 l 257
  711 0 l 257
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: tml_Virama
 Encoding: 180 3021 180
 GlifName: tml_V_irama
-Width: 249
+Width: 0
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-44.552734375 728.009765625 m 256
- 44.552734375 771.251953125 78.529296875 806 121 806 c 256
- 163.469726562 806 197.446289062 771.251953125 197.446289062 728.009765625 c 256
- 197.446289062 684.766601562 163.469726562 650.018554688 121 650.018554688 c 256
- 78.529296875 650.018554688 44.552734375 684.766601562 44.552734375 728.009765625 c 256
+-74.447265625 728.009765625 m 256
+ -74.447265625 771.251953125 -40.470703125 806 2 806 c 256
+ 44.4697265625 806 78.4462890625 771.251953125 78.4462890625 728.009765625 c 256
+ 78.4462890625 684.766601562 44.4697265625 650.018554688 2 650.018554688 c 256
+ -40.470703125 650.018554688 -74.447265625 684.766601562 -74.447265625 728.009765625 c 256
 EndSplineSet
-Validated: 524289
 EndChar
 
 StartChar: tml_Visarga
@@ -13507,7 +13464,7 @@ GlifName: tml_Y_U_
 Width: 727
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -13518,7 +13475,6 @@ SplineSet
  565 168 l 257
 EndSplineSet
 Refer: 186 2991 N 1 0 0 1 1 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_YUu
@@ -13564,7 +13520,6 @@ SplineSet
  644 -143 l 257xe250
 EndSplineSet
 Refer: 186 2991 N 1 0 0 1 80 0 2
-Validated: 8388613
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13575,63 +13530,63 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I88
+L88L
 sa(dp9
 g7
-I119
+L119L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I199
+L199L
 sg8
-I88
+L88L
 sa(dp11
 g7
-I399
+L399L
 sg8
-I122
+L122L
 sa(dp12
 g7
-I609
+L609L
 sg8
-I156
+L156L
 sa(dp13
 g7
-I644
+L644L
 sg8
-I122
+L122L
 sa(dp14
 g7
-I757
+L757L
 sg8
-I9
+L9L
 sa(dp15
 g7
-I840
+L840L
 sg8
-I89
+L89L
 sasS'hhints'
 p16
 (lp17
 (dp18
 g7
-I-258
+L-258L
 sg8
-I93
+L93L
 sa(dp19
 g7
-I-106
+L-106L
 sg8
-I93
+L93L
 sa(dp20
 g7
-I0
+L0L
 sg8
-I119
+L119L
 sass."
 EndChar
 
@@ -13641,9 +13596,10 @@ GlifName: tml_Y_a
 Width: 724
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 119<140.5 195 189 195 249 255 189 249 470 476 529 535 535 545.5>
 VStem: 39 122<140 145 145 595> 319 122<145 595> 529 156 563 122
+AnchorPoint: "@MARKS_CLASS_0_LUT0_SUB0" 401 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13679,7 +13635,6 @@ SplineSet
  309 12 288 0 255 0 c 258
  249 0 l 257
 EndSplineSet
-Validated: 1
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13690,33 +13645,33 @@ p4
 (dp6
 S'position'
 p7
-I39
+L39L
 sS'width'
 p8
-I122
+L122L
 sa(dp9
 g7
-I319
+L319L
 sg8
-I122
+L122L
 sa(dp10
 g7
-I529
+L529L
 sg8
-I156
+L156L
 sa(dp11
 g7
-I563
+L563L
 sg8
-I122
+L122L
 sasS'hhints'
 p12
 (lp13
 (dp14
 g7
-I0
+L0L
 sg8
-I119
+L119L
 sass."
 EndChar
 
