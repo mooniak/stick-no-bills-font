@@ -31,7 +31,6 @@ apt-get install python-setuptools -y > /dev/null
 echo "Installing Robofab..."
 git clone https://github.com/robofab-developers/robofab.git
 cd robofab
-git checkout ufo3k
 python setup.py install
 cd ..
 
