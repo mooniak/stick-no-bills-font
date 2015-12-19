@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727163
-ModificationTime: 1450465365
+ModificationTime: 1450530289
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -42,8 +42,6 @@ HheadAscent: 896
 HheadAOffset: 0
 HheadDescent: -200
 HheadDOffset: 0
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 DEI: 91125
@@ -477,7 +475,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 10 8
+WinInfo: 32 8 2
 Grid
 -1000 -209.399993896 m 0
  2000 -209.399993896 l 1024
@@ -493,7 +491,6 @@ Width: 0
 VWidth: 0
 Flags: W
 LayerCount: 2
-Back
 Fore
 Validated: 1
 EndChar
@@ -506,7 +503,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 Validated: 1
 EndChar
@@ -519,7 +515,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 Validated: 1
 EndChar
@@ -534,7 +529,6 @@ Flags: HW
 HStem: -127 122<197 401 264 401 264 401 456 607 264 456> 110 125 205 119 373 122 562 122
 VStem: 50 122<45.5 100.5 45.5 130> 236 116 509 110 692 122<67 393 150 393 262 393 262 396 262 449> 773 41<262 270 270 270> 864 122<-107 578 -107 578> 864 3
 LayerCount: 2
-Back
 Fore
 SplineSet
 398.09375 458 m 4
@@ -671,7 +665,6 @@ Flags: HW
 HStem: -293 122 -127 122 205 119 373 122 562 122
 VStem: 39 122 225 116 498 110 681 122 762 41 853 122 853 3 1073 122<-66 21 -120 44>
 LayerCount: 2
-Back
 Fore
 SplineSet
 683 -136 m 257
@@ -775,7 +768,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 208 40 m 257
@@ -817,7 +809,6 @@ Flags: HW
 HStem: -180 122<247 285 247 285 339 373 247 377> 158 122<261 776.5> 307 125<161.5 259 259 300> 569 127<211.5 250.5>
 VStem: 39 122<436.5 518.5 472 518.5 482.5 509.5> 54 122<13.5 69.5 13.5 83 13.5 123.5> 301 122<483 499 440.5 518.5> 460 122<-4 118 320 408 371 408 408 464 408 464> 783 122<-3 118 -45 118>
 LayerCount: 2
-Back
 Fore
 SplineSet
 656 280 m 0
@@ -956,7 +947,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 76 851 m 4
@@ -983,7 +973,6 @@ Flags: HW
 HStem: -132 123 0 122 29 122 237 123 266 123 472 123 573 122
 VStem: 39 171 39 124 317 123 483 123 733 123 910 171 910 131 910 124 1182 123 1343 123
 LayerCount: 2
-Back
 Fore
 Refer: 115 2962 N 1 0 0 1 0 0 2
 Refer: 61 2995 N 1 0 0 0.993388 869 -6.04297 2
@@ -1095,7 +1084,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 61 2995 N 1 0 0 1 33 0 2
 EndChar
@@ -1108,7 +1096,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 668 686 m 257
@@ -1138,7 +1125,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 31.021484375 527 m 1
@@ -1172,7 +1158,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 419 472.656 m 257
@@ -1199,7 +1184,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 96.0264 267 m 257
@@ -1229,7 +1213,6 @@ Flags: HW
 HStem: -1 123<225.5 270 225.5 270 323 356 225.5 406.5> 249 62<606 729 606 756 596 729> 348 23<236 287> 470 122
 VStem: 40 121<157.5 213.5 157.5 218 157.5 272> 165 163<473 589 473 595 589 589 473 595> 165 122<348 589> 420 122<187 191 191 591> 596 160<249 371 249 371> 606 122
 LayerCount: 2
-Back
 Fore
 SplineSet
 162.451552474 211 m 0
@@ -1355,7 +1338,6 @@ Flags: HW
 HStem: -198 122 -1 123<474.5 519 474.5 519 572 605 474.5 655.5> 249 62<855 978 855 1038> 348 23<485 536> 360 122<286 322 279.5 323> 470 122
 VStem: 123 123<29 268> 289 121<157.5 213.5 157.5 218 157.5 272> 414 163<473 589 473 595 589 589 473 595> 414 122<348 589> 669 122<187 191 191 591> 855 122 1072 122<6 47 47 65 -48.5 72>
 LayerCount: 2
-Back
 Fore
 SplineSet
 411.451171875 211 m 0
@@ -1514,30 +1496,28 @@ HStem: -1 123<224.5 269 322 355 224.5 405.5> 249 122<235 238 238 643> 348 23<235
 VStem: 39 121<157.5 213.5 157.5 218 157.5 272> 164 163<470 586 470 595 586 586 470 595> 164 122<348 586> 419 122<187 191 191 588>
 AnchorPoint: "tml_virama" 372 -1 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 161.451171875 213 m 0
- 160 212 39 213 39 213 c 1
- 39 218 l 258
- 39 326 149 371 235 371 c 258
+ 161.451171875 213 39 213 39 213 c 1
+ 39 324.969782234 145.400317158 371 235 371 c 258
  643 371 l 257
  643 249 l 257
  238 249 l 258
- 185.101268418 249 166.361328125 244.16796875 161.451171875 213 c 0
+ 180 249 161.451171875 242 161.451171875 213 c 0
 160.310546875 163 m 0
- 160.213044788 165.308488727 39 163 39 163 c 1
+ 160.310546875 163 39 163 39 163 c 1
  39 157 l 258
- 39 68 112 0 269 -1 c 257
- 287 121 l 257
- 204.227539062 121 162 123 160.310546875 163 c 0
-322 -1 m 257
- 340 121 l 257
- 406 121 419 141 419 187 c 258
+ 39 68 98 0 278 -1 c 257
+ 278 121 l 257
+ 195.227539062 121 160.310546875 128 160.310546875 163 c 0
+331 -1 m 257
+ 331 121 l 257
+ 397 121 419 141 419 187 c 258
  419 588 l 257
  541 588 l 257
  541 191 l 258
- 541 95 489 -1 322 -1 c 257
+ 541 95 498 -1 331 -1 c 257
 164 348 m 257
  164 586 l 257
  287 586 l 257
@@ -1622,7 +1602,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 835 268 m 257
@@ -1712,7 +1691,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 266 0 m 257
@@ -1760,7 +1738,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 255 -164 m 257
@@ -1813,7 +1790,6 @@ Flags: W
 HStem: 1 122<192.367 229 284 324.2> 238 122<191.253 229 284 324.494> 472 123<253.33 323 378 503 625 736> 472 105<503 625>
 VStem: 58 171<238 360> 58 131<309.525 404.785> 58 124<130.613 231.073> 336 122<133.099 228.32> 503 122<0 577>
 LayerCount: 2
-Back
 Fore
 SplineSet
 58 179 m 258xc380
@@ -1920,7 +1896,6 @@ Flags: HW
 HStem: 1 122 238 123 472 105 472 123
 VStem: 58 124 58 131 58 171 336 123 503 123<1 577> 503 123<1 577>
 LayerCount: 2
-Back
 Fore
 SplineSet
 334 -176 m 257
@@ -2008,7 +1983,6 @@ Flags: W
 HStem: -127 122<194.584 337 393 664.849> 150 120<192.977 336 391 689 811 863> 228 42<538 689 692 692> 264 6<689 811> 611.268 122.369<502.519 557>
 VStem: 47 122<19.6311 124.714> 337.675 122.487<509 571.677> 689 122<15.7088 150 264 573.41> 770 41<150 270> 861 122<-107 150 270 578> 861 2<150 270>
 LayerCount: 2
-Back
 Fore
 SplineSet
 557 733.636828218 m 0x8e
@@ -2073,7 +2047,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 128 -1 N 1 0 0 1 0 0 2
 EndChar
@@ -2086,7 +2059,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 157 m 258
@@ -2138,7 +2110,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 978.009765625 566 m 257
@@ -2168,7 +2139,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 1151 823.450296669 m 21
@@ -2198,24 +2168,23 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
-1174.00976562 482 m 261
- 1521.00976562 482 l 262
- 1576.96972656 481.326171875 1610.00976562 471 1610.00976562 433 c 260
- 1610.00976562 415 1599.00976562 401 1576.00976562 401 c 260
- 1554.00976562 401 1542.00976562 414 1542.00976562 434 c 260
- 1420.00976562 434 l 261
- 1420.00976562 349 1491.00976562 279 1560.00976562 279 c 262
- 1589.00976562 279 l 262
- 1644.00976562 279 1732.00976562 330 1732.00976562 434 c 262
- 1732.00976562 444 l 262
- 1732.00976562 577 1635.94042969 604.67578125 1525.00976562 606 c 262
- 1174.00976562 606 l 261
- 1174.00976562 482 l 261
+1177.00976562 482 m 257
+ 1521.00976562 482 l 258
+ 1576.96972656 481.326171875 1610.00976562 471 1610.00976562 433 c 256
+ 1610.00976562 415 1599.00976562 401 1576.00976562 401 c 256
+ 1554.00976562 401 1542.00976562 414 1542.00976562 434 c 256
+ 1420.00976562 434 l 257
+ 1420.00976562 349 1491.00976562 279 1560.00976562 279 c 258
+ 1589.00976562 279 l 258
+ 1644.00976562 279 1732.00976562 330 1732.00976562 434 c 258
+ 1732.00976562 444 l 258
+ 1732.00976562 577 1638.94042969 604.67578125 1528.00976562 606 c 258
+ 1177.00976562 606 l 257
+ 1177.00976562 482 l 257
 EndSplineSet
-Refer: 29 3001 S 1 0 0 1 0 0 2
+Refer: 29 3001 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: tml_HUu
@@ -2226,22 +2195,21 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
-1178.00976562 483 m 261
- 1498.00976562 483 l 262
- 1554.00976562 483 1587.00976562 476 1587.00976562 438 c 260
- 1587.00976562 420 1576.00976562 406 1553.00976562 406 c 260
- 1531.00976562 406 1519.00976562 419 1519.00976562 439 c 260
- 1397.00976562 439 l 261
- 1397.00976562 354 1468.00976562 284 1537.00976562 284 c 262
- 1566.00976562 284 l 262
- 1621.00976562 284 1709.00976562 335 1709.00976562 439 c 262
- 1709.00976562 449 l 262
- 1709.00976562 582 1613.00976562 605 1502.00976562 605 c 262
- 1178.00976562 605 l 261
- 1178.00976562 483 l 261
+1177.00976562 482 m 257
+ 1497.00976562 482 l 258
+ 1553.00976562 482 1586.00976562 475 1586.00976562 437 c 256
+ 1586.00976562 419 1575.00976562 405 1552.00976562 405 c 256
+ 1530.00976562 405 1518.00976562 418 1518.00976562 438 c 256
+ 1396.00976562 438 l 257
+ 1396.00976562 353 1467.00976562 283 1536.00976562 283 c 258
+ 1565.00976562 283 l 258
+ 1620.00976562 283 1708.00976562 334 1708.00976562 438 c 258
+ 1708.00976562 448 l 258
+ 1708.00976562 581 1612.00976562 604 1501.00976562 604 c 258
+ 1177.00976562 604 l 257
+ 1177.00976562 482 l 257
 1397.00976562 601 m 256
  1397.00976562 711 1494.00976562 802 1626.00976562 802 c 256
  1772.00976562 802 1859.00976562 710 1859.00976562 605 c 258
@@ -2265,19 +2233,18 @@ GlifName: tml_H_a
 Width: 1409
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -210 122<242.556 308 1122 1192.9> 0 123<184.324 221 276 314.598 464 496.925 618 665> 237 122<186.474 221 276 314.996> 474 122<239.075 307 361 440.231> 481 123<847.036 872 926 964.743 1085.53 1125 1177 1216.49>
 VStem: 49 172<117.935 122 237 359> 49 125<130.36 224.825 226 228.444> 102 122<-311 -222.636> 322 123<127.381 231.505> 464 201<0 123> 497 121<125.125 418.819> 719 124<0 479.363> 965 123<0 479.197> 1220 122<-59.2922 70 458 478.215>
 AnchorPoint: "tml_virama" 1021 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 1342 217 m 9xe19c
  1220 217 l 1
  1220 70 l 258
- 1220 -66 1193 -102 1122 -98 c 256
- 1033.140625 -92.994140625 400 -98 308 -98 c 256
+ 1220 -66 1194 -98 1122 -98 c 256
+ 960 -98 400 -98 308 -98 c 256
  152.393554688 -98 102 -157.974609375 102 -311 c 257
  224 -311 l 257
  224 -237.724609375 239.41796875 -210 282 -210 c 258
@@ -2430,7 +2397,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 581 0 m 257
@@ -2474,7 +2440,6 @@ Flags: HW
 HStem: -178 240<225 264 275 385> -178 122<208.585 275 574 785.795> 100 119<233 275 375 517 572 809 931 996.316> 238 122<530.43 642.1> 522 123<551.889 740.243> 780 123<537.248 796.859>
 VStem: 61 122<-28.8541 73.9391> 389 122<381.565 484.879> 809 122<-34.3696 100 251 448.722> 1018 119<-31.0123 76.3066> 1020 152<246 476.789>
 LayerCount: 2
-Back
 Fore
 SplineSet
 516.09375 407 m 0
@@ -2635,7 +2600,6 @@ Flags: W
 HStem: 1 21<39 39 39 161> 187 125<223 257> 473 123
 VStem: 39 178<473 592 473 595 592 592 473 595> 39 122<1 592 473 593 1 595 592 592 1 595> 178 125<232 266> 466 125<231 265>
 LayerCount: 2
-Back
 Fore
 SplineSet
 466 248 m 256
@@ -2728,7 +2692,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 286 -180 m 257
@@ -2817,7 +2780,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 286 -180 m 257
@@ -2903,7 +2865,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 718 560 m 257
@@ -2931,7 +2892,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 1189.13 210 m 256
@@ -2975,7 +2935,6 @@ HStem: -178 123<347 367 347 405> 16 124<598 664 598 664 580 664 598 718> 158 123
 VStem: 40 122<436.5 518.5 472 518.5 482.5 509.5> 55 122<13.5 69.5 13.5 83 13.5 123.5> 302 122<483 499 440.5 518.5> 410 119 461 122<320 408 371 408 408 451 320 468 408 451 320 475.5 320 534.5> 782 122<-37 -3.5>
 AnchorPoint: "tml_virama" 511 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 286 -180 m 257
@@ -3124,7 +3083,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 709 686 m 257
@@ -3154,7 +3112,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 464.702 855 m 257
@@ -3183,7 +3140,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 419 474.656 m 257
@@ -3210,7 +3166,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 66 272 m 257
@@ -3238,7 +3193,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 1408 158 m 257
@@ -3368,7 +3322,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 1408 158 m 257
@@ -3495,7 +3448,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 1461 486 m 257
@@ -3624,7 +3576,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 1492 486 m 257
@@ -3766,7 +3717,6 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "tml_virama" 1131 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 909 412 m 257
@@ -3879,43 +3829,45 @@ GlifName: tml_K_U_
 Width: 1026
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 LayerCount: 2
-Back
 Fore
 SplineSet
+382.153320312 156 m 0
+ 255.252929688 156 l 0
+ 255.252929688 50 333.333988174 -1 485 -1 c 257
+ 485 122 l 257
+ 406 122 382.153320312 136 382.153320312 156 c 0
+376.801494939 206 m 9
+ 255 206 l 1
+ 255 218 l 258
+ 255 326 366 371 452 371 c 256
+ 555 371 654 371 757 371 c 257
+ 757 249 l 257
+ 454 249 l 258
+ 398.383012676 249 380.525415965 241.448121877 376.801494939 206 c 9
 47 30 m 258
  47 289 l 258
  47 452 161 499 246 499 c 256
  247 377 l 256
  173 377 170 320 170 284 c 258
  170 54 l 258
- 170 -10 193 -88 257 -88 c 262
- 435 -88 l 261
- 435 -210 l 261
- 241 -210 l 262
+ 170 -10 193 -88 257 -88 c 258
+ 435 -88 l 257
+ 435 -210 l 257
+ 241 -210 l 258
  132 -210 47 -109 47 30 c 258
-488 -88 m 261
- 787 -88 l 262
+488 -88 m 257
+ 787 -88 l 258
  856 -88 853 -5 853 38 c 258
  853 185 l 258
  853 235 833 247 811 248 c 257
  811 370 l 257
  873 364 975 337 975 219 c 258
- 975 -47 l 262
- 975 -114 914 -210 788 -210 c 262
- 488 -210 l 261
- 488 -88 l 261
-255 157 m 258
- 255 218 l 258
- 255 326 366 371 452 371 c 256
- 555 371 654 371 757 371 c 257
- 757 249 l 257
- 454 249 l 258
- 390 249 376 239 376 188 c 256
- 376 127 396 122 485 122 c 257
- 485 -1 l 257
- 328 -1 255 68 255 157 c 258
+ 975 -47 l 258
+ 975 -114 914 -210 788 -210 c 258
+ 488 -210 l 257
+ 488 -88 l 257
 538 -1 m 257
  538 122 l 257
  604 122 635 141 635 187 c 258
@@ -3939,7 +3891,6 @@ SplineSet
  889 473 l 257
  597 473 l 257
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: tml_KUu
@@ -3952,7 +3903,6 @@ Flags: HW
 HStem: -1 123<225.5 270 225.5 270 323 356 225.5 406.5> 21 120 249 122<236 239 239 538> 348 23<236 287> 470 122
 VStem: 40 121<157.5 213.5 157.5 218 157.5 272> 165 163<473 589 473 595 589 589 473 595> 165 122<348 589> 420 122<187 191 191 591> 627 123<188 230 230 240.5>
 LayerCount: 2
-Back
 Fore
 SplineSet
 990 186 m 256
@@ -4092,7 +4042,6 @@ HStem: -11 123<232.5 277 232.5 277 331 364 232.5 414.5> 2 124<571 609 571 636> 2
 VStem: 48 121<157.5 213.5 157.5 240 157.5 293.5> 173 162<470 539 470 595 539 539 470 595> 173 122<348 539> 428 122<187 191 191 541> 664 122<157 212>
 AnchorPoint: "tml_virama" 431 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 662.547851562 205 m 17
@@ -4219,7 +4168,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 443.415 41 m 257
@@ -4288,7 +4236,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 851.006 688 m 257
@@ -4317,7 +4264,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 763.006 582.03 m 257
@@ -4382,7 +4328,6 @@ Flags: HW
 HStem: -257 94<182.5 417 199 417 199 471 471 700 700 701> 0 122 237 123 485 121
 VStem: 61 124 61 131 61 171 333 123 493 122 753 122<-80 231>
 LayerCount: 2
-Back
 Fore
 SplineSet
 471 -257 m 257
@@ -4484,7 +4429,6 @@ Flags: HW
 HStem: -257 94<172.5 407 189 407 461 690 690 691 189 461> 0 122 237 123 485 121
 VStem: 51 124 51 131 51 171 323 123 483 122 743 122<-80 231>
 LayerCount: 2
-Back
 Fore
 SplineSet
 189 -257 m 258
@@ -4602,7 +4546,6 @@ HStem: 0 122<193.5 210 193.5 210 265 285.5 193.5 319.5> 237 123 485 121<264.5 29
 VStem: 39 171<0 220 237 323 323 359> 39 131<151 377 298.5 323 323 373.5> 39 124<165 195.5 165 220 165 323> 311 123 472 122<151.5 165 151.5 165> 731 122
 AnchorPoint: "tml_virama" 551 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 265 0 m 257
@@ -4714,7 +4657,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 443.415 43 m 257
@@ -4787,7 +4729,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 40.0059 151 m 256
@@ -4861,7 +4802,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 740.006 482.656 m 257
@@ -4888,7 +4828,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 234 -178 m 258
@@ -4925,7 +4864,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 40.0283 29 m 258
@@ -4971,7 +4909,6 @@ HStem: 0 122<195.5 212 195.5 212 267 287.5 195.5 321.5> 237 123 482 123<639.5 66
 VStem: 41 171<0 220 237 326 326 359> 41 131<151 377 298.5 326 326 376.5> 41 124<165 195.5 165 220 165 326> 313 123
 AnchorPoint: "tml_virama" 531 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 41 151 m 256
@@ -5077,7 +5014,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 406 483 m 257
@@ -5143,7 +5079,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 406 483 m 257
@@ -5208,7 +5143,6 @@ Flags: HW
 HStem: -258 93<191.5 377 262 377 262 377 262 431 431 653> -146 179 0 123 107 17 122 1 483 122
 VStem: 52 123<-85 -53 -85 -52> 267 122 470 122<-146 32 -146 32> 471 122 587 5<-120 -27 -27 -27> 653 93<-165 -120 -120 -120> 730 123
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 532 m 258
@@ -5332,7 +5266,6 @@ Flags: HW
 HStem: -258 93<179.5 488 250 488 250 488 250 542 542 765> -146 179 2 123 108 17 124 1 442 122<196 206 206 216> 485 122
 VStem: 39 125<-52 353> 239 122<397 419.5> 378 122 581 122<-146 32 -146 32> 582 122 698 5<-120 -27 -27 -27> 765 93 842 123
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 -52 m 258
@@ -5471,7 +5404,6 @@ HStem: -145 123<429 559> 0 123 107 17 122 1 483 122
 VStem: 39 122 243 122<-14 1 -14 1> 503 123
 AnchorPoint: "tml_virama" 441 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 175 -67 m 257
@@ -5550,7 +5482,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 608 692.289 m 257
@@ -5605,7 +5536,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 406 483 m 257
@@ -5659,7 +5589,6 @@ Flags: HW
 HStem: -151 122 0 123 107 17 122 1 483 122 634 122<201 238>
 VStem: 39 123 289 122 493 122<-56 15 -91.5 15> 753 123
 LayerCount: 2
-Back
 Fore
 SplineSet
 233 -178 m 262
@@ -5758,7 +5687,6 @@ Flags: HW
 HStem: -151 122 0 123 107 17 122 1 442 122<196 206 206 216> 483 122
 VStem: 39 125<27 353> 239 122<397 419.5> 391 122 595 122<-56 15 -91.5 15> 854 123
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 27 m 258
@@ -5869,7 +5797,6 @@ HStem: 0 123<39 405 39 405 459 479 39 499.5> 107 17 122 1<243 243 243 365> 483 1
 VStem: 39 122<107 123 107 595 123 123 107 595> 243 122<122 434 122 434> 503 123
 AnchorPoint: "tml_virama" 411 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 459 0 m 256
@@ -5959,7 +5886,6 @@ Flags: W
 HStem: 0 21<39 39 39 161 323 323 323 445> 473 122<39 218 39 218 39 271 271 529>
 VStem: 39 179<473 592 473 595 592 592 473 595> 39 122<0 592 473 593 0 595 592 592 0 595>
 LayerCount: 2
-Back
 Fore
 SplineSet
 323 0 m 257
@@ -6027,7 +5953,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 423 157 m 257
@@ -6087,7 +6012,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 61 2995 N 1 0 0 1 923 1 2
 Refer: 75 3014 N 1 0 0 1 0 0 2
@@ -6101,7 +6025,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 265 0 m 257
@@ -6151,7 +6074,6 @@ Flags: W
 HStem: -42 121<331 351 331 356 331 358 351 356 331 467.5> 194 123<343.5 358 413 434> 346 122<341.5 358 341.5 358 413 433.5 341.5 467.5> 582 123<343.5 354 354 358 413 434>
 VStem: 39 121<195 208 208 462> 187 125 459 123
 LayerCount: 2
-Back
 Fore
 SplineSet
 413 346 m 257
@@ -6256,7 +6178,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 643 678 m 257
@@ -6286,7 +6207,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 165 410 m 257
@@ -6311,7 +6231,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 Refer: 72 3006 N 1 0 0 1 952 1 2
 Refer: 75 3014 N 1 0 0 1 -1 0 2
@@ -6326,7 +6245,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 Refer: 76 3015 N 1 0 0 1 0 0 2
 Refer: 72 3006 N 1 0 0 1 948 4 2
@@ -6341,7 +6259,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 574 m 257
@@ -6369,7 +6286,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 57 574 m 257
@@ -6409,7 +6325,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 346 620 m 258
@@ -6479,7 +6394,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 591 690 m 257
@@ -6509,7 +6423,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 313 476.656 m 257
@@ -6538,7 +6451,6 @@ Flags: W
 HStem: -256 94<173.5 453 190 453 507 812 812 813 190 507> -119 93<171 1053 191 1053 191 1175> 3 122 489 123 489 32
 VStem: 264 122<166 300> 424 122<167 168 168 298 298 300> 647 122<167 300 300 311> 803 139 819 122 995 122
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 -124 m 258
@@ -6683,7 +6595,6 @@ Flags: W
 HStem: -256 94 -119 93 3 122 473 122<1053 1232 1053 1232 1053 1286 1286 1543> 473 111 489 123 489 32
 VStem: 263 122 423 122 646 122 802 139 818 122 994 179 994 122
 LayerCount: 2
-Back
 Fore
 SplineSet
 1337 0 m 257
@@ -6800,7 +6711,6 @@ HStem: -157 122<205 468 247 468 468 469>
 VStem: 39 128<-257 -219.5 -257 -182> 520 123<10 25>
 AnchorPoint: "tml_virama" 331 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 285 595 m 257
@@ -6875,7 +6785,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 863 681 m 257
@@ -6904,7 +6813,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 862 826 m 257
@@ -6929,7 +6837,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 665 -257 m 257
@@ -6982,7 +6889,6 @@ Flags: HW
 HStem: -321 113<135.076 492 546 911> -106 92<130.023 196.854> -2 92<845 911> 0 122<337 518 673 728> 473 122<102 573>
 VStem: 30 94<-201.755 -111.282> 101 122<0 473> 200 88<-142 -111.007> 343 122<176 589> 550 123<122.922 230.746> 726 2<0 122> 845 3<-2 90> 911 109<-208 -2>
 LayerCount: 2
-Back
 Fore
 SplineSet
 164 -331 m 262xcdf8
@@ -7118,7 +7024,6 @@ HStem: 0 122<39 448 161 448 275 448 275 448 448 471 333 333 333 448 448 681>
 VStem: 503 123<145 211 211 221.5> 734 122<0 595 0 595>
 AnchorPoint: "tml_virama" 301 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 734 0 m 257
@@ -7196,7 +7101,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 555 249 m 257
@@ -7256,7 +7160,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 6 m 258
@@ -7340,7 +7243,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 443.415 43 m 257
@@ -7415,7 +7317,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 1140 473 m 257
@@ -7506,7 +7407,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 1251 476.887 m 257
@@ -7595,7 +7495,6 @@ Flags: HW
 HStem: -258 94<200 314 367 470 470 471 200 367> -121 93<181 699 201 699 201 821>
 VStem: 523 122<205 228> 699 122<-28 582 -121 582>
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -126 m 258
@@ -7684,7 +7583,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 -126 m 258
@@ -7760,7 +7658,6 @@ HStem: -12 122 1 21<904.5 952 1006 1054.5 1203 1325 1203 1203> 484 122 484 90
 VStem: 39 122<166 167 167 289> 262 122<166 289> 422 122<167 168 168 287 287 289 162 438.5> 645 122<167 289 289 300> 807 122<168 169 169 288 288 290 163 439.5> 1029 122 1203 122<1 563 1 563>
 AnchorPoint: "tml_virama" 781 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 166 m 257
@@ -7906,7 +7803,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 6 m 258
@@ -8008,7 +7904,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 443.415 43 m 257
@@ -8101,7 +7996,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 1045 679 m 257
@@ -8131,7 +8025,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 818 487.656 m 257
@@ -8160,7 +8053,6 @@ Flags: W
 HStem: -256 94<187.5 679 204 679> -119 93<185 1434 205 1434 205 1556> 0 122<555.5 568 555.5 568 621 635 555.5 669.5> 470 52 472 122
 VStem: 40 122<166 167 167 289> 263 122<166 289> 423 122<167 168 168 287 287 289 162 438.5> 646 122<167 289 289 300> 808 122<168 169 169 288 288 290 163 439.5> 1030 122 1193 133 1204 122 1380 122
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -124 m 258
@@ -8338,7 +8230,6 @@ Flags: W
 HStem: -256 94 -119 93 0 122 470 52 473 122<1434 1613 1434 1613 1434 1666 1666 1924> 473 111
 VStem: 39 122 262 122 422 122 645 122 807 122 1029 122 1192 133 1203 122 1379 179 1379 122
 LayerCount: 2
-Back
 Fore
 SplineSet
 1718 0 m 257
@@ -8465,7 +8356,6 @@ HStem: -14 122<173.5 186 173.5 186 173.5 287.5> 0 21<819 819 819 941> 483 90<801
 VStem: 40 122<153 154 154 290> 263 122<154 290> 423 122<154 155 155 288 288 290> 646 122<154 290 290 301> 819 122<0 573 0 573>
 AnchorPoint: "tml_virama" 581 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 423 154 m 257
@@ -8583,7 +8473,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 419 590 m 262
@@ -8627,7 +8516,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 1076.00585938 680 m 257
@@ -8657,7 +8545,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 674.005859375 472.65625 m 257
@@ -8686,7 +8573,6 @@ Flags: HW
 HStem: -257 94<173.506 396.006 190.006 396.006 449.006 644.006 644.006 645.006 190.006 449.006> 1 122 238 123 472 105 472 123
 VStem: 40 124 40 131 40 171 318 123 485 123 696 122
 LayerCount: 2
-Back
 Fore
 SplineSet
 449.006 -163 m 257
@@ -8797,7 +8683,6 @@ Flags: HW
 HStem: -257 94<172.5 395 189 395 448 643 643 644 189 448> 1 122 238 123 472 105 472 123
 VStem: 39 124 39 131 39 171 317 123 484 123 695 122<-95 -80>
 LayerCount: 2
-Back
 Fore
 SplineSet
 1155 -110 m 261
@@ -8923,7 +8808,6 @@ HStem: -208 122<149.234 540 596 920.27> 1 122<412.367 449 504 544.2> 238 122<411
 VStem: 9 122<-67.3164 455.173> 278 124<130.613 231.073> 278 131<309.525 404.785> 278 171<238 360> 556 122<133.099 228.32> 723 122<0 577> 926 123<-79.2319 196.582>
 AnchorPoint: "tml_virama" 631 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 243 -208 m 258xe638
@@ -9028,7 +8912,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 479 573 m 261
@@ -9089,7 +8972,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 386 28 m 4
@@ -9181,7 +9063,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 49 2965 N 1 0 0 1 0 0 2
 EndChar
@@ -9196,7 +9077,6 @@ Flags: W
 HStem: -132 123<715 752 715 752> 29 122 266 123<195.5 210 265 285> 573 122<334.5 426 479 560>
 VStem: 39 171<29 250 29 250 266 310 310 381> 39 124<191.5 228 191.5 250 191.5 250 191.5 310 191.5 381> 216 123<-158.5 -128 -158.5 -102.5> 317 123 483 123<166.5 196 196 276 166.5 196 196 350 276 276> 733 123
 LayerCount: 2
-Back
 Fore
 SplineSet
 479 573 m 257
@@ -9323,7 +9203,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 494 688 m 257
@@ -9352,7 +9231,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 505 825 m 257
@@ -9377,7 +9255,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 106 m 257
@@ -9413,7 +9290,6 @@ Flags: HW
 HStem: -258 93<148 150 150 297 148 353 353 616> -106 93 1 122 107 17
 VStem: 26 88<-147.5 -128 -128 -127 -147.5 -91> 95 122 95 202 187 88 550 4<-112 -20 -20 -20>
 LayerCount: 2
-Back
 Fore
 SplineSet
 164 -331 m 258xcdf8
@@ -9518,7 +9394,6 @@ HStem: 1 122<39 241 39 241 39 297 297 498> 107 17
 VStem: 39 202<1 123 107 123 1 595 1 123> 39 122<107 123 107 595 123 123 107 595>
 AnchorPoint: "tml_virama" 271 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 107 m 257
@@ -9585,7 +9460,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 556 690 m 257
@@ -9616,7 +9490,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 557 690 m 257
@@ -9666,7 +9539,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 321 473.656 m 257
@@ -9694,7 +9566,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 323 476.656 m 257
@@ -9743,7 +9614,6 @@ Flags: HW
 HStem: -150 122 1 21<330 330 330 452 611 734 611 611> 379 122<238 274 231.5 275> 473 122<332 332 332 452 452 524 578 848>
 VStem: 75 123<29 287> 330 194<473 595 473 595 473 595> 330 122<1 595 1 595> 831 122<37 187 187 212>
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 29 m 258
@@ -9855,7 +9725,6 @@ Flags: HW
 HStem: -150 122 1 21<461 461 461 583 742 865 742 742> 321 122<280 290 290 300> 473 122<463 463 463 583 583 655 709 979>
 VStem: 125 123<29 220 220 232> 323 122<276 298.5> 461 194<473 595 473 595 473 595> 461 122<1 595 1 595> 962 122<37 187 187 212>
 LayerCount: 2
-Back
 Fore
 SplineSet
 55 29 m 258
@@ -9976,7 +9845,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 0 m 257
@@ -10018,7 +9886,6 @@ Flags: W
 HStem: 0 21<39 39 39 161 443 443> 473 122<41 41 41 161 161 217 39 271 271 557>
 VStem: 39 178<473 595 473 595 473 595> 39 122<0 595 0 595>
 LayerCount: 2
-Back
 Fore
 SplineSet
 151 -177 m 257
@@ -10088,7 +9955,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 60 519 m 9
@@ -10151,7 +10017,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 449 595.289 m 257
@@ -10181,7 +10046,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 441 504.656 m 257
@@ -10210,7 +10074,6 @@ Flags: W
 HStem: -257 94<173.5 330 190 330 384 512 512 513 190 384> -120 93<171 739 191 739 191 861> -1 21 494 117
 VStem: 37 129 288 122 564 122 739 122<-27 583 -120 583>
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 -125 m 258
@@ -10323,7 +10186,6 @@ Flags: HW
 HStem: -257 94 -120 93 -1 21 474 122<765 943 765 943 765 997 997 1255> 474 109 494 117
 VStem: 62 129 313 122 590 122 765 179 765 122
 LayerCount: 2
-Back
 Fore
 SplineSet
 1049 -119 m 261
@@ -10425,7 +10287,6 @@ HStem: -155 122<233 237 237 472 472 498> 0 21<70 70> 483 123<210.5 223 276 289>
 VStem: 39 122<-256 -216 -256 -185> 65 129 316 122<1 2> 569 125
 AnchorPoint: "tml_virama" 371 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 -311 m 257
@@ -10517,7 +10378,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 433 790 m 262
@@ -10605,7 +10465,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 706.996 483 m 257
@@ -10686,7 +10545,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 1052.01 582.03 m 257
@@ -10761,7 +10619,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 970.006 473 m 257
@@ -10841,7 +10698,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 971.006 474 m 257
@@ -10937,7 +10793,6 @@ HStem: 0 122<195.5 212 195.5 212 267 287.5 195.5 321.5> 237 123 484 121<266.5 29
 VStem: 41 171<0 220 237 326 326 359> 41 131<151 377 298.5 326 326 376.5> 41 124<165 195.5 165 220 165 326> 313 123 762 122<168 402> 1021 122
 AnchorPoint: "tml_virama" 531 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 707 483 m 257
@@ -11061,7 +10916,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 20 2958 N 1 0 0 1 0 0 2
 Validated: 5
@@ -11075,7 +10929,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 168 m 258
@@ -11142,7 +10995,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 933 826 m 257
@@ -11204,7 +11056,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 745 473.957 m 257
@@ -11269,7 +11120,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 804 473 m 257
@@ -11348,7 +11198,6 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "tml_virama" 561 0 mark 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 42 168 m 258
@@ -11399,7 +11248,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 -314 m 261
@@ -11468,7 +11316,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 157 m 258
@@ -11525,7 +11372,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 877.006 485 m 257
@@ -11621,7 +11467,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 877.006 485 m 257
@@ -11714,7 +11559,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 918.006 484.957 m 257
@@ -11811,7 +11655,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 904.006 486 m 257
@@ -11924,7 +11767,6 @@ HStem: 0 123<454 454 608 850 1120 1220 1120 1120> 237 123 483 122<269 301 351 38
 VStem: 40 172<0 220 0 220 237 305 305 359> 40 125<164 199.5 164 220 164 220 164 305 164 369> 314 122<161 199> 487 121<146 354 354 354> 669 123<334 340 340 424 313.5 433 313.5 501.5> 962 122<-178 123 -178 123 158 413>
 AnchorPoint: "tml_virama" 621 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 267 0 m 257
@@ -12065,7 +11907,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 685 690 m 257
@@ -12095,7 +11936,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 445.328 855 m 257
@@ -12124,7 +11964,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 420 477.656 m 257
@@ -12151,7 +11990,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 96.0264 272 m 257
@@ -12181,7 +12019,6 @@ Flags: HW
 HStem: -258 94<189 356 189 410 410 568 568 569> -121 277<621 743 621 905> -121 93<170 783 190 783 190 905> 2 123<235 275 235 275 329 366 235 414> 252 122<245 248 248 574> 351 23<245 296>
 VStem: 49 121<108.5 230 210 221 221 230 210 275> 621 122<210 233> 783 122<-28 582 -121 582>
 LayerCount: 2
-Back
 Fore
 SplineSet
 410 -306 m 257
@@ -12315,7 +12152,6 @@ Flags: HW
 HStem: -200 122<178.5 331 249 331 249 331 249 385 385 466 466 469> 0 21<291 291 291 413 671 671> 111 122<407 508 508 509 407 508> 495 122<547.5 609.5 587 609.5 587 610> 693 123<332 333 333 473>
 VStem: 39 123 291 122<0 592 592 592> 407 6<111 233 233 233> 549 124 632 122<640 650 650 660 598 668>
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 283 m 9
@@ -12440,7 +12276,6 @@ HStem: -158 122<291.5 559 329 559 559 560> 2 123<232.5 269 232.5 269 322 355 232
 VStem: 39 123<110.5 157 157 272> 130 128<-256 -218 -256 -181.5> 611 122<151 151 205 205>
 AnchorPoint: "tml_virama" 351 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -306 m 257
@@ -12549,7 +12384,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 485 729 m 257
@@ -12593,7 +12427,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 694 -61 m 260
@@ -12664,7 +12497,6 @@ Flags: HW
 HStem: 0 122<39 448 255 296 255 448 448 471 333 333 333 448 448 681>
 VStem: 503 123<145 211 211 221.5>
 LayerCount: 2
-Back
 Fore
 SplineSet
 366 0 m 261
@@ -12733,7 +12565,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 347 99 m 257
@@ -12770,7 +12601,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 347 99 m 257
@@ -12806,7 +12636,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 163 328 m 13
@@ -12863,7 +12692,6 @@ Flags: HW
 HStem: -258 94 -121 277 -121 93 2 123 252 122 351 23 473 109 473 122<783 962 783 962 783 1016 1016 1273>
 VStem: 49 121 621 122 783 179<473 595 473 595> 783 122
 LayerCount: 2
-Back
 Fore
 SplineSet
 1067 -119 m 261
@@ -12970,7 +12798,6 @@ HStem: 0 122<27 587 27 587>
 VStem: 27 122<0 596 122 596 176 596 176 596>
 AnchorPoint: "tml_virama" 331 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 27 0 m 257
@@ -13017,7 +12844,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 472 m 256
@@ -13056,7 +12882,6 @@ Flags: HW
 HStem: 0 122<85.3042 116 179 205 259 1033> 110 12<57 179> 141 123<179 462.797> 308 122<188.782 297.683> 622 122<226.663 388.247>
 VStem: 47.1299 124.547<444.822 477 534 568.332> 57 148<11.8906 122> 478 116<281.543 386 434 518.412>
 LayerCount: 2
-Back
 Fore
 SplineSet
 171.676757812 477 m 0x3d
@@ -13161,7 +12986,6 @@ Flags: HW
 HStem: 0 122<259 1381 259 1381> 141 122 149 101 343 101<779 799 779 847> 537 101<842 918 867 918 1148 1167 1215 1396> 545 159 583 84
 VStem: 39 122 57 148 301 122 471 123 659 103 659 140<149 330 343 415 415 444> 883 101
 LayerCount: 2
-Back
 Fore
 SplineSet
 846 149 m 257
@@ -13313,7 +13137,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 830.139 692 m 257
@@ -13342,7 +13165,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 838.006 826 m 257
@@ -13367,7 +13189,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 710.006 -255 m 257
@@ -13387,7 +13208,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 159 -331 m 258xcdf8
@@ -13432,7 +13252,6 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "tml_virama" 581 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 267 0 m 257
@@ -13485,7 +13304,6 @@ GlyphClass: 2
 Flags: HW
 AnchorPoint: "tml_virama" 0 0 mark 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 -74.447265625 728.009765625 m 256
@@ -13504,7 +13322,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 160 238 m 256
@@ -13534,7 +13351,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 724 688 m 257
@@ -13594,7 +13410,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 736 826 m 257
@@ -13650,7 +13465,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 565 168 m 257
@@ -13672,7 +13486,6 @@ Flags: HW
 HStem: -328 103<127.525 436 489 840> -106 92<129.187 195.854 757 840> 0 119<220.5 275 269 275 329 335 269 329 550 556 609 615 615 625.5>
 VStem: 39 88<-223.645 -111.282> 119 122<140 145 145 595> 199 88<-142 -111.007> 399 122<145 595> 609 156 643 122 644 122<-143 -112 -20 168> 757 9<-112 -20> 840 89<-225 -112>
 LayerCount: 2
-Back
 Fore
 SplineSet
 224 -331 m 258xcdf8
@@ -13787,7 +13600,6 @@ HStem: 0 119<140.5 195 189 195 249 255 189 249 470 476 529 535 535 545.5>
 VStem: 39 122<140 145 145 595> 319 122<145 595> 529 156 563 122
 AnchorPoint: "tml_virama" 401 0 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 529 0 m 257
@@ -13870,7 +13682,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 39 9 m 258
@@ -13969,7 +13780,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 Validated: 1
 EndChar
@@ -13982,7 +13792,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 Validated: 1
 EndChar
@@ -13995,7 +13804,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: W
 LayerCount: 2
-Back
 Fore
 Validated: 1
 EndChar
