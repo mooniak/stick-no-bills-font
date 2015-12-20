@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727157
-ModificationTime: 1450620968
+ModificationTime: 1450621414
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -475,7 +475,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 99 9 2
+WinInfo: 0 9 2
 AnchorClass2: "tml_virama" "" 
 BeginChars: 191 191
 
@@ -1133,7 +1133,6 @@ SplineSet
  423 590.957 l 257
 EndSplineSet
 Refer: 16 2970 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_CI.alt
@@ -1167,7 +1166,6 @@ SplineSet
  787.374 732 576.374 770 474.374 770 c 257
 EndSplineSet
 Refer: 16 2970 N 1 0 0 1 0.000275 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_CIi
@@ -1198,7 +1196,6 @@ SplineSet
 603 856.031584898 m 1024
 EndSplineSet
 Refer: 16 2970 N 1 0 0 1 0 -0.273438 2
-Validated: 37
 EndChar
 
 StartChar: tml_CIi.alt
@@ -1231,7 +1228,6 @@ SplineSet
  521.757696862 862.961823396 472.562125215 867.159300343 424 865.724531 c 0
 EndSplineSet
 Refer: 16 2970 N 1 0 0 1 -0.000167188 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_CU
@@ -1518,7 +1514,7 @@ GlifName: tml_C_a
 Width: 668
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: -1 123 249 122 348 23 470 125 470 118
 VStem: 1 121 126 163 126 122 381 122
 AnchorPoint: "tml_virama" 311 0 basechar 0
@@ -1530,13 +1526,13 @@ SplineSet
  81.7334502906 88 154 39 230 39 c 256
  230 -1 l 257
  72.3685098638 -0.0913485524939 40.5206426746 109 40.5206426746 158 c 9
-80.5979713693 204 m 0
- 40.1695886834 204 l 17
+40.1695886834 204 m 17
  40.1695886834 306 113 371 246 371 c 258
  565 371 l 257
  565 331 l 257
  239 331 l 258
  147 331 80.5979713693 293 80.5979713693 204 c 0
+ 40.1695886834 204 l 17
 283 -1 m 257
  283 39 l 257
  377.637 39 422.632 98 423 187 c 258
@@ -1560,7 +1556,6 @@ SplineSet
  288 555 l 257
  165 555 l 257
 EndSplineSet
-Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -6716,6 +6711,7 @@ SplineSet
  554 205 l 257
  554 276.252 535.02 334 441 334 c 257
 EndSplineSet
+Validated: 8912933
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -6857,6 +6853,7 @@ SplineSet
  1057 555 l 261
  799 555 l 261
 EndSplineSet
+Validated: 8912933
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -7582,6 +7579,7 @@ SplineSet
  739 595.1 l 261
 EndSplineSet
 Refer: 108 2985 S 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: tml_NnIi
@@ -7608,6 +7606,7 @@ SplineSet
  738 469.656 l 261
 EndSplineSet
 Refer: 108 2985 S 1 0 0 1 0 0 2
+Validated: 524325
 EndChar
 
 StartChar: tml_NnU
@@ -7683,6 +7682,7 @@ SplineSet
  648 389 l 262
  648 471.057617188 585.779296875 565 381 565 c 261
 EndSplineSet
+Validated: 524325
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -7745,6 +7745,7 @@ SplineSet
  1102 555 l 257
 EndSplineSet
 Refer: 99 -1 N 1 0 0 1 -14 0 2
+Validated: 524293
 EndChar
 
 StartChar: tml_Nna
@@ -8106,6 +8107,7 @@ SplineSet
  1123 1 l 257
  1083 1 l 257
 EndSplineSet
+Validated: 524325
 EndChar
 
 StartChar: tml_NnnIi
@@ -8192,6 +8194,7 @@ SplineSet
  1123 1 l 257
  1083 1 l 257
 EndSplineSet
+Validated: 524325
 EndChar
 
 StartChar: tml_NnnU
@@ -8377,7 +8380,7 @@ GlifName: tml_N_nnU_u
 Width: 1602
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -256 94 -119 93 0 122 470 52 473 122 473 111
 VStem: 39 122 262 122 422 122 645 122 807 122 1029 122 1192 133 1203 122 1379 179 1379 122
 LayerCount: 2
@@ -8400,6 +8403,7 @@ SplineSet
  1130 555 l 257
 EndSplineSet
 Refer: 106 -1 N 1 0 0 1 0 0 2
+Validated: 8912901
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
