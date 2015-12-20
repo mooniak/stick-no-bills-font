@@ -7,6 +7,12 @@
       <point x="311" y="0" type="move" name="tml_virama"/>
     </contour>
     <contour>
+      <point x="282" y="595" type="line"/>
+      <point x="519" y="595" type="line"/>
+      <point x="519" y="555" type="line"/>
+      <point x="282" y="555" type="line"/>
+    </contour>
+    <contour>
       <point x="92" y="595" type="line"/>
       <point x="219" y="595" type="line"/>
       <point x="219" y="555" type="line"/>
@@ -49,12 +55,6 @@
       <point x="92" y="590" type="line"/>
       <point x="132" y="590" type="line"/>
       <point x="132" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="282" y="595" type="line"/>
-      <point x="519" y="595" type="line"/>
-      <point x="519" y="555" type="line"/>
-      <point x="282" y="555" type="line"/>
     </contour>
   </outline>
   <lib>
