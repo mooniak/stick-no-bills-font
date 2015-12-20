@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727157
-ModificationTime: 1450619331
+ModificationTime: 1450619794
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -475,7 +475,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 117 9 2
+WinInfo: 162 9 2
 AnchorClass2: "tml_virama" "" 
 BeginChars: 191 191
 
@@ -5581,7 +5581,7 @@ GlyphClass: 2
 Flags: HW
 HStem: -145 123 0 123 107 17 122 1 483 122
 VStem: 1 122 205 122 465 123
-AnchorPoint: "tml_virama" 441 0 basechar 0
+AnchorPoint: "tml_virama" 396 2 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5598,7 +5598,6 @@ SplineSet
  269.086 -146 247.086 -60 247.086 1 c 257
 EndSplineSet
 Refer: 71 2990 N 1 0 0 1 1.08594 1.45313 2
-Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9267,6 +9266,7 @@ SplineSet
  399 560 l 257
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 -30 0 2
+Validated: 524325
 EndChar
 
 StartChar: tml_PIi
@@ -9291,6 +9291,7 @@ SplineSet
  604 858 549 896 492 896 c 257
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 -30 0 2
+Validated: 524325
 EndChar
 
 StartChar: tml_PU
@@ -9369,6 +9370,7 @@ SplineSet
  471 7 l 257
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 43 0 2
+Validated: 8912901
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9463,6 +9465,7 @@ SplineSet
  242 0 l 257
  70 0 l 257
 EndSplineSet
+Validated: 8388613
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9525,6 +9528,7 @@ SplineSet
  324 590.957 l 257
 EndSplineSet
 Refer: 131 2992 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: tml_RI.alt
@@ -9600,6 +9604,7 @@ SplineSet
  324 570 l 257
 EndSplineSet
 Refer: 131 2992 N 1 0 0 1 0 0 2
+Validated: 524325
 EndChar
 
 StartChar: tml_RIi.alt
@@ -9956,6 +9961,7 @@ SplineSet
  175 555 l 257
  42 555 l 257
 EndSplineSet
+Validated: 8388613
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13237,30 +13243,29 @@ EndChar
 StartChar: tml_VI
 Encoding: 175 -1 175
 GlifName: tml_V_I_
-Width: 994
+Width: 999
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
 801.994 739 m 257
  801.994 779 l 257
  931.994 779 954.994 692 954.994 597 c 258
- 954.994140625 0 l 261
- 913.994140625 0 l 261
+ 954.994140625 0 l 257
+ 913.994140625 0 l 257
  913.994 594 l 258
  913.994 655 911.994 739 801.994 739 c 257
-714.994 595 m 256
- 639.994 595 639.994 740.1 747.994 740 c 256
+714.994 595 m 265
+ 714.994 560 l 257
+ 586.944 559.966 587.648 778.519 747.994 779 c 257
+ 747.994 779 l 257
  747.994 740 l 256
- 747.994 779 l 257
- 747.994 779 l 257
- 587.648 778.519 586.944 559.966 714.994 560 c 257
- 714.994 595 l 256
+ 747.994 740 l 256
+ 639.994 740.1 639.994 595 714.994 595 c 265
 EndSplineSet
 Refer: 179 2997 N 1 0 0 1 0.000201995 0 2
-Validated: 37
 EndChar
 
 StartChar: tml_VIi
