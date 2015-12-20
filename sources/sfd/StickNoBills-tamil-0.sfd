@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727157
-ModificationTime: 1450621414
+ModificationTime: 1450632310
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -475,7 +475,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 9 2
+WinInfo: 80 8 2
 AnchorClass2: "tml_virama" "" 
 BeginChars: 191 191
 
@@ -894,7 +894,7 @@ SplineSet
  824 -87 769.937 -180 670 -180 c 257
  670 -140 l 257
 EndSplineSet
-Validated: 8912901
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -1514,7 +1514,7 @@ GlifName: tml_C_a
 Width: 668
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -1 123 249 122 348 23 470 125 470 118
 VStem: 1 121 126 163 126 122 381 122
 AnchorPoint: "tml_virama" 311 0 basechar 0
@@ -2149,7 +2149,7 @@ SplineSet
  1356 658.1 1352 725.1 1266 725.1 c 257
 EndSplineSet
 Refer: 29 3001 N 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: tml_HIi
@@ -2176,7 +2176,7 @@ SplineSet
  1083 571.756 l 257
 EndSplineSet
 Refer: 29 3001 S 1 0 0 1 0 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_HU
@@ -2204,7 +2204,7 @@ SplineSet
  1127 564 l 257
 EndSplineSet
 Refer: 29 3001 N 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: tml_HUu
@@ -2245,7 +2245,7 @@ SplineSet
  1454 803.7265625 1377 745.7265625 1377 603.7265625 c 256
 EndSplineSet
 Refer: 29 3001 N 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: tml_Ha
@@ -2330,7 +2330,7 @@ SplineSet
  1199.68 -123.275 1252 -35.3119 1252 63 c 258
  1251.55371094 266 l 1
 EndSplineSet
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -2528,7 +2528,7 @@ SplineSet
  455 -170.06640625 l 256
  348 -122 262.625 -18 230 114 c 257
 EndSplineSet
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -3110,7 +3110,6 @@ SplineSet
  422 588 l 257
 EndSplineSet
 Refer: 49 2965 N 1 0 0 1 -48 -3 2
-Validated: 524293
 EndChar
 
 StartChar: tml_KI.alt
@@ -3139,7 +3138,6 @@ SplineSet
  835.594 736 564.594 770 462.594 770 c 257
 EndSplineSet
 Refer: 49 2965 N 1 0 0 1 -43.4063 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_KIi
@@ -3166,7 +3164,6 @@ SplineSet
  426 470.65625 l 257
 EndSplineSet
 Refer: 49 2965 N 1 0 0 1 -15 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_KIi.alt
@@ -3194,7 +3191,6 @@ SplineSet
  72.2588 315 l 257
 EndSplineSet
 Refer: 49 2965 N 1 0 0 1 -46.7416 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_KSsI
@@ -3980,7 +3976,7 @@ SplineSet
  1420 1 l 261
  1134 1 l 261
 EndSplineSet
-Validated: 524325
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -4059,22 +4055,20 @@ AnchorPoint: "tml_virama" 392 1 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-717.47333393 160 m 0
- 674 161 l 17
- 669 80 590.245864774 29 502 29 c 256
- 502 -11 l 256
- 625 -11 712 68 717.47333393 160 c 0
-677.761724106 196 m 17
- 677.761724106 296 640.823111773 331 541 331 c 258
- 215 331 l 258
- 123.140625 331 100.3359375 276 100.3359375 208 c 0
- 100.3359375 207.3359375 60 208 60 208 c 1
- 60 212 l 258
- 60 364 174 371 212 371 c 258
- 553 371 l 258
- 659 371 718 329 718 206 c 258
- 718 196 l 17
+502 29 m 256
+ 590.245864774 29 669 80 674 161 c 9
+ 717.47333393 160 l 0
+ 712 68 625 -11 502 -11 c 256
+ 502 29 l 256
+100.3359375 208 m 9
+ 100.3359375 208 60 208 60 208 c 1
+ 60 362.191482273 171.30016631 371 212 371 c 266
+ 553 371 l 274
+ 664.807342365 371 718 325.239639562 718 196 c 17
  677.761724106 196 l 17
+ 677.761724106 296 640.823111773 331 541 331 c 266
+ 215 331 l 274
+ 123.140625 331 100.3359375 276 100.3359375 208 c 9
 100.510742188 172 m 1
  100 172 60.080078125 172 60.080078125 172 c 1
  62.6240234375 76.3173828125 126.114257812 -11 249 -11 c 257
@@ -4103,7 +4097,6 @@ SplineSet
  307 555 l 257
  185 555 l 257
 EndSplineSet
-Validated: 8912933
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -5593,7 +5586,7 @@ SplineSet
  269.086 -146 247.086 -60 247.086 1 c 257
 EndSplineSet
 Refer: 71 2990 N 1 0 0 1 1.08594 1.45313 2
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -6581,7 +6574,6 @@ SplineSet
  319 592 l 257
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 -37 0 2
-Validated: 524293
 EndChar
 
 StartChar: tml_NIi
@@ -6608,7 +6600,6 @@ SplineSet
  319 470.656 l 257
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 -37 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_NU
@@ -6711,7 +6702,7 @@ SplineSet
  554 205 l 257
  554 276.252 535.02 334 441 334 c 257
 EndSplineSet
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -6853,7 +6844,7 @@ SplineSet
  1057 555 l 261
  799 555 l 261
 EndSplineSet
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -6945,36 +6936,36 @@ GlifName: tml_N_a
 Width: 637
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: -157 122
 VStem: 19 128 500 123
 AnchorPoint: "tml_virama" 311 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-282 595 m 257
+282 555 m 257
+ 282 595 l 257
  519 595 l 257
  519 555 l 257
  282 555 l 257
- 282 595 l 257
-92 595 m 257
+92 555 m 257
+ 92 595 l 257
  219 595 l 257
  219 555 l 257
  92 555 l 257
- 92 595 l 257
-57 -257 m 257
- 57 -121 106 -117 155 -117 c 258
- 409 -117 l 258
- 487 -117 543 -83 543 25 c 258
- 544 206 l 258
- 544.673828125 327.99609375 487 335 430 335 c 256
- 430 375 l 257
+430 375 m 257
  506 375 584 353 584 206 c 258
  584 25 l 258
  584 -41 563 -157 410 -157 c 258
  138 -157 l 258
  110 -157 97 -182 97 -257 c 257
  57 -257 l 257
+ 57 -121 106 -117 155 -117 c 258
+ 409 -117 l 258
+ 487 -117 543 -83 543 25 c 258
+ 544 206 l 258
+ 544.673828125 327.99609375 487 335 430 335 c 256
+ 430 375 l 257
 335 0 m 257
  336 588 l 257
  375 588 l 257
@@ -6986,7 +6977,6 @@ SplineSet
  132 0 l 257
  92 0 l 257
 EndSplineSet
-Validated: 524325
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -7043,7 +7033,7 @@ SplineSet
  768 767 l 257
 EndSplineSet
 Refer: 93 2969 S 1 0 0 1 -41 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_NgIi
@@ -7579,7 +7569,7 @@ SplineSet
  739 595.1 l 261
 EndSplineSet
 Refer: 108 2985 S 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: tml_NnIi
@@ -7606,7 +7596,7 @@ SplineSet
  738 469.656 l 261
 EndSplineSet
 Refer: 108 2985 S 1 0 0 1 0 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_NnU
@@ -7682,7 +7672,7 @@ SplineSet
  648 389 l 262
  648 471.057617188 585.779296875 565 381 565 c 261
 EndSplineSet
-Validated: 524325
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -7745,7 +7735,7 @@ SplineSet
  1102 555 l 257
 EndSplineSet
 Refer: 99 -1 N 1 0 0 1 -14 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: tml_Nna
@@ -8107,7 +8097,7 @@ SplineSet
  1123 1 l 257
  1083 1 l 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_NnnIi
@@ -8194,7 +8184,7 @@ SplineSet
  1123 1 l 257
  1083 1 l 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_NnnU
@@ -8403,7 +8393,7 @@ SplineSet
  1130 555 l 257
 EndSplineSet
 Refer: 106 -1 N 1 0 0 1 0 0 2
-Validated: 8912901
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -8592,7 +8582,6 @@ SplineSet
  432.45703125 710.331054688 443.475585938 694.23046875 458 687.741210938 c 0
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 -37 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_NyI
@@ -9150,7 +9139,6 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 49 2965 N 1 0 0 1 -6 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_Oo
@@ -9307,7 +9295,7 @@ SplineSet
  399 560 l 257
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 -30 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_PIi
@@ -9332,7 +9320,7 @@ SplineSet
  604 858 549 896 492 896 c 257
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 -30 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_PU
@@ -9411,7 +9399,7 @@ SplineSet
  471 7 l 257
 EndSplineSet
 Refer: 123 2986 N 1 0 0 1 43 0 2
-Validated: 8912901
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9506,7 +9494,7 @@ SplineSet
  242 0 l 257
  70 0 l 257
 EndSplineSet
-Validated: 8388613
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -9569,7 +9557,7 @@ SplineSet
  324 590.957 l 257
 EndSplineSet
 Refer: 131 2992 N 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: tml_RI.alt
@@ -9645,7 +9633,7 @@ SplineSet
  324 570 l 257
 EndSplineSet
 Refer: 131 2992 N 1 0 0 1 0 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_RIi.alt
@@ -10002,7 +9990,7 @@ SplineSet
  175 555 l 257
  42 555 l 257
 EndSplineSet
-Validated: 8388613
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -12319,7 +12307,7 @@ SplineSet
  745 555 l 261
 EndSplineSet
 Refer: 161 -1 S 1 0 0 1 -38 0 2
-Validated: 8912901
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -12860,7 +12848,7 @@ SplineSet
  335 0 l 257
  295 0 l 257
 EndSplineSet
-Validated: 8912933
+Validated: 37
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13034,20 +13022,20 @@ VStem: 4 122 22 148 266 122 436 123
 LayerCount: 2
 Fore
 SplineSet
-40.3805559758 486 m 0
- 40.3805559758 600 130.112401722 696 267 696 c 256
- 428.845824362 696 524 590.00972317 524 430 c 257
- 484 430 l 257
- 484 583.257301593 380.275557648 656 267 656 c 256
- 151.671407964 656 86.0618214824 577.562079631 80.3999836408 486 c 0
- 80 486 40.3805559758 486 40.3805559758 486 c 0
+80.3999836408 486 m 0
+ 86.0618214824 577.562079631 151.671407964 656 267 656 c 256
+ 380.275557648 656 484 603.256835938 484 420 c 257
+ 524 420 l 257
+ 524 610.009765625 428.845824362 696 267 696 c 256
+ 130.112401722 696 40.3805559758 600 40.3805559758 486 c 0
+ 40.3805559758 486 80 486 80.3999836408 486 c 0
 80.5157915912 459 m 0
- 83 402 137.471686318 325 227 325 c 256
- 312.986 325 337 426 337 504 c 257
- 378 504 l 257
- 378 351 319.483 285 228 285 c 256
- 113 285 40.3437250373 366 40.3437250373 459 c 0
- 40.3437250373 459.656274963 80.5157915912 459 80.5157915912 459 c 0
+ 83 402 117.471679688 318 207 318 c 256
+ 292.986328125 318 317 414 317 480 c 256
+ 358 480 l 256
+ 358 346 299.483398438 278 208 278 c 256
+ 93 278 40.3437250373 366 40.3437250373 459 c 0
+ 40.3437250373 459 80.5157915912 459 80.5157915912 459 c 0
 260 0 m 257
  260 38 l 257
  963 38 l 257
@@ -13071,7 +13059,6 @@ SplineSet
  101 128 101 33 101 33 c 256
  58 33 l 256
 EndSplineSet
-Validated: 8912933
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13195,7 +13182,6 @@ SplineSet
  259 0 l 257
 EndSplineSet
 Refer: 173 2953 N 1 0 0 1 0 0 2
-Validated: 8912933
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13307,7 +13293,7 @@ SplineSet
  639.994 740.1 639.994 595 714.994 595 c 265
 EndSplineSet
 Refer: 179 2997 N 1 0 0 1 0.000201995 0 2
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_VIi
@@ -13557,7 +13543,7 @@ SplineSet
  379 14 319 0 280 0 c 258
  274 0 l 257
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: tml_YIi
@@ -13678,7 +13664,7 @@ SplineSet
  601 -143 l 257
 EndSplineSet
 Refer: 186 2991 N 1 0 0 1 35 0 2
-Validated: 8912901
+Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
