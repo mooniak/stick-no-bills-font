@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727157
-ModificationTime: 1450553233
+ModificationTime: 1450577855
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -475,7 +475,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 180 9 2
+WinInfo: 9 9 2
 AnchorClass2: "tml_virama" "" 
 BeginChars: 191 191
 
@@ -1119,8 +1119,8 @@ SplineSet
 608 718.957 m 257
  608 758.957 l 257
  705 758.957 738 694.957 738 592.957 c 258
- 738 0.95703125 l 261
- 698 0.95703125 l 261
+ 738 0.95703125 l 257
+ 698 0.95703125 l 257
  698 589.957 l 258
  698 651.957 694 718.957 608 718.957 c 257
 423 590.957 m 257
@@ -1133,7 +1133,6 @@ SplineSet
  423 590.957 l 257
 EndSplineSet
 Refer: 16 2970 N 1 0 0 1 0 0 2
-Validated: 524293
 EndChar
 
 StartChar: tml_CI.alt
@@ -1167,7 +1166,6 @@ SplineSet
  787.374 732 576.374 770 474.374 770 c 257
 EndSplineSet
 Refer: 16 2970 N 1 0 0 1 0.000275 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_CIi
@@ -1198,7 +1196,6 @@ SplineSet
 603 856.031584898 m 1024
 EndSplineSet
 Refer: 16 2970 N 1 0 0 1 0 -0.273438 2
-Validated: 524325
 EndChar
 
 StartChar: tml_CIi.alt
@@ -1231,7 +1228,6 @@ SplineSet
  521.757696862 862.961823396 472.562125215 867.159300343 424 865.724531 c 0
 EndSplineSet
 Refer: 16 2970 N 1 0 0 1 -0.000167188 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_CU
@@ -1518,20 +1514,20 @@ GlifName: tml_C_a
 Width: 668
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: -1 123 249 122 348 23 470 125 470 118
 VStem: 1 121 126 163 126 122 381 122
 AnchorPoint: "tml_virama" 311 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-40.5206426746 158 m 0
+40.5206426746 158 m 9
  81.7334502906 158 l 0
  81.7334502906 88 154 39 230 39 c 256
  230 -1 l 257
- 72.3685098638 -0.0913485524939 40.5206426746 109 40.5206426746 158 c 0
+ 72.3685098638 -0.0913485524939 40.5206426746 109 40.5206426746 158 c 9
 80.5979713693 204 m 0
- 40.1695886834 204 l 0
+ 40.1695886834 204 l 17
  40.1695886834 306 113 371 246 371 c 258
  565 371 l 257
  565 331 l 257
@@ -1560,7 +1556,6 @@ SplineSet
  288 555 l 257
  165 555 l 257
 EndSplineSet
-Validated: 8912901
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -2154,6 +2149,7 @@ SplineSet
  1356 658.1 1352 725.1 1266 725.1 c 257
 EndSplineSet
 Refer: 29 3001 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: tml_HIi
@@ -2180,6 +2176,7 @@ SplineSet
  1083 571.756 l 257
 EndSplineSet
 Refer: 29 3001 S 1 0 0 1 0 0 2
+Validated: 524325
 EndChar
 
 StartChar: tml_HU
@@ -2207,6 +2204,7 @@ SplineSet
  1127 564 l 257
 EndSplineSet
 Refer: 29 3001 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: tml_HUu
@@ -2247,6 +2245,7 @@ SplineSet
  1377 600.727 l 256
 EndSplineSet
 Refer: 29 3001 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: tml_Ha
@@ -2331,6 +2330,7 @@ SplineSet
  148.521 565 81.6709 443.391 80 306 c 256
  40 204 l 257
 EndSplineSet
+Validated: 8912933
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -6586,6 +6586,7 @@ SplineSet
  319 592 l 257
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 -37 0 2
+Validated: 524293
 EndChar
 
 StartChar: tml_NIi
@@ -6612,6 +6613,7 @@ SplineSet
  319 470.656 l 257
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 -37 0 2
+Validated: 524325
 EndChar
 
 StartChar: tml_NU
@@ -6920,6 +6922,7 @@ SplineSet
  282 555 l 257
  282 595 l 257
 EndSplineSet
+Validated: 524325
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -8124,6 +8127,7 @@ SplineSet
  739 595.1 l 257
 EndSplineSet
 Refer: 108 2985 N 1 0 0 1 0 0 2
+Validated: 524293
 EndChar
 
 StartChar: tml_NnnIi
@@ -8150,6 +8154,7 @@ SplineSet
  738 469.656 l 257
 EndSplineSet
 Refer: 108 2985 N 1 0 0 1 0 0 2
+Validated: 524325
 EndChar
 
 StartChar: tml_NnnU
@@ -8512,6 +8517,7 @@ SplineSet
  778 0 l 257
  738 0 l 257
 EndSplineSet
+Validated: 524325
 EndChar
 
 StartChar: tml_Number
@@ -8546,6 +8552,7 @@ SplineSet
  432.45703125 710.331054688 443.475585938 694.23046875 458 687.741210938 c 0
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 -37 0 2
+Validated: 524325
 EndChar
 
 StartChar: tml_NyI
@@ -13595,7 +13602,7 @@ GlifName: tml_Y_U_u
 Width: 817
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -258 93 -106 93 0 119
 VStem: -6 88 74 122 154 88 354 122 564 156 599 122 712 9 795 89
 LayerCount: 2
