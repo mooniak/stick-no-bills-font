@@ -7,9 +7,6 @@
       <point x="372" y="-1" type="move" name="tml_virama"/>
     </contour>
     <contour>
-      <point x="161.451" y="213" type="curve" smooth="yes"/>
-      <point x="161.451" y="213"/>
-      <point x="39" y="213"/>
       <point x="39" y="213" type="curve"/>
       <point x="39" y="324.97"/>
       <point x="145.4" y="371"/>
@@ -19,8 +16,12 @@
       <point x="238" y="249" type="line" smooth="yes"/>
       <point x="180" y="249"/>
       <point x="161.451" y="242"/>
+      <point x="161.451" y="213" type="curve" smooth="yes"/>
+      <point x="161.451" y="213"/>
+      <point x="39" y="213"/>
     </contour>
     <contour>
+      <point x="39" y="163" type="curve"/>
       <point x="160.311" y="163" type="line" smooth="yes"/>
       <point x="160.311" y="128"/>
       <point x="195.228" y="121"/>
@@ -28,7 +29,6 @@
       <point x="278" y="-1" type="line"/>
       <point x="93.9604" y="0.0224424"/>
       <point x="39" y="68.424"/>
-      <point x="39" y="163" type="curve"/>
     </contour>
     <contour>
       <point x="331" y="-1" type="curve"/>
