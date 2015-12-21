@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1446727163
-ModificationTime: 1450693525
+ModificationTime: 1450701343
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -475,7 +475,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 168 8 2
+WinInfo: 80 8 2
 Grid
 -1000 -209.399993896 m 0
  2000 -209.399993896 l 1024
@@ -6449,7 +6449,6 @@ SplineSet
  314 592 l 257
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 1 0 2
-Validated: 5
 EndChar
 
 StartChar: tml_NIi
@@ -6476,7 +6475,6 @@ SplineSet
  313 476.656 l 257
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 1 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_NU
@@ -6726,7 +6724,7 @@ GlifName: tml_N_a
 Width: 696
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 HStem: -157 122<205 468 247 468 468 469>
 VStem: 39 128<-257 -219.5 -257 -182> 520 123<10 25>
 AnchorPoint: "tml_virama" 331 0 basechar 0
@@ -6738,21 +6736,21 @@ SplineSet
  193 590 l 257
  193 0 l 257
  71 0 l 257
-286 595 m 257
+286 474 m 257
+ 286 595 l 257
  575 595 l 257
  575 474 l 257
  286 474 l 257
- 286 595 l 257
 312 0 m 257
  313 588 l 257
  436 588 l 257
  437 0 l 257
  312 0 l 257
-71 595 m 257
+71 474 m 257
+ 71 595 l 257
  221 595 l 257
  221 474 l 257
  71 474 l 257
- 71 595 l 257
 489 253 m 256
  489 375 l 257
  565 375 643 353 643 206 c 258
@@ -6767,7 +6765,6 @@ SplineSet
  521 206 l 258
  521 252 516 253 489 253 c 256
 EndSplineSet
-Validated: 5
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -8746,7 +8743,6 @@ SplineSet
  1118 600 l 261
 EndSplineSet
 Refer: 88 2984 N 1 0 0 1 6 0 2
-Validated: 524325
 EndChar
 
 StartChar: tml_NyI
@@ -13187,7 +13183,7 @@ GlifName: tml_U_
 Width: 1059
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 0 122<85.3042 116 179 205 259 1033> 110 12<57 179> 141 123<179 462.797> 308 122<188.782 297.683> 622 122<226.663 388.247>
 VStem: 47.1299 124.547<444.822 477 534 568.332> 57 148<11.8906 122> 478 116<281.543 386 434 518.412>
 LayerCount: 2
@@ -13230,6 +13226,7 @@ SplineSet
  60.5830078125 308 47.1298828125 398 47.1298828125 477 c 0
  47.1298828125 477 171.676757812 477 171.676757812 477 c 0x3d
 EndSplineSet
+Validated: 524325
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -13353,6 +13350,7 @@ SplineSet
  259 0 l 257
 EndSplineSet
 Refer: 173 2953 N 1 0 0 1 0 0 2
+Validated: 8912933
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
