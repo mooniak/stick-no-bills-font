@@ -654,13 +654,6 @@ lookup tml_stylistic_alternates_4 {
     sub tml_TIi by tml_TIi.alt;
 } tml_stylistic_alternates_4;
 
-#----------- DUMMY GPOS --------
-#-------------------------------
-
-lookup dummy{
-	pos si_A <0 0 0 0>;
-}dummy;
-
 ##--------------- Features ---------------##
 
 include (markclasses.fea);
