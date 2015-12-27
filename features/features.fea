@@ -745,7 +745,6 @@ feature kern {
 
 feature dist {
     script sinh;
-      lookup dummy;
 } dist;
 
 feature abvm {
