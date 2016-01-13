@@ -4,19 +4,16 @@
   <unicode hex="0BB4"/>
   <outline>
     <contour>
-      <point x="441" y="0" type="move" name="tml_virama"/>
-    </contour>
-    <contour>
-      <point x="53" y="-67" type="line"/>
-      <point x="53" y="-191"/>
-      <point x="183" y="-260"/>
-      <point x="327" y="-165" type="curve"/>
-      <point x="281" y="-160"/>
-      <point x="235" y="-119"/>
-      <point x="231" y="-87" type="curve"/>
-      <point x="213" y="-103"/>
+      <point x="175" y="-67" type="line"/>
       <point x="176" y="-91"/>
-      <point x="175" y="-67" type="curve"/>
+      <point x="213" y="-103"/>
+      <point x="231" y="-87" type="curve"/>
+      <point x="235" y="-119"/>
+      <point x="281" y="-160"/>
+      <point x="327" y="-165" type="curve"/>
+      <point x="183" y="-260"/>
+      <point x="53" y="-191"/>
+      <point x="53" y="-67" type="curve"/>
     </contour>
     <contour>
       <point x="243" y="1" type="curve"/>
@@ -30,6 +27,9 @@
       <point x="243" y="-60"/>
     </contour>
     <component base="tml_Ma"/>
+    <contour>
+      <point x="441" y="0" type="move" name="tml_virama"/>
+    </contour>
   </outline>
   <lib>
     <dict>
