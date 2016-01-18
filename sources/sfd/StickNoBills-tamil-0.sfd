@@ -4,8 +4,8 @@ FullName: Stick No Bills
 FamilyName: Stick No Bills
 OS2FamilyName: "Stick No Bills Regular"
 OS2StyleName: "regular"
-Weight: Regular
-Copyright: Remove All VKern Pairs
+Weight: light
+Copyright: Copyright (c) 2015 mooniak (http://mooniak.com) (c) 2015 Tharique Azeez(zeezat@gmail.com)
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
 ItalicAngle: 0
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1453142462
-ModificationTime: 1453152737
+ModificationTime: 1453154584
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -48,6 +48,7 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
+MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "Remove All VKern Pairs" "" "" "" "" "Version 1.0.1" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "Stick No Bills" "Regular"
 PickledDataWithLists: "(dp1
@@ -853,13 +854,13 @@ aS'tml_YI'
 p376
 aS'tml_YUu'
 p377
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p378
-I0
-sS'com.schriftgestaltung.fontMasterID'
-p379
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p379
+sS'com.schriftgestaltung.useNiceNames'
 p380
+I0
 s."
 Encoding: Custom
 Compacted: 1
@@ -868,20 +869,84 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 12 5
+WinInfo: 0 8 2
+BeginPrivate: 0
+EndPrivate
 AnchorClass2: "tml_virama" "" 
 BeginChars: 257 191
 
 StartChar: dottedcircle
 Encoding: 1 9676 0
 GlifName: dottedcircle
-Width: 0
+Width: 636
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
+SplineSet
+167.958 483.58 m 256
+ 167.958 502.58 182.958 517.58 201.958 517.58 c 256
+ 220.958 517.58 235.958 502.58 235.958 483.58 c 256
+ 235.958 464.58 220.958 449.58 201.958 449.58 c 256
+ 182.958 449.58 167.958 464.58 167.958 483.58 c 256
+82.4199 398.042 m 256
+ 82.4199 417.042 97.4199 432.042 116.42 432.042 c 256
+ 135.42 432.042 150.42 417.042 150.42 398.042 c 256
+ 150.42 379.042 135.42 364.042 116.42 364.042 c 256
+ 97.4199 364.042 82.4199 379.042 82.4199 398.042 c 256
+167.958 72.4199 m 256
+ 167.958 91.4199 182.958 106.42 201.958 106.42 c 256
+ 220.958 106.42 235.958 91.4199 235.958 72.4199 c 256
+ 235.958 53.4199 220.958 38.4199 201.958 38.4199 c 256
+ 182.958 38.4199 167.958 53.4199 167.958 72.4199 c 256
+82.4199 157.958 m 256
+ 82.4199 176.958 97.4199 191.958 116.42 191.958 c 256
+ 135.42 191.958 150.42 176.958 150.42 157.958 c 256
+ 150.42 138.958 135.42 123.958 116.42 123.958 c 256
+ 97.4199 123.958 82.4199 138.958 82.4199 157.958 c 256
+408.042 72.4199 m 256
+ 408.042 91.4199 423.042 106.42 442.042 106.42 c 256
+ 461.042 106.42 476.042 91.4199 476.042 72.4199 c 256
+ 476.042 53.4199 461.042 38.4199 442.042 38.4199 c 256
+ 423.042 38.4199 408.042 53.4199 408.042 72.4199 c 256
+493.58 157.958 m 256
+ 493.58 176.958 508.58 191.958 527.58 191.958 c 256
+ 546.58 191.958 561.58 176.958 561.58 157.958 c 256
+ 561.58 138.958 546.58 123.958 527.58 123.958 c 256
+ 508.58 123.958 493.58 138.958 493.58 157.958 c 256
+493.58 398.042 m 256
+ 493.58 417.042 508.58 432.042 527.58 432.042 c 256
+ 546.58 432.042 561.58 417.042 561.58 398.042 c 256
+ 561.58 379.042 546.58 364.042 527.58 364.042 c 256
+ 508.58 364.042 493.58 379.042 493.58 398.042 c 256
+408.042 483.58 m 256
+ 408.042 502.58 423.042 517.58 442.042 517.58 c 256
+ 461.042 517.58 476.042 502.58 476.042 483.58 c 256
+ 476.042 464.58 461.042 449.58 442.042 449.58 c 256
+ 423.042 449.58 408.042 464.58 408.042 483.58 c 256
+526 278 m 256
+ 526 297 541 312 560 312 c 256
+ 579 312 594 297 594 278 c 256
+ 594 259 579 244 560 244 c 256
+ 541 244 526 259 526 278 c 256
+288 40 m 256
+ 288 59 303 74 322 74 c 256
+ 341 74 356 59 356 40 c 256
+ 356 21 341 6 322 6 c 256
+ 303 6 288 21 288 40 c 256
+50 278 m 256
+ 50 297 65 312 84 312 c 256
+ 103 312 118 297 118 278 c 256
+ 118 259 103 244 84 244 c 256
+ 65 244 50 259 50 278 c 256
+288 516 m 256
+ 288 535 303 550 322 550 c 256
+ 341 550 356 535 356 516 c 256
+ 356 497 341 482 322 482 c 256
+ 303 482 288 497 288 516 c 256
+EndSplineSet
 EndChar
 
 StartChar: space
@@ -10466,7 +10531,7 @@ GlifName: tml_R_rI_
 Width: 804
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
