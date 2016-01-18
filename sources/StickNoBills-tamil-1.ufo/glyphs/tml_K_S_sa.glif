@@ -3,6 +3,9 @@
   <advance width="1818"/>
   <outline>
     <contour>
+      <point x="1131" y="0" type="move" name="tml_virama"/>
+    </contour>
+    <contour>
       <point x="909" y="412" type="line"/>
       <point x="986" y="412"/>
       <point x="1044" y="361"/>
@@ -167,9 +170,6 @@
       <point x="1778" y="0" type="line"/>
       <point x="1778" y="280" type="line"/>
       <point x="1678" y="280" type="line"/>
-    </contour>
-    <contour>
-      <point x="1131" y="0" type="move" name="tml_virama"/>
     </contour>
   </outline>
 </glyph>

@@ -4,6 +4,9 @@
   <unicode hex="0B9A"/>
   <outline>
     <contour>
+      <point x="311" y="0" type="move" name="tml_virama"/>
+    </contour>
+    <contour>
       <point x="165" y="348" type="line"/>
       <point x="205" y="348" type="line"/>
       <point x="206" y="586" type="line"/>
@@ -54,9 +57,6 @@
       <point x="246" y="371" type="line" smooth="yes"/>
       <point x="113" y="371"/>
       <point x="40" y="306"/>
-    </contour>
-    <contour>
-      <point x="311" y="0" type="move" name="tml_virama"/>
     </contour>
   </outline>
   <lib>
