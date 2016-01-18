@@ -4,33 +4,33 @@
   <unicode hex="0BB0"/>
   <outline>
     <contour>
-      <point x="231" y="0" type="move" name="tml_virama"/>
-    </contour>
-    <contour>
       <point x="154" y="-177" type="line"/>
-      <point x="324" y="19" type="line"/>
-      <point x="324" y="591" type="line"/>
-      <point x="366" y="591" type="line"/>
-      <point x="364" y="0" type="line" smooth="yes"/>
       <point x="209" y="-177" type="line"/>
+      <point x="364" y="0" type="line" smooth="yes"/>
+      <point x="366" y="591" type="line"/>
+      <point x="324" y="591" type="line"/>
+      <point x="324" y="19" type="line"/>
     </contour>
     <contour>
       <point x="40" y="0" type="line"/>
-      <point x="40" y="595" type="line"/>
-      <point x="80" y="595" type="line"/>
       <point x="80" y="0" type="line"/>
+      <point x="80" y="595" type="line"/>
+      <point x="40" y="595" type="line"/>
     </contour>
     <contour>
       <point x="229" y="555" type="line"/>
-      <point x="229" y="595" type="line"/>
-      <point x="478" y="595" type="line"/>
       <point x="478" y="555" type="line"/>
+      <point x="478" y="595" type="line"/>
+      <point x="229" y="595" type="line"/>
     </contour>
     <contour>
       <point x="42" y="555" type="line"/>
-      <point x="42" y="595" type="line"/>
-      <point x="175" y="595" type="line"/>
       <point x="175" y="555" type="line"/>
+      <point x="175" y="595" type="line"/>
+      <point x="42" y="595" type="line"/>
+    </contour>
+    <contour>
+      <point x="231" y="0" type="move" name="tml_virama"/>
     </contour>
   </outline>
   <lib>

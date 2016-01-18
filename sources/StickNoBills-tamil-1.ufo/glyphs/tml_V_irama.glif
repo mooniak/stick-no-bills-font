@@ -4,21 +4,21 @@
   <unicode hex="0BCD"/>
   <outline>
     <contour>
-      <point x="0" y="0" type="move" name="_tml_virama"/>
+      <point x="-74" y="728" type="curve" smooth="yes"/>
+      <point x="-74" y="685"/>
+      <point x="-40" y="650"/>
+      <point x="2" y="650" type="curve" smooth="yes"/>
+      <point x="44" y="650"/>
+      <point x="78" y="685"/>
+      <point x="78" y="728" type="curve" smooth="yes"/>
+      <point x="78" y="771"/>
+      <point x="44" y="806"/>
+      <point x="2" y="806" type="curve" smooth="yes"/>
+      <point x="-40" y="806"/>
+      <point x="-74" y="771"/>
     </contour>
     <contour>
-      <point x="-74.4473" y="728.01" type="curve" smooth="yes"/>
-      <point x="-74.4473" y="771.252"/>
-      <point x="-40.4707" y="806"/>
-      <point x="2" y="806" type="curve" smooth="yes"/>
-      <point x="44.4697" y="806"/>
-      <point x="78.4463" y="771.252"/>
-      <point x="78.4463" y="728.01" type="curve" smooth="yes"/>
-      <point x="78.4463" y="684.767"/>
-      <point x="44.4697" y="650.019"/>
-      <point x="2" y="650.019" type="curve" smooth="yes"/>
-      <point x="-40.4707" y="650.019"/>
-      <point x="-74.4473" y="684.767"/>
+      <point x="0" y="0" type="move" name="_tml_virama"/>
     </contour>
   </outline>
 </glyph>

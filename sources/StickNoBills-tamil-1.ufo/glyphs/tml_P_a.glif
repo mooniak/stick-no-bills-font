@@ -4,31 +4,31 @@
   <unicode hex="0BAA"/>
   <outline>
     <contour>
-      <point x="271" y="0" type="move" name="tml_virama"/>
-    </contour>
-    <contour>
       <point x="39" y="107" type="line"/>
-      <point x="39" y="595" type="line"/>
-      <point x="161" y="595" type="line"/>
       <point x="161" y="107" type="line"/>
+      <point x="161" y="595" type="line"/>
+      <point x="39" y="595" type="line"/>
     </contour>
     <contour>
       <point x="376" y="104" type="line"/>
-      <point x="376" y="595" type="line"/>
-      <point x="498" y="595" type="line"/>
       <point x="498" y="104" type="line"/>
+      <point x="498" y="595" type="line"/>
+      <point x="376" y="595" type="line"/>
     </contour>
     <contour>
       <point x="297" y="1" type="line"/>
-      <point x="297" y="123" type="line"/>
-      <point x="498" y="123" type="line"/>
       <point x="498" y="1" type="line"/>
+      <point x="498" y="123" type="line"/>
+      <point x="297" y="123" type="line"/>
     </contour>
     <contour>
       <point x="39" y="1" type="line"/>
-      <point x="39" y="123" type="line"/>
-      <point x="241" y="123" type="line"/>
       <point x="241" y="1" type="line"/>
+      <point x="241" y="123" type="line"/>
+      <point x="39" y="123" type="line"/>
+    </contour>
+    <contour>
+      <point x="271" y="0" type="move" name="tml_virama"/>
     </contour>
   </outline>
   <lib>
