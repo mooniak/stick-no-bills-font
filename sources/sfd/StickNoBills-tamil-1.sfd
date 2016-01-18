@@ -19,12 +19,13 @@ UFODescent: -200
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
+PreferredKerning: 4
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1453142469
-ModificationTime: 1453142469
+ModificationTime: 1453152306
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -852,13 +853,13 @@ aS'tml_YI'
 p376
 aS'tml_YUu'
 p377
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p378
-I0
-sS'com.schriftgestaltung.fontMasterID'
-p379
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p379
+sS'com.schriftgestaltung.useNiceNames'
 p380
+I0
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -866,7 +867,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 3
+WinInfo: 128 8 2
 AnchorClass2: "tml_virama" "" 
 BeginChars: 191 191
 
@@ -10531,17 +10532,17 @@ GlifName: tml_R_rI_
 Width: 910
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 LayerCount: 2
 Back
 Fore
 SplineSet
-650 503 m 257
+527 595 m 261
+ 650 503 l 257
  650 595 l 258
  650 659 664 693 709 693 c 256
  709 815 l 256
- 560 815 527 699 527 595 c 257
- 650 503 l 257
+ 560 815 527 699 527 595 c 261
 763 693 m 257
  816 693 826 656 826 594 c 258
  826 0 l 257
