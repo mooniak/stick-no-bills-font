@@ -32,6 +32,8 @@ echo "Installing Robofab..."
 git clone https://github.com/robofab-developers/robofab.git
 cd robofab
 python setup.py install
+git checkout ufo3k
+python setup.py install
 cd ..
 
 echo "Installing FontTools..."
