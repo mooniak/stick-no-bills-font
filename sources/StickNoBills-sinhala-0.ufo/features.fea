@@ -477,6 +477,7 @@ feature rkrf {
      language dflt ;
       lookup si_rakaar;
 } rkrf;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\si_Ya.post.MatraI \anusvara \dottedcircle \si_A \si_Aa \si_Aae 
 	\si_Ae \si_Ai \si_Au \si_BR.halant \si_BRa \si_Ba \si_Ba.touch \si_BhRa.halant 
