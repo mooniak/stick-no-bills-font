@@ -741,13 +741,13 @@ include (mark.fea);
 
 ##--------------- GPOS Features ---------------##
 
-feature kern {
-    script sinh;
-} kern;
+# feature kern {
+#     script sinh;
+# } kern;
 
-feature dist {
-    script sinh;
-} dist;
+# feature dist {
+#     script sinh;
+# } dist;
 
 feature abvm {
     script sinh;
@@ -757,9 +757,9 @@ feature abvm {
     lookup MARK_BASE_tml_virama;
 } abvm;
 
-feature blwm {
-    script sinh;
-} blwm;
+# feature blwm {
+#     script sinh;
+# } blwm;
 
 #-------------
 
