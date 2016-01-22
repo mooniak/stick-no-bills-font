@@ -1,6 +1,7 @@
-##Brief for STICK NO BILLS™ font
+Brief for STICK NO BILLS™ font
+===============================
 
-Few pointers that we decided on..
+Few pointers that we decided on:
 
 - Follow different stencil structures to suite each script.
 - Avoid horizontal cuts as much as possible.
