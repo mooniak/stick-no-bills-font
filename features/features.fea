@@ -8,7 +8,7 @@ languagesystem tml2 dflt;
 include (../../features/GENERATED_classes.fea);
 include (../../features/tables.fea);
 
-##--------------- Lookups Sinhala ---------------##
+##--------------- GSUB Lookups Sinhala ---------------##
 
 #---- --AKHN ------------
 
@@ -501,7 +501,7 @@ lookup si_split_matra {
 } si_split_matra;
 
 
-##--------------- Lookups Tamil ---------------##
+##---------------GSUB Lookups Tamil ---------------##
 
 #---- AKHN ----
 
@@ -654,10 +654,7 @@ lookup tml_stylistic_alternates_4 {
     sub tml_TIi by tml_TIi.alt;
 } tml_stylistic_alternates_4;
 
-##--------------- Features ---------------##
-
-include (markclasses.fea);
-include (mark.fea);
+##--------------- GSUB Features ---------------##
 
 feature akhn {
   script sinh;
@@ -737,7 +734,12 @@ feature psts {
       lookup tml_post_base_sub_2;
 } psts;
 
-#-------------
+##---------------GPOS Lookups Tamil ---------------##
+
+include (markclasses.fea);
+include (mark.fea);
+
+##--------------- GPOS Features ---------------##
 
 feature kern {
     script sinh;

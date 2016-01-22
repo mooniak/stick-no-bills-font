@@ -90,6 +90,6 @@ table GDEF {
   # 4. Components: part of single character, spacing glyphs.
 
   # GlyphClassDef , , @generated_MARKS, ;
-  GlyphClassDef , , , ;
+  GlyphClassDef , ,@generated_MARKS, ;
 
 } GDEF;
