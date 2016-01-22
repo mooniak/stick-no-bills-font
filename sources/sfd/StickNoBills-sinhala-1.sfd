@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445925837
-ModificationTime: 1453287582
+ModificationTime: 1453474888
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -781,13 +781,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p359
-I00
-sS'com.schriftgestaltung.fontMasterID'
-p360
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p360
+sS'com.schriftgestaltung.useNiceNames'
 p361
+I00
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -795,7 +795,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 448 16 7
+WinInfo: 0 16 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -805,7 +805,7 @@ Grid
  301 -784 l 1024
 EndSplineSet
 AnchorClass2: "si_rakar" "" 
-BeginChars: 546 544
+BeginChars: 544 544
 
 StartChar: si_Ya.post.MatraI
 Encoding: 541 -1 0
@@ -22689,10 +22689,10 @@ EndChar
 StartChar: space
 Encoding: 0 32 538
 GlifName: uni0020
-Width: 300
+Width: 230
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
