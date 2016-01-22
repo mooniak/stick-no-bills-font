@@ -5,7 +5,7 @@ FamilyName: Stick No Bills
 OS2FamilyName: "Stick No Bills Regular"
 OS2StyleName: "regular"
 Weight: light
-Copyright: Remove All VKern Pairs
+Copyright: Copyright (c) 2015 mooniak (http://mooniak.com)
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
 ItalicAngle: 0
@@ -19,12 +19,13 @@ UFODescent: -200
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
+PreferredKerning: 4
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1453470934
-ModificationTime: 1453474703
+ModificationTime: 1453482237
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -47,6 +48,7 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
+MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "Remove All VKern Pairs" "" "" "" "" "Version 1.0.1" "" "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka <http://sticknobillsonline.com>" "mooniak <http://mooniak.com>" "Martyn Hodges <allroundboatbuilder@yahoo.com> , Kosala Senavirathne <kosala@mooniak.com>, mooniak <hello@mooniak.com>" "Stick No Bills - is the bespoke typeface of STICK NO BILLS+ISIA Poster Gallery in Galle, Sri Lanka. " "https://github.com/mooniak/stick-no-bills-font" "http://type.mooniak.com/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "Stick No Bills" "Regular"
 PickledDataWithLists: "(dp1
@@ -864,6 +866,8 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 0 8 2
+BeginPrivate: 0
+EndPrivate
 AnchorClass2: "tml_virama" "" 
 BeginChars: 191 191
 
