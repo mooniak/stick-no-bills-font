@@ -1,25 +1,25 @@
 STICK NO BILLS™ Font
 ===================
 
-STICK NO BILLS™ - was developed as the bespoke Libre typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. Stick No Bills™ gallery houses a collection of Sri Lankan posters created from the years of late 19th century
+STICK NO BILLS™ - was developed as the bespoke Libre typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. The font supports Latin, Sinhala and Tamil languages.
 
-The first drawings for typeface were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more languages. The stencil structure is lightly based on stencil letters found in streets. STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes.
+Martyn Hodges developed the first drawings for the typeface for uppercase. In February 2015, Meg Baber, co-founder of Stick No Bills gallery, commissioned Mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more languages. STICK NO BILLS family contains six weights from Extra Light to Extra Bold intended for headlines.
 
-Stencil is the solutions for creating a reproducible, replicable lettering. Sinhala stenciled letters can be seen in mainly Sri Lankan Railway cars and busses.  There is no  accepted style or common consensus on the cuts and that is the beauty of stencil. All of these have different stencil cuts in very different places without an aim to make-up overall harmony. This project is inspired partly  by existing Sinhala and Tamil stencil lettering around us. But we built the letters of all three alphabets in thinking about the stencil structure ground up. Therefore it is a novel face but very readable.
+The stencil is the solutions for creating a reproducible, replicable lettering. Sinhala stenciled letters are common in Sri Lankan Railway cars and busses.  There is no accepted style or universal consensus on the cuts, and that is the beauty of stencil. All of these have different stencil cuts in very different places without an aim to overall make-up harmony. This project is inspired partly by existing Sinhala and Tamil stencil lettering around us. But we built the letters of all three alphabets in thinking about the stencil structure ground up. Therefore, it is a fresh face but very readable.
 
-STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes. The designers of Mooniak, the collaborative collective of creatives based in Colombo, Sri Lanka led the project. 
+The designers of Mooniak, the collaborative collective of creatives based in Colombo, Sri Lanka, led the project. 
 
 
 සිංහල, දෙමළ සහ ඉංග්‍රීසි භාෂා තුනේම අකුරු අැති ෆොන්ටයක් ලෙස එළිදකින ‘ස්ටික් නෝ බිල්ස්’ ගාලු කොටුවේ ස්ටික් නෝ බිල්ස් පෝස්ටර් ගැලරියේ අවශ්‍යතාව මත නිමවූ  ස්ටෙන්සිල් අාකාර හැඩහුරුකම් ගත් අකුරු මෝස්තරයකි.
 
 ස්ටික් නෝ බිල්ස් පැහැ අන්තර 6කින් සමන්විත අතර කෙටි මාතෘකා සහ විවිධ ආකාරයේ පෝස්ටර් වැනි නිර්මාණ කටයුතු සඳහා වඩා ගැලපේ. ලංකාවේ දකින්නට ලැබෙන විවිධ ස්ටෙන්සිල්  ආකාරයේ අකුරු රටාවලින් අභාෂය ලබමින් මෙය නිර්මාණය කෙරිණි. මුල් ලතින් ලොකු අකුරු සහ ඉලක්කම් මෝස්තරය  ශිල්පි මාටින් හොජස් මහතාගේ නිමැවුමක් වන අතර පසුව එක් කරන ලද ලතින් කුඩා  අකුරු සහ සිංහල දෙමළ අකුරු මෝස්තර මූූනියැක් නිමැවුමකි. 
 
-
 මූනියැක්, නිර්මාණවේදීන්ගේ සහයෝගීත්ව සාමූහිකය, වඩාත් දියුණු ශ්‍රී ලාංකීය ජාතියක් උදෙසා නිර්මාණවේදයේ උපයෝගීතාවයන් සොයන තරුණ ක්‍රියාකාරිකයන් සමූහයකි.
 
+
 See the [Web specimen](http://mooniak.com/stick-no-bills-font/).
-See the [/documentation](http://mooniak.com/stick-no-bills-font/) for notes information on development of the project.
-Report any i [/documentation](http://mooniak.com/stick-no-bills-font/) for notes information on development of the project.
+See the [/documentation](https://github.com/mooniak/stick-no-bills-font/tree/master/documentation) for notes information on development of the project.
+Report any issues or bugs [/documentation](https://github.com/mooniak/stick-no-bills-font/issues/new) for notes information on development of the project.
 
 
 
