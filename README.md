@@ -1,36 +1,27 @@
-[![Stories in Ready](https://badge.waffle.io/mooniak/stick-no-bills-font.png?label=ready&title=Ready)](https://waffle.io/mooniak/stick-no-bills-font)
-
-|  WORK IN PROGRESS      |
-| ------------- |:-------------:|
-| This repo contains files under active development. So files move here and the sometimes and source files can be broken. See [Repository Structure](#repository-structure) before downloading any files. See Releases to download the latest release. See the[ integrated testing page](http://mooniak.com/stick-no-bills-font/tests/) for work in progress.
-    |
-
-
-
 STICK NO BILLS™ Font
 ===================
 
-
-STICK NO BILLS - was developed as the bespoke Libre typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. Stick No Bills™ gallery houses a collection of Sri Lankan posters created from the years of late 19th century
+STICK NO BILLS™ - was developed as the bespoke Libre typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. Stick No Bills™ gallery houses a collection of Sri Lankan posters created from the years of late 19th century
 
 The first drawings for typeface were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more languages. The stencil structure is lightly based on stencil letters found in streets. STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes.
 
 Stencil is the solutions for creating a reproducible, replicable lettering. Sinhala stenciled letters can be seen in mainly Sri Lankan Railway cars and busses.  There is no  accepted style or common consensus on the cuts and that is the beauty of stencil. All of these have different stencil cuts in very different places without an aim to make-up overall harmony. This project is inspired partly  by existing Sinhala and Tamil stencil lettering around us. But we built the letters of all three alphabets in thinking about the stencil structure ground up. Therefore it is a novel face but very readable.
 
-STICK NO BILLS - was developed as the bespoke Libre typeface of Stick No Bills™ Poster Gallery in Galle, Sri Lanka.  The first drawings were developed by Martyn Hodges for uppercase and and mooniak took up the project in 2015 and is worked on further refining and developing.
-
-STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes. The designers of Mooniak, the collaborative collective of creatives based in Colombo, Sri Lanka led the project. For Mooniak, Kosala Senevirathne with Latin and Sinhala design, Lasantha Premarathne in Latin design, Siva Puran and Tharique Azeez in Tamil design and testing, Pathum Egodawatta and Ayantha Randika in consulting, managing and Opentype engineering contributed to the project.
+STICK NO BILLS family contains 6 weights from Extra Light to Extra Bold for multiple purposes. The designers of Mooniak, the collaborative collective of creatives based in Colombo, Sri Lanka led the project. 
 
 
-සිංහල, දෙමළ සහ ඉංග්‍රීසි භාෂා තුනේම අකුරු අැති ෆොන්ටයක් ලෙස එළිදකින ‘ස්ටික් නෝ බිල්ස්’ ගාලු කොටුවේ ස්ටික් නෝ බිල්ස් පෝස්ටර් ගැලරියේ අවශ්‍යතාව මත නිමවන්නට යෙදුණු ස්ටෙන්සිල් අාකාර හැඩහුරුකම් ගත් අකුරු මෝස්තරයකි.
+සිංහල, දෙමළ සහ ඉංග්‍රීසි භාෂා තුනේම අකුරු අැති ෆොන්ටයක් ලෙස එළිදකින ‘ස්ටික් නෝ බිල්ස්’ ගාලු කොටුවේ ස්ටික් නෝ බිල්ස් පෝස්ටර් ගැලරියේ අවශ්‍යතාව මත නිමවූ  ස්ටෙන්සිල් අාකාර හැඩහුරුකම් ගත් අකුරු මෝස්තරයකි.
 
-මුල් ලතින් කැපිටල් අකුරු සහ ඉලක්කම් මෝස්තරය අකුරු නිර්මාණ ශිල්පි මාටින් හොජස් මහතාගේ නිමැවුමක් වන අතර පසුව එක් කරන ලද ලතින් සිම්පල් අකුරු සහ සිංහල දෙමළ අකුරු මෝස්තර මූූනියැක් සමාගමේ නිමැවුමකි. මූනියැක් සමාගම වෙනුවෙන් සිංහල අකුරු කෝසල සෙනවිරත්න විසිනුත් ලතින් සිම්පල් අකුරු කෝසල සෙනවිරත්න සහ ලසන්ත ප්‍රේමරත්න විසිනුත් නිමවන ලද අතර විවෘත ප්‍රකාර මැවිසුරුමය කටයුතු, ව්‍යාපෘතියේ කළමනාකරණය සහ තාක්ෂණික උපදෙස් සැපයීම අයන්ත රන්දික සහ පැතුම් එගොඩවත්ත විසින් සිදුකරන ලදී.
+ස්ටික් නෝ බිල්ස් පැහැ අන්තර 6කින් සමන්විත අතර කෙටි මාතෘකා සහ විවිධ ආකාරයේ පෝස්ටර් වැනි නිර්මාණ කටයුතු සඳහා වඩා ගැලපේ. ලංකාවේ දකින්නට ලැබෙන විවිධ ස්ටෙන්සිල්  ආකාරයේ අකුරු රටාවලින් අභාෂය ලබමින් මෙය නිර්මාණය කෙරිණි. මුල් ලතින් ලොකු අකුරු සහ ඉලක්කම් මෝස්තරය  ශිල්පි මාටින් හොජස් මහතාගේ නිමැවුමක් වන අතර පසුව එක් කරන ලද ලතින් කුඩා  අකුරු සහ සිංහල දෙමළ අකුරු මෝස්තර මූූනියැක් නිමැවුමකි. 
 
-මූනියැක්, නිර්මාණවේදීන්ගේ සහයෝගීත්ව සාමූහිකය, වඩාත් දියුණු ශ්‍රී ලාංකීය ජාතියක් උදෙසා නිර්මාණවේදයේ උපයෝගීතාවයන් සොයන අගනුවර ආශ්‍රිත තරුණ ක්‍රියාකාරිකයන් සමූහයකි.
 
-See the [Web specimen](http://mooniak.com/stick-no-bills-font/)
-See our [blog posts](http://blog.mooniak.com/tagged/sticknobillsfont) on the process.
-See [process videos](https://www.youtube.com/playlist?list=PLpw12zH02-AlMNu3QMfNtlES1UXHR_0v-)
+මූනියැක්, නිර්මාණවේදීන්ගේ සහයෝගීත්ව සාමූහිකය, වඩාත් දියුණු ශ්‍රී ලාංකීය ජාතියක් උදෙසා නිර්මාණවේදයේ උපයෝගීතාවයන් සොයන තරුණ ක්‍රියාකාරිකයන් සමූහයකි.
+
+See the [Web specimen](http://mooniak.com/stick-no-bills-font/).
+See the [/documentation](http://mooniak.com/stick-no-bills-font/) for notes information on development of the project.
+Report any i [/documentation](http://mooniak.com/stick-no-bills-font/) for notes information on development of the project.
+
+
 
 ## Repository Structure
 
@@ -45,7 +36,6 @@ This repo is the active devleopment repo of the project. So files move here and 
 - `/sources/sfd` contains source `.sfd` files which opens in [FontForge](http://fontforge.github.io/en-US/). These files are under active developemnt. There might be some FontForge revision files around too.
 
 - See `/documentation` for screenshots, corrospondance and testing documents.
-
 
 
 ## How To Build
@@ -73,7 +63,7 @@ $cd /vagrant/scripts && sh builder.sh
 
 ## Credits
 
-Special thanks to STICK NO BILLS Gallery for help us making this project open and free for all.
+Special thanks to STICK NO BILLS Gallery and Stick No Bills™ co-founder/directors, Meg and Philip James Baber for their interest in making this font open and free for all.
 
 - Initial drawings by Martyn Hodges
 - Kosala Senevirathne (@kosalaya) of mooniak
@@ -91,9 +81,3 @@ For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
 rationale and various recommendations regarding why you would want to
 contribute to the project or make your own version of the font.
-
-
-***
-
-|   This repository follows the [Unified Font Repository](https://github.com/raphaelbastide/Unified-Font-Repository) v2.0, a standard way to organize font project source files.           |
-| ------------- |:
