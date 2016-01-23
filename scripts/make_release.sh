@@ -13,4 +13,5 @@ mv $FOLDER/FONTLOG.md $FOLDER/FONTLOG.txt
 mv build $FAMILY'_v'$version'_'$DATE
 zip -r $FAMILY'_v'$version'_'$DATE.zip $FAMILY'_v'$version'_'$DATE/.
 mv $FAMILY'_v'$version'_'$DATE build
+mv $FAMILY'_v'$version'_'$DATE.zip $FOLDER
 echo DONE!
