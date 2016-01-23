@@ -74,9 +74,9 @@ Special thanks to STICK NO BILLS Gallery and Stick No Bills™ co-founder/direct
 - Kosala Senevirathne (@kosalaya) of mooniak
 - Lasantha Premarathne (@lazpremarathna) of mooniak
 - Siva Puranthara of mooniak
-- Tharique Azeez
+- Tharique Azeez (@enathu)
 - Ayantha Randika (@paarandika) of mooniak
-- Pathum Egodawatta(@paarandika) of mooniak
+- Pathum Egodawatta(@pathumego) of mooniak
 
 
 
