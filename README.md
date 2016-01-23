@@ -17,9 +17,9 @@ The designers of Mooniak, the collaborative collective of creatives based in Col
 මූනියැක්, නිර්මාණවේදීන්ගේ සහයෝගීත්ව සාමූහිකය, වඩාත් දියුණු ශ්‍රී ලාංකීය ජාතියක් උදෙසා නිර්මාණවේදයේ උපයෝගීතාවයන් සොයන තරුණ ක්‍රියාකාරිකයන් සමූහයකි.
 
 
-See the [Web specimen](http://mooniak.com/stick-no-bills-font/).
-See the [/documentation](https://github.com/mooniak/stick-no-bills-font/tree/master/documentation) for notes information on development of the project.
-Report any issues or bugs [/documentation](https://github.com/mooniak/stick-no-bills-font/issues/new) for notes information on development of the project.
+See the web specimen page [here](http://mooniak.com/stick-no-bills-font/).
+See [/documentation](https://github.com/mooniak/stick-no-bills-font/tree/master/documentation) for notes information on development of the project.
+Report any issues or bugs in [issues](https://github.com/mooniak/stick-no-bills-font/issues/new).
 
 
 
@@ -63,14 +63,16 @@ $cd /vagrant/scripts && sh builder.sh
 
 ## Credits
 
-Special thanks to STICK NO BILLS Gallery and Stick No Bills™ co-founder/directors, Meg and Philip James Baber for their interest in making this font open and free for all.
+Special thanks to STICK NO BILLS Gallery and Stick No Bills™ co-founder/directors, Meg and Philip James Baber for their interest in making this font open and free for all. See [CONTRIBUTORS.md](https://github.com/mooniak/stick-no-bills-font/blob/master/CONTRIBUTORS.md) for details on contributions.
 
-- Initial drawings by Martyn Hodges
+- Martyn Hodges
 - Kosala Senevirathne (@kosalaya) of mooniak
 - Lasantha Premarathne (@lazpremarathna) of mooniak
 - Siva Puranthara of mooniak
 - Tharique Azeez
 - Ayantha Randika (@paarandika) of mooniak
+- Pathum Egodawatta(@paarandika) of mooniak
+
 
 
 ## License
