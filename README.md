@@ -42,7 +42,7 @@ This repo is the active devleopment repo of the project. So files move here and 
 
 - See `/documentation` for screenshots, corrospondance and testing documents.
   
-*This repository contains optional ```.sfd``` file for Bold Sinhala due to design concerns. The ```Ayanna-sinhala-1.sfd``` is used only for interpolation purposes. The Bold weight is generated using Ayanna-sinhala-1-opt.sfd*
+*This repository contains optional ```.sfd``` file for Bold Sinhala due to design concerns. The ```Ayanna-sinhala-1.sfd``` is used only for interpolation purposes. The Bold weight is generated using ```Ayanna-sinhala-1-opt.sfd```*
 
 ## How To Build
 
