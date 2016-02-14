@@ -1,7 +1,7 @@
-STICK NO BILLS™ Font
+STICK NO BILLS Font
 ===================
 
-STICK NO BILLS™ - was developed as the bespoke Libre typeface of [Stick No Bills™ Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. The font supports Latin, Sinhala and Tamil languages.
+STICK NO BILLS - was developed as the bespoke Libre typeface of [Stick No Bills Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. The font supports Latin, Sinhala and Tamil languages.
 
 Martyn Hodges developed the first drawings for the typeface for uppercase. In February 2015, Meg Baber, co-founder of Stick No Bills gallery, commissioned Mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more languages. STICK NO BILLS family contains six weights from Extra Light to Extra Bold intended for headlines.
 
@@ -69,7 +69,7 @@ $cd /vagrant/scripts && sh builder.sh
 
 ## Credits
 
-Special thanks to STICK NO BILLS Gallery and Stick No Bills™ co-founder/directors, Meg and Philip James Baber for their interest in making this font open and free for all. See [CONTRIBUTORS.md](https://github.com/mooniak/stick-no-bills-font/blob/master/CONTRIBUTORS.md) for details on contributions.
+Special thanks to STICK NO BILLS Gallery and Stick No Bills co-founder/directors, Meg and Philip James Baber for their interest in making this font open and free for all. See [CONTRIBUTORS.md](https://github.com/mooniak/stick-no-bills-font/blob/master/CONTRIBUTORS.md) for details on contributions.
 
 - Martyn Hodges
 - Kosala Senevirathne (@kosalaya) of mooniak
@@ -83,7 +83,7 @@ Special thanks to STICK NO BILLS Gallery and Stick No Bills™ co-founder/direct
 
 ## License
 
-STICK NO BILLS™ Font is released under the  [SIL Open Font License](http://scripts.sil.org/OFL)
+STICK NO BILLS Font is released under the  [SIL Open Font License](http://scripts.sil.org/OFL)
 
 For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
