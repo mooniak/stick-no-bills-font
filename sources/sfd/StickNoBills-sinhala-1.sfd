@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445925837
-ModificationTime: 1453547898
+ModificationTime: 1455656440
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -781,13 +781,13 @@ aS'si_Va'
 p357
 aS'si_Ya'
 p358
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p359
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p360
-sS'com.schriftgestaltung.useNiceNames'
-p361
 I00
+sS'com.schriftgestaltung.fontMasterID'
+p360
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p361
 s."
 Encoding: Custom
 UnicodeInterp: none
@@ -795,7 +795,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 429 13 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -805,7 +805,7 @@ Grid
  301 -784 l 1024
 EndSplineSet
 AnchorClass2: "si_rakar" "" 
-BeginChars: 544 544
+BeginChars: 545 545
 
 StartChar: si_Ya.post.MatraI
 Encoding: 541 -1 0
@@ -8703,8 +8703,9 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 160 3530 N 1 0 0 1 500 0 2
-Refer: 221 3482 N 1 0 0 1 0 0 2
+Refer: 160 3530 S 1 0 0 1 500 0 2
+Refer: 221 3482 S 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ka si_Halant
 EndChar
 
@@ -8811,22 +8812,23 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-452 -103 m 257
- 472 -103 l 258
- 620 -103 621.25 0 596 0 c 257
- 729 89 l 257
- 800.992 -37.9239 710 -234 500 -234 c 258
- 452.115 -233.947 l 257
- 452 -103 l 257
-397.115 -233.947 m 257
- 350 -234 l 258
- 225 -234 100.833 -165.25 100.833 -37.0908 c 257
- 241.833 -37.0908 l 257
- 241.833 -72.5899 294 -103 358 -103 c 258
- 397 -103 l 257
- 397.115 -233.947 l 257
+452 -103 m 261
+ 472 -103 l 262
+ 620 -103 621.25 0 596 0 c 261
+ 729 89 l 261
+ 800.992 -37.9239 710 -234 500 -234 c 262
+ 452.115 -233.947 l 261
+ 452 -103 l 261
+397.115 -233.947 m 261
+ 350 -234 l 262
+ 225 -234 100.833 -165.25 100.833 -37.0908 c 261
+ 241.833 -37.0908 l 261
+ 241.833 -72.5899 294 -103 358 -103 c 262
+ 397 -103 l 261
+ 397.115 -233.947 l 261
 EndSplineSet
 Refer: 221 3482 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Ka si_Halant si_Ra
 EndChar
 
@@ -22905,6 +22907,34 @@ SplineSet
  284.017578125 432.286132812 266.365234375 421.10546875 255.461914062 406.19921875 c 1
  212.88671875 451.452148438 l 1
 EndSplineSet
+EndChar
+
+StartChar: si_KRa.halant
+Encoding: 544 -1 544
+Width: 800
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+452 -103 m 257
+ 472 -103 l 258
+ 620 -103 621.25 0 596 0 c 257
+ 729 89 l 257
+ 800.992 -37.9239 710 -234 500 -234 c 258
+ 452.115 -233.947 l 257
+ 452 -103 l 257
+397.115 -233.947 m 257
+ 350 -234 l 258
+ 225 -234 100.833 -165.25 100.833 -37.0908 c 257
+ 241.833 -37.0908 l 257
+ 241.833 -72.5899 294 -103 358 -103 c 258
+ 397 -103 l 257
+ 397.115 -233.947 l 257
+EndSplineSet
+Refer: 160 3530 N 1 0 0 1 500 0 2
+Refer: 221 3482 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
