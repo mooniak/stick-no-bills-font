@@ -6,7 +6,7 @@ kit.confirm_version('0.2.1')
 # - - -
 
 family = kit.Family(
-    trademark = 'Stick No Bills',
+    trademark = 'Post No Bills',
     script = 'Sinhala',
     hide_script_name = True,
 )
@@ -38,7 +38,7 @@ family.set_styles([
 
 builder = kit.Builder(family)
 
-builder.fontrevision = '1.200'
+builder.fontrevision = '1.210'
 
 builder.set_options([
 

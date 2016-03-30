@@ -1,9 +1,8 @@
-Acknowledgements
--------------------------
+Contributors to Post No Bills Font Development
+===============
 
-When you make modifications, be sure to add your name (N), email (E),
-web-address (W) and description (D). This list is sorted by last name in
-alphabetical order.
+This is a list of contributors to the project. Please see the git commits and issues to see specific details of contributions.
+When you make modifications, be sure to add your name (N), email (E), web-address (W) and description (D).
 
 - N: Martyn Hodges
 - E: allroundboatbuilder@yahoo.com

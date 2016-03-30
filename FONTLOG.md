@@ -1,16 +1,26 @@
-FONTLOG for STICK NO BILLS font
+FONTLOG for Post No Bills font
 ===============================
 
-This file provides detailed information on the STICK NO BILLS font software.
-This information should be distributed along with the  STICK NO BILLS™ fonts and any derivative works.
+This file provides detailed information on the Post No Bills font software.
+This information should be distributed along with the  Post No Bills fonts and any derivative works.
 
-Please see https://github.com/mooniak/stick-no-bills-font for documentation,development plans, contribution guidelines and all past releases. 
+Please see https://github.com/mooniak/post-no-bills-font for documentation,development plans, contribution guidelines and all past releases.
 
 ChangeLog
 ----------
 
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
+
+23rd January 2016 (mooniak) POST NO BILLS Major Release 1.200
+- Complete Sinhala coverage.
+- Complete Tamil coverage.
+- Complete Adobe Latin 3 coverage.
+- Many improvements to Latin set.
+- New UFO based workflow and build system.
+
+This massive update is made possible with financial support from Google Fonts. Funds were allocated to expand the family to support Sinhala and Tamil, to develop family into 6 weights and to improve design of the Latin character set. Over 6 months 6 designers with varying expertise contributed to the project.  
+
 
 23rd January 2016 (mooniak) STICK NO BILLS Major Release 1.200
 - Complete Sinhala coverage.
@@ -60,7 +70,7 @@ This massive update is made possible with financial support from Google Fonts. F
 Information for Contributors
 ------------------------------
 
-STICK NO BILLS™ is released under the OFL 1.1 - http://scripts.sil.org/OFL
+Post No Bills is released under the OFL 1.1 - http://scripts.sil.org/OFL
 
 For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
@@ -69,4 +79,4 @@ contribute to the project or make your own version of the font.
 
 See the project website for the current trunk and the various branches:
 
-http://mooniak.com/stick-no-bills-font/
+http://mooniak.com/post-no-bills/
