@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1445925811
-ModificationTime: 1453550749
+ModificationTime: 1459898451
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -493,7 +493,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 8 2
+WinInfo: 80 8 2
 BeginPrivate: 0
 EndPrivate
 BeginChars: 332 332
@@ -6779,28 +6779,28 @@ GlifName: t
 Width: 252
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Back
 Fore
 SplineSet
-20 438 m 257
- 20 477 l 257
- 83 477 l 257
+20 465 m 261
+ 20 504 l 261
+ 83 504 l 261
  83 700 l 257
  123 700 l 257
- 123 477 l 257
- 186 477 l 257
- 186 438 l 257
- 123 438 l 257
+ 123 504 l 261
+ 186 504 l 261
+ 186 465 l 261
+ 123 465 l 261
  123 159 l 258
  123 83 148 38 242 38 c 258
  243 38 l 257
  252 0 l 257
  237 0 l 258
  115 1 83 66 83 168 c 258
- 83 438 l 257
- 20 438 l 257
+ 83 465 l 261
+ 20 465 l 261
 EndSplineSet
 EndChar
 
