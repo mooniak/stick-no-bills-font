@@ -5,7 +5,7 @@ import hindkit as kit
 kit.confirm_version('0.2.1')
 
 family = kit.Family(
-    trademark = 'Post No Bills',
+    trademark = 'Post No Bills Colombo',
     script = 'Sinhala',
     hide_script_name = True,
 )
@@ -37,7 +37,7 @@ family.set_styles([
 
 builder = kit.Builder(family)
 
-builder.fontrevision = '1.199'
+builder.fontrevision = '1.201'
 
 builder.set_options([
 
@@ -60,4 +60,4 @@ builder.generate_designspace()
 builder.generate_fmndb()
 
 builder.build()
-subprocess.call(['python', 'scripts/ttfbuild.py', 's', "PostNoBills"])
+subprocess.call(['python', 'scripts/ttfbuild.py', 's', "Post No Bills Colombo", "PostNoBillsColombo", "PostNoBillsColombo"])
