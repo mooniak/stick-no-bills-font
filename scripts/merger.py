@@ -23,11 +23,12 @@ fontList=arguments[2:]
 print "Merging fonts..."
 print os.getcwd()
 new_ufo = Font()
-new_ufo = Font(fontList[0])
+new_ufo = Font()
 new_ufo._get_lib()
 new_ufo._lib["public.glyphOrder"]=[]
+new_ufo._ufoFormatVersion=2
 
-for font in fontList[1:]:
+for font in fontList:
     source= Font(font)
     if source.kerning._dataOnDisk is not None:
         pair_list=source.kerning.keys()
