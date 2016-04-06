@@ -7,7 +7,7 @@ kit.confirm_version('0.2.1')
 # - - -
 
 family = kit.Family(
-    trademark = 'Post No Bills',
+    trademark = 'Post No Bills Jaffna',
     script = 'Sinhala',
     hide_script_name = True,
 )
@@ -39,7 +39,7 @@ family.set_styles([
 
 builder = kit.Builder(family)
 
-builder.fontrevision = '0.900'
+builder.fontrevision = '1.201'
 
 builder.set_options([
 
@@ -62,4 +62,4 @@ builder.generate_designspace()
 builder.generate_fmndb()
 
 builder.build()
-subprocess.call(['python', 'scripts/ttfbuild.py', 't', "PostNoBills Yalpanam"])
+subprocess.call(['python', 'scripts/ttfbuild.py', 't', "Post No Bills Jaffna", "PostNoBillsJaffna", "PostNoBillsJaffna"])

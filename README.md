@@ -2,11 +2,8 @@ POST NO BILLS Font
 ===================
 
 Post No Bills - was developed as the bespoke Libre typeface of [Stick No Bills Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. The font supports Latin, Sinhala and Tamil languages.
-
-Martyn Hodges developed the first drawings for the typeface for uppercase. In February 2015, Meg Baber, co-founder of Stick No Bills gallery, commissioned Mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more languages. Post No Bills family contains six weights from Extra Light to Extra Bold intended for headlines.
-
-The stencil is the solutions for creating a reproducible, replicable lettering. Sinhala stenciled letters are common in Sri Lankan Railway cars and busses.  There is no accepted style or universal consensus on the cuts, and that is the beauty of stencil. All of these have different stencil cuts in very different places without an aim to overall make-up harmony. This project is inspired partly by existing Sinhala and Tamil stencil lettering around us. But we built the letters of all three alphabets in thinking about the stencil structure ground up. Therefore, it is a fresh face but very readable.
-
+Martyn Hodges developed the first drawings for the typeface for uppercase. In February 2015, Meg Baber, co-founder of Stick No Bills gallery, commissioned Mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more languages. Post No Bills family contains six weights from Extra Light to Extra Bold intended for headlines. Post No Bills contains Sinhala and Latin glyphs sets and Post No Bills Jaffna contains Tamil and Latin glyph sets.
+The stencil is the solutions for creating a reproducible, replicable lettering. Sinhala stenciled letters are common in Sri Lankan Railway cars and busses.  There is no accepted style or universal consensus on the cuts, and that is the beauty of stencil. All of these have different stencil cuts in very different places without an aim to overall make-up harmony. This project is inspired partly by existing Sinhala and Tamil stencil lettering around us. But we built the letters of all three alphabets in thinking about the stencil structure ground up. Therefore, it is a fresh face but a readable face.
 The designers of Mooniak, the collaborative collective of creatives based in Colombo, Sri Lanka, led the project.
 
 
