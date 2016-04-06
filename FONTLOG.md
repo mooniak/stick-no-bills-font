@@ -12,10 +12,10 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
-6 April 2016 (mooniak) Post No Bills ttf Build v1.201
+6 April 2016 (mooniak) Post No Bills ttf Build v1.210
 - Renamed family to Post No Bills
 - Minor design fixes and hinting
-- Seperate ttf fonts for Sinhala and Tamil
+- Separate ttf fonts for Sinhala and Tamil
 - New ttf build.
 
 
