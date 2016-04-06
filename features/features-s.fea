@@ -22,6 +22,7 @@ lookup si_akhands {
   sub si_Da si_Halant zwj si_Va by si_DVa;
   sub si_Da si_Halant zwj si_Dha by si_DDha;
   sub si_Tta si_Halant zwj si_Ttha by si_TtTtha;
+  sub si_Ga si_Halant zwj si_Dha by si_GDha;
 } si_akhands;
 
 #---- REPH ----
