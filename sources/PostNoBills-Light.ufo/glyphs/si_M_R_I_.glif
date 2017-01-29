@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_MRI" format="1">
+  <advance width="570"/>
+  <outline>
+    <contour>
+      <point x="300" y="-225" type="curve"/>
+      <point x="300" y="-185" type="line"/>
+      <point x="464" y="-185"/>
+      <point x="558" y="-26"/>
+      <point x="447" y="52" type="curve"/>
+      <point x="477" y="81" type="line"/>
+      <point x="624" y="-32"/>
+      <point x="502" y="-225"/>
+    </contour>
+    <contour>
+      <point x="244" y="-225" type="line"/>
+      <point x="111" y="-225"/>
+      <point x="28" y="-142"/>
+      <point x="28" y="-48" type="curve"/>
+      <point x="68" y="-48" type="line"/>
+      <point x="68" y="-140"/>
+      <point x="182" y="-185"/>
+      <point x="244" y="-185" type="curve"/>
+    </contour>
+    <component base="si_MI"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:51:58 +0000</string>
+    </dict>
+  </lib>
+</glyph>

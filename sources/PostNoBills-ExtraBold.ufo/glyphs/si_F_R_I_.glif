@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_FRI" format="1">
+  <advance width="650"/>
+  <outline>
+    <contour>
+      <point x="356" y="-103" type="line"/>
+      <point x="508" y="-103"/>
+      <point x="476" y="1"/>
+      <point x="450" y="1" type="curve"/>
+      <point x="583" y="89" type="line"/>
+      <point x="666" y="-57"/>
+      <point x="588" y="-234"/>
+      <point x="356" y="-234" type="curve"/>
+    </contour>
+    <contour>
+      <point x="301" y="-234" type="line"/>
+      <point x="167" y="-234"/>
+      <point x="53" y="-167"/>
+      <point x="53" y="-37" type="curve"/>
+      <point x="194" y="-37" type="line"/>
+      <point x="194" y="-73"/>
+      <point x="233" y="-103"/>
+      <point x="301" y="-103" type="curve"/>
+    </contour>
+    <component base="si_FI"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:47:48 +0000</string>
+    </dict>
+  </lib>
+</glyph>

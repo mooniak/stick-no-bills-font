@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_MatraUu" format="1">
+  <advance width="0"/>
+  <unicode hex="0DD6"/>
+  <outline>
+    <contour>
+      <point x="-516" y="-122" type="line"/>
+      <point x="-485" y="-149"/>
+      <point x="-461" y="-158"/>
+      <point x="-440" y="-158" type="curve" smooth="yes"/>
+      <point x="-399" y="-158"/>
+      <point x="-370" y="-122"/>
+      <point x="-321" y="-122" type="curve"/>
+      <point x="-321" y="-164" type="line"/>
+      <point x="-369" y="-164"/>
+      <point x="-399" y="-199"/>
+      <point x="-441" y="-199" type="curve" smooth="yes"/>
+      <point x="-462" y="-199"/>
+      <point x="-486" y="-191"/>
+      <point x="-516" y="-164" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-100" y="-205" type="line"/>
+      <point x="-100" y="123" type="line"/>
+      <point x="-60" y="123" type="line"/>
+      <point x="-60" y="-205" type="line"/>
+    </contour>
+    <contour>
+      <point x="-265" y="-122" type="line"/>
+      <point x="-256" y="-122"/>
+      <point x="-189" y="-117"/>
+      <point x="-100" y="-161" type="curve"/>
+      <point x="-100" y="-205" type="line"/>
+      <point x="-188" y="-160"/>
+      <point x="-249" y="-164"/>
+      <point x="-265" y="-164" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-199</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-164</integer>
+            <key>width</key>
+            <integer>42</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:51:58 +0000</string>
+    </dict>
+  </lib>
+</glyph>

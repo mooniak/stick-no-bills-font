@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_JR.halant" format="1">
+  <advance width="653"/>
+  <outline>
+    <contour>
+      <point x="341" y="-103" type="line"/>
+      <point x="493" y="-103"/>
+      <point x="461" y="0"/>
+      <point x="435" y="0" type="curve"/>
+      <point x="568" y="89" type="line"/>
+      <point x="651" y="-57"/>
+      <point x="573" y="-234"/>
+      <point x="341" y="-234" type="curve"/>
+    </contour>
+    <contour>
+      <point x="286" y="-234" type="line"/>
+      <point x="152" y="-234"/>
+      <point x="38" y="-167"/>
+      <point x="38" y="-37" type="curve"/>
+      <point x="179" y="-37" type="line"/>
+      <point x="179" y="-73"/>
+      <point x="218" y="-103"/>
+      <point x="286" y="-103" type="curve"/>
+    </contour>
+    <component base="si_J.halant"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:47:48 +0000</string>
+    </dict>
+  </lib>
+</glyph>

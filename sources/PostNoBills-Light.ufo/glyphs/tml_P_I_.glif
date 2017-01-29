@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tml_PI" format="1">
+  <advance width="679"/>
+  <outline>
+    <contour>
+      <point x="486" y="739" type="line"/>
+      <point x="596" y="739"/>
+      <point x="598" y="655"/>
+      <point x="598" y="594" type="curve" smooth="yes"/>
+      <point x="598" y="0" type="line"/>
+      <point x="639" y="0" type="line"/>
+      <point x="639" y="597" type="line" smooth="yes"/>
+      <point x="639" y="692"/>
+      <point x="616" y="779"/>
+      <point x="486" y="779" type="curve"/>
+    </contour>
+    <contour>
+      <point x="399" y="560" type="curve"/>
+      <point x="399" y="595" type="line" smooth="yes"/>
+      <point x="323" y="595"/>
+      <point x="326" y="740"/>
+      <point x="433" y="740" type="curve" smooth="yes"/>
+      <point x="432" y="779" type="line"/>
+      <point x="272" y="779"/>
+      <point x="271" y="560"/>
+    </contour>
+    <component base="tml_Pa" xOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:52:15 +0000</string>
+    </dict>
+  </lib>
+</glyph>
