@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tml_Llla" format="1">
+  <advance width="601"/>
+  <unicode hex="0BB4"/>
+  <outline>
+    <contour>
+      <point x="87" y="-67" type="line"/>
+      <point x="87" y="-191"/>
+      <point x="202" y="-258"/>
+      <point x="330" y="-163" type="curve"/>
+      <point x="314" y="-162"/>
+      <point x="294" y="-153"/>
+      <point x="285" y="-143" type="curve"/>
+      <point x="247" y="-184"/>
+      <point x="127" y="-185"/>
+      <point x="127" y="-67" type="curve"/>
+    </contour>
+    <contour>
+      <point x="247" y="2" type="line"/>
+      <point x="247" y="-59"/>
+      <point x="269" y="-146"/>
+      <point x="433" y="-145" type="curve"/>
+      <point x="485" y="-146" type="line" smooth="yes"/>
+      <point x="485" y="-106" type="line"/>
+      <point x="378" y="-106"/>
+      <point x="287" y="-111"/>
+      <point x="287" y="2" type="curve"/>
+    </contour>
+    <component base="tml_Ma" xOffset="1.086" yOffset="1.453"/>
+    <contour>
+      <point x="396" y="2" type="move" name="tml_virama"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-145</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>107</integer>
+            <key>width</key>
+            <integer>17</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>122</integer>
+            <key>width</key>
+            <integer>1</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>483</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>205</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>465</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:52:15 +0000</string>
+    </dict>
+  </lib>
+</glyph>

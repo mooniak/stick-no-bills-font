@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tml_Ca" format="1">
+  <advance width="744"/>
+  <unicode hex="0B9A"/>
+  <outline>
+    <contour>
+      <point x="164" y="348" type="line"/>
+      <point x="286" y="348" type="line"/>
+      <point x="287" y="586" type="line"/>
+      <point x="164" y="586" type="line"/>
+    </contour>
+    <contour>
+      <point x="278" y="-1" type="curve"/>
+      <point x="278" y="121" type="line"/>
+      <point x="195" y="121"/>
+      <point x="160" y="128"/>
+      <point x="160" y="163" type="curve" smooth="yes"/>
+      <point x="39" y="163" type="line"/>
+      <point x="39" y="68"/>
+      <point x="94" y="0"/>
+    </contour>
+    <contour>
+      <point x="331" y="-1" type="line"/>
+      <point x="498" y="-1"/>
+      <point x="541" y="95"/>
+      <point x="541" y="191" type="curve" smooth="yes"/>
+      <point x="541" y="588" type="line"/>
+      <point x="419" y="588" type="line"/>
+      <point x="419" y="187" type="line" smooth="yes"/>
+      <point x="419" y="141"/>
+      <point x="397" y="121"/>
+      <point x="331" y="121" type="curve"/>
+    </contour>
+    <contour>
+      <point x="381" y="470" type="line"/>
+      <point x="688" y="470" type="line"/>
+      <point x="688" y="589" type="line"/>
+      <point x="381" y="589" type="line"/>
+    </contour>
+    <contour>
+      <point x="164" y="470" type="line"/>
+      <point x="327" y="470" type="line"/>
+      <point x="327" y="589" type="line"/>
+      <point x="164" y="589" type="line"/>
+    </contour>
+    <contour>
+      <point x="39" y="213" type="curve"/>
+      <point x="39" y="213"/>
+      <point x="161" y="213"/>
+      <point x="161" y="213" type="curve" smooth="yes"/>
+      <point x="161" y="242"/>
+      <point x="180" y="249"/>
+      <point x="238" y="249" type="curve" smooth="yes"/>
+      <point x="643" y="249" type="line"/>
+      <point x="643" y="371" type="line"/>
+      <point x="235" y="371" type="line" smooth="yes"/>
+      <point x="145" y="371"/>
+      <point x="39" y="325"/>
+    </contour>
+    <contour>
+      <point x="372" y="-1" type="move" name="tml_virama"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-1</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>249</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>348</integer>
+            <key>width</key>
+            <integer>23</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>470</integer>
+            <key>width</key>
+            <integer>125</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>470</integer>
+            <key>width</key>
+            <integer>118</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>39</integer>
+            <key>width</key>
+            <integer>121</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>164</integer>
+            <key>width</key>
+            <integer>163</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>164</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>419</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:50:26 +0000</string>
+    </dict>
+  </lib>
+</glyph>
