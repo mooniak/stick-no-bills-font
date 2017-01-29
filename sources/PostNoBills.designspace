@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <sources>
-        <source filename="masters/PostNoBills-Light.ufo" name="master-Light">
+        <source filename="./PostNoBills-Light.ufo" name="master-Light">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -9,7 +9,7 @@
                 <dimension name="weight" xvalue="0.000000" />
             </location>
         </source>
-        <source filename="masters/PostNoBills-ExtraBold.ufo" name="master-Bold">
+        <source filename="./PostNoBills-ExtraBold.ufo" name="master-Bold">
             <location>
                 <dimension name="weight" xvalue="100.000000" />
             </location>
