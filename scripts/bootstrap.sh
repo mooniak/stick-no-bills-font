@@ -33,7 +33,7 @@ git clone https://github.com/robofab-developers/robofab.git
 cd robofab
 python setup.py install
 git checkout ufo3k
-python setup.py install
+python install.py
 cd ..
 
 echo "Installing FontTools..."
