@@ -62,7 +62,10 @@ $vagrant ssh
 ```shell
 $cd /vagrant/scripts && sh builder.sh
 ```
-
+- Run gf-builder script to build Google fonts compatible TTF fonts.
+```shell
+$cd /vagrant/scripts && sh gfbuilder.sh
+```
 
 ## Credits
 
