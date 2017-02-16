@@ -82,6 +82,7 @@ lookup si_halant_1 {
 
 lookup si_halant_2 {
   sub si_KhRa si_Halant by si_KhR.halant;
+  sub si_KRa si_Halant by si_KRa.halant;
   sub si_GRa si_Halant by si_GR.halant;
   sub si_DVa si_Halant by si_DV.halant;
   sub si_KVa si_Halant by si_KV.halant;
