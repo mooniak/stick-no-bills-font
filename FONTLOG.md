@@ -12,6 +12,10 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+16 February 2017 (mooniak) Post No Bills v1.220
+- Minor design changes in a set of glyphs with si_MatraIi
+- various other fixes
+
 6 April 2016 (mooniak) Post No Bills ttf Build v1.210
 - Renamed family to Post No Bills
 - Minor design fixes and hinting
