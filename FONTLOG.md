@@ -14,7 +14,8 @@ following the format of the other entries, to the start of this section.
 
 16 February 2017 (mooniak) Post No Bills v1.220
 - Minor design changes in a set of glyphs with si_MatraIi
-- various other fixes
+- Various other fixes
+- Fixed /kre (ක්‍රේ) 
 
 6 April 2016 (mooniak) Post No Bills ttf Build v1.210
 - Renamed family to Post No Bills
