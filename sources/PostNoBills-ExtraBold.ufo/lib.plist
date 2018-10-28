@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>UFOFormat</key>
 	<integer>2</integer>
+	<key>com.schriftgestaltung.DisplayStrings</key>
+	<array>
+		<string>/si_Sha ABj/si_Ba/si_MatraU h/tml_I</string>
+		<string>/tml_A</string>
+	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<false/>
 	<key>com.schriftgestaltung.fontMasterID</key>
@@ -366,10 +371,10 @@
 		<string>si_Va</string>
 		<string>si_Ya</string>
 	</array>
+	<key>com.schriftgestaltung.master.name</key>
+	<string>Bold</string>
 	<key>com.schriftgestaltung.useNiceNames</key>
 	<false/>
-	<key>com.schriftgestaltung.weight</key>
-	<string>Bold</string>
 	<key>org.unifiedfontobject.normalizer.modTimes</key>
 	<string>version: 0a1
 1485706224.0 fontinfo.plist
