@@ -1,22 +1,7 @@
 {
 .appVersion = "1348";
 DisplayStrings = (
-"/sinB/sinBI/sinBIi/sinCIi/sinDdIi/sinDhIi/sinKhIi/sinMIi/sinMbIi/sinNgIi/sinTtIi/sinVIi",
-"/sinNVa/sinNVI/sinKhIi/sinGIi/sinNgIi/sinNngIi/sinCIi/sinJhIi/sinTtIi/sinDdIi/sinNnddIi/sinDhIi/sinBIi/sinBhIi/sinMIi/sinMbIi/sinVIi/sinHIi/sinKVIi/sinTVIi/sinNDhIi/sinNVIi/sinShU",
-"/sinReph.alt/sinCa.reph/sinTta.reph/sinDda.reph/sinDha.reph/sinBa.reph/sinMa.reph/sinVa.reph",
-"/sinNVa/sinNVI/sinKhIi/sinGIi/sinNgIi/sinNngIi/sinCIi/sinJhIi/sinTtIi/sinDdIi/sinNnddIi/sinDhIi/sinBIi/sinBhIi/sinMIi/sinMbIi/sinVIi/sinHIi/sinKVIi/sinTVIi/sinNDhIi/sinNVIi/sinShU Cør/zerowidthjoiner/zerowidthnonjoiner/Euro ¢¤§/sinNV/sinReph.alt",
-"/zerowidthjoiner/zerowidthnonjoiner",
-"/zerowidthjoiner",
-"/zerowidthnonjoiner",
-"Cør/Euro ¢¤§/sinNV/sinReph.alt/sinCa.reph/sinTta.reph/sinDda.reph/sinDha.reph/sinBa.reph/sinMa.reph/sinVa.reph",
-"/sinYansaya_Reph_MatraAa",
-"/sinMatraAe/sinKRa",
-"/sinReph.alt/sinKha.reph/sinCa.reph/sinTta.reph/sinDda.reph/sinDha.reph/sinBa.reph/sinMa.reph/sinVa.reph",
-"/sinNya.reph",
-"/sinJnya.reph",
-"/sinLa",
-"/sinLa/sinAnusvara/sinKa/sinVa \012\012o",
-"/space"
+"/sinkundaliya"
 );
 copyright = "Copyright 2021 Stick No Bills Project Authors (https://github.com/mooniak/stick-no-bills-font)";
 customParameters = (
@@ -887,6 +872,7 @@ alignmentZones = (
 );
 ascender = 870;
 capHeight = 0;
+custom = Extra;
 customParameters = (
 {
 name = typoAscender;
@@ -936,6 +922,7 @@ position = "{667, 479}";
 }
 );
 id = "DC4431BF-9234-4C16-9154-22D387E42D10";
+name = ExtraLight;
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
@@ -31600,7 +31587,7 @@ width = 1204;
 },
 {
 glyphname = sinKVI;
-lastChange = "2021-06-28 01:49:50 +0000";
+lastChange = "2021-06-28 03:12:01 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -90507,7 +90494,7 @@ width = 367;
 },
 {
 glyphname = sinkundaliya;
-lastChange = "2021-06-28 01:55:45 +0000";
+lastChange = "2021-06-28 03:36:54 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -90515,55 +90502,55 @@ paths = (
 {
 closed = 1;
 nodes = (
-"270 0 LINE SMOOTH",
-"440 0 OFFCURVE",
-"469 80 OFFCURVE",
-"650 434 CURVE",
-"613 453 LINE",
-"433 94 OFFCURVE",
-"406 40 OFFCURVE",
-"270 40 CURVE SMOOTH",
-"150 40 LINE",
-"150 0 LINE"
+"200 0 LINE SMOOTH",
+"430 0 OFFCURVE",
+"452 40 OFFCURVE",
+"630 394 CURVE",
+"593 413 LINE",
+"413 54 OFFCURVE",
+"396 40 OFFCURVE",
+"200 40 CURVE SMOOTH",
+"50 40 LINE",
+"50 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"768 437 LINE",
-"731 456 LINE",
-"515 20 LINE",
-"553 0 LINE"
+"748 397 LINE",
+"711 416 LINE",
+"505 20 LINE",
+"543 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"838 342 LINE",
-"801 361 LINE",
-"631 20 LINE",
-"669 0 LINE"
+"818 302 LINE",
+"781 321 LINE",
+"621 20 LINE",
+"659 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"886 204 LINE",
-"1009 105 OFFCURVE",
-"1128 0 OFFCURVE",
-"1274 0 CURVE SMOOTH",
-"1375 0 LINE",
-"1375 40 LINE",
-"1276 40 LINE SMOOTH",
-"1138 40 OFFCURVE",
-"1005 167 OFFCURVE",
-"872 270 CURVE",
-"750 21 LINE",
-"787 0 LINE"
+"863 156 LINE",
+"952 75 OFFCURVE",
+"1050 0 OFFCURVE",
+"1194 0 CURVE SMOOTH",
+"1295 0 LINE",
+"1295 40 LINE",
+"1196 40 LINE SMOOTH",
+"1058 40 OFFCURVE",
+"915 167 OFFCURVE",
+"852 230 CURVE",
+"740 21 LINE",
+"777 0 LINE"
 );
 }
 );
-width = 1465;
+width = 1345;
 },
 {
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
@@ -90571,55 +90558,55 @@ paths = (
 {
 closed = 1;
 nodes = (
-"270 0 LINE SMOOTH",
-"440 0 OFFCURVE",
-"469 80 OFFCURVE",
-"650 434 CURVE",
-"552 489 LINE",
-"407 193 OFFCURVE",
-"377 112 OFFCURVE",
-"270 112 CURVE SMOOTH",
-"150 112 LINE",
-"150 0 LINE"
+"260 0 LINE SMOOTH",
+"480 0 OFFCURVE",
+"509 80 OFFCURVE",
+"690 434 CURVE",
+"592 489 LINE",
+"447 193 OFFCURVE",
+"417 112 OFFCURVE",
+"260 112 CURVE SMOOTH",
+"40 112 LINE",
+"40 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"839 467 LINE",
-"741 523 LINE",
-"510 55 LINE",
-"609 -1 LINE"
+"879 467 LINE",
+"781 523 LINE",
+"550 55 LINE",
+"649 -1 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"952 341 LINE",
-"854 396 LINE",
-"684 55 LINE",
-"783 -1 LINE"
+"992 341 LINE",
+"894 396 LINE",
+"724 55 LINE",
+"823 -1 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"1017 122 LINE",
-"1153 43 OFFCURVE",
-"1262 0 OFFCURVE",
+"1061 126 LINE",
+"1197 47 OFFCURVE",
+"1302 0 OFFCURVE",
 "1392 0 CURVE SMOOTH",
 "1516 0 LINE",
 "1516 113 LINE",
 "1392 113 LINE SMOOTH",
-"1291 113 OFFCURVE",
-"1213 135 OFFCURVE",
-"970 282 CURVE",
-"858 55 LINE",
-"958 -1 LINE"
+"1331 113 OFFCURVE",
+"1253 135 OFFCURVE",
+"1010 282 CURVE",
+"898 55 LINE",
+"998 -1 LINE"
 );
 }
 );
-width = 1666;
+width = 1556;
 }
 );
 unicode = 0DF4;
@@ -96949,100 +96936,59 @@ width = 400;
 );
 instances = (
 {
-customParameters = (
-{
-name = typoAscender;
-value = 958;
-},
-{
-name = typoDescender;
-value = -200;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 958;
-},
-{
-name = hheaDescender;
-value = -200;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1237;
-},
-{
-name = winDescent;
-value = 623;
-}
-);
 interpolationWeight = 0;
 instanceInterpolations = {
 "DC4431BF-9234-4C16-9154-22D387E42D10" = 1;
 };
-name = Light;
+name = ExtraLight;
+weightClass = ExtraLight;
 },
 {
-exports = 0;
-interpolationWeight = 37;
+interpolationWeight = 20;
 instanceInterpolations = {
-"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.37;
-"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.63;
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.2;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.8;
+};
+name = Light;
+weightClass = Light;
+},
+{
+interpolationWeight = 40;
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.4;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.6;
 };
 name = Regular;
 },
 {
-exports = 0;
-interpolationWeight = 56;
+interpolationWeight = 50;
 instanceInterpolations = {
-"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.56;
-"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.44;
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.5;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.5;
 };
 name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = typoAscender;
-value = 958;
+interpolationWeight = 67;
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.67;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.33;
+};
+name = SemiBold;
+weightClass = SemiBold;
 },
 {
-name = typoDescender;
-value = -200;
+interpolationWeight = 81;
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.81;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.19;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
 },
 {
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 958;
-},
-{
-name = hheaDescender;
-value = -200;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1237;
-},
-{
-name = winDescent;
-value = 623;
-}
-);
 instanceInterpolations = {
 "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 1;
 };
