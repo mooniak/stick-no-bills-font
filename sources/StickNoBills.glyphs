@@ -852,6 +852,10 @@ name = blws;
 {
 code = "  script sinh;\012      lookup sin_psts;";
 name = psts;
+},
+{
+code = "  pos sinTouch <0 0 -110 0>;\012";
+name = dist;
 }
 );
 fontMaster = (
