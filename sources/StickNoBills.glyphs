@@ -805,7 +805,7 @@ name = Prefix;
 features = (
 {
 automatic = 1;
-code = "feature sups;\012feature frac;\012feature ordn;\012feature abvs;\012feature psts;\012feature locl;\012";
+code = "feature sups;\012feature frac;\012feature ordn;\012";
 name = aalt;
 },
 {
@@ -827,6 +827,10 @@ name = ordn;
 automatic = 1;
 code = "sub f i by fi;\012sub f l by fl;\012";
 name = liga;
+},
+{
+code = "";
+name = locl;
 },
 {
 code = "  script sinh;\012      lookup sinakhands;\012      lookup sin_touch;";
