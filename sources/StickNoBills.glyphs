@@ -90765,6 +90765,21 @@ width = 0;
 unicode = 200C;
 },
 {
+glyphname = CR;
+lastChange = "2021-06-28 02:57:45 +0000";
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+width = 682;
+},
+{
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+width = 682;
+}
+);
+unicode = 000D;
+},
+{
 glyphname = .notdef;
 lastChange = "2021-06-28 02:03:16 +0000";
 layers = (
@@ -97360,6 +97375,40 @@ width = 400;
 );
 instances = (
 {
+customParameters = (
+{
+name = typoAscender;
+value = 958;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 958;
+},
+{
+name = hheaDescender;
+value = -200;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1237;
+},
+{
+name = winDescent;
+value = 623;
+}
+);
 interpolationWeight = 0;
 instanceInterpolations = {
 "DC4431BF-9234-4C16-9154-22D387E42D10" = 1;
@@ -97386,6 +97435,40 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = typoAscender;
+value = 958;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 958;
+},
+{
+name = hheaDescender;
+value = -200;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1237;
+},
+{
+name = winDescent;
+value = 623;
+}
+);
 instanceInterpolations = {
 "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 1;
 };
