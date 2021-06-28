@@ -13,7 +13,9 @@ DisplayStrings = (
 "/sinMatraAe/sinKRa",
 "/sinReph.alt/sinKha.reph/sinCa.reph/sinTta.reph/sinDda.reph/sinDha.reph/sinBa.reph/sinMa.reph/sinVa.reph",
 "/sinNya.reph",
-"/sinJnya.reph"
+"/sinJnya.reph",
+"/sinLa",
+"/sinAnusvara o"
 );
 copyright = "Copyright 2021 Stick No Bills Project Authors (https://github.com/mooniak/stick-no-bills-font)";
 customParameters = (
@@ -17549,7 +17551,7 @@ width = 786;
 },
 {
 glyphname = sinMatraAae;
-lastChange = "2021-06-28 01:48:16 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -17629,6 +17631,8 @@ width = 277;
 }
 );
 unicode = 0DD1;
+category = Mark;
+subCategory = Spacing;
 userData = {
 com.fontlab.hintData = {
 hhints = (
@@ -17656,7 +17660,7 @@ width = 40;
 },
 {
 glyphname = sinMatraAe;
-lastChange = "2021-06-28 01:55:44 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -17724,6 +17728,8 @@ width = 287;
 }
 );
 unicode = 0DD0;
+category = Mark;
+subCategory = Spacing;
 userData = {
 com.fontlab.hintData = {
 hhints = (
@@ -17747,7 +17753,7 @@ width = 40;
 },
 {
 glyphname = sinMatraAi;
-lastChange = "2021-05-19 08:51:46 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 components = (
@@ -17777,6 +17783,8 @@ width = 914;
 }
 );
 unicode = 0DDB;
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = sinMatraAu;
@@ -17813,7 +17821,7 @@ unicode = 0DDE;
 },
 {
 glyphname = sinMatraE;
-lastChange = "2021-06-28 01:55:44 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -17953,6 +17961,8 @@ width = 457;
 }
 );
 unicode = 0DD9;
+category = Mark;
+subCategory = Spacing;
 userData = {
 com.fontlab.hintData = {
 hhints = (
@@ -18286,7 +18296,7 @@ unicode = 0DD3;
 },
 {
 glyphname = sinMatraLl;
-lastChange = "2021-05-19 08:51:46 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 components = (
@@ -18308,10 +18318,12 @@ width = 424;
 }
 );
 unicode = 0DF3;
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = sinMatraLs;
-lastChange = "2021-06-28 01:55:44 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -18429,6 +18441,8 @@ width = 424;
 }
 );
 unicode = 0DDF;
+category = Mark;
+subCategory = Spacing;
 userData = {
 com.fontlab.hintData = {
 vhints = (
@@ -18516,7 +18530,7 @@ unicode = 0DDD;
 },
 {
 glyphname = sinMatraR;
-lastChange = "2021-06-28 01:55:44 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -18606,10 +18620,12 @@ width = 375;
 }
 );
 unicode = 0DD8;
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = sinMatraRr;
-lastChange = "2021-05-19 08:51:46 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 components = (
@@ -18639,6 +18655,8 @@ width = 750;
 }
 );
 unicode = 0DF2;
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = sinMatraU;
@@ -19266,8 +19284,112 @@ width = 438;
 );
 },
 {
+glyphname = sinAnusvara;
+lastChange = "2021-06-28 02:49:28 +0000";
+layers = (
+{
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+paths = (
+{
+closed = 1;
+nodes = (
+"155 190 LINE",
+"140 190 OFFCURVE",
+"129 201 OFFCURVE",
+"129 225 CURVE SMOOTH",
+"129 352 LINE SMOOTH",
+"129 380 OFFCURVE",
+"139 394 OFFCURVE",
+"155 394 CURVE",
+"155 494 LINE",
+"80 494 OFFCURVE",
+"27 441 OFFCURVE",
+"27 356 CURVE SMOOTH",
+"27 222 LINE SMOOTH",
+"27 138 OFFCURVE",
+"88 89 OFFCURVE",
+"155 89 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"257 89 OFFCURVE",
+"319 138 OFFCURVE",
+"319 222 CURVE SMOOTH",
+"319 356 LINE SMOOTH",
+"319 441 OFFCURVE",
+"265 494 OFFCURVE",
+"191 494 CURVE",
+"191 394 LINE",
+"207 394 OFFCURVE",
+"217 380 OFFCURVE",
+"217 352 CURVE SMOOTH",
+"217 225 LINE SMOOTH",
+"217 201 OFFCURVE",
+"205 190 OFFCURVE",
+"191 190 CURVE",
+"191 89 LINE"
+);
+}
+);
+width = 354;
+},
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+paths = (
+{
+closed = 1;
+nodes = (
+"143 135 LINE",
+"98 135 OFFCURVE",
+"65 181 OFFCURVE",
+"65 211 CURVE SMOOTH",
+"65 354 LINE SMOOTH",
+"65 386 OFFCURVE",
+"93 429 OFFCURVE",
+"143 429 CURVE",
+"143 466 LINE",
+"67 466 OFFCURVE",
+"27 403 OFFCURVE",
+"27 362 CURVE SMOOTH",
+"27 202 LINE SMOOTH",
+"27 162 OFFCURVE",
+"67 98 OFFCURVE",
+"143 98 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"247 98 OFFCURVE",
+"287 162 OFFCURVE",
+"287 202 CURVE SMOOTH",
+"287 362 LINE SMOOTH",
+"287 403 OFFCURVE",
+"249 466 OFFCURVE",
+"173 466 CURVE",
+"173 429 LINE",
+"221 429 OFFCURVE",
+"249 384 OFFCURVE",
+"249 354 CURVE SMOOTH",
+"249 209 LINE SMOOTH",
+"249 179 OFFCURVE",
+"220 135 OFFCURVE",
+"173 135 CURVE",
+"173 98 LINE"
+);
+}
+);
+width = 333;
+}
+);
+unicode = 0D82;
+category = Letter;
+},
+{
 glyphname = sinMatraAa;
-lastChange = "2021-06-28 01:55:44 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -19333,6 +19455,8 @@ width = 277;
 }
 );
 unicode = 0DCF;
+category = Mark;
+subCategory = Spacing;
 userData = {
 com.fontlab.hintData = {
 hhints = (
@@ -19356,7 +19480,7 @@ width = 41;
 },
 {
 glyphname = sinMatraAa.virama;
-lastChange = "2021-06-28 02:11:26 +0000";
+lastChange = "2021-06-28 02:46:57 +0000";
 layers = (
 {
 components = (
@@ -19386,6 +19510,8 @@ layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
 width = 278;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = sinTouch;
