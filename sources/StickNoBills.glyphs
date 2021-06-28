@@ -876,43 +876,35 @@ custom = Extra;
 customParameters = (
 {
 name = typoAscender;
-value = 870;
+value = 940;
 },
 {
 name = typoDescender;
-value = -205;
+value = -312;
 },
 {
 name = typoLineGap;
-value = 94;
+value = 0;
 },
 {
 name = hheaAscender;
-value = 918;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -220;
+value = -312;
 },
 {
 name = hheaLineGap;
-value = 94;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 1237;
 },
 {
 name = winDescent;
-value = 220;
-},
-{
-name = underlineThickness;
-value = 51;
-},
-{
-name = underlinePosition;
-value = -102;
+value = 623;
 }
 );
 descender = -220;
@@ -946,43 +938,35 @@ custom = Extra;
 customParameters = (
 {
 name = typoAscender;
-value = 870;
+value = 940;
 },
 {
 name = typoDescender;
-value = -205;
+value = -312;
 },
 {
 name = typoLineGap;
-value = 94;
+value = 0;
 },
 {
 name = hheaAscender;
-value = 918;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -220;
+value = -312;
 },
 {
 name = hheaLineGap;
-value = 94;
+value = 0;
 },
 {
 name = winAscent;
-value = 918;
+value = 1237;
 },
 {
 name = winDescent;
-value = 220;
-},
-{
-name = underlineThickness;
-value = 51;
-},
-{
-name = underlinePosition;
-value = -102;
+value = 623;
 }
 );
 descender = -220;
@@ -97003,6 +96987,6 @@ GSDontShowVersionAlert = 1;
 LWPluginVersion = "1429";
 UFOFormat = 2;
 };
-versionMajor = 1;
-versionMinor = 250;
+versionMajor = 2;
+versionMinor = 0;
 }
