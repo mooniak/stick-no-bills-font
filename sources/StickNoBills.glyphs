@@ -1,8 +1,5 @@
 {
 .appVersion = "1352";
-DisplayStrings = (
-"xH/sinkundaliya"
-);
 copyright = "Copyright 2021 The Stick No Bills Project Authors (https://github.com/mooniak/stick-no-bills-font)";
 customParameters = (
 {
@@ -80826,6 +80823,109 @@ width = 232;
 }
 );
 unicode = 00B3;
+},
+{
+glyphname = foursuperior;
+lastChange = "2021-06-28 12:39:03 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"188 386 LINE",
+"188 699 LINE",
+"162 699 LINE",
+"144 684 LINE",
+"144 665 LINE",
+"162 665 LINE",
+"162 386 LINE"
+);
+}
+);
+};
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+paths = (
+{
+closed = 1;
+nodes = (
+"161 441 LINE",
+"161 468 LINE",
+"62 468 LINE",
+"161 637 LINE",
+"161 689 LINE",
+"30 468 LINE",
+"30 441 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"209 386 LINE",
+"209 441 LINE",
+"233 441 LINE",
+"233 468 LINE",
+"209 468 LINE",
+"209 700 LINE",
+"181 700 LINE",
+"181 386 LINE"
+);
+}
+);
+width = 273;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"220 384 LINE",
+"220 699 LINE",
+"156 699 LINE",
+"122 672 LINE",
+"122 616 LINE",
+"156 616 LINE",
+"156 384 LINE"
+);
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+paths = (
+{
+closed = 1;
+nodes = (
+"117 439 LINE",
+"117 502 LINE",
+"97 502 LINE",
+"117 542 LINE",
+"117 671 LINE",
+"20 502 LINE",
+"20 439 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"214 384 LINE",
+"214 439 LINE",
+"239 439 LINE",
+"239 502 LINE",
+"214 502 LINE",
+"214 700 LINE",
+"142 700 LINE",
+"142 384 LINE"
+);
+}
+);
+width = 269;
+}
+);
+leftMetricsKey = four;
+rightMetricsKey = four;
+unicode = 2074;
 },
 {
 glyphname = fraction;
