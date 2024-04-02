@@ -1,31 +1,14 @@
 {
-.appVersion = "1348";
+.appVersion = "3151";
 DisplayStrings = (
-"",
-"/fi/fl"
+"/fi/fl",
+"×"
 );
 copyright = "Copyright 2021 The Stick No Bills Project Authors (https://github.com/mooniak/stick-no-bills-font)";
 customParameters = (
 {
-name = trademark;
-value = "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka (http://sticknobillsonline.com)";
-},
-{
 name = fsType;
 value = (
-);
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
 );
 },
 {
@@ -37,18 +20,6 @@ value = (
 20,
 73
 );
-},
-{
-name = sampleText;
-value = "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ.";
-},
-{
-name = vendorID;
-value = MNIK;
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
 },
 {
 name = glyphOrder;
@@ -785,6 +756,35 @@ sinNdRAa.ss01
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = trademark;
+value = "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka (http://sticknobillsonline.com)";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = sampleText;
+value = "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ.";
+},
+{
+name = vendorID;
+value = MNIK;
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2021-06-28 04:13:58 +0000";
@@ -863,8 +863,6 @@ fontMaster = (
 alignmentZones = (
 "{870, 16}",
 "{0, -6}",
-"{0, -6}",
-"{0, -6}",
 "{-220, -16}"
 );
 ascender = 870;
@@ -924,8 +922,6 @@ xHeight = 515;
 {
 alignmentZones = (
 "{870, 16}",
-"{0, -6}",
-"{0, -6}",
 "{0, -6}",
 "{-220, -16}"
 );
@@ -91991,7 +91987,7 @@ unicode = 2212;
 },
 {
 glyphname = multiply;
-lastChange = "2021-05-19 08:51:46 +0000";
+lastChange = "2024-04-02 05:44:51 +0000";
 layers = (
 {
 layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
@@ -91999,6 +91995,8 @@ paths = (
 {
 closed = 1;
 nodes = (
+"330 388 LINE",
+"520 197 LINE",
 "549 227 LINE",
 "360 417 LINE",
 "549 606 LINE",
@@ -92008,13 +92006,11 @@ nodes = (
 "113 605 LINE",
 "300 417 LINE",
 "112 229 LINE",
-"141 199 LINE",
-"330 388 LINE",
-"520 197 LINE"
+"141 199 LINE"
 );
 }
 );
-width = 493;
+width = 661;
 },
 {
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
