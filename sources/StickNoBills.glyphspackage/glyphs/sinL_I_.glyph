@@ -1,0 +1,49 @@
+{
+glyphname = sinLI;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+closed = 1;
+nodes = (
+(333,530,l),
+(333,570,l),
+(266,570,l),
+(266,530,l)
+);
+},
+{
+pos = (624,0);
+ref = sinMatraI;
+},
+{
+ref = sinLa;
+}
+);
+width = 606;
+},
+{
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(347,435,l),
+(347,575,l),
+(280,575,l),
+(280,435,l)
+);
+},
+{
+pos = (626,30);
+ref = sinMatraI;
+},
+{
+ref = sinLa;
+}
+);
+width = 626;
+}
+);
+}
