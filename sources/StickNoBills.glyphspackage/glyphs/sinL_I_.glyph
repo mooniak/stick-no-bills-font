@@ -24,7 +24,7 @@ ref = sinLa;
 width = 606;
 },
 {
-layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+background = {
 shapes = (
 {
 closed = 1;
@@ -33,6 +33,26 @@ nodes = (
 (347,575,l),
 (280,575,l),
 (280,435,l)
+);
+},
+{
+pos = (626,30);
+ref = sinMatraI;
+},
+{
+ref = sinLa;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(347,445,l),
+(347,575,l),
+(280,575,l),
+(280,445,l)
 );
 },
 {

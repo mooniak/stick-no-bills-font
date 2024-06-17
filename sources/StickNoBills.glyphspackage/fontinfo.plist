@@ -1445,35 +1445,16 @@ sub taJa	taMatraI	by	taJI	;
 sub taSsa	taMatraI	by	taSsI	;
 sub taSa	taMatraI	by	taSI	;
 sub taHa	taMatraI	by	taHI	;
-sub taKSsa	taMatraI	by	taKSsI	;
-sub taSha	taMatraI	by	taShI	;
+sub taKSsa	taMatraI	by	taKSsa	;
+sub taSha	taMatraI	by	taSha	;
 } above_base_sub_1;
 
 lookup above_base_sub_2 {
-sub taKa	taMatraIi	by	taKIi	;
-sub taNga	taMatraIi	by	taNgIi	;
-sub taCa	taMatraIi	by	taCIi	;
-sub taNya	taMatraIi	by	taNyIi	;
+sub taKa	taMatraIi	by	taIi	;
+sub taNga	taMatraIi	by	taNgI	;
+sub taCa	taMatraIi	by	taIi;
+sub taNya	taMatraIi	by	taNyI	;
 sub taTta	taMatraIi	by	taTtIi	;
-sub taNna	taMatraIi	by	taNnIi	;
-sub taTa	taMatraIi	by	taTIi	;
-sub taNa	taMatraIi	by	taNIi	;
-sub taPa	taMatraIi	by	taPIi	;
-sub taMa	taMatraIi	by	taMIi	;
-sub taYa	taMatraIi	by	taYIi	;
-sub taRa	taMatraIi	by	taRIi	;
-sub taLa	taMatraIi	by	taLIi	;
-sub taVa	taMatraIi	by	taVIi	;
-sub taLlla	taMatraIi	by	taLllIi	;
-sub taLla	taMatraIi	by	taLlIi	;
-sub taRra	taMatraIi	by	taRrIi	;
-sub taNnna	taMatraIi	by	taNnnIi	;
-sub taJa	taMatraIi	by	taJIi	;
-sub taSsa	taMatraIi	by	taSsIi	;
-sub taSa	taMatraIi	by	taSIi	;
-sub taHa	taMatraIi	by	taHIi	;
-sub taKSsa	taMatraIi	by	taKSsIi	;
-sub taSha	taMatraIi	by	taShIi	;
 
  } above_base_sub_2;
 
@@ -1488,18 +1469,13 @@ lookup post_base_sub_1 {
     sub taTa taMatraU by taTU;
     sub taNa taMatraU by taNU;
     sub taNnna taMatraU by taNnnU;
-    sub taPa taMatraU by taPU;
 	sub taMa taMatraU by taMU;
     sub taRa taMatraU by taRU;
     sub taRra taMatraU by taRrU;
     sub taLa taMatraU by taLU;
     sub taLla taMatraU by taLlU;
     sub taLlla taMatraU by taLllU;
-    sub taJa taMatraU by taJU;
-    sub taSa taMatraU by taSU;
-    sub taSsa taMatraU by taSsU;
-    sub taKSsa taMatraU by taKSsU;
-    sub taHa taMatraU by taHU;
+
 
 
 
@@ -1524,17 +1500,10 @@ lookup post_base_sub_2 {
     sub taLla taMatraUu by taLlUu;
     sub taLlla taMatraUu by taLllUu;
     sub taVa taMatraUu by taVUu;
-    sub taJa taMatraUu by taJUu;
-    sub taSsa taMatraUu by taSsUu;
-    sub taKSsa taMatraUu by taKSsUu;
-    sub taHa taMatraUu by taHUu;
+
 
  } post_base_sub_2;
 
-
-lookup post_base_sub_3{
-    sub @TA_MATRA_U_1 taMatraU' by taMatraU.alt1;
- } post_base_sub_3;
 
 
 
@@ -1561,6 +1530,7 @@ automatic = 1;
 code = "sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
+sub four by foursuperior;
 ";
 tag = sups;
 },
@@ -1581,7 +1551,8 @@ tag = ordn;
 },
 {
 automatic = 1;
-code = "sub f i by fi;
+code = "lookupflag IgnoreMarks;
+sub f i by fi;
 sub f l by fl;
 ";
 tag = liga;
@@ -1629,6 +1600,19 @@ tag = blws;
 code = "  script sinh;
       lookup sin_psts;";
 tag = psts;
+},
+{
+automatic = 1;
+code = "lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
 }
 );
 fontMaster = (

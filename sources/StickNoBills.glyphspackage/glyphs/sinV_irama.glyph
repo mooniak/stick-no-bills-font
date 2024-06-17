@@ -17,7 +17,7 @@ nodes = (
 width = 100;
 },
 {
-layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+background = {
 shapes = (
 {
 closed = 1;
@@ -29,7 +29,20 @@ nodes = (
 );
 }
 );
-width = 196;
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(156,619,l),
+(156,819,l),
+(30,819,l),
+(30,619,l)
+);
+}
+);
+width = 186;
 }
 );
 unicode = 3530;

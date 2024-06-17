@@ -20,13 +20,29 @@ ref = sinNTha;
 width = 1061;
 },
 {
-layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+background = {
 shapes = (
 {
 closed = 1;
 nodes = (
 (1048,518,l),
 (1048,819,l),
+(912,819,l),
+(912,518,l)
+);
+},
+{
+ref = sinNTha;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1039,518,l),
+(1039,819,l),
 (912,819,l),
 (912,518,l)
 );

@@ -15,6 +15,17 @@ ref = sinGa;
 width = 703;
 },
 {
+background = {
+shapes = (
+{
+pos = (670,30);
+ref = sinMatraI;
+},
+{
+ref = sinGa;
+}
+);
+};
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
 shapes = (
 {

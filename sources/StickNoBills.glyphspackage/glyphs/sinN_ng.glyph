@@ -15,6 +15,17 @@ ref = sinNnga;
 width = 843;
 },
 {
+background = {
+shapes = (
+{
+pos = (654,0);
+ref = sinVirama;
+},
+{
+ref = sinNnga;
+}
+);
+};
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
 shapes = (
 {

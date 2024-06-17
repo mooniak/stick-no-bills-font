@@ -21,7 +21,7 @@ ref = sinTtha;
 width = 580;
 },
 {
-layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+background = {
 shapes = (
 {
 closed = 1;
@@ -30,6 +30,22 @@ nodes = (
 (563,819,l),
 (427.001,819,l),
 (427.001,518,l)
+);
+},
+{
+ref = sinTtha;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,518,l),
+(554,819,l),
+(427,819,l),
+(427,518,l)
 );
 },
 {

@@ -16,6 +16,18 @@ ref = sinVI;
 width = 557;
 },
 {
+background = {
+shapes = (
+{
+pos = (569,0);
+ref = sinRakar;
+},
+{
+pos = (1,0);
+ref = sinVI;
+}
+);
+};
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
 shapes = (
 {

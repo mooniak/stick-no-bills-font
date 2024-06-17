@@ -20,7 +20,7 @@ ref = sinE;
 width = 589;
 },
 {
-layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+background = {
 shapes = (
 {
 closed = 1;
@@ -29,6 +29,22 @@ nodes = (
 (573,819,l),
 (437.001,819,l),
 (437.001,518,l)
+);
+},
+{
+ref = sinE;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,518,l),
+(564,819,l),
+(437,819,l),
+(437,518,l)
 );
 },
 {

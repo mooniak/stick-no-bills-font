@@ -15,6 +15,17 @@ ref = sinYansaya;
 width = 498;
 },
 {
+background = {
+shapes = (
+{
+pos = (225,0);
+ref = sinVirama;
+},
+{
+ref = sinYansaya;
+}
+);
+};
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
 shapes = (
 {

@@ -15,6 +15,17 @@ ref = sinMatraE;
 width = 857;
 },
 {
+background = {
+shapes = (
+{
+pos = (457,0);
+ref = sinMatraLs;
+},
+{
+ref = sinMatraE;
+}
+);
+};
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
 shapes = (
 {

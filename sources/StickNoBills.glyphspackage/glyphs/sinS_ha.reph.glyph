@@ -17,6 +17,17 @@ ref = sinSha;
 width = 703;
 },
 {
+background = {
+shapes = (
+{
+pos = (117,16);
+ref = sinReph;
+},
+{
+ref = sinSha;
+}
+);
+};
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
 shapes = (
 {

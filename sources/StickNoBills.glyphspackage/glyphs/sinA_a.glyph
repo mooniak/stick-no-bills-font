@@ -18,6 +18,20 @@ ref = sinA;
 width = 801;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (539,0);
+ref = sinMatraAa;
+scale = (1,0.9826);
+},
+{
+alignment = -1;
+ref = sinA;
+}
+);
+};
 layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
 shapes = (
 {
