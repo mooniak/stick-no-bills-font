@@ -1,0 +1,57 @@
+{
+glyphname = sinTh;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+closed = 1;
+nodes = (
+(514,518,l),
+(514,819,l),
+(472.001,819,l),
+(472.001,518,l)
+);
+},
+{
+ref = sinTha;
+}
+);
+width = 544;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(531,518,l),
+(531,819,l),
+(395.001,819,l),
+(395.001,518,l)
+);
+},
+{
+ref = sinTha;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(522,518,l),
+(522,819,l),
+(395,819,l),
+(395,518,l)
+);
+},
+{
+ref = sinTha;
+}
+);
+width = 561;
+}
+);
+}

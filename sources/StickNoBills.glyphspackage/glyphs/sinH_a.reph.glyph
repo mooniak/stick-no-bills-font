@@ -1,0 +1,44 @@
+{
+glyphname = sinHa.reph;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+alignment = -1;
+pos = (158,-20);
+ref = sinReph;
+},
+{
+alignment = -1;
+ref = sinHa;
+}
+);
+width = 703;
+},
+{
+background = {
+shapes = (
+{
+pos = (116,16);
+ref = sinReph;
+},
+{
+ref = sinHa;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+pos = (116,16);
+ref = sinReph;
+},
+{
+ref = sinHa;
+}
+);
+width = 716;
+}
+);
+}

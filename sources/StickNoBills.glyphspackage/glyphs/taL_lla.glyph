@@ -1,0 +1,136 @@
+{
+color = 0;
+glyphname = taLlla;
+layers = (
+{
+anchors = (
+{
+name = tml_virama;
+pos = (396,2);
+}
+);
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+closed = 1;
+nodes = (
+(485,-106,l),
+(378,-106,o),
+(287,-111,o),
+(287,2,c),
+(247,2,l),
+(247,-59,o),
+(269,-146,o),
+(433,-145,cs),
+(485,-146,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(314,-162,o),
+(294,-153,o),
+(285,-143,c),
+(247,-184,o),
+(127,-185,o),
+(127,-67,c),
+(87,-67,l),
+(87,-191,o),
+(202,-258,o),
+(330,-163,c)
+);
+},
+{
+pos = (1.086,1.453);
+ref = taMa;
+}
+);
+width = 601;
+},
+{
+anchors = (
+{
+name = tml_virama;
+pos = (441,0);
+}
+);
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(559,-22,l),
+(401,-22,o),
+(365,-29,o),
+(365,1,c),
+(243,1,l),
+(243,-60,o),
+(265,-146,o),
+(429,-145,c),
+(559,-146,ls)
+);
+},
+{
+closed = 1;
+nodes = (
+(274,-158,o),
+(238,-118,o),
+(231,-87,c),
+(213,-103,o),
+(176,-91,o),
+(175,-67,c),
+(53,-67,l),
+(53,-191,o),
+(185,-259,o),
+(329,-164,c)
+);
+},
+{
+ref = taMa;
+}
+);
+width = 663;
+}
+);
+unicode = 2996;
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -145;
+width = 123;
+},
+{
+position = 0;
+width = 123;
+},
+{
+position = 107;
+width = 17;
+},
+{
+position = 122;
+width = 1;
+},
+{
+position = 483;
+width = 122;
+}
+);
+vhints = (
+{
+position = 1;
+width = 122;
+},
+{
+position = 205;
+width = 122;
+},
+{
+position = 465;
+width = 123;
+}
+);
+};
+};
+}

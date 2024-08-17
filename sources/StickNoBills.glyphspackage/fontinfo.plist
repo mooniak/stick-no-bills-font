@@ -1,0 +1,3308 @@
+{
+.appVersion = "3260";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+20,
+73
+);
+},
+{
+name = glyphOrder;
+value = (
+sinA,
+sinAa,
+sinAe,
+sinAae,
+sinI,
+sinIi,
+sinU,
+sinUu,
+sinRVocalic,
+sinRrVocalic,
+sinLVocalic,
+sinLlVocalic,
+sinE,
+sinEe,
+sinAi,
+sinO,
+sinOo,
+sinAu,
+sinKa,
+sinKha,
+sinGa,
+sinGha,
+sinNga,
+sinNnga,
+sinCa,
+sinCha,
+sinJa,
+sinJha,
+sinNya,
+sinJnya,
+sinNyja,
+sinTta,
+sinTtha,
+sinDda,
+sinDdha,
+sinNna,
+sinNndda,
+sinTa,
+sinTha,
+sinDa,
+sinDha,
+sinNa,
+sinNda,
+sinPa,
+sinPha,
+sinBa,
+sinBha,
+sinMa,
+sinMba,
+sinYa,
+sinRa,
+sinLa,
+sinVa,
+sinSha,
+sinSsa,
+sinSa,
+sinHa,
+sinLla,
+sinFa,
+sinfPa,
+sinKSsa,
+sinKVa,
+sinTVa,
+sinTTha,
+sinNDa,
+sinNDha,
+sinNVa,
+sinNTha,
+sinGDha,
+sinDVa,
+sinDDha,
+sinTtTtha,
+sinNyCa,
+sinNyCha,
+sinCCa,
+sinBBa,
+sinMatraAa,
+sinMatraAae,
+sinMatraAe,
+sinMatraAi,
+sinMatraAu,
+sinMatraE,
+sinMatraEe,
+sinMatraI,
+sinMatraIi,
+sinMatraLl,
+sinMatraLs,
+sinMatraO,
+sinMatraOo,
+sinMatraR,
+sinMatraRr,
+sinMatraU,
+sinMatraUu,
+sinMatraU.sub,
+sinMatraUu.sub,
+sinVirama,
+sinRakar,
+sinReph,
+sinYansaya,
+sinAnusvara,
+sinCandrabindu,
+sinVisarga,
+sinMatraAa,
+sinMatraAa.virama,
+sinTouch,
+sinK,
+sinKh,
+sinG,
+sinGh,
+sinNg,
+sinNng,
+sinC,
+sinCh,
+sinJ,
+sinJh,
+sinNy,
+sinJny,
+sinNyj,
+sinTt,
+sinTth,
+sinDd,
+sinDdh,
+sinNn,
+sinNndd,
+sinT,
+sinTh,
+sinD,
+sinDh,
+sinN,
+sinNd,
+sinP,
+sinPh,
+sinB,
+sinBh,
+sinM,
+sinMb,
+sinY,
+sinR,
+sinL,
+sinV,
+sinSh,
+sinSs,
+sinS,
+sinH,
+sinLl,
+sinF,
+sinfP,
+sinKSs,
+sinKV,
+sinTV,
+sinTTh,
+sinND,
+sinNDh,
+sinNV,
+sinNTh,
+sinGDh,
+sinDV,
+sinDDh,
+sinTtTth,
+sinNyC,
+sinNyCh,
+sinCC,
+sinBB,
+sinKI,
+sinKhI,
+sinGI,
+sinGhI,
+sinNgI,
+sinNngI,
+sinCI,
+sinChI,
+sinJI,
+sinJhI,
+sinNyI,
+sinJnyI,
+sinNyjI,
+sinTtI,
+sinTthI,
+sinDdI,
+sinDdhI,
+sinNnI,
+sinNnddI,
+sinTI,
+sinThI,
+sinDI,
+sinDhI,
+sinNI,
+sinNdI,
+sinPI,
+sinPhI,
+sinBI,
+sinBhI,
+sinMI,
+sinMbI,
+sinYI,
+sinRI,
+sinLI,
+sinVI,
+sinShI,
+sinSsI,
+sinSI,
+sinHI,
+sinLlI,
+sinFI,
+sinfPI,
+sinKSsI,
+sinKVI,
+sinTVI,
+sinTThI,
+sinNDI,
+sinNDhI,
+sinNVI,
+sinNThI,
+sinGDhI,
+sinDVI,
+sinDDhI,
+sinTtTthI,
+sinNyCI,
+sinNyChI,
+sinCCI,
+sinBBI,
+sinKIi,
+sinKhIi,
+sinGIi,
+sinGhIi,
+sinNgIi,
+sinNngIi,
+sinCIi,
+sinChIi,
+sinJIi,
+sinJhIi,
+sinNyIi,
+sinJnyIi,
+sinNyjIi,
+sinTtIi,
+sinTthIi,
+sinDdIi,
+sinDdhIi,
+sinNnIi,
+sinNnddIi,
+sinTIi,
+sinThIi,
+sinDIi,
+sinDhIi,
+sinNIi,
+sinNdIi,
+sinPIi,
+sinPhIi,
+sinBIi,
+sinBhIi,
+sinMIi,
+sinMbIi,
+sinYIi,
+sinRIi,
+sinLIi,
+sinVIi,
+sinShIi,
+sinSsIi,
+sinSIi,
+sinHIi,
+sinLlIi,
+sinFIi,
+sinfPIi,
+sinKSsIi,
+sinKVIi,
+sinTVIi,
+sinTThIi,
+sinNDIi,
+sinNDhIi,
+sinNVIi,
+sinNThIi,
+sinGDhIi,
+sinDVIi,
+sinDDhIi,
+sinTtTthIi,
+sinNyCIi,
+sinNyChIi,
+sinCCIi,
+sinBBIi,
+sinKU,
+sinKhU,
+sinGU,
+sinGhU,
+sinNgU,
+sinNngU,
+sinCU,
+sinChU,
+sinJU,
+sinJhU,
+sinNyU,
+sinJnyU,
+sinNyjU,
+sinTtU,
+sinTthU,
+sinDdU,
+sinDdhU,
+sinNnU,
+sinNnddU,
+sinTU,
+sinThU,
+sinDU,
+sinDhU,
+sinNU,
+sinNdU,
+sinPU,
+sinPhU,
+sinBU,
+sinBhU,
+sinMU,
+sinMbU,
+sinYU,
+sinRU,
+sinLU,
+sinVU,
+sinShU,
+sinSsU,
+sinSU,
+sinHU,
+sinLlU,
+sinFU,
+sinfPU,
+sinKSsU,
+sinKVU,
+sinTVU,
+sinTThU,
+sinNDU,
+sinNDhU,
+sinNVU,
+sinNThU,
+sinGDhU,
+sinDVU,
+sinDDhU,
+sinTtTthU,
+sinNyCU,
+sinNyChU,
+sinCCU,
+sinBBU,
+sinKUu,
+sinKhUu,
+sinGUu,
+sinGhUu,
+sinNgUu,
+sinNngUu,
+sinCUu,
+sinChUu,
+sinJUu,
+sinJhUu,
+sinNyUu,
+sinJnyUu,
+sinNyjUu,
+sinTtUu,
+sinTthUu,
+sinDdUu,
+sinDdhUu,
+sinNnUu,
+sinNnddUu,
+sinTUu,
+sinThUu,
+sinDUu,
+sinDhUu,
+sinNUu,
+sinNdUu,
+sinPUu,
+sinPhUu,
+sinBUu,
+sinBhUu,
+sinMUu,
+sinMbUu,
+sinYUu,
+sinRUu,
+sinLUu,
+sinVUu,
+sinShUu,
+sinSsUu,
+sinSUu,
+sinHUu,
+sinLlUu,
+sinFUu,
+sinfPUu,
+sinKSsUu,
+sinKVUu,
+sinTVUu,
+sinTThUu,
+sinNDUu,
+sinNDhUu,
+sinNVUu,
+sinNThUu,
+sinGDhUu,
+sinDVUu,
+sinDDhUu,
+sinTtTthUu,
+sinNyCUu,
+sinNyChUu,
+sinCCUu,
+sinBBUu,
+sinRAe,
+sinRAae,
+sinKRa,
+sinKhRa,
+sinGRa,
+sinGhRa,
+sinNgRa,
+sinNngRa,
+sinCRa,
+sinChRa,
+sinJRa,
+sinJhRa,
+sinNyRa,
+sinJnyRa,
+sinNyjRa,
+sinTtRa,
+sinTthRa,
+sinDdRa,
+sinDdhRa,
+sinNnRa,
+sinNnddRa,
+sinTRa,
+sinThRa,
+sinDRa,
+sinDhRa,
+sinNRa,
+sinNdRa,
+sinPRa,
+sinPhRa,
+sinBRa,
+sinBhRa,
+sinMRa,
+sinMbRa,
+sinYRa,
+sinRRa,
+sinLRa,
+sinVRa,
+sinShRa,
+sinSsRa,
+sinSRa,
+sinHRa,
+sinLlRa,
+sinFRa,
+sinfPRa,
+sinKSsRa,
+sinKVRa,
+sinTVRa,
+sinTThRa,
+sinNDRa,
+sinNDhRa,
+sinNVRa,
+sinNThRa,
+sinGDhRa,
+sinDVRa,
+sinDDhRa,
+sinTtTthRa,
+sinNyCRa,
+sinNyChRa,
+sinCCRa,
+sinBBRa,
+sinKR,
+sinKhR,
+sinGR,
+sinGhR,
+sinNgR,
+sinNngR,
+sinCR,
+sinChR,
+sinJR,
+sinJhR,
+sinNyR,
+sinJnyR,
+sinNyjR,
+sinTtR,
+sinTthR,
+sinDdR,
+sinDdhR,
+sinNnR,
+sinNnddR,
+sinTR,
+sinThR,
+sinDR,
+sinDhR,
+sinNR,
+sinNdR,
+sinPR,
+sinPhR,
+sinBR,
+sinBhR,
+sinMR,
+sinMbR,
+sinYR,
+sinRR,
+sinLR,
+sinVR,
+sinShR,
+sinSsR,
+sinSR,
+sinHR,
+sinLlR,
+sinFR,
+sinfPR,
+sinKSsR,
+sinKVR,
+sinTVR,
+sinTThR,
+sinNDR,
+sinNDhR,
+sinNVR,
+sinNThR,
+sinGDhR,
+sinDVR,
+sinDDhR,
+sinTtTthR,
+sinNyCR,
+sinNyChR,
+sinCCR,
+sinBBR,
+sinKRI,
+sinKhRI,
+sinGRI,
+sinGhRI,
+sinNgRI,
+sinNngRI,
+sinCRI,
+sinChRI,
+sinJRI,
+sinJhRI,
+sinNyRI,
+sinJnyRI,
+sinNyjRI,
+sinTtRI,
+sinTthRI,
+sinDdRI,
+sinDdhRI,
+sinNnRI,
+sinNnddRI,
+sinTRI,
+sinThRI,
+sinDRI,
+sinDhRI,
+sinNRI,
+sinNdRI,
+sinPRI,
+sinPhRI,
+sinBRI,
+sinBhRI,
+sinMRI,
+sinMbRI,
+sinYRI,
+sinRRI,
+sinLRI,
+sinVRI,
+sinShRI,
+sinSsRI,
+sinSRI,
+sinHRI,
+sinLlRI,
+sinFRI,
+sinfPRI,
+sinKSsRI,
+sinKVRI,
+sinTVRI,
+sinTThRI,
+sinNDRI,
+sinNDhRI,
+sinNVRI,
+sinNThRI,
+sinGDhRI,
+sinDVRI,
+sinDDhRI,
+sinTtTthRI,
+sinNyCRI,
+sinNyChRI,
+sinCCRI,
+sinBBRI,
+sinKRIi,
+sinKhRIi,
+sinGRIi,
+sinGhRIi,
+sinNgRIi,
+sinNngRIi,
+sinCRIi,
+sinChRIi,
+sinJRIi,
+sinJhRIi,
+sinNyRIi,
+sinJnyRIi,
+sinNyjRIi,
+sinTtRIi,
+sinTthRIi,
+sinDdRIi,
+sinDdhRIi,
+sinNnRIi,
+sinNnddRIi,
+sinTRIi,
+sinThRIi,
+sinDRIi,
+sinDhRIi,
+sinNRIi,
+sinNdRIi,
+sinPRIi,
+sinPhRIi,
+sinBRIi,
+sinBhRIi,
+sinMRIi,
+sinMbRIi,
+sinYRIi,
+sinRRIi,
+sinLRIi,
+sinVRIi,
+sinShRIi,
+sinSsRIi,
+sinSRIi,
+sinHRIi,
+sinLlRIi,
+sinFRIi,
+sinfPRIi,
+sinKSsRIi,
+sinKVRIi,
+sinTVRIi,
+sinTThRIi,
+sinNDRIi,
+sinNDhRIi,
+sinNVRIi,
+sinNThRIi,
+sinGDhRIi,
+sinDVRIi,
+sinDDhRIi,
+sinTtTthRIi,
+sinNyCRIi,
+sinNyChRIi,
+sinCCRIi,
+sinBBRIi,
+sinKa.reph,
+sinKha.reph,
+sinGa.reph,
+sinGha.reph,
+sinNga.reph,
+sinNnga.reph,
+sinCa.reph,
+sinCha.reph,
+sinJa.reph,
+sinJha.reph,
+sinNya.reph,
+sinJnya.reph,
+sinNyja.reph,
+sinTta.reph,
+sinTtha.reph,
+sinDda.reph,
+sinDdha.reph,
+sinNna.reph,
+sinNndda.reph,
+sinTa.reph,
+sinTha.reph,
+sinDa.reph,
+sinDha.reph,
+sinNa.reph,
+sinNda.reph,
+sinPa.reph,
+sinPha.reph,
+sinBa.reph,
+sinBha.reph,
+sinMa.reph,
+sinMba.reph,
+sinYa.reph,
+sinRa.reph,
+sinLa.reph,
+sinVa.reph,
+sinSha.reph,
+sinSsa.reph,
+sinSa.reph,
+sinHa.reph,
+sinLla.reph,
+sinFa.reph,
+sinfPa.reph,
+sinKSsa.reph,
+sinKVa.reph,
+sinTVa.reph,
+sinTTha.reph,
+sinNDa.reph,
+sinNDha.reph,
+sinNVa.reph,
+sinNTha.reph,
+sinGDha.reph,
+sinDVa.reph,
+sinDDha.reph,
+sinTtTtha.reph,
+sinNyCa.reph,
+sinNyCa.reph,
+sinNyCha.reph,
+sinCCa.reph,
+sinBBa.reph,
+sinYansaya.MatraI,
+sinYansaya.MatraIi,
+sinYansaya.reph,
+sinYansaya,
+sinYansaya_Reph_MatraAa,
+sinYansa_MatraUu,
+sinYansa_MatraU,
+sinYansaya_Reph_MatraU,
+sinYansaya_Reph_MatraUu,
+sinYansaya.virama,
+sinDAe.ss01,
+sinDAae.ss01,
+sinDAa.ss01,
+sinDvocR.ss01,
+sinDvocRr.ss01,
+sinDaYa.post.ss01,
+sinDYAa.post.ss01,
+sinDYu.post.ss01,
+sinDYOo.post.ss01,
+sinDYUu.post.ss01,
+sinNdAe.ss01,
+sinNdAa.ss01,
+sinNdAae.ss01,
+sinJnyAe.ss01,
+sinJnyAee.ss01,
+sinJnyAa.ss01,
+sinNyAe.ss01,
+sinNyAee.ss01,
+sinNyAa.ss01,
+sinNDAa.ss01,
+sinNDAee.ss01,
+sinNDAe.ss01,
+sinDAa.virama.ss01,
+sinNdAa.virama.ss01,
+sinJnyAa.virama.ss01,
+sinNyAa.virama.ss01,
+sinNDAa.virama.ss01,
+sinDRAa.ss01,
+sinNdRAa.ss01,
+taA,
+taAa,
+taI,
+taIi,
+taU,
+taUu,
+taE,
+taEe,
+taAi,
+taO,
+taOo,
+taAu,
+taKa,
+taNga,
+taCa,
+taJa,
+taNya,
+taTta,
+taNna,
+taTa,
+taNa,
+taNnna,
+taPa,
+taMa,
+taYa,
+taRa,
+taRra,
+taLa,
+taLla,
+taLlla,
+taVa,
+taSha,
+taSsa,
+taSa,
+taHa,
+taOm,
+taVisarga,
+taTen,
+taHundred,
+taThousand,
+taZero,
+taOne,
+taTwo,
+taThree,
+taFour,
+taFive,
+taSix,
+taSeven,
+taEight,
+taNine,
+taDay,
+taMonth,
+taYear,
+taDebit,
+taCredit,
+taAbove,
+taNumber,
+taRupee,
+taMatraIi,
+taHalant,
+taAnusvara,
+taMatraAa,
+taMatraI,
+taMatraU,
+taMatraUu,
+taMatraE,
+taMatraEe,
+taMatraAi,
+taMatraO,
+taMatraOo,
+taMatraAu,
+taAuLengthmark,
+taCI,
+taCU,
+taCUu,
+taHI,
+taJI,
+taKI,
+taKSsa,
+taKU,
+taKUu,
+taLI,
+taLU,
+taLUu,
+taLlI,
+taLlU,
+taLlUu,
+taLllI,
+taLllU,
+taLllUu,
+taMI,
+taMU,
+taMUu,
+taNI,
+taNU,
+taNUu,
+taNgI,
+taNgUu,
+taNnI,
+taNnU,
+taNnUu,
+taNnnI,
+taNnnU,
+taNnnUu,
+taNyI,
+taNyU,
+taNyUu,
+taPI,
+taPUu,
+taRI,
+taRU,
+taRUu,
+taRrI,
+taRrU,
+taRrUu,
+taSI,
+taShree,
+taSsI,
+taTI,
+taTU,
+taTUu,
+taTtI,
+taTtIi,
+taTtU,
+taTtUu,
+taVI,
+taVUu,
+taYI,
+taYUu,
+taNnAa.alt,
+taNnnAa.alt,
+taRrAa.alt
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+}
+);
+date = "2021-06-28 04:13:58 +0000";
+familyName = "Stick No Bills";
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+languagesystem sinh dflt;
+
+
+";
+name = Languagesystems;
+},
+{
+code = "#---- --AKHN ------------
+
+lookup sinakhands {
+  sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;
+  sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;
+  sub sinTa sinVirama zerowidthjoiner sinVa by sinTVa;
+  sub sinTa sinVirama zerowidthjoiner sinTha by sinTTha;
+  sub sinNa sinVirama zerowidthjoiner sinDa by sinNDa;
+  sub sinNa sinVirama zerowidthjoiner sinVa by sinNVa;
+  sub sinNa sinVirama zerowidthjoiner sinDha by sinNDha;
+  sub sinNa sinVirama zerowidthjoiner sinTha by sinNTha;
+  sub sinDa sinVirama zerowidthjoiner sinVa by sinDVa;
+  sub sinDa sinVirama zerowidthjoiner sinDha by sinDDha;
+  sub sinTta sinVirama zerowidthjoiner sinTtha by sinTtTtha;
+} sinakhands;
+
+#---- REPH ----
+
+lookup sinreph {
+  sub sinRa sinVirama zerowidthjoiner by sinReph;
+} sinreph;
+
+#---- HALN ----
+
+lookup sin_virama {
+  sub sinMatraAa sinVirama by sinMatraAa;
+  sub sinKa sinVirama by sinK;
+  sub sinKha sinVirama by sinKh;
+  sub sinGa sinVirama by sinG;
+  sub sinGha sinVirama by sinGh;
+  sub sinNga sinVirama by sinNg;
+  sub sinNnga sinVirama by sinNng;
+  sub sinCa sinVirama by sinC;
+  sub sinCha sinVirama by sinCh;
+  sub sinJa sinVirama by sinJ;
+  sub sinJha sinVirama by sinJh;
+  sub sinNya sinVirama by sinNy;
+  sub sinJnya sinVirama by sinJny;
+  sub sinNyja sinVirama by sinNyj;
+  sub sinTta sinVirama by sinTt;
+  sub sinTtha sinVirama by sinTth;
+  sub sinDda sinVirama by sinDd;
+  sub sinDdha sinVirama by sinDdh;
+  sub sinNna sinVirama by sinNn;
+  sub sinNndda sinVirama by sinNndd;
+  sub sinTa sinVirama by sinT;
+  sub sinTha sinVirama by sinTh;
+  sub sinDa sinVirama by sinD;
+  sub sinDha sinVirama by sinDh;
+  sub sinNa sinVirama by sinN;
+  sub sinNda sinVirama by sinNd;
+  sub sinPa sinVirama by sinP;
+  sub sinPha sinVirama by sinPh;
+  sub sinBa sinVirama by sinB;
+  sub sinBha sinVirama by sinBh;
+  sub sinMa sinVirama by sinM;
+  sub sinMba sinVirama by sinMb;
+  sub sinYa sinVirama by sinY;
+  sub sinRa sinVirama by sinR;
+  sub sinLa sinVirama by sinL;
+  sub sinVa sinVirama by sinV;
+  sub sinSha sinVirama by sinSh;
+  sub sinSsa sinVirama by sinSs;
+  sub sinSa sinVirama by sinS;
+  sub sinHa sinVirama by sinH;
+  sub sinLla sinVirama by sinLl;
+  sub sinFa sinVirama by sinF;
+
+  sub sinDVa sinVirama by sinDV;
+  sub sinKVa sinVirama by sinKV;
+  sub sinKSsa sinVirama by sinKSs;
+  sub sinNVa sinVirama by sinNV;
+  sub sinNDa  sinVirama by sinND;
+  sub sinTtTtha sinVirama by sinTtTth;
+  sub sinDDha sinVirama by sinDDh;
+  sub sinTVa sinVirama by sinTV;
+  sub sinTTha sinVirama by sinTTh;
+  sub sinNDha sinVirama by sinNDh;
+  sub sinNTha sinVirama by sinNTh;
+  sub sinYansaya sinVirama by sinYansaya;
+
+  sub sinKRa sinVirama by sinKR;
+  sub sinKhRa sinVirama by sinKhR;
+  sub sinGRa sinVirama by sinGR;
+  sub sinGhRa sinVirama by sinGhR;
+  sub sinCRa sinVirama by sinCR;
+  sub sinJRa sinVirama by sinJR;
+  sub sinJhRa sinVirama by sinJhR;
+  sub sinNyRa sinVirama by sinNyR;
+  sub sinTtRa sinVirama by sinTtR;
+  sub sinJnyRa sinVirama by sinJnyR;
+  sub sinNyjRa sinVirama by sinNyjR;
+  sub sinDdRa sinVirama by sinDdR;
+  sub sinTRa sinVirama by sinTR;
+  sub sinDRa sinVirama by sinDR;
+  sub sinDhRa sinVirama by sinDhR;
+  sub sinPRa sinVirama by sinPR;
+  sub sinBhRa sinVirama by sinBhR;
+  sub sinMRa sinVirama by sinMR;
+  sub sinVRa sinVirama by sinVR;
+  sub sinShRa sinVirama by sinShR;
+  sub sinSsRa sinVirama by sinSsR;
+  sub sinSRa sinVirama by sinSR;
+  sub sinHRa sinVirama by sinHR;
+  sub sinFRa sinVirama by sinFR;
+  sub sinBRa sinVirama by sinBR;
+ } sin_virama;
+
+#---- ABVS ----
+
+lookup sinabvs_1 {
+  sub sinKa sinMatraI by sinKI;
+  sub sinKha sinMatraI by sinKhI;
+  sub sinGa sinMatraI by sinGI;
+  sub sinGha sinMatraI by sinGhI;
+  sub sinNga sinMatraI by sinNgI;
+  sub sinNnga sinMatraI by sinNngI;
+  sub sinCa sinMatraI by sinCI;
+  sub sinCha sinMatraI by sinChI;
+  sub sinJa sinMatraI by sinJI;
+  sub sinJha sinMatraI by sinJhI;
+  sub sinNya sinMatraI by sinNyI;
+  sub sinJnya sinMatraI by sinJnyI;
+  sub sinNyja sinMatraI by sinNyjI;
+  sub sinTta sinMatraI by sinTtI;
+  sub sinTtha sinMatraI by sinTthI;
+  sub sinDda sinMatraI by sinDdI;
+  sub sinDdha sinMatraI by sinDdhI;
+  sub sinNna sinMatraI by sinNnI;
+  sub sinNndda sinMatraI by sinNnddI;
+  sub sinTa sinMatraI by sinTI;
+  sub sinTha sinMatraI by sinThI;
+  sub sinDa sinMatraI by sinDI;
+  sub sinDha sinMatraI by sinDhI;
+  sub sinNa sinMatraI by sinNI;
+  sub sinNda sinMatraI by sinNdI;
+  sub sinPa sinMatraI by sinPI;
+  sub sinPha sinMatraI by sinPhI;
+  sub sinBa sinMatraI by sinBI;
+  sub sinBha sinMatraI by sinBhI;
+  sub sinMa sinMatraI by sinMI;
+  sub sinMba sinMatraI by sinMbI;
+  sub sinYa sinMatraI by sinYI;
+  sub sinRa sinMatraI by sinRI;
+  sub sinLa sinMatraI by sinLI;
+  sub sinVa sinMatraI by sinVI;
+  sub sinSha sinMatraI by sinShI;
+  sub sinSsa sinMatraI by sinSsI;
+  sub sinSa sinMatraI by sinSI;
+  sub sinHa sinMatraI by sinHI;
+  sub sinLla sinMatraI by sinLlI;
+  sub sinFa sinMatraI by sinFI;
+
+  sub	sinKSsa	sinMatraI	by	sinKSsI;
+  sub	sinKVa	sinMatraI	by	sinKVI;
+  sub	sinTVa	sinMatraI	by	sinTVI;
+  sub	sinTTha	sinMatraI	by	sinTThI;
+  sub	sinNDa	sinMatraI	by	sinNDI;
+  sub	sinNVa	sinMatraI	by	sinNVI;
+  sub	sinNDha	sinMatraI	by	sinNDhI;
+  sub	sinNTha	sinMatraI	by	sinNThI;
+  sub	sinDVa	sinMatraI	by	sinDVI;
+  sub	sinDDha	sinMatraI	by	sinDDhI;
+  sub	sinTtTtha	sinMatraI	by	sinTtTthI;
+  sub 	sinYansaya	sinMatraI by sinYansaya.MatraI;
+
+  sub sinKRa sinMatraI by sinKRI;
+  sub sinKhRa sinMatraI by sinKhRI;
+  sub sinGRa sinMatraI by sinGRI;
+  sub sinGhRa sinMatraI by sinGhRI;
+  sub sinCRa sinMatraI by sinCRI;
+  sub sinJRa sinMatraI by sinJRI;
+  sub sinJhRa sinMatraI by sinJhRI;
+  sub sinNyRa sinMatraI by sinNyRI;
+  sub sinJnyRa sinMatraI by sinJnyRI;
+  sub sinTtRa sinMatraI by sinTtRI;
+  sub sinDdRa sinMatraI by sinDdRI;
+  sub sinTRa sinMatraI by sinTRI;
+  sub sinDRa sinMatraI by sinDRI;
+  sub sinDhRa sinMatraI by sinDhRI;
+  sub sinPRa sinMatraI by sinPRI;
+  sub sinBRa sinMatraI by sinBRI;
+  sub sinBhRa sinMatraI by sinBhRI;
+  sub sinMRa sinMatraI by sinMRI;
+  sub sinVRa sinMatraI by sinVRI;
+  sub sinShRa sinMatraI by sinShRI;
+  sub sinSRa sinMatraI by sinSRI;
+  sub sinHRa sinMatraI by sinHRI;
+  sub sinFRa sinMatraI by sinFRI;
+
+} sinabvs_1;
+
+lookup sinabvs_2 {
+  sub sinKa sinMatraIi by sinKIi;
+  sub sinKha sinMatraIi by sinKhIi;
+  sub sinGa sinMatraIi by sinGIi;
+  sub sinGha sinMatraIi by sinGhIi;
+  sub sinNga sinMatraIi by sinNgIi;
+  sub sinNnga sinMatraIi by sinNngIi;
+  sub sinCa sinMatraIi by sinCIi;
+  sub sinCha sinMatraIi by sinChIi;
+  sub sinJa sinMatraIi by sinJIi;
+  sub sinJha sinMatraIi by sinJhIi;
+  sub sinNya sinMatraIi by sinNyIi;
+  sub sinJnya sinMatraIi by sinJnyIi;
+  sub sinNyja sinMatraIi by sinNyjIi;
+  sub sinTta sinMatraIi by sinTtIi;
+  sub sinTtha sinMatraIi by sinTthIi;
+  sub sinDda sinMatraIi by sinDdIi;
+  sub sinDdha sinMatraIi by sinDdhIi;
+  sub sinNna sinMatraIi by sinNnIi;
+  sub sinNndda sinMatraIi by sinNnddIi;
+  sub sinTa sinMatraIi by sinTIi;
+  sub sinTha sinMatraIi by sinThIi;
+  sub sinDa sinMatraIi by sinDIi;
+  sub sinDha sinMatraIi by sinDhIi;
+  sub sinNa sinMatraIi by sinNIi;
+  sub sinNda sinMatraIi by sinNdIi;
+  sub sinPa sinMatraIi by sinPIi;
+  sub sinPha sinMatraIi by sinPhIi;
+  sub sinBa sinMatraIi by sinBIi;
+  sub sinBha sinMatraIi by sinBhIi;
+  sub sinMa sinMatraIi by sinMIi;
+  sub sinMba sinMatraIi by sinMbIi;
+  sub sinYa sinMatraIi by sinYIi;
+  sub sinRa sinMatraIi by sinRIi;
+  sub sinLa sinMatraIi by sinLIi;
+  sub sinVa sinMatraIi by sinVIi;
+  sub sinSha sinMatraIi by sinShIi;
+  sub sinSsa sinMatraIi by sinSsIi;
+  sub sinSa sinMatraIi by sinSIi;
+  sub sinHa sinMatraIi by sinHIi;
+  sub sinLla sinMatraIi by sinLlIi;
+  sub sinFa sinMatraIi by sinFIi;
+  sub sinYansaya sinMatraIi by sinYansaya.MatraIi;
+
+  sub	sinKSsa	sinMatraIi	by	sinKSsIi;
+  sub	sinKVa	sinMatraIi	by	sinKVIi;
+  sub	sinTVa	sinMatraIi	by	sinTVIi;
+  sub	sinTTha	sinMatraIi	by	sinTThIi;
+  sub	sinNDa	sinMatraIi	by	sinNDIi;
+  sub	sinNVa	sinMatraIi	by	sinNVIi;
+  sub	sinNDha	sinMatraIi	by	sinNDhIi;
+  sub	sinNTha	sinMatraIi	by	sinNThIi;
+  sub	sinDVa	sinMatraIi	by	sinDVIi;
+  sub	sinDDha	sinMatraIi	by	sinDDhIi;
+  sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;
+  sub 	sinYansaya sinMatraIi by sinYansaya.MatraIi;
+
+  sub sinKRa sinMatraIi by sinKRIi;
+  sub sinKhRa sinMatraIi by sinKhRIi;
+  sub sinGRa sinMatraIi by sinGRIi;
+  sub sinGhRa sinMatraIi by sinGhRIi;
+  sub sinCRa sinMatraIi by sinCRIi;
+  sub sinJRa sinMatraIi by sinJRIi;
+  sub sinJhRa sinMatraIi by sinJhRIi;
+  sub sinNyRa sinMatraIi by sinNyRIi;
+  sub sinJnyRa sinMatraIi by sinJnyRIi;
+  sub sinTtRa sinMatraIi by sinTtRIi;
+  sub sinDdRa sinMatraIi by sinDdRIi;
+  sub sinTRa sinMatraIi by sinTRIi;
+  sub sinDRa sinMatraIi by sinDRIi;
+  sub sinDhRa sinMatraIi by sinDhRIi;
+  sub sinPRa sinMatraIi by sinPRIi;
+  sub sinBRa sinMatraIi by sinBRIi;
+  sub sinBhRa sinMatraIi by sinBhRIi;
+  sub sinMRa sinMatraIi by sinMRIi;
+  sub sinVRa sinMatraIi by sinVRIi;
+  sub sinShRa sinMatraIi by sinShRIi;
+  sub sinSRa sinMatraIi by sinSRIi;
+  sub sinHRa sinMatraIi by sinHRIi;
+  sub sinFRa sinMatraIi by sinFRIi;
+
+} sinabvs_2;
+
+
+
+lookup sinabvs_3 {
+  sub sinYansaya sinReph by sinYansaya.reph;
+  sub sinYansaya sinMatraAa sinReph  by sinYansaya_Reph_MatraAa;
+  sub sinYansaya sinMatraU sinReph  by sinYansaya_Reph_MatraU;
+  sub sinYansaya sinMatraUu sinReph  by sinYansaya_Reph_MatraUu;
+  sub sinKa sinReph by sinKa.reph;
+  sub sinKha sinReph by sinKha.reph;
+  sub sinGa sinReph by sinGa.reph;
+  sub sinGha sinReph by sinGha.reph;
+  sub sinCa sinReph by sinCa.reph;
+  sub sinJa sinReph by sinJa.reph;
+  sub sinTta sinReph by sinTta.reph;
+  sub sinDda sinReph by sinDda.reph;
+  sub sinNna sinReph by sinNna.reph;
+  sub sinTa sinReph by sinTa.reph;
+  sub sinTha sinReph by sinTha.reph;
+  sub sinDa sinReph by sinDa.reph;
+  sub sinDha sinReph by sinDha.reph;
+  sub sinPa sinReph by sinPa.reph;
+  sub sinBa sinReph by sinBa.reph;
+  sub sinBha sinReph by sinBha.reph;
+  sub sinMa sinReph by sinMa.reph;
+  sub sinYa sinReph by sinYa.reph;
+  sub sinVa sinReph by sinVa.reph;
+  sub sinSha sinReph by sinSha.reph;
+  sub sinSsa sinReph by sinSsa.reph;
+  sub sinSa sinReph by sinSa.reph;
+  sub sinHa sinReph by sinHa.reph;
+  sub sinNa sinReph by sinNa.reph;
+  sub sinJha sinReph by sinJha.reph;
+  sub sinNya sinReph by sinNya.reph;
+  sub sinJnya sinReph by sinJnya.reph;
+} sinabvs_3;
+
+
+
+#----------- BLWS --------------
+#-------------------------------
+
+lookup sinblws_1 {
+  sub sinKa sinMatraU by sinKU;
+  sub sinKha sinMatraU by sinKhU;
+  sub sinGa sinMatraU by sinGU;
+  sub sinGha sinMatraU by sinGhU;
+  sub sinNnga sinMatraU by sinNngU;
+  sub sinCa sinMatraU by sinCU;
+  sub sinCha sinMatraU by sinChU;
+  sub sinJa sinMatraU by sinJU;
+  sub sinJha sinMatraU by sinJhU;
+  sub sinNya sinMatraU by sinNyU;
+  sub sinJnya sinMatraU by sinJnyU;
+  sub sinNyja sinMatraU by sinNyjU;
+  sub sinTta sinMatraU by sinTtU;
+  sub sinTtha sinMatraU by sinTthU;
+  sub sinDda sinMatraU by sinDdU;
+  sub sinDdha sinMatraU by sinDdhU;
+  sub sinNna sinMatraU by sinNnU;
+  sub sinNndda sinMatraU by sinNnddU;
+  sub sinTa sinMatraU by sinTU;
+  sub sinTha sinMatraU by sinThU;
+  sub sinDa sinMatraU by sinDU;
+  sub sinDha sinMatraU by sinDhU;
+  sub sinNa sinMatraU by sinNU;
+  sub sinNda sinMatraU by sinNdU;
+  sub sinPa sinMatraU by sinPU;
+  sub sinPha sinMatraU by sinPhU;
+  sub sinBa sinMatraU by sinBU;
+  sub sinBha sinMatraU by sinBhU;
+  sub sinMa sinMatraU by sinMU;
+  sub sinMba sinMatraU by sinMbU;
+  sub sinYa sinMatraU by sinYU;
+  sub sinRa sinMatraU by sinRU;
+  sub sinLa sinMatraU by sinLU;
+  sub sinVa sinMatraU by sinVU;
+  sub sinSha sinMatraU by sinShU;
+  sub sinSsa sinMatraU by sinSsU;
+  sub sinSa sinMatraU by sinSU;
+  sub sinHa sinMatraU by sinHU;
+  sub sinLla sinMatraU by sinLlU;
+  sub sinFa sinMatraU by sinFU;
+
+  sub	sinKSsa sinMatraU	by	sinKSsU;
+  sub	sinKVa sinMatraU	by	sinKVU;
+  sub	sinTVa sinMatraU	by	sinTVU;
+  sub	sinTTha sinMatraU	by	sinTThU;
+  sub	sinNDa sinMatraU	by	sinNDU;
+  sub	sinNVa sinMatraU	by	sinNVU;
+  sub	sinNDha sinMatraU	by	sinNDhU;
+  sub	sinNTha sinMatraU	by	sinNThU;
+  sub	sinDVa sinMatraU	by	sinDVU;
+  sub	sinDDha sinMatraU	by	sinDDhU;
+  sub	sinTtTtha	sinMatraU	by	sinTtTthU;
+  sub sinYansaya sinMatraU by sinYansa_MatraU;
+} sinblws_1;
+
+lookup sinblws_2 {
+  sub sinKa sinMatraUu by sinKUu;
+  sub sinKha sinMatraUu by sinKhUu;
+  sub sinGa sinMatraUu by sinGUu;
+  sub sinGha sinMatraUu by sinGhUu;
+  sub sinNnga sinMatraUu by sinNngUu;
+  sub sinCa sinMatraUu by sinCUu;
+  sub sinCha sinMatraUu by sinChUu;
+  sub sinJa sinMatraUu by sinJUu;
+  sub sinJha sinMatraUu by sinJhUu;
+  sub sinNya sinMatraUu by sinNyUu;
+  sub sinJnya sinMatraUu by sinJnyUu;
+  sub sinNyja sinMatraUu by sinNyjUu;
+  sub sinTta sinMatraUu by sinTtUu;
+  sub sinTtha sinMatraUu by sinTthUu;
+  sub sinDda sinMatraUu by sinDdUu;
+  sub sinDdha sinMatraUu by sinDdhUu;
+  sub sinNna sinMatraUu by sinNnUu;
+  sub sinNndda sinMatraUu by sinNnddUu;
+  sub sinTa sinMatraUu by sinTUu;
+  sub sinTha sinMatraUu by sinThUu;
+  sub sinDa sinMatraUu by sinDUu;
+  sub sinDha sinMatraUu by sinDhUu;
+  sub sinNa sinMatraUu by sinNUu;
+  sub sinNda sinMatraUu by sinNdUu;
+  sub sinPa sinMatraUu by sinPUu;
+  sub sinPha sinMatraUu by sinPhUu;
+  sub sinBa sinMatraUu by sinBUu;
+  sub sinBha sinMatraUu by sinBhUu;
+  sub sinMa sinMatraUu by sinMUu;
+  sub sinMba sinMatraUu by sinMbUu;
+  sub sinYa sinMatraUu by sinYUu;
+  sub sinRa sinMatraUu by sinRUu;
+  sub sinLa sinMatraUu by sinLUu;
+  sub sinVa sinMatraUu by sinVUu;
+  sub sinSha sinMatraUu by sinShUu;
+  sub sinSsa sinMatraUu by sinSsUu;
+  sub sinSa sinMatraUu by sinSUu;
+  sub sinHa sinMatraUu by sinHUu;
+  sub sinLla sinMatraUu by sinLlUu;
+  sub sinFa sinMatraUu by sinFUu;
+  
+   sub	sinKSsa	sinMatraUu	by	sinKSsUu;
+  sub	sinKVa	sinMatraUu	by	sinKVUu;
+  sub	sinTVa	sinMatraUu	by	sinTVUu;
+  sub	sinTTha	sinMatraUu	by	sinTThUu;
+  sub	sinNDa	sinMatraUu	by	sinNDUu;
+  sub	sinNVa	sinMatraUu	by	sinNVUu;
+  sub	sinNDha	sinMatraUu	by	sinNDhUu;
+  sub	sinNTha	sinMatraUu	by	sinNThUu;
+  sub	sinDVa	sinMatraUu	by	sinDVUu;
+  sub	sinDDha	sinMatraUu	by	sinDDhUu;
+  sub	sinTtTtha	sinMatraUu	by	sinTtTthUu;
+  sub sinYansaya sinMatraUu by sinYansa_MatraUu;
+} sinblws_2;
+
+
+
+lookup sinblws_3 {
+  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraU' by sinMatraU.sub;
+  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraUu' by sinMatraUu.sub;
+} sinblws_3;
+
+#----------- Yansaya --------------
+#-------------------------------
+
+lookup sin_vatu {
+  sub sinVirama zerowidthjoiner sinYa by sinYansaya;
+  sub sinVirama zerowidthjoiner sinRa by sinRakar;
+} sin_vatu;
+
+#----------- Rae, Raae --------------
+#-------------------------------
+
+lookup sin_psts {
+  sub sinRa sinMatraAe by sinRAe;
+  sub sinRa sinMatraAae by sinRAae;
+}  sin_psts;
+
+#----------- Rakaar ------------
+#-------------------------------
+
+lookup sinrakaar {
+  sub sinKa sinRakar by sinKRa;
+  sub sinKha sinRakar by sinKhRa;
+  sub sinGa sinRakar by sinGRa;
+  sub sinGha sinRakar by sinGhRa;
+  sub sinCa sinRakar by sinCRa;
+  sub sinJa sinRakar by sinJRa;
+  sub sinJha sinRakar by sinJhRa;
+  sub sinNya sinRakar by sinNyRa;
+  sub sinTta sinRakar by sinTtRa;
+  sub sinJnya sinRakar by sinJnyRa;
+  sub sinNyja sinRakar by sinNyjRa;
+  sub sinDda sinRakar by sinDdRa;
+  sub sinTa sinRakar by sinTRa;
+  sub sinDa sinRakar by sinDRa;
+  sub sinDha sinRakar by sinDhRa;
+  sub sinPa sinRakar by sinPRa;
+  sub sinBha sinRakar by sinBhRa;
+  sub sinMa sinRakar by sinMRa;
+  sub sinVa sinRakar by sinVRa;
+  sub sinSha sinRakar by sinShRa;
+  sub sinSsa sinRakar by sinSsRa;
+  sub sinSa sinRakar by sinSRa;
+  sub sinHa sinRakar by sinHRa;
+  sub sinFa sinRakar by sinFRa;
+  sub sinNDa sinRakar by sinNDRa;
+  sub sinBa sinRakar by sinBRa;
+} sinrakaar;
+
+#----------- Split Matras ------------
+#-------------------------------------
+
+lookup sinsplit_matra {
+  sub sinMatraEe by sinVirama;
+  sub sinMatraO by sinMatraAa;
+  sub sinMatraOo by sinMatraAa.virama;
+  sub sinMatraAu by sinMatraLs;
+} sinsplit_matra;";
+name = Prefix;
+},
+{
+code = "@TA_MATRA_U_1 = [ taNga taPa taYa taVa ];
+
+#---- AKHN ----
+
+lookup akhands {
+    sub taKa taHalant taSsa by taKSsa;
+    sub taSha taHalant taRa taMatraIi by taShree;
+    sub taSa taHalant taRa taMatraIi by taShree;
+    
+} akhands;
+
+
+
+#---- ABVS ----
+
+lookup above_base_sub_1 {
+sub taKa	taMatraI	by	taKI	;
+sub taNga	taMatraI	by	taNgI	;
+sub taCa	taMatraI	by	taCI	;
+sub taNya	taMatraI	by	taNyI	;
+sub taTta	taMatraI	by	taTtI	;
+sub taNna	taMatraI	by	taNnI	;
+sub taTa	taMatraI	by	taTI	;
+sub taNa	taMatraI	by	taNI	;
+sub taPa	taMatraI	by	taPI	;
+sub taMa	taMatraI	by	taMI	;
+sub taYa	taMatraI	by	taYI	;
+sub taRa	taMatraI	by	taRI	;
+sub taLa	taMatraI	by	taLI	;
+sub taVa	taMatraI	by	taVI	;
+sub taLlla	taMatraI	by	taLllI	;
+sub taLla	taMatraI	by	taLlI	;
+sub taRra	taMatraI	by	taRrI	;
+sub taNnna	taMatraI	by	taNnnI	;
+sub taJa	taMatraI	by	taJI	;
+sub taSsa	taMatraI	by	taSsI	;
+sub taSa	taMatraI	by	taSI	;
+sub taHa	taMatraI	by	taHI	;
+sub taKSsa	taMatraI	by	taKSsa	;
+sub taSha	taMatraI	by	taSha	;
+} above_base_sub_1;
+
+lookup above_base_sub_2 {
+sub taKa	taMatraIi	by	taIi	;
+sub taNga	taMatraIi	by	taNgI	;
+sub taCa	taMatraIi	by	taIi;
+sub taNya	taMatraIi	by	taNyI	;
+sub taTta	taMatraIi	by	taTtIi	;
+
+ } above_base_sub_2;
+
+#---- PSTS ----
+
+lookup post_base_sub_1 {
+    sub taKa taMatraU by taKU;
+    sub taCa taMatraU by taCU;
+    sub taNya taMatraU by taNyU;
+    sub taTta taMatraU by taTtU;
+    sub taNna taMatraU by taNnU;
+    sub taTa taMatraU by taTU;
+    sub taNa taMatraU by taNU;
+    sub taNnna taMatraU by taNnnU;
+	sub taMa taMatraU by taMU;
+    sub taRa taMatraU by taRU;
+    sub taRra taMatraU by taRrU;
+    sub taLa taMatraU by taLU;
+    sub taLla taMatraU by taLlU;
+    sub taLlla taMatraU by taLllU;
+
+
+
+
+} post_base_sub_1;
+
+lookup post_base_sub_2 {
+    sub taKa taMatraUu by taKUu;
+    sub taNga taMatraUu by taNgUu;
+    sub taCa taMatraUu by taCUu;
+    sub taNya taMatraUu by taNyUu;
+    sub taTta taMatraUu by taTtUu;
+    sub taNna taMatraUu by taNnUu;
+    sub taTa taMatraUu by taTUu;
+    sub taNa taMatraUu by taNUu;
+    sub taNnna taMatraUu by taNnnUu;
+    sub taPa taMatraUu by taPUu;
+    sub taYa taMatraUu by taYUu;
+    sub taMa taMatraUu by taMUu;
+    sub taRa taMatraUu by taRUu;
+    sub taRra taMatraUu by taRrUu;
+    sub taLa taMatraUu by taLUu;
+    sub taLla taMatraUu by taLlUu;
+    sub taLlla taMatraUu by taLllUu;
+    sub taVa taMatraUu by taVUu;
+
+
+ } post_base_sub_2;
+
+
+
+
+
+
+
+
+
+";
+name = Prefix;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature sups;
+feature frac;
+feature ordn;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f i by fi;
+sub f l by fl;
+";
+tag = liga;
+},
+{
+code = "  script sinh;
+      lookup sinakhands;
+";
+tag = akhn;
+},
+{
+code = "  script sinh;
+      lookup sinreph;";
+tag = rphf;
+},
+{
+code = "  script sinh;
+      lookup sin_vatu;
+      lookup sinrakaar;
+";
+tag = vatu;
+},
+{
+code = "  script sinh;
+      lookup sinsplit_matra;";
+tag = pstf;
+},
+{
+code = "  script sinh;
+      lookup sin_virama;
+      lookup sinabvs_1;
+      lookup sinabvs_2;
+      lookup sinabvs_3;
+";
+tag = abvs;
+},
+{
+code = "  script sinh;
+      lookup sinblws_1;
+      lookup sinblws_2;
+      lookup sinblws_3;";
+tag = blws;
+},
+{
+code = "  script sinh;
+      lookup sin_psts;";
+tag = psts;
+},
+{
+automatic = 1;
+code = "lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+}
+);
+fontMaster = (
+{
+axesValues = (
+0
+);
+customParameters = (
+{
+name = typoAscender;
+value = 940;
+},
+{
+name = typoDescender;
+value = -312;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 940;
+},
+{
+name = hheaDescender;
+value = -312;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1237;
+},
+{
+name = winDescent;
+value = 622;
+}
+);
+guides = (
+{
+pos = (667,479);
+},
+{
+pos = (-3,596);
+}
+);
+iconName = Light;
+id = "DC4431BF-9234-4C16-9154-22D387E42D10";
+metricValues = (
+{
+over = 16;
+pos = 870;
+},
+{
+pos = 700;
+},
+{
+pos = 515;
+},
+{
+over = -6;
+},
+{
+over = -16;
+pos = -220;
+},
+{
+}
+);
+name = ExtraLight;
+userData = {
+GSExtrudeAngle = 30;
+GSExtrudeOffset = 15;
+};
+visible = 1;
+},
+{
+axesValues = (
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 940;
+},
+{
+name = typoDescender;
+value = -312;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 940;
+},
+{
+name = hheaDescender;
+value = -312;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1237;
+},
+{
+name = winDescent;
+value = 622;
+}
+);
+guides = (
+{
+pos = (288,575);
+},
+{
+pos = (62,0);
+},
+{
+pos = (21,906);
+},
+{
+pos = (173,-220);
+},
+{
+pos = (22,870);
+},
+{
+pos = (145,535);
+},
+{
+pos = (103,626);
+},
+{
+pos = (112,734);
+},
+{
+pos = (48,850);
+}
+);
+iconName = Bold;
+id = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+metricValues = (
+{
+over = 16;
+pos = 870;
+},
+{
+pos = 700;
+},
+{
+pos = 570;
+},
+{
+over = -6;
+},
+{
+over = -16;
+pos = -220;
+},
+{
+}
+);
+name = ExtraBold;
+visible = 1;
+}
+);
+instances = (
+{
+axesValues = (
+0
+);
+instanceInterpolations = {
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 1;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+20
+);
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.2;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.8;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+40
+);
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.4;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.6;
+};
+name = Regular;
+},
+{
+axesValues = (
+50
+);
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.5;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.5;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+67
+);
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.67;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.33;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+81
+);
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 0.81;
+"DC4431BF-9234-4C16-9154-22D387E42D10" = 0.19;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+100
+);
+instanceInterpolations = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = 1;
+};
+name = ExtraBold;
+weightClass = 800;
+}
+);
+kerningLTR = {
+"4EACF7E3-2421-4EEA-928B-7BA9BC4A845D" = {
+A = {
+A = 10;
+B = 5;
+C = -11;
+D = 5;
+E = 5;
+F = 5;
+G = -11;
+H = 5;
+I = 4;
+J = -1;
+K = 5;
+L = 5;
+M = 4;
+N = 4;
+O = -11;
+P = 4;
+Q = -11;
+R = 4;
+S = -4;
+T = -56;
+U = -11;
+V = -54;
+W = -54;
+X = 10;
+Y = -65;
+Z = 5;
+};
+B = {
+A = -13;
+I = -1;
+J = 10;
+M = -1;
+N = -1;
+P = -1;
+R = -1;
+S = 4;
+T = -24;
+V = -9;
+W = -9;
+X = -29;
+Y = -26;
+Z = -25;
+};
+C = {
+A = -11;
+I = -1;
+J = 10;
+M = -1;
+N = -1;
+P = -1;
+R = -1;
+S = 5;
+T = -20;
+V = -5;
+W = -5;
+X = -26;
+Y = -22;
+Z = -22;
+};
+D = {
+A = -11;
+B = 4;
+C = 1;
+D = 4;
+E = 4;
+F = 4;
+G = 1;
+H = 4;
+I = 4;
+J = 10;
+K = 4;
+L = 4;
+M = 3;
+N = 3;
+O = 1;
+P = 3;
+Q = 1;
+R = 3;
+S = 5;
+T = -15;
+U = 3;
+V = -3;
+W = -3;
+X = -23;
+Y = -19;
+Z = -19;
+};
+E = {
+A = 5;
+C = -29;
+G = -30;
+I = -1;
+J = -21;
+M = -1;
+N = -1;
+O = -30;
+P = -1;
+Q = -30;
+R = -1;
+S = -24;
+T = 10;
+V = 15;
+W = 15;
+X = 5;
+Y = 5;
+};
+F = {
+A = -77;
+C = -30;
+G = -30;
+I = -1;
+J = -69;
+M = -1;
+N = -1;
+O = -30;
+P = -1;
+Q = -30;
+R = -1;
+S = -29;
+T = 10;
+V = 15;
+W = 15;
+X = -1;
+Y = 5;
+};
+G = {
+A = -11;
+J = 10;
+M = -1;
+N = -1;
+P = -1;
+R = -1;
+S = 5;
+T = -20;
+V = -5;
+W = -5;
+X = -27;
+Y = -22;
+Z = -23;
+};
+H = {
+A = 5;
+B = 7;
+C = 4;
+D = 7;
+E = 7;
+F = 7;
+G = 4;
+H = 7;
+I = 6;
+J = 10;
+K = 7;
+L = 7;
+M = 6;
+N = 6;
+O = 4;
+P = 6;
+Q = 4;
+R = 6;
+S = 5;
+T = 10;
+U = 6;
+V = 15;
+W = 15;
+X = 5;
+Y = 5;
+};
+I = {
+A = 4;
+B = 6;
+C = 3;
+D = 6;
+E = 6;
+F = 5;
+G = 4;
+H = 6;
+I = 5;
+J = 9;
+K = 6;
+L = 6;
+M = 4;
+N = 4;
+O = 3;
+P = 5;
+Q = 3;
+R = 5;
+S = 4;
+T = 9;
+U = 5;
+V = 14;
+W = 14;
+X = 4;
+Y = 4;
+Z = -1;
+};
+J = {
+A = -12;
+B = 7;
+C = 2;
+D = 6;
+E = 7;
+F = 6;
+G = 2;
+H = 7;
+I = 6;
+J = 10;
+K = 6;
+L = 7;
+M = 4;
+N = 5;
+O = 2;
+P = 6;
+Q = 2;
+R = 5;
+S = 4;
+T = 10;
+U = 5;
+V = 15;
+W = 15;
+X = -1;
+Y = 5;
+};
+K = {
+A = 15;
+B = 10;
+C = -32;
+D = 10;
+E = 10;
+F = 10;
+G = -33;
+H = 10;
+I = 9;
+J = -23;
+K = 10;
+L = 10;
+M = 9;
+N = 9;
+O = -33;
+P = 9;
+Q = -33;
+R = 9;
+S = -26;
+T = 18;
+U = 8;
+V = 23;
+W = 23;
+X = 15;
+Y = 13;
+Z = 10;
+};
+L = {
+A = 15;
+B = 10;
+C = -19;
+D = 10;
+E = 10;
+F = 10;
+G = -21;
+H = 10;
+I = 9;
+J = -11;
+K = 10;
+L = 10;
+M = 9;
+N = 9;
+O = -21;
+P = 9;
+Q = -21;
+R = 9;
+S = -14;
+T = -78;
+U = -22;
+V = -69;
+W = -69;
+X = 15;
+Y = -77;
+Z = 10;
+};
+M = {
+A = 4;
+B = 6;
+C = 3;
+D = 6;
+E = 6;
+F = 6;
+G = 3;
+H = 6;
+I = 5;
+J = 9;
+K = 6;
+L = 6;
+M = 5;
+N = 5;
+O = 3;
+P = 5;
+Q = 3;
+R = 5;
+S = 4;
+T = 9;
+U = 5;
+V = 14;
+W = 14;
+X = 4;
+Y = 4;
+Z = -1;
+};
+N = {
+A = 4;
+B = 6;
+C = 3;
+D = 6;
+E = 6;
+F = 6;
+G = 3;
+H = 6;
+I = 5;
+J = 9;
+K = 6;
+L = 6;
+M = 5;
+N = 5;
+O = 2;
+P = 5;
+Q = 2;
+R = 5;
+S = 4;
+T = 9;
+U = 5;
+V = 14;
+W = 14;
+X = 4;
+Y = 4;
+Z = -1;
+};
+O = {
+A = -12;
+B = 4;
+D = 4;
+E = 4;
+F = 4;
+H = 4;
+I = 3;
+J = 10;
+K = 4;
+L = 4;
+M = 2;
+N = 2;
+P = 3;
+R = 3;
+S = 4;
+T = -21;
+U = 2;
+V = -5;
+W = -5;
+X = -27;
+Y = -22;
+Z = -23;
+};
+P = {
+A = -35;
+B = 10;
+C = 10;
+D = 10;
+E = 10;
+F = 10;
+G = 10;
+H = 10;
+I = 9;
+J = -45;
+K = 10;
+L = 10;
+M = 9;
+N = 9;
+O = 10;
+P = 9;
+Q = 10;
+R = 9;
+S = 11;
+T = -1;
+U = 10;
+V = 7;
+W = 7;
+X = -17;
+Y = -7;
+Z = -11;
+};
+Q = {
+A = -12;
+B = 4;
+D = 4;
+E = 4;
+F = 4;
+H = 4;
+I = 3;
+J = 10;
+K = 4;
+L = 4;
+M = 2;
+N = 2;
+P = 3;
+R = 3;
+S = 4;
+T = -21;
+U = 2;
+V = -5;
+W = -5;
+X = -27;
+Y = -22;
+Z = -23;
+};
+R = {
+A = 10;
+B = 5;
+C = -1;
+D = 5;
+E = 5;
+F = 5;
+G = -1;
+H = 5;
+I = 4;
+J = 9;
+K = 5;
+L = 5;
+M = 4;
+N = 4;
+O = -1;
+P = 4;
+Q = -1;
+R = 4;
+S = 5;
+T = -19;
+U = -1;
+V = -10;
+W = -10;
+X = 10;
+Y = -25;
+Z = 5;
+};
+S = {
+A = -8;
+B = 5;
+C = 5;
+D = 5;
+E = 5;
+F = 5;
+G = 5;
+H = 5;
+I = 4;
+J = 15;
+K = 5;
+L = 5;
+M = 4;
+N = 4;
+O = 5;
+P = 4;
+Q = 5;
+R = 4;
+S = 9;
+T = -28;
+U = 5;
+V = -12;
+W = -12;
+X = -25;
+Y = -29;
+Z = -21;
+};
+T = {
+A = -74;
+B = 10;
+C = -20;
+D = 10;
+E = 10;
+F = 10;
+G = -20;
+H = 10;
+I = 9;
+J = -79;
+K = 10;
+L = 10;
+M = 9;
+N = 9;
+O = -20;
+P = 9;
+Q = -20;
+R = 9;
+S = -19;
+T = 20;
+U = 10;
+V = 25;
+W = 25;
+X = 9;
+Y = 15;
+Z = 10;
+};
+U = {
+A = -12;
+B = 7;
+C = 2;
+D = 7;
+E = 7;
+F = 6;
+G = 2;
+H = 7;
+I = 6;
+J = 10;
+K = 7;
+L = 7;
+M = 4;
+N = 5;
+O = 2;
+P = 5;
+Q = 2;
+R = 5;
+S = 4;
+T = 10;
+U = 5;
+V = 15;
+W = 15;
+X = -1;
+Y = 5;
+};
+V = {
+A = -62;
+B = 15;
+C = -8;
+D = 15;
+E = 15;
+F = 15;
+G = -8;
+H = 15;
+I = 14;
+J = -50;
+K = 15;
+L = 15;
+M = 14;
+N = 14;
+O = -8;
+P = 14;
+Q = -8;
+R = 14;
+S = -6;
+T = 25;
+U = 15;
+V = 30;
+W = 30;
+X = 14;
+Y = 20;
+Z = 15;
+};
+W = {
+A = -60;
+B = 15;
+C = -6;
+D = 15;
+E = 15;
+F = 15;
+G = -5;
+H = 15;
+I = 14;
+J = -39;
+K = 15;
+L = 15;
+M = 14;
+N = 14;
+O = -5;
+P = 14;
+Q = -5;
+R = 14;
+S = -4;
+T = 25;
+U = 15;
+V = 30;
+W = 30;
+X = 14;
+Y = 20;
+Z = 15;
+};
+X = {
+A = 10;
+B = 5;
+C = -27;
+D = 5;
+E = 5;
+F = 5;
+G = -26;
+H = 5;
+I = 4;
+J = -17;
+K = 5;
+L = 5;
+M = 4;
+N = 4;
+O = -27;
+P = 4;
+Q = -27;
+R = 4;
+S = -20;
+T = 9;
+U = -1;
+V = 14;
+W = 14;
+X = 10;
+Y = 4;
+Z = 5;
+};
+Y = {
+A = -77;
+B = 5;
+C = -24;
+D = 5;
+E = 5;
+F = 5;
+G = -24;
+H = 5;
+I = 4;
+J = -86;
+K = 5;
+L = 5;
+M = 4;
+N = 4;
+O = -24;
+P = 4;
+Q = -24;
+R = 4;
+S = -21;
+T = 15;
+U = 5;
+V = 20;
+W = 20;
+X = 4;
+Y = 10;
+Z = 5;
+};
+Z = {
+A = 5;
+C = -23;
+G = -23;
+I = -1;
+J = -21;
+M = -1;
+N = -1;
+O = -23;
+P = -1;
+Q = -23;
+R = -1;
+S = -21;
+T = 10;
+V = 15;
+W = 15;
+X = 5;
+Y = 5;
+};
+a = {
+a = -13;
+b = -1;
+c = -14;
+d = -9;
+e = -15;
+f = -15;
+g = -14;
+h = -1;
+i = -7;
+j = -24;
+k = -1;
+l = -3;
+m = -1;
+n = -1;
+o = -13;
+p = -3;
+q = -14;
+r = -3;
+s = -5;
+t = -17;
+u = -13;
+v = -17;
+w = -18;
+x = 14;
+y = -17;
+z = 3;
+};
+b = {
+a = 3;
+b = 6;
+c = 3;
+d = 8;
+e = 4;
+f = 4;
+g = 4;
+h = 6;
+j = -18;
+k = 6;
+l = 6;
+m = 7;
+n = 7;
+o = 5;
+p = 5;
+q = 5;
+r = 5;
+s = 13;
+u = 7;
+v = 2;
+w = 1;
+x = -8;
+y = 1;
+z = -8;
+};
+c = {
+a = 3;
+b = 3;
+c = 3;
+d = 8;
+e = 3;
+f = -1;
+g = 3;
+h = 3;
+i = -2;
+j = -20;
+k = 3;
+l = 2;
+m = 4;
+n = 4;
+o = 4;
+p = 2;
+q = 4;
+r = 2;
+s = 13;
+t = -4;
+u = 4;
+v = -4;
+w = -5;
+x = -8;
+y = -4;
+z = -8;
+};
+d = {
+a = -2;
+b = 4;
+c = 2;
+d = 7;
+e = 1;
+f = 3;
+g = -1;
+h = 4;
+j = -16;
+k = 4;
+l = 3;
+m = 5;
+n = 5;
+o = 3;
+p = 3;
+q = 3;
+r = 3;
+s = 8;
+t = 8;
+u = 4;
+v = 13;
+w = 13;
+x = 14;
+y = 16;
+z = 3;
+};
+e = {
+a = -1;
+b = -1;
+c = -1;
+d = 3;
+e = -1;
+f = -1;
+g = -1;
+h = -1;
+i = -7;
+j = -24;
+k = -2;
+l = -2;
+m = -1;
+n = -1;
+o = -1;
+p = -3;
+r = -3;
+s = 8;
+t = -6;
+u = -1;
+v = -4;
+w = -5;
+x = -13;
+y = -4;
+z = -13;
+};
+f = {
+a = -11;
+b = 8;
+c = -10;
+d = -4;
+e = -11;
+g = -10;
+h = 8;
+j = -28;
+k = 8;
+m = -7;
+n = -9;
+o = -9;
+p = -6;
+q = -9;
+r = -6;
+s = -2;
+t = 5;
+u = -4;
+v = 6;
+w = 5;
+x = 1;
+y = 8;
+};
+g = {
+a = -2;
+b = 4;
+c = 2;
+d = 7;
+e = 1;
+f = 3;
+g = -1;
+h = 4;
+j = 15;
+k = 4;
+l = 3;
+m = 5;
+n = 5;
+o = 3;
+p = 3;
+q = 3;
+r = 3;
+s = 8;
+t = 8;
+u = 4;
+v = 13;
+w = 13;
+x = 14;
+y = 16;
+z = 3;
+};
+h = {
+a = -1;
+b = 4;
+c = 1;
+d = 5;
+e = 1;
+f = -1;
+g = -1;
+h = 4;
+i = -3;
+j = -19;
+k = 4;
+l = 3;
+m = 5;
+n = 4;
+o = 1;
+p = 3;
+q = 1;
+r = 3;
+s = 8;
+t = -4;
+u = 3;
+v = -3;
+w = -4;
+x = 14;
+y = -3;
+z = 3;
+};
+i = {
+a = -7;
+c = -5;
+d = -1;
+e = -6;
+f = -19;
+g = -5;
+i = -4;
+j = -20;
+l = -1;
+m = -1;
+n = -1;
+o = -5;
+p = -1;
+q = -5;
+r = -1;
+s = 3;
+t = 3;
+u = -2;
+v = 8;
+w = 8;
+x = 9;
+y = 11;
+z = -1;
+};
+j = {
+a = -7;
+c = -6;
+d = -1;
+e = -6;
+f = -2;
+g = -5;
+i = -3;
+j = 11;
+l = -1;
+m = -1;
+n = -1;
+o = -5;
+p = -1;
+q = -5;
+r = -1;
+s = 4;
+t = 3;
+u = -2;
+v = 8;
+w = 8;
+x = 10;
+y = 11;
+z = -1;
+};
+k = {
+a = -21;
+b = 8;
+c = -24;
+d = -20;
+e = -26;
+f = 2;
+g = -24;
+h = 8;
+i = 3;
+j = -14;
+k = 8;
+l = 7;
+m = 10;
+n = 10;
+o = -24;
+p = 8;
+q = -23;
+r = 8;
+s = -13;
+t = 19;
+u = 10;
+v = 23;
+w = 24;
+x = 25;
+y = 27;
+z = 14;
+};
+l = {
+a = -3;
+b = 3;
+c = 1;
+d = 6;
+e = 1;
+f = -15;
+g = -1;
+h = 3;
+i = -2;
+j = -17;
+k = 3;
+l = 2;
+m = 4;
+n = 4;
+o = 2;
+p = 2;
+q = 2;
+r = 2;
+s = 7;
+t = 7;
+u = 3;
+v = 12;
+w = 12;
+x = 13;
+y = 15;
+z = 2;
+};
+m = {
+a = -1;
+b = 5;
+c = 2;
+d = 6;
+e = 1;
+f = 1;
+h = 5;
+j = -18;
+k = 5;
+l = 4;
+m = 6;
+n = 6;
+o = 3;
+p = 4;
+q = 3;
+r = 4;
+s = 9;
+t = -1;
+u = 4;
+v = -2;
+w = -3;
+x = 16;
+y = -2;
+z = 5;
+};
+n = {
+a = -1;
+b = 5;
+c = 2;
+d = 6;
+e = 1;
+f = -1;
+h = 5;
+i = -1;
+j = -18;
+k = 5;
+l = 4;
+m = 6;
+n = 5;
+o = 3;
+p = 4;
+q = 3;
+r = 4;
+s = 9;
+t = -5;
+u = 4;
+v = -3;
+w = -4;
+x = 16;
+y = -3;
+z = 5;
+};
+o = {
+a = -1;
+b = 3;
+c = -1;
+d = 4;
+e = -1;
+f = -1;
+g = -1;
+h = 3;
+i = -5;
+j = -22;
+k = 3;
+l = 2;
+m = 3;
+n = 2;
+p = 2;
+r = 2;
+s = 9;
+t = -4;
+u = 2;
+v = -3;
+w = -4;
+x = -12;
+y = -3;
+z = -12;
+};
+p = {
+a = 1;
+b = 3;
+c = 1;
+d = 5;
+e = 1;
+g = 1;
+h = 3;
+i = -4;
+j = -21;
+k = 3;
+l = 3;
+m = 3;
+n = 3;
+o = 2;
+p = 2;
+q = 1;
+r = 2;
+s = 11;
+t = -4;
+u = 3;
+v = -3;
+w = -3;
+x = -11;
+y = -2;
+z = -11;
+};
+q = {
+a = -2;
+b = 4;
+c = 1;
+d = 6;
+f = 2;
+g = 2;
+h = 4;
+i = -1;
+j = 38;
+k = 4;
+l = 3;
+m = 4;
+n = 4;
+o = 2;
+p = 3;
+q = 2;
+r = 3;
+s = 8;
+t = 7;
+u = 4;
+v = 13;
+w = 13;
+x = 14;
+y = 16;
+z = 3;
+};
+r = {
+a = -13;
+b = 8;
+c = -13;
+d = -8;
+e = -15;
+f = 10;
+g = -13;
+h = 8;
+i = 3;
+j = -14;
+k = 8;
+l = 8;
+m = -7;
+n = -12;
+o = -14;
+p = 8;
+q = -12;
+r = 8;
+s = -4;
+t = 19;
+u = 10;
+v = 23;
+w = 23;
+x = 22;
+y = 26;
+z = 13;
+};
+s = {
+a = 8;
+b = 8;
+c = 8;
+d = 13;
+e = 8;
+f = 4;
+g = 8;
+h = 8;
+i = 3;
+j = -15;
+k = 8;
+l = 7;
+m = 9;
+n = 9;
+o = 9;
+p = 7;
+q = 9;
+r = 7;
+s = 18;
+u = 9;
+v = 2;
+w = 1;
+x = -2;
+y = 2;
+z = -2;
+};
+t = {
+a = -1;
+b = 18;
+c = -3;
+e = -8;
+f = -8;
+g = -4;
+h = 18;
+i = 13;
+j = -5;
+k = 18;
+l = 17;
+m = 19;
+n = 19;
+o = -5;
+p = 17;
+q = -4;
+r = 17;
+s = 7;
+t = -5;
+u = -3;
+w = -1;
+x = 34;
+y = 2;
+z = 23;
+};
+two = {
+p = -2;
+two = -1;
+};
+u = {
+a = -1;
+b = 5;
+c = 2;
+d = 6;
+e = 1;
+f = 5;
+h = 5;
+i = -1;
+j = -18;
+k = 5;
+l = 4;
+m = 4;
+n = 4;
+o = 3;
+p = 4;
+q = 3;
+r = 4;
+s = 10;
+t = 9;
+u = 5;
+v = 15;
+w = 14;
+x = 13;
+y = 18;
+z = 5;
+};
+v = {
+a = -6;
+b = 14;
+c = -5;
+d = 1;
+e = -5;
+f = 14;
+g = -5;
+h = 13;
+i = 8;
+j = -9;
+k = 14;
+l = 13;
+m = -2;
+n = -4;
+o = -4;
+p = 13;
+q = -3;
+r = 13;
+s = 3;
+t = 24;
+u = 14;
+};
+w = {
+a = -4;
+b = 14;
+c = -4;
+d = 2;
+e = -4;
+f = 14;
+g = -3;
+h = 13;
+i = 8;
+j = -9;
+k = 14;
+l = 13;
+m = -1;
+n = -3;
+o = -3;
+p = 12;
+q = -3;
+r = 13;
+s = 5;
+t = 23;
+u = 14;
+};
+x = {
+a = -8;
+b = 14;
+c = -11;
+d = -7;
+e = -14;
+f = 10;
+g = -12;
+h = 14;
+i = 9;
+j = -8;
+k = 14;
+l = 14;
+m = 16;
+n = 16;
+o = -12;
+p = 14;
+q = -11;
+r = 13;
+s = -1;
+t = 22;
+u = 13;
+};
+y = {
+a = -4;
+b = 16;
+c = -4;
+d = 1;
+e = -5;
+f = 16;
+g = -4;
+h = 16;
+i = 11;
+j = -7;
+k = 16;
+l = 15;
+m = -1;
+n = -4;
+o = -3;
+p = 15;
+q = -3;
+r = 15;
+s = 4;
+t = 26;
+u = 17;
+};
+z = {
+a = -12;
+b = 3;
+c = -13;
+d = -8;
+e = -14;
+f = 8;
+g = -12;
+h = 3;
+i = -2;
+j = -20;
+k = 3;
+l = 2;
+m = 4;
+n = 4;
+o = -13;
+p = 2;
+q = -11;
+r = 2;
+s = -4;
+t = 13;
+u = 4;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2021 The Stick No Bills Project Authors (https://github.com/mooniak/stick-no-bills-font)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Kosala Senevirathne, Siva Puranthara, Lasantha Premarathna, Tharique Azeez";
+}
+);
+},
+{
+key = designerURL;
+value = "http://mooniak.com";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = mooniak;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://mooniak.com";
+},
+{
+key = sampleTexts;
+values = (
+{
+language = dflt;
+value = "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ.";
+}
+);
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "STICK NO BILLS is a trademark of STICK NO BILLS Gallery, Sri Lanka (http://sticknobillsonline.com)";
+}
+);
+},
+{
+key = vendorID;
+value = MNIK;
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+};
+unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+LWPluginVersion = "1429";
+UFOFormat = 2;
+};
+versionMajor = 2;
+versionMinor = 0;
+}
