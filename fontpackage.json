@@ -1,0 +1,95 @@
+{
+  "name": "Stick No Bills",
+  "id": "stick-no-bills",
+  "type": "family",
+  "version": "1.100",
+  "description": "A stencil-inspired libre typeface for Sinhala, Tamil and Latin, developed for the Stick No Bills Poster Gallery in Galle. Six weights from Extra Light to Extra Bold.",
+  "license": "OFL-1.1",
+  "category": "display",
+  "scripts": ["Sinh", "Taml", "Latn"],
+  "channels": ["release", "dev", "nightly"],
+  "versions_provider": "tags",
+
+  "repository": {
+    "url": "https://github.com/mooniak/stick-no-bills-font",
+    "type": "git"
+  },
+  "homepage_url": "https://src.mooniak.com/stick-no-bills-font/",
+  "issues_url": "https://github.com/mooniak/stick-no-bills-font/issues/",
+  "funding_url": "https://opencollective.com/akuruxyz/projects/lanka-font-library",
+
+  "foundry": {
+    "name": "mooniak",
+    "email": "hello@mooniak.com",
+    "url": "https://mooniak.com/",
+    "vendor_id": "MNIK"
+  },
+
+  "designers": [
+    {
+      "name": "Puspanada Ekanayake",
+      "email": "pushpanandae@gmail.com",
+      "url": "https://isiwara.lk/"
+    },
+    {
+      "name": "Sol Matas",
+      "email": "solmatas@gmail.com",
+      "url": "https://www.solmatas.com/"
+    },
+    {
+      "name": "Pathum Egodawatta",
+      "email": "pathum@mooniak.com",
+      "url": "https://pathumego.com/"
+    }
+  ],
+
+  "maintenance": {
+    "status": "actively-developed",
+    "comment": ""
+  },
+
+  "tools": "",
+
+  "progress": {
+    "design": 100,
+    "family_styles": 100,
+    "character_set": 100,
+    "drawing_quality": 100,
+    "spacing": 60,
+    "kerning": 60,
+    "hinting": 100,
+    "opentype_features": 100
+  },
+
+  "tags": {
+    "style": "display",
+    "contrast": "medium",
+    "width": "normal",
+    "body_height": "normal",
+    "intended_usage": "text",
+    "figures": "normal",
+    "languages": ["si_LK", "ta_LK", "en_US"],
+    "related_fonts": []
+  },
+
+  "display_texts": {
+    "en_US": "",
+    "si_LK": "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ.",
+    "dv_IN": ""
+  },
+
+  "display_images": {
+    "banner": "",
+    "thumbnail": "",
+    "small": "",
+    "medium": "",
+    "large": ""
+  },
+
+  "links": {
+    "font_in_use": "",
+    "googlefonts": "",
+    "fontlibrary_org": "",
+    "typekit": ""
+  }
+}
