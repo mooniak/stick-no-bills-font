@@ -1,0 +1,33 @@
+{
+glyphname = sinNa.reph;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+alignment = -1;
+pos = (164,-20);
+ref = sinReph;
+},
+{
+alignment = -1;
+ref = sinNa;
+}
+);
+width = 728;
+},
+{
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+pos = (177,0);
+ref = sinReph;
+},
+{
+ref = sinNa;
+}
+);
+width = 758;
+}
+);
+}

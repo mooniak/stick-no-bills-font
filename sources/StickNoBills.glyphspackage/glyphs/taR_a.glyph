@@ -1,0 +1,110 @@
+{
+color = 0;
+glyphname = taRa;
+layers = (
+{
+anchors = (
+{
+name = tml_virama;
+pos = (231,0);
+}
+);
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+closed = 1;
+nodes = (
+(209,-177,l),
+(364,0,l),
+(366,591,l),
+(324,591,l),
+(324,19,l),
+(154,-177,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,0,l),
+(80,595,l),
+(40,595,l),
+(40,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,555,l),
+(175,595,l),
+(42,595,l),
+(42,555,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(478,555,l),
+(478,595,l),
+(229,595,l),
+(229,555,l)
+);
+}
+);
+width = 518;
+},
+{
+anchors = (
+{
+name = tml_virama;
+pos = (271,0);
+}
+);
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(186,0,l),
+(186,431,l),
+(294,431,l),
+(294,18,l),
+(134,-205,l),
+(280,-226,l),
+(434,-18,l),
+(434,431,l),
+(510,431,l),
+(510,553,l),
+(48,553,l),
+(48,0,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 2992;
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = 0;
+width = 21;
+},
+{
+position = 473;
+width = 122;
+}
+);
+vhints = (
+{
+position = 0;
+width = 178;
+},
+{
+position = 0;
+width = 122;
+}
+);
+};
+};
+}
