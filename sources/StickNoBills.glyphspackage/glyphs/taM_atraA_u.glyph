@@ -1,0 +1,37 @@
+{
+color = 0;
+glyphname = taMatraAu;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+alignment = -1;
+pos = (590,0);
+ref = taLla;
+},
+{
+pos = (-2,10);
+ref = taMatraE;
+}
+);
+width = 1500;
+},
+{
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+alignment = -1;
+ref = taLla;
+},
+{
+alignment = -1;
+pos = (11,13);
+ref = taMatraE;
+}
+);
+width = 1609;
+}
+);
+unicode = 3020;
+}

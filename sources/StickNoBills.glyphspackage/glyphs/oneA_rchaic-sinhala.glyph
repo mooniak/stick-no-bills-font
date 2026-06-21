@@ -1,0 +1,43 @@
+{
+glyphname = "oneArchaic-sinhala";
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+closed = 1;
+nodes = (
+(761,480,l),
+(761,-5,l),
+(727,-5,l),
+(727,480,l)
+);
+},
+{
+ref = sinOnelith;
+}
+);
+width = 870;
+},
+{
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(753,475,l),
+(753,-10,l),
+(719,-10,l),
+(719,475,l)
+);
+},
+{
+pos = (-2,0);
+ref = sinOnelith;
+}
+);
+width = 830;
+}
+);
+unicode = 70113;
+}

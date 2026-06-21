@@ -1,0 +1,45 @@
+{
+glyphname = sinVR;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+pos = (587,0);
+ref = sinRakar;
+},
+{
+pos = (5,0);
+ref = sinV;
+}
+);
+width = 557;
+},
+{
+background = {
+shapes = (
+{
+pos = (569,0);
+ref = sinRakar;
+},
+{
+pos = (1,0);
+ref = sinV;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+pos = (569,0);
+ref = sinRakar;
+},
+{
+pos = (1,0);
+ref = sinV;
+}
+);
+width = 565;
+}
+);
+}

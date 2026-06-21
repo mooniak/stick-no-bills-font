@@ -1,0 +1,57 @@
+{
+glyphname = sinYansaya_Reph_MatraAa;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+alignment = -1;
+pos = (-1,-20);
+ref = sinReph;
+},
+{
+alignment = -1;
+pos = (2,0);
+ref = sinYansaya;
+},
+{
+pos = (490,0);
+ref = sinMatraAa;
+}
+);
+width = 770;
+},
+{
+background = {
+shapes = (
+{
+pos = (20,-1);
+ref = sinReph;
+},
+{
+ref = sinYansaya;
+},
+{
+pos = (500,0);
+ref = sinMatraAa;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+pos = (20,-1);
+ref = sinReph;
+},
+{
+ref = sinYansaya;
+},
+{
+pos = (500,0);
+ref = sinMatraAa;
+}
+);
+width = 798;
+}
+);
+}

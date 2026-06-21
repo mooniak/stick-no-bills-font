@@ -1,0 +1,93 @@
+{
+glyphname = sinAe;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+alignment = -1;
+pos = (541,0);
+ref = sinMatraAe;
+},
+{
+alignment = -1;
+ref = sinA;
+}
+);
+width = 798;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (544,0);
+ref = sinMatraAe;
+},
+{
+alignment = -1;
+ref = sinA;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+alignment = -1;
+pos = (544,0);
+ref = sinMatraAe;
+},
+{
+alignment = -1;
+ref = sinA;
+}
+);
+width = 821;
+}
+);
+unicode = 3463;
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = 0;
+width = 143;
+},
+{
+position = 0;
+width = 140;
+},
+{
+position = 263;
+width = 139;
+},
+{
+position = 457;
+width = 121;
+}
+);
+vhints = (
+{
+position = 30;
+width = 143;
+},
+{
+position = 312;
+width = 130;
+},
+{
+position = 312;
+width = 202;
+},
+{
+position = 551;
+width = 141;
+},
+{
+position = 551;
+width = 217;
+}
+);
+};
+};
+}

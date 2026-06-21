@@ -1,0 +1,42 @@
+{
+glyphname = sinGI;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+pos = (673,0);
+ref = sinMatraI;
+},
+{
+ref = sinGa;
+}
+);
+width = 703;
+},
+{
+background = {
+shapes = (
+{
+pos = (670,30);
+ref = sinMatraI;
+},
+{
+ref = sinGa;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+pos = (670,30);
+ref = sinMatraI;
+},
+{
+ref = sinGa;
+}
+);
+width = 717;
+}
+);
+}

@@ -1,0 +1,58 @@
+{
+glyphname = sinTth;
+layers = (
+{
+layerId = "DC4431BF-9234-4C16-9154-22D387E42D10";
+shapes = (
+{
+closed = 1;
+nodes = (
+(550,518,l),
+(550,819,l),
+(508.001,819,l),
+(508.001,518,l)
+);
+},
+{
+pos = (-13,0);
+ref = sinTtha;
+}
+);
+width = 580;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(563,518,l),
+(563,819,l),
+(427.001,819,l),
+(427.001,518,l)
+);
+},
+{
+ref = sinTtha;
+}
+);
+};
+layerId = "4EACF7E3-2421-4EEA-928B-7BA9BC4A845D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,518,l),
+(554,819,l),
+(427,819,l),
+(427,518,l)
+);
+},
+{
+ref = sinTtha;
+}
+);
+width = 593;
+}
+);
+}
