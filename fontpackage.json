@@ -1,0 +1,96 @@
+{
+  "name": "Stick No Bills",
+  "id": "stick-no-bills",
+  "type": "family",
+  "designer": [
+    "Mooniak"
+  ],
+  "scripts": [
+    "Sinh"
+  ],
+  "description": "A Sinhala stencil display typeface inspired by hand-painted 'stick no bills' wall lettering, by the Mooniak foundry.",
+  "license": "OFL-1.1",
+  "channels": [
+    "release",
+    "dev",
+    "nightly"
+  ],
+  "versions_provider": "tags",
+  "repository": {
+    "url": "https://github.com/mooniak/stick-no-bills-font",
+    "type": "git"
+  },
+  "homepage_url": "https://src.mooniak.com/stick-no-bills-font/",
+  "issues_url": "https://github.com/mooniak/stick-no-bills-font/issues/",
+  "funding_url": "https://opencollective.com/akuruxyz/projects/lanka-font-library",
+  "foundry": {
+    "name": "mooniak",
+    "email": "hello@mooniak.com",
+    "url": "https://mooniak.com/",
+    "vendor_id": "MNIK"
+  },
+  "designers": [
+    {
+      "name": "Kosala Senevirathne",
+      "email": "kosalaa@mooniak.com",
+      "url": ""
+    },
+    {
+      "name": "Siva Puranthara",
+      "email": "",
+      "url": ""
+    },
+    {
+      "name": "Tharique Azeez",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "maintenance": {
+    "status": "passively-maintained",
+    "comment": "Migrated from fontpackage.toml (previous file had wrong name 'Yaldevi' and a copied Dedigama description)."
+  },
+  "tools": "",
+  "progress": {
+    "design": 80,
+    "family_styles": 100,
+    "character_set": 60,
+    "drawing_quality": 60,
+    "spacing": 60,
+    "kerning": 20,
+    "hinting": 100,
+    "opentype_features": 50
+  },
+  "tags": {
+    "style": "stencil",
+    "contrast": "low",
+    "width": "narrow",
+    "body_height": "normal",
+    "intended_usage": "display",
+    "figures": "normal",
+    "languages": [
+      "si_LK"
+    ],
+    "related_fonts": []
+  },
+  "directory": {
+    "listed": true,
+    "display_texts": {
+      "en_US": "",
+      "si_LK": "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ."
+    },
+    "display_images": {
+      "banner": "",
+      "thumbnail": "",
+      "small": "",
+      "medium": "",
+      "large": ""
+    },
+    "links": {
+      "font_in_use": "",
+      "googlefonts": "",
+      "fontlibrary_org": "",
+      "typekit": ""
+    }
+  }
+}
