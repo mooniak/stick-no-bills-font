@@ -84,6 +84,17 @@ jobs:
           path: |
             fonts
             out
+      - name: Set short SHA
+        if: ${{ github.ref_name == 'dev' && github.event_name == 'push' }}
+        shell: bash
+        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
+      - name: Archive dev-channel fonts for FontPipe
+        if: ${{ github.ref_name == 'dev' && github.event_name == 'push' }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: dev-fonts-${{ env.SHORT_SHA }}
+          path: fonts/**/*.ttf
+          retention-days: 30
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
