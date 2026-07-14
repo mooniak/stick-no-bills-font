@@ -1,0 +1,65 @@
+# buildVariable: Build a variable font from a source file
+rule buildVariable
+  command = $
+      /Users/pathumego/src/github/mooniak/font-repos/font-directory/.venv/bin/python3.12 $
+      -m gftools.builder.jobrunner fontmake --output-path $out -o variable $
+      $fontmake_type $in $args $stamp
+  description = buildVariable
+
+# fix: Run gftools-fix
+rule fix
+  command = $
+      /Users/pathumego/src/github/mooniak/font-repos/font-directory/.venv/bin/python3.12 $
+      -m gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# buildStat: Build a STAT table from one or more source files
+rule buildSTAT-operation
+  command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
+      $out $stamp
+rule buildSTAT-postprocess
+  command = gftools-gen-stat --inplace $args -- $in $stamp
+
+# compress: Compress to webfont
+rule compress
+  command = $
+      /Users/pathumego/src/github/mooniak/font-repos/font-directory/.venv/bin/python3.12 $
+      -m gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $
+      $in $stamp
+  description = compress
+
+# copy: Copy a file
+rule copy
+  command = $
+      /Users/pathumego/src/github/mooniak/font-repos/font-directory/.venv/bin/python3.12 $
+      -m gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /var/folders/kq/qnbdv5c51zbc56xfr_dtzs680000gn/T/tmp722xakge
+build /var/folders/kq/qnbdv5c51zbc56xfr_dtzs680000gn/T/tmp722xakge: $
+    buildVariable StickNoBills.glyphspackage
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Postprocessing  with BuildSTAT
+build $
+    /var/folders/kq/qnbdv5c51zbc56xfr_dtzs680000gn/T/tmpi8cu21v4.buildStatstamp: $
+    buildSTAT-postprocess ../fonts/variable/StickNoBills[wght].ttf | $
+    ../fonts/variable/StickNoBills[wght].ttf
+  stamp =  && touch $
+      /var/folders/kq/qnbdv5c51zbc56xfr_dtzs680000gn/T/tmpi8cu21v4.buildStatstamp
+  postprocess = buildStat
+# Generating ../fonts/webfonts/StickNoBills[wght].woff2
+build ../fonts/webfonts/StickNoBills[wght].woff2: compress $
+    ../fonts/variable/StickNoBills[wght].ttf
+  operation = compress
+# Generating ../fonts/variable/StickNoBills[wght].ttf
+build ../fonts/variable/StickNoBills[wght].ttf: fix $
+    /var/folders/kq/qnbdv5c51zbc56xfr_dtzs680000gn/T/tmp722xakge
+  operation = fix
+  args = 
+default $
+    /var/folders/kq/qnbdv5c51zbc56xfr_dtzs680000gn/T/tmpi8cu21v4.buildStatstamp $
+    ../fonts/webfonts/StickNoBills[wght].woff2
