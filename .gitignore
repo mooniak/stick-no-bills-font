@@ -9,3 +9,45 @@ FontMenuNameDB
 /ttf-build
 /fontester
 /out
+
+# Build intermediates, outputs and proofs (from mooniak-font-project-template)
+*~
+venv
+venv-test
+.venv
+__pycache__/
+*.pyc
+fonts
+build.stamp
+master_ufo
+instance_ufos
+subset-files
+build.ninja
+build-*.ninja
+.ninja_log
+.ninja_deps
+/publish
+proof
+node_modules
+package-lock.json
+package.json
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*(تم الحفظ تلقائيًا).*
+*(automaticky uloženo).*
+*(Automatisch gesichert).*
+*(Autosaved).*
+*(guardado automáticamente).*
+*(enregistré automatiquement).*
+*(salvato automaticamente).*
+*（自動保存）.*
+*(자동 저장됨).*
+*(Salvo Automaticamente).*
+*(Автосохранение).*
+*(Otomatik Kaydedildi).*
+*（自动存储）.*
+*（已自動儲存）.*
