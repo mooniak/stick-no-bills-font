@@ -309,7 +309,8 @@ def build(repo: Path, out: Path, channel: str | None, pdf_dir: Path | None = Non
             for pg in pages:
                 core.render_pdf(pg.html_path, pdf_dir / f"{pg.stem}-proof.pdf")
         info["proof_gate"] = {"stage": g.stage, "gated": g.gated, "shown": g.shown,
-                              "withheld": [list(w) for w in g.withheld], "missing_for_next": g.next_gaps}
+                              "withheld": [list(w) for w in g.withheld], "missing_for_next": g.next_gaps,
+                              "scripts": g.scripts}
         if info["stage"] is None and g.stage is not None:
             info["stage"] = {"n": g.stage, "name": g.stage_name, "cumulative": "?", "total": "?"}
     (out / "build.json").write_text(json.dumps(info, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -369,7 +370,8 @@ def main() -> int:
     info = build(a.repo, a.out, a.channel, a.pdf)
     g = info.get("proof_gate") or {}
     print(f"build_pages: {info['family']} {info.get('version')} [{info['channel']}] -> {a.out} "
-          f"(stage {g.get('stage')}, {len(g.get('shown', []))} section(s) shown, {len(g.get('withheld', []))} withheld)")
+          f"(stage {g.get('stage')}, {len(g.get('shown', []))} section(s) shown, {len(g.get('withheld', []))} withheld"
+          + (f", + {', '.join(g['scripts'])}" if g.get("scripts") else "") + ")")
     return 0
 
 
