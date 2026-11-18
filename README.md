@@ -1,6 +1,20 @@
 Stick No Bills Font
 ===================
 
+[![Build][badge-build]][link-build]
+[![Fontspector QA][badge-qa]][link-qa]
+[![Release][badge-release]][link-release]
+[![License: OFL 1.1][badge-license]][link-license]
+
+[badge-build]: https://github.com/mooniak/stick-no-bills-font/actions/workflows/build.yaml/badge.svg?branch=dev
+[badge-qa]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsrc.mooniak.com%2Fstick-no-bills-font%2Fbuild.json&query=%24.qa.pass_rate&suffix=%25&label=fontspector%20QA%20(dev%20build)&color=informational
+[badge-release]: https://img.shields.io/github/v/release/mooniak/stick-no-bills-font?label=release
+[badge-license]: https://img.shields.io/badge/license-OFL--1.1-green
+[link-build]: https://github.com/mooniak/stick-no-bills-font/actions/workflows/build.yaml
+[link-qa]: https://src.mooniak.com/stick-no-bills-font/reports/fontspector/fontspector-report.html
+[link-release]: https://github.com/mooniak/stick-no-bills-font/releases
+[link-license]: OFL.txt
+
 Stick No Bills - was developed as the bespoke Libre typeface of [Stick No Bills Poster Gallery](http://sticknobillsonline.com/) in Galle, Sri Lanka. The font supports Latin, Sinhala and Tamil languages.
 
 Martyn Hodges developed the first drawings for the typeface for uppercase. In February 2015, Meg Baber, co-founder of Stick No Bills gallery, commissioned Mooniak took up the project in 2015 and is working on further refining and developing a comprehensive font with support for more languages. Post No Bills family contains six weights from Extra Light to Extra Bold intended for headlines. Post No Bills contains Sinhala and Latin glyphs sets and Post No Bills Jaffna contains Tamil and Latin glyph sets.
