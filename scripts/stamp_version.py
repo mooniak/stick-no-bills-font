@@ -9,8 +9,11 @@ Standalone by design (fontTools + stdlib only, no mnik import), and reuses the c
 derivation + OpenFV helpers from the sibling ``build_manifest.py``:
 
   canary  -> ``Version X.YYY; [<sha7>]-dev``   base = the source version already in the font
-  dev     -> ``Version X.YYY; DEV``            base = the ``vX.YYY-dev.N`` tag
+  dev     -> ``Version X.YYY; DEV [<sha7>]``   base = the ``vX.YYY-dev.N`` tag
   release -> ``Version X.YYY``  (bare)         base = the ``vX.YYY`` tag
+
+Both dev-stage channels embed the git hash they were built from (omitted if unknown, e.g.
+run outside CI with no ``HEAD``) — only ``release`` writes a bare version.
 
 Also suffixes the channel onto the **menu-facing** names — family (ID 1/16), full name
 (ID 4), PostScript name (ID 6/25), and any fvar named-instance PostScript names — so a
@@ -102,7 +105,7 @@ def _name5(channel: str, base: str, sha: str) -> str:
     if channel == "canary":
         return f"Version {base}; [{sha[:7]}]-dev" if sha else f"Version {base}; DEV"
     if channel == "dev":
-        return f"Version {base}; DEV"
+        return f"Version {base}; DEV [{sha[:7]}]" if sha else f"Version {base}; DEV"
     return f"Version {base}"  # release: bare (absence of a status word means release)
 
 

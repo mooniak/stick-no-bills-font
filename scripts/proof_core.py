@@ -45,6 +45,15 @@ GATES_PATH = HERE / "gates.json"
 FONT_EXTS = (".ttf", ".otf")
 GLYPHSET_SLUG = "glyphset-coverage"
 GLYPHSET_TITLE = "Glyph Coverage"
+LATIN_WATERFALL_SLUG = "latin-waterfall"
+LATIN_WATERFALL_TITLE = "Latin Coverage"
+LATIN_GLYPHSETS_PATH = HERE / "latin_glyphsets.json"
+# The GF Latin tier ladder (gftools/glyphsets' GF_Latin_*.nam, vendored as
+# latin_glyphsets.json): each tier is a strict superset of the previous one, so the
+# highest fully-covered tier is the font's Latin coverage level. African/Vietnamese are
+# separate add-on sets, not rungs of this ladder -- reported alongside it, not in it.
+_LATIN_LADDER = ("Kernel", "Core", "Plus", "Beyond")
+_LATIN_EXTRAS = ("African", "Vietnamese")
 
 _FRONTMATTER = re.compile(r"\A---\n(.*?\n)---\n?(.*)\Z", re.DOTALL)
 _STAGE_HEADING = re.compile(r"^##\s+Stage\s+(\d+)\b.*$", re.MULTILINE)
@@ -161,11 +170,15 @@ def fallback_section() -> Section:
 
 
 # ── font files ──────────────────────────────────────────────────────────────
-def font_files(repo_path: Path) -> list[Path]:
-    """Binaries to proof for one repo: ttf preferred, else otf, else variable.
-    (A variable font's default instance makes a poor proof target, so statics win.)"""
+def font_files(repo_path: Path, prefer_variable: bool = False) -> list[Path]:
+    """Binaries to proof for one repo.
+
+    Default (local ``mnik proof-pdf``): ttf, else otf, else variable -- a variable font's
+    default instance makes a poor print proof, so statics win. ``prefer_variable`` (the
+    Pages site) flips that: variable, else ttf, else otf, so a build that ships both is
+    proofed once from its variable font rather than once per static instance."""
     root = repo_path / "fonts"
-    for sub in ("ttf", "otf", "variable"):
+    for sub in (("variable", "ttf", "otf") if prefer_variable else ("ttf", "otf", "variable")):
         d = root / sub
         if d.is_dir():
             files = sorted(p for p in d.rglob("*")
@@ -310,6 +323,66 @@ def apply_gates(sections: list[Section], stage: dict | None, channel: str,
     return keep, gate
 
 
+# ── Latin coverage waterfall ────────────────────────────────────────────────
+def load_latin_glyphsets(path: Path | None = None) -> dict[str, list[int]]:
+    try:
+        return json.loads((path or LATIN_GLYPHSETS_PATH).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def compute_latin_tiers(cmap: set[int], glyphsets: dict[str, list[int]] | None = None) -> dict:
+    """Coverage of the font's cmap against each GF Latin tier.
+
+    Returns ``{"ladder": [{"tier", "have", "total", "pct", "complete"}, ...],
+    "extras": [...], "level": <highest fully-covered ladder tier, or None>}``.
+    """
+    gs = glyphsets if glyphsets is not None else load_latin_glyphsets()
+    ladder = []
+    level = None
+    for tier in _LATIN_LADDER:
+        cps = gs.get(tier, [])
+        have = sum(1 for cp in cps if cp in cmap)
+        total = len(cps)
+        complete = total > 0 and have == total
+        if complete:
+            level = tier
+        ladder.append({"tier": tier, "have": have, "total": total,
+                       "pct": round(100 * have / total, 1) if total else 0.0,
+                       "complete": complete})
+    extras = []
+    for tier in _LATIN_EXTRAS:
+        cps = gs.get(tier, [])
+        have = sum(1 for cp in cps if cp in cmap)
+        total = len(cps)
+        extras.append({"tier": tier, "have": have, "total": total,
+                       "pct": round(100 * have / total, 1) if total else 0.0,
+                       "complete": total > 0 and have == total})
+    return {"ladder": ladder, "extras": extras, "level": level}
+
+
+def build_latin_waterfall_section(cmap: set[int], glyphsets: dict[str, list[int]] | None = None) -> Section:
+    """A table of GF Latin tier coverage (Kernel..Beyond, plus African/Vietnamese)."""
+    result = compute_latin_tiers(cmap, glyphsets)
+    rows = []
+    for row in result["ladder"] + result["extras"]:
+        status = "complete" if row["complete"] else ("partial" if row["have"] else "none")
+        rows.append(
+            f'<tr class="latin-tier latin-tier-{status}"><td>{_html.escape(row["tier"])}</td>'
+            f'<td>{row["have"]} / {row["total"]}</td><td>{row["pct"]}%</td>'
+            f'<td>{"complete" if row["complete"] else ""}</td></tr>')
+    level = result["level"] or "below Kernel"
+    note = (f'<p class="glyphset-note">Highest fully-covered GF Latin tier: <b>{_html.escape(level)}</b>. '
+            f'Kernel/Core/Plus/Beyond are cumulative (each a superset of the last); African and '
+            f'Vietnamese are separate add-on sets, not rungs of that ladder.</p>')
+    table = ('<table class="latin-waterfall"><thead><tr><th>Tier</th><th>Covered</th>'
+             f'<th>%</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table>')
+    sec = Section(slug=LATIN_WATERFALL_SLUG, title=LATIN_WATERFALL_TITLE, min_stage=0,
+                  html=note + table, lang="en")
+    sec.meta["latin_waterfall"] = True
+    return sec
+
+
 # ── glyph coverage grid ─────────────────────────────────────────────────────
 # Private-use area (BMP) used to make GSUB-only glyphs (ligatures, conjuncts,
 # composites -- most of a Sinhala font's glyph set) addressable by one codepoint, so
@@ -408,6 +481,9 @@ body { font-family: system-ui, sans-serif; margin: 0; color: #111; }
 .glyph-glyph { font-family: "ProofGlyphset", sans-serif; font-size: 18pt; line-height: 1.2; }
 .glyph-label { font-family: Menlo, Consolas, monospace; font-size: 5.5pt; color: #888; margin-top: 2px;
                line-height: 1.15; word-break: break-all; padding: 0 2px; }
+.latin-waterfall { font-family: system-ui, sans-serif; font-size: 10pt; width: 100%; margin-top: 1rem; border-collapse: collapse; }
+.latin-waterfall th, .latin-waterfall td { border-bottom: 1px solid #eee; padding: 4px 8px; text-align: left; }
+.latin-tier-complete td { color: #1a7a33; } .latin-tier-partial td { color: #996a00; } .latin-tier-none td { color: #999; }
 @media screen { .section { page-break-before: auto; margin-top: 3rem; } .cover { min-height: 60vh; } }
 """
 
@@ -516,11 +592,14 @@ def build_proof_pages(font_paths: list[Path], proof_dir: Path, fonts_dir: Path, 
                                else (stage["n"] if stage else None))
     sections, gate = apply_gates(corpus, stage, channel, g, ungated=ungated, scripts=scripts)
     if only:
-        unknown = only - {s.slug for s in corpus} - {GLYPHSET_SLUG}
+        unknown = only - {s.slug for s in corpus} - {GLYPHSET_SLUG, LATIN_WATERFALL_SLUG}
         if unknown:
             raise SystemExit(f"Unknown section(s): {', '.join(sorted(unknown))}")
         sections = [s for s in sections if s.slug in only]
     want_glyphset = (not only) or GLYPHSET_SLUG in only
+    want_waterfall = "latin" in scripts and ((not only) or LATIN_WATERFALL_SLUG in only)
+    if want_waterfall:
+        gate.shown.append(LATIN_WATERFALL_SLUG)
     for fp in font_paths:
         page_sections = list(sections)
         patched_href = None
@@ -529,6 +608,9 @@ def build_proof_pages(font_paths: list[Path], proof_dir: Path, fonts_dir: Path, 
             sec, patched = build_glyphset_section(fp, patched_path)
             page_sections.insert(0, sec)
             patched_href = rel_href(proof_dir, patched or fp)
+        if want_waterfall:
+            cmap, _ = _cmap_and_order([fp])
+            page_sections.insert(1 if want_glyphset else 0, build_latin_waterfall_section(cmap))
         html = build_html(family, fp.stem, rel_href(proof_dir, fonts_dir / fp.name), page_sections,
                           gate, build, patched_href, chrome, extra_css)
         out = proof_dir / f"{fp.stem}.html"
